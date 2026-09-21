@@ -1,0 +1,2205 @@
+{
+  "_leiame": "Dados de experiência política prévia dos candidatos, pesquisados manualmente via busca na internet (não vêm do TSE). Cada entrada é indexada por sq_candidato e usada por pipeline/enriquecer_experiencia.py para ajustar as pontuações de competência (que por padrão vêm só da ocupação declarada). Cobre PRESIDENTE (14 candidatos) e GOVERNADOR (candidatos com achado explícito de cargo eletivo anterior nas buscas de 2026-09-20; quem não apareceu com essa informação foi deixado de fora, não presumido 'sem experiência'). ||| AUDITORIA 2026-09-21: esta varredura só incluiu quem tinha achado explícito de cargo eletivo em 2026-09-20, e a checagem cruzada com os registros de idoneidade achou entradas faltando ou erradas (Haddad, Patrus, Cleitinho, Allyson, Joel Rodrigues, Catan, Braide, Cyro Garcia); foram corrigidas. Candidatos SEM entrada aqui NÃO foram pesquisados quanto a cargos eletivos -- não presumir 'sem experiência': a coluna cobertura_pesquisa do dataset marca quem tem esta camada, e nota_competencia só é comparável entre candidatos que a têm.",
+  "candidatos": {
+    "280002542548": {
+      "nome_urna": "LULA",
+      "cargo_pretendido": "PRESIDENTE",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "SP",
+          "periodo": "1987 (constituinte)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "PRESIDENTE",
+          "local": "BR",
+          "periodo": "2003-2010",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "PRESIDENTE",
+          "local": "BR",
+          "periodo": "2023-2026",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "Concorre à reeleição pela 7ª vez à Presidência; único da lista com experiência prévia como chefe do Executivo federal.",
+      "fontes": [
+        "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-lula-candidato-a-reeleicao-para-presidente-da-republica-em-2026-1.3778219"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "280002551544": {
+      "nome_urna": "FLAVIO BOLSONARO",
+      "cargo_pretendido": "PRESIDENTE",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "RJ",
+          "periodo": "2003-2018 (4 mandatos)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "RJ",
+          "periodo": "2019-presente",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Senador em exercício; declarou ao TSE a ocupação 'SENADOR'. Preside a Comissão de Segurança Pública do Senado.",
+      "fontes": [
+        "https://hubpolitico.com.br/perfil/flaviobolsonaro",
+        "https://www.cnnbrasil.com.br/eleicoes/pl-oficializa-candidatura-de-flavio-bolsonaro-a-presidencia/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "280002551932": {
+      "nome_urna": "RONALDO CAIADO",
+      "cargo_pretendido": "PRESIDENTE",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "GO",
+          "periodo": "2015-2018",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "GOVERNADOR",
+          "local": "GO",
+          "periodo": "2019-2026",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "Renunciou ao governo de Goiás em 31/03/2026 para concorrer à Presidência; vice Daniel Vilela (MDB) assumiu o estado.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/caiado-deixa-governo-de-goias-para-disputar-presidencia-como-terceira-via/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "280002539826": {
+      "nome_urna": "ZEMA",
+      "cargo_pretendido": "PRESIDENTE",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "MG",
+          "periodo": "2019-2026 (2 mandatos)",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "Nenhum cargo político antes de virar governador em 2018. Renunciou em 22/03/2026 para concorrer à Presidência; vice Mateus Simões assumiu o estado.",
+      "fontes": [
+        "https://www.poder360.com.br/poder-eleicoes/zema-deixa-o-governo-de-mg-para-disputar-a-presidencia/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "280002551975": {
+      "nome_urna": "EDMILSON COSTA",
+      "cargo_pretendido": "PRESIDENTE",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "candidaturas_nao_eleitas": [
+        {
+          "cargo": "PREFEITO",
+          "local": "SP",
+          "periodo": "2008"
+        },
+        {
+          "cargo": "VICE-PRESIDENTE",
+          "local": "BR",
+          "periodo": "2010 (chapa Ivan Pinheiro)"
+        }
+      ],
+      "notas": "Secretário-geral do PCB, militância política desde os anos 1970 (regime militar). Nunca foi eleito para cargo algum.",
+      "fontes": [
+        "https://www.correiobraziliense.com.br/politica/2026/08/7489262-quem-e-edmilson-costa-candidato-a-presidencia-pelo-pcb.html"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "280002552487": {
+      "nome_urna": "RUI COSTA PIMENTA",
+      "cargo_pretendido": "PRESIDENTE",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "candidaturas_nao_eleitas": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "SP",
+          "periodo": "1998"
+        },
+        {
+          "cargo": "PRESIDENTE",
+          "local": "BR",
+          "periodo": "2002, 2006 (registro negado), 2010, 2014"
+        }
+      ],
+      "notas": "Candidato perene do PCO à Presidência desde 2002; 5ª candidatura em 2026. Nunca eleito.",
+      "fontes": [
+        "https://jovempan.com.br/politica/conheca-rui-costa-pimenta-candidato-do-pco-a-presidencia/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "280002553884": {
+      "nome_urna": "PABLO MARÇAL",
+      "cargo_pretendido": "PRESIDENTE",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "candidaturas_nao_eleitas": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "SP",
+          "periodo": "2022 (registro posteriormente indeferido)"
+        },
+        {
+          "cargo": "PRESIDENTE",
+          "local": "BR",
+          "periodo": "2022 (candidatura anulada pelo PROS)"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "SP",
+          "periodo": "2024 (não eleito)"
+        }
+      ],
+      "notas": "ATENÇÃO: inelegível até 2032 pela Lei da Ficha Limpa segundo reportagens; candidatura à Presidência 2026 registrada mas sub judice. Ver também LEONARDO AVALANCHE (seu vice, que assumiu a cabeça de chapa).",
+      "fontes": [
+        "https://www.jota.info/eleicoes/eleicoes-2026/quem-e-pablo-marcal-candidato-a-presidente-que-deve-ser-barrado-pela-lei-da-ficha-limpa"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "280002554479": {
+      "nome_urna": "LEONARDO AVALANCHE",
+      "cargo_pretendido": "PRESIDENTE",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "notas": "Analista de sistemas e advogado, presidente nacional do PRTB desde 2024. Era vice de Pablo Marçal; assumiu (ou está assumindo) a cabeça de chapa por causa da inelegibilidade de Marçal. É réu por associação criminosa, violência política de gênero e fraude no fundo eleitoral do PRTB. Aparece também com registro separado como VICE-PRESIDENTE (sq_candidato 280002553883) no mesmo arquivo do TSE -- situação judicial em curso, não uma duplicata do nosso parser.",
+      "fontes": [
+        "https://ndmais.com.br/politica/vice-de-marcal-saiba-quem-e-leonardo-avalanche-presidente-prtb/",
+        "https://www.cnnbrasil.com.br/eleicoes/leonardo-avalanche-anuncia-candidatura-a-presidencia-no-lugar-de-marcal/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "280002551547": {
+      "nome_urna": "ESCRITOR AUGUSTO CURY",
+      "cargo_pretendido": "PRESIDENTE",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "notas": "Psiquiatra e escritor best-seller; estreia na política, nenhuma candidatura anterior encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-o-escritor-augusto-cury-candidato-do-avante-a-presidencia/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "280002540694": {
+      "nome_urna": "RENAN SANTOS",
+      "cargo_pretendido": "PRESIDENTE",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "notas": "Fundador do Movimento Brasil Livre (MBL, 2014), articulador dos protestos pró-impeachment de Dilma Rousseff. Nunca disputou cargo eletivo antes de 2026; fundou e preside o partido Missão.",
+      "fontes": [
+        "https://jovempan.com.br/politica/conheca-renan-santos-fundador-do-mbl-e-candidato-do-missao-a-presidencia/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "280002552484": {
+      "nome_urna": "CLARIANA BARAO",
+      "cargo_pretendido": "PRESIDENTE",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "notas": "Advogada, presidiu a Comissão de Solidariedade e Assistência Social da OAB-Várzea Grande (MT); primeira disputa eleitoral da vida.",
+      "fontes": [
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/clariana-barao-e-candidata-do-democracia-crista-presidencia"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "280002538811": {
+      "nome_urna": "SAMARA",
+      "cargo_pretendido": "PRESIDENTE",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "candidaturas_nao_eleitas": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Natal/RN",
+          "periodo": "2020 (não eleita)"
+        },
+        {
+          "cargo": "VICE-PRESIDENTE",
+          "local": "BR",
+          "periodo": "2022 (chapa Leonardo Péricles, não eleita)"
+        }
+      ],
+      "notas": "Dentista do SUS no Rio Grande do Norte; vice-presidente nacional da Unidade Popular. Nunca eleita para cargo algum.",
+      "fontes": [
+        "https://www.cartacapital.com.br/politica/quem-e-samara-martins-pre-candidata-a-presidencia-em-2026-pelo-unidade-popular/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "280002548139": {
+      "nome_urna": "VETERINÁRIO WILSON GRASSI",
+      "cargo_pretendido": "PRESIDENTE",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "notas": "Veterinário, conselheiro da Anclivepa-SP; estreia na política, nenhuma candidatura anterior encontrada.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Wilson_Grassi"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "280002541457": {
+      "nome_urna": "HERTZ DIAS",
+      "cargo_pretendido": "PRESIDENTE",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "notas": "Professor de história, rapper e ativista do movimento negro no Maranhão; estreia na política.",
+      "fontes": [
+        "https://jovempan.com.br/politica/rapper-professor-e-ativista-conheca-hertz-dias-candidato-a-presidencia-pelo-pstu/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "10002532492": {
+      "nome_urna": "ALAN RICK",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "AC",
+          "periodo": "2023-presente (concorre antes do fim do mandato)",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-acre-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "10002544015": {
+      "nome_urna": "TIÃO BOCALOM",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Rio Branco/AC",
+          "periodo": "2021-presente (reeleito 2024)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-acre-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "10002544107": {
+      "nome_urna": "MAILZA ASSIS",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "AC",
+          "periodo": "2023-presente (assumiu como vice após renúncia de Gladson Cameli)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-acre-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Antes disso foi 1ª suplente de senador em 2014 (suplência não efetivada)."
+    },
+    "10002550719": {
+      "nome_urna": "THOR DANTAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-acre-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "10002533539": {
+      "nome_urna": "DR.LUISINHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-acre-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "10002549500": {
+      "nome_urna": "EUDO RAFFAEL",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-acre-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "20002553745": {
+      "nome_urna": "RENAN FILHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "AL",
+          "periodo": "2015-2022",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "AL",
+          "periodo": "2023-presente",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-alagoas-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Também foi Ministro dos Transportes no governo federal (cargo não eletivo)."
+    },
+    "20002553350": {
+      "nome_urna": "JHC",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Maceió/AL",
+          "periodo": "2021-2026 (reeleito 2024, renunciou em abril/2026)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-alagoas-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "20002539642": {
+      "nome_urna": "LENILDA LUNA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-alagoas-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "40002532272": {
+      "nome_urna": "OMAR AZIZ",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "AM",
+          "periodo": "2010-2014",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "AM",
+          "periodo": "2015-presente",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-a-governador-do-amazonas-em-2026-veja-a-lista/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "40002536086": {
+      "nome_urna": "DAVID ALMEIDA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Manaus/AM",
+          "periodo": "2021-2026 (reeleito 2024)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-a-governador-do-amazonas-em-2026-veja-a-lista/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "40002541741": {
+      "nome_urna": "ROBERTO CIDADE",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "AM",
+          "periodo": "2019-2026 (presidiu a Aleam)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "GOVERNADOR",
+          "local": "AM",
+          "periodo": "2026-presente (interino)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-a-governador-do-amazonas-em-2026-veja-a-lista/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "40002551740": {
+      "nome_urna": "CABO DACIOLO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RJ",
+          "periodo": "2015-2019",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-a-governador-do-amazonas-em-2026-veja-a-lista/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "40002535267": {
+      "nome_urna": "GILBERTO VASCONCELOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-a-governador-do-amazonas-em-2026-veja-a-lista/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "40002550776": {
+      "nome_urna": "ISAEL MUNDURUKU",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-a-governador-do-amazonas-em-2026-veja-a-lista/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Busca afirma explicitamente ser a primeira vez que disputa o cargo de governador."
+    },
+    "40002541626": {
+      "nome_urna": "PROFESSORA MARIA DO CARMO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-a-governador-do-amazonas-em-2026-veja-a-lista/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "candidaturas_nao_eleitas": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Manaus/AM",
+          "periodo": "2024 (não eleita)"
+        }
+      ]
+    },
+    "30002536311": {
+      "nome_urna": "CLÉCIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Macapá/AP",
+          "periodo": "antes de 2023",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "GOVERNADOR",
+          "local": "AP",
+          "periodo": "2023-presente",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-amapa-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "30002552017": {
+      "nome_urna": "DELEGADO MARCOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "AP",
+          "periodo": "2015-2019",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-amapa-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Tentou reeleição em 2018, terminou como suplente."
+    },
+    "30002530014": {
+      "nome_urna": "DR. FURLAN",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Macapá/AP",
+          "periodo": "não especificado com precisão pela fonte",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-amapa-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Fonte diz apenas 'entra na corrida depois de administrar a capital amapaense' -- checar se foi mandato eleito ou interino."
+    },
+    "30002551388": {
+      "nome_urna": "JAIRO PALHETA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-amapa-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "30002536313": {
+      "nome_urna": "CARLOS CLEY",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-amapa-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "50002533190": {
+      "nome_urna": "ACM NETO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "BA",
+          "periodo": "2003-2012 (3 legislaturas)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "Salvador/BA",
+          "periodo": "2013-2020 (2 mandatos)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-bahia-2026/",
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-acm-neto-candidato-ao-governo-da-bahia/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "50002536314": {
+      "nome_urna": "JERÔNIMO RODRIGUES",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "BA",
+          "periodo": "2023-presente",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-bahia-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Antes de eleito, foi secretário estadual de Educação e de Desenvolvimento Rural (cargos não eletivos)."
+    },
+    "50002544692": {
+      "nome_urna": "AROLDO FELIX",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-bahia-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "50002552489": {
+      "nome_urna": "MARIA BONA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-bahia-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Fonte diz explicitamente que é a primeira eleição em que participa."
+    },
+    "60002543969": {
+      "nome_urna": "ELMANO DE FREITAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "CE",
+          "periodo": "2023-presente",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-ceara-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "candidaturas_nao_eleitas": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Fortaleza/CE",
+          "periodo": "2012 (não eleito)"
+        }
+      ]
+    },
+    "60002531351": {
+      "nome_urna": "CIRO GOMES",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "CE",
+          "periodo": "1983-1989",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "Fortaleza/CE",
+          "periodo": "1989-1990",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "GOVERNADOR",
+          "local": "CE",
+          "periodo": "1991-1994",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "CE",
+          "periodo": "2007-2011",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-ceara-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "60002549967": {
+      "nome_urna": "ZÉ BATISTA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-ceara-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "60002553922": {
+      "nome_urna": "VERA LÚCIA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-ceara-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "70002552586": {
+      "nome_urna": "ARRUDA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "DF",
+          "periodo": "mandato anterior",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-sao-os-candidatos-a-governador-do-distrito-federal-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Fonte o identifica como 'ex-governador José Roberto Arruda', sem detalhar datas."
+    },
+    "70002553055": {
+      "nome_urna": "CELINA LEÃO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "DF",
+          "periodo": "2026-presente (assumiu como vice após renúncia de Ibaneis Rocha)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-sao-os-candidatos-a-governador-do-distrito-federal-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "70002552965": {
+      "nome_urna": "PAULA BELMONTE",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO DISTRITAL",
+          "local": "DF",
+          "periodo": "atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-sao-os-candidatos-a-governador-do-distrito-federal-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "70002552496": {
+      "nome_urna": "LEANDRO GRASS",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO DISTRITAL",
+          "local": "DF",
+          "periodo": "mandato anterior",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-sao-os-candidatos-a-governador-do-distrito-federal-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "70002551557": {
+      "nome_urna": "CAPPELLI",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-sao-os-candidatos-a-governador-do-distrito-federal-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Foi secretário-executivo do Ministério da Justiça -- cargo de confiança, não eletivo."
+    },
+    "80002552172": {
+      "nome_urna": "RICARDO FERRAÇO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "ES",
+          "periodo": "atual",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.horabrasil.com.br/2026/09/19/eleicoes-2026-veja-os-numeros-dos-candidatos-a-governador-e-senador-no-espirito-santo"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "80002552682": {
+      "nome_urna": "LORENZO PAZOLINI",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Vitória/ES",
+          "periodo": "mandato anterior",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.horabrasil.com.br/2026/09/19/eleicoes-2026-veja-os-numeros-dos-candidatos-a-governador-e-senador-no-espirito-santo"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "80002541012": {
+      "nome_urna": "BRENO BARCELOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.horabrasil.com.br/2026/09/19/eleicoes-2026-veja-os-numeros-dos-candidatos-a-governador-e-senador-no-espirito-santo"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Fonte diz que disputa pela primeira vez."
+    },
+    "80002550832": {
+      "nome_urna": "RAFAEL DEMUNER",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.horabrasil.com.br/2026/09/19/eleicoes-2026-veja-os-numeros-dos-candidatos-a-governador-e-senador-no-espirito-santo"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Fonte diz ser a primeira disputa eleitoral dele."
+    },
+    "90002543463": {
+      "nome_urna": "MARCONI PERILLO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "GO",
+          "periodo": "4 mandatos (não consecutivos)",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "GO",
+          "periodo": "mandato anterior",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-goias-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "90002551791": {
+      "nome_urna": "WILDER MORAIS",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "GO",
+          "periodo": "mandato anterior",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-goias-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "90002540993": {
+      "nome_urna": "DANIEL VILELA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Goiânia/GO",
+          "periodo": "2009-2010",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "GO",
+          "periodo": "2011-2014",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "GO",
+          "periodo": "2015-2018",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "GOVERNADOR",
+          "local": "GO",
+          "periodo": "2026-presente (assumiu como vice após renúncia de Caiado)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-goias-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Concorreu ao governo de Goiás em 2018 e terminou em 2º lugar, atrás de Ronaldo Caiado."
+    },
+    "90002545476": {
+      "nome_urna": "LUIS CESAR BUENO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "GO",
+          "periodo": "mandato anterior",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-goias-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "90002550707": {
+      "nome_urna": "LUCIANA AMORIM",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-goias-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "100002542556": {
+      "nome_urna": "FELIPE CAMARÃO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VICE-GOVERNADOR",
+          "local": "MA",
+          "periodo": "atual",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-maranhao-2026/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "AUDITORIA 2026-09-21: a entrada dizia 'nenhum'; ele é o vice-governador atual. VICE-GOVERNADOR não tem boost em enriquecer_experiencia.py porque não governou (diferente de Mateus Simões, que assumiu o governo de MG)."
+    },
+    "100002545679": {
+      "nome_urna": "EDUARDO BRAIDE",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "MA",
+          "periodo": "mandato anterior (datas não verificadas)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "MA",
+          "periodo": "2019-2020",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "São Luís/MA",
+          "periodo": "2021-2026 (reeleito 2024)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-maranhao-2026/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "AUDITORIA 2026-09-21: acrescentado deputado estadual, citado na pesquisa de idoneidade."
+    },
+    "100002551399": {
+      "nome_urna": "ROBERTO ROCHA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "MA",
+          "periodo": "mandato anterior",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-maranhao-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "130002552296": {
+      "nome_urna": "CLEITINHO AZEVEDO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Divinópolis/MG",
+          "periodo": "2017-2019",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "MG",
+          "periodo": "2019-2023",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "MG",
+          "periodo": "2023-atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/minas-gerais/governador/cleitinho-azevedo-10",
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "130002550464": {
+      "nome_urna": "PATRUS ANANIAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Belo Horizonte/MG",
+          "periodo": "1989-1992",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "Belo Horizonte/MG",
+          "periodo": "1993-1996",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "MG",
+          "periodo": "2003-atual (4º mandato)",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.camara.leg.br/deputados/74160/biografia",
+        "https://www.otempo.com.br/politica/2026/7/15/possivel-candidato-do-pt-ao-governo-patrus-ananias-foi-o-primeiro-prefeito-do-partido-eleito-em-bh",
+        "https://pt.org.br/patrus-ananias/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "CORRIGIDO em 2026-09-21: a versão de 2026-09-20 listava só 'deputado federal atual' e omitia vereança e prefeitura de BH. Também foi Ministro do Desenvolvimento Social (2004-2010, Bolsa Família) e do Desenvolvimento Agrário (2015-2016) -- cargos não eletivos, tratados em experiencia_profissional.json."
+    },
+    "130002541911": {
+      "nome_urna": "MATEUS SIMÕES",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Belo Horizonte/MG",
+          "periodo": "mandato anterior",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "VICE-GOVERNADOR",
+          "local": "MG",
+          "periodo": "2023-2026",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "GOVERNADOR",
+          "local": "MG",
+          "periodo": "2026-presente (assumiu como vice após renúncia de Zema)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-minas-gerais-2026/",
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "130002549557": {
+      "nome_urna": "GABRIEL",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Belo Horizonte/MG",
+          "periodo": "2017-2024 (presidiu a Câmara Municipal)",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-minas-gerais-2026/",
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "130002539775": {
+      "nome_urna": "ALEXANDRE KALIL",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Belo Horizonte/MG",
+          "periodo": "2017-2022",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-minas-gerais-2026/",
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "120002552155": {
+      "nome_urna": "DELCIDIO AMARAL",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "MS",
+          "periodo": "eleito em 2010",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.terra.com.br/noticias/eleicoes/mato-grosso-do-sul/eleicoes-quem-sao-os-candidatos-ao-governo-de-mato-grosso-do-sul-em-2026,35a942f2f5160ac7cfc0a7885ea7d3f9c9ambnr5.html"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Foi líder do governo Dilma Rousseff no Senado."
+    },
+    "120002536582": {
+      "nome_urna": "EDUARDO RIEDEL",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "MS",
+          "periodo": "atual",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.terra.com.br/noticias/eleicoes/mato-grosso-do-sul/eleicoes-quem-sao-os-candidatos-ao-governo-de-mato-grosso-do-sul-em-2026,35a942f2f5160ac7cfc0a7885ea7d3f9c9ambnr5.html"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "120002539834": {
+      "nome_urna": "FÁBIO TRAD",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "MS",
+          "periodo": "3 mandatos consecutivos",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.terra.com.br/noticias/eleicoes/mato-grosso-do-sul/eleicoes-quem-sao-os-candidatos-ao-governo-de-mato-grosso-do-sul-em-2026,35a942f2f5160ac7cfc0a7885ea7d3f9c9ambnr5.html"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "110002551480": {
+      "nome_urna": "OTAVIANO PIVETTA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "MT",
+          "periodo": "atual",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-mato-grosso-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "110002551737": {
+      "nome_urna": "WELLINGTON FAGUNDES",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "MT",
+          "periodo": "mandato anterior",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-mato-grosso-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Já disputou o governo do MT em 2018, derrotado por Mauro Mendes."
+    },
+    "140002549930": {
+      "nome_urna": "DR. DANIEL",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Ananindeua/PA",
+          "periodo": "mandato anterior",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://diariodopara.com.br/eleicoes-2026/sabe-quem-sao-os-candidatos-ao-governo-do-para-conheca-os-nomes-que-disputarao-as-eleicoes-de-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "140002551598": {
+      "nome_urna": "HANA GHASSAN",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "PA",
+          "periodo": "2026-presente (assumiu após renúncia de Helder Barbalho)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://diariodopara.com.br/eleicoes-2026/sabe-quem-sao-os-candidatos-ao-governo-do-para-conheca-os-nomes-que-disputarao-as-eleicoes-de-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "140002542386": {
+      "nome_urna": "ARACELI",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "PA",
+          "periodo": "mandato anterior",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://diariodopara.com.br/eleicoes-2026/sabe-quem-sao-os-candidatos-ao-governo-do-para-conheca-os-nomes-que-disputarao-as-eleicoes-de-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "140002538631": {
+      "nome_urna": "CLEBER RABELO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Belém/PA",
+          "periodo": "mandato anterior",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://diariodopara.com.br/eleicoes-2026/sabe-quem-sao-os-candidatos-ao-governo-do-para-conheca-os-nomes-que-disputarao-as-eleicoes-de-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "150002551789": {
+      "nome_urna": "LUCAS RIBEIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "PB",
+          "periodo": "2026-presente (assumiu como vice após desincompatibilização de João Azevêdo)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/paraiba/governador"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Foi eleito vice-governador em 2022."
+    },
+    "150002544133": {
+      "nome_urna": "CÍCERO LUCENA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "João Pessoa/PB",
+          "periodo": "3 mandatos",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/paraiba/governador"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "150002538692": {
+      "nome_urna": "EFRAIM FILHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "PB",
+          "periodo": "4 mandatos desde 2007",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "PB",
+          "periodo": "atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/paraiba/governador"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "170002537230": {
+      "nome_urna": "JOÃO CAMPOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Recife/PE",
+          "periodo": "mandato anterior",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.encontrarecife.com.br/sobre/quem-sao-os-candidatos-a-governador-de-pernambuco-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "170002537227": {
+      "nome_urna": "RAQUEL LYRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "PE",
+          "periodo": "atual",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.encontrarecife.com.br/sobre/quem-sao-os-candidatos-a-governador-de-pernambuco-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "170002536575": {
+      "nome_urna": "GUILHERME FONSECA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.encontrarecife.com.br/sobre/quem-sao-os-candidatos-a-governador-de-pernambuco-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Fonte diz ser a primeira vez que tenta o cargo de governador."
+    },
+    "180002532987": {
+      "nome_urna": "RAFAEL FONTELES",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "PI",
+          "periodo": "atual",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-sao-os-candidatos-a-governador-do-piaui-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "160002540833": {
+      "nome_urna": "SERGIO MORO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "PR",
+          "periodo": "atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-parana-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Fonte diz explicitamente que é sua primeira disputa por um cargo do Executivo."
+    },
+    "190002543380": {
+      "nome_urna": "EDUARDO PAES",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Rio de Janeiro/RJ",
+          "periodo": "2009-2017 e 2021-2026 (4 mandatos)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governo-rio-de-janeiro-eleicoes-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Concorreu ao governo do RJ e perdeu em 2006 e 2018; esta é a 3ª tentativa."
+    },
+    "190002550196": {
+      "nome_urna": "GAROTINHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "RJ",
+          "periodo": "1999-2002",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "Campos dos Goytacazes/RJ",
+          "periodo": "2 mandatos",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governo-rio-de-janeiro-eleicoes-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Concorreu à Presidência em 2002 pelo PSB."
+    },
+    "190002542887": {
+      "nome_urna": "DOUGLAS RUAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "RJ",
+          "periodo": "atual (presidente da Alerj)",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governo-rio-de-janeiro-eleicoes-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "190002536162": {
+      "nome_urna": "WILLIAM SIRI",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "RJ",
+          "periodo": "não especificado (ocupação declarada ao TSE)",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governo-rio-de-janeiro-eleicoes-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "200002534442": {
+      "nome_urna": "ÁLVARO DIAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Natal/RN",
+          "periodo": "2018-2024 (2 mandatos, segundo a fonte)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-rn-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "ATENÇÃO: a mesma busca também atribuiu 'prefeito de Natal 2020-2024' a Allyson (outro candidato) -- há inconsistência entre as fontes agregadas, checar antes de usar com confiança."
+    },
+    "200002535255": {
+      "nome_urna": "ALLYSON",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Mossoró/RN",
+          "periodo": "2 mandatos (datas da entrada original não verificadas)",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "RN",
+          "periodo": "mandato anterior (datas não verificadas)",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-rn-2026/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "AUDITORIA 2026-09-21: a entrada original dizia prefeito de Natal; a pesquisa de idoneidade (Itatiaia) diz prefeito de Mossoró e ex-deputado estadual. Natal é a cidade do candidato Álvaro Dias, não a dele."
+    },
+    "200002534001": {
+      "nome_urna": "CADU DE LULA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-rn-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Foi secretário da Fazenda do RN (cargo não eletivo). Fonte diz explicitamente que disputa cargo eletivo pela primeira vez."
+    },
+    "220002541939": {
+      "nome_urna": "MARCOS ROGÉRIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RO",
+          "periodo": "eleito em 2010 e 2018",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "RO",
+          "periodo": "desde 2018",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.poder360.com.br/poder-eleicoes-2026/saiba-quem-sao-os-candidatos-ao-governo-de-rondonia-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "220002536806": {
+      "nome_urna": "ADAILTON FURIA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Cacoal/RO",
+          "periodo": "2021-2026",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.poder360.com.br/poder-eleicoes-2026/saiba-quem-sao-os-candidatos-ao-governo-de-rondonia-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "220002542916": {
+      "nome_urna": "HILDON CHAVES",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Porto Velho/RO",
+          "periodo": "2021-2026 (reeleito 2024)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.poder360.com.br/poder-eleicoes-2026/saiba-quem-sao-os-candidatos-ao-governo-de-rondonia-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "220002542185": {
+      "nome_urna": "EXPEDITO NETTO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RO",
+          "periodo": "eleito 2014, reeleito 2018",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.poder360.com.br/poder-eleicoes-2026/saiba-quem-sao-os-candidatos-ao-governo-de-rondonia-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "230002549223": {
+      "nome_urna": "ARTHUR HENRIQUE",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Boa Vista/RR",
+          "periodo": "mandato anterior",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://ndmais.com.br/politica/candidatos-ao-governo-de-roraima-em-2026-veja-lista-e-quem-lidera/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "Venceu eleição suplementar para governador em junho/2026, mas a vitória não foi confirmada judicialmente até a pesquisa (2026-09-20) -- situação em disputa."
+    },
+    "230002551571": {
+      "nome_urna": "SOLDADO SAMPAIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "RR",
+          "periodo": "atual (interino)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://ndmais.com.br/politica/candidatos-ao-governo-de-roraima-em-2026-veja-lista-e-quem-lidera/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "210002535802": {
+      "nome_urna": "MARCELO MARANATA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Guaíba/RS",
+          "periodo": "2021-2026 (reeleito 2024)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-sao-os-candidatos-a-governador-do-rio-grande-do-sul-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "210002547857": {
+      "nome_urna": "ZUCCO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RS",
+          "periodo": "atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-sao-os-candidatos-a-governador-do-rio-grande-do-sul-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "210002542892": {
+      "nome_urna": "GABRIEL SOUZA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-sao-os-candidatos-a-governador-do-rio-grande-do-sul-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "É o atual vice-governador do RS -- cargo eletivo, mas não incluído no modelo de boost (só cobre titular); registrado aqui para referência."
+    },
+    "240002537073": {
+      "nome_urna": "JORGINHO MELLO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "SC",
+          "periodo": "atual",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-santa-catarina-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "240002551001": {
+      "nome_urna": "JOÃO RODRIGUES",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Pinhalzinho/SC",
+          "periodo": "mandato anterior",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "Chapecó/SC",
+          "periodo": "até 2026 (deixou o cargo para concorrer)",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "SC",
+          "periodo": "mandato anterior",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "SC",
+          "periodo": "mandato anterior",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-santa-catarina-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "240002548628": {
+      "nome_urna": "GELSON MERÍSIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "SC",
+          "periodo": "desde 2006 (reeleito 2x)",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-santa-catarina-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "240002553718": {
+      "nome_urna": "BRUNO PEDREIRO DO PCO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-santa-catarina-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "candidaturas_nao_eleitas": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Florianópolis/SC",
+          "periodo": "2024 (não eleito)"
+        }
+      ]
+    },
+    "260002542491": {
+      "nome_urna": "FÁBIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "SE",
+          "periodo": "atual",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-ao-governo-de-sergipe-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "260002532010": {
+      "nome_urna": "VALMIR DE FRANCISQUINHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Itabaiana/SE",
+          "periodo": "mandato anterior",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-ao-governo-de-sergipe-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "260002549466": {
+      "nome_urna": "RICARDO MARQUES",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-ao-governo-de-sergipe-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "É vice-prefeito de Aracaju -- cargo eletivo, mas não incluído no modelo de boost (só cobre titular); registrado aqui para referência."
+    },
+    "250002541303": {
+      "nome_urna": "TARCÍSIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "SP",
+          "periodo": "atual (reeleição)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-sao-paulo-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "250002549705": {
+      "nome_urna": "FERNANDO HADDAD",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "São Paulo/SP",
+          "periodo": "2013-2017",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/pt-lanca-candidatura-de-fernando-haddad-ao-governo-de-sao-paulo",
+        "https://www.nsctotal.com.br/politica/eleicoes-2026-quem-e-fernando-haddad-nome-do-pt-na-disputa-pelo-governo-de-sao-paulo"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "candidaturas_nao_eleitas": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "SP",
+          "periodo": "2022 (derrotado no 2º turno)"
+        },
+        {
+          "cargo": "PRESIDENTE",
+          "local": "BR",
+          "periodo": "2018 (derrotado no 2º turno)"
+        }
+      ],
+      "notas": "CORRIGIDO em 2026-09-21: a versão de 2026-09-20 dizia teve_cargo_eletivo=false ('passagem por prefeitura não confirmada'), o que estava errado -- foi prefeito de São Paulo (2013-2017), confirmado por Agência Brasil e NSC Total. Também foi Ministro da Educação e da Fazenda (cargos não eletivos, tratados em experiencia_profissional.json)."
+    },
+    "250002550913": {
+      "nome_urna": "CARLOS MACHADO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-sao-paulo-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "candidaturas_nao_eleitas": [
+        {
+          "cargo": "VICE-PREFEITO",
+          "local": "Franca/SP",
+          "periodo": "2024 (não eleito)"
+        }
+      ]
+    },
+    "250002544912": {
+      "nome_urna": "VIVIAN MENDES",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-sao-paulo-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "candidaturas_nao_eleitas": [
+        {
+          "cargo": "SENADOR",
+          "local": "SP",
+          "periodo": "2022 (não eleita)"
+        }
+      ]
+    },
+    "270002544599": {
+      "nome_urna": "PROFESSORA DORINHA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "TO",
+          "periodo": "atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-ao-governo-do-tocantins-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "270002544544": {
+      "nome_urna": "VICENTINHO JÚNIOR",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "TO",
+          "periodo": "atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-ao-governo-do-tocantins-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "270002548412": {
+      "nome_urna": "ATAIDES DE OLIVEIRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "TO",
+          "periodo": "mandato anterior",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-ao-governo-do-tocantins-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "270002544494": {
+      "nome_urna": "LAUREZ MOREIRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-ao-governo-do-tocantins-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "notas": "É o atual vice-governador do Tocantins -- cargo eletivo, mas não incluído no modelo de boost (só cobre titular); registrado aqui para referência."
+    },
+    "250002536915": {
+      "nome_urna": "VERA LÚCIA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://almapreta.com.br/sessao/politica/vera-lucia-pstu-governo-sp/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "11ª disputa eleitoral, nunca eleita (inclui candidatura presidencial em 2018)"
+    },
+    "250002553062": {
+      "nome_urna": "IZADORA DIAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/sao-paulo-2026/quem-sao-candidatos-governador-sao-paulo-2026/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "candidata a vereadora de SP em 2020 e a deputada federal em 2022, não eleita"
+    },
+    "250002548080": {
+      "nome_urna": "POLICIAL EDJANE",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.terra.com.br/noticias/brasil/politica/policial-edjane-registra-candidatura-ao-governo-de-sao-paulo-e-nao-declara-possuir-bens,26f409727ff030f1ae0fd7093303f694a1fkoy4o.html"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "4 candidaturas por 4 partidos desde 2020 (PTB/SP-vereadora 2020, PROS/deputada federal 2022, PL/Poá-vereadora 2024), nenhuma eleita"
+    },
+    "130002550834": {
+      "nome_urna": "FLÁVIO ROSCOE",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "Primeira candidatura; presidiu a FIEMG por dois mandatos (2018-2026), cargo não eletivo."
+    },
+    "130002544411": {
+      "nome_urna": "BEN MENDES",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "Primeira candidatura."
+    },
+    "130002544122": {
+      "nome_urna": "PROFESSOR TÚLIO LOPES",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "Candidaturas anteriores sem sucesso: governador 2014, Senado 2018."
+    },
+    "130002546802": {
+      "nome_urna": "RAFAEL DUDA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-rafael-duda-candidato-ao-governo-de-minas-gerais/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "Candidaturas anteriores sem sucesso: prefeito de Congonhas 2020 e 2024, deputado federal 2022."
+    },
+    "130002552308": {
+      "nome_urna": "HENRIQUE ÁREAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "Candidaturas anteriores sem sucesso: prefeito de SP 2016, deputado federal 2018, vice-prefeito de SP 2020."
+    },
+    "130002547874": {
+      "nome_urna": "INDIRA XAVIER",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "Candidaturas anteriores sem sucesso: deputada estadual AL 2006/2010, governadora MG 2022, prefeita de BH 2024."
+    },
+    "180002538530": {
+      "nome_urna": "JOEL RODRIGUES",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Floriano/PI",
+          "periodo": "2 mandatos (datas não verificadas)",
+          "tipo": "executivo"
+        }
+      ],
+      "fontes": [
+        "https://180graus.com/brjus/tribunal-anula-por-unanimidade-condenacao-de-joel-rodrigues-no-piaui/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "AUDITORIA 2026-09-21: faltava entrada; cargo extraído da pesquisa de idoneidade."
+    },
+    "120002552191": {
+      "nome_urna": "JOÃO HENRIQUE CATAN",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "MS",
+          "periodo": "2º mandato (datas não verificadas)",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.capitalnews.com.br/politica-e-poder/politica/novo-oficializa-joao-henrique-catan-como-candidato-ao-governo-de-mato-grosso-do-sul/444946"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "AUDITORIA 2026-09-21: faltava entrada; cargo extraído da pesquisa de idoneidade."
+    },
+    "200002546757": {
+      "nome_urna": "PROFESSOR ROBERIO PAULINO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "RN (município não especificado na fonte)",
+          "periodo": "mandato anterior",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://tribunadonorte.com.br/politica/professor-roberio-paulino-assegura-vaga-na-disputa-ao-governo-pelo-psol/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "AUDITORIA 2026-09-21: faltava entrada; cargo extraído da pesquisa de idoneidade."
+    },
+    "190002540198": {
+      "nome_urna": "CYRO GARCIA",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RJ",
+          "periodo": "1993 (~10 meses, como suplente de Jamil Haddad)",
+          "tipo": "legislativo"
+        }
+      ],
+      "fontes": [
+        "https://www.camara.leg.br/deputados/133900/biografia",
+        "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-cyro-garcia-pre-candidato-ao-governo-do-rj/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "AUDITORIA 2026-09-21: presidiu o Sindicato dos Bancários do Rio (1988-91); 9 candidaturas ao Executivo e 1 ao Senado sem sucesso."
+    },
+    "190002537524": {
+      "nome_urna": "ANDRÉ MARINHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "teve_cargo_eletivo": false,
+      "cargos_anteriores": [],
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/andre-marinho-partido-novo-pre-candidato-governo-rj/",
+        "https://tribunadatarde.com.br/quem-e-andre-marinho-comunicador-estreia-nas-urnas-pelo-novo-e-disputa-o-governo-do-rio-com-discurso-de-renovacao/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "notas": "AUDITORIA 2026-09-21: estreia nas urnas: apresentador, humorista e youtuber, sem passagem pela Assembleia, Câmara ou prefeituras."
+    }
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "_leiame": "Recalcula competência com base em experiência profissional REAL (biografia: carreira, formação, histórico militar/empresarial/sindical/acadêmico) -- não no proxy fraco de ocupação autodeclarada ao TSE (que às vezes é enganosa, ex.: candidato registrado como 'APOSENTADO' que na real teve carreira de banqueiro e presidência de sindicato). Aplicado via pipeline/enriquecer_competencia_transferivel.py com a mesma regra NÃO REGRESSIVA de enriquecer_experiencia.py: score_final = max(nota_atual_no_parquet, nota_pesquisada) -- nunca reduz, só sobe quando a experiência real justifica especificamente aquela competência nomeada do cargo. Cada nota tem motivo explicando POR QUE aquela experiência específica transfere (ou não) para aquela competência -- não é para inflar todo mundo por ter 'uma carreira'. Cobre PRESIDENTE (14 pesquisados, pesquisados em 2026-09-21) e GOVERNADOR do Rio de Janeiro (9 pesquisados, pesquisados em 2026-09-21). Candidatos pesquisados sem alteração justificada (biografia real não revela nada além do que a ocupação já capturava, ou já estavam no teto por boost de cargo eletivo anterior) estão listados em 'pesquisados_sem_alteracao' com o motivo -- não foram omitidos silenciosamente.",
+  "candidatos": {
+    "280002551932": {
+      "nome_urna": "RONALDO CAIADO",
+      "cargo_pretendido": "PRESIDENTE",
+      "biografia_relevante": "Médico ortopedista (UFRJ, especialização em cirurgia de coluna em Paris), professor universitário na UFRJ, e presidente da União Democrática Ruralista (UDR) entre 1986-1989 -- organização nacional de defesa de interesses de produtores rurais, com atuação de lobby/negociação política em escala nacional.",
+      "competencias": {
+        "administracao_federal_politicas_publicas": {
+          "nota": 9,
+          "motivo": "Presidência de uma organização nacional (UDR) por 3 anos é experiência administrativa/organizacional real em escala nacional, além da carreira médica e acadêmica (professor UFRJ)."
+        },
+        "articulacao_nacional": {
+          "nota": 9,
+          "motivo": "UDR foi uma das mais influentes entidades de representação de classe do país nos anos 1980 -- presidi-la envolveu negociação direta com Congresso e governo federal, articulação política nacional real, não apenas retórica de campanha."
+        }
+      },
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-e-ronaldo-caiado-governador-de-goias/",
+        "https://www18.fgv.br/cpdoc/acervo/dicionarios/verbete-biografico/ronaldo-ramos-caiado"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "280002554479": {
+      "nome_urna": "LEONARDO AVALANCHE",
+      "cargo_pretendido": "PRESIDENTE",
+      "biografia_relevante": "Formado em Direito, analista de sistemas, empresário; eleito presidente nacional do PRTB em fevereiro de 2024, coordenou a campanha de Pablo Marçal à Prefeitura de SP em 2024.",
+      "competencias": {
+        "articulacao_nacional": {
+          "nota": 6,
+          "motivo": "Presidência nacional de um partido (mesmo que pequeno/médio) desde 2024 envolve coordenação de diretórios estaduais e candidaturas em vários estados -- experiência real de articulação política nacional, distinta do rótulo genérico de 'empresário'."
+        }
+      },
+      "fontes": [
+        "https://ndmais.com.br/politica/vice-de-marcal-saiba-quem-e-leonardo-avalanche-presidente-prtb/",
+        "https://ndmais.com.br/politica/quem-e-leonardo-avalanche-trajetoria-e-polemicas/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "280002552487": {
+      "nome_urna": "RUI COSTA PIMENTA",
+      "cargo_pretendido": "PRESIDENTE",
+      "biografia_relevante": "Jornalista formado pela Cásper Líbero, jornalista da CUT nos anos 1980, fundador e presidente nacional do PCO desde 1995 -- 30 anos ininterruptos dirigindo uma organização política nacional.",
+      "competencias": {
+        "administracao_federal_politicas_publicas": {
+          "nota": 5,
+          "motivo": "30 anos administrando continuamente uma organização política nacional é experiência administrativa real e sustentada, ainda que em escala pequena -- não equivale a administrar a máquina federal, por isso nota moderada, não alta."
+        }
+      },
+      "fontes": [
+        "https://pco.org.br/rui-costa-pimenta-presidente-do-partido%EF%BF%BC/",
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-rui-costa-pimenta-candidato-do-pco-a-presidencia-pela-quarta-vez/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "280002551975": {
+      "nome_urna": "EDMILSON COSTA",
+      "cargo_pretendido": "PRESIDENTE",
+      "biografia_relevante": "CORRIGE ERRO GRAVE DO PROXY DE OCUPAÇÃO: registrado no TSE como 'APOSENTADO' (arquétipo do_lar_aposentado, quase zero em tudo), mas a biografia real é de Doutor em Economia pela UNICAMP (1996), pós-doutor pelo Instituto de Filosofia e Ciências Humanas da mesma universidade, professor universitário, diretor de pesquisa e formação do Instituto Caio Prado, autor de obras sobre economia política brasileira, e Secretário-Geral do PCB (cargo de direção nacional partidária).",
+      "competencias": {
+        "macroeconomia": {
+          "nota": 8,
+          "motivo": "Doutorado e pós-doutorado em Economia, com produção acadêmica publicada sobre economia política brasileira -- credencial técnica direta e forte para esta competência, independente de a política prescrita ser heterodoxa/marxista."
+        },
+        "administracao_federal_politicas_publicas": {
+          "nota": 5,
+          "motivo": "Secretário-Geral do PCB (direção nacional partidária) e diretor de pesquisa/formação de um instituto -- experiência organizacional real, moderada pela escala pequena das instituições."
+        },
+        "articulacao_nacional": {
+          "nota": 5,
+          "motivo": "Décadas de militância e direção nacional do PCB, candidaturas a vice-presidente (2010) e Senado (2014) -- engajamento político nacional sustentado."
+        }
+      },
+      "fontes": [
+        "https://www.correiobraziliense.com.br/politica/2026/08/7489262-quem-e-edmilson-costa-candidato-a-presidencia-pelo-pcb.html",
+        "https://www.blogdoedmilsoncosta.com.br/post/biografia-sta"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "280002551547": {
+      "nome_urna": "ESCRITOR AUGUSTO CURY",
+      "cargo_pretendido": "PRESIDENTE",
+      "biografia_relevante": "Médico psiquiatra (Faculdade de Medicina de São José do Rio Preto), doutor em Psicologia Multifocal pela Florida Christian University (credencial de acreditação menos rigorosa, ressalva importante), fundador/diretor da Academia de Inteligência, autor de 70+ livros.",
+      "competencias": {
+        "administracao_federal_politicas_publicas": {
+          "nota": 4,
+          "motivo": "Medicina + décadas dirigindo um instituto de treinamento privado dão alguma experiência organizacional, mas é gestão do setor privado/editorial, não administração pública -- boost modesto e conservador, considerando também a ressalva sobre a credencial do doutorado."
+        }
+      },
+      "fontes": [
+        "https://gcmais.com.br/noticias/2026/08/28/quem-e-augusto-cury-veja-biografia-formacao-livros-e-onde-nasceu",
+        "https://querobolsa.com.br/revista/quem-e-augusto-cury"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "280002538811": {
+      "nome_urna": "SAMARA",
+      "cargo_pretendido": "PRESIDENTE",
+      "biografia_relevante": "Dentista do SUS em Natal; diretora nacional de mulheres da UNE (mandato de 3 anos) e coordenadora nacional da UJR -- posições eleitas de liderança em organizações estudantis/juvenis nacionais.",
+      "competencias": {
+        "articulacao_nacional": {
+          "nota": 6,
+          "motivo": "Mandatos eletivos de direção NACIONAL em organizações estudantis (UNE, UJR) envolvem coordenação real entre estados, distinto de mero ativismo local -- experiência de articulação política nacional genuína, mesmo fora de cargo público."
+        },
+        "administracao_federal_politicas_publicas": {
+          "nota": 5,
+          "motivo": "Atuação direta como dentista dentro do SUS dá exposição real (ainda que modesta) ao funcionamento de política pública federal de saúde."
+        }
+      },
+      "fontes": [
+        "https://jovempan.com.br/noticias/dentista-do-sus-e-militante-de-esquerda-quem-e-samara-martins-up-candidata-a-presidencia/",
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-samara-martins-candidata-do-up-a-presidencia-da-republica/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "280002552484": {
+      "nome_urna": "CLARIANA BARAO",
+      "cargo_pretendido": "PRESIDENTE",
+      "biografia_relevante": "Advogada com atuação em direito administrativo e gestão pública; presidiu comissão de solidariedade/assistência social da OAB-MT (subseção Várzea Grande); coordenou grupo de voluntários em resposta às enchentes do RS em 2024.",
+      "competencias": {
+        "administracao_federal_politicas_publicas": {
+          "nota": 5,
+          "motivo": "Especialização prática em direito administrativo/gestão pública, presidência de comissão da OAB e coordenação de resposta a crise (enchentes RS) -- experiência real, porém de escala pequena/local, boost modesto."
+        }
+      },
+      "fontes": [
+        "https://www.correiobraziliense.com.br/politica/2026/08/7489268-quem-e-clariana-barao-candidata-a-presidencia-pelo-dc.html"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "280002540694": {
+      "nome_urna": "RENAN SANTOS",
+      "cargo_pretendido": "PRESIDENTE",
+      "biografia_relevante": "Trabalhou por mais de uma década no negócio da família (recuperação de empresas em dificuldade financeira) antes de cofundar o Movimento Brasil Livre (MBL) em 2014, que se tornou o maior movimento político de base do país, com estrutura organizada em múltiplos estados -- Renan ficou responsável pela coordenação política/organizacional do movimento.",
+      "competencias": {
+        "articulacao_nacional": {
+          "nota": 8,
+          "motivo": "12 anos fundando e coordenando um movimento político nacional com presença organizada em dezenas de estados é experiência de articulação política real e substancial -- comparável em escala a dirigir um partido nacional, muito além do que o rótulo genérico 'empresário' capta."
+        }
+      },
+      "fontes": [
+        "https://www.infomoney.com.br/perfil/renan-santos/",
+        "https://www.gazetadopovo.com.br/ideias/quem-e-renan-santos-o-fundador-do-mbl-que-vai-concorrer-a-presidencia-da-republica/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "190002543380": {
+      "nome_urna": "EDUARDO PAES",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Direito (PUC-RJ) com especialização em Políticas Públicas e Governo (UFRJ); subprefeito da Zona Oeste do Rio (1993-1996, cargo executivo nomeado, não eletivo) antes de qualquer mandato eletivo.",
+      "competencias": {
+        "administracao": {
+          "nota": 8,
+          "motivo": "Subprefeito da Zona Oeste por 3 anos foi cargo executivo real administrando uma grande região da cidade, somado à especialização acadêmica em gestão pública -- vai além do boost genérico de prefeito já aplicado em outra camada, pois é experiência administrativa anterior e distinta."
+        }
+      },
+      "fontes": [
+        "https://www.infomoney.com.br/perfil/eduardo-paes/",
+        "https://www.camara.leg.br/deputados/74683/biografia"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "190002542887": {
+      "nome_urna": "DOUGLAS RUAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "CORRIGE SUBESTIMAÇÃO DO PROXY: registrado como 'DEPUTADO' (boost já aplicado só cobre o mandato legislativo). Biografia real é rica em cargos executivos: policial civil concursado, subsecretário de Trabalho de São Gonçalo (2017-2018), superintendente regional do Instituto Estadual do Ambiente (2019-2020), secretário municipal de Gestão de São Gonçalo, e Secretário estadual das Cidades do RJ (2023-2026, cargo de primeiro escalão no governo Cláudio Castro) -- além de Direito com pós-graduação em gestão pública.",
+      "competencias": {
+        "administracao": {
+          "nota": 9,
+          "motivo": "Sequência real de cargos executivos crescentes -- subsecretário municipal, superintendente estadual, secretário municipal, e culminando em SECRETÁRIO ESTADUAL (primeiro escalão) -- é a experiência administrativa mais forte encontrada entre os 9 candidatos de Governador-RJ, muito além do que o rótulo 'deputado' capta."
+        },
+        "financas": {
+          "nota": 6,
+          "motivo": "Gestão de secretaria estadual envolve responsabilidade orçamentária real, mesmo não sendo pasta de finanças especificamente -- boost moderado, não máximo."
+        }
+      },
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-e-douglas-ruas-novo-presidente-da-alerj-e-nome-de-bolsonaro-para-o-governo-do-rj/",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-03/douglas-ruas-e-eleito-presidente-da-alerj-e-sera-governador-do-rio"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "190002536162": {
+      "nome_urna": "WILLIAM SIRI",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Formado em Ciências Econômicas pela UCAM -- economista de formação, distinto do perfil genérico de vereador.",
+      "competencias": {
+        "financas": {
+          "nota": 6,
+          "motivo": "Graduação formal em Economia é credencial acadêmica direta para esta competência, mesmo com carreira majoritariamente política/de ativismo depois."
+        }
+      },
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-william-siri-candidato-ao-governo-do-rio-de-janeiro/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "190002547272": {
+      "nome_urna": "JULIETE",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Educadora popular (projetos de alfabetização de jovens e adultos), presidenta estadual do partido UP no RJ, ativista do MLB (Movimento de Luta nos Bairros, Vilas e Favelas); duas candidaturas anteriores (governo 2022, prefeitura 2024).",
+      "competencias": {
+        "articulacao_politica": {
+          "nota": 5,
+          "motivo": "Organização comunitária sustentada via MLB + presidência estadual de partido + engajamento eleitoral repetido é articulação política real de base, mesmo nunca tendo ocupado cargo -- o proxy genérico 'OUTROS' não captava nada disso."
+        },
+        "administracao": {
+          "nota": 4,
+          "motivo": "Presidência estadual de partido e coordenação de projetos educativos populares dão alguma experiência organizacional, em escala modesta."
+        }
+      },
+      "fontes": [
+        "https://almapreta.com.br/sessao/politica/eleicoes-candidatos-governado-rio-de-janeiro/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "190002540198": {
+      "nome_urna": "CYRO GARCIA",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "CASO QUE MOTIVOU ESTA CAMADA: registrado no TSE como 'APOSENTADO (EXCETO SERVIDOR PÚBLICO)' (arquétipo do_lar_aposentado, quase zero em tudo). Biografia real: Direito pela UFRJ (1978), mestrado e doutorado em História pela UFF, CARREIRA DE BANCÁRIO no Itaú e no Banco do Brasil (aposentado do Banco do Brasil), presidente do Sindicato dos Bancários do Rio de Janeiro (1988-1991) com 30+ anos de luta sindical, deputado federal suplente por cerca de 10 meses em 1993, professor universitário titular na UNIABEU (2002-2021), coordenador de pós-graduação em Criminologia e Segurança Pública na UNIG.",
+      "competencias": {
+        "financas": {
+          "nota": 8,
+          "motivo": "Carreira de décadas como bancário em duas instituições (Itaú e Banco do Brasil) é experiência direta e forte em finanças -- a mais clara justificativa de todo este arquivo, e o proxy de 'aposentado' zerava isso completamente."
+        },
+        "administracao": {
+          "nota": 8,
+          "motivo": "Presidência de sindicato por 3 anos + 30 anos de liderança sindical + coordenação de curso de pós-graduação universitário é histórico administrativo/organizacional substancial."
+        },
+        "articulacao_politica": {
+          "nota": 8,
+          "motivo": "Presidente de sindicato negociando com bancos e governo por anos, mais mandato como deputado federal suplente -- articulação política real e testada, não retórica de campanha."
+        },
+        "processo_legislativo": {
+          "nota": 4,
+          "motivo": "Deputado federal suplente por ~10 meses em 1993 é experiência legislativa real, porém breve e como suplente (não titular eleito) -- boost moderado, não máximo."
+        }
+      },
+      "fontes": [
+        "https://www.camara.leg.br/deputados/133900/biografia",
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-cyro-garcia-candidato-ao-governo-do-rio-de-janeiro/",
+        "https://agendadopoder.com.br/conheca-cyro-garcia-o-historiador-que-disputa-o-governo-do-rio/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "190002544120": {
+      "nome_urna": "CORONEL BUSNELLO",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "33 anos na Polícia Militar do RJ, elite do BOPE (2002-2007, atirador de precisão e chefe de grupamento de tiro de precisão), subcomandante do BOPE, e comando de múltiplos batalhões (10º BPM em Barra do Piraí, batalhões na Baixada Fluminense incluindo Duque de Caxias).",
+      "competencias": {
+        "administracao": {
+          "nota": 9,
+          "motivo": "Comando de batalhão é liderança organizacional real de grande escala -- centenas de policiais, logística, operações -- ao longo de uma carreira de 33 anos culminando em múltiplos comandos."
+        },
+        "articulacao_politica": {
+          "nota": 5,
+          "motivo": "Comando de batalhão exige coordenação constante com lideranças locais, outras forças de segurança e comunidade -- articulação real, ainda que não partidária/eleitoral, por isso boost moderado."
+        }
+      },
+      "fontes": [
+        "https://agendadopoder.com.br/coronel-busnello-ex-bope-tenta-chegar-ao-governo-do-rio-em-sua-1a-disputa-pelo-cargo/",
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-coronel-busnello-candidato-ao-governo-do-rio-de-janeiro/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "250002549705": {
+      "nome_urna": "FERNANDO HADDAD",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Advogado e professor universitário (USP); Ministro da Educação (2005-2012, sete anos, gestão de ProUni/Enem/expansão de universidades federais); Prefeito de São Paulo (2013-2017); Ministro da Fazenda (2023-2025, arcabouço fiscal e reforma tributária); derrotado por Tarcísio no 2º turno de 2022.",
+      "competencias": {
+        "administracao": {
+          "nota": 9,
+          "motivo": "Sete anos comandando o MEC (orçamento e rede federal de ensino), quatro anos como prefeito da maior cidade do país e dois anos na Fazenda -- gestão de grande escala, não teórica."
+        },
+        "financas": {
+          "nota": 9,
+          "motivo": "Ministro da Fazenda 2023-2025 (arcabouço fiscal, meta de resultado primário) -- responsabilidade direta por política fiscal nacional, mais do que o boost de prefeito (4) captura."
+        },
+        "processo_legislativo": {
+          "nota": 6,
+          "motivo": "Como ministro negociou e viu aprovados no Congresso o arcabouço fiscal e a reforma tributária -- experiência real de tramitação, mas nunca exerceu mandato legislativo, então não passa de 6."
+        },
+        "articulacao_politica": {
+          "nota": 8,
+          "motivo": "Ministro em dois governos federais e prefeito de SP, com negociação contínua com Congresso, governadores e partidos; nota igual ao boost de prefeito, sem inflar."
+        }
+      },
+      "fontes": [
+        "https://www.nsctotal.com.br/politica/eleicoes-2026-quem-e-fernando-haddad-nome-do-pt-na-disputa-pelo-governo-de-sao-paulo",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/pt-lanca-candidatura-de-fernando-haddad-ao-governo-de-sao-paulo"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "130002550834": {
+      "nome_urna": "FLÁVIO ROSCOE",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Historiador de formação e empresário têxtil (sócio-diretor do Grupo Colortextil desde os 18 anos); presidente da FIEMG por dois mandatos (2018-abr/2026) -- reestruturou a federação, revertendo déficit operacional de R$ 60 mi (2017) para superávit estimado de R$ 500 mi (2024) e expandiu a rede Sesi/Senai; vice-presidente da CNI e presidente do Conselho de Infraestrutura da CNI.",
+      "competencias": {
+        "administracao": {
+          "nota": 9,
+          "motivo": "Dois mandatos comandando a maior federação industrial do estado (com a rede Sesi/Senai) e uma virada de gestão documentada -- liderança organizacional real de grande escala, além do grupo empresarial próprio."
+        },
+        "financas": {
+          "nota": 8,
+          "motivo": "Reversão de déficit de R$ 60 mi para superávit na FIEMG; não passa de 8 porque é finanças de entidade privada, não de orçamento público."
+        },
+        "articulacao_politica": {
+          "nota": 6,
+          "motivo": "Como presidente da FIEMG e vice da CNI negociou pautas do setor produtivo (reforma tributária, infraestrutura) com governos e Congresso -- articulação real, mas de lobby setorial, não partidária/eleitoral."
+        }
+      },
+      "fontes": [
+        "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-de-flavio-roscoe-pre-candidato-ao-governo-de-minas",
+        "https://www.metropoles.com/minas-gerais/saiba-quem-e-flavio-roscoe-candidato-ao-governo-de-minas-pelo-pl",
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/8/5/quem-e-flavio-roscoe-candidato-indicado-pelo-pl-ao-governo-de-minas-gerais"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "130002550464": {
+      "nome_urna": "PATRUS ANANIAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Advogado e professor da PUC Minas; prefeito de Belo Horizonte (1993-1996: primeiro restaurante popular, Orçamento Participativo); Ministro do Desenvolvimento Social e Combate à Fome (2004-2010, implantou o Bolsa Família) e do Desenvolvimento Agrário (2015-2016); deputado federal em 4º mandato.",
+      "competencias": {
+        "administracao": {
+          "nota": 9,
+          "motivo": "Seis anos à frente do MDS, ministério que implantou o Bolsa Família em escala nacional, mais uma prefeitura de capital -- gestão de grande escala, acima do boost genérico de prefeito."
+        },
+        "financas": {
+          "nota": 6,
+          "motivo": "Geriu o orçamento de programas sociais bilionários e o de uma capital, mas nunca foi responsável pela política fiscal/tributária geral; 6, não mais."
+        }
+      },
+      "fontes": [
+        "https://www.camara.leg.br/deputados/74160/biografia",
+        "https://pt.org.br/patrus-ananias/",
+        "https://www.otempo.com.br/politica/2026/7/15/possivel-candidato-do-pt-ao-governo-patrus-ananias-foi-o-primeiro-prefeito-do-partido-eleito-em-bh"
+      ],
+      "pesquisado_em": "2026-09-21"
+    }
+  },
+  "pesquisados_sem_alteracao": {
+    "LULA": "Já no teto (10/10 em todas as 4 competências) via boost de cargo eletivo anterior (foi presidente) -- biografia de metalúrgico/sindicalista é real e rica, mas não há espaço para subir mais.",
+    "FLAVIO BOLSONARO": "Carreira política desde os 21 anos (deputado estadual), sem experiência profissional não-política substancial que justifique boost adicional além do já aplicado.",
+    "ZEMA": "Biografia empresarial (Grupo Zema, 26 anos na presidência) já bem capturada pelo arquétipo 'empresário' + boost de governador; negócio foi só doméstico/varejo, sem justificativa para subir relações internacionais.",
+    "PABLO MARÇAL": "Biografia empresarial (coaching, infoprodutos) já capturada pelo arquétipo 'empresário'; alcance de mídia/influência social não é a mesma coisa que articulação política real com outros poderes, então não conta como boost de articulação nacional.",
+    "HERTZ DIAS": "Historiador, professor, rapper, ativista -- biografia real não revela experiência administrativa, financeira ou de articulação nacional além do que o arquétipo 'professor' já captura.",
+    "VETERINÁRIO WILSON GRASSI": "Veterinário com um projeto institucional de escala pequena (implantação de hospital público de pets) -- não justifica boost além do arquétipo de saúde já aplicado.",
+    "GAROTINHO": "Já no teto em todas as 4 competências de Governador via boost de cargo eletivo anterior (foi governador do RJ e prefeito de Campos); carreira de radialista não adiciona nada às 4 competências específicas do cargo.",
+    "ANDRÉ MARINHO": "Biografia real (humorista, YouTuber, estudos incompletos em ciência política/direito, presidência de um capítulo jovem de networking empresarial) não excede o que o arquétipo 'empresário' já concede.",
+    "LUAN MONTEIRO": "Estudante de jornalismo (curso incompleto), dirigente da juventude partidária do PCO -- biografia real é mais modesta que a ocupação declarada 'COMERCIANTE' sugere; sem justificativa para boost adicional (e não é possível reduzir, por ser regra não-regressiva).",
+    "TARCÍSIO": "Já no teto pelo cargo atual de governador (administração 10, finanças 8, articulação 8); engenheiro militar (Exército), ex-diretor-geral do Dnit e ex-ministro da Infraestrutura só confirmam o que o boost já dá. Processo legislativo (4) não sobe -- nunca teve mandato legislativo. Biografia conferida só em fontes gerais de perfil (Gazeta do Povo, Jornalismo Júnior).",
+    "VERA LÚCIA": "Sindicalista (CUT, federação têxtil) e fundadora do PSTU: articulação política já em 8 pelo arquétipo; liderança sindical não justifica boost em administração/finanças do estado.",
+    "CARLOS MACHADO": "Professor/historiador e militante de movimentos sociais (MTD, Instituto Paulo Freire); sem gestão de orçamento ou de organização grande que justifique boost além do arquétipo de educação.",
+    "IZADORA DIAS": "Estudante de Letras da USP e militante/dirigente do PCO; nenhuma experiência de gestão ou negociação institucional além do que o arquétipo já captura.",
+    "POLICIAL EDJANE": "Sargento da PM: administração 6 já capturada pelo arquétipo de segurança pública; candidatura indeferida pelo TRE-SP, sem justificativa para pesquisa adicional.",
+    "VIVIAN MENDES": "Presidente estadual da UP-SP e fundadora de movimento feminista: articulação política já em 8 pelo arquétipo; sem gestão de orçamento público.",
+    "MATEUS SIMÕES": "Já em 10/8/4/8 pelo cargo de governador; advogado, professor, ex-vereador e ex-vice-governador só confirmam o boost. Processo legislativo (4) não sobe -- foi vereador, mas sem evidência que justifique mais.",
+    "ALEXANDRE KALIL": "Prefeito de BH (2017-2022) já captura a gestão pública; a presidência do Atlético-MG e a carreira empresarial não transferem de forma comprovada para as competências nomeadas (pesquisa só em perfis gerais).",
+    "CLEITINHO AZEVEDO": "Já em 6.5 pelo boost de senador/deputado estadual (processo legislativo 10); carreira anterior como radialista/músico e empresário não justifica boost em administração ou finanças.",
+    "GABRIEL": "Presidiu a Câmara Municipal de BH, mas sem pesquisa detalhada sobre a gestão dessa presidência; não foi aplicado boost por falta de evidência específica.",
+    "BEN MENDES": "Advogado e apresentador de programa de defesa do consumidor, sem cargo de gestão; primeira candidatura.",
+    "PROFESSOR TÚLIO LOPES": "Professor da UEMG e dirigente do PCB em MG; sem gestão de orçamento ou de organização grande que justifique boost.",
+    "RAFAEL DUDA": "Presidente do Sindicato Metabase Inconfidentes -- articulação sindical não passa do que o arquétipo já capta; sem gestão de orçamento público.",
+    "HENRIQUE ÁREAS": "Jornalista e dirigente do PCO, com passagem por diretoria dos Correios reportada mas não detalhada; articulação política já em 8 pelo arquétipo.",
+    "INDIRA XAVIER": "Ativista e coordenadora nacional do Movimento de Mulheres Olga Benário há mais de 20 anos; articulação política já em 8 pelo arquétipo, sem gestão de orçamento."
+  }
+}

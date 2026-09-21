@@ -1,0 +1,185 @@
+{
+  "_leiame": "Posicionamento ideológico de BASELINE por partido (não por candidato), em dois eixos 0-10 do diagrama de Nolan: eixo_economico (0=estatismo total, 10=livre mercado total) e eixo_pessoal (0=autoritário/conservador em costumes, 10=liberal/progressista em costumes). Dois usos: (1) fallback em pipeline/enriquecer_posicionamento_ideologico.py quando a pesquisa individual de um candidato não encontra sinal pessoal sobre um eixo -- regra confirmada pelo usuário em 2026-09-21 ('quando não houver informações sobre o posicionamento ideológico do candidato, pode considerar o posicionamento do partido'); (2) fonte de dados do diagrama de Nolan 'Compasso Partidário' (todos os partidos do Brasil, por ideologia do partido, gerado em 2026-09-21). Cobre os 30 partidos com candidatos registrados no arquivo consulta_cand_2026 do TSE. Esta tabela é CLASSIFICAÇÃO ANALÍTICA PRÓPRIA (leitura de plataforma/histórico/composição de bancada de cada partido, conhecimento geral de ciência política), não pesquisa individual com fontes citáveis por partido -- diferente do rigor aplicado às camadas de idoneidade/círculo político/posicionamento ideológico individual de candidato. Onde há pesquisa individual real de um filiado específico (ex.: Zema/NOVO, Lula/PT, Flávio Bolsonaro/PL -- ver data/reference/posicionamento_ideologico.json), o baseline do partido pode divergir da posição pessoal desse filiado -- isso é esperado e não invalida nem o baseline nem a pesquisa individual, são coisas diferentes (partido vs. pessoa).",
+  "partidos": {
+    "NOVO": {
+      "eixo_economico": 9,
+      "eixo_pessoal": 7,
+      "motivo": "Partido liberal clássico brasileiro: Estado mínimo, privatizações, baixa regulação -- sem pauta moral/de costumes conservadora institucional (diferente de PL/Republicanos). Quadrante libertário (alto nos dois eixos). Ressalva confirmada pela pesquisa individual de Zema (Presidente, mesmo partido): a posição PESSOAL de um filiado específico pode divergir bastante deste baseline -- Zema é liberal na economia mas pessoalmente conservador em costumes.",
+      "usado_em": ["André Marinho (Governador-RJ) -- eixo_pessoal, 2026-09-21"]
+    },
+    "PL": {
+      "eixo_economico": 8,
+      "eixo_pessoal": 1.5,
+      "motivo": "Partido Liberal, mas na prática é o núcleo bolsonarista: retórica pró-mercado (privatizações, corte de ministérios) combinada com forte conservadorismo em costumes (pauta evangélica, armamentista, endurecimento penal, discurso antidemocrático recorrente na liderança histórica do partido).",
+      "usado_em": []
+    },
+    "DEMOCRATA": {
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 4,
+      "motivo": "Ex-DEM/PFL: liberal-conservador tradicional, histórico de defesa de mercado e Estado enxuto, mas sem a pauta evangélica/moral explícita do PL -- conservadorismo mais institucional/elitista do que popular-religioso.",
+      "usado_em": []
+    },
+    "MISSÃO": {
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 3,
+      "motivo": "Fundado por Renan Santos (MBL): fusão liberal-conservadora -- liberalismo fiscal/econômico de raiz do MBL combinado com pautas de segurança dura e conservadorismo social crescente desde a aproximação com o bolsonarismo.",
+      "usado_em": []
+    },
+    "PRTB": {
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 2.5,
+      "motivo": "Partido nacionalista de direita, historicamente pequeno, hoje alinhado ao bolsonarismo radical (ex.: candidatura de Leonardo Avalanche) -- retórica de redução de impostos combinada com pauta de segurança/vigilância dura e conservadorismo social.",
+      "usado_em": []
+    },
+    "UNIÃO": {
+      "eixo_economico": 7,
+      "eixo_pessoal": 3.5,
+      "motivo": "União Brasil, fusão de DEM (institucional-liberal) e PSL (base bolsonarista de 2018): guarda-chuva de centro-direita, pró-mercado, com bancada internamente heterogênea mas majoritariamente conservadora em costumes/segurança.",
+      "usado_em": []
+    },
+    "PSDB": {
+      "eixo_economico": 7,
+      "eixo_pessoal": 6,
+      "motivo": "Social-democracia liberal histórica (era FHC): privatizações e responsabilidade fiscal como marca, mas institucionalista e moderado em costumes -- não tem pauta moral conservadora forte como PL/Republicanos.",
+      "usado_em": []
+    },
+    "AGIR": {
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 4.5,
+      "motivo": "Pequeno partido de centro-direita (rebatizado do antigo PTC), perfil empresarial/liberal moderado, sem pauta ideológica forte de costumes.",
+      "usado_em": []
+    },
+    "PODE": {
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 5,
+      "motivo": "Podemos: centro-direita liberal, historicamente heterogêneo (já abrigou de Sergio Moro a Simone Tebet), moderado em costumes.",
+      "usado_em": []
+    },
+    "PP": {
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 3.5,
+      "motivo": "Progressistas: legado da ARENA/PPB, partido fisiológico de centro-direita com forte base ruralista/agronegócio, conservador em segurança e costumes, mas menos doutrinário que o PL.",
+      "usado_em": []
+    },
+    "PSD": {
+      "eixo_economico": 6,
+      "eixo_pessoal": 5.5,
+      "motivo": "Partido Social Democrático (Kassab): centro pragmático/fisiológico, mercado-friendly sem radicalismo, moderado em costumes -- perfil de gestão, não de bandeira ideológica.",
+      "usado_em": []
+    },
+    "DC": {
+      "eixo_economico": 6,
+      "eixo_pessoal": 2.5,
+      "motivo": "Democracia Cristã (ex-PSC): raiz confessional evangélica/católica, conservador em família e costumes por tradição do nome e histórico do partido, moderadamente pró-mercado.",
+      "usado_em": ["Clariana Barão (Presidente) -- eixo_pessoal, 2026-09-21"]
+    },
+    "MDB": {
+      "eixo_economico": 5.5,
+      "eixo_pessoal": 4.8,
+      "motivo": "Maior partido fisiológico/catch-all do Brasil, sem ideologia definida -- centro pragmático que já governou com PT e com o campo bolsonarista, moderado em costumes por não ter pauta própria.",
+      "usado_em": []
+    },
+    "AVANTE": {
+      "eixo_economico": 5.5,
+      "eixo_pessoal": 5.3,
+      "motivo": "Partido de centro fisiológico, sem ideologia forte definida, historicamente aberto a alianças amplas -- perfil de centro puro nos dois eixos.",
+      "usado_em": ["Escritor Augusto Cury (Presidente) -- eixo_pessoal, 2026-09-21"]
+    },
+    "PRD": {
+      "eixo_economico": 5.2,
+      "eixo_pessoal": 5,
+      "motivo": "Partido pequeno e recente (ex-PTB rebatizado), perfil de centro fisiológico ainda pouco definido ideologicamente.",
+      "usado_em": []
+    },
+    "CIDADANIA": {
+      "eixo_economico": 5,
+      "eixo_pessoal": 7,
+      "motivo": "Ex-PPS, de origem comunista (PCB) mas reformado para social-democracia desde os anos 1990 -- hoje é centro-esquerda moderado, mercado com rede de proteção social, progressista em costumes.",
+      "usado_em": []
+    },
+    "MOBILIZA": {
+      "eixo_economico": 5,
+      "eixo_pessoal": 2,
+      "motivo": "Ex-PRP, pequeno partido de direita conservadora tradicionalista, forte em pauta de costumes conservadora, sem marca econômica liberal tão definida quanto PL/NOVO.",
+      "usado_em": []
+    },
+    "REPUBLICANOS": {
+      "eixo_economico": 5,
+      "eixo_pessoal": 1.5,
+      "motivo": "Base evangélica (Igreja Universal): populismo econômico de centro com uso intenso de programas assistenciais, e o conservadorismo social mais consistente do espectro partidário brasileiro (anti-aborto, anti-LGBT, anti-drogas).",
+      "usado_em": ["Garotinho (Presidente e Governador-RJ) -- eixo_pessoal, 2026-09-21"]
+    },
+    "SOLIDARIEDADE": {
+      "eixo_economico": 4.5,
+      "eixo_pessoal": 6,
+      "motivo": "Dissidência sindical do PCdoB (Força Sindical), pragmático e fisiológico mas com raiz trabalhista -- moderadamente progressista em costumes, economia de centro-esquerda pragmática.",
+      "usado_em": []
+    },
+    "PV": {
+      "eixo_economico": 4.3,
+      "eixo_pessoal": 7.2,
+      "motivo": "Partido Verde: pauta ambiental como eixo central, historicamente aliado a governos de centro-esquerda, progressista em direitos civis, economia moderada com forte viés regulatório ambiental.",
+      "usado_em": []
+    },
+    "REDE": {
+      "eixo_economico": 4.6,
+      "eixo_pessoal": 7.7,
+      "motivo": "Rede Sustentabilidade (Marina Silva): pauta ambiental e de transparência política, progressista em direitos civis, economia de mercado moderado com forte regulação ambiental -- federada com o PSOL mas mais moderada economicamente.",
+      "usado_em": []
+    },
+    "PSB": {
+      "eixo_economico": 3.5,
+      "eixo_pessoal": 7,
+      "motivo": "Socialismo democrático histórico (Miguel Arraes/Eduardo Campos), hoje o partido do vice de Lula (Alckmin) -- centro-esquerda desenvolvimentista, progressista em costumes.",
+      "usado_em": []
+    },
+    "PDT": {
+      "eixo_economico": 3.3,
+      "eixo_pessoal": 6.4,
+      "motivo": "Trabalhismo histórico (legado de Brizola/Leonel Brizola): forte tradição estatista-desenvolvimentista, progressista em costumes mas com viés nacional-popular mais do que identitário.",
+      "usado_em": []
+    },
+    "PT": {
+      "eixo_economico": 3,
+      "eixo_pessoal": 6.5,
+      "motivo": "Desenvolvimentismo estatal com forte política social redistributiva (Bolsa Família, valorização do salário mínimo), historicamente progressista em direitos civis, embora com posições mais cautelosas em pautas específicas (ex.: regulação de redes sociais) na liderança atual -- baseline confirma a pesquisa individual de Lula.",
+      "usado_em": []
+    },
+    "PCDOB": {
+      "eixo_economico": 1,
+      "eixo_pessoal": 6.2,
+      "motivo": "Partido Comunista do Brasil: estatismo forte, historicamente mais ortodoxo e disciplinado que o PT (herança maoista/stalinista), progressista em costumes mas com tradição organizacional mais hierárquica/menos individualista que PSOL.",
+      "usado_em": []
+    },
+    "PSOL": {
+      "eixo_economico": 1.5,
+      "eixo_pessoal": 8.5,
+      "motivo": "Esquerda democrática/socialista, dissidência histórica do PT por à esquerda -- forte intervenção estatal e redistribuição, e a agenda mais avançada de direitos civis/minorias/liberdades individuais do espectro partidário.",
+      "usado_em": ["William Siri (Governador-RJ) -- baseline de referência, 2026-09-21"]
+    },
+    "PSTU": {
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.6,
+      "motivo": "Trotskista ortodoxo: a posição mais estatista do espectro (planificação total, revogação de reformas trabalhista/previdenciária) combinada com forte progressismo em costumes (feminismo, causa LGBT, desmilitarização).",
+      "usado_em": []
+    },
+    "UP": {
+      "eixo_economico": 0.35,
+      "eixo_pessoal": 8.2,
+      "motivo": "Unidade Popular, esquerda revolucionária de inspiração maoísta -- estatização ampla da economia, progressista em costumes mas com ênfase mais coletivista/popular do que individualista.",
+      "usado_em": []
+    },
+    "PCO": {
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 7.8,
+      "motivo": "Causa Operária: trotskista, defende economia planificada/controle operário -- estatismo extremo, progressista em costumes dentro da tradição marxista, mas com histórico de contas rejeitadas no TSE que sinaliza desorganização institucional (não ideológico, mas relevante ao partido).",
+      "usado_em": []
+    },
+    "PCB": {
+      "eixo_economico": 0,
+      "eixo_pessoal": 7.3,
+      "motivo": "Partido Comunista Brasileiro (fundador do comunismo brasileiro, 1922): estatização total, revogação de reformas -- o mais estatista do espectro na economia; progressista em costumes mas historicamente com ênfase mais classista que identitária.",
+      "usado_em": []
+    }
+  }
+}

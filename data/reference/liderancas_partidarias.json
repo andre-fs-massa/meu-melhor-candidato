@@ -1,0 +1,171 @@
+{
+  "_leiame": "Referência reutilizável de integridade das lideranças nacionais de partido ('caciques'), pesquisada manualmente. Existe porque os mesmos dirigentes partidários aparecem em coligações/vices de candidatos diferentes, em cargos e estados diferentes -- pesquisar uma vez por partido evita retrabalho e inconsistência entre registros (achado em 2026-09-20, ao comparar círculo político de Presidente e de Governador do RJ: Gilberto Kassab e Valdemar Costa Neto apareceram nos dois). Usado por pipeline/enriquecer_circulo_politico.py: quando o partido de um candidato, do seu vice, ou de um partido da coligação aparece aqui, a pendência é herdada na nota de círculo político daquele candidato. Cobertura parcial -- só tem os partidos efetivamente pesquisados até agora; a ausência de um partido aqui não significa que a liderança dele foi verificada como limpa. ||| AUDITORIA 2026-09-21: partidos cujas lideranças ainda NÃO foram pesquisadas (a ausência de desconto por eles não é atestado de limpeza): DC, AGIR, MOBILIZA, PV, REDE, DEMOCRATA, PRTB, UP, PSTU, PCB e as lideranças estaduais. Os 'apoiadores' de cada candidato em circulo_politico.json mostram o tipo de ligação e quais lideranças entraram na conta.",
+  "partidos": {
+    "PSD": {
+      "presidente_nacional": "Gilberto Kassab",
+      "pendencias": "Réu desde 2021 por corrupção passiva, lavagem de dinheiro, caixa 2 eleitoral e associação criminosa (recebimento de R$16,5 milhões do grupo JBS via contratos simulados, 2014-2016). Também condenado por improbidade administrativa como ex-prefeito de São Paulo (não pagamento de precatórios judiciais).",
+      "fontes": [
+        "https://www.correiobraziliense.com.br/politica/2021/03/4911463-kassab-vira-reu-por-corrupcao-caixa-2-e-lavagem-de-rs-165-milhoes-da-jbs.html",
+        "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=23053&Id=23053"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "PL": {
+      "presidente_nacional": "Valdemar Costa Neto",
+      "pendencias": "Condenado e preso por corrupção e lavagem de dinheiro no escândalo do Mensalão (2012); recebeu indulto do STF em 2016. Sem pendência penal ativa encontrada hoje, mas histórico grave.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Valdemar_Costa_Neto"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "REPUBLICANOS": {
+      "presidente_nacional": "Marcos Pereira",
+      "pendencias": "Nenhuma pendência encontrada.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-20"
+    },
+    "NOVO": {
+      "presidente_nacional": "Eduardo Ribeiro",
+      "pendencias": "Nenhuma pendência encontrada.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-20"
+    },
+    "PCO": {
+      "presidente_nacional": "Rui Costa Pimenta (também candidato a Presidente em 2026 -- ver idoneidade individual dele)",
+      "pendencias": "Contas partidárias com histórico recorrente de rejeição/falhas técnicas no TSE (contas não prestadas, divergências não justificadas, repasse indevido à fundação partidária). Rui Costa Pimenta pessoalmente investigado pela PF por suposto desvio de verba eleitoral.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/pf-mira-candidato-do-pco-a-presidente-por-suposto-desvio-de-verba-eleitoral/"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "MISSÃO": {
+      "presidente_nacional": "Renan Santos (também candidato a Presidente em 2026 -- ver idoneidade individual dele)",
+      "pendencias": "Ação civil pública do MPF em curso (discurso de ódio contra indígenas) e condenação cível anterior (danos morais a um deputado). Nenhuma questão penal ou de Ficha Limpa.",
+      "fontes": [
+        "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-processa-candidato-a-presidencia-e-o-mbl-por-discurso-de-odio-contra-indigenas-do-para"
+      ],
+      "pesquisado_em": "2026-09-20"
+    },
+    "PT": {
+      "presidente_nacional": "Edinho Silva (desde 07/2025)",
+      "pendencias": "Inquérito da Lava Jato aberto em 2015 (delação de Ricardo Pessoa/UTC: suspeita de R$ 7,5 mi em propina para a campanha de Dilma 2014, quando era tesoureiro) foi TRANCADO pelo TRE-DF por excesso de prazo (8 anos), sem denúncia e sem julgamento de mérito.",
+      "fontes": [
+        "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/",
+        "https://www.terra.com.br/noticias/brasil/politica/cotado-para-presidir-o-pt-edinho-se-livra-de-inquerito-da-lava-jato,76ee9924f0b981722d076c1c6b1c71aasodqtqtx.html"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "PDT": {
+      "presidente_nacional": "Carlos Lupi (deixou em 05/2025 e voltou em 06/2025; segue presidente em 2026)",
+      "pendencias": "Deixou o Ministério da Previdência em 05/2025 após a fraude dos descontos ilegais no INSS; foi delatado por ex-dirigentes do INSS (relatos de fev/2026) por demorar cerca de um ano para agir enquanto os descontos subiram de R$ 80,6 mi para R$ 248,1 mi. Sem denúncia formal encontrada.",
+      "fontes": [
+        "https://www.metropoles.com/colunas/andreza-matais/dirigentes-do-inss-delataram-carlos-lupi-ex-ministro-da-previdencia-de-lula",
+        "https://www.portaldacapital.com/2026/05/14/presidente-nacional-do-pdt-carlos-lupi-participa-de-posse-de-diretoria-do-partido-nesta-quinta/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "PSDB": {
+      "presidente_nacional": "Aécio Neves (reassumiu a presidência)",
+      "pendencias": "Nenhuma pendência ATIVA encontrada nesta busca geral (não exaustiva): a 2ª Turma do STF arquivou em fev/2024 o inquérito INQ 4830. Histórico de múltiplas investigações da era Lava Jato/JBS não reexaminado aqui.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/A%C3%A9cio_Neves",
+        "https://portaldeprefeitura.com.br/bastidores-da-politica/aecio-neves-desiste-candidatura-psdb-lancara-nome-planalto/626505/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "PP": {
+      "presidente_nacional": "Ciro Nogueira (Progressistas; federação União Progressista com o União Brasil)",
+      "pendencias": "Alvo da Polícia Federal na Operação Compliance Zero (caso Banco Master), com supervisão do STF (relator André Mendonça): suspeita de receber R$ 300-500 mil por mês de Daniel Vorcaro, além de imóveis, empresa comprada abaixo do mercado e viagens, em troca de atuar no Congresso pelo Master -- a Emenda 11 à PEC 65/2023, que ampliava a cobertura do FGC, teria sido redigida pela assessoria do banco. Sem denúncia formal até a pesquisa.",
+      "fontes": [
+        "https://www.jota.info/stf/do-supremo/caso-master-ciro-nogueira-e-alvo-da-pf-por-suspeita-de-corrupcao-em-emenda-que-ampliava-fgc",
+        "https://www.metropoles.com/colunas/andreza-matais/leia-a-integra-da-decisao-do-stf-contra-ciro-nogueira-no-caso-master",
+        "https://www.cartacapital.com.br/cartaexpressa/ciro-nogueira-entre-os-alvos-sela-permanencia-do-caso-master-no-stf/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "UNIÃO": {
+      "presidente_nacional": "Antonio Rueda (União Brasil)",
+      "pendencias": "Investigado pela PF na Operação Carbono Oculto (esquema do PCC no setor de combustíveis): suspeita de ser dono oculto de jatos, em nome de terceiros e fundos, usados para transportar integrantes do crime organizado. Colocou seus sigilos bancário e fiscal à disposição da PGR e diz ter provas de que pagou pelos voos. Sem denúncia formal encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/politica/pf-inclui-presidente-do-uniao-brasil-em-investigacao-sobre-esquemas-do-pcc/",
+        "https://www.poder360.com.br/poder-justica/pf-inclui-presidente-do-uniao-brasil-em-operacao-que-mira-pcc/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "MDB": {
+      "presidente_nacional": "Baleia Rossi (reconduzido)",
+      "pendencias": "Citado em investigação sobre fraudes em contratos da prefeitura de Ribeirão Preto e na delação da JBS; o MP-SP repassou as suspeitas à PGR e elas correm em inquérito sob sigilo no STF desde 2018 (relator Nunes Marques). Nega irregularidades. RESSALVA: a fonte é de 2021 -- o status atual NÃO foi confirmado.",
+      "fontes": [
+        "https://www.poder360.com.br/congresso/baleia-rossi-e-citado-em-investigacoes-contra-fraudes-e-em-delacao-da-jbs/",
+        "https://baleiarossi.com.br/noticias/baleia-rossi-e-reconduzido-como-presidente-nacional-do-mdb/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "PSB": {
+      "presidente_nacional": "João Campos (desde 06/2025; também candidato ao governo de PE)",
+      "pendencias": "Nenhuma pendência encontrada nesta busca geral (não exaustiva).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Jo%C3%A3o_Henrique_Campos"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "PSOL": {
+      "presidente_nacional": "Paula Coradi (eleita em 2023 para mandato até 2026; sucessor não verificado)",
+      "pendencias": "Nenhuma pendência encontrada nesta busca geral (não exaustiva).",
+      "fontes": [
+        "https://psol50.org.br/com-67-dos-votos-paula-coradi-e-eleita-a-nova-presidenta-do-psol/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "SOLIDARIEDADE": {
+      "presidente_nacional": "Paulinho da Força",
+      "pendencias": "Investigado em inquérito no STF (relator André Mendonça, destravado em dez/2025 após 2 anos parado) por suposto esquema de captação de clientes para ações trabalhistas com listas de demitidos obtidas em sindicatos -- o MP-SP aponta R$ 100 mil mensais. Sem denúncia até a pesquisa.",
+      "fontes": [
+        "https://www.poder360.com.br/poder-justica/stf-destrava-investigacao-contra-paulinho-da-forca-apos-2-anos/",
+        "https://www.cnnbrasil.com.br/politica/mendonca-movimenta-inquerito-contra-paulinho-da-forca-apos-dois-anos-parado/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "AVANTE": {
+      "presidente_nacional": "Luis Tibé",
+      "pendencias": "Condenado em 2015 por improbidade civil (uso irregular de verba indenizatória da Câmara de BH, 2009-2011); a dívida foi quitada e o MPMG pediu a extinção do processo. Inquérito da PF (2022) sobre gráficas de divulgação não viu crime. Citado em relatório da PF sobre lavagem de dinheiro apenas por contatos (NÃO contado). Sem pendência penal ativa encontrada.",
+      "fontes": [
+        "https://ofator.com.br/informacao/luis-tibe-quita-divida-de-improbidade-por-mau-uso-de-verba-da-camara-de-bh/",
+        "https://www.cnnbrasil.com.br/blogs/luisa-martins/politica/pf-afirma-nao-ver-crime-por-parte-do-presidente-do-avante-investigado-no-stf/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "PODEMOS": {
+      "presidente_nacional": "Renata Abreu",
+      "pendencias": "Inquérito eleitoral sobre irregularidades nas contas de campanha do Podemos em 2018 (contratos de publicidade e comunicação): o MPE ofereceu a ela um acordo de não persecução penal; não foi possível confirmar se aceitou. Parte da investigação (outras pessoas e uma empresa) foi arquivada por falta de justa causa. Sem denúncia.",
+      "fontes": [
+        "https://www.metropoles.com/colunas/mirelle-pinheiro/mp-propoe-acordo-para-evitar-denuncia-contra-renata-abreu"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "PCDOB": {
+      "presidente_nacional": "Nádia Campeão (a ex-presidente Luciana Santos está licenciada por ser ministra da Ciência e Tecnologia)",
+      "pendencias": "NÃO VERIFICADO: uma fonte partidária (Brasil Sem Medo) afirma que Luciana Santos tem condenação por improbidade em licitação de iluminação pública; não confirmei em fonte independente e ela já não preside o partido. Nada pesquisado sobre a atual presidente.",
+      "fontes": [
+        "https://brasilsemmedo.com/ministra-da-ciencia-e-tecnologia-de-lula-tem-condenacao-por-improbidade-administrativa/"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "PRD": {
+      "presidente_nacional": "Marcus Vinícius Neskau",
+      "pendencias": "NÃO VERIFICADO: os resultados da busca são ambíguos (menção a afastamento determinado por Alexandre de Moraes no inquérito das fake news e a influência em nomeações no Detran-RJ segundo o MPF); não consegui confirmar nenhum fato em fonte primária, então nada foi contado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Marcus_Vin%C3%ADcius_de_Vasconcelos_Ferreira"
+      ],
+      "pesquisado_em": "2026-09-21"
+    },
+    "CIDADANIA": {
+      "presidente_nacional": "Presidência em disputa judicial: Comte Bittencourt foi destituído pelo STF (jan/2026) e o partido passaria a ter novo presidente (mar/2026)",
+      "pendencias": "Sem achado individual verificado. O grupo rival (Roberto Freire) anunciou representação criminal ao MPF sobre a gestão de Comte em 2023-2025; é acusação interna de disputa partidária, NÃO contada.",
+      "fontes": [
+        "https://www.band.com.br/noticias/comte-bittencourt-entrega-chave-do-tse-e-cidadania-tera-novo-presidente-202603021859"
+      ],
+      "pesquisado_em": "2026-09-21"
+    }
+  }
+}

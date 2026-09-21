@@ -1,0 +1,2034 @@
+{
+  "_leiame": "Nota de idoneidade do círculo político (0-10) por candidato: integridade das alianças partidárias, 'caciques' da coligação, e histórico de corrupção do vice/base de apoio. Pesquisada manualmente, não vem do TSE -- heurística própria do projeto, não índice oficial. Metodologia: parte de 10 e desconta por achado verificado. Vice/cabeça de chapa réu atual em processo grave de corrupção (-6); presidente do partido/'cacique' da coligação com condenação histórica grave, mesmo já resolvida/indultada (-4); acusação contra o vice investigada e arquivada sem denúncia (-2); instabilidade visível na composição da chapa (trocas repetidas de vice) sem achado de corrupção (-2); vice ainda não definido (sem desconto, sinalizado como em aberto). Quando o círculo político do candidato se resume ao pequeno partido que ele mesmo dirige (ex.: PCO/Rui Costa Pimenta, Missão/Renan Santos), o desconto aqui é mais leve para não duplicar o que já foi contado na nota de idoneidade PESSOAL dele (ver idoneidade.json). Reutiliza data/reference/liderancas_partidarias.json para lideranças de partido que se repetem entre candidatos/cargos/estados -- ver esse arquivo antes de pesquisar um partido do zero. Também rastreia 'padrinho_politico': uma figura de poder que endossa/controla a candidatura por fora da estrutura partidária formal (nem sempre tem cargo na coligação) -- ex.: Jair Bolsonaro decidindo o vice de Flávio mesmo preso e inelegível, José Dirceu coordenando o programa de governo de Lula. Mesmas categorias de desconto da idoneidade pessoal se aplicam ao padrinho quando ele efetivamente controla decisões da campanha (não apenas apoia de longe). Cobre PRESIDENTE (14 candidatos) e GOVERNADOR do Rio de Janeiro (9 candidatos), pesquisados em 2026-09-20; a camada de padrinho político foi adicionada em 2026-09-20 para Presidente e depois estendida a Governador-RJ no mesmo dia (achados: Waguinho para Garotinho, Cláudio Castro para Douglas Ruas). ||| REVISÃO 2026-09-21 -- PESO POR STATUS JURÍDICO e 'apoiadores'. Motivo: o método original somava descontos por caciques investigados ou réus quase como se fossem condenados e não tinha teto, o que zerava (nota 0) círculos de Tarcísio e Simões sem nenhum crime confirmado dos apoiadores deles (só Valdemar tem condenação criminal). Regras vigentes para CACIQUES (presidente do partido do candidato ou de partido aliado na coligação): condenação criminal confirmada = -4; réu em ação penal, OU condenação civil (improbidade) = -2; investigado, citado ou delatado sem denúncia = -1; a SOMA dos caciques de uma mesma chapa é limitada a -4. Vice e padrinho seguem as regras anteriores (vice réu em processo grave -6; padrinho segue as categorias da idoneidade pessoal, só quando de fato controla a candidatura). Cada registro agora tem 'apoiadores': uma lista em que cada apoiador traz o TIPO DE LIGAÇÃO com o candidato (tipo_ligacao: vice_de_chapa | presidente_do_partido_do_candidato | presidente_de_partido_aliado | padrinho_politico | apoio_externo), o detalhe da ligação, a NATUREZA da pendência (tipo_pendencia: condenacao_criminal_confirmada | condenacao_criminal_anulada_por_vicio_processual | reu_acao_penal | reu_acao_civil | investigado_sem_denuncia | delatado_sem_denuncia | investigacao_arquivada_sem_denuncia | infracao_eleitoral | acao_civil_em_curso | instabilidade_da_chapa | nenhuma_encontrada), o desconto e se foi 'contado'. Apoiadores com contado=false aparecem para deixar claro quem NÃO entrou na conta e por quê (ex.: Bolsonaro para Tarcísio: apoio externo, sem controle da chapa). 'descontos_adicionais' guarda descontos que não são de uma pessoa (instabilidade da chapa, contas do PCO). A nota gravada é conferida contra os apoiadores por pipeline/enriquecer_circulo_politico.py (calcular_nota); o aviso 'nota X mas os apoiadores somam Y' indica divergência. Registros antigos sem decomposição completa (Flávio Bolsonaro: desconto do padrinho não registrado, nota no piso 0) não são conferidos. PENDENTE: Edinho Silva (PT) foi pesquisado depois da nota de Lula (Presidente) e não foi contado nela (contado=false); contá-lo levaria a nota de 6 para 5. ||| AUDITORIA 2026-09-21 -- PADRONIZAÇÃO ENTRE PAPÉIS. (1) Vice e padrinho passam a ser medidos pela MESMA tabela de pesos da idoneidade pessoal (pipeline/pesos.py, PESOS_ACHADO): uma pessoa não pesa mais por ser vice (antes, 'vice réu' valia -6 enquanto um candidato réu vale -3). (2) Padrinho que já tem entrada em idoneidade.json (Lula, Flávio Bolsonaro, Zema) vale 10 menos a nota de idoneidade dele ('idoneidade_ref'), para as duas camadas não divergirem. (3) Caciques usam PESOS_CACIQUE (condenação criminal confirmada -4; réu ou condenação civil -2; investigado, delatado ou citado sem denúncia -1), com teto de -4 na soma. (4) O pipeline confere tudo isso e avisa se algum desconto não bater com a tabela. (5) Cada candidato deve ter listado o presidente do PRÓPRIO partido e os dos partidos aliados JÁ PESQUISADOS; partidos ainda não pesquisados estão listados em liderancas_partidarias.json e a ausência de desconto por eles não é atestado de limpeza.",
+  "candidatos": {
+    "280002542548": {
+      "nome_urna": "LULA",
+      "cargo_pretendido": "PRESIDENTE",
+      "nota": 4,
+      "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): Antes 6. Dirceu passa a valer -5, o mesmo peso da tabela de idoneidade para prisão cumprida com condenação anulada por vício processual (era -4); e Edinho Silva (PT), pesquisado depois do cálculo original, agora conta (-1), como já contava para Haddad e Patrus. Total 10-5-1 = 4. || Texto anterior: Vice Geraldo Alckmin (ex-governador de SP, atual ministro) sem pendência encontrada. Coligação formal PT/PC do B/PV -- liderança de PCdoB/PV não aprofundada nesta pesquisa (ressalva de cobertura, não achado de limpeza). NOVO: padrinho político José Dirceu (histórico do PT) coordena o grupo que formula o programa de governo da reeleição e pretende ser candidato a deputado federal por SP com R$1,1 milhão do PT. Foi condenado no Mensalão e na Lava Jato/Petrolão -- todas as condenações depois anuladas pelo STF (Gilmar Mendes), mesmo padrão de anulação processual (não absolvição de mérito) visto no caso do próprio Lula.",
+      "vice": {
+        "nome": "Geraldo Alckmin",
+        "partido": "PSB",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "padrinho_politico": {
+        "nome": "José Dirceu",
+        "papel": "Coordena grupo que formula o programa de governo da reeleição; figura histórica do PT",
+        "pendencia": "Condenado no Mensalão e na Lava Jato/Petrolão; condenações anuladas pelo STF por vício processual, não por absolvição de mérito"
+      },
+      "partidos_coligacao_relevantes": [
+        "PT",
+        "PCdoB",
+        "PV"
+      ],
+      "fontes": [
+        "https://www.jota.info/eleicoes/eleicoes-2026/lula-confirma-alckmin-como-vice-na-chapa-para-as-eleicoes-2026",
+        "https://www.gazetadopovo.com.br/republica/decisao-mendes-espaco-jose-dirceu-disputar-eleicao-2026/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "apoiadores": [
+        {
+          "nome": "Geraldo Alckmin",
+          "partido": "PSB",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice-presidente na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "José Dirceu",
+          "partido": "PT",
+          "tipo_ligacao": "padrinho_politico",
+          "ligacao_detalhe": "coordena o grupo que formula o programa de governo da reeleição",
+          "tipo_pendencia": "condenacao_criminal_anulada_por_vicio_processual",
+          "pendencia": "Condenado e preso no Mensalão e na Lava Jato; condenações anuladas pelo STF por vício processual, não por absolvição de mérito",
+          "desconto": 5,
+          "contado": true,
+          "achados": [
+            {
+              "categoria": "condenacao_criminal_pena_cumprida",
+              "descricao": "Mensalão e Lava Jato; condenações anuladas pelo STF por vício processual, não por absolvição de mérito"
+            }
+          ]
+        },
+        {
+          "nome": "Edinho Silva",
+          "partido": "PT",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do PT, partido do candidato",
+          "tipo_pendencia": "investigacao_arquivada_sem_denuncia",
+          "pendencia": "Inquérito da Lava Jato trancado pelo TRE-DF por excesso de prazo, sem denúncia. PESQUISADO EM 21/09, DEPOIS do cálculo original: contá-lo reduziria a nota de 6 para 5 -- decisão pendente do usuário",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "João Campos",
+          "partido": "PSB",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PSB, partido do vice Alckmin",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência encontrada (busca geral)",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "280002539826": {
+      "nome_urna": "ZEMA",
+      "cargo_pretendido": "PRESIDENTE",
+      "nota": 10,
+      "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): Antes 9. O ponto descontado não tinha nenhum achado registrado (a nota 9 vinha com 'vice em aberto' e 'nenhum achado contra a liderança do NOVO'), e o vice já foi definido: Eduardo Girão (Novo), sem pendência encontrada. Nota 10. || Texto anterior: Vice ainda NÃO definido; nome cotado é Joaquim Barbosa (ex-ministro do STF, símbolo de combate à corrupção -- seria um sinal forte se confirmado). Nenhum achado contra a liderança nacional do NOVO (Eduardo Ribeiro).",
+      "vice": {
+        "nome": "Eduardo Girão",
+        "partido": "NOVO",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [
+        "NOVO"
+      ],
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/sem-vice-definido-novo-confirma-zema-na-disputa-pela-presidencia/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "apoiadores": [
+        {
+          "nome": "Eduardo Ribeiro",
+          "partido": "NOVO",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do NOVO, partido do candidato",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Eduardo Girão",
+          "partido": "NOVO",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "senador, vice na chapa (oficializado em 04/08/2026)",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência judicial encontrada na busca",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "280002552484": {
+      "nome_urna": "CLARIANA BARAO",
+      "cargo_pretendido": "PRESIDENTE",
+      "nota": 10,
+      "motivo": "Vice Fabiana Torquato (DC) sem pendência encontrada. Chapa 100% feminina.",
+      "vice": {
+        "nome": "Fabiana Torquato",
+        "partido": "DC",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-o-perfil-e-as-propostas-de-clariana-barao-dc"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Fabiana Torquato",
+          "partido": "DC",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "280002538811": {
+      "nome_urna": "SAMARA",
+      "cargo_pretendido": "PRESIDENTE",
+      "nota": 10,
+      "motivo": "Vice Raquel Bricio (UP) sem pendência encontrada. Chapa 100% feminina.",
+      "vice": {
+        "nome": "Raquel Bricio",
+        "partido": "UP",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-samara-martins-unica-pre-candidata-mulher-a-presidencia/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Raquel Bricio",
+          "partido": "UP",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "280002548139": {
+      "nome_urna": "VETERINÁRIO WILSON GRASSI",
+      "cargo_pretendido": "PRESIDENTE",
+      "nota": 10,
+      "motivo": "Vice Suêd Haidar (presidente/fundadora do Democrata) sem pendência encontrada.",
+      "vice": {
+        "nome": "Suêd Haidar",
+        "partido": "DEMOCRATA",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/br/presidente/veterinario-wilson-grassi-democrata-35/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Suêd Haidar",
+          "partido": "DEMOCRATA",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "280002541457": {
+      "nome_urna": "HERTZ DIAS",
+      "cargo_pretendido": "PRESIDENTE",
+      "nota": 10,
+      "motivo": "Vice professora Vanessa Portugal (PSTU) sem pendência encontrada.",
+      "vice": {
+        "nome": "Vanessa Portugal",
+        "partido": "PSTU",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-hertz-dias-candidato-a-presidencia-pelo-pstu/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Vanessa Portugal",
+          "partido": "PSTU",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "280002551975": {
+      "nome_urna": "EDMILSON COSTA",
+      "cargo_pretendido": "PRESIDENTE",
+      "nota": 10,
+      "motivo": "Vice Cleusa Santos (PCB) sem pendência encontrada.",
+      "vice": {
+        "nome": "Cleusa Santos",
+        "partido": "PCB",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://www.correiobraziliense.com.br/politica/2026/08/7489262-quem-e-edmilson-costa-candidato-a-presidencia-pelo-pcb.html"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Cleusa Santos",
+          "partido": "PCB",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "280002551547": {
+      "nome_urna": "ESCRITOR AUGUSTO CURY",
+      "cargo_pretendido": "PRESIDENTE",
+      "nota": 7,
+      "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): Antes 8. Delgado (citado em delação, arquivado sem denúncia) passa a -1, o mesmo peso de citações equivalentes na tabela (Tarcísio/Dnit, Renan Filho); e entra Luis Tibé, presidente do Avante, partido do candidato, condenado por improbidade civil em 2015 (-2), pesquisado depois. Total 10-1-2 = 7. || Texto anterior: Vice Júlio Delgado (Avante) foi citado em 2015 na delação de Ricardo Pessoa (UTC Engenharia) como suposto beneficiário do esquema Petrobras/Lava Jato -- o então PGR Janot pediu o arquivamento do inquérito por falta de provas, sem denúncia formal.",
+      "vice": {
+        "nome": "Júlio Delgado",
+        "partido": "AVANTE",
+        "pendencia": "Inquérito arquivado sem denúncia (citado em delação de 2015)"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://www.camara.leg.br/noticias/463343-julio-delgado-nega-envolvimento-em-esquema-denunciado-por-ricardo-pessoa"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "apoiadores": [
+        {
+          "nome": "Júlio Delgado",
+          "partido": "AVANTE",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice-presidente na chapa",
+          "tipo_pendencia": "citado_ou_apuracao_preliminar",
+          "pendencia": "Citado em delação de 2015; inquérito arquivado por falta de provas, sem denúncia",
+          "desconto": 1,
+          "contado": true,
+          "achados": [
+            {
+              "categoria": "citado_ou_apuracao_preliminar",
+              "descricao": "Citado em 2015 na delação de Ricardo Pessoa (UTC); o PGR Janot pediu arquivamento por falta de provas"
+            }
+          ]
+        },
+        {
+          "nome": "Luis Tibé",
+          "partido": "AVANTE",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do Avante, partido do candidato",
+          "tipo_pendencia": "condenacao_civil",
+          "pendencia": "Condenado por improbidade civil em 2015 (verba indenizatória da Câmara de BH); dívida quitada e extinção pedida pelo MPMG; sem pendência penal",
+          "desconto": 2,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "280002540694": {
+      "nome_urna": "RENAN SANTOS",
+      "cargo_pretendido": "PRESIDENTE",
+      "nota": 7,
+      "motivo": "Vice Aroldo Medina (coronel reformado, Missão) sem pendência. O círculo político se resume em grande parte ao próprio Renan Santos, que preside o partido -- já avaliado na nota de idoneidade pessoal dele. NOVO: financiamento da campanha/MBL articulado por José Olympio Pereira (ex-presidente do Banco Safra, ex-CEO do Credit Suisse Brasil) -- nenhuma pendência pessoal encontrada nele. Há rumores recorrentes, não comprovados, de financiamento internacional via Atlas Network; o movimento nega repasse direto e confirma apenas cooperação com a Juventude do PSDB.",
+      "vice": {
+        "nome": "Aroldo Medina",
+        "partido": "MISSÃO",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "padrinho_politico": {
+        "nome": "José Olympio Pereira",
+        "papel": "Articula apoio empresarial à campanha/MBL",
+        "pendencia": "Nenhuma encontrada; rumores não comprovados de financiamento via Atlas Network"
+      },
+      "partidos_coligacao_relevantes": [
+        "MISSÃO"
+      ],
+      "fontes": [
+        "https://apublica.org/2026/07/partido-missao-o-projeto-de-poder-de-renan-santos-e-do-mbl/"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "apoiadores": [
+        {
+          "nome": "Aroldo Medina",
+          "partido": "MISSÃO",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice-presidente na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "José Olympio Pereira",
+          "partido": null,
+          "tipo_ligacao": "padrinho_politico",
+          "ligacao_detalhe": "articula o financiamento empresarial da campanha/MBL",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência pessoal; rumores de financiamento via Atlas Network são NÃO comprovados e não foram contados",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": [
+        {
+          "motivo": "Renan preside o próprio partido (Missão), com ação civil pública do MPF e condenação cível já contadas na idoneidade pessoal; desconto leve para não duplicar",
+          "desconto": 3
+        }
+      ]
+    },
+    "280002552487": {
+      "nome_urna": "RUI COSTA PIMENTA",
+      "cargo_pretendido": "PRESIDENTE",
+      "nota": 7,
+      "motivo": "Vice Antônio Carlos Silva (professor, PCO) sem pendência. O PCO, que ele próprio dirige, tem histórico recorrente de contas rejeitadas no TSE -- parcialmente já contabilizado na nota de idoneidade pessoal dele.",
+      "vice": {
+        "nome": "Antônio Carlos Silva",
+        "partido": "PCO",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [
+        "PCO"
+      ],
+      "fontes": [
+        "https://www.tse.jus.br/partidos/contas-partidarias/prestacao-de-contas/relacao-de-processos/relacao-de-processos-partido-pco",
+        "https://www.brasil247.com/brasil/pco-acusa-tse-de-sabotagem-por-bloqueio-de-fundo-eleitoral-durante-campanha"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Antônio Carlos Silva",
+          "partido": "PCO",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice-presidente na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": [
+        {
+          "motivo": "O PCO, que ele dirige, tem histórico recorrente de contas rejeitadas no TSE; desconto leve para não duplicar a idoneidade pessoal",
+          "desconto": 3
+        }
+      ]
+    },
+    "280002551544": {
+      "nome_urna": "FLAVIO BOLSONARO",
+      "cargo_pretendido": "PRESIDENTE",
+      "nota": 0,
+      "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): Vice definido: Alfredo Gaspar (PL-AL), com pedido de investigação da PF pendente no STF (-1); o padrinho Jair Bolsonaro agora é medido pela mesma tabela da idoneidade pessoal (prisão cumprida -5 e inelegibilidade vigente -6). A nota segue 0 (piso). || Texto anterior: RECALCULADA em 2026-09-20 após pesquisa específica de padrinho político. Vice ainda NÃO definido -- e quem decide é o próprio padrinho: Jair Bolsonaro, condenado pelo STF a 27 anos e 3 meses de prisão (11/09, 4x1) por trama golpista ligada aos atos de 8/1/2023, cumprindo pena em regime fechado (prisão preventiva tornada definitiva) e inelegível até 2060 com trânsito em julgado -- mesmo assim segue sendo quem escolhe o vice da chapa. Some-se o presidente nacional do PL, Valdemar Costa Neto, condenado e preso por corrupção/lavagem no Mensalão (2012, indultado em 2016). É o círculo político mais grave do projeto: o padrinho decisivo da chapa é um condenado por tentativa de golpe de Estado, cumprindo pena.",
+      "vice": {
+        "nome": "Alfredo Gaspar",
+        "partido": "PL",
+        "pendencia": "Pedido de investigação da PF no STF (sem inquérito aberto); ele nega"
+      },
+      "padrinho_politico": {
+        "nome": "Jair Bolsonaro",
+        "papel": "Pai; decide o vice da chapa presidencial de Flávio",
+        "pendencia": "Condenado a 27 anos e 3 meses de prisão por trama golpista (STF, 11/09/2026, transitado em julgado); preso em regime fechado; inelegível até 2060"
+      },
+      "partidos_coligacao_relevantes": [
+        "PL"
+      ],
+      "fontes": [
+        "https://www.metropoles.com/brasil/bolsonaro-vai-indicar-o-vice-de-flavio-afirma-valdemar-costa-neto",
+        "https://www.gazetadopovo.com.br/republica/silenciado-e-preso-pelo-stf-jair-bolsonaro-seguira-como-fiador-da-direita-em-2026/",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/bolsonaro-pode-ficar-inelegivel-ate-2060-apos-condenacao"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "apoiadores": [
+        {
+          "nome": "Alfredo Gaspar",
+          "partido": "PL",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "deputado federal por AL, vice na chapa (registrada no TSE)",
+          "tipo_pendencia": "citado_ou_apuracao_preliminar",
+          "pendencia": "PF pediu ao STF autorização para investigar acusação de estupro de vulnerável feita por parlamentares adversários (Lindbergh Farias e Soraya Thronicke); não há inquérito aberto (pedido parado, aguardando a PGR); ele nega e diz ser o maior interessado na apuração. Não é inquérito nem denúncia",
+          "desconto": 1,
+          "contado": true,
+          "achados": [
+            {
+              "categoria": "citado_ou_apuracao_preliminar",
+              "descricao": "PF pediu ao STF autorização para investigar acusação de estupro de vulnerável feita por parlamentares adversários; o STF NÃO abriu inquérito (aguarda a PGR, relator Gilmar Mendes)"
+            }
+          ]
+        },
+        {
+          "nome": "Jair Bolsonaro",
+          "partido": "PL",
+          "tipo_ligacao": "padrinho_politico",
+          "ligacao_detalhe": "pai; decide a chapa presidencial de Flávio",
+          "tipo_pendencia": "condenacao_criminal_confirmada",
+          "pendencia": "Condenado a 27 anos e 3 meses por trama golpista (STF, 11/09/2026, transitado em julgado); preso em regime fechado; inelegível até 2060",
+          "desconto": 11,
+          "contado": true,
+          "achados": [
+            {
+              "categoria": "condenacao_criminal_pena_cumprida",
+              "descricao": "27 anos e 3 meses por trama golpista, cumprindo pena em regime fechado"
+            },
+            {
+              "categoria": "inelegibilidade_vigente",
+              "descricao": "Inelegível até 2060, com trânsito em julgado"
+            }
+          ]
+        },
+        {
+          "nome": "Valdemar Costa Neto",
+          "partido": "PL",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do PL, partido do candidato",
+          "tipo_pendencia": "condenacao_criminal_confirmada",
+          "pendencia": "Condenado e preso no Mensalão (2012); indultado em 2016",
+          "desconto": 4,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "280002554479": {
+      "nome_urna": "LEONARDO AVALANCHE",
+      "cargo_pretendido": "PRESIDENTE",
+      "nota": 2,
+      "motivo": "O próprio círculo é o problema: é réu por fraude no fundo eleitoral do próprio partido (PRTB), que ele preside -- não há distinção entre 'candidato' e 'círculo' neste caso.",
+      "vice": {
+        "nome": null,
+        "partido": "PRTB",
+        "pendencia": "N/A -- ele mesmo é o problema do círculo"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://ndmais.com.br/politica/vice-de-marcal-saiba-quem-e-leonardo-avalanche-presidente-prtb/",
+        "https://www.brasildefato.com.br/2026/08/20/vice-de-marcal-e-reu-por-associacao-criminosa-violencia-politica-de-genero-e-fraude-no-prtb/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [],
+      "descontos_adicionais": [
+        {
+          "motivo": "Réu por fraude no fundo eleitoral do PRTB, que ele próprio preside: candidato e círculo coincidem",
+          "desconto": 8
+        }
+      ]
+    },
+    "280002551932": {
+      "nome_urna": "RONALDO CAIADO",
+      "cargo_pretendido": "PRESIDENTE",
+      "nota": 5,
+      "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): Antes 4. Uma pessoa não pode pesar o dobro só por ser vice: o vice Kassab valia -6 ('vice réu'), mas na tabela de idoneidade pessoal, réu em ação penal vale -3 e condenação civil de 1ª instância -2. Total 10-5 = 5. || Texto anterior: Vice Gilberto Kassab (presidente nacional do PSD) é réu ATIVO desde 2021 por corrupção passiva, lavagem de dinheiro, caixa 2 eleitoral e associação criminosa (R$16,5 milhões da JBS via contratos simulados), além de condenação por improbidade administrativa como ex-prefeito de SP. É o vice em si, não um aliado periférico.",
+      "vice": {
+        "nome": "Gilberto Kassab",
+        "partido": "PSD",
+        "pendencia": "Réu ativo desde 2021 (corrupção/lavagem/caixa2/associação criminosa) + condenação por improbidade"
+      },
+      "partidos_coligacao_relevantes": [
+        "PSD"
+      ],
+      "fontes": [
+        "https://www.correiobraziliense.com.br/politica/2021/03/4911463-kassab-vira-reu-por-corrupcao-caixa-2-e-lavagem-de-rs-165-milhoes-da-jbs.html"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "apoiadores": [
+        {
+          "nome": "Gilberto Kassab",
+          "partido": "PSD",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice-presidente na chapa; também preside o PSD",
+          "tipo_pendencia": "reu_acao_penal+condenacao_civil",
+          "pendencia": "Réu ativo desde 2021 (corrupção/lavagem/caixa 2/associação criminosa) + condenação CIVIL por improbidade (status não confirmado). Sem condenação penal",
+          "desconto": 5,
+          "contado": true,
+          "achados": [
+            {
+              "categoria": "reu_acao_penal",
+              "descricao": "Réu ativo desde 2021 (corrupção passiva, lavagem, caixa 2, associação criminosa; R$ 16,5 mi da JBS)"
+            },
+            {
+              "categoria": "condenacao_1a_instancia_recorrivel",
+              "descricao": "Condenação civil por improbidade como ex-prefeito de SP; instância e status atual não confirmados, tratada como 1ª instância"
+            }
+          ]
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "190002543380": {
+      "nome_urna": "EDUARDO PAES",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 6,
+      "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): Vice definido: Jane Reis (MDB), irmã do presidente estadual do MDB-RJ, Washington Reis, condenado criminalmente (-4). Kassab passa de 'aliado' a presidente do partido do candidato (o PSD é o partido de Paes). Renata Abreu (Podemos), Paulinho da Força (Solidariedade) e João Campos (PSB) foram pesquisados depois. A soma dos caciques passa muito do teto de -4, então a nota segue 6. Coligação: PSD, MDB, Podemos, PDT, PSB, PT/PCdoB/PV, PSDB/Cidadania, DC, PRD/Solidariedade; PCdoB, PV, DC, PRD e Cidadania NÃO verificados. || Texto anterior: REVISADA em 2026-09-21 (nota final segue 6, mas a decomposição mudou). Regra anterior: -4 só pelo PSD/Kassab. Regra revisada: Kassab vale -2 (réu sem sentença penal + condenação civil), mas agora entram também os caciques de PT (Edinho Silva, -1), PDT (Lupi, -1) e MDB (Baleia Rossi, -1) da coligação, pesquisados depois -- soma 5, limitada ao teto de -4. PSDB (Aécio) sem pendência ativa. Vice ainda não definido (3 nomes cotados, sem pendência). PSB, PCdoB, PV, DC, PRD e Solidariedade NÃO aprofundados (ressalva de cobertura). Texto original: Coligação ampla ('Juntos para Mudar -- Coragem para Reconstruir': PDT, MDB, DC, PSB, PSD, Fed. PSDB/Cidadania, Fed. PT/PCdoB/PV, Fed. PRD/Solidariedade) inclui o PSD, cujo presidente nacional é Gilberto Kassab -- o mesmo réu por corrupção/lavagem/caixa2 que aparece na chapa de Caiado à Presidência. Vice ainda não definido (3 nomes cotados, sem pendência encontrada).",
+      "vice": {
+        "nome": "Jane Reis",
+        "partido": "MDB",
+        "pendencia": "Nenhuma pessoal encontrada; irmã de Washington Reis (MDB-RJ, condenado)"
+      },
+      "partidos_coligacao_relevantes": [
+        "PSD",
+        "PT",
+        "PCdoB",
+        "PV"
+      ],
+      "fontes": [
+        "https://platobr.com.br/os-nomes-aventados-para-a-vice-de-eduardo-paes-em-2026"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "apoiadores": [
+        {
+          "nome": "Gilberto Kassab",
+          "partido": "PSD",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "preside o PSD, partido do candidato",
+          "tipo_pendencia": "reu_acao_penal",
+          "pendencia": "Réu ativo desde 2021 (corrupção/lavagem/caixa 2/associação criminosa) + condenação civil por improbidade. Sem condenação penal",
+          "desconto": 2,
+          "contado": true
+        },
+        {
+          "nome": "Edinho Silva",
+          "partido": "PT",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PT, na Fed. PT/PCdoB/PV da coligação",
+          "tipo_pendencia": "investigacao_arquivada_sem_denuncia",
+          "pendencia": "Inquérito da Lava Jato trancado por excesso de prazo, sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "Carlos Lupi",
+          "partido": "PDT",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PDT, partido da coligação",
+          "tipo_pendencia": "delatado_sem_denuncia",
+          "pendencia": "Delatado por ex-dirigentes do INSS na fraude dos descontos; sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "Baleia Rossi",
+          "partido": "MDB",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o MDB, partido da coligação",
+          "tipo_pendencia": "investigado_sem_denuncia",
+          "pendencia": "Citado em inquérito sigiloso do STF (fraudes em Ribeirão Preto e delação da JBS); status atual não confirmado",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PSDB, na Fed. PSDB/Cidadania da coligação",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência ativa encontrada (INQ 4830 arquivado em 2024)",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Jane Reis",
+          "partido": "MDB",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "advogada do MDB da Baixada Fluminense, irmã de Washington Reis; vice na chapa (justificada por ser mulher, evangélica e da Baixada)",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência pessoal encontrada (a pesquisa se concentrou no irmão)",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Washington Reis",
+          "partido": "MDB",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "presidente estadual do MDB-RJ e irmão da vice; ex-prefeito de Duque de Caxias",
+          "tipo_pendencia": "condenacao_criminal_confirmada",
+          "pendencia": "Condenado a 7 anos por crime ambiental e parcelamento irregular do solo (mantida pelo STF em 2016) e a 3 anos e 7 meses por fraude imobiliária; inelegível na eleição anterior",
+          "desconto": 4,
+          "contado": true
+        },
+        {
+          "nome": "Renata Abreu",
+          "partido": "PODEMOS",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o Podemos, partido da coligação",
+          "tipo_pendencia": "investigado_sem_denuncia",
+          "pendencia": "Inquérito eleitoral sobre as contas de campanha de 2018; o MPE ofereceu acordo de não persecução penal (aceite não confirmado); sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "Paulinho da Força",
+          "partido": "SOLIDARIEDADE",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o Solidariedade, na Fed. PRD/Solidariedade da coligação",
+          "tipo_pendencia": "investigado_sem_denuncia",
+          "pendencia": "Inquérito no STF (relator Mendonça) sobre suposta captação de clientes para ações trabalhistas; sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "João Campos",
+          "partido": "PSB",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PSB, partido da coligação",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência encontrada (busca geral)",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "190002550196": {
+      "nome_urna": "GAROTINHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 1,
+      "motivo": "RECALCULADA em 2026-09-20 após pesquisa de padrinho político. Trocou de vice três vezes em menos de um mês (Venâncio Moura/DC -> Elaine Gonçalves/Democrata -> André Monteiro/Democrata, ex-BOPE) -- nenhuma pendência de corrupção nos nomes em si, mas a instabilidade sinaliza fragilidade real da aliança (-2). Marcos Pereira (presidente do Republicanos) sem pendência encontrada. NOVO: seu padrinho político explicitamente identificado é Waguinho (prefeito de Belford Roxo) -- réu por fraude em licitação (contratação de combate à dengue, denúncia aceita) (-3) e com CONDENAÇÃO por improbidade administrativa MANTIDA em 2ª instância pelo TJRJ (desvio de verba do Fundeb para passagens aéreas) (-4), com indisponibilidade de bens de até R$428 milhões decretada pela Justiça.",
+      "vice": {
+        "nome": "André Monteiro",
+        "partido": "DEMOCRATA",
+        "pendencia": "Nenhuma pessoal; terceira troca de vice em <1 mês"
+      },
+      "padrinho_politico": {
+        "nome": "Waguinho (Wagner dos Santos Carneiro)",
+        "papel": "Prefeito de Belford Roxo; padrinho político explicitamente identificado de Garotinho no Republicanos",
+        "pendencia": "Réu por fraude em licitação; condenação por improbidade administrativa mantida em 2ª instância (desvio de verba do Fundeb); R$428 milhões em bens indisponibilizados"
+      },
+      "partidos_coligacao_relevantes": [
+        "REPUBLICANOS"
+      ],
+      "fontes": [
+        "https://exame.com/brasil/eleicoes-2026-garotinho-troca-de-vice-pela-terceira-vez-na-corrida-ao-governo-do-rio/",
+        "https://www.gazetadopovo.com.br/eleicoes/2026/rio-de-janeiro/pl-tenta-trocar-candidato-no-rio-por-garotinho-para-ganhar-apoio-nacional-do-republicanos/",
+        "https://www.noticiasdebelfordroxo.com/2026/04/tjrj-mantem-condenacao-de-waguinho-por.html",
+        "https://www.metropoles.com/colunas/tacio-lorran/justica-do-rj-torna-waguinho-reu-em-caso-de-fraude-a-licitacao"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "apoiadores": [
+        {
+          "nome": "André Monteiro",
+          "partido": "DEMOCRATA",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "3º vice da chapa em menos de um mês",
+          "tipo_pendencia": "instabilidade_da_chapa",
+          "pendencia": "Nenhuma pendência pessoal; a instabilidade está nos descontos adicionais",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Marcos Pereira",
+          "partido": "REPUBLICANOS",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do Republicanos, partido do candidato",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Waguinho (Wagner dos Santos Carneiro)",
+          "partido": "REPUBLICANOS",
+          "tipo_ligacao": "padrinho_politico",
+          "ligacao_detalhe": "prefeito de Belford Roxo; padrinho explicitamente identificado do candidato no partido",
+          "tipo_pendencia": "reu_acao_penal+condenacao_civil_2a_instancia",
+          "pendencia": "Réu por fraude em licitação (-3); condenação por improbidade mantida em 2ª instância pelo TJRJ, desvio do Fundeb (-4); R$ 428 mi em bens indisponíveis",
+          "desconto": 7,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": [
+        {
+          "motivo": "Instabilidade da chapa: 3 trocas de vice em menos de um mês (Venâncio Moura/DC -> Elaine Gonçalves/Democrata -> André Monteiro/Democrata)",
+          "desconto": 2
+        }
+      ]
+    },
+    "190002542887": {
+      "nome_urna": "DOUGLAS RUAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 0,
+      "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): Antes 1. Castro inelegível vigente passa a -6, o peso da tabela de idoneidade pessoal (era -5); Luis Tibé (Avante), pesquisado depois, entra dentro do teto de -4 dos caciques. Total 10-4-6 = 0. || Texto anterior: RECALCULADA em 2026-09-20 após pesquisa de padrinho político. Coligação 'Rio Real' (PL, Mobiliza, Agir, Avante) tem como cacique nacional do PL o mesmo Valdemar Costa Neto (condenado e preso no Mensalão, indultado em 2016) que aparece na chapa de Flávio Bolsonaro (-4). Vice Fernanda Louback (vereadora de Niterói) sem pendência própria. NOVO: seu padrinho político direto é Cláudio Castro -- ex-governador do RJ que o anunciou pessoalmente como candidato ao lado de Flávio Bolsonaro, projetando-o como sucessor. Castro foi declarado inelegível até 2030 pelo TSE por abuso de poder político/econômico (esquema de cargos fantasma na campanha de 2022) (-5).",
+      "vice": {
+        "nome": "Fernanda Louback",
+        "partido": "PL",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "padrinho_politico": {
+        "nome": "Cláudio Castro",
+        "papel": "Ex-governador do RJ; anunciou Douglas Ruas pessoalmente (ao lado de Flávio Bolsonaro) como seu projeto de sucessão no Palácio Guanabara",
+        "pendencia": "Declarado inelegível até 2030 pelo TSE por abuso de poder político/econômico (esquema de cargos fantasma, campanha de 2022)"
+      },
+      "partidos_coligacao_relevantes": [
+        "PL"
+      ],
+      "fontes": [
+        "https://folhadoleste.com.br/exclusivo-fernanda-louback-do-pl-vice-de-douglas-ruas-no-rj/",
+        "https://www.itatiaia.com.br/politica/flavio-bolsonaro-e-claudio-castro-anunciam-douglas-ruas-para-o-governo-do-rio-em-2026/",
+        "https://www.tse.jus.br/comunicacao/noticias/2026/Marco/tse-torna-inelegivel-ex-governador-do-rio-claudio-castro"
+      ],
+      "pesquisado_em": "2026-09-20",
+      "apoiadores": [
+        {
+          "nome": "Fernanda Louback",
+          "partido": "PL",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vereadora de Niterói, vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Valdemar Costa Neto",
+          "partido": "PL",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do PL, partido do candidato",
+          "tipo_pendencia": "condenacao_criminal_confirmada",
+          "pendencia": "Condenado e preso no Mensalão (2012); indultado em 2016",
+          "desconto": 4,
+          "contado": true
+        },
+        {
+          "nome": "Cláudio Castro",
+          "partido": "PL",
+          "tipo_ligacao": "padrinho_politico",
+          "ligacao_detalhe": "ex-governador; anunciou o candidato pessoalmente como seu sucessor",
+          "tipo_pendencia": "inelegibilidade_confirmada_infracao_eleitoral",
+          "pendencia": "Inelegível até 2030 pelo TSE por abuso de poder político/econômico (cargos fantasma, campanha de 2022)",
+          "desconto": 6,
+          "contado": true,
+          "achados": [
+            {
+              "categoria": "inelegibilidade_vigente",
+              "descricao": "Inelegível até 2030 pelo TSE por abuso de poder político/econômico (cargos fantasma, campanha de 2022)"
+            }
+          ]
+        },
+        {
+          "nome": "Luis Tibé",
+          "partido": "AVANTE",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o Avante, partido da coligação 'Rio Real'",
+          "tipo_pendencia": "condenacao_civil",
+          "pendencia": "Condenado por improbidade civil em 2015 (verba indenizatória da Câmara de BH); dívida quitada e extinção pedida pelo MPMG; sem pendência penal",
+          "desconto": 2,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "190002536162": {
+      "nome_urna": "WILLIAM SIRI",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Federação PSOL/Rede. Vice Juliana Carvalho (professora, PSOL) sem pendência. Liderança nacional de PSOL/Rede não aprofundada nesta pesquisa (ressalva de cobertura).",
+      "vice": {
+        "nome": "Juliana Carvalho",
+        "partido": "PSOL",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-william-siri-candidato-ao-governo-do-rio-de-janeiro/",
+        "https://www.cnnbrasil.com.br/eleicoes/psol-oficializa-william-siri-como-pre-candidato-ao-governo-do-rj/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Juliana Carvalho",
+          "partido": "PSOL",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "190002537524": {
+      "nome_urna": "ANDRÉ MARINHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Vice Erigreyce Monteiro (tenente-coronel da PM-RJ, NOVO) sem pendência. Presidente nacional do NOVO (Eduardo Ribeiro) sem achado.",
+      "vice": {
+        "nome": "Erigreyce Monteiro",
+        "partido": "NOVO",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [
+        "NOVO"
+      ],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-andre-marinho-candidato-ao-governo-do-rio-de-janeiro/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Erigreyce Monteiro",
+          "partido": "NOVO",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "190002540198": {
+      "nome_urna": "CYRO GARCIA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Vice Perciliana Costa Rodrigues (PSTU) sem pendência.",
+      "vice": {
+        "nome": "Perciliana Costa Rodrigues",
+        "partido": "PSTU",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://www.tribunanf.com.br/pstu-confirma-candidatura-de-cyro-garcia-ao-governo-do-estado-do-rio/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Perciliana Costa Rodrigues",
+          "partido": "PSTU",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "190002552513": {
+      "nome_urna": "LUAN MONTEIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Vice Caetano Albuquerque Sigiliano (PCO), militante da Aliança da Juventude Revolucionária do partido, sem pendência própria. O PCO nacional (mesmo partido de Rui Costa Pimenta) tem histórico recorrente de contas rejeitadas no TSE.",
+      "vice": {
+        "nome": "Caetano Albuquerque Sigiliano",
+        "partido": "PCO",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [
+        "PCO"
+      ],
+      "fontes": [
+        "https://www.tse.jus.br/partidos/contas-partidarias/prestacao-de-contas/relacao-de-processos/relacao-de-processos-partido-pco",
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-luan-monteiro-candidato-ao-governo-do-rio-de-janeiro/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Caetano Albuquerque Sigiliano",
+          "partido": "PCO",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": [
+        {
+          "motivo": "O PCO tem histórico recorrente de contas rejeitadas no TSE; desconto leve por associação",
+          "desconto": 2
+        }
+      ]
+    },
+    "190002544120": {
+      "nome_urna": "CORONEL BUSNELLO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 9,
+      "motivo": "Vice Rafa Luz (Missão) sem pendência. Partido Missão presidido nacionalmente por Renan Santos -- leve desconto por associação, sem achado novo específico.",
+      "vice": {
+        "nome": "Rafa Luz",
+        "partido": "MISSÃO",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [
+        "MISSÃO"
+      ],
+      "fontes": [
+        "https://apublica.org/2026/07/partido-missao-o-projeto-de-poder-de-renan-santos-e-do-mbl/",
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-coronel-busnello-candidato-ao-governo-do-rio-de-janeiro/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Rafa Luz",
+          "partido": "MISSÃO",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Renan Santos",
+          "partido": "MISSÃO",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do Missão, partido do candidato",
+          "tipo_pendencia": "acao_civil_em_curso",
+          "pendencia": "Ação civil pública do MPF em curso (discurso de ódio contra indígenas) e condenação cível anterior; leve desconto por associação",
+          "desconto": 1,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "190002547272": {
+      "nome_urna": "JULIETE",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Vice psicóloga Bia Martins (UP) sem pendência.",
+      "vice": {
+        "nome": "Bia Martins",
+        "partido": "UP",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://agendadopoder.com.br/up-oficializa-juliete-pantoja-como-candidata-ao-governo-do-rio/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Bia Martins",
+          "partido": "UP",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "250002541303": {
+      "nome_urna": "TARCÍSIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 4,
+      "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): Entram os caciques do próprio partido (Marcos Pereira, sem pendência) e de Podemos, Solidariedade, Avante e Novo, pesquisados depois. Os caciques somam bem acima do teto de -4, então a nota segue 4. PCdoB não se aplica; Cidadania, PRD e PSDB (Aécio, sem pendência ativa) sem desconto. || Texto anterior: REVISADA em 2026-09-21 (antes 0). Base 10, menos: -2 vice Felício Ramuth (MDB) -- réu em ação de improbidade CIVIL (Praia Grande), sem condenação, status após 2023 não confirmado; -4 caciques da coligação, com teto de -4: Valdemar Costa Neto (PL) tem condenação criminal CONFIRMADA no Mensalão (-4, indultado em 2016), Kassab (PSD) é réu sem sentença penal + condenação civil (-2), e Ciro Nogueira (PP), Rueda (União) e Baleia Rossi (MDB) estão só sob investigação ou citação, sem denúncia (-1 cada) -- a soma (9) foi limitada ao teto. Total 10-4-2 = 4. Jair Bolsonaro (condenado, preso) NÃO foi tratado como padrinho: Tarcísio o apoia para Presidente via Flávio, mas a chapa paulista foi articulada por Kassab/Valdemar e não há evidência de que ele decida a campanha. Lideranças de Podemos, Cidadania, Solidariedade, PRD, Avante e Novo NÃO aprofundadas (ressalva de cobertura). O único crime confirmado no círculo é o de Valdemar.",
+      "vice": {
+        "nome": "Felício Ramuth",
+        "partido": "MDB",
+        "pendencia": "Réu em ação de improbidade (Praia Grande, status pós-2023 não confirmado); pedido sobre conta em Andorra arquivado em 04/2026 por prescrição"
+      },
+      "partidos_coligacao_relevantes": [
+        "PSD",
+        "PL",
+        "MDB",
+        "PP",
+        "UNIÃO",
+        "PODEMOS",
+        "PSDB",
+        "CIDADANIA",
+        "SOLIDARIEDADE",
+        "PRD",
+        "AVANTE",
+        "NOVO"
+      ],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/tarcisio-define-chapa-para-disputa-a-reeleicao-veja-nomes/",
+        "https://tribunadejundiai.com.br/politica/eleicoes-2026/tarcisio-de-freitas-reeleicao-sao-paulo/",
+        "https://sampi.net.br/ovale/noticias/2976675/vale-do-paraiba/2026/04/mp-arquiva-pedido-de-investigacao-contra-felicio",
+        "https://istoe.com.br/com-felicio-tarcisio-traz-suspeitas-de-corrupcao-para-sua-campanha",
+        "https://www.gazetadopovo.com.br/eleicoes/2026/sao-paulo-2026/tarcisio-kassab-disputam-base-politica/",
+        "https://www.gazetadopovo.com.br/eleicoes/2026/tarcisio-confirma-bolsonaro-candidatura-reeleicao-sp-apoio-flavio-presidencia/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Felício Ramuth",
+          "partido": "MDB",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice-governador e vice na chapa",
+          "tipo_pendencia": "reu_acao_civil",
+          "pendencia": "Réu em ação de improbidade civil (contratações direcionadas em Praia Grande, 2014-2016; réu desde 2022; status após 2023 NÃO confirmado). Pedido sobre conta em Andorra arquivado em 04/2026 por prescrição. Sem condenação",
+          "desconto": 2,
+          "contado": true,
+          "achados": [
+            {
+              "categoria": "investigacao_ou_acao_civil_em_curso",
+              "descricao": "Réu em ação de improbidade civil (Praia Grande, 2014-2016; réu desde 2022; status após 2023 não confirmado)"
+            }
+          ]
+        },
+        {
+          "nome": "Valdemar Costa Neto",
+          "partido": "PL",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PL, partido da coligação (PL indicou o candidato a senador André do Prado)",
+          "tipo_pendencia": "condenacao_criminal_confirmada",
+          "pendencia": "Condenado e preso no Mensalão (2012); indultado em 2016",
+          "desconto": 4,
+          "contado": true
+        },
+        {
+          "nome": "Gilberto Kassab",
+          "partido": "PSD",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PSD, que apoia a reeleição (as fontes divergem se o PSD está formalmente na coligação)",
+          "tipo_pendencia": "reu_acao_penal",
+          "pendencia": "Réu desde 2021 (corrupção/lavagem/caixa 2/associação criminosa) + condenação civil por improbidade. Sem condenação penal",
+          "desconto": 2,
+          "contado": true
+        },
+        {
+          "nome": "Ciro Nogueira",
+          "partido": "PP",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PP, partido da coligação",
+          "tipo_pendencia": "investigado_sem_denuncia",
+          "pendencia": "Alvo da PF no caso Banco Master, sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "Antonio Rueda",
+          "partido": "UNIÃO",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o União Brasil, partido da coligação",
+          "tipo_pendencia": "investigado_sem_denuncia",
+          "pendencia": "Investigado pela PF na Operação Carbono Oculto (PCC), sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "Baleia Rossi",
+          "partido": "MDB",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o MDB, partido do vice",
+          "tipo_pendencia": "investigado_sem_denuncia",
+          "pendencia": "Citado em inquérito sigiloso do STF (Ribeirão Preto e delação da JBS); status atual não confirmado",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PSDB, partido da coligação",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência ativa encontrada",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Jair Bolsonaro",
+          "partido": "PL",
+          "tipo_ligacao": "apoio_externo",
+          "ligacao_detalhe": "apoia a candidatura; Tarcísio o apoia para Presidente via Flávio",
+          "tipo_pendencia": "condenacao_criminal_confirmada",
+          "pendencia": "Condenado a 27 anos e 3 meses por trama golpista. NÃO contado: a chapa paulista foi articulada por Kassab/Valdemar e não há evidência de que ele decida a campanha",
+          "desconto": 0,
+          "contado": false
+        },
+        {
+          "nome": "Marcos Pereira",
+          "partido": "REPUBLICANOS",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do Republicanos, partido do candidato",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência encontrada",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Renata Abreu",
+          "partido": "PODEMOS",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o Podemos, partido da coligação",
+          "tipo_pendencia": "investigado_sem_denuncia",
+          "pendencia": "Inquérito eleitoral sobre as contas de campanha de 2018; o MPE ofereceu acordo de não persecução penal (aceite não confirmado); sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "Paulinho da Força",
+          "partido": "SOLIDARIEDADE",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o Solidariedade, partido da coligação",
+          "tipo_pendencia": "investigado_sem_denuncia",
+          "pendencia": "Inquérito no STF (relator Mendonça) sobre suposta captação de clientes para ações trabalhistas; sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "Luis Tibé",
+          "partido": "AVANTE",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o Avante, partido da coligação",
+          "tipo_pendencia": "condenacao_civil",
+          "pendencia": "Condenado por improbidade civil em 2015 (verba indenizatória da Câmara de BH); dívida quitada e extinção pedida pelo MPMG; sem pendência penal",
+          "desconto": 2,
+          "contado": true
+        },
+        {
+          "nome": "Eduardo Ribeiro",
+          "partido": "NOVO",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o Novo, partido da coligação",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "250002549705": {
+      "nome_urna": "FERNANDO HADDAD",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 1,
+      "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): Antes 2. Márcio França (condenação por improbidade parcialmente revertida em instância superior) passa a valer -2, o peso da tabela para condenação revertida (era -1); Lula como padrinho passa a acompanhar a idoneidade dele (10 - 5 = 5). Total 10-5-2-2 = 1. || Texto anterior: Base 10, menos: -5 padrinho Lula -- foi Lula quem conduziu a negociação com o PSB e decidiu o vice de Haddad, após reunião em Brasília (mesmo critério aplicado a Cláudio Castro/Ruas e Bolsonaro/Flávio); Lula foi condenado e preso 580 dias, condenações anuladas pelo STF por vício processual, não por absolvição de mérito (ver idoneidade dele); -1 vice Márcio França (PSB) -- condenado por improbidade (contratação de 154 servidores sem licitação, São Vicente, 1997-2000), com STJ afastando multa e inelegibilidade em 2014 (perda de função ficou, sem efeito prático hoje; nunca o impediu de disputar e ocupar cargos); -1 Edinho Silva (presidente do PT desde jul/2025) -- inquérito da Lava Jato (delação de Ricardo Pessoa/UTC, R$ 7,5 mi) trancado pelo TRE-DF por excesso de prazo, sem denúncia, sem julgamento de mérito; -1 Carlos Lupi (presidente do PDT, na coligação) -- delatado por ex-dirigentes do INSS na fraude dos descontos em aposentadorias (deixou o ministério em maio/2025); sem denúncia até a pesquisa. Total 10-5-1-1-1 = 2. Coligação 'Desperta São Paulo' (FE Brasil = PT/PCdoB/PV, PSB, PSOL, Rede, PDT); lideranças de PSOL, Rede, PSB, PCdoB e PV NÃO aprofundadas (ressalva de cobertura, não achado de limpeza).",
+      "vice": {
+        "nome": "Márcio França",
+        "partido": "PSB",
+        "pendencia": "Condenado por improbidade (São Vicente, 1997-2000); STJ removeu multa e inelegibilidade em 2014"
+      },
+      "padrinho_politico": {
+        "nome": "Lula",
+        "papel": "Conduziu a negociação com o PSB e decidiu o vice de Haddad",
+        "pendencia": "Condenado e preso 580 dias; condenações anuladas por vício processual (ver idoneidade.json)"
+      },
+      "partidos_coligacao_relevantes": [
+        "PT",
+        "PCdoB",
+        "PV",
+        "PSB",
+        "PSOL",
+        "REDE",
+        "PDT"
+      ],
+      "fontes": [
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/pt-lanca-candidatura-de-fernando-haddad-ao-governo-de-sao-paulo",
+        "https://revistaoeste.com/no-ponto/decisao-sobre-vice-de-haddad-foi-de-lula-e-contrariou-marcio-franca/",
+        "https://www.jota.info/eleicoes/eleicoes-2026/apos-reuniao-com-lula-franca-aceita-ser-vice-de-haddad-em-sao-paulo",
+        "https://www.meon.com.br/noticias/stj-mantem-condenacao-por-improbidade-de-marcio-franca",
+        "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/",
+        "https://www.metropoles.com/colunas/andreza-matais/dirigentes-do-inss-delataram-carlos-lupi-ex-ministro-da-previdencia-de-lula"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Márcio França",
+          "partido": "PSB",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa; escolhido por Lula após negociação com o PSB",
+          "tipo_pendencia": "condenacao_parcialmente_revertida",
+          "pendencia": "Condenado por improbidade (contratação de 154 servidores sem licitação, São Vicente, 1997-2000); STJ removeu multa e inelegibilidade em 2014, perda de função sem efeito prático",
+          "desconto": 2,
+          "contado": true,
+          "achados": [
+            {
+              "categoria": "condenacao_revertida",
+              "descricao": "Improbidade em São Vicente (1997-2000); STJ removeu multa e inelegibilidade em 2014; a perda de função ficou, sem efeito prático"
+            }
+          ]
+        },
+        {
+          "nome": "Lula",
+          "partido": "PT",
+          "tipo_ligacao": "padrinho_politico",
+          "ligacao_detalhe": "escolheu o vice e conduziu a negociação da chapa com o PSB",
+          "tipo_pendencia": "condenacao_criminal_anulada_por_vicio_processual",
+          "pendencia": "Condenado e preso 580 dias; condenações anuladas pelo STF por vício processual, não por absolvição de mérito",
+          "desconto": 5,
+          "contado": true,
+          "idoneidade_ref": "280002542548"
+        },
+        {
+          "nome": "Edinho Silva",
+          "partido": "PT",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do PT, partido do candidato",
+          "tipo_pendencia": "investigacao_arquivada_sem_denuncia",
+          "pendencia": "Inquérito da Lava Jato trancado por excesso de prazo, sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "Carlos Lupi",
+          "partido": "PDT",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PDT, partido da coligação",
+          "tipo_pendencia": "delatado_sem_denuncia",
+          "pendencia": "Delatado por ex-dirigentes do INSS na fraude dos descontos; sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "João Campos",
+          "partido": "PSB",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PSB, partido da coligação",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência encontrada (busca geral)",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Paula Coradi",
+          "partido": "PSOL",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PSOL, partido da coligação",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência encontrada (busca geral)",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "250002550913": {
+      "nome_urna": "CARLOS MACHADO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Vice Felipe Queiroz (PCB) sem pendência encontrada. Chapa sem coligação.",
+      "vice": {
+        "nome": "Felipe Queiroz",
+        "partido": "PCB",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://www.metropoles.com/sao-paulo/pcb-candidato-governo-sao-paulo"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Felipe Queiroz",
+          "partido": "PCB",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "250002536915": {
+      "nome_urna": "VERA LÚCIA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Vice Renata França (PSTU) sem pendência encontrada. Chapa sem coligação.",
+      "vice": {
+        "nome": "Renata França",
+        "partido": "PSTU",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://almapreta.com.br/sessao/politica/vera-lucia-pstu-governo-sp/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Renata França",
+          "partido": "PSTU",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "250002553062": {
+      "nome_urna": "IZADORA DIAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Vice Nivaldo Orlandi (PCO) sem pendência encontrada. O PCO nacional (mesmo partido de Rui Costa Pimenta) tem histórico recorrente de contas rejeitadas no TSE -- e agora o problema de contas do diretório estadual de SP ameaça o registro dela e de ~28 candidatos do partido (já descontado na idoneidade pessoal dela; aqui só o leve desconto por associação, mesmo critério de Luan Monteiro/RJ).",
+      "vice": {
+        "nome": "Nivaldo Orlandi",
+        "partido": "PCO",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [
+        "PCO"
+      ],
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/sao-paulo-2026/quem-sao-candidatos-governador-sao-paulo-2026/",
+        "https://causaoperaria.org.br/2026/tre-sp-persegue-o-pco-as-vesperas-da-eleicao/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Nivaldo Orlandi",
+          "partido": "PCO",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": [
+        {
+          "motivo": "O PCO tem histórico recorrente de contas rejeitadas no TSE e o problema de contas do diretório estadual de SP ameaça o registro dela",
+          "desconto": 2
+        }
+      ]
+    },
+    "250002548080": {
+      "nome_urna": "POLICIAL EDJANE",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Instabilidade visível na chapa (-2), sem achado de corrupção: a primeira vice, Renata Bolsonaro, deixou para disputar deputada federal; a substituta, Professora Nayr Duarte (Agir), também renunciou (para deputada) e essa renúncia motivou o indeferimento da chapa pelo TRE-SP em 18/09/2026. Depois disso o Agir passou a apoiar Tarcísio. Liderança nacional do Agir NÃO pesquisada (ressalva de cobertura).",
+      "vice": {
+        "nome": "Nayr Duarte",
+        "partido": "AGIR",
+        "pendencia": "Renunciou à vice (2ª troca de vice); sem pendência de corrupção"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://www.piranot.com.br/2026/09/18/noticias/politica/eleicoes/agir-apoia-tarcisio-tre-sp-indefere-chapa-policial-edjane/",
+        "https://www.cnnbrasil.com.br/eleicoes/tre-rejeita-candidatura-de-policial-edjane-ao-governo-de-sp/",
+        "https://www.terra.com.br/noticias/brasil/politica/policial-edjane-registra-candidatura-ao-governo-de-sao-paulo-e-nao-declara-possuir-bens,26f409727ff030f1ae0fd7093303f694a1fkoy4o.html"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Nayr Duarte",
+          "partido": "AGIR",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "2ª vice da chapa; renunciou para disputar deputada",
+          "tipo_pendencia": "instabilidade_da_chapa",
+          "pendencia": "Sem pendência de corrupção; a renúncia levou ao indeferimento da chapa pelo TRE-SP",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": [
+        {
+          "motivo": "Instabilidade da chapa: 1ª vice (Renata Bolsonaro) e 2ª vice (Nayr Duarte) renunciaram",
+          "desconto": 2
+        }
+      ]
+    },
+    "250002544912": {
+      "nome_urna": "VIVIAN MENDES",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Vice Marcelo Pereira (UP) sem pendência encontrada. Chapa sem coligação.",
+      "vice": {
+        "nome": "Marcelo Pereira",
+        "partido": "UP",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/sao-paulo-2026/quem-sao-candidatos-governador-sao-paulo-2026/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Marcelo Pereira",
+          "partido": "UP",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "130002541911": {
+      "nome_urna": "MATEUS SIMÕES",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 4,
+      "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): Entram Paulinho da Força (Solidariedade, -1), Luis Tibé (Avante, -2) e Eduardo Ribeiro (Novo, sem pendência), pesquisados depois; os caciques já estavam no teto de -4, então a nota segue 4. || Texto anterior: REVISADA em 2026-09-21 (antes 0). Base 10, menos: -4 caciques da coligação (dentro do teto de -4): Kassab, presidente do PSD, partido dele, é réu sem sentença penal + condenação civil por improbidade (-2); Ciro Nogueira (PP) está sob investigação da PF no caso Master, sem denúncia (-1); Antonio Rueda (União) está sob investigação da PF na Operação Carbono Oculto, sem denúncia (-1); -2 padrinho Romeu Zema -- sucessor declarado e principal financiador (Novo, R$ 1,7 mi), com multa eleitoral por conduta vedada (2022) e contas de 2018 aprovadas com ressalvas, sem crime. Vice Danilo de Castro (União), ex-secretário de Governo de Aécio e Anastasia, sem pendência encontrada. Total 10-4-2 = 4. Nenhum dos descontos é crime confirmado. Coligação 'Minas no Caminho Certo': PSD, União, PP, Novo, PRD, Solidariedade, Avante, DC, Mobiliza, Agir; lideranças de PRD, Solidariedade, Avante, DC, Mobiliza e Agir NÃO aprofundadas (ressalva de cobertura).",
+      "vice": {
+        "nome": "Danilo de Castro",
+        "partido": "UNIÃO",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "padrinho_politico": {
+        "nome": "Romeu Zema",
+        "papel": "Antecessor e padrinho declarado; Novo é o maior financiador da campanha de Simões",
+        "pendencia": "Multa do TSE por conduta vedada (2022) e contas de 2018 aprovadas com ressalvas -- ver idoneidade.json"
+      },
+      "partidos_coligacao_relevantes": [
+        "PSD",
+        "UNIÃO",
+        "PP",
+        "NOVO",
+        "PRD",
+        "SOLIDARIEDADE",
+        "AVANTE",
+        "DC",
+        "MOBILIZA",
+        "AGIR"
+      ],
+      "fontes": [
+        "https://www.terra.com.br/noticias/brasil/politica/reviravolta-em-mg-uniao-pp-retoma-apoio-a-simoes-e-isola-marcelo-aro-chamado-de-traidor-por-zema,7c92bb7406a59631c08e255f84fe5a4a05ggd27h.html",
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/8/27/mesmo-filiado-ao-psd-partido-de-zema-banca-quase-metade-dos-recursos-da-campanha-de-simoes",
+        "https://defatoonline.com.br/danilo-de-castro-sera-o-candidato-a-vice-na-chapa-de-mateus-simoes/",
+        "https://www.jota.info/stf/do-supremo/caso-master-ciro-nogueira-e-alvo-da-pf-por-suspeita-de-corrupcao-em-emenda-que-ampliava-fgc",
+        "https://www.cnnbrasil.com.br/politica/pf-inclui-presidente-do-uniao-brasil-em-investigacao-sobre-esquemas-do-pcc/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Danilo de Castro",
+          "partido": "UNIÃO",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "ex-secretário de Governo de Aécio e Anastasia, vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Gilberto Kassab",
+          "partido": "PSD",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do PSD, partido do candidato",
+          "tipo_pendencia": "reu_acao_penal",
+          "pendencia": "Réu desde 2021 (corrupção/lavagem/caixa 2/associação criminosa) + condenação civil por improbidade. Sem condenação penal",
+          "desconto": 2,
+          "contado": true
+        },
+        {
+          "nome": "Ciro Nogueira",
+          "partido": "PP",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PP, na federação União Progressista da coligação",
+          "tipo_pendencia": "investigado_sem_denuncia",
+          "pendencia": "Alvo da PF no caso Banco Master, sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "Antonio Rueda",
+          "partido": "UNIÃO",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o União Brasil, na federação União Progressista da coligação",
+          "tipo_pendencia": "investigado_sem_denuncia",
+          "pendencia": "Investigado pela PF na Operação Carbono Oculto (PCC), sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "Romeu Zema",
+          "partido": "NOVO",
+          "tipo_ligacao": "padrinho_politico",
+          "ligacao_detalhe": "antecessor e sucessor declarado; o Novo é o maior financiador da campanha (R$ 1,7 mi)",
+          "tipo_pendencia": "infracao_eleitoral",
+          "pendencia": "Multa do TSE por conduta vedada (2022) e contas de 2018 aprovadas com ressalvas; nenhuma condenação criminal",
+          "desconto": 2,
+          "contado": true,
+          "idoneidade_ref": "280002539826"
+        },
+        {
+          "nome": "Paulinho da Força",
+          "partido": "SOLIDARIEDADE",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o Solidariedade, na Fed. PRD/Solidariedade da coligação",
+          "tipo_pendencia": "investigado_sem_denuncia",
+          "pendencia": "Inquérito no STF (relator Mendonça) sobre suposta captação de clientes para ações trabalhistas; sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "Luis Tibé",
+          "partido": "AVANTE",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o Avante, partido da coligação",
+          "tipo_pendencia": "condenacao_civil",
+          "pendencia": "Condenado por improbidade civil em 2015 (verba indenizatória da Câmara de BH); dívida quitada e extinção pedida pelo MPMG; sem pendência penal",
+          "desconto": 2,
+          "contado": true
+        },
+        {
+          "nome": "Eduardo Ribeiro",
+          "partido": "NOVO",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o Novo, partido da coligação",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "130002550464": {
+      "nome_urna": "PATRUS ANANIAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 3,
+      "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): João Campos (PSB) e Paula Coradi (PSOL), pesquisados depois, sem pendência; nota segue 3. PCdoB, PV e Rede NÃO verificados. || Texto anterior: Base 10, menos: -5 padrinho Lula -- foi quem escolheu Patrus como 'plano D' depois de vários nãos, pressionou o PSB pelo vice e esteve no lançamento da chapa em BH (21/08); Lula foi condenado e preso 580 dias, condenações anuladas por vício processual (ver idoneidade.json); -1 vice Jarbas Soares (PSB), ex-procurador-geral de Justiça de MG -- nove promotores pediram apuração ética interna por mensagens de agradecimento a colegas que apoiaram sua candidatura interna; pedido arquivado por incompetência do órgão, não por mérito; -1 Edinho Silva (presidente do PT) -- inquérito da Lava Jato trancado por excesso de prazo, sem denúncia. Total 10-5-1-1 = 3. Coligação 'Pra Minas Gerais Voltar a Sonhar' (PT, PCdoB, PV, PSB, PSOL, Rede): lideranças de PSB, PSOL, PCdoB, PV e Rede NÃO aprofundadas (ressalva de cobertura, não achado de limpeza).",
+      "vice": {
+        "nome": "Jarbas Soares",
+        "partido": "PSB",
+        "pendencia": "Pedido de apuração ética interna arquivado por incompetência do órgão (não por mérito)"
+      },
+      "padrinho_politico": {
+        "nome": "Lula",
+        "papel": "Escolheu Patrus como candidato e decidiu/pressionou o vice do PSB",
+        "pendencia": "Condenado e preso 580 dias; condenações anuladas por vício processual (ver idoneidade.json)"
+      },
+      "partidos_coligacao_relevantes": [
+        "PT",
+        "PCdoB",
+        "PV",
+        "PSB",
+        "PSOL",
+        "REDE"
+      ],
+      "fontes": [
+        "https://www.cartacapital.com.br/blogs/daniel-camargos/depois-de-colecionar-naos-lula-escolhe-patrus-como-plano-d-em-minas/",
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/8/5/e-oficial-pt-tera-ex-procurador-jarbas-soares-do-psb-como-vice-ao-governo-de-minas",
+        "https://diariodocomercio.com.br/politica/psb-jarbas-soares-vice-patrus-mg/",
+        "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Jarbas Soares",
+          "partido": "PSB",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "ex-procurador-geral de Justiça de MG, vice na chapa",
+          "tipo_pendencia": "apuracao_etica_arquivada_sem_merito",
+          "pendencia": "Nove promotores pediram apuração ética interna; arquivada por incompetência do órgão, não por mérito",
+          "desconto": 1,
+          "contado": true,
+          "achados": [
+            {
+              "categoria": "citado_ou_apuracao_preliminar",
+              "descricao": "Pedido de apuração ética interna arquivado por incompetência do órgão, não por mérito"
+            }
+          ]
+        },
+        {
+          "nome": "Lula",
+          "partido": "PT",
+          "tipo_ligacao": "padrinho_politico",
+          "ligacao_detalhe": "escolheu Patrus como candidato ('plano D') e pressionou o PSB pelo vice",
+          "tipo_pendencia": "condenacao_criminal_anulada_por_vicio_processual",
+          "pendencia": "Condenado e preso 580 dias; condenações anuladas pelo STF por vício processual, não por absolvição de mérito",
+          "desconto": 5,
+          "contado": true,
+          "idoneidade_ref": "280002542548"
+        },
+        {
+          "nome": "Edinho Silva",
+          "partido": "PT",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do PT, partido do candidato",
+          "tipo_pendencia": "investigacao_arquivada_sem_denuncia",
+          "pendencia": "Inquérito da Lava Jato trancado por excesso de prazo, sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "João Campos",
+          "partido": "PSB",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PSB, partido da coligação",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência encontrada (busca geral)",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Paula Coradi",
+          "partido": "PSOL",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PSOL, partido da coligação",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência encontrada (busca geral)",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "130002539775": {
+      "nome_urna": "ALEXANDRE KALIL",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 7,
+      "motivo": "Base 10, menos: -2 vice Carlos Mosconi (PSDB) -- o MPMG ajuizou em set/2026 ação civil pública por improbidade contra ele: como secretário municipal de Saúde de Poços de Caldas, teria autorizado pagamentos de contrato de R$ 8,24 milhões com prestadora de serviços médicos sem documentação que comprovasse os serviços (escalas, prova de trabalho dos médicos, certidões); fase inicial, ainda sem citação, sem condenação; ele nega; -1 Carlos Lupi (PDT, presidente do partido) -- delatado por ex-dirigentes do INSS na fraude dos descontos, sem denúncia. Aécio Neves (PSDB): nenhuma pendência ativa encontrada (INQ 4830 arquivado pelo STF em 2024). Coligação 'Cuidar de Minas' (PDT, PSDB, Cidadania); liderança do Cidadania NÃO aprofundada. Sem padrinho identificado. Total 10-2-1 = 7.",
+      "vice": {
+        "nome": "Carlos Mosconi",
+        "partido": "PSDB",
+        "pendencia": "Ação civil pública de improbidade do MPMG (set/2026, fase inicial) por contrato de R$ 8,24 mi da Saúde de Poços de Caldas"
+      },
+      "partidos_coligacao_relevantes": [
+        "PDT",
+        "PSDB",
+        "CIDADANIA"
+      ],
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/9/14/vice-de-kalil-e-ajuizado-pelo-mp-por-irregularidades-em-contrato-de-r-8-milhoes-em-pocos-de-caldas",
+        "https://pocosja.com.br/noticia/politica/2026/09/15/mpmg-ajuiza-acao-por-improbidade-contra-carlos-mosconi-por-contratos-da-saude/",
+        "https://pocosja.com.br/noticia/politica/2026/09/16/mosconi-nega-irregularidades-e-aguarda-citacao-formal-em-acao-por-improbidade/",
+        "https://www.metropoles.com/colunas/andreza-matais/dirigentes-do-inss-delataram-carlos-lupi-ex-ministro-da-previdencia-de-lula"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Carlos Mosconi",
+          "partido": "PSDB",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "ex-deputado federal, vice na chapa",
+          "tipo_pendencia": "reu_acao_civil",
+          "pendencia": "Ação civil pública de improbidade do MPMG (set/2026, fase inicial) por contrato de R$ 8,24 mi da Saúde de Poços de Caldas; sem citação nem condenação; ele nega",
+          "desconto": 2,
+          "contado": true,
+          "achados": [
+            {
+              "categoria": "investigacao_ou_acao_civil_em_curso",
+              "descricao": "Ação civil pública de improbidade do MPMG (set/2026, fase inicial) por contrato de R$ 8,24 mi da Saúde de Poços de Caldas"
+            }
+          ]
+        },
+        {
+          "nome": "Carlos Lupi",
+          "partido": "PDT",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do PDT, partido do candidato",
+          "tipo_pendencia": "delatado_sem_denuncia",
+          "pendencia": "Delatado por ex-dirigentes do INSS na fraude dos descontos; sem denúncia",
+          "desconto": 1,
+          "contado": true
+        },
+        {
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o PSDB, partido da coligação",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma pendência ativa encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "130002550834": {
+      "nome_urna": "FLÁVIO ROSCOE",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 3,
+      "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): Antes 2. O desconto do padrinho Flávio Bolsonaro passa a acompanhar a idoneidade dele (10 - 7 = 3); o valor anterior (-4) vinha da nota antiga (6), que foi corrigida para 7 na auditoria de idoneidade. Total 10-4-3 = 3. || Texto anterior: Base 10, menos: -4 Valdemar Costa Neto (PL, cacique do partido; condenado e preso no Mensalão, indultado em 2016); -4 padrinho Flávio Bolsonaro -- foi ele quem anunciou Roscoe como candidato (05/08/2026) e o campo bolsonarista organizou a chapa; idoneidade pessoal de Flávio = 6 (rachadinha: denúncia caiu por decisão judicial; inquérito do STF no caso Master -- ver idoneidade.json). Vice Ellen Miziara (PL, vereadora de Uberaba) sem pendência encontrada; a primeira escolha, Charlles Evangelista, desistiu para disputar o Congresso. Total 10-4-4 = 2. Chapa isolada (só o PL).",
+      "vice": {
+        "nome": "Ellen Miziara",
+        "partido": "PL",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "padrinho_politico": {
+        "nome": "Flávio Bolsonaro",
+        "papel": "Anunciou Roscoe como candidato do campo bolsonarista em MG",
+        "pendencia": "Idoneidade pessoal 6: rachadinha (denúncia caiu por decisão judicial) e inquérito do STF no caso Master -- ver idoneidade.json"
+      },
+      "partidos_coligacao_relevantes": [
+        "PL"
+      ],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/roscoe-anuncia-ellen-miziara-como-vice-em-sua-chapa/",
+        "https://www.terra.com.br/noticias/brasil/politica/candidato-apoiado-por-flavio-bolsonaro-em-mg-anuncia-aliada-de-michelle-como-vice,d631959630d0747c22bf65511bd6075dyk7hg3bg.html",
+        "https://www.acessa.com/colunistas/sindijori/2026/08/337114-pl-oficializa-candidatura-de-flavio-roscoe-ao-governo-de-minas-em-evento-nesta-segunda-feira.html"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Ellen Miziara",
+          "partido": "PL",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vereadora de Uberaba, vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Valdemar Costa Neto",
+          "partido": "PL",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do PL, partido do candidato",
+          "tipo_pendencia": "condenacao_criminal_confirmada",
+          "pendencia": "Condenado e preso no Mensalão (2012); indultado em 2016",
+          "desconto": 4,
+          "contado": true
+        },
+        {
+          "nome": "Flávio Bolsonaro",
+          "partido": "PL",
+          "tipo_ligacao": "padrinho_politico",
+          "ligacao_detalhe": "anunciou Roscoe como candidato do campo bolsonarista em MG",
+          "tipo_pendencia": "acusacao_anulada+investigacao_em_curso",
+          "pendencia": "Idoneidade pessoal 7: rachadinha (denúncia caiu por anulação das provas) e inquérito do STF no caso Master -- ver idoneidade.json",
+          "desconto": 3,
+          "contado": true,
+          "idoneidade_ref": "280002551544"
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "130002552296": {
+      "nome_urna": "CLEITINHO AZEVEDO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): Antes 9. Renata Abreu (Podemos, na coligação), pesquisada depois, entra com -1. Total 10-1-1 = 8. || Texto anterior: Vice Luís Eduardo Falcão (Republicanos), prefeito licenciado de Patos de Minas e presidente da Associação Mineira de Municípios: -1 multa de 5.000 UFIRs do TSE (mai/2026) por conduta vedada (subsídio ao transporte coletivo criado em ano eleitoral, 2024), SEM cassação nem inelegibilidade. O atrito dele com o governo Zema/Simões (jan/2026) é disputa política, sem investigação. Marcos Pereira (Republicanos) sem pendência (liderancas_partidarias.json). Podemos (na coligação 'Minas é do Povo') NÃO pesquisado -- ressalva de cobertura. Sem padrinho identificado: candidatura própria.",
+      "vice": {
+        "nome": "Luís Eduardo Falcão",
+        "partido": "REPUBLICANOS",
+        "pendencia": "Multa do TSE por conduta vedada (2024), sem inelegibilidade"
+      },
+      "partidos_coligacao_relevantes": [
+        "REPUBLICANOS",
+        "PODEMOS"
+      ],
+      "fontes": [
+        "https://clubenoticia.com.br/tse-decide-manter-multa-contra-ex-prefeito-falcao-por-subsidio-ao-transporte-coletivo-criado-em-2024-em-patos-de-minas/",
+        "https://ofator.com.br/informacao/a-cronologia-da-crise-entre-o-governo-de-minas-e-o-casal-falcao/",
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Luís Eduardo Falcão",
+          "partido": "REPUBLICANOS",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "prefeito licenciado de Patos de Minas, vice na chapa",
+          "tipo_pendencia": "infracao_eleitoral",
+          "pendencia": "Multa do TSE por conduta vedada (subsídio ao transporte em ano eleitoral, 2024), sem cassação nem inelegibilidade",
+          "desconto": 1,
+          "contado": true,
+          "achados": [
+            {
+              "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+              "descricao": "Multa de 5.000 UFIRs do TSE por conduta vedada (2024), sem cassação nem inelegibilidade"
+            }
+          ]
+        },
+        {
+          "nome": "Marcos Pereira",
+          "partido": "REPUBLICANOS",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do Republicanos, partido do candidato",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Renata Abreu",
+          "partido": "PODEMOS",
+          "tipo_ligacao": "presidente_de_partido_aliado",
+          "ligacao_detalhe": "preside o Podemos, partido da coligação 'Minas é do Povo'",
+          "tipo_pendencia": "investigado_sem_denuncia",
+          "pendencia": "Inquérito eleitoral sobre as contas de campanha de 2018; o MPE ofereceu acordo de não persecução penal (aceite não confirmado); sem denúncia",
+          "desconto": 1,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "130002549557": {
+      "nome_urna": "GABRIEL",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 9,
+      "motivo": "Vice Maria Helena de Quadros Lopes (MDB), vereadora de Montes Claros em 4º mandato e empresária, sem pendência encontrada. -1 Baleia Rossi (presidente nacional do MDB) -- citado em inquérito sigiloso do STF (desde 2018) sobre fraudes na prefeitura de Ribeirão Preto e na delação da JBS; nega; status atual não confirmado (fonte de 2021). Chapa isolada, sem padrinho identificado.",
+      "vice": {
+        "nome": "Maria Helena de Quadros Lopes",
+        "partido": "MDB",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [
+        "MDB"
+      ],
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/8/5/vereadora-de-montes-claros-sera-vice-na-chapa-de-gabriel-azevedo-para-governo-de-minas",
+        "https://www.poder360.com.br/congresso/baleia-rossi-e-citado-em-investigacoes-contra-fraudes-e-em-delacao-da-jbs/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Maria Helena de Quadros Lopes",
+          "partido": "MDB",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vereadora de Montes Claros, vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Baleia Rossi",
+          "partido": "MDB",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do MDB, partido do candidato",
+          "tipo_pendencia": "investigado_sem_denuncia",
+          "pendencia": "Citado em inquérito sigiloso do STF (Ribeirão Preto e delação da JBS); status atual não confirmado",
+          "desconto": 1,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "130002544411": {
+      "nome_urna": "BEN MENDES",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 9,
+      "motivo": "Vice Cabo David Souza (Missão) sem pendência encontrada. Partido Missão presidido nacionalmente por Renan Santos (ação civil pública do MPF em curso, ver liderancas_partidarias.json) -- leve desconto por associação, mesmo critério de Coronel Busnello/RJ. Chapa isolada.",
+      "vice": {
+        "nome": "Cabo David Souza",
+        "partido": "MISSÃO",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [
+        "MISSÃO"
+      ],
+      "fontes": [
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Cabo David Souza",
+          "partido": "MISSÃO",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Renan Santos",
+          "partido": "MISSÃO",
+          "tipo_ligacao": "presidente_do_partido_do_candidato",
+          "ligacao_detalhe": "presidente nacional do Missão, partido do candidato",
+          "tipo_pendencia": "acao_civil_em_curso",
+          "pendencia": "Ação civil pública do MPF em curso e condenação cível anterior; leve desconto por associação",
+          "desconto": 1,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "130002544122": {
+      "nome_urna": "PROFESSOR TÚLIO LOPES",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Vice Warlen Nunes dos Santos (PCB) sem pendência encontrada. Chapa isolada.",
+      "vice": {
+        "nome": "Warlen Nunes dos Santos",
+        "partido": "PCB",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Warlen Nunes dos Santos",
+          "partido": "PCB",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "130002546802": {
+      "nome_urna": "RAFAEL DUDA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Vice professora Diana de Cássia (PSTU) sem pendência encontrada. Chapa isolada.",
+      "vice": {
+        "nome": "Diana de Cássia",
+        "partido": "PSTU",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-rafael-duda-candidato-ao-governo-de-minas-gerais/",
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Diana de Cássia",
+          "partido": "PSTU",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    },
+    "130002552308": {
+      "nome_urna": "HENRIQUE ÁREAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Vice Estevão Francisco Gomes da Silva (PCO) sem pendência encontrada. O PCO nacional (mesmo partido de Rui Costa Pimenta) tem histórico recorrente de contas rejeitadas no TSE -- leve desconto por associação, mesmo critério de Luan Monteiro/RJ e Izadora Dias/SP. Não pesquisei se o registro dele em MG foi contestado como o do PCO em SP.",
+      "vice": {
+        "nome": "Estevão Francisco Gomes da Silva",
+        "partido": "PCO",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [
+        "PCO"
+      ],
+      "fontes": [
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Estevão Francisco Gomes da Silva",
+          "partido": "PCO",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": [
+        {
+          "motivo": "O PCO tem histórico recorrente de contas rejeitadas no TSE; desconto leve por associação",
+          "desconto": 2
+        }
+      ]
+    },
+    "130002547874": {
+      "nome_urna": "INDIRA XAVIER",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Vice Renato Campos Amaral (UP) sem pendência encontrada. Chapa isolada.",
+      "vice": {
+        "nome": "Renato Campos Amaral",
+        "partido": "UP",
+        "pendencia": "Nenhuma encontrada"
+      },
+      "partidos_coligacao_relevantes": [],
+      "fontes": [
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "apoiadores": [
+        {
+          "nome": "Renato Campos Amaral",
+          "partido": "UP",
+          "tipo_ligacao": "vice_de_chapa",
+          "ligacao_detalhe": "vice na chapa",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada",
+          "desconto": 0,
+          "contado": true
+        }
+      ],
+      "descontos_adicionais": []
+    }
+  }
+}

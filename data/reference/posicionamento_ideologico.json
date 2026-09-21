@@ -1,0 +1,611 @@
+{
+  "_leiame": "Posicionamento ideológico INDIVIDUAL (não por partido) de cada candidato no diagrama de Nolan, em dois eixos 0-10 independentes: eixo_economico (0 = estatismo/intervenção máxima do Estado na economia -- estatização, planificação, fim da autonomia do Banco Central; 10 = livre mercado/mínima intervenção -- privatização, desoneração, Estado mínimo) e eixo_pessoal (0 = autoritarismo/costumes conservadores -- criminalização de aborto/drogas, endurecimento penal, restrição a liberdades civis/expressão; 10 = liberalismo social/costumes progressistas -- descriminalização de aborto/drogas, direitos civis ampliados, garantismo). Pesquisado a partir do plano de governo registrado no TSE, entrevistas, sabatinas e cobertura de imprensa de 2026 -- o objetivo é capturar o que o CANDIDATO específico defende, não o estereótipo do partido (ex.: Zema/NOVO é liberal na economia mas socialmente conservador -- carta a evangélicos, contra aborto e contra legalização de drogas -- o que diverge da leitura genérica de 'partido liberal = libertário nos dois eixos' usada antes para outros candidatos do NOVO). Cada `motivo` marca explicitamente o nível de evidência usado, numa hierarquia decrescente de confiabilidade: [nível a] posição pessoal explícita do candidato sobre o eixo; [nível b] proposta institucional dele que correlaciona com o eixo mesmo não sendo 'costumes' no sentido clássico (ex.: dureza do plano de segurança como proxy do eixo pessoal); [nível c] tradição/perfil do partido (ver data/reference/ideologia_partidaria.json), usado quando (a) e (b) falham -- desde 2026-09-21, por decisão explícita do usuário ('quando não houver informações sobre o posicionamento ideológico do candidato, pode considerar o posicionamento do partido'), este é o fallback PADRÃO, não uma exceção rara; [nível d] nota no centro (5), reservado a quando NEM o candidato NEM o partido têm posição clara/consensual sobre o eixo (partido novo sem tradição, ou posição do próprio partido é internamente dividida) -- não é mais o fallback default para 'não achei nada sobre o candidato'. Cobre PRESIDENTE (14 candidatos, pesquisados em 2026-09-21) e GOVERNADOR do Rio de Janeiro (9 candidatos, pesquisados em 2026-09-21). Achados de GOVERNADOR-RJ que corrigem o diagrama por-estereótipo-de-partido publicado antes: Douglas Ruas (PL) defende RE-ESTATIZAÇÃO da CEDAE/SuperVia/MetrôRio, não privatização -- eixo econômico bem mais centrista (4.5) do que o estereótipo 'PL = liberal' sugeria (era 6.5); Coronel Busnello (Missão/MBL) mistura responsabilidade fiscal com taxação de grandes fortunas e redução de jornada sem corte salarial -- eixo econômico também mais centrista (5.0) do que o estereótipo 'MBL = liberal' sugeria (era 7.5); André Marinho (NOVO) teve busca extensiva sem QUALQUER sinal sobre costumes -- ATUALIZADO em 2026-09-21 para nível (c), usando o baseline do NOVO (libertário, eixo_pessoal=7) em vez do centro, com a ressalva explícita de que Zema (mesmo partido, pesquisa individual real) diverge desse baseline, então esta nota é menos confiável que uma pesquisa individual. ||| AUDITORIA 2026-09-21 -- NÍVEIS DE EVIDÊNCIA ESTRUTURADOS E PADRONIZAÇÃO. Cada registro agora tem 'nivel_eixo_economico' e 'nivel_eixo_pessoal': a = posição ou proposta explícita do próprio candidato; b = proposta institucional dele ou programa do partido que correlaciona com o eixo; c = baseline do PARTIDO (fallback sem sinal individual, obrigatoriamente IGUAL ao valor de ideologia_partidaria.json -- o pipeline avisa se divergir); d = centro (não usar como padrão). Isso permite comparar candidatos só entre notas de mesmo nível de evidência: uma nota 'c' diz o que o partido costuma defender, não o que o candidato defende (Zema, do NOVO, é liberal na economia e conservador em costumes). Candidatos do mesmo partido com o mesmo programa e a mesma evidência recebem a mesma nota: o PCO foi harmonizado (dissolução da PM documentada = 8.5; PM + legalização das drogas documentadas = 9.0; econômico 0). Diferenças de até 1 ponto entre candidatos de PSTU e UP refletem evidências diferentes (aborto explícito, desmilitarização, movimento feminista) e foram mantidas.",
+  "candidatos": {
+    "280002542548": {
+      "nome_urna": "LULA",
+      "cargo_pretendido": "PRESIDENTE",
+      "eixo_economico": 3,
+      "eixo_pessoal": 6.5,
+      "motivo": "Econômico: plano de governo 2026 combina reindustrialização estatal-desenvolvimentista ('Nova Indústria Brasil', PAC) com retórica de controle fiscal (desindexação de benefícios do salário mínimo, revisão de renúncias fiscais, combate a supersalários) -- não há proposta de privatização; mantém e amplia Bolsa Família e valorização do salário mínimo. Não é estatismo pleno, mas claramente intervencionista. Pessoal: historicamente progressista em direitos civis, mas a posição pessoal dele em 2026 sobre liberdade de expressão pesa contra nota alta -- disse publicamente que 'liberdade de expressão tem limite' e o plano de governo promete 'avançar ainda mais' na regulação de redes sociais/plataformas digitais, o que gerou alerta de risco de censura na imprensa. Plano não prevê legalização de drogas nem liberação de aborto (checagem contrariou panfleto falso que dizia o oposto).",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/plano-de-governo-lula-economia/",
+        "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/8/25/plano-de-governo-de-lula-a-reeleicao-tem-soberania-como-eixo-controle-fiscal-e-propostas-amplas",
+        "https://www.poder360.com.br/poder-governo/liberdade-de-expressao-tem-limite-diz-lula-sobre-redes-sociais/",
+        "https://www.hardware.com.br/artigos/lula-regulacao-redes-sociais-reeleicao/",
+        "https://www.cnnbrasil.com.br/nacional/plano-de-governo-de-lula-nao-libera-aborto-e-drogas-panfleto-divulgado-e-falso/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "280002551544": {
+      "nome_urna": "FLAVIO BOLSONARO",
+      "cargo_pretendido": "PRESIDENTE",
+      "eixo_economico": 8,
+      "eixo_pessoal": 1.5,
+      "motivo": "Econômico: plano 'Para o Brasil Vencer o Atraso' (76 páginas, coordenado por Rogério Marinho) defende liberalismo econômico explícito -- corte de ao menos 10 ministérios, redução de impostos sobre energia/combustíveis, revisão da Previdência, crítica ao arcabouço fiscal atual como 'peneira'. Pessoal: pauta de segurança extremamente dura -- reduzir maioridade penal, classificar facções como organizações 'narcoterroristas', criar 5 presídios federais de segurança máxima; também propõe acabar com a reeleição presidencial. Combinação de endurecimento penal com pauta de costumes tradicionalmente conservadora do PL/bolsonarismo coloca a nota pessoal no piso do grupo.",
+      "fontes": [
+        "https://www.poder360.com.br/poder-flash/leia-a-integra-do-plano-de-governo-de-flavio-bolsonaro/",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/flavio-bolsonaro-propoe-enxugar-estado-e-endurecer-acoes-de-seguranca",
+        "https://www.congressoemfoco.com.br/artigo/119689/propostas-economicas-e-fiscais-dos-principais-candidatos-de-2026"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "280002551932": {
+      "nome_urna": "RONALDO CAIADO",
+      "cargo_pretendido": "PRESIDENTE",
+      "eixo_economico": 6,
+      "eixo_pessoal": 3.5,
+      "motivo": "Econômico: plano de governo (vice Gilberto Kassab) é ortodoxia fiscal pragmática, não liberalismo radical -- 'Orçamento da Verdade' para estabilizar dívida, redução de pressão fiscal sobre preços, mas também eleva investimento em saúde/educação de 17% para 25% do PIB (não é Estado mínimo). Pessoal: perfil rural/agro conservador tradicional (ex-governador de GO, produtor rural, base UDN/DEM histórica); principal proposta de segurança é uma força policial integrada entre Brasil e os 10 países vizinhos contra tráfico -- foco em combate ao crime organizado, não achamos posição pessoal específica sobre aborto/drogas na busca; nota inferida do perfil geral de conservadorismo pragmático (menos doutrinário que Zema, sem o discurso evangélico explícito).",
+      "fontes": [
+        "https://static.poder360.com.br/uploads/2026/08/Plano-de-Governo-Ronaldo-Caiado-Presidente.pdf",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/caiado-promete-governo-transformador-e-reformas-estruturais",
+        "https://newsrondonia.com.br/politica/2026/09/19/propostas-de-ronaldo-caiado-para-a-presidencia-destacam-seguranca-publica-economia-e-gestao/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    },
+    "280002539826": {
+      "nome_urna": "ZEMA",
+      "cargo_pretendido": "PRESIDENTE",
+      "eixo_economico": 9,
+      "eixo_pessoal": 2,
+      "motivo": "Econômico: agenda liberal radical no plano 'O Brasil sem Intocáveis' -- privatizar TODAS as estatais, reduzir gradualmente o IR de empresas, programa 'Sócios do Brasil'. É o mais liberal do grupo na economia. Pessoal: ACHADO QUE CONTRARIA A CLASSIFICAÇÃO GENÉRICA DE PARTIDO usada antes (NOVO = 'libertário' nos dois eixos) -- pessoalmente, Zema divulgou 'carta de princípios ao segmento cristão' com 12 compromissos que incluem proibição do aborto em TODAS as situações ('da concepção até a morte'), condenação explícita à legalização de drogas (inclusive rejeitando uso de CBD como pretexto), armar o campo e reduzir a maioridade penal. Ou seja: liberal na economia, mas socialmente conservador -- perfil mais próximo do quadrante Conservador do que Libertário.",
+      "fontes": [
+        "https://www.jota.info/eleicoes/eleicoes-2026/zema-propoe-privatizacoes-saida-do-brics-e-flexibilizacao-da-clt",
+        "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/9/9/em-aceno-a-evangelicos-zema-divulga-carta-de-principios-ao-segmento-cristao",
+        "https://www.gazetadopovo.com.br/eleicoes/2026/plano-governo-zema-seguranca-publica/",
+        "https://m.imirante.com/noticias/brasil/2026/09/09/ipolitica-os-12-compromissos-de-romeu-zema-para-o-brasil-em-2026"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "280002553884": {
+      "nome_urna": "PABLO MARÇAL",
+      "cargo_pretendido": "PRESIDENTE",
+      "eixo_economico": 8,
+      "eixo_pessoal": 3,
+      "motivo": "ATENÇÃO: registro de Marçal foi REJEITADO pelo TSE em setembro/2026 (inelegibilidade até 2032 por condenação da campanha de prefeito de SP em 2024) -- ele deixou de ser o cabeça de chapa do PRTB, substituído por Leonardo Avalanche (ver entrada separada). Ainda assim ele aparece no arquivo consulta_cand_2026 do TSE (mesma lógica de 'presença no arquivo ≠ candidatura viável' já documentada no projeto), então mantemos a nota para referência. Econômico: discurso de individualismo liberal, empreendedorismo, redução progressiva de carga tributária, Ministério do Empreendedorismo -- mas mantém Bolsa Família (não é liberalismo puro). Pessoal: entrevista ao Intercept descreve Marçal como 'radicalização moral do liberalismo' -- mistura liberalismo econômico individualista com conservadorismo explícito em costumes (disciplina militar, religiosidade, autoajuda meritocrática); discurso antissistema/anti-institucional forte, inclusive além do bolsonarismo tradicional na rejeição às instituições.",
+      "fontes": [
+        "https://www.intercept.com.br/2024/10/01/pablo-marcal-radicalizacao-liberalismo/",
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/presidente/pablo-marcal-28",
+        "https://cidadeverde.com/eleicoes/461307/pablo-marcal-protocola-plano-de-governo-com-7-missoes",
+        "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/9/15/apos-impedimento-de-marcal-prtb-anuncia-leonardo-avalanche-como-candidato-a-presidencia"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    },
+    "280002554479": {
+      "nome_urna": "LEONARDO AVALANCHE",
+      "cargo_pretendido": "PRESIDENTE",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 2.5,
+      "motivo": "CONTEXTO: assumiu a cabeça de chapa do PRTB em setembro/2026 depois que o TSE rejeitou o registro de Pablo Marçal (inelegibilidade até 2032) -- não é mais só vice, é candidato a presidente por conta própria, o que explica ele ter entrada separada de Marçal no arquivo do TSE. Econômico: plano de 'reconstrução nacional' promete reduzir impostos e zerar fila do SUS, foco em empreendedorismo e tecnologia (proposta 'iPhone para todo brasileiro' condicionada a curso de empreendedorismo). Pessoal: cobertura de imprensa internacional o descreve como força em ascensão do conservadorismo ('rising conservative force' / 'the right's resurgence'); programa de segurança propõe uso intensivo de câmeras de vigilância e reconhecimento facial integrado nacionalmente -- combinação de perfil conservador com vigilância de massa puxa a nota pessoal para baixo.",
+      "fontes": [
+        "https://www.barchart.com/story/news/32245246/brazils-rising-conservative-force-leonardo-avalanche-leads-the-rights-resurgence",
+        "https://www.hojeemdia.com.br/politica/leonardo-avalanche-quer-reduzir-impostos-e-zerar-fila-do-sus-1.1133609",
+        "https://www.cnnbrasil.com.br/eleicoes/leonardo-avalanche-anuncia-candidatura-a-presidencia-no-lugar-de-marcal/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    },
+    "280002552487": {
+      "nome_urna": "RUI COSTA PIMENTA",
+      "cargo_pretendido": "PRESIDENTE",
+      "eixo_economico": 0,
+      "eixo_pessoal": 8.5,
+      "motivo": "REVISADO em 2026-09-21 (auditoria de padronização): Eixo pessoal 7.5 -> 8.5. O programa do PCO, que ele dirige e que Izadora Dias, Henrique Áreas e Luan Monteiro dizem compartilhar, prevê a dissolução da PM (confirmada no programa dele), liberdade de expressão irrestrita e demarcação de terras indígenas; com a mesma evidência, os candidatos do PCO recebiam notas de 7.5 a 9.0. Regra adotada: documentada a dissolução da PM = 8.5; documentada também a legalização das drogas (Luan e Henrique) = 9.0. A legalização das drogas NÃO foi confirmada no programa dele. || Texto anterior: Econômico: o mais estatista do grupo -- nacionalização de todas as reservas minerais e refinarias, re-estatização SEM indenização de Vale/Petrobras/telecom/elétrico, fim da autonomia do Banco Central, cancelamento de dívida externa e interna com bancos/grandes credores. Pessoal: tradição trotskista do PCO -- ampliação de direitos trabalhistas (jornada de 35h), reforma agrária, ensino superior gratuito sem vestibular; sem achado de posição autoritária em costumes -- programa é de ampliação de direitos, não de restrição.",
+      "fontes": [
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/rui-costa-pimenta-quer-ampliar-direitos-trabalhistas-e-verbas-da-saude",
+        "https://www.spacemoney.com.br/politica/rui-costa-pimenta-plano-de-governo-pco/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    },
+    "280002551975": {
+      "nome_urna": "EDMILSON COSTA",
+      "cargo_pretendido": "PRESIDENTE",
+      "eixo_economico": 0,
+      "eixo_pessoal": 7.5,
+      "motivo": "Econômico: programa 'Construir o Poder Popular, rumo ao Socialismo' -- estatizar o sistema bancário, reverter todas as privatizações históricas, revogar reformas trabalhista e previdenciária, fim dos limites fiscais e da autonomia do BC. Pessoal: propõe MAIS participação democrática direta (Orçamento Popular, Conselhos Populares, revogação de mandato por referendo) -- é radical na forma de organizar o poder, mas na direção de ampliar participação/liberdades, não de restringi-las; sem achado de posição conservadora em costumes.",
+      "fontes": [
+        "https://www.diariodaregiao.com.br/eleicoes-2026/em-rio-preto-presidenciavel-do-pcb-defende-a-estatizacao-do-sistema-financeiro-do-pais.1789664719275",
+        "https://grudiario.com.br/edmilson-costa-candidato-a-presidencia-pelo-pcb-propoe-jornada-de-30-horas-semanais-e-fim-da-escala-6x1/",
+        "https://pcb.org.br/portal2/33675"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    },
+    "280002551547": {
+      "nome_urna": "ESCRITOR AUGUSTO CURY",
+      "cargo_pretendido": "PRESIDENTE",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 5.3,
+      "motivo": "REVISADO em 2026-09-21 (auditoria de padronização): Eixo pessoal 5.5 -> 5.3. A pesquisa não achou posição dele sobre costumes ('sem indícios em nenhuma direção'); pela regra do fallback (usuário, 2026-09-21) sem sinal individual vale o baseline do partido (Avante = 5.3), não um centro arbitrário. || Texto anterior: Econômico: plano 'O Brasil dos Nossos Sonhos' propõe ajuste fiscal com meta de déficit próximo de zero e incentivos à iniciativa privada -- moderadamente pró-mercado, sem radicalismo. Pessoal: eixo central da campanha é institucional (semipresidencialismo, mandato de 8 anos para ministros do STF, redução de 11 para 9 ministros) e saúde mental/educação emocional, não costumes -- busca não encontrou posição dele sobre aborto/drogas/armas. Nota de 5.5 reflete perfil moderado de centro (psiquiatra, discurso de conciliação) sem indícios em nenhuma direção, não uma pesquisa individual completa sobre costumes.",
+      "fontes": [
+        "https://www.terra.com.br/noticias/eleicoes/eleicoes-2026-plano-de-augusto-cury-preve-semipresidencialismo-gestao-da-emocao-e-telemedicina,275f8d4dd7b40fb5b714d19aeb7b0f1c9tfiftut.html",
+        "https://www.em.com.br/politica/2026/08/7489077-augusto-cury-conheca-as-propostas-do-candidato-a-presidencia-pelo-avante.html"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "280002541457": {
+      "nome_urna": "HERTZ DIAS",
+      "cargo_pretendido": "PRESIDENTE",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.5,
+      "motivo": "Econômico: governo socialista declarado, revogação das reformas trabalhista e previdenciária, fim da escala 6x1, jornada de 36h, bolsa-desemprego equivalente a um salário mínimo -- estatismo extremo típico do PSTU. Pessoal: defende desmilitarização da Polícia Militar (posição garantista, reduz aparato repressivo do Estado) e se opôs à exploração de petróleo na Margem Equatorial; pauta racial explícita (políticas para população negra). Perfil consistentemente progressista/garantista.",
+      "fontes": [
+        "https://almapreta.com.br/sessao/politica/hertz-dias-programa-governo-eleicoes-2026/",
+        "https://www.metropoles.com/brasil/em-plano-presidenciavel-do-pstu-propoe-enfrentar-o-imperialismo",
+        "https://fatopaulista.com.br/hertz-dias-fim-escala-6x1-reformas-trabalhistas/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    },
+    "280002538811": {
+      "nome_urna": "SAMARA",
+      "cargo_pretendido": "PRESIDENTE",
+      "eixo_economico": 0.3,
+      "eixo_pessoal": 9,
+      "motivo": "Econômico: o programa mais estatista do grupo junto com PCO -- reestatização de Petrobras/Eletrobras/Vale, suspensão de novas concessões de rodovias/portos/aeroportos, suspensão do pagamento da dívida pública para auditoria, dobrar o salário mínimo imediatamente, 'nacionalização da terra'. Pessoal: única candidata com proposta EXPLÍCITA de descriminalização e legalização do aborto no programa; também propõe criminalizar misoginia, titulação de terras quilombolas/indígenas -- o mais progressista do grupo em costumes.",
+      "fontes": [
+        "https://almapreta.com.br/sessao/politica/samara-martins-programa-governo-eleicoes-2026/",
+        "https://gazetadoparana.com.br/artigo/samara-martins-propoe-socialismo-estatizacao-e-fim-da-escala-6x1",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/samara-martins-propoe-dobrar-salario-minimo-e-instituir-escala-4x3"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "280002548139": {
+      "nome_urna": "VETERINÁRIO WILSON GRASSI",
+      "cargo_pretendido": "PRESIDENTE",
+      "eixo_economico": 7,
+      "eixo_pessoal": 4,
+      "motivo": "Econômico: método 'D35' (Desburocratizar, Desonerar, Digitalizar, Democratizar, Desenvolver) -- Imposto Único Federal, desoneração da folha, elevar isenção de IRPF para 5 salários mínimos -- perfil de eficiência estatal e redução de carga tributária, moderadamente liberal. Pessoal: sem achado de posição sobre aborto/drogas/armas na busca; proposta mais notável é EXTINGUIR os governos estaduais e Assembleias Legislativas (concentração radical de poder no nível federal), o que é uma medida de centralização institucional -- não é 'costumes' no sentido clássico, mas reduz representação/autonomia democrática regional, o que pesa moderadamente para o lado autoritário. Nota parcialmente inferida, não é cobertura individual completa de costumes.",
+      "fontes": [
+        "https://revistaoeste.com/politica/candidato-a-presidencia-defende-extincao-de-governos-estaduais/",
+        "https://www.poder360.com.br/poder-eleicoes-2026/democrata-lanca-wilson-grassi-junior-a-presidencia/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "280002552484": {
+      "nome_urna": "CLARIANA BARAO",
+      "cargo_pretendido": "PRESIDENTE",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 2.5,
+      "motivo": "REVISADO em 2026-09-21 (auditoria de padronização): Eixo pessoal 4.0 -> 2.5. A pesquisa não achou posição pessoal dela sobre aborto/drogas; pela regra do fallback vale o baseline do partido (DC = 2.5). O valor anterior (4.0) atenuava o baseline por uma leitura subjetiva do programa dela (proteção à mulher e à infância), que não é posição sobre costumes. || Texto anterior: Econômico: propõe simplificação regulatória, digitalização de abertura de empresas, crédito produtivo para pequenos negócios e PPPs para rodovias/ferrovias/portos -- moderadamente pró-mercado, sem radicalismo. Pessoal: sem posição pessoal explícita sobre aborto/drogas encontrada na busca; nota parcialmente inferida da filiação partidária -- Democracia Cristã (DC) é, pelo próprio nome e tradição internacional, um partido de raiz confessional/conservadora em família e costumes, ainda que o programa dela enfatize proteção à mulher e à infância (o que não é sinônimo de progressismo em costumes). Not é pesquisa individual completa.",
+      "fontes": [
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/clariana-barao-prioriza-propostas-de-protecao-mulher-e-infancia",
+        "https://revistaforum.com.br/politica/clariana-barao-e-de-esquerda-ou-de-direita-entenda-o-posicionamento-da-candidata-a-presidencia/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "280002540694": {
+      "nome_urna": "RENAN SANTOS",
+      "cargo_pretendido": "PRESIDENTE",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 3,
+      "motivo": "Econômico: 'Livro Amarelo' propõe ajuste fiscal imediato como primeiro ato de governo e substituição de assistencialismo por 'frentes de trabalho remuneradas' -- linha liberal-fiscal típica do MBL, mas com intervenção estatal ativa no mercado de trabalho (não é laissez-faire puro). Pessoal: propõe fim das cotas nas universidades (posição conservadora em política racial/afirmativa), confisco de bens de faccionados, intervenção federal em estados com domínio territorial de facções, e um plano de 'acabar com as favelas do Brasil' via urbanização compulsória em 10 anos -- combinação de conservadorismo social com viés autoritário-securitário.",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/como-renan-santos-pretende-restaurar-o-brasil-plano-de-governo-candidato-missao/",
+        "https://www.cnnbrasil.com.br/eleicoes/renan-santos-propoe-foco-em-seguranca-e-reformas-em-plano-de-governo/",
+        "https://apublica.org/2026/07/partido-missao-o-projeto-de-poder-de-renan-santos-e-do-mbl/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "190002550196": {
+      "nome_urna": "GAROTINHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível a/b] Econômico: plano propõe controle das contas públicas com combate ao desperdício e revisão de incentivos fiscais, royalties de petróleo direcionados a investimentos geradores de emprego, e PPPs/concessões para infraestrutura/mobilidade/saneamento -- perfil pragmático de centro, nem estatismo pleno nem liberalismo radical. Pessoal: histórico documentado como radialista de uma das maiores emissoras evangélicas do Brasil e conversão evangélica após acidente em 1994; o bloco político evangélico do qual faz parte historicamente se opõe à descriminalização de drogas, flexibilização do aborto, casamento homoafetivo, e apoia redução da maioridade penal -- perfil pessoal de longa data, não apenas rótulo do partido Republicanos. Nota reforçada pelo próprio histórico de condenações por compra de votos e arrecadação ilegal de campanha (uso do poder por fora das regras).",
+      "fontes": [
+        "https://www.sinfrerj.com.br/conteudo/11903/economia-veja-propostas-dos-candidatos-ao-governo-do-rj",
+        "https://almapreta.com.br/sessao/politica/eleicoes-candidatos-governado-rio-de-janeiro/",
+        "https://en.wikipedia.org/wiki/Anthony_Garotinho",
+        "https://www.scielo.br/j/rs/a/DDM4Wry4B9Mp93hNnCcRKXr/?lang=pt"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    },
+    "190002543380": {
+      "nome_urna": "EDUARDO PAES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6,
+      "eixo_pessoal": 6,
+      "motivo": "[nível b] Econômico: propõe Sistema Único de Segurança Fluminense e integração PM/guardas municipais (reorganização administrativa, não privatização), mantendo diálogo com trabalhadores da CEDAE sem posição clara pró-privatização -- perfil de gestão pragmática de centro, sem radicalismo de mercado. Pessoal: em sabatinas de 2026 propôs concentrar comando de segurança no governador e retirar influência de políticos sobre as corporações -- postura integrativa/institucional, não confrontacional-militarizada como a de outros candidatos (contraste direto com Douglas Ruas). Buscou aproximação com lideranças evangélicas nesta campanha ('se for para seguir Jesus, é melhor estar com Lula') sem adotar pauta anti-direitos -- sem posição pessoal explícita sobre aborto/drogas/LGBT encontrada na busca.",
+      "fontes": [
+        "https://www.ocafezinho.com/2026/09/13/paes-propoe-reunir-comandos-das-policias-do-rio",
+        "https://diariodorio.com/politica/2026/09/17/eduardo-paes-volta-a-defender-sistema-para-integrar-pm-e-guardas-municipais-no-rj.html",
+        "https://gospelmais.com/noticias/para-seguir-jesus-melhor-estar-com-lula-prefeito-eduardo-paes-171468"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "b"
+    },
+    "190002542887": {
+      "nome_urna": "DOUGLAS RUAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 4.5,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível a] ACHADO QUE CORRIGE O ESTEREÓTIPO DE PARTIDO usado antes (PL = liberal-conservador, nota 6.5 na economia): a proposta dele para CEDAE/SuperVia/MetrôRio é de RE-ESTATIZAÇÃO, não privatização -- contraria a leitura genérica de 'PL = mercado livre'. Combinado com 'eficiência sem aumentar o aparelho estatal' e guichê único de investimento (Investe Aqui), o perfil econômico real é hÍbrido/centrista, bem mais estatista do que o estereótipo do partido sugeria. Pessoal: plano de segurança é o mais duro do grupo -- retomada de territórios dominados pelo crime, elevar efetivo da PM para 60 mil agentes, presídios com iniciativa privada e regime disciplinar 'mais rigoroso do que qualquer referência existente', vigilância de massa (drones, reconhecimento facial, scanners). Perfil autoritário-securitário claro.",
+      "fontes": [
+        "https://agendadopoder.com.br/ruas-aposta-em-retomada-de-territorios-para-recuperar-seguranca-e-economia-do-rio/",
+        "https://agendadopoder.com.br/ruas-propoe-novos-presidios-com-iniciativa-privada-e-unidade-de-regime-disciplinar-mais-rigoroso/",
+        "https://www.sinfrerj.com.br/conteudo/11903/economia-veja-propostas-dos-candidatos-ao-governo-do-rj"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "190002536162": {
+      "nome_urna": "WILLIAM SIRI",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 1.5,
+      "eixo_pessoal": 8,
+      "motivo": "[nível a/b] Econômico: defende reestatização dos trens, fim da escala 6x1 e revisão de benefícios fiscais -- estatismo forte, coerente com o programa nacional do PSOL. Pessoal: propostas concretas de reforma institucional garantista -- câmeras corporais obrigatórias, corregedoria externa e independente, fim das indicações políticas para cargos de segurança, Polícia Técnico-Científica autônoma, substituição de operações pontuais por presença permanente do Estado associada a saneamento/educação/cultura em vez de confronto. Busca não encontrou declaração pessoal explícita sobre aborto/drogas especificamente para esta campanha (o programa nacional do PSOL/Rede defende ambos, mas isso não foi confirmado como fala própria dele nesta eleição) -- nota principalmente sustentada pelas propostas de segurança garantista, que são dele mesmo.",
+      "fontes": [
+        "https://agendadopoder.com.br/siri-propoe-unificar-secretarias-de-seguranca-e-tornar-cameras-corporais-obrigatorias/",
+        "https://mancheterio.com.br/william-siri-defende-reestatizacao-dos-trens-fim-da-escala-6x1-e-revisao-de-beneficios-fiscais/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    },
+    "190002537524": {
+      "nome_urna": "ANDRÉ MARINHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 7,
+      "motivo": "[nível a (econômico) / nível c (pessoal), ATUALIZADO 2026-09-21] Econômico: plano concentra 4 frentes -- reduzir desperdício na máquina pública, recuperar receitas, reduzir dependência de royalties do petróleo e atrair investimentos; propõe LEGE-RJ (metas mensuráveis por secretaria com retenção de gestores ligada a resultado), venda/locação de ~8,5 mil imóveis públicos abandonados (R$10-11 bi em 4 anos), guichê único digitalizado para abertura de empresas, prazos máximos para licenciamento ambiental. Claramente pró-mercado, mas focado em eficiência/gestão, não em privatização radical de estatais como o Zema faz nacionalmente. Pessoal: BUSCA EXTENSIVA (múltiplas queries, incluindo entrevistas e debates) NÃO encontrou nenhuma posição pessoal dele sobre aborto, drogas, armas ou LGBT. Por decisão explícita do usuário (2026-09-21: 'quando não houver informações sobre o posicionamento ideológico do candidato, pode considerar o posicionamento do partido'), a ausência de sinal individual agora recorre ao BASELINE do NOVO (ver data/reference/ideologia_partidaria.json) em vez de cair no centro -- Marinho é tratado como libertário (alta liberdade pessoal) por filiação, com a ressalva registrada de que isso é fallback de partido, não confirmação pessoal, e que o caso do Zema mostra que esse baseline pode não valer para todo filiado do NOVO.",
+      "fontes": [
+        "https://monitormercantil.com.br/conversa-com-andre-marinho-candidato-ao-governo-do-rio-pelo-novo/",
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-andre-marinho-candidato-ao-governo-do-rio-de-janeiro/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "190002552513": {
+      "nome_urna": "LUAN MONTEIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0,
+      "eixo_pessoal": 9,
+      "motivo": "[nível a] Econômico: defende fim da iniciativa privada em serviços públicos essenciais, estatização dos transportes com passe livre, reindustrialização estatal e recuperação de empresas privatizadas usando riqueza do petróleo -- estatismo total, mesmo padrão do candidato do PCO à Presidência (Rui Costa Pimenta). Pessoal: propõe fim da Polícia Militar substituída por conselhos locais/de bairro organizados pelos trabalhadores, e defendeu explicitamente em entrevista na TV Globo o fim da proibição das drogas (o partido é contrário ao consumo, mas considera que a repressão estatal fortalece o tráfico e justifica violência policial) -- posição pessoal explícita e forte no sentido garantista.",
+      "fontes": [
+        "https://causaoperaria.org.br/2026/luan-monteiro-candidato-do-pco-defende-fim-da-pm-e-reindustrializacao-do-rio/",
+        "https://causaoperaria.org.br/2026/na-globo-luan-monteiro-defende-legalizacao-das-drogas-e-fim-da-pm/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "190002547272": {
+      "nome_urna": "JULIETE",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8,
+      "motivo": "[nível a] Econômico: propõe suspender e auditar a dívida pública do estado, criar um Banco Estadual para fortalecer investimento público em infraestrutura, e frentes de trabalho emergenciais contra o desemprego -- estatismo forte, alinhado ao padrão nacional do UP (mesmo partido de Samara na disputa presidencial). Pessoal: defende desmilitarização da polícia e das guardas municipais, e propõe rede de abrigos para mulheres em situação de violência com apoio multiprofissional -- posição garantista e de proteção social explícita, própria da candidata (educadora popular e ativista do MLB).",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/rio-de-janeiro/governador/juliete-80",
+        "https://sinfrerj.com.br/conteudo/11811/quem-sao-os-candidatos-a-governador-do-rj-nas-eleicoes-de-2026"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "190002540198": {
+      "nome_urna": "CYRO GARCIA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.3,
+      "eixo_pessoal": 8.5,
+      "motivo": "[nível a] Econômico: reverter privatizações, estatizar transporte e setores estratégicos, taxar grandes fortunas, suspender e auditar a dívida do estado, jornada de 30h sem redução salarial -- estatismo extremo, mesmo padrão do candidato do PSTU à Presidência (Hertz Dias). Pessoal: defende explicitamente desmilitarização da Polícia Militar, criação de uma polícia civil única, e descriminalização das drogas com controle estatal de produção e comercialização -- posições pessoais concretas e fortemente garantistas. Sem achado específico sobre aborto nesta busca.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-cyro-garcia-candidato-ao-governo-do-rio-de-janeiro/",
+        "https://www.pstu.org.br/manifesto-pela-pre-candidatura-de-cyro-garcia-ao-governo-do-rio/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "190002544120": {
+      "nome_urna": "CORONEL BUSNELLO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5,
+      "eixo_pessoal": 3,
+      "motivo": "[nível a] ACHADO QUE CORRIGE O ESTEREÓTIPO DE PARTIDO usado antes (Missão/MBL = liberal, nota 7.5 na economia): o plano dele mistura responsabilidade fiscal ortodoxa (gatilhos automáticos de contenção quando despesa de pessoal ultrapassa 49% da receita corrente líquida) com taxação de grandes fortunas e grandes empresas, transformação do Fundo Soberano em garantia de PPPs, E redução de jornada para 30h semanais sem corte salarial mais assistência emergencial de um salário mínimo para desempregados -- programa híbrido, bem mais centrista do que o liberalismo do MBL nacional sugeria. Pessoal: ex-BOPE, propõe base policial fixa dentro do Complexo do Alemão e promete 'comando firme' na segurança, mesmo dizendo que não vai interferir diretamente nas ações do secretário -- perfil de confronto moderado pelo próprio histórico militar.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/rio-de-janeiro/governador/coronel-busnello-14",
+        "https://www.bra1.com.br/politica/id-693587/coronel_busnello_diz_que_nao_acumulara_cargo_na_seguranca_e_quer_base_no_alemao",
+        "https://www.sinfrerj.com.br/conteudo/11903/economia-veja-propostas-dos-candidatos-ao-governo-do-rj"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "250002550913": {
+      "nome_urna": "CARLOS MACHADO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.3,
+      "eixo_pessoal": 7.5,
+      "motivo": "[nível a economia; nível b costumes] Econômico: contra privatizações, defende reestatização de São Paulo e criação de um Banco dos Trabalhadores estatal para coordenar crédito e investimento -- estatismo extremo, mesmo padrão de Edmilson Costa (PCB, 0). Pessoal: campanha declara combate à LGBTfobia; sem posição explícita achada sobre aborto/drogas, então segue o baseline do PCB (7.3) com leve ajuste -- 7.5, igual a Edmilson.",
+      "fontes": [
+        "https://www.metropoles.com/sao-paulo/pcb-candidato-governo-sao-paulo",
+        "https://almapreta.com.br/sessao/politica/eleicoes-candidatos-governo-sao-paulo/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    },
+    "250002549705": {
+      "nome_urna": "FERNANDO HADDAD",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3.5,
+      "eixo_pessoal": 5.5,
+      "motivo": "[nível a economia; nível a+c costumes] Econômico: se eleito, fará revisão dos contratos de concessão/privatização de Tarcísio (Sabesp, free flow, CPTM), com possibilidade de judicializar e 'eventualmente romper o contrato' -- 'toda privatização implica aumento de tarifa'; propõe agências reguladoras com técnicos e 'agência antifacção'. Ex-ministro da Fazenda (arcabouço fiscal), o que o deixa um pouco menos estatista que Lula-plano (3.0) só no discurso fiscal, mas anti-privatização no estado -- 3.5. Pessoal: declarou em 2012 e de novo como pré-candidato a prefeito de SP ser 'pessoalmente contra o aborto' e que em união civil 'temos que respeitar a Constituição' -- postura cautelosa, abaixo do baseline do PT (6.5) e do que a esquerda mais à esquerda defende; sem declaração recente encontrada sobre drogas. 5.5 combina posição pessoal cautelosa com plataforma progressista do partido. Substitui o fallback de partido anterior (3.0/6.5).",
+      "fontes": [
+        "https://www.poder360.com.br/poder-eleicoes-2026/foram-mal-feitos-diz-haddad-sobre-contratos-da-sabesp-free-flow-e-cptm/",
+        "https://www.opovo.com.br/noticias/politica/2026/09/14/haddad-reforca-que-se-eleito-fara-revisao-de-contratos-de-concessao-e-privatizacao-de-sp.html",
+        "https://www.jusbrasil.com.br/noticias/pre-candidato-a-prefeitura-de-sp-haddad-diz-ser-contra-o-aborto/3035337"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "250002553062": {
+      "nome_urna": "IZADORA DIAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0,
+      "eixo_pessoal": 8.5,
+      "motivo": "REVISADO em 2026-09-21 (auditoria de padronização): Ajuste de padronização do PCO: eixo econômico 0.2 -> 0 (mesmo programa do partido) e eixo pessoal 8.0 -> 8.5 (dissolução da PM documentada; legalização das drogas não confirmada para ela, então não chega a 9.0 de Luan e Henrique). || Texto anterior: [nível a economia; nível b/c costumes] Econômico: programa nacional do PCO -- aumento emergencial de 50% dos salários, jornada de 35h sem redução salarial, proibição de demissões, estatização de serviços essenciais, 'governo operário' (mesmo programa de Rui Costa Pimenta, 0). Pessoal: defende dissolução da PM, comitês de autodefesa nos bairros, armamento popular e juízes eleitos -- posição anti-repressão-estatal (puxa para o lado libertário), mas SEM declaração achada sobre aborto/drogas; segue 7.5 como Rui e o baseline do PCO (7.8). Menos confiável que uma pesquisa completa de costumes. AJUSTE 2026-09-21 (eixo pessoal 7.5 -> 8.0): ao pesquisar Henrique Áreas (PCO/MG) descobri que o programa nacional do PCO -- que Izadora declara compartilhar em todas as candidaturas -- prevê legalização de todas as drogas; não achei fala dela sobre isso, mas o programa é o mesmo.",
+      "fontes": [
+        "https://www.tribunapr.com.br/eleicoes/2026/candidatos/sp/governador/izadora-dias-pco-29/",
+        "https://correiodopovopenedo.com.br/noticia/2026/09/05/izadora-dias-propoe-dissolucao-da-policia-e-armamento-popular-em-sp",
+        "https://causaoperaria.org.br/2026/o-armamento-e-um-direito-democratico-diz-candidata-do-pco-ao-governo-de-sp/",
+        "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/mg/governador/henrique-areas-pco-29/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    },
+    "250002548080": {
+      "nome_urna": "POLICIAL EDJANE",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 4.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual] Candidatura indeferida pelo TRE-SP em 18/09/2026 e ela saiu da corrida (Agir apoia Tarcísio), então não se justificou pesquisa individual de posicionamento. Baseline do AGIR (ideologia_partidaria.json). Sargento da PM -- o perfil poderia puxar o eixo pessoal para baixo, mas não achei declaração dela que confirme; não presumido.",
+      "fontes": [
+        "https://www.metropoles.com/sao-paulo/quem-e-policial-edjane-candidata-do-agir-ao-governo-de-sao-paulo",
+        "https://www.piranot.com.br/2026/09/18/noticias/politica/eleicoes/agir-apoia-tarcisio-tre-sp-indefere-chapa-policial-edjane/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "250002541303": {
+      "nome_urna": "TARCÍSIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.0,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível a nos dois eixos] Econômico: privatizou a Sabesp (e defende no plano 2026), planeja PPP de R$ 12,5 bi para Tietê/Pinheiros e prevê R$ 500 bi de investimento com Tesouro + iniciativa privada; declara-se 'liberal no pensamento econômico'. Não dá 8+ porque o plano de 2026 não traz novas privatizações e mantém pacote assistencial ('mães empreendedoras', creche por voucher) -- pró-mercado, mas não radical como Zema. Pessoal: declarou 'conservador nos costumes... defendo a família, sou contra o aborto, contra descriminalização das drogas' (entrevista ao Estadão, hoje reproduzida por site conservador); plano de 2026 prioriza expansão das escolas cívico-militares. CORRIGE o fallback de partido anterior (5.0 econômico, baseline Republicanos, que subestimava o lado pró-mercado dele).",
+      "fontes": [
+        "https://www.infomoney.com.br/politica/plano-de-tarcisio-preve-obra-em-periferias-escolas-civico-militares-e-credito-a-maes/",
+        "https://www.metropoles.com/sao-paulo/tarcisio-planeja-ppp-para-os-rios-pinheiros-e-tiete-em-caso-de-reeleicao",
+        "https://www.jornalcruzeiro.com.br/sorocaba/noticias/2026/09/765430-tarcisio-preve-rs-500-bi-de-investimentos-do-tesouro-e-iniciativa-privada-em-novo-mandato.html",
+        "https://www.contrafatos.com.br/tarcisio-diz-ser-contra-aborto-e-descriminalizacao-das-drogas/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "250002536915": {
+      "nome_urna": "VERA LÚCIA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 9.0,
+      "motivo": "[nível a nos dois eixos] Econômico: primeiro decreto seria reestatizar metrô e trens, reverter a privatização da Sabesp e reestatizar hospitais -- estatismo extremo, igual a Hertz Dias (PSTU, 0.5). Pessoal: defende usar o peso político de SP para pressionar o Congresso a aprovar aborto legal pelo SUS a critério da gestante, e descriminalização do uso de drogas com tratamento pelo SUS -- progressismo máximo (Hertz 8.5, Samara 9).",
+      "fontes": [
+        "https://almapreta.com.br/sessao/politica/vera-lucia-pstu-governo-sp/",
+        "https://www.metropoles.com/sao-paulo/veja-as-propostas-dos-candidatos-ao-governo-de-sao-paulo-para-a-saude",
+        "https://www.cartacapital.com.br/politica/pre-candidata-do-pstu-ao-planalto-defende-pauta-do-aborto-na-eleicao-temos-que-legalizar/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "250002544912": {
+      "nome_urna": "VIVIAN MENDES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.3,
+      "eixo_pessoal": 8.5,
+      "motivo": "[nível a economia; nível b costumes] Econômico: defende reestatização da Sabesp, retomada estatal da CPTM, aumento de 100% do salário mínimo paulista e fim da escala 6x1 -- estatismo extremo, mesmo padrão de Samara (UP, 0.3). Pessoal: fundadora do movimento feminista Olga Benário e com foco da campanha em direitos das mulheres; sem declaração explícita achada sobre aborto/drogas, então fica entre o baseline da UP (8.2) e Samara (9) -- 8.5.",
+      "fontes": [
+        "https://www.metropoles.com/sao-paulo/quem-e-vivian-mendes-candidata-da-up-ao-governo-de-sao-paulo",
+        "https://unidadepopular.org.br/eleicoes/vivian-mendes",
+        "https://www.diarioesp.com.br/sao-paulo/2026/08/17/unidade-popular-lanca-vivian-mendes-ao-governo-de-sao-paulo-em-2026.html"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    },
+    "130002541911": {
+      "nome_urna": "MATEUS SIMÕES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.0,
+      "eixo_pessoal": 5.5,
+      "motivo": "[nível a economia; nível c costumes] Econômico: sucessor de Zema, tocou a privatização da Copasa (concluída em 06/2026) e defende privatizar a Gasmig e transformar a Cemig em corporation via Propag, mas DESCARTA vender a Cemig -- pró-mercado com freio na joia da coroa; 7.0. Pessoal: nenhuma posição pessoal sobre aborto/drogas achada; baseline do PSD (5.5), com a ressalva de que ele veio do NOVO (que pode ser mais liberal em costumes).",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/9/4/simoes-defende-privatizacao-da-gasmig-mas-afasta-venda-da-cemig",
+        "https://www.otempo.com.br/politica/2026/5/28/privatizacao-da-copasa-mateus-simoes-avalia-reviravoltas-e-diz-que-universalizacao-e-prioridade",
+        "https://www.em.com.br/politica/2026/09/7500910-simoes-descarta-privatizar-cemig-mas-quer-discutir-venda-da-gasmig.html"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "130002550464": {
+      "nome_urna": "PATRUS ANANIAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3.0,
+      "eixo_pessoal": 6.5,
+      "motivo": "[nível a economia; nível c costumes] Econômico: plano 2026-2030 defende manter Cemig, Codemig e Codemge sob controle estatal e rever a privatização da Copasa -- mas admite mantê-la privada 'se cumprir os compromissos', e descarta federalizar Cemig/Codemig: estatismo desenvolvimentista moderado, igual ao plano de Lula (3.0). Pessoal: sem posição pessoal achada sobre aborto/drogas; baseline do PT (6.5).",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/8/21/em-discurso-focado-na-militancia-petista-patrus-defende-manter-cemig-e-copasa-nas-maos-do-estado",
+        "https://www.opovo.com.br/noticias/politica/2026/08/20/mg-patrus-descarta-federalizar-codemig-e-cemig-mas-quer-manter-copasa-privada-sob-condicoes.html",
+        "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/130017091585"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "130002539775": {
+      "nome_urna": "ALEXANDRE KALIL",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 4.0,
+      "eixo_pessoal": 6.4,
+      "motivo": "[nível a economia; nível c costumes] Econômico: promete cancelar a privatização da Copasa ('desastre'), cancelar o rodoanel e rever ativos do Propag; regra pragmática: privatiza empresa que dá prejuízo, mantém no Estado a que dá lucro -- intervencionista-pragmático, 4.0. Pessoal: sem posição pessoal achada; baseline do PDT (6.4).",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/5/5/kalil-contra-tudo-cancelar-rodoanel-privatizacao-da-copasa-e-rever-ativos-do-propag",
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/9/8/kalil-chama-privatizacao-da-copasa-de-desastre-e-preve-era-do-balde-apos-rompimento-de-tubulacao",
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/9/6/kalil-critica-privatizacao-da-copasa-e-culpa-simoes-mas-deputados-do-pdt-apoiaram-venda"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "130002552296": {
+      "nome_urna": "CLEITINHO AZEVEDO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.0,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível b economia; nível c costumes] Econômico: plano com corte drástico de cargos comissionados, orçamento base zero, simplificação de abertura de empresas e IPVA proporcional ao valor do veículo (isentando/reduzindo os populares) -- enxugamento do Estado com viés popular, sem posição achada sobre privatização; 6.0. Pessoal: sem posição pessoal achada sobre aborto/drogas/armas; baseline do Republicanos (1.5) -- pouco confiável, ele é outsider populista e músico gospel.",
+      "fontes": [
+        "https://www.sistemampa.com.br/noticias/eleicoes/plano-governo-cleitinho-minas-gerais/",
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/8/24/cleitinho-minimiza-mineracao-e-da-destaque-ao-agro-em-plano-de-governo"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "130002550834": {
+      "nome_urna": "FLÁVIO ROSCOE",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível a economia; nível c costumes] Econômico: agenda de desburocratização (estima R$ 10-12 bi de arrecadação extra no 1º ano com simplificação), diz que privatização é debate 'ideológico, o importante é a eficiência' e se opõe à venda da Cemig; empresário da indústria -- pró-mercado pragmático, 6.5. Pessoal: sem posição pessoal achada; baseline do PL (1.5), campo de Flávio Bolsonaro/Nikolas Ferreira que o cercam.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/8/20/roscoe-alfineta-tulio-e-diz-que-debate-sobre-privatizacao-e-ideologico-importante-e-a-eficiencia",
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/9/17/sabatina-em-dados-flavio-roscoe-prioriza-desburocratizacao-em-conversa-com-o-tempo"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "130002549557": {
+      "nome_urna": "GABRIEL",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.0,
+      "eixo_pessoal": 4.8,
+      "motivo": "[nível a economia; nível c costumes] Econômico: não privatiza a Cemig, quer agência forte para fiscalizar a Copasa (já privatizada), desburocratizar o Estado e ferrovias, com 16 compromissos ao setor empresarial -- centro-direita pragmática, 6.0. Pessoal: sem posição achada; baseline do MDB (4.8).",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/9/17/gabriel-azevedo-promete-desburocratizar-estado-e-apresenta-16-compromissos-ao-setor-empresarial",
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/9/15/os-dados-da-sabatina-de-gabriel-azevedo-candidato-prioriza-ferrovias-e-aprendizagem",
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/9/8/gabriel-azevedo-cobra-fiscalizacao-da-copasa-e-promete-transparencia-em-impostos-a-lojistas-mineiros"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "130002544411": {
+      "nome_urna": "BEN MENDES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 3.0,
+      "motivo": "[nível c nos dois eixos -- fallback de partido] Único candidato ao Palácio Tiradentes que NÃO anexou plano de governo ao TSE; a campanha diz seguir o 'Livro Amarelo' do Missão (equilíbrio das contas, eficiência, segurança, desenvolvimento) e cita ferrovias e educação. Sem sinal individual sobre aprofundamento -- baseline do Missão (7.5/3.0). Cuidado: no RJ o candidato do mesmo partido (Busnello) divergiu do baseline na economia (5.0).",
+      "fontes": [
+        "https://ofator.com.br/informacao/o-misterio-sobre-plano-governo-de-ben-mendes/",
+        "https://www.em.com.br/politica/2026/07/7466502-ben-mendes-e-oficializado-candidato-ao-governo-de-minas-pelo-missao.html"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "130002544122": {
+      "nome_urna": "PROFESSOR TÚLIO LOPES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.3,
+      "eixo_pessoal": 7.3,
+      "motivo": "[nível a economia; nível c costumes] Econômico: defende manter as empresas públicas e critica a privatização de Copasa e Cemig -- estatismo extremo, padrão PCB (Edmilson Costa, 0). Pessoal: sem posição achada; baseline do PCB (7.3).",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/8/20/roscoe-alfineta-tulio-e-diz-que-debate-sobre-privatizacao-e-ideologico-importante-e-a-eficiencia",
+        "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "130002546802": {
+      "nome_urna": "RAFAEL DUDA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.6,
+      "motivo": "[nível a economia; nível c costumes] Econômico: nacionalização das mineradoras e empresas estratégicas (energia, saneamento, água), fortalecer bancos públicos como o BDMG e criar estatais de alta tecnologia, fim das OSs/OSCIPs na saúde -- estatismo extremo, igual a Hertz Dias (PSTU, 0.5). Pessoal: nenhuma declaração sobre aborto/drogas achada; baseline do PSTU (8.6).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-rafael-duda-candidato-ao-governo-de-minas-gerais/",
+        "https://www.plural.jor.br/rafael-ribeiro-de-avila/"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "130002552308": {
+      "nome_urna": "HENRIQUE ÁREAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0,
+      "eixo_pessoal": 9.0,
+      "motivo": "REVISADO em 2026-09-21 (auditoria de padronização): Ajuste de padronização do PCO: eixo econômico 0.2 -> 0 e eixo pessoal 8.0 -> 9.0 -- mesma evidência de Luan Monteiro (fim da PM + legalização de todas as drogas no programa dele), que tinha 9.0. || Texto anterior: [nível a nos dois eixos] Econômico: cancelar as privatizações, estatizar sem indenização as reservas minerais, romper o pagamento da dívida pública de MG, jornada de 35h, revogar as reformas trabalhista/previdenciária -- mesmo programa nacional do PCO (Rui Costa Pimenta, 0). Pessoal: programa prevê LEGALIZAÇÃO DE TODAS AS DROGAS, fim da PM (segurança por comitês escolhidos e destituíveis pela população) e direito de autodefesa -- libertário em liberdades civis; sem declaração achada sobre aborto.",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/mg/governador/henrique-areas-pco-29/",
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/9/18/henrique-areas-defende-o-cancelamento-d-privatizacoes-e-a-estatizacao-das-reservas-minerais",
+        "https://www.otempo.com.br/politica/2026/9/16/henrique-areas-propoe-o-fim-da-policia-militar-e-que-cada-cidadao-tenha-o-direito-de-se-defender"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "130002547874": {
+      "nome_urna": "INDIRA XAVIER",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.3,
+      "eixo_pessoal": 8.5,
+      "motivo": "[nível a economia; nível b costumes] Econômico: reestatizar a Copasa ('para não faltar água'), nacionalizar o minério de ferro e minerais críticos com empresa estatal sob controle popular, crítica às renúncias fiscais -- estatismo extremo, padrão UP (Samara, 0.3). Pessoal: propõe polícia única, comunitária e DESMILITARIZADA; coordenadora nacional do movimento de mulheres Olga Benário; sem declaração achada sobre aborto/drogas -- entre o baseline da UP (8.2) e Samara (9).",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/9/10/indira-xavier-defende-reestatizar-a-copasa-para-nao-faltar-agua",
+        "https://www.metropoles.com/minas-gerais/unica-mulher-candidata-em-mg-indira-propoe-policia-unica-e-desmilitarizada",
+        "https://www.band.com.br/nacional/mg/indira-xavier-apresenta-propostas-para-minas-em-sabatina-da-band"
+      ],
+      "pesquisado_em": "2026-09-21",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    }
+  }
+}
