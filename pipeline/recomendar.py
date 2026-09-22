@@ -4,7 +4,9 @@ Passo a passo (ver docs/funil_recomendacao.md):
   0. Remover quem está fora da disputa (registro indeferido ou inelegibilidade vigente).
   1. Filtrar pela idoneidade geral (`nota_idoneidade_geral`): sai quem tem nota abaixo do corte.
   2. Classificar cada candidato num quadrante do diagrama de Nolan (eixo econômico x eixo pessoal).
-  3. Em cada quadrante, escolher por `nota_competencia_geral`:
+  3. Em cada quadrante, escolher por `nota_qualificacao_geral` (média simples de `nota_competencia_geral`
+     e `nota_idoneidade_geral`, decisão do usuário em 2026-09-22 -- antes era só competência geral, com
+     idoneidade geral entrando apenas como desempate):
        - Presidente, Governador, Senador: 1 candidato por quadrante;
        - Deputados (federal, estadual, distrital): 3 por quadrante, para o eleitor escolher.
 
@@ -14,9 +16,10 @@ Decisões de desenho (todas parametrizáveis e listadas na saída):
     avaliado pode ser recomendado (`nao_avaliados="excluir"`); os demais aparecem numa lista à parte.
   * Posição no diagrama: pesquisa individual quando existe; sem ela, o baseline do PARTIDO
     (regra do fallback), marcado como tal. Perto do centro (+-0,5) o candidato é marcado 'fronteira'.
-  * Empate na última vaga de um quadrante: desempate por idoneidade geral, competência bruta e
-    escolaridade; se ainda empatar, sorteio com semente fixa (reprodutível), e o tamanho do empate
-    é informado. Nenhum candidato é favorecido por ordem alfabética.
+  * Empate na última vaga de um quadrante: desempate por competência geral (a metade "menos redundante"
+    da qualificação geral), idoneidade geral, competência bruta e escolaridade; se ainda empatar, sorteio
+    com semente fixa (reprodutível), e o tamanho do empate é informado. Nenhum candidato é favorecido por
+    ordem alfabética.
 """
 import argparse
 import json
@@ -101,12 +104,14 @@ def preparar(df: pd.DataFrame) -> pd.DataFrame:
     )
     fora = carregar_fora_da_disputa()
     df["fora_da_disputa"] = df["sq_candidato"].map(fora)
+    df["nota_qualificacao_geral"] = (df["nota_competencia_geral"] + df["nota_idoneidade_geral"]) / 2
     return df
 
 
 def _escolher(grupo: pd.DataFrame, vagas: int, semente: int):
-    """Escolhe `vagas` candidatos por competência geral com desempate explícito. Devolve (escolhidos, empatados_na_ultima_vaga)."""
-    chaves = ["nota_competencia_geral", "nota_idoneidade_geral", "nota_competencia", "nota_escolaridade"]
+    """Escolhe `vagas` candidatos por qualificação geral (média de competência geral e idoneidade geral),
+    com desempate explícito. Devolve (escolhidos, empatados_na_ultima_vaga)."""
+    chaves = ["nota_qualificacao_geral", "nota_competencia_geral", "nota_idoneidade_geral", "nota_competencia", "nota_escolaridade"]
     g = grupo.copy()
     for c in chaves:
         g[f"_k_{c}"] = g[c].fillna(-1).round(6)
@@ -174,6 +179,7 @@ def recomendar(
             resultado["recomendados"].append({
                 "quadrante": q, "sq": r["sq_candidato"], "nome_urna": r["nome_urna"], "partido": r["partido"], "numero": r["numero"],
                 "idoneidade_geral": r["nota_idoneidade_geral"], "competencia_geral": r["nota_competencia_geral"],
+                "qualificacao_geral": r["nota_qualificacao_geral"],
                 "posicao": f"({r['eco_final']:.1f}; {r['pes_final']:.1f}) {r['posicao_fonte']}",
                 "fronteira": bool(r["fronteira"]), "camadas_pesquisadas": int(r["camadas_pesquisadas"]),
                 "avaliado_em_idoneidade": pd.notna(r["nota_idoneidade_geral"]),
@@ -208,7 +214,8 @@ def formatar(res: dict) -> str:
                 flags.append("SEM IDONEIDADE")
             if r["empatados_na_ultima_vaga"]:
                 flags.append(f"sorteado entre {r['empatados_na_ultima_vaga']} empatados")
-            L.append(f"  * {r['nome_urna']} ({r['partido']} {r['numero']}) idoneidade {idg} | competência {r['competencia_geral']:.2f} | "
+            L.append(f"  * {r['nome_urna']} ({r['partido']} {r['numero']}) qualificação geral {r['qualificacao_geral']:.2f} "
+                     f"(idoneidade {idg} | competência {r['competencia_geral']:.2f}) | "
                      f"posição {r['posicao']} | {r['camadas_pesquisadas']}/5 camadas" + (f" | {', '.join(flags)}" if flags else ""))
     return "\n".join(L)
 

@@ -38,9 +38,11 @@ com dois polos que trazem custo (A/B, com a ordem sorteada a cada carga para evi
 4. **Etapa 2 -- posição no diagrama de Nolan.** Cada candidato cai em um de quatro quadrantes (limiar 5,0 nos dois
    eixos): Libertário, Direita conservadora, Esquerda progressista, Estatista-autoritário. A posição vem da pesquisa
    individual; sem ela, do baseline do partido (sempre marcado). Quem está a menos de 0,5 do centro leva a marca FRONTEIRA.
-5. **Etapa 3 -- melhor por quadrante, por competência geral (`nota_competencia_geral`).**
-   Presidente, Governador e Senador: 1 candidato por quadrante. Deputados federal, estadual e distrital: 3 por quadrante,
-   e o eleitor escolhe entre eles.
+5. **Etapa 3 -- melhor por quadrante, por qualificação geral (`nota_qualificacao_geral`, decisão do usuário em
+   2026-09-22).** É a média simples entre `nota_idoneidade_geral` e `nota_competencia_geral` -- antes disso, a etapa 3
+   usava só `nota_competencia_geral`, com a idoneidade entrando apenas como critério de desempate. Presidente,
+   Governador e Senador: 1 candidato por quadrante. Deputados federal, estadual e distrital: 3 por quadrante, e o
+   eleitor escolhe entre eles.
 6. **Resultado:** até 3 recomendações (o quadrante Estatista-autoritário fica vazio, ver limites), cada uma com idoneidade,
    competência, posição, quantas das 5 camadas foram pesquisadas e a marca de qualquer ressalva.
 
@@ -50,7 +52,8 @@ com dois polos que trazem custo (A/B, com a ordem sorteada a cada carga para evi
 |---|---|---|
 | Corte de idoneidade geral | 6,0 | Definido pelo usuário em 2026-09-21. **Muito sensível**: com 5,0 ou 7,0 mudam recomendações. |
 | Candidato sem idoneidade geral pesquisada | **excluído** da recomendação (fica numa lista à parte) | Se passasse direto, ser pesquisado viraria desvantagem: só os pesquisados poderiam ser reprovados. |
-| Desempate na última vaga | idoneidade geral, competência bruta, escolaridade; depois sorteio com semente fixa | Nunca ordem alfabética. O tamanho do empate é informado. |
+| Critério de escolha por quadrante | qualificação geral (média de idoneidade geral e competência geral) | Decisão do usuário em 2026-09-22; antes era só competência geral. |
+| Desempate na última vaga | competência geral, idoneidade geral, competência bruta, escolaridade; depois sorteio com semente fixa | Nunca ordem alfabética. O tamanho do empate é informado. |
 | Pessoa registrada duas vezes no TSE | mantém o registro mais pesquisado e o mais recente | 17 casos em 2026 (34 linhas). |
 
 ## Cobertura atual (o que o funil consegue recomendar hoje)
@@ -58,7 +61,7 @@ com dois polos que trazem custo (A/B, com a ordem sorteada a cada carga para evi
 | Cargo | Candidatos | Com idoneidade geral | Recomendável hoje |
 |---|---|---|---|
 | Presidente | 14 | 13 | Sim (Marçal está fora da disputa) |
-| Governador | 201 | 27 (RJ, SP, MG) | Só RJ, SP e MG |
+| Governador | 201 | 92 (RJ, SP, MG, PI, RN, AL, MS, BA, PR, RS, PE, CE) | Nesses 12 estados |
 | Senador | 319 | 0 | Não |
 | Deputados (federal, estadual, distrital) | 19.526 | 0 | Não |
 
@@ -75,6 +78,12 @@ e a etapa 1 não protege o eleitor de ninguém.
 * **Senador e Deputados só têm posição pelo partido.** O quadrante deles é o do partido, não o da pessoa.
 * **Fronteira.** Partidos de centro mudam de quadrante por 0,3 ponto (PSD 6,0/5,5 é Libertário; MDB 5,5/4,8 é Direita).
 * **Competência é comparável só entre candidatos com experiência política pesquisada** (ver coluna `cobertura_pesquisa`).
+* **A qualificação geral (média) favorece quem tem idoneidade 10 por falta de achado, não por ser mais limpo de fato.**
+  Como a nota 10 de idoneidade muitas vezes reflete busca mais rasa (partido pequeno, menos cobertura de imprensa) e não
+  ausência real de pendência, candidatos de partidos pequenos com idoneidade 10 mas competência mediana passaram a vencer
+  quadrantes contra candidatos mais competentes e mais escrutinados (com idoneidade 6-9 por achados reais, ainda que
+  leves). Ex.: Sergio Moro (PR, idoneidade 6,5 após achado) perdeu o quadrante Direita para o Dr. Alexandre Salomão
+  (Mobiliza, idoneidade 10, menos competência) só depois da mudança de critério em 2026-09-22.
 * **O funil escolhe o melhor por quadrante, não o melhor candidato.** A nota de competência premia escolaridade e
   carreira eletiva; candidatos de partidos pequenos com nota alta de competência aparecem (Edmilson Costa/PCB para
   Presidente, Cyro Garcia/PSTU no RJ).

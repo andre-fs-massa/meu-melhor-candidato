@@ -336,6 +336,368 @@
         "https://www.otempo.com.br/politica/2026/7/15/possivel-candidato-do-pt-ao-governo-patrus-ananias-foi-o-primeiro-prefeito-do-partido-eleito-em-bh"
       ],
       "pesquisado_em": "2026-09-21"
+    },
+    "180002537422": {
+      "nome_urna": "GERALDO CARVALHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Sociólogo, doutor em Educação, professor da UFPI há 17 anos. Presidente do Sindicato dos Bancários do Piauí (1995-1998) -- liderança de entidade de representação de trabalhadores do setor financeiro, com negociação coletiva real. Liderança do Andes-SN (sindicato nacional de docentes de ensino superior), com atuação de articulação política em escala nacional.",
+      "competencias": {
+        "administracao": {
+          "nota": 6,
+          "motivo": "Presidência de sindicato (1995-1998) é liderança organizacional real de uma entidade representativa, além da carreira acadêmica -- acima do proxy de 'professor de ensino superior' isolado."
+        },
+        "financas": {
+          "nota": 4,
+          "motivo": "Sindicato dos bancários dá familiaridade com o setor financeiro e negociação de pauta salarial/benefícios, mas não é gestão fiscal pública direta -- boost modesto."
+        },
+        "articulacao_politica": {
+          "nota": 6,
+          "motivo": "Liderança sindical nacional (Andes-SN) envolve negociação política real com o poder público em escala nacional, não só retórica de campanha -- mesmo padrão usado para outros sindicalistas do projeto (Cyro Garcia/RJ)."
+        }
+      },
+      "fontes": [
+        "https://www.gp1.com.br/pi/piaui/noticia/2026/8/1/pstu-oficializa-candidatura-de-geraldo-carvalho-ao-governo-do-piaui-628442.html"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "180002549995": {
+      "nome_urna": "SANTIAGO BELIZÁRIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Historiador; uma das principais lideranças do MLB (Movimento de Luta nos Bairros, Vilas e Favelas) no Piauí, movimento social nacional de luta por moradia -- anos de organização coletiva e negociação com o poder público em nome do movimento.",
+      "competencias": {
+        "articulacao_politica": {
+          "nota": 5,
+          "motivo": "Liderança de movimento social nacional (MLB) envolve articulação política real (organização de mobilizações, negociação com prefeituras/governo por moradia) -- acima do proxy de ocupação 'OUTROS' (2), mas sem cargo institucional formal que justifique nota alta."
+        }
+      },
+      "fontes": [
+        "https://portalodia.com/blogs/piaui/unidade-popular-define-santiago-belizario-como-pre-candidato-ao-governo-do-piaui-e-thays-dias-para-vice-457709.html"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "200002534001": {
+      "nome_urna": "CADU DE LULA",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Auditor fiscal da Receita Estadual desde 2005; Secretário de Estado da Fazenda do RN no governo Fátima Bezerra -- gestão real das finanças e da arrecadação do estado, não capturada pela ocupação declarada ao TSE ('ENGENHEIRO').",
+      "competencias": {
+        "administracao": {
+          "nota": 8,
+          "motivo": "Secretário de Fazenda é cargo de gestão de todo o aparato fiscal/orçamentário do estado -- muito acima do proxy de 'engenheiro' isolado."
+        },
+        "financas": {
+          "nota": 9,
+          "motivo": "Auditor fiscal de carreira (desde 2005) e Secretário de Fazenda: competência financeira/fiscal real e direta, o núcleo do cargo."
+        },
+        "articulacao_politica": {
+          "nota": 5,
+          "motivo": "Secretário de Fazenda negocia com Legislativo estadual (orçamento, renúncias fiscais) e outros entes federativos -- articulação política real, embora não seja o foco principal do cargo."
+        }
+      },
+      "fontes": [
+        "https://ojornalextra.com.br/eleicoes/pleito2026/candidatos/200002534001/eleicoes-2026-quem-e-cadu-de-lula-candidato-a-governador-rio-grande-do-norte"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "200002542481": {
+      "nome_urna": "DÁRIO BARBOSA",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Professor aposentado; fundador do PSTU no Rio Grande do Norte e cofundador da CSP-Conlutas (central sindical de atuação nacional) -- liderança de construção institucional real, não só filiação.",
+      "competencias": {
+        "articulacao_politica": {
+          "nota": 5,
+          "motivo": "Fundar um partido estadual e cofundar uma central sindical nacional envolve articulação política e organizacional real ao longo de décadas -- acima do proxy de 'professor de ensino médio' isolado, mesmo padrão usado para outros sindicalistas fundadores no projeto."
+        }
+      },
+      "fontes": [
+        "https://www.novonoticias.com.br/pstu-lanca-dario-barbosa-ao-governo-do-rn-e-anuncia-rosalia-fernandes-para-disputar-o-senado-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "200002547826": {
+      "nome_urna": "ARINALDA DO MLB",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Diarista; liderança do MLB (Movimento de Luta nos Bairros, Vilas e Favelas) em Natal, movimento social nacional de luta por moradia.",
+      "competencias": {
+        "articulacao_politica": {
+          "nota": 4,
+          "motivo": "Liderança de movimento social de moradia envolve organização coletiva e negociação com o poder público -- acima do proxy de 'empregado doméstico' isolado (2), mas sem cargo institucional formal que justifique nota mais alta (mesmo critério usado para Santiago Belizário/PI-UP, com perfil de liderança um pouco mais consolidado)."
+        }
+      },
+      "fontes": [
+        "https://www.opotiguar.com.br/up-lanca-arinalda-medeiros-como-candidata-ao-governo-do-rio-grande-do-norte"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "20002539642": {
+      "nome_urna": "LENILDA LUNA",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Radialista, pedagoga e jornalista; ex-diretora da Rádio/TV Educativa de Alagoas (empresa pública estadual de comunicação) -- cargo de direção real em órgão público, não capturado pela ocupação declarada ('servidor público federal', atua hoje na Comunicação da UFAL).",
+      "competencias": {
+        "articulacao_politica": {
+          "nota": 4,
+          "motivo": "Dirigir uma emissora pública estadual envolve relação institucional com o governo do estado e articulação de comunicação pública -- acima do proxy genérico de 'servidor público federal' (2), mas sem cargo de gestão orçamentária que justifique nota mais alta."
+        }
+      },
+      "fontes": [
+        "https://www.plural.jor.br/lenilda-luna-de-almeida/"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "120002532257": {
+      "nome_urna": "LUCIEN REZENDE",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Pequeno produtor rural; foi secretário municipal de Desenvolvimento Econômico de Ribas do Rio Pardo durante os 4 anos de gestão do PSOL no município -- cargo de gestão executiva real, não capturado pela ocupação declarada ao TSE ('empresário').",
+      "competencias": {
+        "administracao": {
+          "nota": 7,
+          "motivo": "Secretário municipal por um mandato completo (4 anos) é experiência real de gestão executiva de uma pasta -- acima do proxy de 'empresário' isolado."
+        },
+        "articulacao_politica": {
+          "nota": 5,
+          "motivo": "Secretaria de Desenvolvimento Econômico envolve negociação com Câmara Municipal, setor produtivo e outros entes -- articulação política real, além de presidir o PSOL estadual."
+        }
+      },
+      "fontes": [
+        "https://www.campograndenews.com.br/politica/fundador-do-psol-em-ms-candidato-ao-governo-quer-ampliar-alcance-da-esquerda"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "50002544692": {
+      "nome_urna": "AROLDO FELIX",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Professor da UFRB (Engenharia de Energias); vice-presidente da regional NE III do Andes-SN (sindicato nacional de docentes de ensino superior) e membro da coordenação NACIONAL do Movimento Luta de Classes; presidiu o DCE da UFCG -- liderança sindical de escala regional/nacional, não capturada pela ocupação declarada ('professor de ensino superior').",
+      "competencias": {
+        "articulacao_politica": {
+          "nota": 6,
+          "motivo": "Vice-presidência regional de um sindicato nacional (Andes-SN) e coordenação nacional de um movimento político (MLC) são liderança e negociação política real em escala supraestadual -- acima do proxy isolado de ocupação."
+        }
+      },
+      "fontes": [
+        "https://www.plural.jor.br/aroldo-felix-de-azevedo-junior/"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "50002532269": {
+      "nome_urna": "RONALDO MANSUR",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Um dos fundadores do PSOL (partido nacional), presidente estadual do PSOL-BA, membro da direção nacional do partido; décadas de ativismo em movimentos sociais (Maio Baiano 2001, Revolta do Buzu 2003) -- liderança partidária de escala nacional, não capturada pela ocupação declarada ('outros').",
+      "competencias": {
+        "articulacao_politica": {
+          "nota": 5,
+          "motivo": "Fundação e direção nacional de um partido político, mais décadas de organização de movimentos sociais, são articulação política real -- acima do proxy de ocupação 'outros' (2)."
+        }
+      },
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-ronaldo-mansur-candidato-ao-governo-da-bahia/"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "160002550997": {
+      "nome_urna": "TAYNÁ MIESSA",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Coordenadora NACIONAL do Movimento de Mulheres Olga Benário e organizadora da Casa de Referência Enedina Marques -- liderança de movimento social de escala nacional, não capturada pela ocupação declarada ('produtora de espetáculos públicos').",
+      "competencias": {
+        "articulacao_politica": {
+          "nota": 4,
+          "motivo": "Coordenação nacional de um movimento social envolve organização e negociação política real -- acima do proxy de ocupação isolado (2), mas sem cargo institucional formal que justifique nota mais alta."
+        }
+      },
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-tayna-miessa-candidata-ao-governo-do-parana/"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "160002547594": {
+      "nome_urna": "DOUTOR ALEXANDRE SALOMÃO",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Advogado criminalista; ex-presidente da Comissão de Direitos Humanos da OAB-PR -- liderança de entidade de classe estadual, não plenamente capturada pela ocupação declarada ('advogado', já dá boa nota em processo legislativo pelo arquétipo jurídico).",
+      "competencias": {
+        "articulacao_politica": {
+          "nota": 5,
+          "motivo": "Presidir uma comissão da OAB estadual é liderança institucional real com interlocução política (segurança pública, direitos humanos) -- acima do proxy genérico de 'advogado' (4)."
+        }
+      },
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-alexandre-salomao-candidato-ao-governo-do-parana/"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "210002542892": {
+      "nome_urna": "GABRIEL SOUZA",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Vice-governador do Rio Grande do Sul desde janeiro de 2023, exercendo co-gestão executiva real no governo Eduardo Leite (recuperação pós-enchentes de 2024, articulação com prefeitos e Assembleia) -- experiência de governo real não capturada nem pela ocupação declarada ('veterinário') nem pela tabela de boost de cargo eletivo anterior do projeto (que não tem categoria 'vice-governador').",
+      "competencias": {
+        "administracao": {
+          "nota": 7,
+          "motivo": "Quase 4 anos de vice-governadoria, com atuação executiva real (inclusive na resposta à emergência climática de 2024) -- muito acima do proxy de 'veterinário' isolado."
+        },
+        "articulacao_politica": {
+          "nota": 6,
+          "motivo": "Vice-governador articula com Assembleia Legislativa, prefeitos e governo federal rotineiramente -- articulação política real de escala estadual."
+        }
+      },
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Gabriel_Souza_(politician)"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "210002541367": {
+      "nome_urna": "REJANE DE OLIVEIRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Professora aposentada; presidiu o Sindicato dos Professores do Ensino Privado do RS e o Cpers-Sindicato (sindicato estadual dos professores da rede pública) por DOIS mandatos -- liderança sindical de escala estadual real, não capturada pela ocupação declarada ('professor de ensino médio').",
+      "competencias": {
+        "articulacao_politica": {
+          "nota": 6,
+          "motivo": "Presidência de sindicato estadual por dois mandatos envolve negociação coletiva e política real com o governo do estado -- acima do proxy de ocupação isolado (4)."
+        }
+      },
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-rs-2026/"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "60002549967": {
+      "nome_urna": "ZÉ BATISTA",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Presidente ESTADUAL do PSTU no Ceará; liderança do movimento sindical da construção civil, integra a CSP-Conlutas (central sindical de atuação nacional) -- liderança sindical/partidária real de escala estadual, não capturada pela ocupação declarada ('trabalhador de construção civil').",
+      "competencias": {
+        "articulacao_politica": {
+          "nota": 4,
+          "motivo": "Presidência estadual de partido e liderança sindical setorial envolvem organização e negociação política real -- acima do proxy de ocupação isolado (2), mesmo padrão usado para outros sindicalistas fundadores no projeto."
+        }
+      },
+      "fontes": [
+        "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-ze-batista-sindicalista-e-candidato-ao-governo-do-ceara-em-2026-1.3778193"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "240002552157": {
+      "nome_urna": "RALF ZIMMER",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Advogado, defensor público de carreira (2013-2018) e Defensor Público-Geral do Estado de Santa Catarina (2016-2018) -- liderança executiva de uma instituição pública estadual inteira, com gestão orçamentária e de pessoal, mesmo sem ser cargo eletivo. Ficou conhecido por apresentar o primeiro pedido de impeachment contra o então governador Carlos Moisés.",
+      "competencias": {
+        "administracao": {
+          "nota": 7,
+          "motivo": "Defensor Público-Geral por 2 anos é liderança executiva real de uma instituição pública estadual inteira, com gestão orçamentária e de pessoal."
+        },
+        "articulacao_politica": {
+          "nota": 6,
+          "motivo": "Apresentar e sustentar o primeiro pedido de impeachment contra um governador em exercício exigiu articulação política real na Assembleia Legislativa, ainda que de escala estadual, não nacional."
+        }
+      },
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-e-ralf-zimmer-historia-carreira-e-disputas-pelo-governo-de-sc/"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "240002544118": {
+      "nome_urna": "MARCELO BRIGADEIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Veterinário e formado em Educação Física, ex-lutador de MMA, multiempreendedor nas áreas de saúde e fitness; foi diretor de esportes da Fesporte (fundação pública estadual de esportes de SC) entre 2020-2022, no governo de Carlos Moisés -- cargo de confiança com gestão administrativa real, embora de escala menor que uma secretaria.",
+      "competencias": {
+        "administracao": {
+          "nota": 6,
+          "motivo": "Diretoria de fundação pública estadual (Fesporte) por 2 anos é experiência administrativa real em órgão do governo estadual, ainda que de escala menor que uma secretaria."
+        }
+      },
+      "fontes": [
+        "https://fesporte.sc.gov.br/eventos/geral/item/3851-marcelo-brigadeiro-assume-diretoria-de-esporte-da-fesporte/3851-marcelo-brigadeiro-assume-diretoria-de-esporte-da-fesporte"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "90002551791": {
+      "nome_urna": "WILDER MORAIS",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Empresário e ex-Secretário de Infraestrutura do Estado de Goiás (cargo de confiança não eletivo, antes de assumir o Senado em 2012) -- gestão administrativa e orçamentária real em secretaria estadual.",
+      "competencias": {
+        "administracao": {
+          "nota": 7,
+          "motivo": "Secretaria estadual de Infraestrutura é gestão executiva real de uma pasta com orçamento e obras públicas, ainda que não seja cargo eletivo."
+        }
+      },
+      "fontes": [
+        "https://www12.senado.leg.br/noticias/materias/2012/07/13/wilder-morais-e-empresario-e-foi-secretario-de-infraestrutura-de-goias"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "110002554073": {
+      "nome_urna": "SARGENTO LAUDICÉRIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Policial militar de carreira (mais de 20 anos), formado em Administração e Direito, com mestrado e doutorado em Administração; é professor universitário -- formação acadêmica avançada em gestão pública além do proxy de ocupação.",
+      "competencias": {
+        "administracao": {
+          "nota": 7,
+          "motivo": "Doutorado em Administração e mais de 20 anos de carreira na PM (organização hierárquica com gestão de pessoal e logística) justificam nota acima do proxy simples de 'policial'."
+        }
+      },
+      "fontes": [
+        "https://www.hnt.com.br/politica/candidatos-sobem-o-tom-de-debate-com-acusacoes-provocacoes-e-desabafo-de-laudicerio/572530"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "70002551557": {
+      "nome_urna": "CAPPELLI",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Jornalista (FGV, especialização em administração pública), secretário nacional de Esporte Educacional nos governos Lula/Dilma, secretário-executivo do Ministério da Justiça e Segurança Pública (2023-presente) e interventor federal de segurança do DF após os atos de 8 de janeiro de 2023 -- liderança executiva real em crise de segurança institucional de repercussão nacional.",
+      "competencias": {
+        "administracao": {
+          "nota": 8,
+          "motivo": "Secretário-executivo de ministério e interventor federal de segurança são cargos de gestão executiva real em escala federal, incluindo condução de crise institucional grave (8 de janeiro)."
+        },
+        "articulacao_politica": {
+          "nota": 7,
+          "motivo": "A intervenção federal de segurança do DF exigiu articulação direta com o Executivo distrital, forças de segurança e o Congresso durante a CPI dos Atos Antidemocráticos."
+        }
+      },
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Ricardo_Cappelli"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "70002547775": {
+      "nome_urna": "KIKO CAPUTO",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Advogado há mais de três décadas, presidente da OAB-DF (2010-2012) e conselheiro do Conselho da República (2018-2020) -- liderança de entidade de classe de âmbito distrital e participação em órgão consultivo federal de alto nível.",
+      "competencias": {
+        "articulacao_politica": {
+          "nota": 7,
+          "motivo": "Presidência da OAB-DF é liderança real de entidade de representação de classe, com negociação institucional; participação no Conselho da República reforça articulação em nível federal."
+        }
+      },
+      "fontes": [
+        "https://www.brasildefato.com.br/2026/08/17/candidato-do-novo-kiko-caputo-e-o-mais-rico-na-disputa-ao-governo-do-distrito-federal/"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "260002551712": {
+      "nome_urna": "EMANUEL CACHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Advogado criminalista, ex-Secretário de Estado da Justiça de Sergipe (2003-2006) e ex-presidente da Associação Brasileira de Advogados Criminalistas -- gestão de secretaria estadual (cargo de confiança) além do proxy de ocupação.",
+      "competencias": {
+        "administracao": {
+          "nota": 6,
+          "motivo": "Secretaria de Estado da Justiça é gestão executiva real de uma pasta estadual, ainda que não seja cargo eletivo."
+        }
+      },
+      "fontes": [
+        "https://infonet.com.br/noticias/politica/psdb-cidadania-oficializa-candidatura-de-emanuel-cacho-ao-governo-de-se/"
+      ],
+      "pesquisado_em": "2026-09-22"
+    },
+    "10002550719": {
+      "nome_urna": "THOR DANTAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "biografia_relevante": "Médico infectologista/hepatologista com quase 30 anos de saúde pública, ex-diretor do Pronto-Socorro de Rio Branco, ex-presidente da Fundação Hospitalar do Acre (Fundhacre) e ex-secretário adjunto de Estado de Saúde -- gestão hospitalar e de secretaria estadual, além do proxy de ocupação.",
+      "competencias": {
+        "administracao": {
+          "nota": 7,
+          "motivo": "Presidência de fundação hospitalar estadual e secretaria adjunta de Saúde são gestão executiva real em órgãos públicos, ainda que não sejam cargo eletivo."
+        }
+      },
+      "fontes": [
+        "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-thor-dantas-pre-candidato-ao-governo-do-acre/"
+      ],
+      "pesquisado_em": "2026-09-22"
     }
   },
   "pesquisados_sem_alteracao": {
@@ -349,7 +711,7 @@
     "ANDRÉ MARINHO": "Biografia real (humorista, YouTuber, estudos incompletos em ciência política/direito, presidência de um capítulo jovem de networking empresarial) não excede o que o arquétipo 'empresário' já concede.",
     "LUAN MONTEIRO": "Estudante de jornalismo (curso incompleto), dirigente da juventude partidária do PCO -- biografia real é mais modesta que a ocupação declarada 'COMERCIANTE' sugere; sem justificativa para boost adicional (e não é possível reduzir, por ser regra não-regressiva).",
     "TARCÍSIO": "Já no teto pelo cargo atual de governador (administração 10, finanças 8, articulação 8); engenheiro militar (Exército), ex-diretor-geral do Dnit e ex-ministro da Infraestrutura só confirmam o que o boost já dá. Processo legislativo (4) não sobe -- nunca teve mandato legislativo. Biografia conferida só em fontes gerais de perfil (Gazeta do Povo, Jornalismo Júnior).",
-    "VERA LÚCIA": "Sindicalista (CUT, federação têxtil) e fundadora do PSTU: articulação política já em 8 pelo arquétipo; liderança sindical não justifica boost em administração/finanças do estado.",
+    "VERA LÚCIA": "Empresária do setor de turismo/hotelaria; sem achado de cargo de liderança institucional externa que justifique boost além do proxy de ocupação (já alto: 8/8/0/4).",
     "CARLOS MACHADO": "Professor/historiador e militante de movimentos sociais (MTD, Instituto Paulo Freire); sem gestão de orçamento ou de organização grande que justifique boost além do arquétipo de educação.",
     "IZADORA DIAS": "Estudante de Letras da USP e militante/dirigente do PCO; nenhuma experiência de gestão ou negociação institucional além do que o arquétipo já captura.",
     "POLICIAL EDJANE": "Sargento da PM: administração 6 já capturada pelo arquétipo de segurança pública; candidatura indeferida pelo TRE-SP, sem justificativa para pesquisa adicional.",
@@ -362,6 +724,148 @@
     "PROFESSOR TÚLIO LOPES": "Professor da UEMG e dirigente do PCB em MG; sem gestão de orçamento ou de organização grande que justifique boost.",
     "RAFAEL DUDA": "Presidente do Sindicato Metabase Inconfidentes -- articulação sindical não passa do que o arquétipo já capta; sem gestão de orçamento público.",
     "HENRIQUE ÁREAS": "Jornalista e dirigente do PCO, com passagem por diretoria dos Correios reportada mas não detalhada; articulação política já em 8 pelo arquétipo.",
-    "INDIRA XAVIER": "Ativista e coordenadora nacional do Movimento de Mulheres Olga Benário há mais de 20 anos; articulação política já em 8 pelo arquétipo, sem gestão de orçamento."
+    "INDIRA XAVIER": "Ativista e coordenadora nacional do Movimento de Mulheres Olga Benário há mais de 20 anos; articulação política já em 8 pelo arquétipo, sem gestão de orçamento.",
+    "RAFAEL FONTELES": "Ocupação 'GOVERNADOR' já dá nota no teto/quase teto em administração (10) e finanças (8). Biografia real (Secretário de Fazenda do PI 2015-2022, presidente do Comsefaz 2019-2022, 2 mandatos) reforça exatamente essas competências mas não abre espaço para subir mais; processo legislativo (4) não tem justificativa para subir, pois nunca ocupou cargo legislativo.",
+    "JOEL RODRIGUES": "Biografia real é toda de cargo eletivo (vereador + prefeito), já tratada em experiencia_politica.json (boost por PREFEITO/VEREADOR), não uma experiência profissional separada. Sem achado de carreira profissional distinta que justifique boost adicional aqui.",
+    "ELIZEU AGUIAR": "Empresário; biografia real é sobretudo política (vereador + dep. federal suplente), já tratada em experiencia_politica.json. Achado de idoneidade (diretor do Idepi) é pendência jurídica, não competência a somar.",
+    "PROFESSOR GISVALDO": "Professor universitário (UESPI), mestre em História -- ocupação já captura bem a competência; sindicalismo (Adcesp/Andes-SN) é filiação, sem achado de cargo de liderança que justifique boost adicional (diferente de Geraldo Carvalho, que presidiu o sindicato).",
+    "DRA. LÚCIA SANTOS": "Médica (UFPI) -- ocupação já captura a competência; sem achado de experiência administrativa/de gestão adicional na busca.",
+    "RAVENNA DA INCLUSÃO": "Advogada -- ocupação já dá nota alta em processo legislativo (arquétipo 'jurídico'); sem achado de experiência administrativa adicional.",
+    "GUSTAVO PELO PIAUÍ OU GUSTAVO": "Advogado, presidiu diretório estadual de partido -- liderança partidária interna, não de entidade externa com negociação política real; sem achado que justifique boost específico.",
+    "LOURDES MELO": "Professora aposentada, sindicalista de corrente de oposição (sem cargo de direção sindical formal encontrado) -- sem achado que justifique boost além do proxy de ocupação.",
+    "PROFESSOR JURITY": "Servidor público estadual aposentado -- sem achado de biografia profissional que justifique boost além do proxy de ocupação.",
+    "ÁLVARO DIAS": "Biografia real é toda de cargo eletivo (dep. estadual + dep. federal + prefeito), já tratada em experiencia_politica.json (boost por cargo anterior). Ser médico não acrescenta competência administrativa/financeira adicional que já não esteja capturada.",
+    "ALLYSON": "Biografia real é toda de cargo eletivo (dep. estadual + prefeito), já tratada em experiencia_politica.json. Engenharia civil (UFERSA) não acrescenta competência administrativa/financeira adicional específica além do que a ocupação e o cargo eletivo já capturam.",
+    "PROFESSOR ROBERIO PAULINO": "Economista e professor da UFRN, ex-vereador -- a experiência eletiva já está em experiencia_politica.json; a ocupação 'professor de ensino superior' já captura bem a competência profissional, sem achado adicional que justifique boost.",
+    "RODRIGO DE BOLSONARO": "Empresário; sem achado de ramo de atividade ou histórico de gestão que justifique boost além do proxy de ocupação.",
+    "HENRIQUE LYRA": "Engenheiro; sem achado de biografia profissional que justifique boost além do proxy de ocupação.",
+    "GODEIRO LINHARESS": "Gestor público, formado em Direito, doutorando em Direito Eleitoral -- perfil técnico-jurídico real, mas sem cargo de gestão efetivamente exercido encontrado na busca que justifique nota específica além do proxy de 'empresário' (já relativamente alto).",
+    "RENAN FILHO": "Ex-governador (2 mandatos) e atual senador -- toda a experiência relevante já está em experiencia_politica.json (boost por cargo eletivo anterior); ocupação 'economista' já dá nota alta nas 4 competências, sem espaço para subir mais.",
+    "JHC": "Toda a experiência relevante é de cargo eletivo (dep. estadual + dep. federal + prefeito), já tratada em experiencia_politica.json. Ser advogado não acrescenta competência administrativa/financeira específica além do que os cargos já capturam.",
+    "MÁRCIO JAMBO": "Corretor de imóveis/seguros/valores; preside o diretório ESTADUAL do próprio partido (Democrata em AL) -- liderança partidária interna, não de entidade externa com negociação política real (diferente de sindicato ou movimento social), mesmo critério usado para outros casos equivalentes no projeto (ex.: Gustavo/PI-Avante). Sem achado que justifique boost.",
+    "EDUARDO RIEDEL": "Já no teto/quase teto (10,8,4,8) via boost de cargo eletivo atual (governador). Sem achado de biografia profissional adicional que justifique subir mais.",
+    "FÁBIO TRAD": "Toda a experiência relevante é de cargo eletivo (3 mandatos de deputado federal), já tratada em experiencia_politica.json. Ser advogado/professor universitário não acrescenta competência administrativa/financeira específica além do que o cargo já captura.",
+    "DELCIDIO AMARAL": "Foi senador eleito (líder do governo Dilma no Senado, cargo de articulação política de alto nível), já tratado em experiencia_politica.json via boost de cargo eletivo anterior. Ser engenheiro não acrescenta competência adicional específica.",
+    "JOÃO HENRIQUE CATAN": "Toda a experiência relevante é de cargo eletivo (deputado estadual, 2º mandato), já tratada em experiencia_politica.json. Ser advogado não acrescenta competência adicional específica.",
+    "ECONOMISTA RENATO GOMES": "Economista (FGV) e ex-BTG Pactual -- ocupação declarada ('capitalista de ativos financeiros') já captura bem essa competência (financas já no teto, 10); sem achado adicional de gestão pública ou articulação política que justifique boost.",
+    "JEFERSON BEZERRA": "Jornalista; preside o diretório ESTADUAL do próprio partido (Agir em MS) -- liderança partidária interna, não de entidade externa com negociação política real, mesmo critério usado para casos equivalentes no projeto. Sem achado que justifique boost.",
+    "DANIEL LEMES": "Professor do ensino fundamental; sem achado de biografia profissional que justifique boost além do proxy de ocupação.",
+    "JERÔNIMO RODRIGUES": "Já no teto/quase teto (8,8,4,8) via boost de cargo eletivo atual (governador). Foi secretário estadual de Educação e de Desenvolvimento Rural antes (cargos não eletivos, já citados em experiencia_politica.json) -- sem achado adicional que justifique subir mais.",
+    "ACM NETO": "Toda a experiência relevante é de cargo eletivo (deputado federal + prefeito de Salvador), já tratada em experiencia_politica.json. Ser empresário/advogado não acrescenta competência adicional específica além do que os cargos já capturam.",
+    "ARIEL CAPISTRANO": "Empresário; preside o diretório ESTADUAL do próprio partido (DC na Bahia) -- liderança partidária interna, não de entidade externa com negociação política real, mesmo critério usado para casos equivalentes no projeto. Sem achado que justifique boost.",
+    "MARIA BONA": "Aposentada; liderança comunitária local (Rio de Contas) sem cargo formal de direção encontrado na busca. Sem achado que justifique boost além do proxy de ocupação.",
+    "SERGIO MORO": "Ocupação declarada 'SENADOR' já captura bem a competência (financas/processo legislativo/articulação já altos); carreira de juiz/ministro é toda de cargo não eletivo, sem achado profissional adicional que justifique boost além do que o cargo atual já dá.",
+    "SANDRO ALEX": "Toda a experiência relevante é de cargo eletivo (deputado federal) e cargo de confiança (secretário estadual), já tratada em experiencia_politica.json. Ser advogado/radialista não acrescenta competência adicional específica.",
+    "REQUIÃO FILHO": "Toda a experiência relevante é de cargo eletivo (deputado estadual), já tratada em experiencia_politica.json. Sem achado profissional adicional.",
+    "ADRIANO FUNILEIRO": "Mecânico de manutenção; sem achado de biografia profissional que justifique boost além do proxy de ocupação.",
+    "LUIZ FRANÇA": "Advogado e economista; sem achado de biografia profissional adicional (cargo de liderança institucional, entidade de classe etc.) que justifique boost.",
+    "SAMUEL DE MATTOS": "Professor de ensino médio e ex-carteiro; sem achado de liderança sindical/partidária formal que justifique boost além do proxy de ocupação.",
+    "ZUCCO": "Ocupação declarada 'deputado' já captura bem a competência do cargo atual; carreira anterior de policial militar (tenente-coronel) não acrescenta competência administrativa/financeira específica adicional.",
+    "MARCELO MARANATA": "Toda a experiência relevante é de cargo eletivo (prefeito de Guaíba), já tratada em experiencia_politica.json. Ser advogado/comerciante não acrescenta competência adicional específica.",
+    "JULIANA BRIZOLA": "Toda a experiência relevante é de cargo eletivo (vereadora + deputada estadual), já tratada em experiencia_politica.json. Ser advogada não acrescenta competência adicional específica.",
+    "CESAR PONTES": "Professor aposentado; sem achado de liderança sindical/institucional formal que justifique boost além do proxy de ocupação.",
+    "PRISCILA VOIGT": "Nutricionista; presidente ESTADUAL do próprio partido (UP no RS) -- liderança partidária interna, não de entidade externa com negociação política real, mesmo critério usado para casos equivalentes no projeto. Sem achado que justifique boost.",
+    "RAQUEL LYRA": "Já no teto/quase teto (10,8,4,8) via boost de cargo eletivo atual (governadora). Sem achado de biografia profissional adicional que justifique subir mais.",
+    "JOÃO CAMPOS": "Toda a experiência relevante é de cargo eletivo (deputado federal + prefeito do Recife), já tratada em experiencia_politica.json. Ser engenheiro não acrescenta competência adicional específica.",
+    "IVAN MORAES": "Toda a experiência relevante é de cargo eletivo (vereador, 2 mandatos), já tratada em experiencia_politica.json. Ser jornalista não acrescenta competência adicional específica.",
+    "RENAN": "Contador, coordenador estadual do MBL (movimento social, não entidade formal de representação profissional/sindical) -- sem achado de cargo de liderança institucional que justifique boost.",
+    "PROFESSOR JEREMIAS DO BANCO": "Professor de ensino médio; candidatura fora da disputa. Sem achado que justifique boost além do proxy de ocupação.",
+    "VICTOR ASSIS": "Jornalista; descrito como uma das lideranças nacionais do PCO, mas sem cargo formal de presidência (já ocupado por Rui Costa Pimenta, já registrado em liderancas_partidarias.json) encontrado na busca -- sem achado específico que justifique boost.",
+    "PROFESSORA CAMILA": "Professora e historiadora; vice-presidente ESTADUAL do próprio partido (UP em PE) -- liderança partidária interna, não de entidade externa com negociação política real, mesmo critério usado para casos equivalentes no projeto. Sem achado que justifique boost.",
+    "GUILHERME FONSECA": "Técnico em eletrotécnica/telecomunicações, anistiado político; sem achado de liderança sindical/institucional formal que justifique boost além do proxy de ocupação.",
+    "CIRO GOMES": "Já no teto (8,8,8,8) via proxy de ocupação ('advogado'); a riquíssima biografia real (governador, prefeito, ministro, deputado) já está tratada em experiencia_politica.json, mas o boost de GOVERNADOR não supera o que o proxy já dá em processo legislativo -- sem espaço para subir mais.",
+    "ELMANO DE FREITAS": "Já no teto/quase teto (10,8,4,8) via boost de cargo eletivo atual (governador). Sem achado de biografia profissional adicional que justifique subir mais.",
+    "DANILO SOARES": "Advogado; sem achado de biografia profissional adicional que justifique boost.",
+    "IERI BRAGA": "Químico; integra a direção do sindicato dos servidores técnico-administrativos da UnB -- liderança sindical de escala LOCAL/institucional (uma universidade), não estadual/nacional como os casos que já receberam boost no projeto. Sem achado que justifique boost.",
+    "DELEGADO HUGGO": "Delegado de Polícia Civil; ocupação já captura bem a competência (8/4/2/2). Sem achado adicional.",
+    "SERLEY LEAL": "Bancário e economista; fundador da UP no Ceará (liderança partidária estadual interna, não entidade externa) -- mesmo critério usado para casos equivalentes no projeto. Sem achado que justifique boost.",
+    "HANA GHASSAN": "Já no teto/quase teto (10,8,4,8) via boost de cargo eletivo atual (governadora). Ser contadora/auditora fiscal de carreira já está bem capturado pelo proxy de ocupação e pelos cargos anteriores.",
+    "DR. DANIEL": "Toda a experiência relevante é de cargo eletivo (prefeito de Ananindeua), já tratada em experiencia_politica.json. Ser médico não acrescenta competência adicional específica.",
+    "ARACELI": "Toda a experiência relevante é de cargo eletivo (deputada estadual, 2 mandatos), já tratada em experiencia_politica.json. Sem achado profissional adicional.",
+    "GAL LEITE": "Aposentada; sem achado de liderança institucional formal que justifique boost além do proxy de ocupação.",
+    "WELL MACEDO": "Jornalista, dirigente estadual do próprio partido (PSTU) -- liderança partidária interna, mesmo critério usado para casos equivalentes no projeto. Sem achado que justifique boost.",
+    "RUTH REIS": "Advogada; sem achado de biografia profissional adicional que justifique boost.",
+    "ORLEANS BRANDÃO": "Administrador; foi secretário de Assuntos Municipalistas (cargo não eletivo já tratado em experiencia_politica.json). Sem achado de biografia profissional adicional que justifique boost.",
+    "FELIPE CAMARÃO": "Advogado, procurador federal de carreira, professor universitário -- toda a experiência relevante de cargo já é capturada como vice-governador atual em experiencia_politica.json.",
+    "EDUARDO BRAIDE": "Advogado; toda a experiência relevante é de cargos eletivos (prefeito, deputado estadual e federal), já tratada em experiencia_politica.json.",
+    "DIMAS CASSIMIRO": "Professor universitário; sem achado de liderança institucional formal que justifique boost além do proxy de ocupação.",
+    "ANDRÉ LUIS": "Empresário da construção civil e advogado, secretário-geral estadual do Missão e liderança do MBL -- liderança partidária interna, mesmo critério usado para casos equivalentes no projeto. Sem achado que justifique boost.",
+    "REGINALDO LIMA": "Locutor e comentarista de rádio/TV, secretário político regional do PCB -- liderança partidária interna. Sem achado que justifique boost.",
+    "SAULO ARCANGELI": "Professor de ensino superior; sem achado de biografia profissional adicional que justifique boost.",
+    "ROBERTO ROCHA": "Ex-senador; toda a experiência relevante é de cargo eletivo, já tratada em experiencia_politica.json.",
+    "JORGINHO MELLO": "Já no teto/quase teto via boost de cargo eletivo atual (governador) e ex-senador, já tratados em experiencia_politica.json. Sem achado de biografia profissional adicional que justifique subir mais.",
+    "JOÃO RODRIGUES": "Toda a experiência relevante é de cargo eletivo (prefeito de Pinhalzinho e Chapecó, deputado estadual e federal), já tratada em experiencia_politica.json. Sem achado profissional adicional que justifique boost.",
+    "GELSON MERÍSIO": "Toda a experiência relevante é de cargo eletivo (deputado estadual por 3 mandatos, presidente da Assembleia Legislativa 2x), já tratada em experiencia_politica.json. Empresário do setor de energia (rede de pequenas centrais hidrelétricas) não acrescenta competência administrativa pública adicional específica.",
+    "PROFESSOR MARCUS SODRÉ": "Professor de História da rede pública e dirigente sindical (Sinte-SC) -- liderança sindical já capturada pelo arquétipo de educação/articulação, mesmo critério usado para outros dirigentes sindicais no projeto. Sem achado que justifique boost adicional.",
+    "BRUNO PEDREIRO DO PCO": "Pedreiro/trabalhador da construção civil; sem achado de biografia profissional que justifique boost além do proxy de ocupação.",
+    "LAÍS CHAUD": "Psicóloga da rede pública de saúde e liderança nacional do MLB (Movimento de Luta nos Bairros, Vilas e Favelas) -- articulação política de movimento social já capturada pelo arquétipo, mesmo critério usado para outras lideranças nacionais de movimento no projeto (ex.: Indira Xavier). Sem gestão de orçamento público.",
+    "DANIEL VILELA": "Já no teto/quase teto via boost de cargo eletivo atual (governador, assumiu por sucessão) e carreira legislativa prévia (vereador, deputado estadual e federal), já tratados em experiencia_politica.json. Sem achado de biografia profissional adicional que justifique subir mais.",
+    "MARCONI PERILLO": "Já no teto via boost de cargo eletivo anterior (governador por 4 mandatos e senador), já tratado em experiencia_politica.json. Sem achado de biografia profissional adicional que justifique subir mais.",
+    "LUIS CESAR BUENO": "Toda a experiência relevante é de cargo eletivo (vereador de Goiânia + deputado estadual por 4 mandatos), já tratada em experiencia_politica.json. Ser professor não acrescenta competência administrativa/financeira adicional específica.",
+    "DANILO DA SILVA": "Técnico em eletricidade/eletrônica/telecomunicações; sem achado de biografia profissional que justifique boost além do proxy de ocupação.",
+    "LUCIANA AMORIM": "Advogada e servidora da Justiça Federal em Goiás -- ocupação já captura bem a competência jurídica/administrativa; sem achado de cargo de gestão ou liderança institucional que justifique boost adicional.",
+    "OMAR AZIZ": "Já no teto/quase teto via boost de cargo eletivo anterior (governador e senador), já tratado em experiencia_politica.json. Sem achado de biografia profissional adicional que justifique subir mais.",
+    "DAVID ALMEIDA": "Toda a experiência relevante é de cargo eletivo (prefeito de Manaus, 2 mandatos), já tratada em experiencia_politica.json. Sem achado profissional adicional.",
+    "ROBERTO CIDADE": "Já no teto/quase teto via boost de cargo eletivo atual (governador) e anterior (deputado estadual, presidiu a Aleam), já tratados em experiencia_politica.json. Sem achado de biografia profissional adicional que justifique subir mais.",
+    "CABO DACIOLO": "Toda a experiência relevante é de cargo eletivo (deputado federal), já tratada em experiencia_politica.json. Carreira de bombeiro militar (RJ) não acrescenta competência administrativa/financeira específica para o cargo de governador.",
+    "PROFESSORA MARIA DO CARMO": "Contadora e advogada, professora; sem achado de cargo de gestão ou liderança institucional que justifique boost além do proxy de ocupação.",
+    "ISAEL MUNDURUKU": "Advogado e cofundador/liderança do Parque das Tribos (organização comunitária, não uma entidade de representação de classe em escala estadual/nacional como os casos que já receberam boost no projeto). Sem achado que justifique boost adicional.",
+    "GILBERTO VASCONCELOS": "Professor de ensino fundamental e dirigente sindical (CSP-Conlutas) -- liderança sindical já capturada pelo arquétipo, mesmo critério usado para outros dirigentes sindicais no projeto. Sem achado que justifique boost adicional.",
+    "RICARDO FERRAÇO": "Já no teto/quase teto via boost de cargo eletivo atual (governador) e anterior (vice-governador, senador, deputado), já tratados em experiencia_politica.json. Sem achado de biografia profissional adicional que justifique subir mais.",
+    "HELDER SALOMÃO": "Toda a experiência relevante é de cargo eletivo (deputado estadual, prefeito de Cariacica, deputado federal), já tratada em experiencia_politica.json. Sem achado profissional adicional.",
+    "LORENZO PAZOLINI": "Toda a experiência relevante é de cargo eletivo (deputado estadual, prefeito de Vitória por 2 mandatos), já tratada em experiencia_politica.json. Ter sido chefe de polícia antes da vida política já está capturado pelo arquétipo de segurança pública, sem achado adicional que justifique boost além do que os cargos eletivos já dão.",
+    "BRENO BARCELOS": "Engenheiro civil, presidente estadual de partido e coordenador do MBL -- liderança partidária/movimento social já capturada pelo arquétipo, mesmo critério usado para casos equivalentes no projeto. Sem achado que justifique boost adicional.",
+    "RAFAEL DEMUNER": "Servidor técnico-administrativo da Ufes e coordenador de movimento social (Luta de Classes) -- articulação já capturada pelo arquétipo, mesmo critério usado para outras lideranças de movimento no projeto. Sem gestão de orçamento público.",
+    "LUCAS RIBEIRO": "Já no teto/quase teto via boost de cargo eletivo atual (governador), já tratado em experiencia_politica.json. Sem achado de biografia profissional adicional que justifique subir mais.",
+    "CÍCERO LUCENA": "Toda a experiência relevante é de cargo eletivo (prefeito de Cabedelo e de João Pessoa), já tratada em experiencia_politica.json. Sem achado profissional adicional.",
+    "EFRAIM FILHO": "Já no teto/quase teto via boost de cargo eletivo anterior (senador, deputado federal), já tratado em experiencia_politica.json. Ser advogado não acrescenta competência adicional específica.",
+    "YURI EZEQUIEL": "Advogado e cientista social, liderança partidária -- já capturado pelo arquétipo profissional; presidência de diretório municipal é liderança partidária interna, mesmo critério usado para casos equivalentes no projeto. Sem achado que justifique boost adicional.",
+    "PEDRO COUTINHO": "Sem biografia profissional detalhada localizada na busca além da candidatura em si; sem achado que justifique boost além do proxy de ocupação.",
+    "CAMILO DUARTE": "Trabalhador dos Correios e dirigente sindical/estudantil -- liderança já capturada pelo arquétipo, mesmo critério usado para outros dirigentes sindicais no projeto. Sem achado que justifique boost adicional.",
+    "OTAVIANO PIVETTA": "Já no teto/quase teto via boost de cargo eletivo atual (governador), já tratado em experiencia_politica.json. Sem achado de biografia profissional adicional que justifique subir mais.",
+    "WELLINGTON FAGUNDES": "Já no teto/quase teto via boost de cargo eletivo anterior (senador), já tratado em experiencia_politica.json. Ser veterinário não acrescenta competência administrativa/financeira adicional específica.",
+    "RAFAELL MILAS": "Publicitário e coordenador de movimento social (MBL) -- articulação já capturada pelo arquétipo, mesmo critério usado para outras lideranças de movimento no projeto. Sem gestão de orçamento público.",
+    "MAURICIO COELHO": "Empresário; sem achado de ramo de atividade ou histórico de gestão que justifique boost além do proxy de ocupação.",
+    "DOUTORA NATASHA": "Médica pediatra e patologista clínica, professora universitária -- ocupação já captura bem a competência; sem achado de experiência administrativa/de gestão adicional na busca.",
+    "CELINA LEÃO": "Já no teto/quase teto via boost de cargo eletivo atual (governadora, assumiu por sucessão) e anterior (vice-governadora), já tratados em experiencia_politica.json. Sem achado de biografia profissional adicional que justifique subir mais.",
+    "LEANDRO GRASS": "Deputado distrital e ex-presidente do Iphan (cargo de confiança federal); a experiência eletiva já está em experiencia_politica.json. Presidência do Iphan é gestão de órgão federal, mas sem detalhamento de escala orçamentária na busca que justifique boost além do proxy de ocupação.",
+    "PAULA BELMONTE": "Deputada distrital, já tratada em experiencia_politica.json. Sem achado de biografia profissional adicional que justifique boost.",
+    "PROFESSORA SAMARA MINEIRO": "Professora da rede pública do DF -- ocupação já captura bem a competência; sem achado de experiência administrativa/de gestão adicional na busca.",
+    "PROFESSOR ROBSON": "Professor da rede pública do DF e militante sindical/do movimento negro -- liderança já capturada pelo arquétipo, mesmo critério usado para outros dirigentes sindicais no projeto. Sem gestão de orçamento público.",
+    "EXPEDITO MENDONÇA": "Servidor público federal e fundador/dirigente do Sindsep-DF -- liderança sindical já capturada pelo arquétipo, mesmo critério usado para outros dirigentes sindicais no projeto. Sem achado que justifique boost adicional.",
+    "ELISSON": "Jornalista e produtor de eventos; sem achado de biografia profissional que justifique boost além do proxy de ocupação.",
+    "RICO PINHEIRO": "Sem biografia profissional detalhada localizada na busca além da candidatura em si; sem achado que justifique boost além do proxy de ocupação.",
+    "FÁBIO": "Já no teto/quase teto via boost de cargo eletivo atual (governador), já tratado em experiencia_politica.json. Sem achado de biografia profissional adicional que justifique subir mais.",
+    "VALMIR DE FRANCISQUINHO": "Toda a experiência relevante é de cargo eletivo (prefeito de Itabaiana), já tratada em experiencia_politica.json. Sem achado profissional adicional.",
+    "RICARDO MARQUES": "Jornalista, vice-prefeito de Aracaju -- experiência eletiva já tratada em experiencia_politica.json (não coberta pelo modelo de boost, que só cobre titular). Sem achado profissional adicional além do proxy de ocupação.",
+    "DR. HELTON": "Médico e presidente de sindicato de classe -- liderança já capturada pelo arquétipo profissional, mesmo critério usado para outros dirigentes sindicais no projeto. Sem gestão de orçamento público.",
+    "TATY  CRISTINA DE JESUS": "Empresária; sem achado de ramo de atividade ou histórico de gestão que justifique boost além do proxy de ocupação.",
+    "MARCOS ROGÉRIO": "Já no teto/quase teto via boost de cargo eletivo anterior (senador, deputado federal), já tratado em experiencia_politica.json. Sem achado de biografia profissional adicional que justifique subir mais.",
+    "HILDON CHAVES": "Toda a experiência relevante é de cargo eletivo (prefeito de Porto Velho, 2 mandatos), já tratada em experiencia_politica.json. Sem achado profissional adicional.",
+    "ADAILTON FURIA": "Toda a experiência relevante é de cargo eletivo (prefeito de Cacoal), já tratada em experiencia_politica.json. Sem achado profissional adicional.",
+    "EXPEDITO NETTO": "Toda a experiência relevante é de cargo eletivo (deputado federal), já tratada em experiencia_politica.json. Sem achado profissional adicional.",
+    "PEDRO ABIB": "Doutor em Direito e veterinário; sem achado de cargo de gestão ou liderança institucional que justifique boost além do proxy de ocupação.",
+    "SAMUEL COSTA": "Advogado, jornalista e professor; sem achado de cargo de gestão ou liderança institucional que justifique boost além do proxy de ocupação.",
+    "VICENTINHO JÚNIOR": "Toda a experiência relevante é de cargo eletivo (deputado federal), já tratada em experiencia_politica.json. Sem achado profissional adicional.",
+    "ATAIDES DE OLIVEIRA": "Já no teto/quase teto via boost de cargo eletivo anterior (senador), já tratado em experiencia_politica.json. Presidência estadual do Novo é liderança partidária interna, mesmo critério usado para casos equivalentes no projeto.",
+    "PROFESSORA DORINHA": "Já no teto/quase teto via boost de cargo eletivo atual (senadora), já tratado em experiencia_politica.json. Ter sido secretária de Educação do TO (cargo de confiança) reforça mas não excede o que o cargo eletivo já dá.",
+    "LAUREZ MOREIRA": "Vice-governador (assumiu interinamente o Executivo por 93 dias) -- cargo eletivo não coberto pelo modelo de boost (só cobre titular), já registrado em experiencia_politica.json. Sem achado profissional adicional.",
+    "DU PEREIRA": "Empresário; sem achado de ramo de atividade ou histórico de gestão que justifique boost além do proxy de ocupação.",
+    "PROF WITER NAVES": "Geógrafo e servidor público; sem achado de experiência administrativa/de gestão adicional na busca.",
+    "SIQUEIRA CAMPOS JR": "Empresário; sem achado de ramo de atividade ou histórico de gestão que justifique boost além do proxy de ocupação.",
+    "MAILZA ASSIS": "Já no teto/quase teto via boost de cargo eletivo atual (governadora, assumiu por sucessão), já tratado em experiencia_politica.json. Sem achado de biografia profissional adicional que justifique subir mais.",
+    "ALAN RICK": "Já no teto/quase teto via boost de cargo eletivo anterior (senador), já tratado em experiencia_politica.json. Sem achado profissional adicional.",
+    "TIÃO BOCALOM": "Toda a experiência relevante é de cargo eletivo (prefeito de Rio Branco, 2 mandatos), já tratada em experiencia_politica.json. Sem achado profissional adicional.",
+    "DR.LUISINHO": "Empresário; sem achado de ramo de atividade ou histórico de gestão que justifique boost além do proxy de ocupação.",
+    "EUDO RAFFAEL": "Bancário; sem achado de cargo de gestão ou liderança institucional que justifique boost além do proxy de ocupação.",
+    "CLÉCIO": "Já no teto/quase teto via boost de cargo eletivo atual (governador), já tratado em experiencia_politica.json. Sem achado de biografia profissional adicional que justifique subir mais.",
+    "DR. FURLAN": "Toda a experiência relevante é de cargo eletivo (prefeito de Macapá, 2 mandatos), já tratada em experiencia_politica.json. Ser médico não acrescenta competência administrativa/financeira adicional específica.",
+    "DELEGADO MARCOS": "Já no teto/quase teto via boost de cargo eletivo anterior (deputado federal), já tratado em experiencia_politica.json. Ser delegado da PF e ex-procurador estadual já está capturado pelo arquétipo de segurança/jurídico.",
+    "JAIRO PALHETA": "Agricultor familiar e dirigente do MST -- liderança de movimento social já capturada pelo arquétipo, mesmo critério usado para outras lideranças de movimento no projeto. Sem gestão de orçamento público.",
+    "CARLOS CLEY": "Motorista de aplicativo/caminhoneiro e dirigente sindical da categoria -- liderança já capturada pelo arquétipo, mesmo critério usado para outros dirigentes sindicais no projeto. Sem achado que justifique boost adicional.",
+    "ARTHUR HENRIQUE": "Toda a experiência relevante é de cargo eletivo (prefeito de Boa Vista), já tratada em experiencia_politica.json. Sem achado profissional adicional.",
+    "SOLDADO SAMPAIO": "Já no teto/quase teto via boost de cargo eletivo atual (governador em exercício) e legislativo (presidente da Assembleia), já tratado em experiencia_politica.json. Sem achado profissional adicional.",
+    "ROSI AIRES": "Professora; sem achado de experiência administrativa/de gestão adicional na busca.",
+    "FARAH MESQUITA": "Influenciador digital; sem achado de ramo de atividade ou histórico de gestão que justifique boost além do proxy de ocupação."
   }
 }

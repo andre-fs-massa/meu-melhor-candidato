@@ -19,6 +19,15 @@ PESOS_ACHADO = {
     "condenacao_1a_instancia_recorrivel": 2,         # [EXT] condenação de 1ª instância ainda recorrível
     "condenacao_revertida": 2,                       # improbidade/inelegibilidade revertida em instância superior, sem prisão
     "cassacao_de_mandato": 2,                        # [EXT] sanção política por decisão de casa legislativa
+    "sancao_institucional_confirmada": 2,            # [EXT] 2026-09-22: achado final e confirmado sobre CONDUTA no
+                                                      # exercício de função pública (não crime, não Ficha Limpa),
+                                                      # reconhecido por órgão competente (ex.: STF, CNJ, tribunal de
+                                                      # contas) -- peso institucional comparável a cassação de
+                                                      # mandato, não a uma condenação por corrupção/improbidade.
+                                                      # Caso de origem: suspeição/parcialidade de juiz confirmada
+                                                      # pelo STF (peso ajustado de 4 para 2 a pedido do usuário,
+                                                      # que achou o peso de condenação confirmada desproporcional
+                                                      # a um achado que não é condenação criminal nem Ficha Limpa).
     # Processos e investigações em curso
     "reu_acao_penal": 3,                             # por processo; a soma de processos penais é limitada a 6
     "investigacao_ou_acao_civil_em_curso": 2,        # inquérito/operação sem denúncia, réu em ação civil (improbidade/ACP)
@@ -45,7 +54,12 @@ TETOS_POR_CATEGORIA = {"reu_acao_penal": 6, "acao_civil_dano_moral": 3}
 # fraca. A soma dos caciques de uma mesma chapa é limitada a TETO_CACIQUES (em enriquecer_circulo_politico).
 PESOS_CACIQUE = {
     "condenacao_criminal_confirmada": 4,
+    "condenacao_confirmada_sem_reversao": 4,  # [EXT] mesmo peso do achado equivalente em PESOS_ACHADO;
+                                               # improbidade/criminal confirmada em 2ª instância ou
+                                               # transitada, sem prisão.
     "condenacao_civil": 2,
+    "condenacao_1a_instancia_recorrivel": 2,  # [EXT] mesmo peso do achado equivalente em PESOS_ACHADO;
+                                               # usado quando a instância final ainda não está clara.
     "reu_acao_penal": 2,
     "reu_acao_civil": 2,
     "investigado_sem_denuncia": 1,

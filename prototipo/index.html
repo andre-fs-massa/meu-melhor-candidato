@@ -10,6 +10,7 @@
     --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
     --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10); --wash: #f0efec;
     --accent: #2a78d6; --accent-wash: rgba(42,120,214,0.10); --neutral: #52514e;
+    --warn: #9a5b00; --warn-wash: rgba(154,91,0,0.10);
   }
   @media (prefers-color-scheme: dark) {
     :root:where(:not([data-theme="light"])) {
@@ -17,6 +18,7 @@
       --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
       --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10); --wash: #383835;
       --accent: #3987e5; --accent-wash: rgba(57,135,229,0.16); --neutral: #c3c2b7;
+      --warn: #e0a530; --warn-wash: rgba(224,165,48,0.14);
     }
   }
   :root[data-theme="dark"] {
@@ -24,6 +26,7 @@
     --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
     --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10); --wash: #383835;
     --accent: #3987e5; --accent-wash: rgba(57,135,229,0.16); --neutral: #c3c2b7;
+    --warn: #e0a530; --warn-wash: rgba(224,165,48,0.14);
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--page); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
@@ -69,9 +72,11 @@
   .trilho > i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 3px; background: var(--accent); }
   .linha.fora .trilho > i { background: var(--muted); }
   .trilho > u { position: absolute; top: -3px; bottom: -3px; width: 2px; background: var(--ink); opacity: .7; }
-  .linha > button .pill { justify-self: end; }
+  .linha > button .pillwrap { justify-self: end; display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
   .pill { display: inline-flex; gap: 6px; align-items: center; padding: 2px 10px; border-radius: 999px; font-size: .8rem; border: 1px solid var(--axis); color: var(--ink-2); white-space: nowrap; }
   .pill.rec { border-color: var(--accent); background: var(--accent-wash); color: var(--ink); }
+  .pill.warn { border-color: var(--warn); background: var(--warn-wash); color: var(--warn); }
+  .aviso-sub { border: 1px solid var(--warn); background: var(--warn-wash); border-radius: 8px; padding: 8px 10px; margin: 8px 0; color: var(--warn); font-size: .88rem; font-weight: 600; }
   .detalhe { padding: 4px 8px 16px 12px; margin: 0 0 6px 4px; border-left: 2px solid var(--grid); color: var(--ink-2); font-size: .92rem; }
   .detalhe h4 { margin: 12px 0 4px; font-size: .85rem; color: var(--ink); text-transform: none; }
   .detalhe ul { margin: 0; padding-left: 18px; }
@@ -354,7 +359,7 @@
   // ---------- detalhe de um candidato ----------
   function detalhe(c) {
     const d = el("div", "detalhe");
-    d.append(el("p", null, `Idoneidade pessoal ${fmt(c.idoneidade_pessoal, 0)} · círculo político ${fmt(c.circulo, 0)} · geral ${fmt(c.idoneidade_geral)}. Competência geral ${fmt(c.competencia_geral)} (competência ${fmt(c.competencia)} e escolaridade ${fmt(c.escolaridade)}).`));
+    d.append(el("p", null, `Idoneidade pessoal ${fmt(c.idoneidade_pessoal, 0)} · círculo político ${fmt(c.circulo, 0)} · geral ${fmt(c.idoneidade_geral)}. Competência geral ${fmt(c.competencia_geral)} (competência ${fmt(c.competencia)} e escolaridade ${fmt(c.escolaridade)}). Qualificação geral (média das duas) ${fmt(c.qualificacao_geral)}.`));
     d.append(el("h4", null, "Achados sobre o candidato"));
     if (c.achados.length) {
       const ul = el("ul");
@@ -404,7 +409,9 @@
       tr.append(fill, marca); med.append(tr);
       const [ico, rot] = SITUACAO[c.situacao];
       const pill = el("span", "pill" + (c.situacao === "recomendado" ? " rec" : ""), `${ico} ${rot}`);
-      b.append(quem, med, pill);
+      const pillwrap = el("span", "pillwrap"); pillwrap.append(pill);
+      if (subJudice(c)) pillwrap.append(el("span", "pill warn", "⚠ Sub judice"));
+      b.append(quem, med, pillwrap);
       const det = detalhe(c); det.hidden = true; det.id = "det-" + i; b.setAttribute("aria-controls", det.id);
       if (c.motivo_saida && c.situacao !== "abaixo_do_corte") det.prepend(el("p", null, "Por que saiu: " + c.motivo_saida.replace(/^[a-z_]+: /, "")));
       if (c.situacao === "abaixo_do_corte") det.prepend(el("p", null, `Por que saiu: idoneidade geral ${c.motivo_saida.replace(".", ",")} (corte ${fmt(META.corte)}).`));
@@ -423,6 +430,7 @@
     dica.append(document.createTextNode(`Economia ${fmt(c.eco)} · costumes ${fmt(c.pes)} (${c.posicao_fonte})`));
     dica.append(document.createElement("br"));
     dica.append(document.createTextNode(`${SITUACAO[c.situacao][1]}${c.fronteira ? " · perto do centro" : ""}`));
+    if (subJudice(c)) { dica.append(document.createElement("br")); dica.append(el("strong", null, "⚠ Candidatura contestada, sub judice")); }
     dica.hidden = false;
     const w = dica.offsetWidth, h = dica.offsetHeight;
     dica.style.left = Math.max(8, Math.min(window.innerWidth - w - 8, x + 14)) + "px";
@@ -542,12 +550,16 @@
   }
 
   // ---------- passo 4 ----------
+  function subJudice(c) { return c.achados.find(a => a.categoria === "registro_contestado_sub_judice"); }
   function blocoCandidato(c) {
     const b = el("div", "cand");
     b.append(el("div", "nomegrande", tc(c.nome_urna)), el("div", "nota", `${c.partido} · número ${c.numero}`));
+    const sj = subJudice(c);
+    if (sj) b.append(el("div", "aviso-sub", `⚠ Candidatura contestada, aguardando decisão da Justiça Eleitoral: ${sj.descricao}`));
     const st = el("div", "stats");
-    [[fmt(c.idoneidade_geral), "idoneidade geral"], [fmt(c.competencia_geral), "competência geral"]].forEach(([v, l]) => { const d = el("div"); d.append(el("b", null, v), el("span", null, l)); st.append(d); });
+    [[fmt(c.qualificacao_geral), "qualificação geral"], [fmt(c.idoneidade_geral), "idoneidade geral"], [fmt(c.competencia_geral), "competência geral"]].forEach(([v, l]) => { const d = el("div"); d.append(el("b", null, v), el("span", null, l)); st.append(d); });
     b.append(st);
+    b.append(el("div", "nota", "Qualificação geral = média entre idoneidade geral e competência geral; é o critério usado para escolher o melhor de cada quadrante."));
     b.append(el("div", "nota", `Economia ${fmt(c.eco)} · costumes ${fmt(c.pes)} (${c.posicao_fonte}). ${c.camadas} de 5 camadas pesquisadas.`));
     if (c.fronteira) b.append(el("div", "nota", "Está perto do centro: pode se identificar também com a posição vizinha."));
     if (c.empate > 1) b.append(el("div", "nota", `Empatou com outros ${c.empate - 1} candidatos na última vaga; o desempate foi por sorteio.`));
@@ -579,8 +591,8 @@
   function passo4(g) {
     const vagas = CARGO[g.cargo].vagas;
     $("p4sub").textContent = vagas === 1
-      ? "Em cada posição política, o candidato com maior competência geral entre os que continuam na disputa."
-      : `Em cada posição política, os ${vagas} candidatos com maior competência geral; você escolhe entre eles.`;
+      ? "Em cada posição política, o candidato com maior qualificação geral (média de idoneidade e competência) entre os que continuam na disputa."
+      : `Em cada posição política, os ${vagas} candidatos com maior qualificação geral (média de idoneidade e competência); você escolhe entre eles.`;
     const cl = classificarVoce(), cartoes = [];
     DADOS.quadrantes.forEach(q => {
       const recs = g.recomendados.map(sq => g.candidatos.find(c => c.sq === sq)).filter(c => c.quadrante === q.chave);
@@ -638,7 +650,7 @@
     [`Etapa 0: saem candidatos com registro indeferido ou inelegíveis.`,
      `Etapa 1: sai quem tem idoneidade geral abaixo de ${fmt(META.corte)} (de 0 a 10). Quem não teve a idoneidade pesquisada não é recomendado.`,
      `Etapa 2: cada candidato é colocado num de quatro quadrantes (limite em ${fmt(META.limiar)} nos dois eixos).`,
-     `Etapa 3: em cada quadrante, fica(m) o(s) de maior competência geral (média da competência e da escolaridade).`,
+     `Etapa 3: em cada quadrante, fica(m) o(s) de maior qualificação geral (média entre idoneidade geral e competência geral, que por sua vez é a média da competência e da escolaridade).`,
      `Nos empates da última vaga há sorteio, nunca ordem alfabética.`,
      `Se você não sabe seu quadrante, 2 perguntas indicam uma posição provável. Elas ficam só no seu navegador. Se nenhum candidato do seu quadrante continuou na disputa, mostramos os 3 mais próximos de você.`].forEach(t => m.append(el("li", null, t)));
     $("rodape").textContent = `Dados de ${META.gerado_em}. ${META.total_candidatos.toLocaleString("pt-BR")} candidatos no arquivo do TSE; ${Object.values(GRUPOS).filter(g => g.status !== "sem_verificacao").length} combinações de cargo e estado com verificação.`;

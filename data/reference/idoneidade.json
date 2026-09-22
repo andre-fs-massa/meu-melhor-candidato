@@ -527,13 +527,21 @@
     "200002535255": {
       "nome_urna": "ALLYSON",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 10,
-      "motivo": "Nenhuma pendência judicial pessoal encontrada. Ex-prefeito de Mossoró, engenheiro civil, ex-deputado estadual, atualmente mantém posição de neutralidade na disputa nacional.",
+      "nota": 8,
+      "motivo": "Nenhuma pendência judicial pessoal encontrada. Ex-prefeito de Mossoró, engenheiro civil, ex-deputado estadual, atualmente mantém posição de neutralidade na disputa nacional. || ATUALIZAÇÃO 2026-09-22: candidatura tinha nota 10 ('nenhuma pendência') por pesquisa incompleta. É alvo da Operação Mederi da PF (desvios na saúde de Mossoró), com decisão judicial que aponta recebimento pessoal de propina -- ainda sem denúncia formal do MPF confirmada, por isso tratado como 'investigação em curso' (-2), não como réu. Também alvo de uma ação no TRE-RN movida pela coligação adversária (Álvaro Dias) pedindo cassação/inelegibilidade dele e do vice Hermano Morais, ligada ao mesmo esquema -- processo em fase inicial, sem pedido de afastamento imediato, não contado como achado adicional (mesmo fato gerador da Operação Mederi).",
       "fontes": [
-        "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-allyson-bezerra-pre-candidato-ao-governo-do-rn/"
+        "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-allyson-bezerra-pre-candidato-ao-governo-do-rn/",
+        "https://www.poder360.com.br/poder-justica/prefeito-de-mossoro-e-alvo-de-operacao-da-pf-e-da-cgu/",
+        "https://pordentrodorn.com.br/2026/03/30/allyson-bezerra-investigacao-operacao-mederi-mossoro/",
+        "https://www.focoelho.com/2026/08/desvios-na-saude-de-mossoro-justica.html"
       ],
-      "pesquisado_em": "2026-09-21",
-      "achados": []
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo, em 27/01/2026, da Operação Mederi da PF/CGU (35 mandados de busca e apreensão): suspeita de propina de 15% sobre pagamentos da Prefeitura de Mossoró a fornecedoras de medicamentos (sobretudo a distribuidora Dismed), estimada em mais de R$ 2,2 mi (2022-2025) -- a decisão judicial que autorizou a operação aponta recebimento pessoal de cerca de R$ 833 mil em propina. Perdeu o foro privilegiado ao renunciar à prefeitura para concorrer ao governo (03/2026) e passou a responder na Justiça Federal comum. Escutas telefônicas mantidas pelo TRF-5 em 08/2026. Também alvo de denúncia no TCE-RN por possível fraude no Pregão 07/2025 (mesma área, engenharia clínica/saúde). Sem denúncia formal do MPF confirmada até a pesquisa."
+        }
+      ]
     },
     "200002547826": {
       "nome_urna": "ARINALDA DO MLB",
@@ -639,28 +647,46 @@
     "200002534442": {
       "nome_urna": "ÁLVARO DIAS",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 10,
-      "motivo": "ATENÇÃO: homônimo do senador Álvaro Dias (PR, Podemos) -- este é Álvaro Costa Dias, médico, prefeito de Natal desde 2018, não é a mesma pessoa. Nenhuma pendência judicial encontrada. Migrou do Republicanos para o PL para consolidar apoio de direita/centro-direita na candidatura ao governo do RN.",
+      "nota": 8,
+      "motivo": "ATENÇÃO: homônimo do senador Álvaro Dias (PR, Podemos) -- este é Álvaro Costa Dias, médico, prefeito de Natal desde 2018, não é a mesma pessoa. Nenhuma pendência judicial encontrada. Migrou do Republicanos para o PL para consolidar apoio de direita/centro-direita na candidatura ao governo do RN. || ATUALIZAÇÃO 2026-09-22: candidatura tinha nota 10 ('nenhuma pendência') por pesquisa incompleta. Tem pelo menos 2 condenações CONFIRMADAS (uma já transitada em julgado) por propaganda eleitoral antecipada (-2). CUIDADO COM HOMÔNIMO: há também o senador Álvaro Dias (PR/Podemos, Paraná) -- resultados de busca sobre aborto/gênero de 2013-2016 encontrados nesta pesquisa pertencem a ELE, não a este candidato (médico, prefeito de Natal), e NÃO foram usados aqui. Também há uma ação no TRE-RN movida pela coligação de Allyson pedindo inelegibilidade dele e do vice Babá Pereira por um suposto programa diário de conteúdo eleitoral (mai/2025 a jun/2026) -- sub judice, sem decisão até a pesquisa, não contada como achado adicional (mesmo fato gerador da condenação já contada).",
       "fontes": [
-        "https://tribunadonorte.com.br/politica/endireitar-o-rn-alvaro-dias-e-candidato-do-pl-ao-governo-do-rn/"
+        "https://tribunadonorte.com.br/politica/endireitar-o-rn-alvaro-dias-e-candidato-do-pl-ao-governo-do-rn/",
+        "https://saibamais.jor.br/2026/06/tre-rn-multa-alvaro-dias-e-baba-por-propaganda-eleitoral-antecipada/",
+        "https://www.opotiguar.com.br/multas-do-caso-rn-verdade-chegam-a-r-175-mil-com-nova-condenacao-de-alvaro-no-tre"
       ],
-      "pesquisado_em": "2026-09-21",
-      "achados": []
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "quantidade": 2,
+          "descricao": "Condenado pelo TRE-RN, em pelo menos 2 processos distintos (um deles pelo programa de rádio 'RN Verdade com Álvaro Dias', veiculado em rádios de Caicó em 13/04/2026), por propaganda eleitoral antecipada -- multas que somam R$ 175 mil (R$ 95 mil pessoais dele). Recurso contra a condenação de abril foi NEGADO em 31/07/2026 (decisão transitada em julgado)."
+        }
+      ]
     },
     "20002553350": {
       "nome_urna": "JHC",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 9,
-      "motivo": "TSE manteve, em maio/2026, multas ao então prefeito de Maceió (R$20 mil) e ao vice (R$5 mil) por publicidade institucional irregular durante período vedado das eleições municipais de 2024 (conduta vedada). Além disso, pelo menos 8 processos no TSE em 2026 envolvendo a Federação PSDB/diretório estadual e conteúdo digital (incluindo alegação de 'imagem fabricada'/IA) relacionados à pré-campanha dele -- natureza ambígua nas fontes disponíveis (não fica claro se ele é autor ou alvo do conteúdo questionado), não descontado adicionalmente por falta de clareza.",
+      "nota": 8,
+      "motivo": "TSE manteve, em maio/2026, multas ao então prefeito de Maceió (R$20 mil) e ao vice (R$5 mil) por publicidade institucional irregular durante período vedado das eleições municipais de 2024 (conduta vedada). Além disso, pelo menos 8 processos no TSE em 2026 envolvendo a Federação PSDB/diretório estadual e conteúdo digital (incluindo alegação de 'imagem fabricada'/IA) relacionados à pré-campanha dele -- natureza ambígua nas fontes disponíveis (não fica claro se ele é autor ou alvo do conteúdo questionado), não descontado adicionalmente por falta de clareza. || ATUALIZAÇÃO 2026-09-22: 2 achados leves adicionais (-0,5 cada): tentativa de suprimir na Justiça Eleitoral a divulgação da condenação do PAI dele (João Caldas, presidente nacional do DC -- ver liderancas_partidarias.json) e bloqueio judicial de bens por dívida de mais de 10 anos com uma agência de publicidade. Nenhum dos dois é acusação de corrupção pessoal dele, mas ambos são achados verificados que pesam contra a conduta/transparência do candidato.",
       "fontes": [
         "https://www.tse.jus.br/comunicacao/noticias/2026/Maio/tse-mantem-multas-a-prefeito-e-vice-de-maceio-al-por-publicidade-institucional-irregular-nas-eleicoes-2024",
-        "https://www.br104.com.br/eleicoes-2026/cidades/oito-processos-psdb-jhc-pre-campanha-alagoas-tse"
+        "https://www.br104.com.br/eleicoes-2026/cidades/oito-processos-psdb-jhc-pre-campanha-alagoas-tse",
+        "https://www.tribunadosertao.com.br/politica/2026/09/11/977133-jhc-aciona-a-justica-para-esconder-condenacao-do-pai-por-desvios-na-saude",
+        "https://exame.com/brasil/justica-bloqueia-bens-de-jhc-candidato-ao-governo-de-alagoas-por-divida-com-publiciario/"
       ],
-      "pesquisado_em": "2026-09-21",
+      "pesquisado_em": "2026-09-22",
       "achados": [
         {
           "categoria": "contas_com_ressalva_ou_multa_eleitoral",
           "descricao": "TSE manteve em mai/2026 multas por publicidade institucional irregular no período vedado de 2024 (R$ 20 mil ao prefeito, R$ 5 mil ao vice)"
+        },
+        {
+          "categoria": "controversia_administrativa",
+          "descricao": "Acionou a Justiça Eleitoral, em 09/2026, para tentar impedir a divulgação de um trecho de debate (TV Gazeta) em que o adversário Renan Filho mencionou a condenação do pai dele, João Caldas, por improbidade (Operação Taturana/Máfia das Ambulâncias) -- tentativa de suprimir informação verídica e de interesse público sobre a campanha, não um ilícito em si."
+        },
+        {
+          "categoria": "controversia_administrativa",
+          "descricao": "Ele e o pai, João Caldas, tiveram bens/contas bloqueados judicialmente em 31/08/2026 por dívida de mais de uma década (desde 2015) com uma agência de publicidade (Imagine Comunicação & Marketing) por serviços prestados na campanha de 2014 -- ação de execução de título extrajudicial, dívida financeira não honrada, não é acusação de corrupção."
         }
       ]
     },
@@ -689,17 +715,23 @@
     "20002553745": {
       "nome_urna": "RENAN FILHO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 9,
-      "motivo": "Em 2015, durante a Lava Jato, o dono da UTC (Ricardo Pessoa) declarou ter repassado recursos à campanha de 2014 de Renan Filho ligados a esquema de corrupção na Petrobras; a PGR também investigou repasse de ~R$800 mil da Odebrecht coordenado pelo grupo dele. Não foi encontrada confirmação de denúncia formal, condenação ou status atual dessas investigações nas fontes disponíveis -- desconto moderado por investigação histórica documentada sem resolução clara, não por condenação. Governo dele geriu a crise ambiental da Braskem em Maceió com ações judiciais contra a empresa (sem acordo, segundo a gestão) -- não é pendência pessoal.",
+      "nota": 7,
+      "motivo": "Em 2015, durante a Lava Jato, o dono da UTC (Ricardo Pessoa) declarou ter repassado recursos à campanha de 2014 de Renan Filho ligados a esquema de corrupção na Petrobras; a PGR também investigou repasse de ~R$800 mil da Odebrecht coordenado pelo grupo dele. Não foi encontrada confirmação de denúncia formal, condenação ou status atual dessas investigações nas fontes disponíveis -- desconto moderado por investigação histórica documentada sem resolução clara, não por condenação. Governo dele geriu a crise ambiental da Braskem em Maceió com ações judiciais contra a empresa (sem acordo, segundo a gestão) -- não é pendência pessoal. || ATUALIZAÇÃO 2026-09-22: achado adicional (-2) por uma ação de abuso de poder DIFERENTE da já registrada (doações Odebrecht/UTC de 2014) -- esta é sobre o uso eleitoral de programas sociais na eleição de 2022, já julgada em 1ª instância (absolvição por 4x3, apertada) mas ainda em recurso no TSE. Tratada como investigação/ação civil em curso, não como condenação (foi absolvido até agora).",
       "fontes": [
         "https://observatoriodamineracao.com.br/ministro-renan-filho-e-pai-de-arthur-lira-receberam-doacoes-da-braskem-nas-campanhas-ao-governo-de-alagoas-em-2014/",
-        "https://obrasilianista.com.br/2026/09/15/politica/renan-filho-candidato-governo-alagoas"
+        "https://obrasilianista.com.br/2026/09/15/politica/renan-filho-candidato-governo-alagoas",
+        "https://www.gazetadopovo.com.br/republica/mp-pede-cassacao-de-renan-filho-governador-e-vice-de-alagoas-por-abuso-de-poder/",
+        "https://ojornalextra.com.br/noticias/politica/2025/07/116582-tre-al-mantem-mandato-de-paulo-dantas-e-ronaldo-lessa-por-4-x-3"
       ],
-      "pesquisado_em": "2026-09-21",
+      "pesquisado_em": "2026-09-22",
       "achados": [
         {
           "categoria": "citado_ou_apuracao_preliminar",
           "descricao": "Citado na delação de Ricardo Pessoa (UTC) sobre a campanha de 2014; PGR investigou repasse de ~R$ 800 mil da Odebrecht; sem denúncia, condenação ou status atual confirmados"
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Réu (junto com o então governador Paulo Dantas e o então vice Ronaldo Lessa) numa ação por abuso de poder político/econômico na eleição de 2022 (distribuição de 316,9 mil cestas básicas do programa 'Pacto Contra a Fome' e uso do programa educacional 'Bolsa Escola 10' com fins eleitorais, que poderia gerar cassação de mandato e inelegibilidade por 8 anos). O TRE-AL julgou em 21/07/2025 e absolveu por placar apertado de 4x3 (o relator via abuso de poder, mas foi voto vencido); o processo segue em recurso no TSE, sem decisão final até a pesquisa."
         }
       ]
     },
@@ -768,14 +800,22 @@
     "180002553722": {
       "nome_urna": "LOURDES MELO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 10,
-      "motivo": "Professora aposentada, sindicalista histórica, candidata pelo PCO desde 2005. Nenhuma pendência jurídica pessoal encontrada. NOTA À PARTE (não afeta idoneidade): sofreu AVC hemorrágico em agosto/2026 e ficou internada em UTI -- questão de saúde, não de integridade.",
+      "nota": 8,
+      "motivo": "Professora aposentada, sindicalista histórica, candidata pelo PCO desde 2005. Nenhuma pendência jurídica pessoal encontrada. NOTA À PARTE (não afeta idoneidade): sofreu AVC hemorrágico em agosto/2026 e ficou internada em UTI -- questão de saúde, não de integridade. || PADRONIZAÇÃO 2026-09-22: TRE-PI concluiu em 15/09/2026 o julgamento de impugnações ao Governo do PI e indeferiu 5 das 11 candidaturas (a dele entre elas); cabe recurso ao TSE, ainda sem decisão até a pesquisa. Mesma categoria já usada para Carlos Jararaca (RN) e Policial Edjane (SP): registro contestado e sub judice, não indeferimento definitivo (-2). Antes: nota 10 sem esse desconto.",
       "fontes": [
         "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-lourdes-melo-pre-candidata-ao-governo-do-piaui/",
-        "https://piauihoje.com/noticias/politica/pco-confirma-lourdes-melo-como-candidata-ao-governo-do-piaui-462570.html"
+        "https://piauihoje.com/noticias/politica/pco-confirma-lourdes-melo-como-candidata-ao-governo-do-piaui-462570.html",
+        "https://portalclubenews.com/2026/09/15/tre-decide-indeferir-cinco-candidaturas-ao-governo-do-piaui-cabe-recurso/",
+        "https://portalclubenews.com/2026/09/10/tre-pi-indefere-candidatura-de-lourdes-melo-e-invalida-chapa-de-ravenna-da-inclusao-ao-governo/",
+        "https://portaldeprefeitura.com.br/bastidores-da-politica/candidata-ao-governo-do-piaui-recebe-alta-hospitalar/631536/"
       ],
-      "pesquisado_em": "2026-09-21",
-      "achados": []
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "Candidatura indeferida pelo TRE-PI em 10/09/2026 por 'grave desconformidade' entre a convenção do PCO (protocolada nos últimos minutos do prazo, 05/08/2026) e o DRAP do partido -- vício do partido, sem achado de conduta pessoal dela. Recurso ao TSE pendente. RESSALVA DE SAÚDE (não jurídica, sem efeito na nota): sofreu AVC hemorrágico em 28/08/2026, ficou internada em UTI, recebeu alta em 04/09/2026 e segue em recuperação em casa; até a pesquisa não havia definição sobre a continuidade da candidatura."
+        }
+      ]
     },
     "180002549970": {
       "nome_urna": "PROFESSOR GISVALDO",
@@ -792,14 +832,20 @@
     "180002548565": {
       "nome_urna": "PROFESSOR JURITY",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 10,
-      "motivo": "ATENÇÃO: candidatura REJEITADA pelo TRE-PI (indeferida em 11/09/2026), mas por IRREGULARIDADE DO PRÓPRIO PARTIDO (DRAP -- Demonstrativo de Regularidade de Atos Partidários do Democracia Cristã negado), não por conduta pessoal dele -- servidor público estadual, sem achado de processo/Ficha Limpa/contas rejeitadas pessoais na busca. Mesma lógica já documentada no projeto (presença no arquivo TSE não é candidatura viável), mas aqui a causa é organizacional do partido, não idoneidade pessoal -- por isso nota não sofre desconto de integridade.",
+      "nota": 8,
+      "motivo": "ATENÇÃO: candidatura REJEITADA pelo TRE-PI (indeferida em 11/09/2026), mas por IRREGULARIDADE DO PRÓPRIO PARTIDO (DRAP -- Demonstrativo de Regularidade de Atos Partidários do Democracia Cristã negado), não por conduta pessoal dele -- servidor público estadual, sem achado de processo/Ficha Limpa/contas rejeitadas pessoais na busca. Mesma lógica já documentada no projeto (presença no arquivo TSE não é candidatura viável), mas aqui a causa é organizacional do partido, não idoneidade pessoal -- por isso nota não sofre desconto de integridade. || PADRONIZAÇÃO 2026-09-22: revista a decisão de 2026-09-21 de NÃO descontar (a nota tinha ficado em 10 com o argumento de que a causa era só do partido). Por consistência com Carlos Jararaca (RN) e Policial Edjane (SP) -- que também tiveram registro/chapa indeferido por motivo majoritariamente documental/organizacional e mesmo assim receberam o desconto -- aplica-se aqui o mesmo -2 de registro_contestado_sub_judice. TRE-PI concluiu o julgamento das 5 impugnações ao Governo do PI em 15/09/2026; cabe recurso ao TSE, sem decisão até a pesquisa.",
       "fontes": [
         "https://lupa1.com.br/noticias/politica/tre-pi-indefere-registro-de-professor-jurity-para-disputar-o-governo-do-piaui-74709.html",
-        "https://folhaexpressa.com/politica/tre-pi-barra-candidatura-de-professor-jurity-ao-governo-do-piaui-em-2026/"
+        "https://folhaexpressa.com/politica/tre-pi-barra-candidatura-de-professor-jurity-ao-governo-do-piaui-em-2026/",
+        "https://portalclubenews.com/2026/09/15/tre-decide-indeferir-cinco-candidaturas-ao-governo-do-piaui-cabe-recurso/"
       ],
-      "pesquisado_em": "2026-09-21",
-      "achados": []
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "Candidatura indeferida pelo TRE-PI em 11/09/2026 por irregularidade do DRAP do Democracia Cristã -- vício do partido, sem achado de conduta pessoal dele. Recurso ao TSE pendente."
+        }
+      ]
     },
     "180002549995": {
       "nome_urna": "SANTIAGO BELIZÁRIO",
@@ -815,49 +861,71 @@
     "180002548388": {
       "nome_urna": "RAVENNA DA INCLUSÃO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 10,
-      "motivo": "Advogada, candidata pelo DEMOCRATA (já disputou governo do estado em 2022 pelo então PMN/atual Mobiliza). Nenhuma pendência jurídica pessoal encontrada.",
+      "nota": 8,
+      "motivo": "Advogada, candidata pelo DEMOCRATA (já disputou governo do estado em 2022 pelo então PMN/atual Mobiliza). Nenhuma pendência jurídica pessoal encontrada. || PADRONIZAÇÃO 2026-09-22: TRE-PI concluiu em 15/09/2026 o julgamento de impugnações ao Governo do PI e indeferiu 5 das 11 candidaturas (a dele entre elas); cabe recurso ao TSE, ainda sem decisão até a pesquisa. Mesma categoria já usada para Carlos Jararaca (RN) e Policial Edjane (SP): registro contestado e sub judice, não indeferimento definitivo (-2). Antes: nota 10 sem esse desconto.",
       "fontes": [
         "https://tmc.com.br/eleicoes/candidato/ravenna-da-inclusao/",
-        "https://portalclubenews.com/2026/07/29/eleicoes-2026-pi-ravenna-castro-e-lancado-como-candidato-ao-governo-pelo-democrata/"
+        "https://portalclubenews.com/2026/07/29/eleicoes-2026-pi-ravenna-castro-e-lancado-como-candidato-ao-governo-pelo-democrata/",
+        "https://portalclubenews.com/2026/09/15/tre-decide-indeferir-cinco-candidaturas-ao-governo-do-piaui-cabe-recurso/",
+        "https://portalclubenews.com/2026/09/10/tre-pi-indefere-candidatura-de-lourdes-melo-e-invalida-chapa-de-ravenna-da-inclusao-ao-governo/"
       ],
-      "pesquisado_em": "2026-09-21",
-      "achados": []
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "Candidatura invalidada pelo TRE-PI em 09-10/09/2026: convenção do Democrata (29/07/2026) considerada nula porque o partido estava com registro SUSPENSO desde 2022 por não prestar contas de 2019 -- vício do partido, sem achado de conduta pessoal dela. Recurso ao TSE pendente."
+        }
+      ]
     },
     "180002537422": {
       "nome_urna": "GERALDO CARVALHO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 10,
-      "motivo": "Sociólogo, professor da UFPI, ex-presidente do Sindicato dos Bancários do Piauí e liderança do ANDES-SN, candidato pelo PSTU pela 2ª vez consecutiva. Nenhuma pendência jurídica pessoal encontrada.",
+      "nota": 8,
+      "motivo": "Sociólogo, professor da UFPI, ex-presidente do Sindicato dos Bancários do Piauí e liderança do ANDES-SN, candidato pelo PSTU pela 2ª vez consecutiva. Nenhuma pendência jurídica pessoal encontrada. || PADRONIZAÇÃO 2026-09-22: TRE-PI concluiu em 15/09/2026 o julgamento de impugnações ao Governo do PI e indeferiu 5 das 11 candidaturas (a dele entre elas); cabe recurso ao TSE, ainda sem decisão até a pesquisa. Mesma categoria já usada para Carlos Jararaca (RN) e Policial Edjane (SP): registro contestado e sub judice, não indeferimento definitivo (-2). Antes: nota 10 sem esse desconto.",
       "fontes": [
         "https://ndmais.com.br/eleicoes/2026/candidatos/pi/governador/16-geraldo-carvalho/",
-        "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-geraldo-carvalho-pre-candidato-ao-governo-do-piaui/"
+        "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-geraldo-carvalho-pre-candidato-ao-governo-do-piaui/",
+        "https://portalclubenews.com/2026/09/15/tre-decide-indeferir-cinco-candidaturas-ao-governo-do-piaui-cabe-recurso/",
+        "https://portalclubenews.com/2026/09/04/tre-pi-indefere-pedido-de-registro-de-candidatura-de-geraldo-carvalho-ao-governo-do-piaui/"
       ],
-      "pesquisado_em": "2026-09-21",
-      "achados": []
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "Candidatura indeferida pelo TRE-PI em 01/09/2026 (chapa majoritária inteira do PSTU) por pendências no DRAP do partido (contas de 2015/2017/eleições de 2018 não prestadas) -- vício do partido, sem achado de conduta pessoal dele. Obteve liminar no TRE-PI que mantém a campanha normalmente enquanto corre o recurso ao TSE."
+        }
+      ]
     },
     "180002550421": {
       "nome_urna": "GUSTAVO PELO PIAUÍ OU GUSTAVO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 10,
-      "motivo": "ATENÇÃO: candidatura com registro CANCELADO pelo TRE-PI (a convenção estadual do Avante de 30/07/2026 que o lançou foi invalidada por disputa interna sobre legitimidade de quem podia convocá-la -- ele presidiu a comissão provisória até 30/06/2026, mas convocou a convenção depois desse prazo). A executiva nacional do Avante também suspendeu a candidatura. O TSE concedeu liminar dando 'novo fôlego' ao caso, mas o impasse seguia sem solução definitiva até a pesquisa. Causa é disputa de poder interna do partido, não conduta pessoal dele -- advogado, presidiu o diretório estadual do Avante desde abril/2026. Nenhum achado de processo/Ficha Limpa pessoal.",
+      "nota": 8,
+      "motivo": "ATENÇÃO: candidatura com registro CANCELADO pelo TRE-PI (a convenção estadual do Avante de 30/07/2026 que o lançou foi invalidada por disputa interna sobre legitimidade de quem podia convocá-la -- ele presidiu a comissão provisória até 30/06/2026, mas convocou a convenção depois desse prazo). A executiva nacional do Avante também suspendeu a candidatura. O TSE concedeu liminar dando 'novo fôlego' ao caso, mas o impasse seguia sem solução definitiva até a pesquisa. Causa é disputa de poder interna do partido, não conduta pessoal dele -- advogado, presidiu o diretório estadual do Avante desde abril/2026. Nenhum achado de processo/Ficha Limpa pessoal. || PADRONIZAÇÃO 2026-09-22: TRE-PI concluiu em 15/09/2026 o julgamento de impugnações ao Governo do PI e indeferiu 5 das 11 candidaturas (a dele entre elas); cabe recurso ao TSE, ainda sem decisão até a pesquisa. Mesma categoria já usada para Carlos Jararaca (RN) e Policial Edjane (SP): registro contestado e sub judice, não indeferimento definitivo (-2). Antes: nota 10 sem esse desconto.",
       "fontes": [
         "https://lupa1.com.br/noticias/politica/tre-pi-invalida-convencao-e-determina-cancelamento-da-candidatura-de-gustavo-henrique-ao-governo-do-piaui-73008.html",
-        "https://lupa1.com.br/noticias/politica/liminar-do-tse-da-novo-folego-a-gustavo-henrique-mas-ainda-nao-poe-fim-ao-impasse-no-avante-73069.html"
+        "https://lupa1.com.br/noticias/politica/liminar-do-tse-da-novo-folego-a-gustavo-henrique-mas-ainda-nao-poe-fim-ao-impasse-no-avante-73069.html",
+        "https://portalclubenews.com/2026/09/15/tre-decide-indeferir-cinco-candidaturas-ao-governo-do-piaui-cabe-recurso/",
+        "https://portalclubenews.com/2026/09/11/tre-pi-indefere-pedido-de-registro-de-candidatura-de-gustavo-henrique-ao-governo-do-piaui/"
       ],
-      "pesquisado_em": "2026-09-21",
-      "achados": []
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "Candidatura indeferida pelo TRE-PI em 11/09/2026: convenção do Avante que o lançou foi anulada porque ele não era mais presidente da Comissão Provisória Estadual do partido na data da convenção. Recurso ao TSE pendente."
+        }
+      ]
     },
     "120002536582": {
       "nome_urna": "EDUARDO RIEDEL",
       "cargo_pretendido": "GOVERNADOR",
       "nota": 10,
-      "motivo": "Governador atual de MS buscando reeleição. Busca (biografia, plano de governo) não encontrou processo judicial, Ficha Limpa ou contas rejeitadas.",
+      "motivo": "Governador atual de MS buscando reeleição. Busca (biografia, plano de governo) não encontrou processo judicial, Ficha Limpa ou contas rejeitadas. || ATUALIZAÇÃO 2026-09-22: em maio/2026, a PF prendeu na Operação Buraco Sem Fim o presidente da Agesul (autarquia estadual), Rudi Fiorese, por suspeita de desvio de ~R$ 113 milhões em contratos de tapa-buracos; Riedel exonerou o indicado logo após a prisão. É uma pendência de um NOMEADO do governo dele, não achado de conduta pessoal do próprio Riedel -- não descontado, mesmo critério usado para outras crises de gestão no projeto (ex.: Braskem/JHC em Maceió).",
       "fontes": [
         "https://obrasilianista.com.br/2026/09/17/politica/eduardo-riedel-candidato-governo-mato-grosso-sul",
-        "https://www.campograndenews.com.br/politica/riedel-registra-plano-de-governo-em-4-eixos-com-foco-em-qualidade-de-vida"
+        "https://www.campograndenews.com.br/politica/riedel-registra-plano-de-governo-em-4-eixos-com-foco-em-qualidade-de-vida",
+        "https://www.mpms.mp.br/noticias/2023/01/procurador-geral-de-justica-participa-da-posse-do-novo-governador-de-ms-eduardo-riedel"
       ],
-      "pesquisado_em": "2026-09-21",
+      "pesquisado_em": "2026-09-22",
       "achados": []
     },
     "120002552155": {
@@ -886,34 +954,44 @@
       "nome_urna": "FÁBIO TRAD",
       "cargo_pretendido": "GOVERNADOR",
       "nota": 10,
-      "motivo": "Advogado, professor universitário, ex-deputado federal (3 mandatos). Busca biográfica ampla não revelou processo/escândalo. Ressalva: não houve busca específica adicional por processos judiciais (limite de busca da sessão esgotado) -- baseado só na busca biográfica/de plataforma.",
+      "motivo": "Advogado, professor universitário, ex-deputado federal (3 mandatos). Busca biográfica ampla não revelou processo/escândalo. Advogado, professor universitário, ex-deputado federal (3 mandatos consecutivos), filiado ao PT desde 08/2025 (antes PSD). Busca focada por processo/Ministério Público/Ficha Limpa em 2026-09-22 não encontrou pendência pessoal -- ele aparece pedindo investigações (contra grupo pró-golpe militar em MS, sobre o 'caso Amambai'), não sendo alvo delas. Nenhuma pendência encontrada.",
       "fontes": [
         "https://www.poder360.com.br/poder-eleicoes-2026/pt-oficializa-candidatura-de-fabio-trad-ao-governo-de-mato-grosso-do-sul/",
         "https://obrasilianista.com.br/2026/09/17/politica/fabio-trad-candidato-governo-mato-grosso-sul/"
       ],
-      "pesquisado_em": "2026-09-21",
+      "pesquisado_em": "2026-09-22",
       "achados": []
     },
     "120002552191": {
       "nome_urna": "JOÃO HENRIQUE CATAN",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 10,
-      "motivo": "Advogado, deputado estadual (2º mandato). Busca biográfica não revelou processo/escândalo. Mesma ressalva de busca limitada por esgotamento do limite de sessão.",
+      "nota": 7,
+      "motivo": "ATUALIZADO 2026-09-22 (a pesquisa de 2026-09-21 tinha ficado incompleta por limite de sessão): advogado, deputado estadual (2º mandato), filiado ao NOVO desde 03/2026 (antes PL). Dois achados verificados na campanha ao governo de 2026 (ver 'achados'), nenhum deles processo/Ficha Limpa/condenação anterior à candidatura -- ambos são condutas de campanha. Total 10-2-1 = 7.",
       "fontes": [
-        "https://www.capitalnews.com.br/politica-e-poder/politica/novo-oficializa-joao-henrique-catan-como-candidato-ao-governo-de-mato-grosso-do-sul/444946"
+        "https://ndmais.com.br/politica/briga-pelo-governo-de-ms-riedel-pede-cassacao-de-catan-apos-video-gravado-em-hospital-e-trad-reage/",
+        "https://ndmais.com.br/politica/riedel-consegue-direito-de-resposta-contra-catan/"
       ],
-      "pesquisado_em": "2026-09-21",
-      "achados": []
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Gravou vídeo de campanha de 8 minutos dentro do Hospital Regional de MS (HRMS) usando a condição de deputado estadual para acessar áreas restritas, com pacientes visíveis -- a Justiça Eleitoral determinou a retirada do vídeo em 24h (cumprida) e multa diária de R$ 5 mil em caso de descumprimento; o pedido de CASSAÇÃO do registro feito pela coligação de Riedel ainda não foi julgado no mérito até a pesquisa."
+        },
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Publicou vídeo em 07/09/2026 insinuando que malas carregadas por seguranças de um funcionário do governo (descendo de avião da JBS) continham dinheiro público/propina -- a Justiça Eleitoral concedeu direito de resposta a Riedel, concluindo que as imagens não mostravam dinheiro nem provas de propina e que a acusação cruzou de crítica política para afirmação de fato sem comprovação, com potencial de dano à imagem eleitoral do adversário."
+        }
+      ]
     },
     "120002532257": {
       "nome_urna": "LUCIEN REZENDE",
       "cargo_pretendido": "GOVERNADOR",
       "nota": 10,
-      "motivo": "Pequeno produtor rural, ex-secretário de Desenvolvimento de Ribas do Rio Pardo, presidente do PSOL-MS. Busca biográfica não revelou processo/escândalo. Mesma ressalva de busca limitada.",
+      "motivo": "Pequeno produtor rural, ex-secretário de Desenvolvimento de Ribas do Rio Pardo, presidente do PSOL-MS. Busca biográfica não revelou processo/escândalo. Pequeno produtor rural, ex-secretário de Desenvolvimento Econômico de Ribas do Rio Pardo (gestão PSOL, 4 anos), fundador e presidente estadual do PSOL-MS. Busca focada por processo/Ministério Público em 2026-09-22 não encontrou pendência pessoal. Nenhuma pendência encontrada.",
       "fontes": [
         "https://correiodoestado.com.br/politica/convencao-do-psol-rede-confirma-lucien-rezende-na-disputa-pelo-governo/470182/"
       ],
-      "pesquisado_em": "2026-09-21",
+      "pesquisado_em": "2026-09-22",
       "achados": []
     },
     "120002552201": {
@@ -952,76 +1030,98 @@
     "80002552172": {
       "nome_urna": "RICARDO FERRAÇO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 10,
-      "motivo": "Governador em exercício do ES (assumiu em abril/2026 quando Casagrande saiu para disputar o Senado); antes, vice-governador eleito em 2022. Busca biográfica/plano de governo não revelou processo/escândalo. Ressalva: não houve busca específica adicional por processos judiciais (limite de busca da sessão esgotado antes de cobrir os outros 4 candidatos do ES).",
+      "nota": 9,
+      "motivo": "RECONFERIDO em 2026-09-22 (sessão anterior tinha ressalva de busca incompleta por limite de sessão). Governador em exercício do ES (assumiu em abril/2026 quando Casagrande saiu para disputar o Senado); antes, vice-governador eleito em 2022. Achado: inquérito da Lava Jato (delação da Odebrecht) por suposto repasse não contabilizado de R$400 mil à campanha ao Senado de 2010 -- arquivado pelo STF (ministro Barroso) em 2018 por falta de provas pessoais/documentais/periciais após tramitação excessivamente longa, sem denúncia. Descartado (sem relação pessoal, ele próprio pediu investigação ampla): escândalo da Apex Partners (plataforma de investimentos com ~R$1 bi em prejuízos), da qual o FILHO dele, Pedro Ferraço, é sócio -- sem indício de envolvimento do governador.",
       "fontes": [
-        "https://www.otempo.com.br/eleicoes/2026/candidatos/espirito-santo/governador/ricardo-ferraco-15",
-        "https://www.folhavitoria.com.br/eleicoes/plano-de-ricardo-ferraco-preve-escolas-integrais-hospital-veterinario-e-aeroporto-de-cargas/"
+        "https://www.meon.com.br/noticias/barroso-determina-arquivamento-de-inquerito-da-odebrecht-contra-ferraco",
+        "https://simnoticias.com.br/vinicius-baptista/ferraco-fala-sobre-apex-e-defende-ampla-investigacao-no-caso/"
       ],
-      "pesquisado_em": "2026-09-21",
-      "achados": []
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Inquérito da delação Odebrecht (R$400 mil não contabilizados, campanha ao Senado de 2010) arquivado pelo STF em 2018 por falta de provas; sem denúncia"
+        }
+      ]
     },
     "60002531351": {
       "nome_urna": "CIRO GOMES",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 7,
-      "motivo": "Responde a cerca de 77 processos no TJ-CE, a maioria (70) ações cíveis por dano moral decorrentes de declarações públicas (calúnia/injúria/difamação -- não estão no rol da Ficha Limpa). Já foi condenado a indenizar em pelo menos 8 desses casos, com cerca de R$315 mil em indenizações somadas em 6 deles, ainda recorrendo. É um padrão verificado e extenso de condenações cíveis por conduta pública agressiva, não um incidente isolado -- por isso desconto maior que o padrão de um único caso cível.",
+      "nota": 6,
+      "motivo": "Responde a cerca de 77 processos no TJ-CE, a maioria (70) ações cíveis por dano moral decorrentes de declarações públicas (calúnia/injúria/difamação -- não estão no rol da Ficha Limpa). Já foi condenado a indenizar em pelo menos 8 desses casos, com cerca de R$315 mil em indenizações somadas em 6 deles, ainda recorrendo. É um padrão verificado e extenso de condenações cíveis por conduta pública agressiva, não um incidente isolado -- por isso desconto maior que o padrão de um único caso cível. || ATUALIZAÇÃO 2026-09-22: achado adicional encontrado na reconferência -- Operação Colosseum (PF, 12/2021), apuração sobre a Arena Castelão; TRF-5 anulou a busca e apreensão contra ele em 2022 por decurso de prazo, investigação seguiu sob sigilo sem desfecho confirmado até a pesquisa (-1, peso leve dado o tempo decorrido e a incerteza do status atual).",
       "fontes": [
         "https://www.jota.info/eleicoes/ciro-gomes-70-processos-14062018",
         "https://mais.opovo.com.br/reportagens-especiais/2020/07/24/ciro-gomes-responde-a-74-processos-por-244-acusacoes-e-xingamentos.html"
       ],
-      "pesquisado_em": "2026-09-21",
+      "pesquisado_em": "2026-09-22",
       "achados": [
         {
           "categoria": "acao_civil_dano_moral",
           "quantidade": 8,
           "descricao": "Cerca de 70 ações cíveis por dano moral no TJ-CE por declarações públicas; condenado a indenizar em pelo menos 8 (cerca de R$ 315 mil somados em 6), ainda recorrendo -- o peso é limitado pelo teto da categoria (3)"
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "PF fez busca e apreensão contra ele e o irmão Cid Gomes em 12/2021 (Operação Colosseum), apurando suposto esquema de R$ 11 milhões em propina nas obras de reforma da Arena Castelão para a Copa de 2014 (fatos de 2010-2013, quando Cid Gomes era governador do CE). O TRF-5 anulou a busca e apreensão especificamente contra Ciro em 02/2022 por decurso de prazo excessivo, mas manteve a investigação em curso sob sigilo. Não foi encontrada confirmação de denúncia formal nem de arquivamento até a pesquisa (quase 5 anos sem desfecho conhecido) -- achado antigo e de status atual incerto, por isso peso leve."
         }
       ]
     },
     "60002543969": {
       "nome_urna": "ELMANO DE FREITAS",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 10,
-      "motivo": "Busca específica por processos/Ficha Limpa/contas rejeitadas não encontrou achado pessoal verificado. Existe um caso de 2012 em que a então prefeita de Fortaleza (Luizianne Lins) foi condenada por usar o cargo para favorecer a eleição dele -- mas a condenação foi dela, não dele, e ele não foi réu nesse processo. Sem pendência pessoal verificada.",
+      "nota": 8,
+      "motivo": "Busca específica por processos/Ficha Limpa/contas rejeitadas não encontrou achado pessoal verificado. Existe um caso de 2012 em que a então prefeita de Fortaleza (Luizianne Lins) foi condenada por usar o cargo para favorecer a eleição dele -- mas a condenação foi dela, não dele, e ele não foi réu nesse processo. Sem pendência pessoal verificada. || ATUALIZAÇÃO 2026-09-22: TRE-CE confirmou 2 sanções por propaganda enganosa contra Ciro Gomes ('Cironaro'), com perda de 76 minutos de horário eleitoral no total -- achado eleitoral confirmado, não é processo/Ficha Limpa tradicional mas é conduta verificada da campanha.",
       "fontes": [
-        "https://www.jusbrasil.com.br/processos/nome/34094351/elmano-de-freitas-da-costa"
+        "https://www.jusbrasil.com.br/processos/nome/34094351/elmano-de-freitas-da-costa",
+        "https://mais.opovo.com.br/jornal/politica/2026/09/22/tre-ce-confirma-perda-de-tempo-de-propaganda-de-elmano-por-associar-ciro-a-bolsonaro.html"
       ],
-      "pesquisado_em": "2026-09-21",
-      "achados": []
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "quantidade": 2,
+          "descricao": "TRE-CE confirmou em 22/09/2026 (colegiado, cassando liminares que suspendiam as penalidades) duas sanções por propaganda enganosa da coligação dele que associava Ciro Gomes a Bolsonaro de forma descontextualizada ('Cironaro', 'Ciro e Bolsonaro agora andam do mesmo lado') -- perda de 47 + 29 minutos de horário eleitoral gratuito."
+        }
+      ]
     },
     "60002540417": {
       "nome_urna": "DELEGADO HUGGO",
       "cargo_pretendido": "GOVERNADOR",
       "nota": 10,
-      "motivo": "Nenhuma pendência encontrada. Delegado de Polícia Civil desde 2018, primeira candidatura a cargo executivo.",
+      "motivo": "Delegado de Polícia Civil desde 2018, policial militar da reserva. Nenhuma pendência encontrada.",
       "fontes": [
         "https://www.cnnbrasil.com.br/eleicoes/quem-e-delegado-huggo-candidato-ao-governo-do-ceara/"
       ],
-      "pesquisado_em": "2026-09-21",
+      "pesquisado_em": "2026-09-22",
       "achados": []
     },
     "60002552498": {
       "nome_urna": "DANILO SOARES",
       "cargo_pretendido": "GOVERNADOR",
       "nota": 10,
-      "motivo": "Nenhuma pendência encontrada. Advogado trabalhista, 31 anos, primeira candidatura.",
+      "motivo": "Advogado trabalhista e criminal, natural de Crateús. Nenhuma pendência encontrada.",
       "fontes": [
         "https://www.cnnbrasil.com.br/eleicoes/quem-e-danilo-soares-candidato-ao-governo-do-ceara/"
       ],
-      "pesquisado_em": "2026-09-21",
+      "pesquisado_em": "2026-09-22",
       "achados": []
     },
     "30002536311": {
       "nome_urna": "CLÉCIO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 10,
-      "motivo": "Busca de biografia/trajetória não encontrou achado de pendência pessoal (processos/Ficha Limpa). Cobertura não incluiu busca dedicada de processos judiciais -- ressalva de cobertura, não garantia de limpeza total.",
+      "nota": 9,
+      "motivo": "RECONFERIDO em 2026-09-22 (sessão anterior tinha ressalva de busca de processos judiciais incompleta). Governador atual (eleito 2022), candidato à reeleição. TRE-AP condenou-o (recurso negado, decisão mantida) por propaganda eleitoral antecipada: a campanha institucional 'Eu visto a camisa do Amapá' foi usada como autopromoção pessoal ao longo de 2025 -- multa de R$25 mil, determinada a interrupção imediata da campanha.",
       "fontes": [
-        "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-clecio-luis-pre-candidato-ao-governo-do-amapa/"
+        "https://www.mpf.mp.br/o-mpf/unidades/pr-ap/noticias/justica-eleitoral-condena-governador-do-amapa-por-propaganda-antecipada-em-campanha-institucional",
+        "https://ncnews.com.br/2026/07/28/amapa-justica-aplica-multa-de-r-25-mil-ao-governador-clecio-luis-por-propaganda-eleitoral/"
       ],
-      "pesquisado_em": "2026-09-21",
-      "achados": []
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Condenado pela Justiça Eleitoral por propaganda antecipada (campanha institucional 'Eu visto a camisa do Amapá'), multa de R$25 mil, recurso negado"
+        }
+      ]
     },
     "100002545679": {
       "nome_urna": "EDUARDO BRAIDE",
@@ -1108,12 +1208,12 @@
       "nome_urna": "HANA GHASSAN",
       "cargo_pretendido": "GOVERNADOR",
       "nota": 8.5,
-      "motivo": "Condenada pelo TRE-PA por propaganda eleitoral antecipada em 2026, com determinação de retirada de outdoors com sua imagem (conduta vedada, -1). Também há controvérsia ligada a um decreto que promoveu delegados da Polícia Civil citados em esquema de corrupção e fraude milionária no estado -- não é achado de corrupção pessoal dela, é uma decisão administrativa questionável (-0.5).",
+      "motivo": "Condenada pelo TRE-PA por propaganda eleitoral antecipada em 2026, com determinação de retirada de outdoors com sua imagem (conduta vedada, -1). Também há controvérsia ligada a um decreto que promoveu delegados da Polícia Civil citados em esquema de corrupção e fraude milionária no estado -- não é achado de corrupção pessoal dela, é uma decisão administrativa questionável (-0.5). || Reconferido em 2026-09-22: nenhum achado pessoal novo.",
       "fontes": [
         "https://obrasilianista.com.br/2026/09/08/politica/hana-ghassan-candidata-governo-para",
         "https://www.cnnbrasil.com.br/eleicoes/quem-e-hana-ghassan-mdb-candidata-ao-governo-do-para/"
       ],
-      "pesquisado_em": "2026-09-21",
+      "pesquisado_em": "2026-09-22",
       "achados": [
         {
           "categoria": "infracao_eleitoral_leve",
@@ -1129,13 +1229,13 @@
       "nome_urna": "DR. DANIEL",
       "cargo_pretendido": "GOVERNADOR",
       "nota": 3,
-      "motivo": "REVISADA em 2026-09-21: Nota mantida (3), agora decomposta. Correção de fato: o afastamento do cargo (TJ-PA, 05/08/2025) foi suspenso pelo STJ no dia seguinte; o STF suspendeu a força-tarefa do MPPA em 02/10/2025 e a denúncia é de 03/10/2025. Réu em processo por corrupção, lavagem de dinheiro, organização criminosa e fraude em licitações (denúncia formal do MP-PA em outubro/2025), investigado na Operação Hades (irregularidades em contratos/licitações da Prefeitura de Ananindeua). Foi AFASTADO do cargo de prefeito por decisão do TJ-PA em decorrência da investigação -- bens de R$19 milhões (relógios de luxo, fazenda, veículos) alvo da operação. Múltiplas acusações graves em curso, sem condenação transitada até a pesquisa.",
+      "motivo": "REVISADA em 2026-09-21: Nota mantida (3), agora decomposta. Correção de fato: o afastamento do cargo (TJ-PA, 05/08/2025) foi suspenso pelo STJ no dia seguinte; o STF suspendeu a força-tarefa do MPPA em 02/10/2025 e a denúncia é de 03/10/2025. Réu em processo por corrupção, lavagem de dinheiro, organização criminosa e fraude em licitações (denúncia formal do MP-PA em outubro/2025), investigado na Operação Hades (irregularidades em contratos/licitações da Prefeitura de Ananindeua). Foi AFASTADO do cargo de prefeito por decisão do TJ-PA em decorrência da investigação -- bens de R$19 milhões (relógios de luxo, fazenda, veículos) alvo da operação. Múltiplas acusações graves em curso, sem condenação transitada até a pesquisa. || Reconferido em 2026-09-22: nenhum achado novo (a nota segue 3; o STF suspendeu brevemente e depois MANTEVE a validade das investigações em 17/03/2026). SEPARADAMENTE: um vídeo íntimo dele vazou nas redes em 08/2026 -- checado e NÃO CONTADO: ele é vítima de uma violação de privacidade, não há achado de conduta imprópria no conteúdo, e a candidatura, do PODE, foi registrada normalmente no dia seguinte.",
       "fontes": [
         "https://www.cnnbrasil.com.br/politica/pa-bens-de-r-19-milhoes-de-prefeito-de-ananindeua-sao-alvo-de-operacao/",
         "https://www.metropoles.com/brasil/prefeito-de-ananindeua-e-afastado-por-suspeita-de-corrupcao",
         "https://portalofato.com.br/2025/10/16/pre-candidato-ao-governo-do-para-prefeito-de-ananindeua-coleciona-investigacoes-por-fraudes-corrupcao-e-desvio-de-recursos/"
       ],
-      "pesquisado_em": "2026-09-21",
+      "pesquisado_em": "2026-09-22",
       "achados": [
         {
           "categoria": "reu_acao_penal",
@@ -1155,20 +1255,22 @@
       "nome_urna": "CÍCERO LUCENA",
       "cargo_pretendido": "GOVERNADOR",
       "nota": 4,
-      "motivo": "Condenado por improbidade administrativa (com outros 65 gestores) por falha em comprovar gastos na Prefeitura de Cabedelo entre 2009-2012, com pena de 4 anos e 7 meses -- manchete da época dizia que ele 'se tornou inelegível'. Também alvo de impugnação de candidatura em 2026 pelo Ministério Público Eleitoral com base em elementos da Operação Território Livre (investigação de organização de tráfico de drogas com possível influência sobre a administração municipal de João Pessoa) -- o TRE-PB rejeitou essa impugnação específica e manteve a candidatura por 5 votos a 1 em setembro/2026. RESSALVA: não ficou claro na pesquisa se a condenação por improbidade (que motivou a inelegibilidade noticiada) foi revertida/superada para permitir esta candidatura, ou se são questões jurídicas distintas -- pesquisa adicional necessária para esclarecer a situação eleitoral exata dele.",
+      "motivo": "RESSALVA RESOLVIDA em 2026-09-22: são duas questões jurídicas DISTINTAS, confirmado. (1) Condenado por improbidade administrativa (com outros 65 gestores) por falha em comprovar gastos na Prefeitura de Cabedelo entre 2009-2012, pena de 4 anos e 7 meses -- condenação real e confirmada, mas a janela de inelegibilidade (Ficha Limpa, 8 anos) já se esgotou, por isso um relatório técnico do TRE-PB o classificou como 'quite com a Justiça Eleitoral' e sem hipótese de inelegibilidade em tese; a condenação em si nunca foi revertida. (2) Prefeito de João Pessoa (2º mandato, reeleito 2024) alvo da Operação Território Livre (PF, set/2024): investigação aponta nomeações de pessoas ligadas à facção 'Nova Okaida' na administração municipal e possível benefício direto da campanha de reeleição dele com apoio da facção -- ele nega envolvimento. O MPE tentou impugnar a candidatura AO GOVERNO com base nesses elementos; o TRE-PB julgou a impugnação improcedente por 5 a 1 em set/2026 (falta de nexo com o resultado da eleição municipal), mas isso não encerra a investigação da PF em si, que segue em curso.",
       "fontes": [
         "https://jornaldaparaiba.com.br/politica/ex-prefeito-cicero-lucena-e-condenado-e-se-torna-inelegivel",
-        "https://wscom.com.br/politica/2026/09/09/tre-pb-conclui-julgamento-e-mantem-candidatura-de-cicero-lucena-ao-governo-da-paraiba-por-5-votos-a-1/"
+        "https://wscom.com.br/politica/2026/09/09/tre-pb-conclui-julgamento-e-mantem-candidatura-de-cicero-lucena-ao-governo-da-paraiba-por-5-votos-a-1/",
+        "https://www.metropoles.com/colunas/tacio-lorran/pf-mira-prefeito-de-joao-pessoa-por-suspeita-de-elo-com-faccao",
+        "https://blogdomiltonfigueiredo.com.br/noticias/geral/tre-aponta-cicero-lucena-quite-e-sem-registro-em-tese-de-inelegibilidade-impugnacao-segue-em-analise"
       ],
-      "pesquisado_em": "2026-09-21",
+      "pesquisado_em": "2026-09-22",
       "achados": [
         {
           "categoria": "condenacao_confirmada_sem_reversao",
-          "descricao": "Condenado por improbidade (Cabedelo, 2009-2012, pena de 4 anos e 7 meses); não ficou claro se foi revertida -- RESSALVA da pesquisa original"
+          "descricao": "Condenado por improbidade (Cabedelo, 2009-2012, pena de 4 anos e 7 meses); condenação nunca revertida, mas janela de inelegibilidade (Ficha Limpa) já esgotada"
         },
         {
           "categoria": "investigacao_ou_acao_civil_em_curso",
-          "descricao": "Elementos da Operação Território Livre (tráfico com possível influência na prefeitura de João Pessoa); a impugnação do MPE foi rejeitada pelo TRE-PB, 5 a 1, em set/2026"
+          "descricao": "Operação Território Livre da PF (set/2024): nomeações ligadas à facção 'Nova Okaida' na prefeitura de João Pessoa e possível benefício da campanha de reeleição dele; investigação segue em curso (impugnação da candidatura ao governo foi rejeitada pelo TRE-PB, 5 a 1, mas isso não é o mesmo que a investigação ser encerrada)"
         }
       ]
     },
@@ -1176,14 +1278,15 @@
       "nome_urna": "TARCÍSIO",
       "cargo_pretendido": "GOVERNADOR",
       "nota": 8,
-      "motivo": "Governador de SP em busca de reeleição, sem condenação nem inelegibilidade encontradas. (1) -1: MP-SP (Promotoria do Patrimônio Público, promotora Cíntia Marangoni) abriu em 15/07/2026 procedimento PRELIMINAR ('notícia de fato', ainda não inquérito civil) sobre possível improbidade e dano ao patrimônio nas privatizações da Sabesp e da Emae (abr-jul/2024), por suposta ligação com o escândalo do Banco Master; prazo de 45 dias para informações, sem decisão sobre abrir inquérito. (2) -1: nome citado 17 vezes em inquérito da PF (2020) sobre contratos do Dnit com a B2T assinados quando ele era diretor-geral do órgão -- NÃO era investigado formalmente e a PF não ligou seu nome a propina (apontou 3 subordinados); desfecho do inquérito não foi confirmado nesta pesquisa. SEM desconto: deputado Paulo Teixeira (PT) pediu ao ministro Flávio Dino (STF) que investigue eventual interferência de Tarcísio na operação da Polícia Civil anterior ao caso 'Dark Horse' -- é só um pedido de parlamentar adversário, sem decisão do STF até a pesquisa. RESSALVA: os três itens são pendências em aberto ou de desfecho desconhecido, não achados consolidados.",
+      "motivo": "Governador de SP em busca de reeleição, sem condenação nem inelegibilidade encontradas. (1) -1: MP-SP (Promotoria do Patrimônio Público, promotora Cíntia Marangoni) abriu em 15/07/2026 procedimento PRELIMINAR ('notícia de fato', ainda não inquérito civil) sobre possível improbidade e dano ao patrimônio nas privatizações da Sabesp e da Emae (abr-jul/2024), por suposta ligação com o escândalo do Banco Master; prazo de 45 dias para informações, sem decisão sobre abrir inquérito. (2) -1: nome citado 17 vezes em inquérito da PF (2020) sobre contratos do Dnit com a B2T assinados quando ele era diretor-geral do órgão -- NÃO era investigado formalmente e a PF não ligou seu nome a propina (apontou 3 subordinados); desfecho do inquérito não foi confirmado nesta pesquisa. SEM desconto: deputado Paulo Teixeira (PT) pediu ao ministro Flávio Dino (STF) que investigue eventual interferência de Tarcísio na operação da Polícia Civil anterior ao caso 'Dark Horse' -- é só um pedido de parlamentar adversário, sem decisão do STF até a pesquisa. RESSALVA: os três itens são pendências em aberto ou de desfecho desconhecido, não achados consolidados. || ATUALIZAÇÃO 2026-09-22 (reconferência, nota mantida): em 03/09/2026, o MP-SP prendeu na Operação Caldarium o ex-diretor-geral da Deat (Sefaz-SP), André Weiss, e um advogado, suspeitos de liderar organização criminosa que cobrava propina na administração tributária estadual. Tarcísio chamou de 'fatos isolados' e descartou impacto eleitoral. É pendência de um NOMEADO do governo dele, não achado de conduta pessoal do próprio Tarcísio -- não descontado, mesmo critério usado para outras crises de gestão no projeto (Riedel/Agesul em MS, Braskem/JHC em Maceió).",
       "fontes": [
         "https://revistaforum.com.br/politica/mp-master-privatizacao-sabesp-tarcisio/",
         "https://www2.senado.leg.br/bdsf/bitstream/handle/id/587867/noticia.html?sequence=1&isAllowed=y",
         "https://revistaforum.com.br/politica/paulo-teixeira-stf-investigue-tarcisio-operacao-dark-horse",
-        "https://www.gazetadopovo.com.br/eleicoes/2026/sao-paulo-2026/quem-sao-candidatos-governador-sao-paulo-2026/"
+        "https://www.gazetadopovo.com.br/eleicoes/2026/sao-paulo-2026/quem-sao-candidatos-governador-sao-paulo-2026/",
+        "https://www.dgabc.com.br/Noticia/4344901/tarcisio-chama-operacao-na-sefaz-de-fatos-isolados-e-descarta-impacto-eleitoral"
       ],
-      "pesquisado_em": "2026-09-21",
+      "pesquisado_em": "2026-09-22",
       "achados": [
         {
           "categoria": "citado_ou_apuracao_preliminar",
@@ -1199,14 +1302,14 @@
       "nome_urna": "FERNANDO HADDAD",
       "cargo_pretendido": "GOVERNADOR",
       "nota": 9,
-      "motivo": "Acusado pelo MP-SP de improbidade por suposto caixa 2 na campanha de prefeito de 2012 (R$ 2,6 milhões de dívidas pagas pela UTC Engenharia a uma gráfica, segundo delação de Ricardo Pessoa). ABSOLVIDO NO MÉRITO: a 7ª Câmara de Direito Público do TJ-SP confirmou por unanimidade a absolvição (relator: 'improbidade não caracterizada', pagamentos sem recursos do erário), e o TRE-SP também o absolveu por unanimidade da acusação eleitoral de caixa 2 (2021). Nunca houve condenação nem prisão. Desconto -1 por ter sido réu em acusação séria antes da absolvição. RESSALVA: busca focada nesse caso e em pendências gerais; não explorou toda a atuação como ministro da Fazenda.",
+      "motivo": "Acusado pelo MP-SP de improbidade por suposto caixa 2 na campanha de prefeito de 2012 (R$ 2,6 milhões de dívidas pagas pela UTC Engenharia a uma gráfica, segundo delação de Ricardo Pessoa). ABSOLVIDO NO MÉRITO: a 7ª Câmara de Direito Público do TJ-SP confirmou por unanimidade a absolvição (relator: 'improbidade não caracterizada', pagamentos sem recursos do erário), e o TRE-SP também o absolveu por unanimidade da acusação eleitoral de caixa 2 (2021). Nunca houve condenação nem prisão. Desconto -1 por ter sido réu em acusação séria antes da absolvição. RESSALVA: busca focada nesse caso e em pendências gerais; não explorou toda a atuação como ministro da Fazenda. || Reconferido em 2026-09-22: nenhum achado pessoal novo.",
       "fontes": [
         "https://www.cnnbrasil.com.br/politica/tj-de-sao-paulo-confirma-absolvicao-de-haddad-em-acao-sobre-caixa-2/",
         "https://exame.com/brasil/tj-confirma-absolvicao-de-haddad-em-processo-de-suposto-caixa-2/",
         "https://www.conjur.com.br/2020-jul-21/haddad-absolvido-acao-pagamentos-dividas-utc/",
         "https://www.correiobraziliense.com.br/politica/2021/07/4940927-tre-de-sp-absolve-haddad-e-tesoureiro-de-acusacao-de-caixa-2.html"
       ],
-      "pesquisado_em": "2026-09-21",
+      "pesquisado_em": "2026-09-22",
       "achados": [
         {
           "categoria": "acusacao_anulada_ou_absolvida",
@@ -1242,17 +1345,17 @@
       "nome_urna": "IZADORA DIAS",
       "cargo_pretendido": "GOVERNADOR",
       "nota": 8,
-      "motivo": "Nenhuma pendência PESSOAL encontrada (estudante de Letras na USP, militante do PCO desde 2018). Desconto -2: o registro dela foi contestado pelo Ministério Público Eleitoral junto com o de ~28 candidatos do PCO em SP por problema nas contas do DIRETÓRIO ESTADUAL do partido; fontes do próprio PCO (Diário Causa Operária) e um resumo de busca dizem que o registro foi indeferido e está em fase de recurso, com o partido afirmando ter entregue os documentos e pago as multas. RESSALVA: status final NÃO confirmado por fonte oficial (TRE-SP) nem por imprensa independente -- conferir antes de tratar como fora da disputa. É uma irregularidade do partido, não achado criminal/Ficha Limpa dela (mesmo raciocínio de Roberto Rocha/MA).",
+      "motivo": "CONFIRMADO 2026-09-22 (estava com ressalva de status não confirmado): Nenhuma pendência PESSOAL encontrada (estudante de Letras na USP, militante do PCO desde 2018). O colegiado do TRE-SP votou em 03/09/2026 por negar o DRAP do PCO em SP (~28 candidatos afetados); ainda não é decisão final (embargos de declaração apresentados, cabe recurso ao TSE). Mesmo critério usado para os casos equivalentes do PCO/PSTU/Democrata/Avante/DC no Piauí: registro contestado sub judice (-2), não achado pessoal dela. Total 10-2 = 8.",
       "fontes": [
         "https://causaoperaria.org.br/2026/em-entrevista-izadora-dias-denuncia-indeferimento-de-sua-candidatura/",
         "https://causaoperaria.org.br/2026/tre-sp-persegue-o-pco-as-vesperas-da-eleicao/",
         "https://www.metropoles.com/sao-paulo/quem-e-izadora-dias-candidata-do-pco-ao-governo-de-sao-paulo"
       ],
-      "pesquisado_em": "2026-09-21",
+      "pesquisado_em": "2026-09-22",
       "achados": [
         {
           "categoria": "registro_contestado_sub_judice",
-          "descricao": "MPE contestou o registro dela e de ~28 candidatos do PCO em SP por contas do diretório estadual; fontes do próprio PCO dizem indeferido e em recurso (status final não confirmado)"
+          "descricao": "O colegiado do TRE-SP votou em 03/09/2026 por negar o DRAP do PCO em São Paulo (afeta ~28 candidatos do partido, incluindo ela); decisão NÃO é final -- o partido apresentou embargos de declaração e ainda cabe recurso ao TSE. É irregularidade de contas do diretório estadual do partido, não achado criminal/Ficha Limpa pessoal dela."
         }
       ]
     },
@@ -1289,6 +1392,1696 @@
         {
           "categoria": "investigacao_ou_acao_civil_em_curso",
           "descricao": "Detida em dez/2023 em protesto na Alesp; acusações reportadas de lesão corporal, dano, associação criminosa, resistência e desobediência; sem denúncia nem desfecho confirmados"
+        }
+      ]
+    },
+    "50002536314": {
+      "nome_urna": "JERÔNIMO RODRIGUES",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Governador atual da Bahia buscando reeleição. Nenhuma pendência PESSOAL encontrada (processo/Ficha Limpa/contas rejeitadas). Duas crises de gestão do governo dele foram checadas e NÃO contadas como achado pessoal: (1) o MP-BA investiga, por suspeita de crime ambiental, uma obra irregular (posto de abastecimento de aeronaves) no aeroporto Jorge Amado de Ilhéus, embargada por falta de licença em área de preservação de manguezal -- Jerônimo disse publicamente estar surpreso com a obra; (2) exonerou, após repercussão negativa, um ex-detento que havia nomeado para dirigir um presídio em Salvador. Nenhum dos dois é achado de conduta pessoal dele.",
+      "fontes": [
+        "https://www.bnews.com.br/noticias/cidades/jeronimo-rodrigues-fica-surpreso-com-obra-investigada-pelo-mp-ba-por-suspeita-de-crime-ambiental-no-aeroporto-de-ilheus.html",
+        "https://www.psnoticias.com.br/politica/apos-pressao-jeronimo-rodrigues-recua-e-exonera-ex-detento-nomeado-para-chefiar-presidio-na-bahia"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "50002533190": {
+      "nome_urna": "ACM NETO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Ex-prefeito de Salvador (2013-2020), ex-deputado federal. A PF o aponta como 'principal elo' na Operação Overclean, que investiga desvio de recursos em contratos de R$ 80 milhões da Secretaria de Educação de Belo Horizonte (2024-2025) -- segundo a investigação, ele teria indicado Bruno Barral (seu ex-secretário de Educação em Salvador) para comandar a pasta em BH, onde empresários investigados teriam sido beneficiados. A PF pediu busca e apreensão contra ele no STF; o ministro Kássio Nunes Marques NEGOU o pedido (base legal insuficiente), divergindo do parecer favorável da PGR -- a investigação em si continua, sem denúncia formal até a pesquisa. Desconto -2 (investigação em curso). SEPARADAMENTE, o governador Jerônimo também citou uma 'fraude no IPTU' de Salvador (Operação Valor Venal, ~700 imóveis, R$ 20 milhões) ao lado da Overclean -- checado e NÃO CONTADO: a fraude ocorreu entre dez/2024 e jan/2026 (depois de ACM Neto deixar a prefeitura em 2020/2021) e a investigação não o aponta como investigado; parece ser tentativa do adversário de somar os dois casos sem base.",
+      "fontes": [
+        "https://bahia.ba/politica/pf-aponta-acm-neto-como-principal-elo-na-operacao-overclean/",
+        "https://obrasilianista.com.br/2026/09/17/justica/acm-neto-nao-sera-investigado-pela-operacao-overclean",
+        "https://www.bahianoticias.com.br/noticia/321237-operacao-da-policia-contra-fraudes-no-iptu-de-salvador-se-originou-apos-denuncias-apresentadas-pela-prefeitura-entenda"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "PF aponta ACM Neto como 'principal elo' na Operação Overclean (desvio em contratos de R$ 80 mi da Educação de BH); STF negou pedido de busca e apreensão contra ele, mas a investigação continua, sem denúncia formal"
+        }
+      ]
+    },
+    "50002535253": {
+      "nome_urna": "ARIEL CAPISTRANO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Empresário, presidente estadual do DC na Bahia. Nenhuma pendência pessoal encontrada. O DC teve uma disputa interna (duas convenções em datas diferentes escolheram candidatos distintos -- ele e José Estêvão); o TRE-BA e depois o TSE (recurso rejeitado por unanimidade) confirmaram o registro dele como o candidato válido do partido -- questão de legitimidade de convenção partidária, não achado de conduta pessoal.",
+      "fontes": [
+        "https://www.bahianoticias.com.br/noticia/320335-tre-ba-indefere-candidatura-de-jose-estevao-e-confirma-ariel-capistrano-como-candidato-do-dc-ao-governo-da-bahia",
+        "https://www.portalsalvadorfm.com.br/politica/eleicoes/tse-nega-recurso-de-estevao-e-confirma-candidatura-de-ariel-ao-governo-da-bahia-pelo-dc/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "50002536579": {
+      "nome_urna": "ESTÊVÃO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 7,
+      "motivo": "Administrador. Candidatura ao governo pelo DC INDEFERIDA pelo TRE-BA (decisão unânime: a convenção do grupo dele não foi homologada como ato partidário válido) e o recurso ao TSE foi rejeitado por unanimidade em setembro/2026 -- fora da disputa de forma definitiva (mesmo critério de Pablo Marçal e Carlos Jararaca/RN). Questão de legitimidade de convenção partidária, não achado criminal/Ficha Limpa pessoal.",
+      "fontes": [
+        "https://www.bahianoticias.com.br/noticia/320335-tre-ba-indefere-candidatura-de-jose-estevao-e-confirma-ariel-capistrano-como-candidato-do-dc-ao-governo-da-bahia"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "registro_indeferido",
+          "descricao": "Candidatura indeferida pelo TRE-BA (unânime) por convenção partidária não homologada; recurso ao TSE rejeitado por unanimidade -- decisão definitiva, sem mais recurso"
+        }
+      ]
+    },
+    "50002544692": {
+      "nome_urna": "AROLDO FELIX",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Professor da UFRB (Engenharia de Energias), vice-presidente regional do Andes-SN (NE III), membro da coordenação nacional do Movimento Luta de Classes, fundador do UP na Bahia. Nenhuma pendência encontrada. Já disputou o governo de Sergipe pelo UP em 2022 sem se eleger.",
+      "fontes": [
+        "https://www.plural.jor.br/aroldo-felix-de-azevedo-junior/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "50002552489": {
+      "nome_urna": "MARIA BONA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Aposentada, liderança comunitária na região de Rio de Contas (Chapada Diamantina), militante histórica do PCO, primeira candidatura dela. Nenhuma pendência encontrada -- ela figura em 1 processo na Justiça Eleitoral de 2026 como AUTORA (polo ativo, não ré), ou seja, é ela quem contesta algo, não uma acusação contra ela; sem detalhe sobre o objeto do processo.",
+      "fontes": [
+        "https://www.plural.jor.br/maria-bona-carrara-de-sumbuy/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "50002532269": {
+      "nome_urna": "RONALDO MANSUR",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Um dos fundadores do PSOL, presidente estadual do partido na Bahia, membro da direção nacional. Nenhuma pendência encontrada. Já foi candidato a vice-governador em 2014 e 2022, e a deputado federal em 2018, sem se eleger em nenhuma ocasião.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-ronaldo-mansur-candidato-ao-governo-da-bahia/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "160002540833": {
+      "nome_urna": "SERGIO MORO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Senador (PR), ex-juiz federal (Lava Jato), ex-Ministro da Justiça. ACHADO PRINCIPAL, não é 'processo/Ficha Limpa' no sentido tradicional (ele nunca foi condenado por crime nem teve contas rejeitadas), mas é um achado sério e CONFIRMADO sobre a conduta dele no exercício de função pública: em 2021, o Plenário do STF manteve por 7 votos a 4 a decisão da 2ª Turma que declarou SUSPEIÇÃO (parcialidade) de Moro como juiz na ação penal do triplex do Guarujá contra Lula, anulando todas as decisões dele no processo, inclusive atos da fase pré-processual -- decisão FINAL, sem mais recurso possível. O CNJ abriu em 2023 processo disciplinar sobre 'gestão caótica' de valores de delações (~R$ 2 bi transferidos à Petrobras, 2015-2019) e possível atuação com 'fins partidários'; muitos dos ~55 processos abertos contra ele no CNJ já foram arquivados, mas o status atual deste especificamente não foi confirmado nesta pesquisa. AJUSTADO 2026-09-22 a pedido do usuário: peso reduzido de -4 (categoria de condenação confirmada, usada por analogia) para -2, com categoria nova e própria ('sancao_institucional_confirmada', ver pesos.py) -- reconhece que é um achado final e confirmado sobre conduta em função pública, mas não uma condenação criminal/Ficha Limpa, então não deve pesar tanto quanto uma.",
+      "fontes": [
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=468086&ori=1",
+        "https://www.conjur.com.br/2021-mar-23/decisao-stf-suspeicao-moro-exaltada-especialistas/",
+        "https://www.cnj.jus.br/sergio-moro-e-magistrados-do-trf4-serao-investigados-por-gestao-caotica-e-violacao-a-deveres-da-magistratura/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "sancao_institucional_confirmada",
+          "descricao": "STF (Plenário, 7x4, 2021) confirmou de forma FINAL a suspeição/parcialidade de Moro como juiz na ação penal do triplex contra Lula, anulando todas as decisões dele no processo -- achado sobre conduta no exercício de função pública, não condenação criminal/Ficha Limpa tradicional; categoria aplicada por analogia de peso."
+        }
+      ]
+    },
+    "160002549553": {
+      "nome_urna": "SANDRO ALEX",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Advogado, radialista, deputado federal (4º mandato), sucessor escolhido por Ratinho Junior. Nenhuma pendência pessoal encontrada (processo/Ficha Limpa/contas rejeitadas). Ele próprio apresentou denúncia ao TCU contra a Fiep e o vice de Moro (Edson Vasconcelos) por suposto uso da entidade para beneficiar a campanha adversária -- ele é autor da denúncia, não alvo.",
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-e-sandro-alex/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "160002547666": {
+      "nome_urna": "REQUIÃO FILHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Advogado, deputado estadual desde 2015 (filho do ex-governador Roberto Requião). Nenhuma pendência pessoal encontrada. Ele foi autor de uma denúncia que levou o MP-PR a apurar irregularidades na privatização da Celepar pelo governo Ratinho Junior/Sandro Alex -- ele é autor da denúncia, não alvo.",
+      "fontes": [
+        "https://dpontanews.com.br/politica/denuncia-de-requiao-filho-leva-ministerio-publico-a-apurar-medidas-adotadas-na-privatizacao-da-celepar/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "160002552560": {
+      "nome_urna": "ADRIANO FUNILEIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Mecânico de manutenção, formação técnica em História. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://tmc.com.br/eleicoes/candidato/adriano-funileiro/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "160002550997": {
+      "nome_urna": "TAYNÁ MIESSA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Coordenadora nacional do Movimento de Mulheres Olga Benário, organizadora da Casa de Referência Enedina Marques. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-tayna-miessa-candidata-ao-governo-do-parana/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "160002551353": {
+      "nome_urna": "LUIZ FRANÇA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Advogado e economista de Cianorte, candidato do Missão. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-luiz-franca-candidato-ao-governo-do-parana/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "160002548010": {
+      "nome_urna": "SAMUEL DE MATTOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Professor de matemática, ex-carteiro dos Correios, ativista do PSTU. Já disputou vice-prefeito de Curitiba (2020), deputado federal (2022) e prefeito de Curitiba (2024) sem se eleger. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-samuel-de-mattos-candidato-ao-governo-do-parana/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "160002547594": {
+      "nome_urna": "DOUTOR ALEXANDRE SALOMÃO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Advogado criminalista, ex-presidente da Comissão de Direitos Humanos da OAB-PR, candidato do Mobiliza. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-alexandre-salomao-candidato-ao-governo-do-parana/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "210002547857": {
+      "nome_urna": "ZUCCO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 9,
+      "motivo": "Deputado federal (desde 2023), policial (tenente-coronel). Duas questões checadas: (1) o registro de candidatura foi inicialmente inscrito SEM plano de governo -- o TRE-RS intimou a chapa e deu 72h de prazo; o documento foi protocolado dentro do prazo legal (14/08/2026) -- questão administrativa resolvida, não achado de conduta. (2) A PF investigou-o, a partir de 2023, por suposto patrocínio/incentivo a atos antidemocráticos (8 de janeiro) em razão de uma postagem/manifestação em frente ao Comando Militar do Sul em nov/2022 -- o ministro Alexandre de Moraes ARQUIVOU a apuração em 24/07/2023, concordando com parecer da PGR; decisão final, favorável a ele (-1).",
+      "fontes": [
+        "https://www.jornaldocomercio.com/politica/2026/08/1259488-apos-registrar-candidatura-sem-plano-de-governo-zucco-protocola-documento.html",
+        "https://www.cnnbrasil.com.br/politica/moraes-arquiva-apuracao-contra-zucco-por-suposto-incentivo-a-atos-antidemocraticos/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "PF investigou por suposto incentivo a atos antidemocráticos (pós 8/1); Moraes arquivou a apuração em 24/07/2023, concordando com a PGR -- decisão final, favorável"
+        }
+      ]
+    },
+    "210002542892": {
+      "nome_urna": "GABRIEL SOUZA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Veterinário, vice-governador do RS desde 2023 (eleito com Eduardo Leite em 2022), sucessor escolhido por Leite para a reeleição do grupo. Nenhuma pendência pessoal encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/mdb-lanca-gabriel-souza-ao-governo-do-rs-com-discurso-contra-polarizacao/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "210002535802": {
+      "nome_urna": "MARCELO MARANATA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Advogado, comerciante, empresário, prefeito de Guaíba desde 2021 (reeleito 2024). Nenhuma pendência PESSOAL encontrada. Checados e DESCARTADOS dois escândalos de Guaíba que poderiam se confundir com a gestão dele: (1) a condenação por fraudes em contratos do SAMU (Operação Interposto, GAECO) é do ex-prefeito Henrique Tavares (PTB, 2009-2016) e da equipe dele -- mandato anterior ao de Maranata, sem relação; (2) uma investigação sobre 'funcionários fantasma' na Câmara de Vereadores de Guaíba está sob sigilo (06/2026) e é sobre gabinetes de vereadores, sem indicação de que o envolva pessoalmente.",
+      "fontes": [
+        "https://www.mprs.mp.br/noticias/61143/",
+        "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-marcelo-maranata-pre-candidato-ao-governo-do-rs/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "210002551508": {
+      "nome_urna": "JULIANA BRIZOLA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Advogada, neta do ex-governador Leonel Brizola, ex-vereadora de Porto Alegre, deputada estadual por 3 mandatos. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.nsctotal.com.br/politica/eleicoes-2026-quem-e-juliana-brizola-candidata-do-pdt-para-o-governo-do-rio-grande-do-sul"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "210002552592": {
+      "nome_urna": "CESAR PONTES",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Professor aposentado de História, de Porto Alegre. Já disputou a Prefeitura de Porto Alegre em 2024 sem se eleger. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-rs-2026/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "210002533355": {
+      "nome_urna": "PRISCILA VOIGT",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Nutricionista, presidente estadual da UP. Já disputou vereadora de Porto Alegre (2016, 2020, 2024) e deputada federal (2022) sem se eleger. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-sao-os-candidatos-a-governador-do-rio-grande-do-sul-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "210002541367": {
+      "nome_urna": "REJANE DE OLIVEIRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Professora aposentada da rede estadual, liderança sindical histórica -- presidiu o Sindicato dos Professores do Ensino Privado do RS e o Cpers-Sindicato por dois mandatos. Já disputou o governo do RS pelo PSTU em 2022 sem se eleger. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-rs-2026/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "170002537227": {
+      "nome_urna": "RAQUEL LYRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Governadora atual de Pernambuco buscando reeleição, ex-prefeita de Caruaru. Nenhuma pendência criminal/Ficha Limpa pessoal encontrada. ACHADO: a Secretaria de Defesa Social do estado (sob o governo dela) monitorou de agosto a outubro de 2025 o carro de um secretário da prefeitura do Recife (gestão do adversário João Campos), incluindo instalação de rastreador SEM ordem judicial, com base numa denúncia anônima sobre propina em contratos -- o ministro do STF Gilmar Mendes determinou que a PF investigue a alegação de 'espionagem'/estrutura de inteligência paralela da Polícia Civil de PE contra agentes públicos do Recife. Ela nega ter ordenado perseguição. Sem denúncia formal até a pesquisa, mas achado sério (uso de aparato estatal de segurança contra adversário político) e confirmado por autorização do STF para investigação (-2). SEPARADAMENTE: cartazes anônimos com ataques pessoais a ela (mencionando a morte do marido) estão sob investigação da Polícia Civil -- ela é VÍTIMA nesse caso, não teve efeito na nota.",
+      "fontes": [
+        "https://jornaldebrasilia.com.br/noticias/politica-e-poder/acusacao-de-espionagem-acirra-embate-entre-joao-campos-e-raquel-lyra-em-pernambuco/",
+        "https://diariodopoder.com.br/brasil-e-regioes/pf-apura-suposta-arapongagem-contra-joao-campos"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "STF (min. Gilmar Mendes) determinou que a PF investigue alegação de espionagem: a Polícia Civil de PE, sob o governo dela, monitorou (incl. rastreador sem ordem judicial) um secretário da prefeitura do Recife, administração do adversário João Campos; ela nega ter ordenado. Sem denúncia formal até a pesquisa."
+        }
+      ]
+    },
+    "170002537230": {
+      "nome_urna": "JOÃO CAMPOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Ex-prefeito do Recife (2021-2026), ex-deputado federal. Nenhuma pendência criminal/Ficha Limpa pessoal encontrada. ACHADO: o TCE-PE apontou, em relatório preliminar, indícios de superfaturamento de R$ 7-7,8 milhões, subdimensionamento de equipamentos e atrasos no cronograma na obra do Hospital da Criança do Recife -- um dos principais projetos da gestão dele. O MPPE abriu inquérito civil (a partir de representação de um vereador) para apurar as irregularidades na execução da obra; ainda sem conclusão até a pesquisa (-2). SEPARADAMENTE: um procedimento do MP sobre adesão do Recife a atas de registro de preço de consórcios intermunicipais foi checado e NÃO conta -- o próprio MPPE afirmou que o procedimento não envolve nenhum pré-candidato nem o prefeito formalmente como investigado.",
+      "fontes": [
+        "https://revistaoeste.com/politica/mppe-investiga-obra-de-gestao-de-joao-campos-em-hospital-do-recife/",
+        "https://www.metropoles.com/colunas/tacio-lorran/tce-pe-joao-campos"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "TCE-PE apontou indícios de superfaturamento de R$ 7-7,8 mi na obra do Hospital da Criança do Recife (projeto-bandeira da gestão dele); MPPE abriu inquérito civil para apurar, sem conclusão até a pesquisa"
+        }
+      ]
+    },
+    "170002541258": {
+      "nome_urna": "PROFESSOR JEREMIAS DO BANCO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 7,
+      "motivo": "Professor de ensino médio. Candidatura ao governo pelo Democrata INDEFERIDA pelo TRE-PE por irregularidades na composição do diretório estadual do partido; a defesa não se manifestou dentro do prazo de 5 dias para recorrer -- decisão consolidada, fora da disputa (mesmo critério de Marçal/Estêvão-BA/Jararaca-RN). Questão de legitimidade partidária, não achado criminal/Ficha Limpa pessoal.",
+      "fontes": [
+        "https://www.cbnrecife.com/2026/09/15/tre-pe-indefere-candidatura-do-professor-jeremias-do-banco-ao-governo/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "registro_indeferido",
+          "descricao": "Candidatura indeferida pelo TRE-PE por irregularidades na composição do diretório estadual do Democrata; defesa não recorreu no prazo -- decisão consolidada"
+        }
+      ]
+    },
+    "170002536575": {
+      "nome_urna": "GUILHERME FONSECA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Técnico em eletrotécnica e telecomunicações, anistiado político (perseguido durante a ditadura militar por ativismo estudantil na UFPE). Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-guilherme-fonseca-candidato-ao-governo-de-pernambuco/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "170002540337": {
+      "nome_urna": "RENAN",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Contador, empresário, influenciador digital, coordenador do MBL em Pernambuco. Primeira candidatura a cargo público. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-renan-hallais-candidato-ao-governo-de-pernambuco/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "170002552776": {
+      "nome_urna": "VICTOR ASSIS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Jornalista e escritor, liderança nacional do PCO. Já disputou a Prefeitura do Recife (2020, 2024) e deputado federal (2018, 2022) sem se eleger. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://focotv.com.br/2026/09/18/quem-e-victor-assis-candidato-ao-governo-de-pernambuco/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "170002537320": {
+      "nome_urna": "PROFESSORA CAMILA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Professora e historiadora (UFRPE), vice-presidente estadual da UP. Primeira candidatura a cargo público. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-camila-falcao-candidata-ao-governo-de-pernambuco/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "170002538097": {
+      "nome_urna": "IVAN MORAES",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Jornalista e escritor, mestre em Comunicação (UFPE), vereador do Recife por 2 mandatos (2017-2020, 2021-2024) pelo PSOL, primeiro vereador do partido eleito na cidade. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-ivan-moraes-candidato-ao-governo-de-pernambuco/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "60002549967": {
+      "nome_urna": "ZÉ BATISTA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Trabalhador da construção civil, presidente estadual do PSTU, sindicalista (movimento sindical da construção civil, integra a CSP-Conlutas). Já disputou o governo do CE em 2022, vereador de Fortaleza (2020) e prefeito de Fortaleza (2024) sem se eleger. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-ze-batista-sindicalista-e-candidato-ao-governo-do-ceara-em-2026-1.3778193"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "60002553922": {
+      "nome_urna": "VERA LÚCIA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Empresária (turismo e hotelaria), uma das fundadoras do NOVO no Ceará. Assumiu a candidatura em 11/08/2026 (era vice) após a desistência de Pedro Brito. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-vera-lucia-candidata-ao-governo-do-ceara/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "60002552320": {
+      "nome_urna": "IERI BRAGA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Químico, servidor público da UnB, integra a direção do sindicato dos servidores técnico-administrativos da instituição. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-ieri-braga-candidato-do-pco-ao-governo-do-ceara/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "60002533729": {
+      "nome_urna": "SERLEY LEAL",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Bancário e economista, natural de Iguatu, um dos fundadores da UP no Ceará. Já disputou vice-prefeito de Fortaleza (2020) e governo do CE (2022) sem se eleger. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-serley-leal-candidato-do-up-ao-governo-do-ceara/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "140002551943": {
+      "nome_urna": "GAL LEITE",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Ativista, aposentada, natural de Belém. Já disputou vice-prefeita de Belém em 2024 sem se eleger. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-sao-os-candidatos-ao-governo-do-para-em-2026/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "140002554108": {
+      "nome_urna": "WELL MACEDO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Jornalista, educadora social, dirigente estadual do PSTU. Assumiu a candidatura em 13/08/2026 após o candidato original, Cleber Rabelo, não conseguir cumprir o prazo de domicílio eleitoral no Pará. Já disputou 3 outras eleições sem se eleger. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-well-macedo-candidata-do-pstu-ao-governo-do-para/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "140002542386": {
+      "nome_urna": "ARACELI",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Deputada estadual por 2 mandatos, presidente estadual do PSOL no Pará. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-araceli-lemos-que-concorre-ao-governo-do-para/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "140002554434": {
+      "nome_urna": "RUTH REIS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Advogada. Assumiu a candidatura ao governo do Democrata (era vice) depois que o partido substituiu preventivamente José Moita, cujo registro tinha sido questionado pelo MPE por problema de domicílio eleitoral (transferência em 15/04/2026, fora do prazo). O pedido de substituição em nome dela ainda estava pendente de julgamento pelo TRE-PA em meados de setembro/2026 -- o TRE concluiu o julgamento do grosso dos 791 registros em 14/09/2026, mas excluiu explicitamente substituições apresentadas recentemente desse lote, tratadas em processo separado; não encontrei confirmação de decisão final até a pesquisa.",
+      "fontes": [
+        "https://diariodopara.com.br/eleicoes-2026/candidato-deixa-corrida-ao-governo-do-para-por-problema-no-domicilio-eleitoral/",
+        "https://diariodopara.com.br/eleicoes-2026/tre-do-para-conclui-julgamento-de-791-registros-para-as-eleicoes-2026-com-onze-impugnacoes/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "Assumiu a titularidade por substituição de José Moita (removido por problema de domicílio eleitoral); o pedido de substituição dela ainda não tinha sido julgado pelo TRE-PA até a pesquisa"
+        }
+      ]
+    },
+    "140002551357": {
+      "nome_urna": "JOSÉ MOITA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Agricultor. Removido da disputa pelo próprio partido (Democrata) por problema de domicílio eleitoral (transferência em 15/04/2026, fora do prazo); substituído por Ruth Reis. Sem achado de conduta pessoal além da questão de domicílio -- fica sem as demais camadas de pesquisa (candidatura não é mais a válida do partido).",
+      "fontes": [
+        "https://diariodopara.com.br/eleicoes-2026/candidato-deixa-corrida-ao-governo-do-para-por-problema-no-domicilio-eleitoral/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "100002552700": {
+      "nome_urna": "DIMAS CASSIMIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Professor universitário, natural de Teresina (PI), terceira candidatura (dep. estadual 2018 e dep. federal no pleito seguinte, sem se eleger). TRE-MA indeferiu por unanimidade o registro dele em 16/09/2026 -- relator fundamentou em ausência de comprovação de alfabetização (foi notificado mais de uma vez para apresentar documentação ou comparecer a teste de alfabetização em zona eleitoral e não o fez). Não é achado de corrupção/crime -- é questão administrativa de registro; ele tem direito de recorrer ao TSE, recurso ainda sem decisão até a pesquisa. Tratado como sub judice (mesmo critério de Roberto Rocha/MA e Ruth Reis/PA), não como indeferimento definitivo.",
+      "fontes": [
+        "https://oimparcial.com.br/noticias/2026/09/por-unanimidade-tre-ma-barra-candidatura-de-dimas-cassimiro-ao-governo-do-estado/",
+        "https://m.imirante.com/noticias/sao-luis/2026/09/16/ipolitica-tre-ma-indefere-candidatura-de-dimas-cassimiro-ao-governo-do-maranhao"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "TRE-MA indeferiu por unanimidade o registro por falta de comprovação de alfabetização; recurso ao TSE pendente"
+        }
+      ]
+    },
+    "100002544073": {
+      "nome_urna": "REGINALDO LIMA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Locutor e comentarista de rádio/TV, natural de Imperatriz (MA), secretário político do Comitê Regional do PCB no estado. Já concorreu a vice-prefeito de Imperatriz em eleição anterior, sem se eleger. Nenhuma pendência pessoal encontrada na busca.",
+      "fontes": [
+        "https://oimparcial.com.br/noticias/2026/08/pcb-oficializa-candidatura-de-reginaldo-lima-ao-governo-do-maranhao/",
+        "https://www.jornalimperatriz.com.br/noticia/pcb-oficializa-candidatura-do-imperatrizense-reginaldo-lima-ao-governo-do-maranhao"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "100002534190": {
+      "nome_urna": "SAULO ARCANGELI",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Professor de ensino superior, natural de São Luís (MA), sem histórico de candidaturas anteriores encontrado na busca. Nenhuma pendência pessoal encontrada.",
+      "fontes": [
+        "https://candidatos.nexojornal.com.br/2026/ma/saulo-arcangeli-100002534190/",
+        "https://m.imirante.com/noticias/sao-luis/2026/07/29/ipolitica-pstu-oficializa-saulo-arcangeli-como-candidato-ao-governo-do-ma"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "240002537073": {
+      "nome_urna": "JORGINHO MELLO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 9,
+      "motivo": "Governador atual (PL) buscando reeleição. MPF abriu notícia de fato (apuração preliminar, sem investigação formal) após representação do CNDH por falas ofensivas dirigidas a indígenas Xokleng durante visita à Barragem Norte (José Boiteux, 08/07/2026) -- caso ainda em fase inicial. Descartei (não contei): acusação de interferência política em investigação de caixa 2/compra de votos em Lauro Müller -- o próprio delegado autor do despacho usado como fonte NEGA ter feito qualquer denúncia pessoal contra o governador, chamando a interpretação da imprensa de 'completamente falsa'; e a investigação do TCE sobre parceria de telemedicina sem licitação (R$640 mi), que é apontada como questão administrativa da Secretaria de Saúde, sem indício de envolvimento pessoal dele (mesmo critério de Riedel/Agesul e Tarcísio/Caldarium).",
+      "fontes": [
+        "https://ndmais.com.br/politica/jorginho-mello-pode-ser-investigado-apos-representacao-por-falas-a-indigenas/",
+        "https://radiomirador.com.br/mpf-abre-investigacao-sobre-discussao-entre-jorginho-mello-e-indigenas-durante-visita-a-barragem-norte/",
+        "https://jornalrazao.com/politica/delegado-nega-envolvimento-jorginho-mello-investigacao-lauro-muller",
+        "https://www.cartacapital.com.br/justica/tce-investigara-parceria-sem-licitacao-do-governo-jorginho-mello-com-empresa-recem-aberta/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "MPF abriu notícia de fato após representação do CNDH por falas ofensivas a indígenas Xokleng em visita a obra em José Boiteux (08/07/2026)"
+        }
+      ]
+    },
+    "240002551001": {
+      "nome_urna": "JOÃO RODRIGUES",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 5,
+      "motivo": "Condenado pelo TRF4 a 5 anos e 3 meses de reclusão (regime semiaberto) por fraude e dispensa de licitação (compra de retroescavadeira quando prefeito de Pinhalzinho) -- começou a cumprir pena em fevereiro/2018, preso no Complexo da Papuda, mesmo enquanto reassumia o mandato de deputado federal por decisão liminar do STF. O processo foi arquivado em definitivo pelo STJ/STF em 2020-2021 por PRESCRIÇÃO da pretensão punitiva (mais de 8 anos entre condenação e trânsito em julgado), não por absolvição de mérito -- pena efetivamente cumprida, revertida por motivo processual. Descartado (absolvido por decisão de MÉRITO, insuficiência de provas de dano ao erário): processo de improbidade sobre superfaturamento de merenda escolar em Chapecó (2007-2009), com todos os réus absolvidos pela 2ª Vara Federal de Chapecó em 2020. Também descartada uma ação de danos morais a uma professora, revertida a favor dele pelo TJSC.",
+      "fontes": [
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2018-06/preso-na-papuda-deputado-joao-rodrigues-reassume-mandato-na-camara",
+        "https://ndmais.com.br/politica/apos-20-anos-stf-arquiva-processo-que-levou-prefeito-de-chapeco-a-prisao/",
+        "https://clicrdc.com.br/politica/joao-rodrigues-e-absolvido-no-caso-retroescavadeira/",
+        "https://ndmais.com.br/politica/justica-federal-absolve-joao-rodrigues-em-processo-da-merenda-escolar/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "condenacao_criminal_pena_cumprida",
+          "descricao": "Preso em regime semiaberto a partir de fev/2018 (fraude e dispensa de licitação, caso da retroescavadeira em Pinhalzinho); processo arquivado por prescrição em 2020-2021, não por absolvição de mérito"
+        }
+      ]
+    },
+    "240002548628": {
+      "nome_urna": "GELSON MERÍSIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 9,
+      "motivo": "MPF em Chapecó abriu apuração em 2018 sobre suposto enriquecimento ilícito via rede de negócios com ao menos 8 pequenas centrais hidrelétricas (empresa familiar MANG, criada em 2013 com R$5,6 mi em patrimônio), com valores não compatíveis com o patrimônio declarado à Justiça Eleitoral (R$722 mil). Ele nega irregularidade (diz ser migração patrimonial familiar para sucessão). Achado antigo (2018) sem confirmação de denúncia formal nem de arquivamento -- mesmo critério de incerteza/idade usado para a Operação Colosseum de Ciro Gomes.",
+      "fontes": [
+        "https://www.intercept.com.br/2018/09/30/gelson-merisio-hidreletricas-governo-sc/",
+        "https://www.karinamanarin.com.br/artigo/a-denuncia-de-suposto-enriquecimento-ilicito-de-gelson-merisio/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "MPF apura desde 2018 suposto enriquecimento ilícito via rede de pequenas hidrelétricas (empresa MANG); sem denúncia nem arquivamento confirmado"
+        }
+      ]
+    },
+    "240002553718": {
+      "nome_urna": "BRUNO PEDREIRO DO PCO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Pedreiro/trabalhador da construção civil, candidato pela primeira vez ao governo (concorreu a prefeito de Florianópolis em 2024, não eleito). Nenhuma pendência encontrada na busca.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-bruno-pedreiro-do-pco-candidato-ao-governo-de-santa-catarina/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "240002544118": {
+      "nome_urna": "MARCELO BRIGADEIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Ex-lutador de MMA, veterinário e empresário; foi diretor de esportes da Fesporte (fundação pública estadual) entre 2020-2022, no governo de Carlos Moisés. Nenhuma pendência jurídica encontrada na busca (incluindo checagem específica sobre a passagem pela Fesporte).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-marcelo-brigadeiro-candidato-do-missao-ao-governo-de-santa-catarina/",
+        "https://fesporte.sc.gov.br/eventos/geral/item/3851-marcelo-brigadeiro-assume-diretoria-de-esporte-da-fesporte/3851-marcelo-brigadeiro-assume-diretoria-de-esporte-da-fesporte"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "240002541913": {
+      "nome_urna": "PROFESSOR MARCUS SODRÉ",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Professor de História da rede pública estadual e municipal, dirigente do Sinte-SC (sindicato dos trabalhadores em educação); já concorreu sem sucesso a deputado estadual (2010, 2014) e a prefeito de Itajaí (2004). Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-marcus-sodre-candidato-ao-governo-de-santa-catarina/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "240002552157": {
+      "nome_urna": "RALF ZIMMER",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Advogado, ex-Defensor Público-Geral de Santa Catarina (2016-2018); ficou conhecido por apresentar o primeiro pedido de impeachment contra o ex-governador Carlos Moisés. Já concorreu ao governo em 2022 pelo então PROS (3.828 votos). Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-ralf-zimmer-candidato-ao-governo-de-santa-catarina/",
+        "https://ndmais.com.br/politica/quem-e-ralf-zimmer-historia-carreira-e-disputas-pelo-governo-de-sc/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "240002550544": {
+      "nome_urna": "LAÍS CHAUD",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Psicóloga da rede pública de saúde (mestre e graduada pela UFSC), liderança nacional do MLB (Movimento de Luta nos Bairros, Vilas e Favelas); primeira candidatura, chapa formada só por mulheres do UP (sem coligação). Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-lais-paganelli-chaud-candidata-ao-governo-de-santa-catarina/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "90002543463": {
+      "nome_urna": "MARCONI PERILLO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 2,
+      "motivo": "Ex-governador de GO por 4 mandatos, com múltiplas pendências jurídicas ativas: (1) réu desde 2017 por corrupção passiva no caso Delta/Carlinhos Cachoeira (suposto recebimento de vantagem indevida de empreiteira em troca de contratos estaduais, 2011-2012) -- preso preventivamente em 2018, recurso da defesa rejeitado pelo STJ em 2025-2026, processo ainda sem trânsito em julgado; (2) condenado pela Justiça Eleitoral em 2020 por caixa 2 na campanha ao Senado de 2006 (pena convertida em prestação de serviços comunitários e multa de R$18 mil), condenação ainda recorrível; (3) fev/2025: PF apreendeu R$28 milhões por suspeita de desvio de recursos da saúde de Goiás (2012-2018); STF (Gilmar Mendes) suspendeu o inquérito em mar/2025, confirmado pela 2ª Turma; (4) investigação por suposto recebimento de R$12 milhões em propina de empreiteiras (Operação Cash Delivery, delação da Odebrecht) arquivada em abr/2024 por excesso de prazo, sem denúncia. Foi inocentado de acusações paralelas de peculato, associação criminosa e fraude processual no caso do caixa 2.",
+      "fontes": [
+        "https://www.jornalopcao.com.br/ultimas-noticias/marconi-perillo-e-reu-em-acao-por-corrupcao-passiva-e-teve-recurso-rejeitado-pelo-stj-863647/",
+        "https://www.congressoemfoco.com.br/noticia/31032/marconi-perillo-goias-caixa-2",
+        "https://www.cartacapital.com.br/justica/justica-ve-excesso-de-prazo-e-arquiva-investigacao-contra-marconi-perillo/",
+        "https://jovempan.com.br/politica/conheca-marconi-perillo-ex-governador-que-tenta-retornar-ao-executivo-goiano/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu desde 2017 por corrupção passiva no caso Delta/Carlinhos Cachoeira (2011-2012); preso preventivamente em 2018; sem trânsito em julgado"
+        },
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado em 2020 pela Justiça Eleitoral por caixa 2 na campanha ao Senado de 2006; pena de prestação de serviços e multa, ainda recorrível"
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "PF apreendeu R$28 milhões (fev/2025) por suspeita de desvio de recursos da saúde estadual (2012-2018); STF suspendeu o inquérito em mar/2025"
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Investigação sobre suposto recebimento de R$12 milhões em propina (Odebrecht/Cash Delivery) arquivada em 2024 por excesso de prazo, sem denúncia"
+        }
+      ]
+    },
+    "90002551791": {
+      "nome_urna": "WILDER MORAIS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Senador (PL), alvo de investigação da PF determinada pelo ministro Flávio Dino (STF) por suposto desvio de R$1 milhão em emendas parlamentares (ausência de planos de trabalho que comprovem a execução dos recursos). Sem denúncia formal até a pesquisa.",
+      "fontes": [
+        "https://www.jornalda2cnews.com/noticia/policia-federal-investiga-senador-goiano-wilder-morais-por-suposto-desvio-de-dinheiro-publico"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "PF investiga, por determinação do STF, suposto desvio de R$1 milhão em emendas parlamentares (sem planos de trabalho que comprovem execução)"
+        }
+      ]
+    },
+    "90002540993": {
+      "nome_urna": "DANIEL VILELA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 9,
+      "motivo": "Governador atual de GO (assumiu em 2026 após renúncia de Ronaldo Caiado para concorrer à Presidência), ex-vice-governador. Inquérito de 2017 (STF, delação da Odebrecht) por suposto recebimento de R$1 milhão não contabilizado na campanha a deputado federal de 2014 -- ARQUIVADO por decisão do ministro Toffoli em 2024/2025, contrariando pedido da PGR de remessa à Justiça Eleitoral; nunca houve denúncia. Descartado (sem relação pessoal com ele, decisão judicial determinou remoção do conteúdo por falta de nexo): post que tentava associá-lo à Operação Travessia; e a prisão de parente distante da esposa (avó da sogra) por tráfico internacional de pessoas, sem qualquer vínculo com ele.",
+      "fontes": [
+        "https://obrasilianista.com.br/2026/09/09/politica/daniel-vilela-candidato-governo-goias",
+        "https://ndmais.com.br/justica/justica-manda-derrubar-post-sobre-daniel-vilela/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Inquérito de 2017 (delação Odebrecht) por suposto recebimento de R$1 mi não contabilizado na campanha de 2014; arquivado pelo STF sem denúncia"
+        }
+      ]
+    },
+    "90002545476": {
+      "nome_urna": "LUIS CESAR BUENO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Ex-deputado estadual (4 mandatos) e ex-vereador de Goiânia. Ação de improbidade por suposta funcionária fantasma no gabinete (aberta em 2017) terminou em ABSOLVIÇÃO DEFINITIVA por decisão de mérito da Justiça de Goiás (processo de ~7 anos, sentença final em 2024).",
+      "fontes": [
+        "https://www.jornalopcao.com.br/ultimas-noticias/luiz-cesar-bueno-e-absolvido-em-acao-sobre-suposta-funcionaria-fantasma-783042/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "90002553733": {
+      "nome_urna": "DANILO DA SILVA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Técnico em eletricidade/eletrônica/telecomunicações, primeira candidatura. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-danilo-da-silva-candidato-ao-governo-de-goias/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "90002550707": {
+      "nome_urna": "LUCIANA AMORIM",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Advogada, servidora da Justiça Federal em Goiás; concorreu a vice-governadora (2022) e vice-prefeita de Goiânia (2024) sem sucesso. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.jornalopcao.com.br/politica/luciana-amorim-unica-mulher-disputa-governo-goias-2026-856549/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "40002532272": {
+      "nome_urna": "OMAR AZIZ",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 9,
+      "motivo": "Ex-governador do AM (2010-2014) e senador. Foi alvo, desde 2016/2019 (Operação Maus Caminhos/Vértex), de investigação por suposto desvio de R$260 milhões da saúde estadual via o Instituto Novos Caminhos -- PF chegou a bloquear R$92 milhões e prender temporariamente a esposa (ex-primeira-dama) e 3 irmãos dele, mas o próprio Omar Aziz nunca foi preso, denunciado nem virou réu: o procedimento investigativo contra ele pessoalmente foi ARQUIVADO por falta de elementos que justificassem a continuidade.",
+      "fontes": [
+        "https://amazonasatual.com.br/entenda-a-investigacao-contra-omar-aziz-e-os-motivos-da-prisao-de-nejmi/",
+        "https://bncamazonas.com.br/poder/maus-caminhos-um-fantasma-que-ainda-assombra-omar-aziz/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Investigado na Operação Maus Caminhos (desvio de R$260 mi da saúde do AM); procedimento contra ele arquivado por falta de elementos, nunca virou réu"
+        }
+      ]
+    },
+    "40002536086": {
+      "nome_urna": "DAVID ALMEIDA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 6,
+      "motivo": "Prefeito de Manaus (2021-2026, reeleito 2024), deixou o cargo em 31/03/2026 para concorrer ao governo. TJAM autorizou em nov/2025 sete investigações criminais (corrupção passiva, fraude em licitação, contratos com parentes) após pedido do MP-AM -- inclui suspeita de que empresários com contratos milionários na prefeitura financiaram viagens dele e da primeira-dama ao Caribe no Carnaval de 2024 e 2025; e MP-AM investiga separadamente contratos de R$125 milhões (educação/infraestrutura, adesão a ata de preços do Maranhão). Também há inquérito eleitoral (TRE-AM, ago/2026) sobre suspeita de compra de votos na campanha de reeleição de 2024. Nenhuma denúncia formal até a pesquisa.",
+      "fontes": [
+        "https://realtime1.com.br/tjam-autoriza-sete-investigacoes-contra-david-almeida-por-viagens-e-contratos-suspeitos/",
+        "https://www.riosdenoticias.com.br/justica-mantem-investigacao-sobre-suspeita-de-compra-de-votos-envolvendo-campanha-de-david-almeida-em-2024/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "TJAM autorizou 7 investigações criminais (corrupção passiva, fraude em licitação, contratos com parentes/empresários, viagens ao Caribe financiadas por contratados); sem denúncia"
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "TRE-AM mantém inquérito sobre suspeita de compra de votos na campanha de reeleição de 2024; sem denúncia"
+        }
+      ]
+    },
+    "40002541741": {
+      "nome_urna": "ROBERTO CIDADE",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 6,
+      "motivo": "Governador atual (assumiu em 2026), ex-presidente da Aleam. Empresas da família dele (Navegação Cidade Ltda. e RR Serviços de Transporte e Navegação) têm cerca de R$160 milhões em contratos com o governo estadual que ele preside -- MP-AM abriu Procedimento de Investigação Criminal (PIC) em ago/2026 sobre irregularidades, incluindo contrato de viaturas da SSP-AM ligado a empresas da família. Além disso, o MPE pediu (set/2026) a CASSAÇÃO do registro dele e do vice por suposto uso eleitoral de benefícios públicos (Programa Governo Presente: entrega de óculos, cartões e insumos agrícolas com promoção de imagem em redes sociais) -- só parecer do MPE, sem decisão do TRE-AM até a pesquisa.",
+      "fontes": [
+        "https://www.riosdenoticias.com.br/mp-am-investiga-contrato-de-viaturas-da-ssp-am-apos-denuncias-envolvendo-empresas-ligadas-a-roberto-cidade/",
+        "https://ncnews.com.br/2026/09/22/mpe-cassacao-roberto-cidade-serafim-correa-amazonas/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "MP-AM abriu PIC (ago/2026) sobre contratos de ~R$160 milhões entre o governo estadual e empresas da própria família dele (viaturas SSP-AM)"
+        },
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "MPE pediu (set/2026) a cassação do registro dele e do vice por suposto uso eleitoral de benefícios públicos (Programa Governo Presente); sem decisão do TRE-AM"
+        }
+      ]
+    },
+    "40002551740": {
+      "nome_urna": "CABO DACIOLO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 9,
+      "motivo": "Ex-deputado federal pelo RJ (2015-2019), conhecido por candidatura à Presidência em 2018; migrou para concorrer ao governo do AM. Inquérito no STF (2017-2018) por suposto desvio de R$227,5 mil da verba de gabinete para empresa ligada a conhecidos (calote em empresa de TI) -- a 1ª Turma do STF extinguiu a punibilidade no caso antes de qualquer condenação.",
+      "fontes": [
+        "https://www.metropoles.com/brasil/politica-brasil/presidenciavel-cabo-daciolo-e-investigado-por-suposto-desvio-de-verba"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Inquérito no STF (2017-2018) por suposto desvio de verba de gabinete (R$227,5 mil); extinta a punibilidade sem condenação"
+        }
+      ]
+    },
+    "40002541626": {
+      "nome_urna": "PROFESSORA MARIA DO CARMO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Contadora e advogada, ex-candidata a prefeita de Manaus (2024). Descartado: um autoproclamado coordenador de campanha dela foi preso em operação que apreendeu 2,5 toneladas de drogas -- ela nega qualquer vínculo pessoal e foi quem PEDIU investigação ao MPAM para esclarecer o caso; sem indício de envolvimento pessoal dela.",
+      "fontes": [
+        "https://amazonas1.com.br/maria-do-carmo-nega-vinculo-com-preso-em-operacao-que-apreendeu-25-toneladas-de-drogas/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "40002550776": {
+      "nome_urna": "ISAEL MUNDURUKU",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Advogado e líder indígena, cofundador do Parque das Tribos (maior comunidade indígena urbana do Brasil, em Manaus). Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-isael-munduruku-candidato-ao-governo-do-amazonas/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "40002535267": {
+      "nome_urna": "GILBERTO VASCONCELOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Professor de ensino fundamental da rede municipal de Manaus, dirigente do PSTU e da CSP-Conlutas no AM. Já concorreu sem sucesso a vereador, deputado federal, vice-governador e prefeito de Manaus. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-gilberto-vasconcelos-candidato-ao-governo-do-amazonas/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "80002551833": {
+      "nome_urna": "HELDER SALOMÃO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 5,
+      "motivo": "Deputado federal (desde 2015), ex-prefeito de Cariacica (2005-2012). (1) Réu em ação penal por denúncia do MP-ES: entre 2011-2014, quando prefeito, teria usado a estrutura da prefeitura para conceder permissões ilegais de táxi (fraude, falsificação, pagamento de vantagem/apoio político) -- processo devolvido à 1ª instância (Cariacica) após perda do foro privilegiado, ainda em curso. (2) Réu em ação de improbidade em curso (3ª Vara da Fazenda Pública Estadual) por irregularidade em R$275 mil de verbas federais de educação (convênio de 2008 para projeto de jornada ampliada). Descartado (absolvição de MÉRITO, inclusive com pedido do próprio MP para julgar improcedente): ação de improbidade por dispensa de licitação na compra de carteiras escolares.",
+      "fontes": [
+        "https://www.seculodiario.com.br/politica/stf-remete-inquerito-de-helder-salomao-para-a-justica-comum/",
+        "https://www.seculodiario.com.br/justica/tjes-mantem-acao-de-improbidade-contra-helder-salomao",
+        "https://www.tjes.jus.br/ex-prefeito-de-cariacica-e-absolvido-em-acao-de-improbidade-administrativa/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu por concessão ilegal de permissões de táxi em Cariacica (2011-2014), quando prefeito; processo em curso na 1ª instância"
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Réu em ação de improbidade em curso por irregularidade em R$275 mil de verbas federais de educação (convênio de 2008)"
+        }
+      ]
+    },
+    "80002552682": {
+      "nome_urna": "LORENZO PAZOLINI",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Ex-chefe de polícia, prefeito de Vitória (2021-2026, reeleito 2024), renunciou em abril/2026 para concorrer ao governo. Descartado (sem achado de ilícito confirmado): divergência entre valores de caixa informados à imprensa e ao MP-ES logo após a posse (2021), e um pedido de apuração ao MP por suposta 'invasão' de hospital em ato político (sem crime confirmado). Descartado por não ser critério de idoneidade institucional deste projeto (conduta pessoal, não jurídica): affair extraconjugal com a vice-prefeita, amplamente noticiado. Nenhuma pendência jurídica verificada.",
+      "fontes": [
+        "https://elimarcortes.com.br/2026/07/23/o-vale-tudo-de-pazolini-para-chegar-ao-poder-mas-numeros-da-prefeitura-de-vitoria-desmentem-ex-prefeito/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "80002541012": {
+      "nome_urna": "BRENO BARCELOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Engenheiro civil, presidente estadual do Missão e coordenador do MBL no ES, primeira candidatura a cargo eletivo. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.folhavitoria.com.br/eleicoes/partido-missao-lanca-engenheiro-como-candidato-ao-governo-do-es/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "80002550832": {
+      "nome_urna": "RAFAEL DEMUNER",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Servidor técnico-administrativo da Ufes há 12 anos, coordenador estadual e nacional do Movimento Luta de Classes, primeira candidatura. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.metropoles.com/brasil/up-lanca-rafael-demuner-como-candidato-ao-governo-do-espirito-santo"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "150002551789": {
+      "nome_urna": "LUCAS RIBEIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 7,
+      "motivo": "Governador atual da Paraíba, candidato à reeleição. (1) AIJE (Ação de Investigação Judicial Eleitoral) movida pela coligação de Cícero Lucena questiona contratação de milhares de servidores temporários pelo Estado em ano eleitoral, pedindo cassação/inelegibilidade -- ainda sub judice, sem decisão. (2) TRE-PB mandou preservar provas (publicações/dados da Meta) sobre suposto uso do gabinete do vice-governador para reunião de articulação político-eleitoral em 16/04/2026, após representação do MDB -- fase de apuração preliminar, sem decisão.",
+      "fontes": [
+        "https://wscom.com.br/politica/2026/09/10/aije-lucas-ribeiro-contratacoes-servidores-paraiba/",
+        "https://www.afonteenoticia.com.br/2026/05/tre-pb-manda-preservar-provas-contra.html"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "AIJE pede cassação/inelegibilidade por contratação de milhares de servidores temporários em ano eleitoral; sem decisão"
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "TRE-PB mandou preservar provas sobre suposto uso do gabinete do vice-governador para articulação eleitoral (16/04/2026); apuração preliminar"
+        }
+      ]
+    },
+    "150002538692": {
+      "nome_urna": "EFRAIM FILHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Senador (eleito 2022), advogado. Duas multas eleitorais em 2026: (1) R$37 mil por impulsionamento pago irregular de conteúdo de ataque contra o adversário Lucas Ribeiro; (2) R$10.320,50 por conduta vedada e propaganda eleitoral antecipada em evento da Codevasf. Descartado (não é achado sobre ele): investigação antiga (2010) contra o PAI dele, o então senador Efraim Morais, por desvio de recursos e fraude em licitações -- pessoa distinta.",
+      "fontes": [
+        "https://www.polemicaparaiba.com.br/politica/efraim-e-condenado-pela-justica-a-pagar-r-37-mil-por-ataques-impulsionados-contra-lucas/",
+        "https://www.polemicaparaiba.com.br/politica/eleicao/tre-pb-multa-efraim-filho-george-morais-evento-codevasf/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multa de R$37 mil por impulsionamento pago irregular de conteúdo de ataque contra adversário"
+        },
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "Multa de R$10.320,50 por conduta vedada e propaganda eleitoral antecipada (evento da Codevasf)"
+        }
+      ]
+    },
+    "150002540204": {
+      "nome_urna": "YURI EZEQUIEL",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Advogado e cientista social, presidente do diretório municipal do UP em João Pessoa, liderança nacional do partido, começou na militância estudantil. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.polemicaparaiba.com.br/politica/up-registra-candidatura-de-yuri-ezequiel-ao-governo-da-paraiba-e-oficializa-chapa-para-2026/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "150002551911": {
+      "nome_urna": "PEDRO COUTINHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Candidato do DC, partido que retorna a disputar o governo da Paraíba após duas décadas. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.pbagora.com.br/noticia/politica/dc-lanca-pedro-coutinho-ao-governo-da-paraiba-e-rinaldo-junior-ao-senado/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "150002552603": {
+      "nome_urna": "CAMILO DUARTE",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Militante desde 2002 (movimento estudantil na UFPB), 22 anos de ativismo em movimentos sociais e sindicais (Correios). Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.pbagora.com.br/noticia/politica/pco-lanca-camilo-duarte-como-candidato-ao-governo-da-paraiba/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "110002551480": {
+      "nome_urna": "OTAVIANO PIVETTA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 7,
+      "motivo": "Vice-governador (2019-2026) e governador em exercício desde a saída de Mauro Mendes, candidato à reeleição. (1) A usina de biodiesel dele (Brasbio, do grupo econômico dele com o ex-secretário Mauro Carvalho) recebeu ao menos R$16,4 milhões de fundos e empresas investigados na Operação Heritage da PF, que apura lavagem de dinheiro e uso de informação privilegiada num acordo tributário de R$308 milhões entre o governo de MT e a operadora Oi (fechado em 2024, quando ele era vice) -- ele não é formalmente réu nem denunciado, mas a empresa dele está diretamente citada como beneficiária do esquema investigado. (2) MPE pediu apuração sobre uso de estrutura pública (vídeo em obra do Hospital Regional de Tangará da Serra) para promoção eleitoral -- apuração preliminar, sem decisão.",
+      "fontes": [
+        "https://www.metropoles.com/colunas/andreza-matais/usina-heritage-pivetta-dinheiro-mt-fundos-acordo-oi-policia-federal",
+        "https://www.estadaomatogrosso.com.br/eleicoes-2026/mp-pede-investigacao-sobre-possivel-uso-de-obra-publica-por-pivetta-em-campanha/146271"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Empresa dele (Brasbio) recebeu R$16,4 mi de fundos/empresas investigados na Operação Heritage (PF), sobre acordo tributário de R$308 mi entre MT e a Oi"
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "MPE apura uso de estrutura pública (vídeo em obra de hospital) para promoção eleitoral; sem decisão"
+        }
+      ]
+    },
+    "110002551737": {
+      "nome_urna": "WELLINGTON FAGUNDES",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 3,
+      "motivo": "Senador (desde 2015), veterinário. (1) Réu no STF desde 2018 por corrupção passiva e lavagem de dinheiro na Máfia das Ambulâncias/Sanguessugas (compra de ambulâncias superfaturadas da empresa Planan via emendas parlamentares, 2001-2006, quando deputado federal) -- processo aguardava alegações finais para sentença na Justiça Federal de MT até a pesquisa, sem trânsito em julgado. (2) PF investiga (inquérito com prazo estendido) suposto recebimento de caixa 2 da JBS na campanha de 2014. (3) CONDENADO por improbidade administrativa por autopromoção pessoal em obras públicas federais (outdoors e placas em Rondonópolis) -- multa civil de 3x o salário, direitos políticos mantidos por decisão judicial que considerou desproporcional suspendê-los.",
+      "fontes": [
+        "https://www.reportermt.com/poderes/apos-12-anos-wellington-fagundes-vira-reu-por-corrupcao-passiva-e-lavagem-de-dinheiro/77928",
+        "https://www.olharjuridico.com.br/noticias/exibir.asp?id=33532&noticia=wellington-fagundes-e-investigado-por-corrupcao-lavagem-de-dinheiro-e-ocultacao-de-bens",
+        "https://www.olhardireto.com.br/juridico/noticias/exibir.asp?id=38431&noticia=justica-condena-wellington-fagundes-mas-mantem-direitos-politicos"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu no STF desde 2018 (Máfia das Ambulâncias/Sanguessugas), aguardando sentença de 1ª instância na Justiça Federal de MT"
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "PF investiga suposto caixa 2 da JBS na campanha de 2014"
+        },
+        {
+          "categoria": "contas_irregulares_com_ressarcimento",
+          "descricao": "Condenado por improbidade (autopromoção pessoal em obras públicas federais em Rondonópolis), multa civil de 3x o salário"
+        }
+      ]
+    },
+    "110002543953": {
+      "nome_urna": "RAFAELL MILAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Publicitário, ex-coordenador do MBL, primeira candidatura. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-mato-grosso-2026/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "110002554073": {
+      "nome_urna": "SARGENTO LAUDICÉRIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Policial militar há mais de 20 anos, formado em Administração e Direito, mestre e doutor em Administração, professor universitário. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.hnt.com.br/politica/candidatos-sobem-o-tom-de-debate-com-acusacoes-provocacoes-e-desabafo-de-laudicerio/572530"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "110002553058": {
+      "nome_urna": "MAURICIO COELHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Empresário, primeira candidatura. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.plural.jor.br/mauricio-coelho-de-souza-junior/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "110002544985": {
+      "nome_urna": "DOUTORA NATASHA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Médica pediatra e patologista clínica, professora da UFMT, primeira candidatura. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://jovempan.com.br/noticias/estreante-conheca-a-medica-natasha-slhessarenko-que-disputa-governo-de-mt-e-realizou-o-sonho-da-mae/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "70002552586": {
+      "nome_urna": "ARRUDA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 4,
+      "motivo": "Ex-governador do DF, protagonista da Operação Caixa de Pandora (2009) -- 6-7 condenações por improbidade administrativa dolosa (a primeira de dez/2014), mantidas pelo TJDFT e pelo STJ. Inelegível pela Lei Ficha Limpa até pelo menos 2030-2034 (a condenação mais recente, caso Call Tecnologia, é de jun/2026). O TRE-DF INDEFERIU por unanimidade o registro da candidatura dele ao governo do DF em 03/09/2026. Fora da disputa de forma definitiva nesta instância (mesmo critério de Pablo Marçal, Jararaca/RN e Estêvão/BA) -- ele afirma que vai recorrer ('até as últimas consequências'), mas a inelegibilidade em si já está confirmada pelo STJ há anos.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/politica/stj-mantem-ex-governador-do-df-jose-roberto-arruda-inelegivel/",
+        "https://www.brasiliaconectada.com/2026/08/mpf-lista-6-condenacoes-que-deixam.html",
+        "https://www.cnnbrasil.com.br/eleicoes/vou-ate-as-ultimas-consequencias-diz-arruda-barrado-pelo-tre-df/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "inelegibilidade_vigente",
+          "descricao": "Inelegível pela Lei Ficha Limpa até 2030-2034 (6-7 condenações por improbidade da Operação Caixa de Pandora, mantidas pelo TJDFT/STJ); TRE-DF indeferiu o registro da candidatura em 03/09/2026"
+        }
+      ]
+    },
+    "70002553055": {
+      "nome_urna": "CELINA LEÃO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Governadora em exercício (assumiu em março/2026 após renúncia de Ibaneis Rocha), antes vice-governadora. MPDFT investiga repasses de R$1,4 milhão (14 parcelas mensais de R$100 mil, entre maio/2025 e jun/2026) da empresa Real JG Facilities -- que tem contrato com o governo do DF -- para a Faceng Engenharia, empresa do marido e da filha dela. Candidatos adversários (Grass, Belmonte, Cappelli, Arruda, Caputo) apresentaram representação conjunta ao MPDFT pedindo apuração cível e criminal (conflito de interesse, improbidade, lavagem de dinheiro). Ela nega irregularidade e diz que é tentativa de prejudicar a candidatura dela.",
+      "fontes": [
+        "https://www.brasildefato.com.br/2026/09/08/candidatos-ao-governo-do-df-levam-ao-ministerio-publico-caso-de-r-14-milhao-ligado-a-familia-de-celina-leao/",
+        "https://www.jornalopcao.com.br/ultimas-noticias/repasses-de-r-14-milhao-a-empresa-de-marido-e-filha-de-celina-leao-sao-investigados-pelo-mpdft-865371/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "MPDFT investiga repasses de R$1,4 milhão de empresa com contrato no GDF para empresa do marido e da filha dela (possível conflito de interesse/lavagem)"
+        }
+      ]
+    },
+    "70002537111": {
+      "nome_urna": "PROFESSORA SAMARA MINEIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Professora da Secretaria de Educação do DF, formada em Geografia pela UnB. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-samara-mineiro-pre-candidata-ao-governo-do-df/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "70002552341": {
+      "nome_urna": "EXPEDITO MENDONÇA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Servidor público federal, fundador e dirigente do Sindsep-DF (sindicato dos servidores do DF). Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://causaoperaria.org.br/2026/expedito-mendonca-pco-disputa-eleicoes-para-divulgar-seu-programa/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "70002535930": {
+      "nome_urna": "PROFESSOR ROBSON",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Professor da rede pública do DF há mais de 20 anos, sindicalista e militante do movimento negro. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.plural.jor.br/robson-raymundo-da-silva/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "70002551298": {
+      "nome_urna": "ELISSON",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Jornalista e escritor, primeira candidatura. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.tribunapr.com.br/eleicoes/2026/candidatos/df/governador/elisson-agir-36/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "70002547775": {
+      "nome_urna": "KIKO CAPUTO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Advogado, ex-presidente da OAB-DF (2010-2012), ex-conselheiro do Conselho da República (2018-2020). Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.brasildefato.com.br/2026/08/17/candidato-do-novo-kiko-caputo-e-o-mais-rico-na-disputa-ao-governo-do-distrito-federal/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "70002551557": {
+      "nome_urna": "CAPPELLI",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Jornalista, ex-secretário-executivo do Ministério da Justiça e interventor federal de segurança do DF após os atos de 8 de janeiro de 2023. Foi convocado pela CPI dos Atos Antidemocráticos da CLDF como testemunha/responsável pela intervenção, não como investigado. Nenhuma pendência pessoal encontrada.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Ricardo_Cappelli"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "70002552965": {
+      "nome_urna": "PAULA BELMONTE",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Deputada distrital. Descartado (sem confirmação de responsabilidade pessoal, segundo nota do gabinete dela): imóveis do casal Belmonte (ela e o marido, advogado) levados a leilão por dívida de R$253,6 milhões -- gabinete afirma que ela não é parte na dívida discutida no processo; e participação minoritária (7%, sem gestão) numa empresa (Alvoran) sem achado de ilícito. Ela própria foi autora de representações pedindo investigação de terceiros (BRB/Banco Master; repasses à família de Celina Leão), não alvo delas.",
+      "fontes": [
+        "https://www.metropoles.com/colunas/grande-angular/juiz-marca-leilao-de-imoveis-do-casal-belmonte-por-divida-de-r-253-milhoes",
+        "https://www.f5politica.com.br/2026/09/empresa-ligada-paula-belmonte-e-alvo-de.html"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "70002553982": {
+      "nome_urna": "RICO PINHEIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Primeira candidatura, foco em transporte público e saúde mental. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.correiobraziliense.com.br/cidades-df/2026/08/7477620-eleicoes-rico-pinheiro-projeta-debate-sobre-o-futuro-de-brasilia.html"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "70002552496": {
+      "nome_urna": "LEANDRO GRASS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Deputado distrital, ex-presidente do Iphan. O TRE-DF o declarou inelegível por 8 anos em março/2024 (4 votos a 2), mas o TSE REVERTEU essa inelegibilidade em maio/2024 -- ele nunca chegou a perder direitos políticos na prática. Foi um dos autores da representação conjunta pedindo investigação sobre repasses de R$1,4 milhão à empresa da família de Celina Leão (ele é autor, não alvo).",
+      "fontes": [
+        "https://www.tre-df.jus.br/comunicacao/noticias/2024/Marco/tre-df-declara-o-candidato-leandro-grass-inelegivel-por-oito-anos",
+        "https://www.tse.jus.br/comunicacao/noticias/2024/Maio/tse-reverte-inelegibilidade-candidato-ao-governo-do-distrito-federal-em-2022"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "TRE-DF declarou inelegibilidade de 8 anos em 2024; revertida pelo TSE em maio/2024, sem nunca ter perdido direitos políticos na prática"
+        }
+      ]
+    },
+    "260002542491": {
+      "nome_urna": "FÁBIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 9,
+      "motivo": "Governador atual de Sergipe (PSD), candidato à reeleição. O Sintese (sindicato dos professores) enviou representações ao MP-SE e ao Ministério Público de Contas do TCE pedindo apuração de descumprimento do mínimo constitucional de investimento em educação (~R$75mi em 2023, R$72mi em 2024, R$301mi até out/2025, segundo o sindicato) -- ele nega e pediu abertura de inquéritos penal e civil contra o presidente do sindicato em resposta. Descartado (questão da gestão MUNICIPAL de Aracaju, não dele): operação da polícia investigando fraude em licitações na Prefeitura de Aracaju, sobre a qual ele apenas comentou publicamente.",
+      "fontes": [
+        "https://sintese.org.br/educacao/prova-final/governo-do-estado-e-71-municipios-sergipanos-sao-reprovados-na-gestao-de-suas-politicas-educacionais-2/",
+        "https://manguejornalismo.org/governador-pede-abertura-de-inqueritos-penal-e-civil-contra-presidente-do-sindicato-dos-professores/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Sindicato dos professores (Sintese) representou ao MP-SE e ao TCE por suposto descumprimento do mínimo constitucional de investimento em educação (2023-2025)"
+        }
+      ]
+    },
+    "260002532010": {
+      "nome_urna": "VALMIR DE FRANCISQUINHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 4,
+      "motivo": "Ex-prefeito de Itabaiana. (1) Condenado por improbidade administrativa (desvio de ~R$8 milhões em taxas do matadouro municipal, 2015-2018, 'Operação Abate Final') pelo TJSE em outubro/2025 -- REVERTIDO pelo STJ (2ª Turma) em 01/09/2026, que o julgou inocente no caso. (2) Condenado pela Justiça Eleitoral por abuso de poder político e econômico na campanha municipal de 2018 (uso da máquina administrativa e propaganda irregular para favorecer a campanha do filho dele) -- condenação já transitada em julgado (ele está apto a concorrer agora, 8 anos depois). MPE já emitiu parecer favorável ao registro da candidatura dele ao governo em 2026.",
+      "fontes": [
+        "https://observatoriosergipe.com.br/noticias/stj-da-vitoria-a-valmir-de-francisquinho-no-caso-do-matadouro-acordao-vai-definir-alcance-da-decisao-760660662296",
+        "https://a8se.com/tv-atalaia/jornal-do-estado/2026/09/01/243652-valmir-de-francisquinho-e-julgado-inocente-pelo-stj-no-caso-do-matadouro-de-itabaiana",
+        "https://jornaldodiase.com.br/francisquinho-nao-e-vitima-responde-por-erros-politicos-e-administrativos/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "Condenado por improbidade (desvio de R$8 mi no matadouro de Itabaiana) pelo TJSE em 2025; revertido pelo STJ em set/2026"
+        },
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado pela Justiça Eleitoral por abuso de poder político/econômico na campanha municipal de 2018 (uso da máquina administrativa para favorecer campanha do filho)"
+        }
+      ]
+    },
+    "260002549466": {
+      "nome_urna": "RICARDO MARQUES",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Jornalista, vice-prefeito de Aracaju, deixou o cargo para concorrer ao governo. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.metropoles.com/brasil/convencao-do-pl-lanca-ricardo-marques-para-o-governo-de-sergipe"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "260002547415": {
+      "nome_urna": "DR. HELTON",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Médico, servidor da Prefeitura de Aracaju, conselheiro estadual de saúde, presidente do Sindicato dos Médicos de Sergipe. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.plural.jor.br/jose-helton-silva-monteiro/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "260002551712": {
+      "nome_urna": "EMANUEL CACHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Advogado criminalista, ex-secretário de Estado da Justiça de Sergipe (2003-2006), ex-presidente da Associação Brasileira de Advogados Criminalistas. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://infonet.com.br/noticias/politica/psdb-cidadania-oficializa-candidatura-de-emanuel-cacho-ao-governo-de-se/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "260002550683": {
+      "nome_urna": "TATY CRISTINA DE JESUS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Empresária, primeira candidatura. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.plural.jor.br/tatiana-cristina-santos-de-jesus/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "220002541939": {
+      "nome_urna": "MARCOS ROGÉRIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 9,
+      "motivo": "Senador (desde 2018), deputado federal antes. PF deflagrou a Operação Dreno (09/09/2026) para apurar apropriação/desvio de recursos do Fundo Especial de Financiamento de Campanha (FEFC) nas eleições municipais de 2024 em RO -- um dos alvos é Marcélio Brasileiro, prefeito de Nova Mamoré e COORDENADOR-GERAL da campanha dele ao governo em 2026; o próprio senador não é citado como alvo direto da operação. DESCARTADO por não ser possível verificar em fonte confiável e específica sobre ele: uma menção genérica e repetida (aparecendo de forma idêntica em buscas sobre outro candidato, Hildon Chaves) a uma suposta condenação do STF por 'coação no curso do processo' e 'abandono de função' -- não encontrei fonte primária que confirme esse achado para ele, trato como possível erro de sistetização da busca, não um achado verificado.",
+      "fontes": [
+        "https://www.rondoniagora.com/eleicoes/operador-financeiro-e-braco-direito-de-marcos-rogerio-e-arrastado-pela-operacao-da-pf-em-investigacao-sobre-fundao-eleitoral",
+        "https://newsrondonia.com.br/policia/2026/09/09/pf-deflagra-operacao-dreno-para-apurar-possivel-desvio-de-recursos-do-fundo-eleitoral-em-rondonia"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "PF investiga (Operação Dreno) desvio de recursos do FEFC 2024; coordenador-geral da campanha dele ao governo em 2026 é um dos alvos, ele próprio não é citado como alvo direto"
+        }
+      ]
+    },
+    "220002542916": {
+      "nome_urna": "HILDON CHAVES",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Prefeito de Porto Velho (2021-2026, reeleito 2024). Polícia Civil investiga suposto desvio de mais de R$4 milhões destinados a serviços veterinários públicos (castração/cuidados a cães e gatos de famílias de baixa renda) via contrato com a empresa Kin Casa Vet, com duplicidade de registros de atendimento e um pico suspeito de pagamentos no último mês da gestão dele -- quebra de sigilo bancário/telefônico e bloqueio de bens dos envolvidos autorizados pela Justiça. Ele se apresenta na campanha como 'ficha limpa' e defensor do combate à corrupção.",
+      "fontes": [
+        "https://tvcaboquinho.com/noticia/8002/escandalo-em-porto-velho-gestao-hildon-chaves-pode-ter-desviado-r-4-milhoes-destinados-a-cuidados-veterinarios"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Polícia Civil investiga suposto desvio de R$4 milhões em contrato de serviços veterinários públicos, com pico de pagamentos no último mês da gestão dele; quebra de sigilo e bloqueio de bens autorizados"
+        }
+      ]
+    },
+    "220002536806": {
+      "nome_urna": "ADAILTON FURIA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 9,
+      "motivo": "Ex-prefeito de Cacoal (2021-2026). TCE-RO citou-o após auditoria apontar insuficiência financeira de R$743,3 mil nas contas municipais de 2025 (para justificar); reportagens também mencionam 'graves irregularidades' apontadas pelo TCE na gestão dele -- ainda em fase de citação/resposta, sem julgamento final das contas até a pesquisa.",
+      "fontes": [
+        "https://www.rondoniadinamica.com/noticias/2026/07/tce-ro-cita-ex-prefeito-adailton-furia-apos-auditoria-apontar-insuficiencia-financeira-de-r-7433-mil-em-cacoal,248347.shtml",
+        "https://www.rondoniagora.com/politica/apos-tony-pablo-tce-aponta-graves-irregularidades-na-gestao-de-adailton-furia-em-cacoal"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "TCE-RO citou-o após auditoria apontar insuficiência financeira de R$743,3 mil nas contas de Cacoal (2025) e outras irregularidades; contas ainda não julgadas"
+        }
+      ]
+    },
+    "220002542185": {
+      "nome_urna": "EXPEDITO NETTO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Deputado federal (2015-2023), migrou para o PT nesta eleição (confirmado em múltiplas fontes -- não é erro de dado). Nenhuma pendência jurídica pessoal encontrada.",
+      "fontes": [
+        "https://www.irecelider.com.br/noticias-do-mundo/i/4c90ea21e2159839b871f1ca198e2cc5/pt-lanca-expedito-netto-como-candidato-governo-de-rondonia"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "220002551251": {
+      "nome_urna": "PEDRO ABIB",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Doutor em Direito, veterinário de formação. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/rondonia/governador/pedro-abib-15"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "220002550927": {
+      "nome_urna": "SAMUEL COSTA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Advogado, jornalista e professor, primeira candidatura. Descartado (disputa de legitimidade partidária, não achado de conduta pessoal): o diretório nacional do PSB tentou retirar a candidatura dele (ago/2026) para apoiar Expedito Netto, mas o TRE-RO manteve a candidatura dele por 7 votos a 0 em setembro/2026.",
+      "fontes": [
+        "https://www.agenciarondonia.com/2026/09/por-7x0-trero-mantem-samuel-costa-e.html"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "270002544544": {
+      "nome_urna": "VICENTINHO JÚNIOR",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Deputado federal. Aparece em inquérito individualizado, separado da fase já concluída da Operação Overclean (desvio de recursos públicos, incl. emendas parlamentares) -- não foi um dos 25 denunciados na fase concluída em agosto/2026, mas a PF mantém apuração específica sobre ele. Suspeita: pagamentos de R$420 mil teriam beneficiado ele e a esposa, cuja empresa (GMD Borba Distribuidora) movimentou ~R$170 milhões entre 2019-2025 (R$85 mi de entrada e R$85 mi de saída), volume considerado desproporcional à estrutura real da empresa pelos investigadores. O STF negou um pedido de bloqueio de bens por falta de provas suficientes NAQUELE MOMENTO -- ele usa isso para dizer que foi 'inocentado', mas a investigação (em inquérito separado) continua em curso.",
+      "fontes": [
+        "https://tocantins.jornalopcao.com.br/noticias/investigacao-da-pf-pode-acompanhar-eventual-governo-de-vicentinho-e-trazer-nova-instabilidade-ao-tocantins-599522/",
+        "https://gazetadoparana.com.br/artigo/empresa-fantasma-de-esposa-que-movimentou-r170-milhoes-assomba-campanha-de-vicentinho-junior"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "PF apura em inquérito individualizado (Operação Overclean) suposto benefício de R$420 mil a ele e à esposa, via empresa dela com movimentação de R$170 mi desproporcional à estrutura real; pedido de bloqueio de bens negado por falta de provas SUFICIENTES NO MOMENTO, sem encerrar a investigação"
+        }
+      ]
+    },
+    "270002548412": {
+      "nome_urna": "ATAIDES DE OLIVEIRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 9,
+      "motivo": "Ex-senador, hoje presidente estadual do Novo. TRE julgou procedente representação contra ele por doação eleitoral acima do limite legal. Descartado (não é achado de conduta ilícita DELE): ele afirma ter recebido proposta de propina e ameaças de morte por investigar o Sistema S -- é vítima/denunciante nesse episódio, não investigado.",
+      "fontes": [
+        "https://www.jornalopcao.com.br/tocantins/ex-senador-ataides-oliveira-diz-que-recebeu-proposta-de-propina-e-ameacas-para-nao-denunciar-sistema-s-166398/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "TRE julgou procedente representação por doação eleitoral acima do limite legal"
+        }
+      ]
+    },
+    "270002544599": {
+      "nome_urna": "PROFESSORA DORINHA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Senadora eleita 2022, ex-secretária de Educação do Tocantins. Foi investigada por compra de material didático em 2006 (quando secretária), mas foi ABSOLVIDA pelo PLENÁRIO DO STF em 2018 (decisão de mérito). Descartado (Justiça Eleitoral mandou remover, sem base factual): montagem com IA associando-a a uma apreensão de R$900 mil investigada pela PF, e vídeo do adversário Ataídes com 'disseminação deliberada de desinformação e ofensa à honra' contra ela.",
+      "fontes": [
+        "https://bhaz.com.br/eleicoes/professora-dorinha-eleita-senadora-tocantins/",
+        "https://agora-to.com.br/tre-to-manda-apagar-montagem-que-associava-dorinha-a-apreensao-de-r-900-mil-investigada-pela-pf/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "270002544494": {
+      "nome_urna": "LAUREZ MOREIRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Vice-governador do Tocantins, assumiu interinamente por 93 dias em 2025 após o STJ afastar o governador Wanderlei Barbosa (investigado por desvio de R$73 milhões em cestas básicas na pandemia, esquema anterior ao mandato dele como vice). Uma comissão revisou os atos da gestão interina dele a pedido da administração que retornou (Barbosa), apontando decisões administrativas controversas (anúncio de R$417 mi sem respaldo orçamentário, etc.) -- é disputa político-administrativa entre as duas gestões, sem indício de irregularidade pessoal ou apuração formal de órgão de controle contra ele.",
+      "fontes": [
+        "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/03092025-Corte-Especial-confirma-afastamento-do-governador-de-Tocantins-por-180-dias.aspx",
+        "https://tocantins.jornalopcao.com.br/noticias/decreto-oficializa-comissao-que-revisara-atos-dos-93-dias-da-gestao-interina-de-laurez-moreira-575921/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "270002550458": {
+      "nome_urna": "DU PEREIRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Empresário, primeira candidatura. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/to/governador/du-pereira-dc-27/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "270002539187": {
+      "nome_urna": "PROF WITER NAVES",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Geógrafo, servidor público, professor. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://tocantins.jornalopcao.com.br/noticias/witer-naves-di-que-psol-rede-representa-caminho-novo-e-se-coloca-como-unico-nome-da-esquerda-na-disputa-pelo-governo-do-tocantins-594602/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "270002554375": {
+      "nome_urna": "SIQUEIRA CAMPOS JR",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Empresário, filho mais velho do fundador do Estado do Tocantins (José Wilson Siqueira Campos, governador falecido em 2023); entrou na disputa 20 dias antes da eleição, substituindo o Subtenente Luiz Carlos após indeferimento da chapa. Descartado (é sobre um IRMÃO dele, Eduardo Siqueira Campos, ex-secretário e deputado -- pessoa distinta): condução coercitiva na Operação Acrônimo por suposta propina de R$600 mil (2012) num contrato de material educativo de trânsito. Nenhuma pendência pessoal encontrada sobre ele mesmo.",
+      "fontes": [
+        "https://ndmais.com.br/politica/com-aval-da-justica-democrata-substitui-candidato-ao-governo-do-tocantins-a-20-dias-das-eleicoes/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "270002546368": {
+      "nome_urna": "SUBTENENTE LUIZ CARLOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 7,
+      "motivo": "Subtenente da reserva da PM do Tocantins. A chapa dele (com o vice Jair Medeiros) foi INDEFERIDA pelo TRE-TO por pendências documentais e eleitorais, 20 dias antes da eleição; o Democrata substituiu-o por Siqueira Campos Jr. Fora da disputa por questão administrativa de registro (mesmo critério de outras substituições no projeto), não por achado de conduta pessoal grave -- não pesquisado a fundo.",
+      "fontes": [
+        "https://ndmais.com.br/politica/com-aval-da-justica-democrata-substitui-candidato-ao-governo-do-tocantins-a-20-dias-das-eleicoes/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "registro_indeferido",
+          "descricao": "Chapa indeferida pelo TRE-TO por pendências documentais e eleitorais; substituído pelo partido 20 dias antes da eleição"
+        }
+      ]
+    },
+    "10002544107": {
+      "nome_urna": "MAILZA ASSIS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 5,
+      "motivo": "Governadora em exercício (assumiu em 2023 após renúncia de Gladson Cameli), antes vice-governadora. (1) Condenada por improbidade administrativa (com dolo/enriquecimento ilícito reconhecido) quando secretária de Administração de Senador Guiomard (2009): contratação sem licitação de empresa de limpeza (MS Serviços) que recebeu R$275 mil em 2 meses -- condenação confirmada pelo TJAC, com o STJ negando em 2022 pedido de suspensão dos efeitos da condenação. (2) Republicanos representou ao TCE-AC (set/2026) por suposto uso de servidora comissionada (R$7,8 mil/mês) como motorista dos filhos dela para fins particulares -- governo nega, TCE e Justiça Eleitoral apuram. Descartado (MPE considerou informação INVERÍDICA e concedeu direito de resposta a ela): acusação do adversário Alan Rick de desvio de R$51 milhões.",
+      "fontes": [
+        "https://www.cartacapital.com.br/politica/senadora-fa-dos-bolsonaro-tem-condenacao-por-improbidade/",
+        "https://www.noticiasdahora.com.br/politica/vice-de-gladson-mailza-pede-suspensao-de-efeitos-de-condenacao-por-improbidade-mas-ministro-do-stj-nega.html",
+        "https://www.diretodoplanalto.com.br/2026/09/servidora-que-ganha-r-78-mil-e-citada.html"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenada por improbidade administrativa (dolo/enriquecimento ilícito) em Senador Guiomard (2009, contratação de empresa de limpeza sem licitação); confirmada pelo TJAC, STJ negou suspensão dos efeitos em 2022"
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Representação do Republicanos ao TCE-AC por suposto uso de servidora pública comissionada como motorista particular dos filhos; TCE e Justiça Eleitoral apuram, governo nega"
+        }
+      ]
+    },
+    "10002532492": {
+      "nome_urna": "ALAN RICK",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 7,
+      "motivo": "Senador (desde 2023), presidente estadual do então DEM/hoje União na época dos fatos. Réu em ação penal eleitoral desde 2025 por esquema de 'candidata laranja': a policial militar Sônia de Fátima Silva Alves seria candidata fictícia usada para desviar recursos do fundo eleitoral destinados a candidaturas femininas (2018) -- ela recebeu R$279,6 mil e teve apenas 6 votos (~R$46 mil por voto, o mais caro do país); repassou parte à campanha dele. Ele, a esposa (ex-tesoureira do partido) e mais 7 pessoas foram ouvidos como réus pelo TRE-AC em novembro/2025; processo em curso no TSE, sem trânsito em julgado.",
+      "fontes": [
+        "https://oseringal.com.br/2025/11/exclusivo-reus-por-corrupcao-eleitoral-alan-rick-sua-mulher-e-mais-7-sao-ouvidos-no-tre-acre-relembre-o-esquema-e-veja-os-nomes/",
+        "https://oaquiri.com/88159-2/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu em ação penal eleitoral por esquema de candidata laranja (fundo eleitoral de candidaturas femininas, 2018); ouvido pelo TRE-AC em nov/2025, sem trânsito em julgado"
+        }
+      ]
+    },
+    "10002544015": {
+      "nome_urna": "TIÃO BOCALOM",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Prefeito de Rio Branco (2021-presente, reeleito 2024). MPAC abriu Procedimento de Investigação Criminal (jun/2026) sobre o contrato emergencial de transporte público com a empresa Ricco Transportes: pagamentos de R$3,4 milhões sem aprovação prévia da Câmara Municipal, contestação da lei complementar que previu subsídio de quase R$8 milhões, suspeita de frustração do caráter competitivo de licitação mantida por 4 anos. Ele diz ter 'consciência tranquila'.",
+      "fontes": [
+        "https://ac24horas.com/2026/06/04/mp-vai-investigar-bocalom-por-suspeitas-envolvendo-contrato-da-ricco-transportes-na-capital/",
+        "https://www.atribunadoacre.com.br/noticia/2176/rio-branco/destaques/mpac-abre-investigacao-contra-bocalom-por-suspeitas-em-contrato-da-ricco.html"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "MPAC investiga (PIC aberto jun/2026) contrato emergencial com a Ricco Transportes: R$3,4 mi pagos sem aprovação da Câmara, subsídio de R$8 mi contestado, suspeita de frustração de licitação por 4 anos"
+        }
+      ]
+    },
+    "10002550719": {
+      "nome_urna": "THOR DANTAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Médico infectologista/hepatologista, ex-diretor do Pronto-Socorro de Rio Branco, ex-presidente da Fundhacre, ex-secretário adjunto de Saúde. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-thor-dantas-pre-candidato-ao-governo-do-acre/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "10002533539": {
+      "nome_urna": "DR.LUISINHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Empresário (comunicação, gestão financeira e desenvolvimento regional), primeira candidatura. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://agazetadoacre.com/2026/08/noticias/politica/quem-e-dr-luisinho-empresario-que-disputa-o-governo-do-acre-pelo-agir/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "10002549500": {
+      "nome_urna": "EUDO RAFFAEL",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Bancário, primeira candidatura. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://ac24horas.com/2026/08/12/candidato-do-pcb-ao-governo-do-acre-eudo-raffael-declara-patrimonio-de-r-165-mil/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "30002530014": {
+      "nome_urna": "DR. FURLAN",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Ex-prefeito de Macapá (reeleito 2024 com 85% dos votos). O STF (ministro Flávio Dino) determinou o afastamento dele e do vice do cargo em março/2026, em operação da PF que investiga desvio de recursos de emendas parlamentares federais destinadas à construção do Hospital Municipal de Macapá -- indícios de fraude e direcionamento na licitação (contrato de ~R$70 milhões com a Santa Rita Engenharia) e lavagem de dinheiro. Ele renunciou ao cargo logo após o afastamento. Descartado (não é achado de idoneidade institucional, é episódio de campanha constrangedor): foi flagrado ensaiando a fala de uma eleitora para um vídeo de campanha.",
+      "fontes": [
+        "https://noticias.stf.jus.br/postsnoticias/stf-afasta-prefeito-e-vice-de-macapa-em-investigacao-sobre-desvio-de-recursos-de-emendas-parlamentares/",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-03/apos-ser-afastado-pelo-stf-prefeito-de-macapa-renuncia-ao-cargo"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Afastado do cargo de prefeito de Macapá por decisão do STF (mar/2026) em investigação da PF sobre desvio de emendas parlamentares e fraude em licitação (Hospital Municipal, ~R$70 mi); renunciou após o afastamento"
+        }
+      ]
+    },
+    "30002552017": {
+      "nome_urna": "DELEGADO MARCOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 4,
+      "motivo": "Ex-deputado federal (2015-2019, PSD à época), delegado da Polícia Federal, ex-procurador do Estado do Amapá. Réu em pelo menos duas ações penais graves distintas: (1) corrupção passiva e lavagem de dinheiro, por suposto favorecimento (quando procurador estadual, 2006) a um acordo entre o Amapá e empresa de conhecidos, credora de R$3,9 milhões, em benefício próprio -- STF confirmou o recebimento da denúncia; processo remetido à 1ª instância em Macapá após ERRO ADMINISTRATIVO do STF (a ação foi arquivada indevidamente por 9 meses em 2018-2019, depois reaberta -- não foi absolvição, apenas correção de falha de tramitação); (2) crimes contra a administração em geral e violação de sigilo funcional, além de investigação (inquérito) por crimes da Lei de Licitações, associação criminosa, falso testemunho e falsidade ideológica. Múltiplos processos, peso limitado pelo teto da categoria.",
+      "fontes": [
+        "https://www.metropoles.com/brasil/justica/falha-processual-do-stf-inocenta-ex-deputado-marcos-reategui-psd-ap",
+        "https://www.congressoemfoco.com.br/noticia/34775/os-parlamentares-sob-investigacao-no-stf-e-o-que-eles-dizem"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "quantidade": 2,
+          "descricao": "Réu em ação penal por corrupção passiva/lavagem (acordo estadual de 2006, denúncia recebida pelo STF, remetida à 1ª instância) e réu/investigado por crimes contra a administração, licitação e associação criminosa; múltiplos processos, sem trânsito em julgado -- peso limitado pelo teto da categoria (6)"
+        }
+      ]
+    },
+    "30002551388": {
+      "nome_urna": "JAIRO PALHETA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Agricultor familiar, dirigente do MST (Frente Nacional de Luta Sem-Terra). Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://candidatos.nexojornal.com.br/2026/ap/jairo-palheta-30002551388/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "30002536313": {
+      "nome_urna": "CARLOS CLEY",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Motorista de aplicativo e caminhoneiro, dirigente sindical da categoria, quinta candidatura (nunca eleito). Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-a-governador-do-amapa-em-2026-veja-a-lista/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "230002549223": {
+      "nome_urna": "ARTHUR HENRIQUE",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 8,
+      "motivo": "Ex-prefeito de Boa Vista. Venceu a ELEIÇÃO SUPLEMENTAR de Roraima em junho/2026 (60,87% dos votos, para completar o mandato-tampão até jan/2027, aberto após a cassação do então governador Antonio Denarium por abuso de poder político/econômico em 2022) -- mas a diplomação dele ficou SUSPENSA porque ele disputou sub judice: o MPE alega que ele não cumpriu o prazo de desincompatibilização do cargo de prefeito a tempo. O TSE suspendeu o julgamento aguardando posição do STF sobre o tema (ADI 7.942 e Reclamação 94.894), sem decisão final até a pesquisa -- Soldado Sampaio segue como governador interino nesse ínterim. Essa mesma questão de elegibilidade paira sobre a candidatura dele à ELEIÇÃO GERAL de outubro/2026 (mandato 2027-2031, o objeto desta pesquisa). Descartado (decisão a favor dele, hoje 22/09/2026): Justiça rejeitou ação contra ele por suposta propaganda irregular no Instagram.",
+      "fontes": [
+        "https://www.tse.jus.br/comunicacao/noticias/2026/Junho/arthur-henrique-e-o-mais-votado-para-o-cargo-de-governador-na-eleicao-suplementar-de-roraima",
+        "https://www.folhabv.com.br/colunas/tse-corrige-decisao-do-tre-rr-e-volta-a-colocar-desincompatibilizacao-no-centro-do-debate/",
+        "https://portalofato.com.br/2026/09/22/justica-rejeita-acao-contra-arthur-henrique-por-suposta-propaganda-irregular-no-instagram/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "Disputa sobre cumprimento do prazo de desincompatibilização (saída do cargo de prefeito); diplomação da eleição suplementar de jun/2026 suspensa pelo TSE aguardando o STF, sem decisão final -- mesma questão jurídica relevante à elegibilidade dele na eleição geral de outubro/2026"
+        }
+      ]
+    },
+    "230002551571": {
+      "nome_urna": "SOLDADO SAMPAIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 9,
+      "motivo": "Presidente da Assembleia Legislativa, governador interino desde abril/2026 (após a cassação de Denarium/Damião). MPE investiga (notícia de fato de jul/2026) suposto uso de grupos de WhatsApp das secretarias estaduais por servidores para divulgar a candidatura dele durante o horário de trabalho, na eleição suplementar -- apuração preliminar, sem decisão.",
+      "fontes": [
+        "https://roraima1.com.br/mp-eleitoral-investiga-suposto-uso-de-servidores-para-divulgar-campanha-de-soldado-sampaio-na-eleicao-suplementar-de-rr/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "MPE investiga suposto uso de servidores/grupos de WhatsApp estaduais para divulgar a candidatura dele em horário de trabalho; apuração preliminar, sem decisão"
+        }
+      ]
+    },
+    "230002552060": {
+      "nome_urna": "ROSI AIRES",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Professora, primeira candidatura ao Executivo estadual. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://www.folhabv.com.br/politica/psol-rede-lanca-rosi-aires-ao-governo-e-define-barto-macuxi-e-mario-rocha-para-o-senado/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "230002549294": {
+      "nome_urna": "FARAH MESQUITA",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 10,
+      "motivo": "Influenciador digital, primeira candidatura ao Executivo estadual. Nenhuma pendência encontrada.",
+      "fontes": [
+        "https://roraima1.com.br/farah-mesquita-e-oficializado-candidato-ao-governo-de-roraima-pelo-solidariedade/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": []
+    },
+    "230002553857": {
+      "nome_urna": "CLÉBIO GENUÍNO",
+      "cargo_pretendido": "GOVERNADOR",
+      "nota": 7,
+      "motivo": "Advogado e servidor da Funai. Candidatura INDEFERIDA pelo TRE-RR (decisão unânime) por falta de comprovação de desincompatibilização do cargo público na Funai dentro do prazo, e por certidão criminal em modelo diferente do exigido. Fora da disputa por questão administrativa de registro (mesmo critério de outras substituições/indeferimentos no projeto), não por achado de conduta pessoal grave -- não pesquisado a fundo.",
+      "fontes": [
+        "https://roraima1.com.br/tre-indefere-candidatura-de-clebio-genuino-do-pco-ao-governo-de-roraima/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "achados": [
+        {
+          "categoria": "registro_indeferido",
+          "descricao": "Candidatura indeferida pelo TRE-RR por falta de comprovação de desincompatibilização do cargo na Funai e certidão criminal em modelo incorreto"
         }
       ]
     }

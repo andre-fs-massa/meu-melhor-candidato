@@ -606,6 +606,2041 @@
       "pesquisado_em": "2026-09-21",
       "nivel_eixo_economico": "a",
       "nivel_eixo_pessoal": "b"
+    },
+    "180002532987": {
+      "nome_urna": "RAFAEL FONTELES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3.0,
+      "eixo_pessoal": 7.0,
+      "motivo": "[nível a economia; nível a costumes] Econômico: defende intervenção estatal explícita no debate da TV Antena 10 (projetos como Hidrogênio Verde) e seu plano de governo ('Pacto pela Economia') concentra R$ 10 bi de investimento público em infraestrutura e ampliação de crédito produtivo -- perfil desenvolvimentista, em linha com o baseline do PT (3.0). Pessoal: destacou pauta LGBTQIAPN+ em sabatina da OAB-PI (16/09/2026), acima do baseline do PT (6.5) -- posição pessoal explícita, não só estereótipo partidário.",
+      "fontes": [
+        "https://a10mais.com/blogs/eleicoes-2026/candidatos-ao-governo-do-piaui-apresentam-propostas-durante-debate-da-tv-antena-10-veja-como-foi-45948.html",
+        "https://www.oitomeia.com.br/colunas/eleicoes-2026/2026/09/16/rafael-fonteles-destaca-pauta-lgbtqiapn-sabatina-oab-pi/",
+        "https://cidadeverde.com/eleicoes/460115/rafael-fonteles-protocola-plano-de-governo-com-foco-em-renda-saude-e-educacao"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "180002538530": {
+      "nome_urna": "JOEL RODRIGUES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 3.0,
+      "motivo": "[nível a economia; nível a+b costumes] Econômico: defende iniciativa privada com Estado regulador no debate da TV Antena 10, redução gradual do ICMS, fim de novos tributos e incentivo a produtores -- em linha com o baseline do PP (6.5). Pessoal: no mesmo debate, evitou confronto direto sobre direitos LGBT ('diálogo, respeito e justiça social', sem proposta concreta) depois de ser acusado pela adversária Gisvaldo (PSOL) de o PP promover ataques 'transfóbicos' nacionalmente -- evasão + acusação específica, abaixo do baseline do PP (3.5).",
+      "fontes": [
+        "https://a10mais.com/blogs/eleicoes-2026/candidatos-ao-governo-do-piaui-apresentam-propostas-durante-debate-da-tv-antena-10-veja-como-foi-45948.html",
+        "https://www.portalaz.com.br/noticia/politica/96890/joel-rodrigues-promete-reduzir-icms-de-forma-gradual-em-plano-de-governo/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    },
+    "180002549920": {
+      "nome_urna": "ELIZEU AGUIAR",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 8.5,
+      "eixo_pessoal": 7.0,
+      "motivo": "[nível a economia; nível c costumes] Econômico: defende livre mercado explícito no debate da TV Antena 10 -- redução gradual de impostos para atrair empresas e programa de industrialização, próximo do baseline do NOVO (9.0). Pessoal: sem posição pessoal encontrada sobre aborto/drogas/direitos civis -- a ênfase em segurança de fronteira contra tráfico é proposta de segurança pública, não um indicador direto do eixo de costumes. Fallback do baseline do NOVO (7.0), com a MESMA ressalva já usada para outros filiados do partido: a posição pessoal de um filiado específico pode divergir (ver caso Zema, que é liberal na economia mas pessoalmente conservador em costumes) -- não há pesquisa suficiente aqui para confirmar se Elizeu Aguiar segue o padrão do partido ou diverge dele.",
+      "fontes": [
+        "https://a10mais.com/blogs/eleicoes-2026/candidatos-ao-governo-do-piaui-apresentam-propostas-durante-debate-da-tv-antena-10-veja-como-foi-45948.html"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "180002544216": {
+      "nome_urna": "DRA. LÚCIA SANTOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.0,
+      "eixo_pessoal": 6.0,
+      "motivo": "[nível a economia; nível c costumes] Econômico: no debate da TV Antena 10, posição intermediária -- defende redução de impostos mas com contrapartida de geração de emprego pelas empresas beneficiadas -- um pouco mais condicional que o baseline puro do PSDB (7.0), por isso 6.0. Pessoal: sem posição pessoal encontrada sobre aborto/drogas/direitos civis -- fallback do baseline do PSDB (6.0), partido moderado em costumes historicamente.",
+      "fontes": [
+        "https://a10mais.com/blogs/eleicoes-2026/candidatos-ao-governo-do-piaui-apresentam-propostas-durante-debate-da-tv-antena-10-veja-como-foi-45948.html",
+        "https://portalclubenews.com/2026/09/17/dra-lucia-santos-propoe-incluir-a-disciplina-de-empreendedorismo-na-rede-publica-e-mais-investimentos-no-turismo/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "180002549970": {
+      "nome_urna": "PROFESSOR GISVALDO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 1.0,
+      "eixo_pessoal": 9.0,
+      "motivo": "[nível a economia; nível a costumes] Econômico: defende explicitamente a RE-ESTATIZAÇÃO da Agespisa (companhia de água e esgoto do PI) e critica modelos privatizados de serviços públicos no debate da TV Antena 10 -- mais estatista que o baseline do PSOL (1.5), por isso 1.0. Pessoal: propôs no mesmo debate implementação do programa 'Transcidadania' (bolsas e qualificação para pessoas trans) e protocolos não discriminatórios em órgãos públicos, além de acusar o adversário Joel Rodrigues (PP) de posições transfóbicas -- posição pessoal explícita, acima do baseline do PSOL (8.5).",
+      "fontes": [
+        "https://a10mais.com/blogs/eleicoes-2026/candidatos-ao-governo-do-piaui-apresentam-propostas-durante-debate-da-tv-antena-10-veja-como-foi-45948.html"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "180002553722": {
+      "nome_urna": "LOURDES MELO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 8.5,
+      "motivo": "[nível c economia; nível a+b costumes] Econômico: fallback do baseline do PCO (0.15), sem posição individual adicional encontrada além do programa do partido. Pessoal: defende explicitamente a extinção da PM (Polícia Militar) -- mesmo achado documentado para outros candidatos do PCO no projeto (Rui Costa Pimenta, Izadora Dias), tratado com a mesma nota de 8.5 (acima do baseline genérico do partido, 7.8, por ter posição pessoal explícita e específica sobre desmilitarização).",
+      "fontes": [
+        "https://www.chicosabetudo.com.br/politica/lourdes-melo-candidata-ao-governo-do-piaui-quer-extinguir-a-pm-0826"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "b"
+    },
+    "180002549995": {
+      "nome_urna": "SANTIAGO BELIZÁRIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.35,
+      "eixo_pessoal": 8.2,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa, e sub judice -- ver idoneidade pessoal). Fallback do baseline do partido UP (ver ideologia_partidaria.json), regra padrão do projeto desde 2026-09-21.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "180002537422": {
+      "nome_urna": "GERALDO CARVALHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.6,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa, e sub judice -- ver idoneidade pessoal). Fallback do baseline do partido PSTU (ver ideologia_partidaria.json), regra padrão do projeto desde 2026-09-21.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "180002548388": {
+      "nome_urna": "RAVENNA DA INCLUSÃO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 4.0,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa, e sub judice -- ver idoneidade pessoal). Fallback do baseline do partido DEMOCRATA (ver ideologia_partidaria.json), regra padrão do projeto desde 2026-09-21.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "180002550421": {
+      "nome_urna": "GUSTAVO PELO PIAUÍ OU GUSTAVO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5.5,
+      "eixo_pessoal": 5.3,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa, e sub judice -- ver idoneidade pessoal). Fallback do baseline do partido AVANTE (ver ideologia_partidaria.json), regra padrão do projeto desde 2026-09-21.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "180002548565": {
+      "nome_urna": "PROFESSOR JURITY",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.0,
+      "eixo_pessoal": 2.5,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa, e sub judice -- ver idoneidade pessoal). Fallback do baseline do partido DC (ver ideologia_partidaria.json), regra padrão do projeto desde 2026-09-21.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "200002534001": {
+      "nome_urna": "CADU DE LULA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3.0,
+      "eixo_pessoal": 7.5,
+      "motivo": "[nível a economia; nível a costumes] Econômico: plano de governo prioriza energia limpa, industrialização e emprego, mas avalia investimentos pelos 'efeitos em empregos, territórios, inclusão social e meio ambiente', não só pelo valor aplicado -- desenvolvimentismo estatal, em linha com o baseline do PT (3.0). Pessoal: comparação de imprensa entre os planos de governo do RN aponta o de Cadu como o mais abrangente em propostas para a população LGBTQIA+ entre os candidatos analisados, com eixo próprio de igualdade racial e 'Estado antirracista' -- acima do baseline do PT (6.5), mesmo padrão de Fonteles (Governador-PI, também PT).",
+      "fontes": [
+        "https://saibamais.jor.br/2026/09/pauta-lgbtqia-aparece-em-poucos-planos-ao-governo-do-rn/",
+        "https://agorarn.com.br/politica/plano-de-governo-de-cadu-de-lula-direitos-metas-fiscais/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "200002534442": {
+      "nome_urna": "ÁLVARO DIAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 3.0,
+      "motivo": "[nível a economia; nível b costumes] Econômico: cobertura especializada descreve o plano como 'aposta em ajuste fiscal e parcerias privadas, mas distante do Estado mínimo' -- discurso de liberdade econômica moderado (revisão de incentivos fiscais, PPPs), abaixo do baseline do PL (8.0), que é ancorado no bolsonarismo nacional que este candidato (médico, carreira institucional) não repete com a mesma intensidade. Pessoal: sem posição pessoal explícita sobre aborto/drogas encontrada -- estreitou laços com lideranças evangélicas (apoio do pastor José Wellington Costa Júnior, presidente da Convenção Geral das Assembleias de Deus no Brasil), sinal indireto de alinhamento conservador, abaixo do centro mas acima do baseline do PL (1.5). CUIDADO COM HOMÔNIMO: há um senador Álvaro Dias (PR/Podemos, Paraná) -- posições sobre aborto/gênero de 2013-2016 encontradas nas buscas pertencem a ELE, não a este candidato (prefeito de Natal), e não foram usadas aqui.",
+      "fontes": [
+        "https://blogdobarreto.com.br/planos-de-governo-alvaro-dias-aposta-em-ajuste-fiscal-e-parcerias-privadas-mas-distante-do-estado-minimo/",
+        "https://www.viacertanatal.com.br/2026/07/alvaro-dias-estreita-lacos-com.html"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    },
+    "200002535255": {
+      "nome_urna": "ALLYSON",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 3.5,
+      "motivo": "[nível a economia; nível c costumes] Econômico: promete 'choque de gestão', equilíbrio fiscal e não aumentar impostos, com simplificação para investidores -- pró-mercado moderado, um pouco abaixo do baseline do União (7.0). Pessoal: sem posição pessoal explícita sobre aborto/drogas/direitos civis encontrada (a única menção de imprensa é o uso de música de cantores evangélicos em eventos da rede municipal de educação em Mossoró, achado fraco demais para mover a nota) -- fallback do baseline do União (3.5).",
+      "fontes": [
+        "https://fecomerciorn.com.br/noticias/allyson-bezerra-promete-nao-aumentar-impostos-e-defende-choque-de-gestao-no-rio-grande-do-norte/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "200002546757": {
+      "nome_urna": "PROFESSOR ROBERIO PAULINO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 1.5,
+      "eixo_pessoal": 8.5,
+      "motivo": "[nível c nos dois eixos] Discurso de 'revolução estrutural' (educação, saúde, moradia, industrialização) é consistente com o perfil do PSOL, mas sem posição pessoal específica sobre economia ou costumes que justifique divergir do baseline do partido -- fallback do PSOL (1.5; 8.5).",
+      "fontes": [
+        "https://saibamais.jor.br/2026/09/merepresenta-roberio-paulino-quer-mudanca-estrutural-no-rn/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "200002542481": {
+      "nome_urna": "DÁRIO BARBOSA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.6,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PSTU (ver ideologia_partidaria.json), regra padrão do projeto desde 2026-09-21.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "200002547826": {
+      "nome_urna": "ARINALDA DO MLB",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.35,
+      "eixo_pessoal": 8.2,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido UP (ver ideologia_partidaria.json), regra padrão do projeto desde 2026-09-21.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "200002546756": {
+      "nome_urna": "RODRIGO DE BOLSONARO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 4.5,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido AGIR (ver ideologia_partidaria.json), regra padrão do projeto desde 2026-09-21.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "200002553301": {
+      "nome_urna": "HENRIQUE LYRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 7.8,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PCO (ver ideologia_partidaria.json), regra padrão do projeto desde 2026-09-21.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "200002554482": {
+      "nome_urna": "GODEIRO LINHARESS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.0,
+      "eixo_pessoal": 2.5,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido DC (ver ideologia_partidaria.json), regra padrão do projeto desde 2026-09-21.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "20002553350": {
+      "nome_urna": "JHC",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.0,
+      "eixo_pessoal": 6.0,
+      "motivo": "[nível b economia; nível c costumes] Econômico: plano de governo cria nova política tributária ('Alagoas Mais Competitiva') para atrair investimentos, distritos industriais e simplificação/digitalização para abertura de empresas -- proposta institucional pró-mercado, em linha com o baseline do PSDB (7.0). Pessoal: sem posição pessoal explícita sobre aborto/drogas/direitos civis encontrada -- fallback do baseline do PSDB (6.0).",
+      "fontes": [
+        "https://www.ahoranews.com.br/2026/09/jhc-defende-integracao-entre-municipios-e-setor-privado-para-ampliar-turismo-em-alagoas/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "20002553745": {
+      "nome_urna": "RENAN FILHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5.0,
+      "eixo_pessoal": 4.8,
+      "motivo": "[nível b economia; nível c costumes] Econômico: plano de governo promete concurso público ANUAL para saúde, educação e segurança, além de fortalecer a agricultura familiar com crédito desburocratizado -- ênfase em expansão do serviço público, um pouco à esquerda do centro puro do MDB (5.5), sem chegar a um desenvolvimentismo estatal forte. Pessoal: sem posição pessoal explícita sobre aborto/drogas/direitos civis encontrada -- fallback do baseline do MDB (4.8).",
+      "fontes": [
+        "https://www.tribunadosertao.com.br/politica/2026/09/16/980085-vou-fazer-concurso-todo-ano-para-seguranca-educacao-e-saude-garante-renan-filho-em-sabatina-na-tv-asa-branca"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "20002539642": {
+      "nome_urna": "LENILDA LUNA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.35,
+      "eixo_pessoal": 8.2,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido UP (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "20002552502": {
+      "nome_urna": "MÁRCIO JAMBO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 4.0,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido DEMOCRATA (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "120002536582": {
+      "nome_urna": "EDUARDO RIEDEL",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 3.5,
+      "motivo": "[nível b economia; nível c costumes] Econômico: plano de governo (44 páginas) foca em atração de capital privado, manutenção da capacidade de investimento do Estado e geração de emprego -- em linha com o baseline do PP (6.5). Pessoal: sem posição pessoal explícita sobre aborto/drogas encontrada -- fallback do baseline do PP (3.5).",
+      "fontes": [
+        "https://www.enfoquems.com.br/plano-de-governo-de-eduardo-riedel-propoe-novo-ciclo-de-desenvolvimento-para-ms/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "120002539834": {
+      "nome_urna": "FÁBIO TRAD",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 4.5,
+      "eixo_pessoal": 6.5,
+      "motivo": "[nível b economia; nível c costumes] Econômico: defende fim da alíquota previdenciária de 14% para uma faixa de aposentados, incentivo ao varejo/recriação do Banco do Povo e agroindustrialização para pequenos produtores -- perfil mais centrista/pragmático do que o baseline puro do PT (3.0), coerente com a carreira dele no PSD (centro) antes de se filiar ao PT só em 08/2025; por isso um pouco acima do baseline do partido. Pessoal: sem posição pessoal explícita sobre aborto/drogas encontrada -- fallback do baseline do PT (6.5), com a RESSALVA de que ele é filiado recente (a tradição do partido pode não refletir a posição pessoal dele tão bem quanto reflete a de um petista histórico).",
+      "fontes": [
+        "https://www.ojacare.com.br/2026/09/02/fabio-defende-fim-da-aliquota-previdenciaria-de-14-e-estado-amigavel-para-os-60-em-ms"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "120002552191": {
+      "nome_urna": "JOÃO HENRIQUE CATAN",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 8.5,
+      "eixo_pessoal": 7.0,
+      "motivo": "[nível a economia; nível c costumes] Econômico: propõe reduzir carga tributária de empresas e consumidores, simplificar procedimentos e revisar incentivos fiscais -- perto do baseline do NOVO (9.0). Pessoal: sem posição pessoal explícita sobre aborto/drogas/direitos civis encontrada -- fallback do baseline do NOVO (7.0), com a MESMA ressalva usada para outros filiados do partido (caso Zema): a posição pessoal pode divergir do baseline liberal-libertário do partido.",
+      "fontes": [
+        "https://www.campograndenews.com.br/podcast/na-integra/catan-promete-reduzir-impostos-e-abrir-caixa-preta-dos-incentivos"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "120002552155": {
+      "nome_urna": "DELCIDIO AMARAL",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5.2,
+      "eixo_pessoal": 5.0,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PRD (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "120002532257": {
+      "nome_urna": "LUCIEN REZENDE",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 1.5,
+      "eixo_pessoal": 8.5,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PSOL (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "120002550198": {
+      "nome_urna": "JEFERSON BEZERRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 4.5,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido AGIR (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "120002549681": {
+      "nome_urna": "ECONOMISTA RENATO GOMES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.0,
+      "eixo_pessoal": 2.5,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido DC (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "120002552201": {
+      "nome_urna": "DANIEL LEMES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 7.8,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PCO (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "50002536314": {
+      "nome_urna": "JERÔNIMO RODRIGUES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3.0,
+      "eixo_pessoal": 7.0,
+      "motivo": "[nível a economia; nível a costumes] Econômico: plano de governo centrado em megaprojetos de infraestrutura estatal (Ponte Salvador-Itaparica, VLT, ferrovia FIOL) e industrialização do interior conduzida pelo Estado -- desenvolvimentismo estatal, em linha com o baseline do PT (3.0). Pessoal: sancionou em dezembro/2024 a Lei 14.806, que isenta pessoas trans de custas para retificação de nome/gênero -- ação concreta de governo, além de mencionar fortalecimento de direitos e segurança para a população LGBTQIAPN+ no plano de 2026 -- acima do baseline do PT (6.5), com achado individual real (lei sancionada), não só discurso de campanha.",
+      "fontes": [
+        "https://www.agenciatatu.com.br/noticia/mencoes-a-mulheres-aparecem-mas-populacao-negra-e-lgbtqia-tem-presenca-desigual-em-planos-de-governo-da-bahia/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "50002533190": {
+      "nome_urna": "ACM NETO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.0,
+      "eixo_pessoal": 3.0,
+      "motivo": "[nível a economia; nível b costumes] Econômico: propõe Secretaria de Parcerias e Investimentos para estruturar concessões de rodovias, portos e aeroportos, atraindo capital privado -- em linha com o baseline do União (7.0). Pessoal: endurece o discurso sobre segurança pública, com 'Governadoria de Segurança' de atuação direta do governador, compra de blindados/coletes/armamento novo para a polícia -- retórica de linha dura que funciona como proxy do eixo pessoal mesmo não sendo 'costumes' no sentido clássico, abaixo do baseline puro do União (3.5).",
+      "fontes": [
+        "https://muitainformacao.com.br/eleicoes/acm-neto-propoe-secretaria-de-parcerias-e-investimentos-defende-reforma-administrativa-e-endurece-discurso-sobre-seguranca/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "b"
+    },
+    "50002535253": {
+      "nome_urna": "ARIEL CAPISTRANO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.0,
+      "eixo_pessoal": 2.5,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido DC (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "50002544692": {
+      "nome_urna": "AROLDO FELIX",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.35,
+      "eixo_pessoal": 8.2,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido UP (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "50002552489": {
+      "nome_urna": "MARIA BONA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 7.8,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PCO (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "50002532269": {
+      "nome_urna": "RONALDO MANSUR",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 1.5,
+      "eixo_pessoal": 8.5,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PSOL (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "160002540833": {
+      "nome_urna": "SERGIO MORO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível a economia; nível a costumes] Econômico: plano de governo foca em produtividade, cadeias produtivas e atração de investimentos, sem retórica de privatização/corte radical de Estado -- um pouco abaixo do baseline puro do PL (8.0). Pessoal: eixo de 'Segurança, Justiça e Combate à Corrupção' propõe base militar permanente na fronteira, intensificação de ações contra drogas e armas, presídio de segurança máxima e expansão de escolas cívico-militares -- linha dura extremamente explícita e coerente com a biografia dele (ex-juiz Lava Jato, ex-Ministro da Justiça), reforçando o baseline do PL (1.5).",
+      "fontes": [
+        "https://www.bandab.com.br/politica/eleicoes-2026/plano-de-governo-de-moro-preve-agencia-anticorrupcao-criacao-de-tabela-sus-parana-e-expansao-das-escolas-civico-militares/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "a"
+    },
+    "160002549553": {
+      "nome_urna": "SANDRO ALEX",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 5.5,
+      "motivo": "[nível a economia; nível c costumes] Econômico: plano de continuidade da gestão Ratinho Junior -- investimentos em Copel/Sanepar (mantidas públicas, não privatizadas), crédito para empresas/cooperativas/produtores, industrialização -- pró-mercado moderado, em linha com o baseline do PSD (6.0). Pessoal: sem posição pessoal explícita sobre aborto/drogas/direitos civis encontrada -- fallback do baseline do PSD (5.5).",
+      "fontes": [
+        "https://arede.info/eleicoes/668523/sandro-alex-apresenta-planejamento-com-investimentos-para-o-setor-industrial"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "160002547666": {
+      "nome_urna": "REQUIÃO FILHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 2.0,
+      "eixo_pessoal": 6.4,
+      "motivo": "[nível a economia; nível c costumes] Econômico: plano de governo defende explicitamente manter sob controle PÚBLICO a Celepar, a Sanepar, a Ferroeste e os portos, além de auditar a privatização da Copel (já feita pelo governo anterior) com a possibilidade de reaver o controle estatal -- estatismo explícito e mais forte que o baseline do PDT (3.3), coerente com a tradição política nacionalista da família (filho de Roberto Requião). Pessoal: sem posição pessoal explícita sobre aborto/drogas encontrada -- fallback do baseline do PDT (6.4).",
+      "fontes": [
+        "https://arede.info/eleicoes/669406/requiao-filho-propoe-reducao-do-custo-parana-para-acelerar-a-industrializacao"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "160002552560": {
+      "nome_urna": "ADRIANO FUNILEIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 7.8,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PCO (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "160002550997": {
+      "nome_urna": "TAYNÁ MIESSA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.35,
+      "eixo_pessoal": 8.2,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido UP (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "160002551353": {
+      "nome_urna": "LUIZ FRANÇA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 3.0,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido MISSÃO (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "160002548010": {
+      "nome_urna": "SAMUEL DE MATTOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.6,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PSTU (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "160002547594": {
+      "nome_urna": "DOUTOR ALEXANDRE SALOMÃO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5.0,
+      "eixo_pessoal": 2.0,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido MOBILIZA (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "210002547857": {
+      "nome_urna": "ZUCCO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível a economia; nível a costumes] Econômico: plano de governo defende 'enxugar a máquina pública' e priorizar o crescimento econômico -- perto do baseline do PL (8.0). Pessoal: eixo de segurança combina inteligência policial e combate ao crime organizado com expansão de escolas cívico-militares -- linha dura explícita, coerente com a biografia dele (policial, tenente-coronel), reforçando o baseline do PL (1.5).",
+      "fontes": [
+        "https://claudemirpereira.com.br/2026/08/eleicoes-2026-plano-de-zucco-propoe-enxugar-maquina-publica-e-ampliar-escolas-civico-militares/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "a"
+    },
+    "210002542892": {
+      "nome_urna": "GABRIEL SOUZA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 4.8,
+      "motivo": "[nível a economia; nível c costumes] Econômico: plano de governo enfatiza 'liberdade econômica, atração de capitais' e mantém o ICMS atual com foco em eficiência digital de arrecadação -- acima do baseline puro do MDB (5.5), reforçando a continuidade da linha fiscal de Eduardo Leite. Pessoal: sem posição pessoal explícita sobre aborto/drogas encontrada -- fallback do baseline do MDB (4.8).",
+      "fontes": [
+        "https://claudemirpereira.com.br/2026/08/eleicoes-2026-plano-de-governo-de-gabriel-souza-destaca-a-continuidade-mas-nao-cita-eduardo-leite/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "210002551508": {
+      "nome_urna": "JULIANA BRIZOLA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3.3,
+      "eixo_pessoal": 6.4,
+      "motivo": "[nível b economia; nível c costumes] Econômico: propõe adesão ao Propag (programa federal de pagamento integral de dívidas estaduais) para manter recursos em saúde/educação/infraestrutura, com agregação de valor à produção agropecuária antes da saída dos municípios -- perfil desenvolvimentista coerente com o baseline do PDT (3.3). Pessoal: prioriza combate ao feminicídio como uma das 3 bandeiras centrais da campanha (proxy de proteção social, não posição clássica de costumes) -- sem posição explícita sobre aborto/drogas encontrada, fallback do baseline do PDT (6.4).",
+      "fontes": [
+        "https://www.spacemoney.com.br/politica/juliana-brizola-propostas-governo-rs"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "210002535802": {
+      "nome_urna": "MARCELO MARANATA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 6.0,
+      "motivo": "[nível b economia; nível c costumes] Econômico: defende o conceito de 'Estado Necessário' -- burocracia enxuta mas presente onde o cidadão precisa, abordagem gerencial/pragmática -- um pouco abaixo do baseline puro do PSDB (7.0), sem retórica ideológica explícita de mercado. Pessoal: sem posição pessoal explícita sobre aborto/drogas encontrada -- fallback do baseline do PSDB (6.0).",
+      "fontes": [
+        "https://www.abcmais.com/politica/confira-as-propostas-de-zucco-juliana-brizola-gabriel-souza-e-maranata-para-o-rs/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "210002552592": {
+      "nome_urna": "CESAR PONTES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 7.8,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PCO (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "210002533355": {
+      "nome_urna": "PRISCILA VOIGT",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.35,
+      "eixo_pessoal": 8.2,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido UP (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "210002541367": {
+      "nome_urna": "REJANE DE OLIVEIRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.6,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PSTU (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "170002537227": {
+      "nome_urna": "RAQUEL LYRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 5.5,
+      "motivo": "[nível a economia; nível c costumes] Econômico: plano de governo desburocratiza o ambiente de negócios, extingue gradualmente o FEEF (fundo de equilíbrio fiscal que tributa incentivos) e atrai empresas de tecnologia -- pró-mercado, em linha com o baseline do PSD (6.0). Pessoal: análise de imprensa que comparou os planos de governo dos candidatos aponta que ela é uma das que NÃO cita a população LGBTQIA+ no documento (diferente do adversário João Campos) -- sem posição pessoal explícita sobre aborto/drogas, fallback do baseline do PSD (5.5).",
+      "fontes": [
+        "https://portaldeprefeitura.com.br/bastidores-da-politica/raquel-lyra-priscila-krause-apresentam-plano-de-governo/629987/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "170002537230": {
+      "nome_urna": "JOÃO CAMPOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3.5,
+      "eixo_pessoal": 7.5,
+      "motivo": "[nível b economia; nível a costumes] Econômico: plano de governo propõe estratégia estadual de reindustrialização e Pernambuco como polo de economia do conhecimento no Nordeste, com atuação direta do Estado organizando ecossistemas -- perfil desenvolvimentista, em linha com o baseline do PSB (3.5). Pessoal: eixo específico de 'Direitos e Garantia da Diversidade' -- texto explícito de que 'orientação sexual e identidade de gênero não podem constituir barreiras ao pleno exercício de direitos', com proposta de Centros de Direitos Humanos para população LGBTQIAPN+/quilombolas/indígenas -- acima do baseline do PSB (7.0), único entre os 2 favoritos a tratar o tema explicitamente.",
+      "fontes": [
+        "https://adiadorim.org/noticias/2026/09/pernambuco-metade-dos-candidatos-ao-governo-nao-cita-populacao-lgbtqia-nos-planos/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "a"
+    },
+    "170002538097": {
+      "nome_urna": "IVAN MORAES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 1.5,
+      "eixo_pessoal": 8.5,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PSOL (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "170002536575": {
+      "nome_urna": "GUILHERME FONSECA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.6,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PSTU (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "170002540337": {
+      "nome_urna": "RENAN",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 3.0,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido MISSÃO (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "170002552776": {
+      "nome_urna": "VICTOR ASSIS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 7.8,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PCO (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "170002537320": {
+      "nome_urna": "PROFESSORA CAMILA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.35,
+      "eixo_pessoal": 8.2,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido UP (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "60002531351": {
+      "nome_urna": "CIRO GOMES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 6.0,
+      "motivo": "[nível a economia; nível c costumes] Econômico: plano de governo foca em combate ao crime e corte de gastos, transição energética (hidrogênio verde), fortalecimento do Porto do Pecém e retomada de investimentos -- pró-mercado moderado, em linha com o baseline do PSDB (7.0). Pessoal: sem posição pessoal explícita sobre aborto/drogas encontrada -- fallback do baseline do PSDB (6.0).",
+      "fontes": [
+        "https://mais.opovo.com.br/colunistas/vertical/2026/07/27/as-propostas-de-ciro-gomes-para-o-ceara.html"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "60002543969": {
+      "nome_urna": "ELMANO DE FREITAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3.0,
+      "eixo_pessoal": 6.5,
+      "motivo": "[nível a economia; nível c costumes] Econômico: plano de governo consolida o 'Ceará Sem Fome 2.0' como política permanente de Estado, integrando segurança alimentar, compras públicas, saúde e assistência social -- desenvolvimentismo estatal, em linha com o baseline do PT (3.0). Pessoal: sem posição pessoal explícita sobre aborto/drogas/direitos civis encontrada nesta pesquisa -- fallback do baseline do PT (6.5).",
+      "fontes": [
+        "https://focotv.com.br/2026/09/20/quem-e-elmano-de-freitas-candidato-a-reeleicao-no-ceara/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "a",
+      "nivel_eixo_pessoal": "c"
+    },
+    "60002549967": {
+      "nome_urna": "ZÉ BATISTA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.6,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PSTU (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "60002553922": {
+      "nome_urna": "VERA LÚCIA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 9.0,
+      "eixo_pessoal": 7.0,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido NOVO (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "60002552498": {
+      "nome_urna": "DANILO SOARES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 4.0,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido DEMOCRATA (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "60002552320": {
+      "nome_urna": "IERI BRAGA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 7.8,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PCO (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "60002540417": {
+      "nome_urna": "DELEGADO HUGGO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 3.0,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido MISSÃO (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "60002533729": {
+      "nome_urna": "SERLEY LEAL",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.35,
+      "eixo_pessoal": 8.2,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido UP (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "140002551598": {
+      "nome_urna": "HANA GHASSAN",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5.5,
+      "eixo_pessoal": 4.0,
+      "motivo": "[nível c economia; nível b costumes] Econômico: plano de governo foca em verticalização da produção mineral (mais valor agregado antes de o minério sair do estado) e infraestrutura -- sem sinal claro de mais mercado ou mais Estado, fallback do baseline do MDB (5,5). Pessoal: propõe 200 Escolas Cívico-Militares -- sinal institucional que funciona como proxy leve do eixo pessoal mesmo não sendo 'costumes' no sentido clássico, abaixo do baseline do MDB (4,8).",
+      "fontes": [
+        "https://www.jornalpassaporte.com.br/2026/08/28/eleicoes-2026-hana-ghassan-apresenta-plano-de-governo-com-foco-em-hospitais-rodovias-universidades-e-infraestrutura-no-para/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "b"
+    },
+    "140002549930": {
+      "nome_urna": "DR. DANIEL",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.0,
+      "eixo_pessoal": 5.0,
+      "motivo": "[nível b economia; nível c costumes] Econômico: plano de governo prioriza industrialização de recursos naturais, fortalecimento da bioeconomia e responsabilidade fiscal -- em linha com o baseline do Podemos (6,5). Pessoal: sem posição pessoal explícita sobre aborto/drogas encontrada -- fallback do baseline do PODE (5,0).",
+      "fontes": [
+        "https://www.oliberal.com/politica/eleicoes-2026-veja-as-propostas-do-candidato-dr-daniel-santos-ao-governo-do-para-1.1160926"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "140002542386": {
+      "nome_urna": "ARACELI",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 1.5,
+      "eixo_pessoal": 8.5,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PSOL (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "140002551943": {
+      "nome_urna": "GAL LEITE",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.35,
+      "eixo_pessoal": 8.2,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido UP (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "140002554108": {
+      "nome_urna": "WELL MACEDO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.6,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido PSTU (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "140002554434": {
+      "nome_urna": "RUTH REIS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 4.0,
+      "motivo": "[nível c nos dois eixos] Sem posição individual encontrada sobre economia ou costumes na pesquisa (candidatura de menor cobertura de imprensa). Fallback do baseline do partido DEMOCRATA (ver ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "100002543869": {
+      "nome_urna": "ORLEANS BRANDÃO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5.5,
+      "eixo_pessoal": 4.8,
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c",
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual] Não encontrei declaração individual de posicionamento nos dois eixos que justifique nível a/b. Baseline do MDB (ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22"
+    },
+    "100002542556": {
+      "nome_urna": "FELIPE CAMARÃO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3,
+      "eixo_pessoal": 6.5,
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c",
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual] Não encontrei declaração individual de posicionamento nos dois eixos que justifique nível a/b. Baseline do PT (ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22"
+    },
+    "100002545679": {
+      "nome_urna": "EDUARDO BRAIDE",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6,
+      "eixo_pessoal": 5.5,
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c",
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual] Não encontrei declaração individual de posicionamento nos dois eixos que justifique nível a/b. Baseline do PSD (ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22"
+    },
+    "100002552700": {
+      "nome_urna": "DIMAS CASSIMIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 7.8,
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c",
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual] Não encontrei declaração individual de posicionamento nos dois eixos que justifique nível a/b. Baseline do PCO (ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22"
+    },
+    "100002544076": {
+      "nome_urna": "ANDRÉ LUIS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 3,
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c",
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual] Não encontrei declaração individual de posicionamento nos dois eixos que justifique nível a/b. Baseline do MISSÃO (ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22"
+    },
+    "100002544073": {
+      "nome_urna": "REGINALDO LIMA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0,
+      "eixo_pessoal": 7.3,
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c",
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual] Não encontrei declaração individual de posicionamento nos dois eixos que justifique nível a/b. Baseline do PCB (ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22"
+    },
+    "100002534190": {
+      "nome_urna": "SAULO ARCANGELI",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.6,
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c",
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual] Não encontrei declaração individual de posicionamento nos dois eixos que justifique nível a/b. Baseline do PSTU (ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22"
+    },
+    "100002551399": {
+      "nome_urna": "ROBERTO ROCHA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 2.5,
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c",
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual] Não encontrei declaração individual de posicionamento nos dois eixos que justifique nível a/b. Baseline do PRTB (ideologia_partidaria.json).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-22"
+    },
+    "240002537073": {
+      "nome_urna": "JORGINHO MELLO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 2,
+      "motivo": "[nível b] Econômico: plano de governo para 2027-2030 é de continuidade (34 de 36 compromissos usam verbos como 'manter'/'ampliar'/'consolidar'), com eixo de 'liberdade econômica e municipalismo' -- perfil de direita econômica moderada, sem proposta explícita de privatização de estatais. Pessoal: PL histórico, criticou publicamente o foco federal no desarmamento de civis (posição pró-armas); tratamento ofensivo a manifestantes indígenas em julho/2026 (mesmo caso do achado de idoneidade) reforça perfil personalista/de baixa tolerância, coerente com o baseline do partido.",
+      "fontes": [
+        "https://ndmais.com.br/politica/o-que-jorginho-mello-promete-se-for-reeleito-confira-o-plano-de-governo/",
+        "https://ndmais.com.br/politica/jorginho-mello-pode-ser-investigado-apos-representacao-por-falas-a-indigenas/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "b"
+    },
+    "240002551001": {
+      "nome_urna": "JOÃO RODRIGUES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 5,
+      "motivo": "[nível b] Econômico: plano propõe política fiscal austera (mínimo de 15% da RCL em investimentos) e foco em agronegócio/cadeias produtivas -- perfil de centro-direita fiscal, sem proposta de privatização. Pessoal: mistura segurança dura (presídio de segurança máxima, videomonitoramento, drones, barreiras nas fronteiras contra tráfico) com uma proposta progressista específica (tornozeleira eletrônica obrigatória para todos os homens com medida protetiva, proteção a mulheres) -- perfil de centro, coerente com o baseline pragmático do PSD.",
+      "fontes": [
+        "https://ndmais.com.br/politica/como-joao-rodrigues-pretende-governar-santa-catarina-veja-o-plano-de-governo/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "b"
+    },
+    "240002548628": {
+      "nome_urna": "GELSON MERÍSIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3.5,
+      "eixo_pessoal": 7,
+      "motivo": "[nível b] Econômico: plano 'Santa Catarina 2040' mantém o setor privado mas dá ao Estado papel coordenador maior (crédito a pequenos negócios, cooperativismo, economia solidária, agência estatal de habitação) -- centro-esquerda desenvolvimentista, coerente com o baseline do PSB. Pessoal: plano de governo elaborado com PSB/PDT/PT/PSOL inclui pauta de clima e igualdade de gênero explicitamente.",
+      "fontes": [
+        "https://jornalrazao.com/politica/gelson-merisio-plano-de-governo-14-missoes-governo-de-sc"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "b"
+    },
+    "240002552157": {
+      "nome_urna": "RALF ZIMMER",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5.2,
+      "eixo_pessoal": 5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Discurso de campanha focado em combate à corrupção e controle de contas públicas, sem posicionamento econômico/de costumes detalhado encontrado na busca. Baseline do PRD (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-ralf-zimmer-candidato-ao-governo-de-santa-catarina/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "240002541913": {
+      "nome_urna": "PROFESSOR MARCUS SODRÉ",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.6,
+      "motivo": "[nível b] Plano de governo do PSTU explicitamente cita combate à fome, direitos de mulheres, negros, indígenas, LGBTs e imigrantes, e valorização de servidores -- confirma diretamente o baseline trotskista do partido (estatismo extremo, progressismo social).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-marcus-sodre-candidato-ao-governo-de-santa-catarina/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "b"
+    },
+    "240002553718": {
+      "nome_urna": "BRUNO PEDREIRO DO PCO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 7.8,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Discurso genérico de defesa dos direitos dos trabalhadores, fim das privatizações e causas antiimperialistas, sem posicionamento individual detalhado além da linha do PCO. Baseline do PCO (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-bruno-pedreiro-do-pco-candidato-ao-governo-de-santa-catarina/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "240002544118": {
+      "nome_urna": "MARCELO BRIGADEIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 2,
+      "motivo": "[nível b] Plano de governo propõe presídio de segurança máxima ('Inferno Catarina') isolado para lideranças de facções e um programa de ressocialização de viés religioso ('Quem Perdoa é Deus') -- perfil de segurança dura e conservadorismo social até mais marcado que o baseline do Missão, coerente com a trajetória dele no extinto PSL/bolsonarismo catarinense.",
+      "fontes": [
+        "https://jornalrazao.com/politica/marcelo-brigadeiro-plano-governo-inferno-catarina-quem-perdoa-e-deus"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "b"
+    },
+    "240002550544": {
+      "nome_urna": "LAÍS CHAUD",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.3,
+      "eixo_pessoal": 8.5,
+      "motivo": "[nível b] Plano de governo propõe mudanças radicais no modelo econômico (estatização de empresas, redução da jornada de trabalho, ampliação de serviços públicos) e desmilitarização da Polícia Militar -- confirma e reforça o baseline de esquerda revolucionária do UP.",
+      "fontes": [
+        "https://ndmais.com.br/politica/o-que-lais-chaud-propoe-para-santa-catarina-veja-o-plano-de-governo-da-candidata-do-up/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "b"
+    },
+    "90002540993": {
+      "nome_urna": "DANIEL VILELA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6,
+      "eixo_pessoal": 4.8,
+      "motivo": "[nível b] Econômico: plano de governo é de continuidade da gestão Caiado, com foco em polo de inteligência artificial, crédito e assistência técnica ao agronegócio -- perfil de centro-direita pró-negócios, sem proposta de privatização de estatais. Pessoal: nenhuma posição de costumes específica encontrada; mantido próximo ao baseline pragmático do MDB.",
+      "fontes": [
+        "https://sdnews.com.br/noticia/17031/inovador-daniel-vilela-aponta-caminhos-para-goias-seguir-avancando.html"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "90002551791": {
+      "nome_urna": "WILDER MORAIS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 8,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível b] Senador PL histórico, assinou pedido de impeachment contra o ministro Alexandre de Moraes -- confirma perfil bolsonarista de linha dura, coerente com (e reforçando) o baseline do PL.",
+      "fontes": [
+        "https://tribunadoplanalto.com.br/wilder-assina-pedido-de-impeachment-de-alexandre-de-moraes-no-senado/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "b"
+    },
+    "90002543463": {
+      "nome_urna": "MARCONI PERILLO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7,
+      "eixo_pessoal": 6,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Ex-governador por 4 mandatos com perfil histórico de gestão pró-negócios e institucionalista (era PSDB clássica); campanha 2026 focada em recuperar espaço político, sem posicionamento de costumes detalhado na busca. Baseline do PSDB (ideologia_partidaria.json).",
+      "fontes": [
+        "https://jovempan.com.br/politica/conheca-marconi-perillo-ex-governador-que-tenta-retornar-ao-executivo-goiano/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "90002545476": {
+      "nome_urna": "LUIS CESAR BUENO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3,
+      "eixo_pessoal": 6.5,
+      "motivo": "[nível b] Descrito na cobertura eleitoral como propondo 'ruptura' com a gestão Caiado/Vilela, em contraste com a continuidade de Daniel Vilela -- coerente com o baseline desenvolvimentista/redistributivo do PT.",
+      "fontes": [
+        "https://ohoje.com/2026/08/13/planos-de-governo-daniel-aposta-em-continuidade-luis-cesar-propoe-ruptura/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "90002553733": {
+      "nome_urna": "DANILO DA SILVA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 7.8,
+      "motivo": "[nível b] Plano de governo do PCO propõe salário mínimo de R$7,5 mil, Bolsa Família equivalente a um salário mínimo e anulação de dívidas de trabalhadores com o sistema financeiro -- confirma diretamente o baseline trotskista de estatismo extremo do partido.",
+      "fontes": [
+        "https://oseringal.com.br/geral/quem-e-danilo-da-silva-candidato-ao-governo-de-goias/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "90002550707": {
+      "nome_urna": "LUCIANA AMORIM",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.35,
+      "eixo_pessoal": 8.2,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Discurso de campanha focado em representatividade feminina ('a mulher também pode fazer parte desses espaços'), sem plataforma econômica detalhada além da linha do UP. Baseline do UP (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.jornalopcao.com.br/politica/luciana-amorim-unica-mulher-disputa-governo-goias-2026-856549/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "40002532272": {
+      "nome_urna": "OMAR AZIZ",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6,
+      "eixo_pessoal": 5.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Senador de perfil pragmático/fisiológico, relator favorável à PEC do fim da escala 6x1 (viés pró-trabalhador pontual, mas sem plataforma de costumes definida). Baseline do PSD (ideologia_partidaria.json).",
+      "fontes": [
+        "https://claudiodantas.com.br/aziz-rejeita-12-emendas-fim-da-escala-6x1/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "40002536086": {
+      "nome_urna": "DAVID ALMEIDA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5.5,
+      "eixo_pessoal": 5.3,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Perfil de gestão municipal pragmática (prefeito de Manaus por 2 mandatos), sem plataforma econômica/de costumes detalhada localizada na busca. Baseline do Avante (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-david-almeida-candidato-ao-governo-do-amazonas/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "40002541741": {
+      "nome_urna": "ROBERTO CIDADE",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7,
+      "eixo_pessoal": 3.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sem plataforma econômica/de costumes detalhada localizada na busca (cobertura de imprensa concentrada nas investigações). Baseline do União Brasil (ideologia_partidaria.json).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Roberto_Cidade"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "40002551740": {
+      "nome_urna": "CABO DACIOLO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5,
+      "eixo_pessoal": 2,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Perfil nacionalmente conhecido como bombeiro militar evangélico de linha dura (candidato à Presidência em 2018), coerente com o baseline conservador tradicionalista do Mobiliza. Baseline do Mobiliza (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/daciolo-entra-na-disputa-pelo-governo-do-amazonas-e-defende-mudar-a-capital-do-pais-para-o-estado/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "40002541626": {
+      "nome_urna": "PROFESSORA MARIA DO CARMO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 8,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sem plataforma econômica/de costumes detalhada além da linha do PL na busca. Baseline do PL (ideologia_partidaria.json).",
+      "fontes": [
+        "https://jovempan.com.br/politica/da-educacao-a-politica-maria-do-carmo-seffair-chega-a-disputa-pelo-governo-do-am/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "40002550776": {
+      "nome_urna": "ISAEL MUNDURUKU",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 4.6,
+      "eixo_pessoal": 7.7,
+      "motivo": "[nível b] Liderança indígena que defende que povos originários ocupem espaços de decisão política e pauta ambiental/social -- confirma diretamente o baseline progressista/ambiental da Rede.",
+      "fontes": [
+        "https://banzeironews.com/isael-munduruku-da-floresta-a-periferia-de-manaus-a-disputa-pelo-governo-do-amazonas/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "b"
+    },
+    "40002535267": {
+      "nome_urna": "GILBERTO VASCONCELOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.6,
+      "motivo": "[nível b] Plano de governo propõe conselhos populares, reestatização de empresas de energia e da Refinaria de Manaus (Reman) e ruptura com o capitalismo -- confirma diretamente o baseline trotskista do PSTU.",
+      "fontes": [
+        "https://emtempo.com.br/605972/politica/gilberto-vasconcelos-pstu-propostas-governo-amazonas/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "b"
+    },
+    "80002552172": {
+      "nome_urna": "RICARDO FERRAÇO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5.5,
+      "eixo_pessoal": 4.8,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Plano de governo focado em infraestrutura (escolas integrais, hospital veterinário, aeroporto de cargas), sem plataforma de costumes detalhada localizada na busca. Baseline do MDB (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.folhavitoria.com.br/eleicoes/plano-de-ricardo-ferraco-preve-escolas-integrais-hospital-veterinario-e-aeroporto-de-cargas/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "80002551833": {
+      "nome_urna": "HELDER SALOMÃO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3,
+      "eixo_pessoal": 6.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Chapa puro-sangue do PT com aliados históricos do partido (evento com Lula/Contarato); sem plataforma detalhada além da linha do partido na busca. Baseline do PT (ideologia_partidaria.json).",
+      "fontes": [
+        "https://tconline.com.br/eleicoes-2026-time-de-lula-desembarca-hoje-em-sao-mateus-com-helder-valdirene-e-contarato/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "80002552682": {
+      "nome_urna": "LORENZO PAZOLINI",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Ex-chefe de polícia com discurso de segurança pública, aliança com PL e Democrata (vice pastora evangélica conservadora) reforça o perfil conservador do baseline do Republicanos.",
+      "fontes": [
+        "https://www.plural.jor.br/lorenzo-silva-de-pazolini/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "80002541012": {
+      "nome_urna": "BRENO BARCELOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível b] Plano de governo propõe escolas cívico-militares e desfavelização com viés de segurança dura -- reforça e um pouco mais conservador que o baseline do Missão no eixo pessoal.",
+      "fontes": [
+        "https://www.folhavitoria.com.br/eleicoes/desfavelizacao-vlt-e-escolas-civico-militares-veja-plano-de-governo-de-breno-barcelos/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "b"
+    },
+    "80002550832": {
+      "nome_urna": "RAFAEL DEMUNER",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.3,
+      "eixo_pessoal": 8.3,
+      "motivo": "[nível b] Propõe salário mínimo capixaba e fim da Polícia Militar (desmilitarização) -- confirma e reforça o baseline de esquerda revolucionária do UP.",
+      "fontes": [
+        "https://simnoticias.com.br/eleicoes/salario-minimo-capixaba-e-fim-da-pm-veja-o-que-propoe-demuner/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "b"
+    },
+    "150002551789": {
+      "nome_urna": "LUCAS RIBEIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 3.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Governador atual, sem plataforma econômica/de costumes detalhada localizada na busca (cobertura concentrada nas disputas eleitorais). Baseline do PP (ideologia_partidaria.json).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Lucas_Ribeiro_(politician)"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "150002544133": {
+      "nome_urna": "CÍCERO LUCENA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5.5,
+      "eixo_pessoal": 4.8,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sem plataforma detalhada além da linha do partido na busca. Baseline do MDB (ideologia_partidaria.json).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/C%C3%ADcero_Lucena"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "150002538692": {
+      "nome_urna": "EFRAIM FILHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 8,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Migrou do União Brasil para o PL para concorrer; sem plataforma detalhada além da linha do partido na busca. Baseline do PL (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/paraiba/efraim-filho-troca-uniao-brasil-por-pl-e-disputara-governo-da-paraiba/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "150002551911": {
+      "nome_urna": "PEDRO COUTINHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6,
+      "eixo_pessoal": 2.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Plano de governo focado em segurança hídrica, desenvolvimento econômico e segurança pública; vice é ativista evangélica -- consistente com o baseline confessional conservador do DC.",
+      "fontes": [
+        "https://paraibaonline.com.br/eleicoes/2026/09/14/candidato-pedro-coutinho-destaca-propostas-para-a-paraiba/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "150002540204": {
+      "nome_urna": "YURI EZEQUIEL",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.35,
+      "eixo_pessoal": 8.2,
+      "motivo": "[nível b] Promete fortalecer empresas públicas estaduais -- confirma o baseline estatista de esquerda revolucionária do UP.",
+      "fontes": [
+        "https://jornaldaparaiba.com.br/politica/yuri-ezequiel-up-diz-que-se-eleito-governador-da-paraiba-vai-fortalecer-as-empresas-publicas"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "150002552603": {
+      "nome_urna": "CAMILO DUARTE",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 7.8,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sem plataforma detalhada além da linha do PCO na busca. Baseline do PCO (ideologia_partidaria.json).",
+      "fontes": [
+        "https://paraibaonline.com.br/politica/2026/08/04/pco-oficializa-camilo-duarte-como-candidato-ao-governo-da-paraiba/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "110002551480": {
+      "nome_urna": "OTAVIANO PIVETTA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Governador em exercício, sem plataforma detalhada além da linha do partido na busca (cobertura concentrada nas investigações). Baseline do Republicanos (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.plural.jor.br/otaviano-olavo-pivetta/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "110002551737": {
+      "nome_urna": "WELLINGTON FAGUNDES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 8,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sem plataforma detalhada além da linha do partido na busca. Baseline do PL (ideologia_partidaria.json).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Wellington_Fagundes"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "110002543953": {
+      "nome_urna": "RAFAELL MILAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 3,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Ex-coordenador do MBL -- perfil liberal-conservador coerente com o baseline do Missão. Baseline do Missão (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.infomoney.com.br/politica/candidatos-governador-mato-grosso-2026/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "110002554073": {
+      "nome_urna": "SARGENTO LAUDICÉRIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 4.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sem plataforma detalhada além da linha do partido na busca. Baseline do Agir (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.hnt.com.br/politica/candidatos-sobem-o-tom-de-debate-com-acusacoes-provocacoes-e-desabafo-de-laudicerio/572530"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "110002553058": {
+      "nome_urna": "MAURICIO COELHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5,
+      "eixo_pessoal": 2,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sem plataforma detalhada além da linha do partido na busca. Baseline do Mobiliza (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.plural.jor.br/mauricio-coelho-de-souza-junior/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "110002544985": {
+      "nome_urna": "DOUTORA NATASHA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6,
+      "eixo_pessoal": 5.5,
+      "motivo": "[nível b] Prioriza combate à violência contra a mulher e digitalização da saúde pública -- coerente com o baseline pragmático de centro do PSD, com leve progressismo social pela pauta de gênero.",
+      "fontes": [
+        "https://jovempan.com.br/noticias/estreante-conheca-a-medica-natasha-slhessarenko-que-disputa-governo-de-mt-e-realizou-o-sonho-da-mae/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "b"
+    },
+    "70002553055": {
+      "nome_urna": "CELINA LEÃO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 3.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Governadora em exercício, sem plataforma detalhada além da linha do partido na busca (cobertura concentrada nas investigações). Baseline do PP (ideologia_partidaria.json).",
+      "fontes": [
+        "https://obrasilianista.com.br/2026/09/16/politica/celina-leao-candidata-governo-distrito-federal"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "70002552496": {
+      "nome_urna": "LEANDRO GRASS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3,
+      "eixo_pessoal": 6.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Chapa da Federação Brasil da Esperança; sem plataforma detalhada além da linha do PT na busca. Baseline do PT (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/cnn-entrevista-leandro-grass-candidato-ao-governo-do-df/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "70002551557": {
+      "nome_urna": "CAPPELLI",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3.5,
+      "eixo_pessoal": 7,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Ex-quadro de governos Lula/Dilma, sem plataforma detalhada além da linha do PSB na busca. Baseline do PSB (ideologia_partidaria.json).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Ricardo_Cappelli"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "70002547775": {
+      "nome_urna": "KIKO CAPUTO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 9,
+      "eixo_pessoal": 7,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Empresário/advogado liberal, sem plataforma de costumes detalhada na busca. Baseline do Novo (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.brasildefato.com.br/2026/08/17/candidato-do-novo-kiko-caputo-e-o-mais-rico-na-disputa-ao-governo-do-distrito-federal/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "70002552965": {
+      "nome_urna": "PAULA BELMONTE",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7,
+      "eixo_pessoal": 6,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Deputada distrital com atuação em fiscalização de contas públicas; sem plataforma detalhada de costumes na busca. Baseline do PSDB (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.cl.df.gov.br/paula-belmonte"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "70002537111": {
+      "nome_urna": "PROFESSORA SAMARA MINEIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.35,
+      "eixo_pessoal": 8.2,
+      "motivo": "[nível b] Candidatura ligada a movimentos populares, sindicalismo e defesa de serviços públicos -- confirma o baseline de esquerda revolucionária do UP.",
+      "fontes": [
+        "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-samara-mineiro-pre-candidata-ao-governo-do-df/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "70002535930": {
+      "nome_urna": "PROFESSOR ROBSON",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.6,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sindicalista e militante do movimento negro, coerente com o baseline do PSTU. Baseline do PSTU (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.plural.jor.br/robson-raymundo-da-silva/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "70002552341": {
+      "nome_urna": "EXPEDITO MENDONÇA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 7.8,
+      "motivo": "[nível b] Defende nacionalização de setores estratégicos e mobilização popular -- confirma o baseline trotskista do PCO.",
+      "fontes": [
+        "https://causaoperaria.org.br/2026/expedito-mendonca-pco-disputa-eleicoes-para-divulgar-seu-programa/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "70002551298": {
+      "nome_urna": "ELISSON",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 4.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Plataforma de responsabilidade fiscal e redução de desigualdades regionais, sem posição de costumes detalhada. Baseline do Agir (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.tribunapr.com.br/eleicoes/2026/candidatos/df/governador/elisson-agir-36/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "70002553982": {
+      "nome_urna": "RICO PINHEIRO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 2.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Foco em transporte público e saúde mental, sem posicionamento econômico/de costumes ideológico detalhado. Baseline do PRTB (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.correiobraziliense.com.br/cidades-df/2026/08/7477818-rico-pinheiro-prtb-o-transporte-publico-precisa-de-solucao.html"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "260002542491": {
+      "nome_urna": "FÁBIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6,
+      "eixo_pessoal": 5.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Governador em exercício com coligação cruzando espectro (de PT a PP), sem plataforma de costumes detalhada na busca. Baseline do PSD (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/tudo-sobre/fabio-mitidieri/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "260002532010": {
+      "nome_urna": "VALMIR DE FRANCISQUINHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 4,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível b] Declarou expressamente contra continuar 'a onda de privatizações' -- posição econômica mais estatista que o baseline do Republicanos sugeriria; eixo pessoal mantido no baseline confessional/conservador do partido.",
+      "fontes": [
+        "https://manguejornalismo.org/nao-temos-intencoes-de-dar-continuidade-a-onda-de-privatizacoes-diz-valmir-de-francisquinho-republicanos-candidato-ao-governo-de-sergipe/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "260002549466": {
+      "nome_urna": "RICARDO MARQUES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 8,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Lançado com apoio direto de Flávio Bolsonaro -- perfil bolsonarista de linha de frente, coerente com o baseline do PL. Baseline do PL (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.cartacapital.com.br/politica/sem-nomes-competitivos-pl-cogita-lancar-vice-prefeito-de-aracaju-na-disputa-pelo-governo-de-sergipe/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "260002547415": {
+      "nome_urna": "DR. HELTON",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 2.5,
+      "eixo_pessoal": 8.5,
+      "motivo": "[nível b] Médico e presidente do Sindicato dos Médicos, defende que 'a saúde precisa voltar a ser pública e humanizada' -- confirma o baseline de esquerda do PSOL, com ênfase estatizante em saúde.",
+      "fontes": [
+        "https://manguejornalismo.org/a-saude-precisa-voltar-a-ser-publica-e-humanizada-diz-dr-helton-psol-candidato-ao-governo-de-sergipe/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "260002551712": {
+      "nome_urna": "EMANUEL CACHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7,
+      "eixo_pessoal": 6,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Advogado criminalista, defende valorização de professores e duplicação de rodovias -- perfil de centro sem marca ideológica forte. Baseline do PSDB (ideologia_partidaria.json).",
+      "fontes": [
+        "https://a8se.com/noticias/politica/2026/09/16/244227-candidato-ao-governo-emanuel-cacho-psdb-defende-valorizacao-de-professores-e-duplicacao-de-rodovias-em-sabatina-da-tv-atalaia"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "260002550683": {
+      "nome_urna": "TATY CRISTINA DE JESUS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6,
+      "eixo_pessoal": 2.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sem plataforma detalhada além da linha do partido na busca. Baseline do DC (ideologia_partidaria.json).",
+      "fontes": [
+        "https://fanf1.com.br/2026/09/16/matchdovoto-conheca-as-propostas-de-taty-cristina/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "220002541939": {
+      "nome_urna": "MARCOS ROGÉRIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 8,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível b] Senador bolsonarista histórico, crítica recorrente ao STF e defesa de revisão das sentenças do 8 de janeiro -- confirma e reforça o baseline do PL.",
+      "fontes": [
+        "https://www.agenciatocantins.com.br/noticia/91126/marcos-rogerio-defende-revisao-das-sentencas-a-condenados-do-8-de-janeiro"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "b"
+    },
+    "220002542916": {
+      "nome_urna": "HILDON CHAVES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7,
+      "eixo_pessoal": 3.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Discurso de 'bom gestor que combate a corrupção', sem posicionamento de costumes detalhado. Baseline do União Brasil (ideologia_partidaria.json).",
+      "fontes": [
+        "https://newsrondonia.com.br/politica/2026/08/18/hildon-chaves-governador-tem-que-ser-excelente-gestor-e-combater-a-corrupcao"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "220002536806": {
+      "nome_urna": "ADAILTON FURIA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6,
+      "eixo_pessoal": 5.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sem plataforma detalhada além da linha do partido na busca. Baseline do PSD (ideologia_partidaria.json).",
+      "fontes": [
+        "https://obrasilianista.com.br/2026/09/21/politica/adailton-furia-candidato-governo-rondonia"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "220002542185": {
+      "nome_urna": "EXPEDITO NETTO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3,
+      "eixo_pessoal": 6.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Migrou para o PT nesta eleição; sem plataforma detalhada localizada na busca. Baseline do PT (ideologia_partidaria.json).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Expedito_Netto"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "220002551251": {
+      "nome_urna": "PEDRO ABIB",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5.5,
+      "eixo_pessoal": 4.8,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Defende planejamento, educação e agroindustrialização, sem posição de costumes detalhada. Baseline do MDB (ideologia_partidaria.json).",
+      "fontes": [
+        "https://newsrondonia.com.br/eleioes-2026/2026/08/26/pedro-abib-defende-educacao-inovacao-e-agroindustrializacao-em-candidatura-ao-governo-de-rondonia"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "220002550927": {
+      "nome_urna": "SAMUEL COSTA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3.5,
+      "eixo_pessoal": 7,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sem plataforma detalhada além da linha do partido na busca. Baseline do PSB (ideologia_partidaria.json).",
+      "fontes": [
+        "https://psb40.org.br/psb-lanca-samuel-costa-como-candidato-ao-governo-de-rondonia/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "270002544544": {
+      "nome_urna": "VICENTINHO JÚNIOR",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7,
+      "eixo_pessoal": 6,
+      "motivo": "[nível b] Discurso de 'ordem moral' combinado com propostas de saúde e descentralização; sem pauta liberal de costumes tão marcada quanto outros nomes do PSDB tradicional.",
+      "fontes": [
+        "https://www.vozdobico.com.br/principal/vicentinho-reune-liderancas-e-apoiadores-e-promete-ordem-moral-e-avancos-na-saude-do-tocantins/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "b"
+    },
+    "270002548412": {
+      "nome_urna": "ATAIDES DE OLIVEIRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 9,
+      "eixo_pessoal": 7,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Discurso de moralização e combate à corrupção, sem posição de costumes detalhada. Baseline do Novo (ideologia_partidaria.json).",
+      "fontes": [
+        "https://tocantins.jornalopcao.com.br/entrevistas/quem-e-ataies-de-oliveira-do-barracao-de-palha-ao-sonho-de-moralizar-o-tocantins-563351/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "270002544599": {
+      "nome_urna": "PROFESSORA DORINHA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 3.5,
+      "motivo": "[nível b] Compromisso com mais crédito, desburocratização e menos impostos para empresas -- confirma perfil pró-mercado; coligação com PL/Republicanos e apoio a impeachment de Moraes reforçam o eixo pessoal mais conservador que o baseline puro do União sugeriria.",
+      "fontes": [
+        "https://ogirassol.com.br/politica/professora-dorinha-se-compromete-com-mais-credito-desburocratizacao-e-trabalho-por-menos-impostos-para-empresas-no-tocantins/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "b"
+    },
+    "270002544494": {
+      "nome_urna": "LAUREZ MOREIRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6,
+      "eixo_pessoal": 5.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sem plataforma detalhada além da linha do partido na busca. Baseline do PSD (ideologia_partidaria.json).",
+      "fontes": [
+        "https://folhacapital.com.br/parlamentar/laurez-moreira-apresenta-projeto-para-um-novo-tempo-no-tocantins-e-consolida-ampla-alianca-politica-em-torno-de-candidatura-ao-governo/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "270002550458": {
+      "nome_urna": "DU PEREIRA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6,
+      "eixo_pessoal": 2.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sem plataforma de costumes detalhada além da linha do DC na busca. Baseline do DC (ideologia_partidaria.json).",
+      "fontes": [
+        "https://clebertoledo.com.br/politica/du-pereira-defende-investimento-na-transcolinas-e-centro-de-recuperacao-em-agendas-por-tres-municipios/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "270002539187": {
+      "nome_urna": "PROF WITER NAVES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 4.6,
+      "eixo_pessoal": 7.7,
+      "motivo": "[nível b] Se posiciona explicitamente como 'único nome da esquerda' na disputa, com plano de reorganização do Estado em novas estruturas públicas -- confirma o baseline progressista/estatizante moderado da Rede/PSOL.",
+      "fontes": [
+        "https://tocantins.jornalopcao.com.br/noticias/plano-de-witer-naves-propoe-reorganizacao-do-estado-em-tres-sistemas-e-criacao-de-novas-estruturas-publicas-596727/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "b"
+    },
+    "270002554375": {
+      "nome_urna": "SIQUEIRA CAMPOS JR",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 4,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Resgata legado do pai (fundador do Tocantins) e critica 'promessas tradicionais', sem posicionamento de costumes detalhado. Baseline do Democrata -- categoria ainda sem entrada própria em ideologia_partidaria.json, estimado por analogia a pequenos partidos de centro-direita fisiológicos (mesmo critério do PRD).",
+      "fontes": [
+        "https://www.jornaldotocantins.com.br/politica/eleicoes/siqueira-campos-junior-prop-e-criac-o-dos-herois-do-bem-resgata-memoria-do-pai-e-critica-promessas-tradicionais-1.3457740"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "10002544107": {
+      "nome_urna": "MAILZA ASSIS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 3.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Governadora em exercício, sem plataforma detalhada além da linha do partido na busca (cobertura concentrada nas investigações). Baseline do PP (ideologia_partidaria.json).",
+      "fontes": [
+        "https://jovempan.com.br/politica/mailza-assis-busca-nas-urnas-permanencia-no-comando-do-acreconheca/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "10002532492": {
+      "nome_urna": "ALAN RICK",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Base evangélica, sem plataforma detalhada de costumes além da linha do partido na busca. Baseline do Republicanos (ideologia_partidaria.json).",
+      "fontes": [
+        "https://republicanos10.org.br/republicanos-no-senado/alan-rick-se-filia-ao-republicanos-e-lanca-pre-candidatura-ao-governo-do-acre/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "10002544015": {
+      "nome_urna": "TIÃO BOCALOM",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7,
+      "eixo_pessoal": 6,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Discurso de 'produzir para empregar', sem posição de costumes detalhada. Baseline do PSDB (ideologia_partidaria.json).",
+      "fontes": [
+        "https://acrenews.com.br/tiao-bocalom-declara-r-121-milhao-em-patrimonio-para-disputar-o-governo-do-acre/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "10002550719": {
+      "nome_urna": "THOR DANTAS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3.5,
+      "eixo_pessoal": 7,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Chapa de frente ampla à esquerda (PSB a PT/PSOL/Rede) com Jorge Viana (PT) ao Senado; sem plataforma individual detalhada além da linha do PSB. Baseline do PSB (ideologia_partidaria.json).",
+      "fontes": [
+        "https://psb40.org.br/dr-thor-dantas-defende-infraestrutura-organizacao-da-producao-e-industrializacao-para-desenvolver-o-acre/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "10002533539": {
+      "nome_urna": "DR.LUISINHO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6.5,
+      "eixo_pessoal": 4.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Defende independência econômica e geração de empregos, sem posição de costumes detalhada. Baseline do Agir (ideologia_partidaria.json).",
+      "fontes": [
+        "https://agazetadoacre.com/2026/09/noticias/politica/dr-luisinho-defende-independencia-economica-e-geracao-de-empregos-para-transformar-o-acre/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "10002549500": {
+      "nome_urna": "EUDO RAFFAEL",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0,
+      "eixo_pessoal": 7.3,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Defende fim da terceirização na saúde, coerente com o baseline estatista do PCB. Baseline do PCB (ideologia_partidaria.json).",
+      "fontes": [
+        "https://noticiasdahora.com.br/politica/eudo-raffael-candidato-do-pcb-ao-governo-do-acre-defende-fim-da-terceirizacao-na-saude/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "30002536311": {
+      "nome_urna": "CLÉCIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7,
+      "eixo_pessoal": 3.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Coligação de espectro cruzado (de PT a Republicanos), sem plataforma de costumes detalhada localizada. Baseline do União Brasil (ideologia_partidaria.json).",
+      "fontes": [
+        "https://jovempan.com.br/politica/clecio-luis-tenta-reeleicao-para-mais-quatro-anos-no-governo-do-amapa/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "30002530014": {
+      "nome_urna": "DR. FURLAN",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6,
+      "eixo_pessoal": 5.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Quer neutralidade em relação à disputa nacional apesar de coligação com 3 partidos presidenciáveis, sem posição de costumes detalhada. Baseline do PSD (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.metropoles.com/brasil/dr-furlan-tem-3-presidenciaveis-coligados-mas-quer-ap-longe-da-disputa-nacional"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "30002552017": {
+      "nome_urna": "DELEGADO MARCOS",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 6,
+      "eixo_pessoal": 2.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Perfil de segurança pública (delegado da PF), coerente com o baseline confessional conservador do DC. Baseline do DC (ideologia_partidaria.json).",
+      "fontes": [
+        "https://www.diariodoamapa.com.br/cadernos/politica/delegado-marcos-defende-desenvolvimento-economico-e-integracao-do-hu/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "30002551388": {
+      "nome_urna": "JAIRO PALHETA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.15,
+      "eixo_pessoal": 7.8,
+      "motivo": "[nível b] Dirigente do MST (Frente Nacional de Luta Sem-Terra) -- confirma o baseline trotskista do PCO com ênfase na reforma agrária.",
+      "fontes": [
+        "https://candidatos.nexojornal.com.br/2026/ap/jairo-palheta-30002551388/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
+    },
+    "30002536313": {
+      "nome_urna": "CARLOS CLEY",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 0.5,
+      "eixo_pessoal": 8.6,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Motorista de aplicativo e dirigente sindical, coerente com o baseline trotskista do PSTU. Baseline do PSTU (ideologia_partidaria.json).",
+      "fontes": [
+        "https://ndmais.com.br/politica/quem-sao-os-candidatos-a-governador-do-amapa-em-2026-veja-a-lista/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "230002549223": {
+      "nome_urna": "ARTHUR HENRIQUE",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 8,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sem plataforma detalhada além da linha do partido na busca (cobertura concentrada no impasse jurídico da eleição suplementar). Baseline do PL (ideologia_partidaria.json).",
+      "fontes": [
+        "https://tmc.com.br/eleicoes/candidato/arthur-henrique/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "230002551571": {
+      "nome_urna": "SOLDADO SAMPAIO",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 5,
+      "eixo_pessoal": 1.5,
+      "motivo": "[nível c -- fallback de partido, SEM pesquisa individual aprofundada] Sem plataforma detalhada além da linha do partido na busca. Baseline do Republicanos (ideologia_partidaria.json).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Soldado_Sampaio"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "c"
+    },
+    "230002552060": {
+      "nome_urna": "ROSI AIRES",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 3,
+      "eixo_pessoal": 7.5,
+      "motivo": "[nível b] Plano propõe fim das escolas militarizadas, câmeras corporais na polícia e combate a garimpo ilegal/grilagem -- confirma o baseline progressista do PSOL, com ênfase ambiental/de direitos humanos.",
+      "fontes": [
+        "https://www.folhabv.com.br/politica/plano-de-rosi-aires-psol-concentra-propostas-para-educacao-saude-e-meio-ambiente/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "b"
+    },
+    "230002549294": {
+      "nome_urna": "FARAH MESQUITA",
+      "cargo_pretendido": "GOVERNADOR",
+      "eixo_economico": 7,
+      "eixo_pessoal": 6,
+      "motivo": "[nível b] Plano de governo foca atrair investimentos, estimular pequenos negócios, ampliar crédito e desenvolver garimpo regulado -- perfil pró-mercado, coerente com (e reforçando) o baseline de centro-direita do Solidariedade.",
+      "fontes": [
+        "https://www.folhabv.com.br/politica/plano-de-farah-mesquita-solidariedade-preve-emprego-saude-e-garimpo-legalizado/"
+      ],
+      "pesquisado_em": "2026-09-22",
+      "nivel_eixo_economico": "b",
+      "nivel_eixo_pessoal": "c"
     }
   }
 }

@@ -5,7 +5,9 @@
       "eixo_economico": 9,
       "eixo_pessoal": 7,
       "motivo": "Partido liberal clássico brasileiro: Estado mínimo, privatizações, baixa regulação -- sem pauta moral/de costumes conservadora institucional (diferente de PL/Republicanos). Quadrante libertário (alto nos dois eixos). Ressalva confirmada pela pesquisa individual de Zema (Presidente, mesmo partido): a posição PESSOAL de um filiado específico pode divergir bastante deste baseline -- Zema é liberal na economia mas pessoalmente conservador em costumes.",
-      "usado_em": ["André Marinho (Governador-RJ) -- eixo_pessoal, 2026-09-21"]
+      "usado_em": [
+        "André Marinho (Governador-RJ) -- eixo_pessoal, 2026-09-21"
+      ]
     },
     "PL": {
       "eixo_economico": 8,
@@ -71,7 +73,9 @@
       "eixo_economico": 6,
       "eixo_pessoal": 2.5,
       "motivo": "Democracia Cristã (ex-PSC): raiz confessional evangélica/católica, conservador em família e costumes por tradição do nome e histórico do partido, moderadamente pró-mercado.",
-      "usado_em": ["Clariana Barão (Presidente) -- eixo_pessoal, 2026-09-21"]
+      "usado_em": [
+        "Clariana Barão (Presidente) -- eixo_pessoal, 2026-09-21"
+      ]
     },
     "MDB": {
       "eixo_economico": 5.5,
@@ -83,7 +87,9 @@
       "eixo_economico": 5.5,
       "eixo_pessoal": 5.3,
       "motivo": "Partido de centro fisiológico, sem ideologia forte definida, historicamente aberto a alianças amplas -- perfil de centro puro nos dois eixos.",
-      "usado_em": ["Escritor Augusto Cury (Presidente) -- eixo_pessoal, 2026-09-21"]
+      "usado_em": [
+        "Escritor Augusto Cury (Presidente) -- eixo_pessoal, 2026-09-21"
+      ]
     },
     "PRD": {
       "eixo_economico": 5.2,
@@ -107,7 +113,9 @@
       "eixo_economico": 5,
       "eixo_pessoal": 1.5,
       "motivo": "Base evangélica (Igreja Universal): populismo econômico de centro com uso intenso de programas assistenciais, e o conservadorismo social mais consistente do espectro partidário brasileiro (anti-aborto, anti-LGBT, anti-drogas).",
-      "usado_em": ["Garotinho (Presidente e Governador-RJ) -- eixo_pessoal, 2026-09-21"]
+      "usado_em": [
+        "Garotinho (Presidente e Governador-RJ) -- eixo_pessoal, 2026-09-21"
+      ]
     },
     "SOLIDARIEDADE": {
       "eixo_economico": 4.5,
@@ -155,7 +163,9 @@
       "eixo_economico": 1.5,
       "eixo_pessoal": 8.5,
       "motivo": "Esquerda democrática/socialista, dissidência histórica do PT por à esquerda -- forte intervenção estatal e redistribuição, e a agenda mais avançada de direitos civis/minorias/liberdades individuais do espectro partidário.",
-      "usado_em": ["William Siri (Governador-RJ) -- baseline de referência, 2026-09-21"]
+      "usado_em": [
+        "William Siri (Governador-RJ) -- baseline de referência, 2026-09-21"
+      ]
     },
     "PSTU": {
       "eixo_economico": 0.5,
