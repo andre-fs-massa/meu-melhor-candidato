@@ -88,8 +88,6 @@ svg.nolan .ponto:focus-visible .anel, svg.nolan .ponto.ativo .anel { stroke: var
 .dica strong { color: var(--ink); font-size: .93rem; display: block; }
 .dica[hidden] { display: none; }
 .nolanNota { margin: 10px 0 0; color: var(--ink-2); font-size: .86rem; }
-details.tabela { margin-top: 12px; }
-details.tabela summary { cursor: pointer; color: var(--ink-2); font-size: .88rem; }
 table { border-collapse: collapse; width: 100%; font-size: .86rem; margin-top: 8px; }
 th, td { text-align: left; padding: 6px 8px; border-top: 1px solid var(--grid); vertical-align: top; }
 th { color: var(--ink-2); font-weight: 600; border-top: 0; }

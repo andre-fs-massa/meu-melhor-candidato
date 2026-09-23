@@ -314,17 +314,6 @@
     if (pv) item(v => v.append(sv("path", {d: "M8 1 L15 8 L8 15 L1 8 Z", fill: "none", stroke: "var(--ink)", "stroke-width": 2, "stroke-linejoin": "round"})), "Você");
     const indiv = g.candidatos.filter(c => c.posicao_fonte === "pesquisa individual").length;
     $("nolanNota").textContent = `Posição por pesquisa individual: ${indiv} de ${g.candidatos.length} candidatos. Os demais usam a posição do partido.`;
-
-    const tb = $("tabela"); tb.textContent = "";
-    const t = el("table"); const cab = el("tr");
-    ["Candidato", "Quadrante", "Economia", "Costumes", "Origem da posição"].forEach((h, i) => { const th = el("th", i === 2 || i === 3 ? "n" : null, h); th.scope = "col"; cab.append(th); });
-    t.append(cab);
-    g.candidatos.forEach(c => {
-      const tr = el("tr"); [tc(c.nome_urna) + " (" + c.partido + ")", QUAD[c.quadrante].curto + (c.fronteira ? " · perto do centro" : ""), fmt(c.eco), fmt(c.pes), c.posicao_fonte]
-        .forEach((v, i) => tr.append(el("td", i === 2 || i === 3 ? "n" : null, v)));
-      t.append(tr);
-    });
-    tb.append(t);
   }
 
   // ---------- cartões por quadrante (sem depender do quiz) ----------
@@ -426,7 +415,7 @@
      `Se você não sabe seu quadrante, 2 perguntas simples indicam uma posição provável, guardada só no seu navegador. Se nenhum candidato do seu quadrante (ou do vizinho) continuar na disputa, mostramos o mais próximo da sua posição entre os demais.`].forEach(t => m.append(el("li", null, t)));
     const lim = $("limites"); lim.textContent = "";
     [`Cobertura desigual: hoje só há verificação completa para Presidente e para Governador em alguns estados. Senador e deputados entram conforme a pesquisa avançar.`,
-     `A posição de quem não teve pesquisa individual é a do partido, e vem marcada como tal na tabela do diagrama. Quem está perto do centro pode pertencer ao quadrante vizinho.`,
+     `A posição de quem não teve pesquisa individual é a do partido (indicado ao passar o mouse ou focar o ponto no diagrama). Quem está perto do centro pode pertencer ao quadrante vizinho.`,
      `"Competência" mede formação e experiência declaradas, e favorece quem tem carreira eletiva ou diploma superior — não mede a qualidade do plano de governo.`,
      `O questionário de 2 perguntas ainda não foi calibrado nem testado com eleitores; uma pergunta por eixo é pouco, e respostas de meio-termo ficam "perto do centro". Ajuste sua posição manualmente se o resultado não parecer com você.`,
      `Nota 10 de idoneidade significa "nada encontrado na busca", não "nada aconteceu" — a profundidade da apuração varia, sobretudo para partidos menores.`,
