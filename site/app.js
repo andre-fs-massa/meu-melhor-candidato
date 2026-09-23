@@ -110,6 +110,17 @@
     const cl = classificarVoce(), nomes = (s) => [...s].map(k => QUAD[k].curto).join(" ou ");
     $("resTexto").textContent = `economia ${voce.eco == null ? "não informada" : fmt(voce.eco)} · costumes ${voce.pes == null ? "não informados" : fmt(voce.pes)}.`;
     $("resQuad").textContent = nomes(cl.seu) + ".";
+    // usa a cor do quadrante (mesma paleta do diagrama de Nolan) quando o quadrante é único e sem ambiguidade
+    const chaves = [...cl.seu];
+    if (chaves.length === 1) {
+      box.style.borderColor = qcor(chaves[0]);
+      box.style.background = qcorWash(chaves[0]);
+      $("resQuad").style.color = qcor(chaves[0]);
+    } else {
+      box.style.borderColor = "";
+      box.style.background = "";
+      $("resQuad").style.color = "";
+    }
   }
 
   // ---------- seletores de cargo/estado ----------
