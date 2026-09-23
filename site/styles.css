@@ -194,6 +194,11 @@ ol.metodo li::marker { color: var(--accent); font-weight: 700; }
 .limites li { margin: 0 0 6px; color: var(--ink-2); font-size: .93rem; }
 
 footer.rodape { color: var(--muted); font-size: .84rem; text-align: center; padding-top: 8px; }
+footer.rodape p { max-width: 56ch; margin: 0 auto 12px; }
+footer.rodape .rodape-links { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; align-items: center; font-size: .92rem; font-weight: 600; max-width: none; margin-bottom: 0; }
+footer.rodape .rodape-links a { color: var(--accent); text-decoration: none; }
+footer.rodape .rodape-links a:hover { text-decoration: underline; }
+footer.rodape .rodape-links .sep { color: var(--axis); font-weight: 400; }
 
 @media (max-width: 620px) {
   .grid-quadrantes { grid-template-columns: 1fr; }
