@@ -53,12 +53,10 @@
   const QUIZ = [
     {id: "eco", pergunta: "Para o país melhorar, o que deve pesar mais?",
      baixo: "Um Estado mais presente na economia: regula as empresas, cobra mais impostos e usa o dinheiro para reduzir desigualdades e garantir serviços, mesmo que isso possa desestimular investimentos.",
-     alto: "Um Estado menor: menos regras e impostos mais baixos, para que empresas e pessoas invistam e gerem riqueza, mesmo que isso deixe os mais pobres com menos proteção do governo.",
-     exemplo: "Por exemplo: manter ou vender estatais de água e luz, o tamanho dos impostos, o papel dos bancos públicos."},
+     alto: "Um Estado menor: menos regras e impostos mais baixos, para que empresas e pessoas invistam e gerem riqueza, mesmo que isso deixe os mais pobres com menos proteção do governo."},
     {id: "pes", pergunta: "Em escolhas pessoais sobre as quais a sociedade se divide, o que a lei deve priorizar?",
      baixo: "Preservar os valores morais e tradicionais da sociedade, mesmo que isso limite algumas escolhas individuais.",
-     alto: "Proteger a liberdade de cada um decidir sobre a própria vida, desde que não prejudique outras pessoas, mesmo que a sociedade em geral desaprove essas escolhas.",
-     exemplo: "Por exemplo: família, drogas, aborto."},
+     alto: "Proteger a liberdade de cada um decidir sobre a própria vida, desde que não prejudique outras pessoas, mesmo que a sociedade em geral desaprove essas escolhas."},
   ];
   const ROT_ESCALA = ["Só A", "Mais A", "Meio-termo", "Mais B", "Só B"];
   const invertido = QUIZ.map(() => Math.random() < 0.5);  // true: o polo "alto" aparece como A (evita viés de posição)
@@ -94,7 +92,6 @@
         l.append(inp, el("span", null, rot)); esc.append(l);
       });
       fs.append(esc);
-      const ex = el("details", "exemplo"); ex.append(el("summary", null, "Ver exemplos"), el("p", "nota", q.exemplo)); fs.append(ex);
       corpo.append(fs);
     });
   }
