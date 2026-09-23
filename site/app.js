@@ -355,10 +355,18 @@
     const achado = melhorParaVoce(g, cl);
     box.textContent = "";
     if (!achado) {
+      sec.style.borderColor = ""; sec.style.background = "";
       box.append(el("p", "semvoce", "Nenhum candidato deste cargo continua na disputa para comparar com a sua posição."));
       sec.hidden = false; return;
     }
-    box.append(el("p", "origem", achado.origem));
+    // usa a cor do quadrante do candidato (mesma paleta do diagrama de Nolan) para destacar a seção
+    const k = achado.candidato.quadrante;
+    sec.style.borderColor = qcor(k);
+    sec.style.background = qcorWash(k);
+    const origem = el("p", "origem", achado.origem);
+    origem.style.background = qcorWash(k);
+    origem.style.color = qcor(k);
+    box.append(origem);
     box.append(blocoCandidato(achado.candidato));
     sec.hidden = false;
   }
