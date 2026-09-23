@@ -7,3 +7,6 @@ data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# arquivos de teste temporários (screenshots/DOM dumps usados para verificar o site antes de publicar)
+site/_*
