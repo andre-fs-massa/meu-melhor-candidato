@@ -109,7 +109,7 @@
     box.hidden = false;
     const cl = classificarVoce(), nomes = (s) => [...s].map(k => QUAD[k].curto).join(" ou ");
     $("resTexto").textContent = `economia ${voce.eco == null ? "não informada" : fmt(voce.eco)} · costumes ${voce.pes == null ? "não informados" : fmt(voce.pes)}.`;
-    $("resQuad").textContent = "Seu quadrante: " + nomes(cl.seu) + ".";
+    $("resQuad").textContent = nomes(cl.seu) + ".";
   }
 
   // ---------- seletores de cargo/estado ----------

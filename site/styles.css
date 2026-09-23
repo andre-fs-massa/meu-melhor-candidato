@@ -176,6 +176,8 @@ fieldset.pergunta legend { font-weight: 700; padding: 0 6px; font-size: .98rem; 
 .op input { margin: 0; }
 .resultado { margin-top: 4px; padding: 14px 16px; border: 1px solid var(--accent); border-radius: var(--radius-sm); background: var(--accent-wash); color: var(--ink); }
 .resultado p { margin: 0 0 6px; }
+.resultado .quadrante-destaque { font-size: 1.2rem; margin: 0 0 8px; }
+.resultado .quadrante-destaque strong { color: var(--accent); }
 .acoes { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
 
 /* ---------- metodologia ---------- */
