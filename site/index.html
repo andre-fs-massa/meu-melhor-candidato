@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meu melhor candidato</title>
+<meta name="description" content="Encontre o candidato político com mais integridade, competência e alinhamento ideológico com você!">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="topbar"><button class="themebtn" id="btnTema" type="button" aria-pressed="false">Modo escuro</button></div>
+<div class="wrap">
+
+  <header class="hero">
+    <p class="eyebrow">Eleições 2026 · 1º turno em 4 de outubro</p>
+    <h1>Meu melhor candidato</h1>
+    <p class="lead">Encontre o candidato político com mais integridade, competência e alinhamento ideológico com você!</p>
+    <div class="aviso" id="avisoGeral"><strong>Dados em construção.</strong> Só mostramos cargos e estados em que todos os candidatos tiveram a idoneidade pesquisada. As notas são uma avaliação própria do projeto, feita a partir de fontes públicas — não são um índice oficial.</div>
+  </header>
+
+  <section class="card-section" id="secEscolha">
+    <div class="campos">
+      <div class="campo">
+        <label for="cargo">Qual cargo?</label>
+        <select id="cargo"></select>
+      </div>
+      <div class="campo" id="campoUf" hidden>
+        <label for="uf">Qual é o seu estado?</label>
+        <select id="uf"></select>
+      </div>
+    </div>
+    <p class="status" id="cobertura" role="status"></p>
+  </section>
+
+  <div id="fluxo" hidden>
+
+    <section class="card-section" id="secQuadrantes">
+      <h2>Os melhores candidatos por quadrante</h2>
+      <p class="sub">Cada candidato é posicionado no diagrama de Nolan por dois eixos: o quanto defende o Estado presente na economia e o quanto é liberal nos costumes. Em cada um dos quatro quadrantes, mostramos quem tem a maior qualificação geral (idoneidade + competência) entre os que continuam na disputa.</p>
+      <figure>
+        <div class="legenda" id="legenda"></div>
+        <svg class="nolan" id="nolan" viewBox="0 0 440 470" role="group" aria-label="Diagrama de Nolan com a posição dos candidatos"></svg>
+        <figcaption class="nolanNota" id="nolanNota"></figcaption>
+      </figure>
+      <details class="tabela"><summary>Ver como tabela</summary><div id="tabela"></div></details>
+      <div class="grid-quadrantes" id="cardsQuadrantes"></div>
+    </section>
+
+    <section class="card-section" id="secDescubra">
+      <h2>Não sabe qual é o seu posicionamento ideológico?</h2>
+      <p class="sub">Responda estas 2 perguntas simples para descobrir.</p>
+      <p class="privacidade">Suas respostas ficam só neste navegador: não são enviadas nem guardadas em nenhum servidor.</p>
+      <div id="quizCorpo"></div>
+      <div class="resultado" id="resultadoQuiz" role="region" aria-label="Sua posição" aria-live="polite" hidden>
+        <p><strong>Sua posição provável:</strong> <span id="resTexto"></span></p>
+        <p id="resQuad"></p>
+        <p class="nota" id="resNota"></p>
+        <div class="ajuste">
+          <label><span id="rotEco"></span><input type="range" id="selEco" min="0" max="10" step="0.5"></label>
+          <label><span id="rotPes"></span><input type="range" id="selPes" min="0" max="10" step="0.5"></label>
+        </div>
+        <div class="acoes"><button class="btn" id="btnTodos" type="button">Ignorar minha posição</button><button class="btn" id="btnRefazer" type="button">Refazer as perguntas</button></div>
+      </div>
+    </section>
+
+    <section class="card-section destaque" id="secSeuCandidato" hidden>
+      <h2>O melhor candidato para você</h2>
+      <div id="blocoSeuCandidato"></div>
+    </section>
+
+    <section class="card-section" id="secTodos">
+      <h2>Todos os candidatos</h2>
+      <p class="sub" id="todosSub"></p>
+      <div class="resumo" id="resumo"></div>
+      <ol class="lista" id="listaTodos"></ol>
+    </section>
+
+    <section class="card-section" id="secMetodologia">
+      <h2>Como calculamos o ranking</h2>
+      <ol class="metodo" id="metodo"></ol>
+      <p class="nota" style="margin:0 0 6px"><strong>Limites que você deve saber:</strong></p>
+      <ul class="limites" id="limites"></ul>
+      <p class="nota" id="rodape"></p>
+    </section>
+
+  </div>
+
+  <footer class="rodape">
+    <p>Projeto independente de avaliação de candidatos criado por André Felipe Suzano Massa. Nenhuma nota substitui ler o plano de governo de cada candidato.</p>
+    <p><strong>Este site usa inteligência artificial</strong> para buscar informações e gerar o conteúdo apresentado — por isso pode haver erros ou imprecisões.</p>
+    <p>Encontrou um erro ou quer fazer uma crítica construtiva? Escreva para <a href="mailto:contact@afsm.me">contact@afsm.me</a>.</p>
+  </footer>
+</div>
+<div class="dica" id="dica" hidden></div>
+<script src="dados.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

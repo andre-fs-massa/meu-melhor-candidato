@@ -21,7 +21,8 @@ from .recomendar import (
     VAGAS_POR_QUADRANTE, preparar, recomendar,
 )
 
-SAIDA = config.RAW_DIR.parent.parent / "prototipo" / "dados.js"
+RAIZ = config.RAW_DIR.parent.parent
+SAIDAS = [RAIZ / "prototipo" / "dados.js", RAIZ / "site" / "dados.js"]
 ROTULO_CARGO = {
     "PRESIDENTE": "Presidente", "GOVERNADOR": "Governador", "SENADOR": "Senador",
     "DEPUTADO FEDERAL": "Deputado federal", "DEPUTADO ESTADUAL": "Deputado estadual", "DEPUTADO DISTRITAL": "Deputado distrital",
@@ -133,12 +134,15 @@ def construir(df: pd.DataFrame) -> dict:
 def main() -> None:
     df = preparar(pd.read_parquet(INPUT_PATH))
     dados = construir(df)
-    SAIDA.parent.mkdir(parents=True, exist_ok=True)
-    SAIDA.write_text("// Gerado por pipeline/exportar_prototipo.py -- não editar à mão.\nconst DADOS = "
-                     + json.dumps(dados, ensure_ascii=False, indent=1) + ";\n", encoding="utf-8")
+    texto = ("// Gerado por pipeline/exportar_prototipo.py -- não editar à mão.\nconst DADOS = "
+              + json.dumps(dados, ensure_ascii=False, indent=1) + ";\n")
+    for saida in SAIDAS:
+        saida.parent.mkdir(parents=True, exist_ok=True)
+        saida.write_text(texto, encoding="utf-8")
     verif = [k for k, v in dados["grupos"].items() if v["status"] != "sem_verificacao"]
     print(f"{len(dados['grupos'])} grupos cargo/UF; {len(verif)} com verificação: {', '.join(verif)}")
-    print(f"Salvo em {SAIDA} ({SAIDA.stat().st_size / 1024:.0f} KB)")
+    for saida in SAIDAS:
+        print(f"Salvo em {saida} ({saida.stat().st_size / 1024:.0f} KB)")
 
 
 if __name__ == "__main__":
