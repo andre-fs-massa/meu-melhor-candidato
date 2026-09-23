@@ -174,7 +174,6 @@ fieldset.pergunta legend { font-weight: 700; padding: 0 6px; font-size: .98rem; 
 .op:has(input:checked) { border-color: var(--accent); background: var(--accent-wash); color: var(--ink); font-weight: 600; }
 .op:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
 .op input { margin: 0; }
-.op.nr { flex-direction: row; justify-content: center; margin-top: 8px; width: fit-content; padding: 6px 12px; }
 .exemplo { margin-top: 8px; font-size: .87rem; }
 .exemplo summary { cursor: pointer; color: var(--ink-2); }
 .resultado { margin-top: 4px; padding: 14px 16px; border: 1px solid var(--accent); border-radius: var(--radius-sm); background: var(--accent-wash); color: var(--ink); }

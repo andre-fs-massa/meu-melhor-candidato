@@ -62,7 +62,7 @@
   ];
   const ROT_ESCALA = ["Só A", "Mais A", "Meio-termo", "Mais B", "Só B"];
   const invertido = QUIZ.map(() => Math.random() < 0.5);  // true: o polo "alto" aparece como A (evita viés de posição)
-  const respostas = {};  // id -> 0-10 | null (prefiro não responder) | undefined (não respondeu)
+  const respostas = {};  // id -> 0-10 | undefined (não respondeu ainda)
   let voce = null;       // {eco, pes} em 0-10 (null = desconhecido) ou null
 
   const LADOS = (v) => v == null ? {main: null, alts: ["low", "high"]}
@@ -94,9 +94,6 @@
         l.append(inp, el("span", null, rot)); esc.append(l);
       });
       fs.append(esc);
-      const nr = el("label", "op nr"), inr = document.createElement("input"); inr.type = "radio"; inr.name = "q_" + q.id; inr.dataset.valor = "nr";
-      inr.addEventListener("change", () => { respostas[q.id] = null; atualizarVoce(true); });
-      nr.append(inr, el("span", null, "Prefiro não responder")); fs.append(nr);
       const ex = el("details", "exemplo"); ex.append(el("summary", null, "Ver exemplos"), el("p", "nota", q.exemplo)); fs.append(ex);
       corpo.append(fs);
     });
