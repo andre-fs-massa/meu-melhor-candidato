@@ -163,8 +163,7 @@
   }
 
   // ---------- cartão de candidato reaproveitado (quadrantes, seu candidato) ----------
-  function blocoCandidato(c, opts) {
-    opts = opts || {};
+  function blocoCandidato(c) {
     const b = el("div", "cand");
     b.append(el("div", "nomegrande", tc(c.nome_urna)), el("div", "nota", `${c.partido} · número ${c.numero}`));
     const sj = subJudice(c);
@@ -175,14 +174,10 @@
     b.append(el("p", "nota", `Posição: economia ${fmt(c.eco)} · costumes ${fmt(c.pes)} (${c.posicao_fonte}). ${c.camadas} de 5 camadas pesquisadas.`));
     if (c.fronteira) b.append(el("p", "nota", "Está perto do centro do diagrama: pode se identificar também com a posição vizinha."));
     if (c.empate > 1) b.append(el("p", "nota", `Empatou com outros ${c.empate - 1} candidatos na última vaga; o desempate foi por sorteio.`));
-    if (opts.expandido) {
-      b.append(detalhe(c));
-    } else {
-      const btn = el("button", "btn", "Notas, achados e fontes"); btn.type = "button"; btn.setAttribute("aria-expanded", "false");
-      const det = detalhe(c); det.hidden = true;
-      btn.addEventListener("click", () => { const abre = det.hidden; det.hidden = !abre; btn.setAttribute("aria-expanded", String(abre)); });
-      b.append(btn, det);
-    }
+    const btn = el("button", "btn", "Notas, achados e fontes"); btn.type = "button"; btn.setAttribute("aria-expanded", "false");
+    const det = detalhe(c); det.hidden = true;
+    btn.addEventListener("click", () => { const abre = det.hidden; det.hidden = !abre; btn.setAttribute("aria-expanded", String(abre)); });
+    b.append(btn, det);
     return b;
   }
 
@@ -353,7 +348,7 @@
       sec.hidden = false; return;
     }
     box.append(el("p", "origem", achado.origem));
-    box.append(blocoCandidato(achado.candidato, {expandido: true}));
+    box.append(blocoCandidato(achado.candidato));
     sec.hidden = false;
   }
 
