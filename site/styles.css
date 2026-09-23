@@ -176,9 +176,6 @@ fieldset.pergunta legend { font-weight: 700; padding: 0 6px; font-size: .98rem; 
 .op input { margin: 0; }
 .resultado { margin-top: 4px; padding: 14px 16px; border: 1px solid var(--accent); border-radius: var(--radius-sm); background: var(--accent-wash); color: var(--ink); }
 .resultado p { margin: 0 0 6px; }
-.ajuste { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 18px; margin: 10px 0; }
-.ajuste label { color: var(--ink); font-size: .88rem; display: grid; gap: 4px; }
-.ajuste input[type=range] { width: 100%; accent-color: var(--accent); }
 .acoes { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
 
 /* ---------- metodologia ---------- */
@@ -192,7 +189,7 @@ footer.rodape { color: var(--muted); font-size: .84rem; text-align: center; padd
 
 @media (max-width: 620px) {
   .grid-quadrantes { grid-template-columns: 1fr; }
-  .polos, .ajuste { grid-template-columns: 1fr; }
+  .polos { grid-template-columns: 1fr; }
   .op { font-size: .72rem; padding: 7px 2px; }
   .linha > button { grid-template-columns: 1fr auto; }
   .linha > button .notas3 { grid-column: 1 / -1; grid-row: 2; }

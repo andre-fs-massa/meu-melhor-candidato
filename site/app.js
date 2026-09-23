@@ -100,20 +100,16 @@
       const r = QUIZ.map(q => respostas[q.id]);
       voce = r.every(v => v == null) ? null : {eco: r[0] == null ? null : r[0], pes: r[1] == null ? null : r[1]};
     }
-    renderVoce(dosRadios);
+    renderVoce();
     if (atual) { renderNolan(atual); renderSeuCandidato(atual); }
   }
-  function renderVoce(atualizaSliders) {
+  function renderVoce() {
     const box = $("resultadoQuiz");
     if (!voce) { box.hidden = true; return; }
     box.hidden = false;
     const cl = classificarVoce(), nomes = (s) => [...s].map(k => QUAD[k].curto).join(" ou ");
     $("resTexto").textContent = `economia ${voce.eco == null ? "não informada" : fmt(voce.eco)} · costumes ${voce.pes == null ? "não informados" : fmt(voce.pes)}.`;
-    $("resQuad").textContent = "Seu quadrante: " + nomes(cl.seu) + "." + (cl.viz.size ? " Perto do centro em pelo menos um eixo: também pode se identificar com " + nomes(cl.viz) + "." : "");
-    $("resNota").textContent = (voce.eco == null || voce.pes == null ? "Falta informar um dos eixos; mostramos os dois lados dele. " : "") + "Ajuste os controles abaixo se o resultado não parecer com você.";
-    $("rotEco").textContent = `Economia: ${voce.eco == null ? "?" : fmt(voce.eco)} (0 = mais Estado · 10 = mais livre mercado)`;
-    $("rotPes").textContent = `Costumes: ${voce.pes == null ? "?" : fmt(voce.pes)} (0 = mais conservador · 10 = mais liberal)`;
-    if (atualizaSliders) { $("selEco").value = voce.eco == null ? 5 : voce.eco; $("selPes").value = voce.pes == null ? 5 : voce.pes; }
+    $("resQuad").textContent = "Seu quadrante: " + nomes(cl.seu) + ".";
   }
 
   // ---------- seletores de cargo/estado ----------
@@ -443,11 +439,6 @@
     $("uf").addEventListener("change", render);
     montarQuiz();
     renderMetodologia();
-    ["Eco", "Pes"].forEach(k => $("sel" + k).addEventListener("input", (ev) => {
-      voce = voce || {eco: null, pes: null}; voce[k.toLowerCase()] = Number(ev.target.value);
-      atualizarVoce(false);
-    }));
-    $("btnTodos").addEventListener("click", () => { voce = null; atualizarVoce(false); });
     $("btnRefazer").addEventListener("click", () => {
       Object.keys(respostas).forEach(k => delete respostas[k]);
       document.querySelectorAll("#quizCorpo input[type=radio]").forEach(r => { r.checked = false; });
