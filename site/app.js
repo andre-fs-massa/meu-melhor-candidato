@@ -361,6 +361,8 @@
     const abaixo = g.candidatos.filter(c => c.situacao === "abaixo_do_corte").length;
     const r = $("resumo"); r.textContent = "";
     [[g.candidatos.length, "candidatos"], [fora, "fora da disputa"], [abaixo, "abaixo do corte"], [rec, "continuam na disputa"]].forEach(([n, t]) => { const s = el("span"); s.append(el("b", null, String(n)), document.createTextNode(" " + t)); r.append(s); });
+    $("detalheTodos").open = false;
+    $("resumoToggle").textContent = `Ver a lista completa dos ${g.candidatos.length} candidatos`;
 
     const ordenados = g.candidatos.slice().sort((a, b) => (b.qualificacao_geral ?? -1) - (a.qualificacao_geral ?? -1) || a.nome_urna.localeCompare(b.nome_urna, "pt-BR"));
     const ol = $("listaTodos"); ol.textContent = "";

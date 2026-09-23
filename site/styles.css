@@ -142,6 +142,12 @@ td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
 /* ---------- lista de todos os candidatos ---------- */
 .resumo { display: flex; gap: 8px 20px; flex-wrap: wrap; margin: 0 0 14px; color: var(--ink-2); font-size: .9rem; }
 .resumo b { color: var(--ink); font-size: 1.08rem; }
+details.expansor summary { cursor: pointer; font-weight: 600; color: var(--accent); padding: 8px 0; list-style: none; }
+details.expansor summary::-webkit-details-marker { display: none; }
+details.expansor summary::before { content: "▸ "; display: inline-block; transition: transform .15s ease; }
+details.expansor[open] summary::before { transform: rotate(90deg); }
+details.expansor summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+details.expansor[open] summary { margin-bottom: 4px; }
 ol.lista { list-style: none; margin: 0; padding: 0; }
 .linha { border-top: 1px solid var(--grid); }
 .linha:first-child { border-top: 0; }
