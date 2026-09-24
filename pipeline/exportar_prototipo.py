@@ -1,4 +1,4 @@
-"""Exporta os dados do protótipo do eleitor (prototipo/dados.js) a partir do funil de recomendação.
+"""Exporta os dados do protótipo do eleitor (site/dados.js) a partir do funil de recomendação.
 
 Uma única fonte da verdade: as recomendações vêm de `pipeline.recomendar.recomendar`, com o corte e a
 política de não avaliados padrão (corte 6,0; só recomenda quem tem idoneidade geral verificada). Para cada
@@ -22,7 +22,7 @@ from .recomendar import (
 )
 
 RAIZ = config.RAW_DIR.parent.parent
-SAIDAS = [RAIZ / "prototipo" / "dados.js", RAIZ / "site" / "dados.js"]
+SAIDAS = [RAIZ / "site" / "dados.js"]
 ROTULO_CARGO = {
     "PRESIDENTE": "Presidente", "GOVERNADOR": "Governador", "SENADOR": "Senador",
     "DEPUTADO FEDERAL": "Deputado federal", "DEPUTADO ESTADUAL": "Deputado estadual", "DEPUTADO DISTRITAL": "Deputado distrital",

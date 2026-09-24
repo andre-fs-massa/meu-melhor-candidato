@@ -1,7 +1,7 @@
 // Gerado por pipeline/exportar_prototipo.py -- não editar à mão.
 const DADOS = {
  "meta": {
-  "gerado_em": "2026-09-23",
+  "gerado_em": "2026-09-24",
   "corte": 6.0,
   "limiar": 5.0,
   "margem_fronteira": 0.5,

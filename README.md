@@ -20,7 +20,6 @@ experiência) e **alinhamento ideológico** (diagrama de Nolan). 1º turno em 4 
 | `data/reference/` | **A fonte de verdade da pesquisa manual**: achados, apoiadores/círculo político, ideologia partidária, experiência política/profissional — cada um com as fontes usadas. |
 | `data/raw/`, `data/processed/` | Dados baixados do TSE e o resultado processado do pipeline. Não versionados (grandes e regeráveis) — ver `.gitignore`. |
 | `site/` | O site publicado: HTML/CSS/JS estático, sem build, consumindo `site/dados.js` (gerado pelo pipeline). |
-| `prototipo/` | Protótipo interno anterior ao `site/`, mantido por histórico. |
 | `docs/` | Metodologia detalhada do funil de recomendação. |
 
 ## Como rodar localmente
@@ -46,7 +45,7 @@ pip install -r requirements.txt
    python -m pipeline.mapear_escolaridade
    python -m pipeline.calcular_competencia_geral
    python -m pipeline.calcular_cobertura
-   python -m pipeline.exportar_prototipo        # gera prototipo/dados.js e site/dados.js
+   python -m pipeline.exportar_prototipo        # gera site/dados.js
    ```
 
    Qualquer linha `Aviso:` no stderr indica uma nota que diverge das tabelas de peso em `pipeline/pesos.py` —
