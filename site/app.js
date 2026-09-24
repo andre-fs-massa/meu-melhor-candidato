@@ -48,6 +48,13 @@
   const qcor = (chave) => `var(--${QCLASSE[chave]})`;
   const qcorWash = (chave) => `var(--${QCLASSE[chave]}-wash)`;
   let atual = null;
+  let ultimoGrupo = null;  // "cargo|uf" do último evento enviado ao GA (evita duplicar)
+  let acaoAtual = "carga"; // o que disparou o render: "carga" | "cargo" | "uf" (trocar o cargo preenche um UF padrão sozinho)
+
+  // Evento de uso agregado para o Google Analytics. Nunca envia respostas do quiz nem a posição do usuário.
+  function rastrear(nome, params) {
+    try { if (typeof gtag === "function") gtag("event", nome, params); } catch (e) { /* GA bloqueado: ignora */ }
+  }
 
   // ---------- "Você": quiz de 2 perguntas. Nada disto é enviado ou guardado além do próprio navegador ----------
   const QUIZ = [
@@ -480,6 +487,12 @@
   // ---------- render principal ----------
   function render() {
     const cargo = $("cargo").value, uf = ufAtual(cargo), g = GRUPOS[cargo + "|" + uf];
+    const chave = cargo + "|" + uf;
+    if (chave !== ultimoGrupo) {
+      rastrear("selecionar_grupo", { cargo: cargo, uf: uf, acao: acaoAtual });
+      ultimoGrupo = chave;
+    }
+    acaoAtual = "carga";
     history.replaceState(null, "", "#" + cargo + "|" + uf);
     const onde = CARGO[cargo].rotulo + (uf === "BR" ? "" : " · " + UF_NOME[uf]);
     if (!g || g.status === "sem_verificacao") {
@@ -499,8 +512,8 @@
     const h = decodeURIComponent(location.hash.slice(1)).split("|");
     const cargo = CARGO[h[0]] ? h[0] : "PRESIDENTE";
     $("cargo").value = cargo; preencherUfs(cargo, h[1]);
-    $("cargo").addEventListener("change", () => { preencherUfs($("cargo").value); render(); });
-    $("uf").addEventListener("change", render);
+    $("cargo").addEventListener("change", () => { preencherUfs($("cargo").value); acaoAtual = "cargo"; render(); });
+    $("uf").addEventListener("change", () => { acaoAtual = "uf"; render(); });
     montarQuiz();
     renderMetodologia();
     $("btnRefazer").addEventListener("click", () => {
