@@ -13,6 +13,7 @@ import sys
 import pandas as pd
 
 from . import config
+from .gerar_estrutural_deputados import CARGOS as CARGOS_ESTRUTURAIS
 from .pesos import calcular_nota, formatar_achados
 
 REFERENCE_PATH = config.RAW_DIR.parent / "reference" / "idoneidade.json"
@@ -78,7 +79,7 @@ def main() -> None:
     n_pesquisados = resultado["nota_idoneidade"].notna().sum()
     print(f"{n_pesquisados} candidatos com nota de idoneidade aplicada")
     print(
-        resultado[resultado["nota_idoneidade"].notna() & (resultado["cargo"] != "DEPUTADO FEDERAL")]
+        resultado[resultado["nota_idoneidade"].notna() & ~resultado["cargo"].isin(CARGOS_ESTRUTURAIS)]
         .sort_values("nota_idoneidade")[["nome_urna", "nota_idoneidade"]]
         .to_string()
     )

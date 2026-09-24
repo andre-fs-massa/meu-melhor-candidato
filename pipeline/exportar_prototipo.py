@@ -6,9 +6,14 @@ cargo/UF com pelo menos um candidato verificado, exporta TODOS os candidatos com
 (fora da disputa, abaixo do corte, segue, recomendado) e os motivos estruturados das notas. Cargo/UF sem
 nenhum candidato verificado exporta só as contagens, e a página mostra "ainda sem verificação".
 
+Formato: `site/dados.js` é só o índice; cada cargo/UF com candidatos vai para `site/dados/<cargo>_<uf>.js`, carregado
+sob demanda pelo site.
+
 Uso: python -m pipeline.exportar_prototipo
 """
+import hashlib
 import json
+import shutil
 from collections import Counter
 from datetime import date
 
@@ -217,18 +222,47 @@ def deduplicar(dados: dict) -> dict:
     return dados
 
 
+def dividir_por_grupo(dados: dict) -> tuple:
+    """Separa `dados` em (índice, {arquivo relativo: texto}). O índice (site/dados.js) fica leve: metadados, contagens e
+    status de cada grupo, tabelas de valores repetidos. Cada cargo/UF com candidatos vira um arquivo próprio
+    (site/dados/<cargo>_<uf>.js) que o site baixa só quando o eleitor escolhe aquele grupo."""
+    arquivos, indice = {}, dict(dados)
+    indice["grupos"] = {}
+    for chave, g in dados["grupos"].items():
+        if "candidatos" not in g:
+            indice["grupos"][chave] = g
+            continue
+        nome = f"dados/{g['cargo'].lower().replace(' ', '_')}_{g['uf'].lower()}.js"
+        corpo = {"candidatos": g["candidatos"], "recomendados": g["recomendados"]}
+        arquivos[nome] = ("window.GRUPOS_CARREGADOS = window.GRUPOS_CARREGADOS || {};\nwindow.GRUPOS_CARREGADOS["
+                          + json.dumps(chave) + "] = " + json.dumps(corpo, ensure_ascii=False, separators=(",", ":")) + ";\n")
+        indice["grupos"][chave] = {k: v for k, v in g.items() if k not in corpo} | {"arquivo": nome}
+    # versão do conteúdo: o site a põe na URL de cada arquivo (?v=), para ninguém ficar com um grupo antigo em cache
+    resumo = hashlib.sha1(json.dumps(indice, sort_keys=True, ensure_ascii=False).encode())
+    for nome in sorted(arquivos):
+        resumo.update(arquivos[nome].encode())
+    indice["versao"] = resumo.hexdigest()[:10]
+    return indice, arquivos
+
+
 def main() -> None:
     df = preparar(pd.read_parquet(INPUT_PATH))
-    dados = deduplicar(construir(df))
-    texto = ("// Gerado por pipeline/exportar_prototipo.py -- não editar à mão.\nconst DADOS = "
-              + json.dumps(dados, ensure_ascii=False, indent=1) + ";\n")
+    indice, arquivos = dividir_por_grupo(deduplicar(construir(df)))
+    texto = ("// Gerado por pipeline/exportar_prototipo.py -- não editar à mão. Índice: cada cargo/UF tem o seu arquivo em dados/.\n"
+             "const DADOS = " + json.dumps(indice, ensure_ascii=False, indent=1) + ";\n")
     for saida in SAIDAS:
-        saida.parent.mkdir(parents=True, exist_ok=True)
-        saida.write_text(texto, encoding="utf-8")
-    verif = [k for k, v in dados["grupos"].items() if v["status"] != "sem_verificacao"]
-    print(f"{len(dados['grupos'])} grupos cargo/UF; {len(verif)} com verificação: {', '.join(verif)}")
+        pasta = saida.parent / "dados"
+        shutil.rmtree(pasta, ignore_errors=True)  # o exportador é o dono desta pasta: não sobram grupos antigos
+        pasta.mkdir(parents=True, exist_ok=True)
+        saida.write_text(texto, encoding="utf-8", newline="\n")
+        for nome, corpo in arquivos.items():
+            (saida.parent / nome).write_text(corpo, encoding="utf-8", newline="\n")
+    verif = [k for k, v in indice["grupos"].items() if v["status"] != "sem_verificacao"]
+    print(f"{len(indice['grupos'])} grupos cargo/UF; {len(verif)} com verificação (versão {indice['versao']})")
     for saida in SAIDAS:
-        print(f"Salvo em {saida} ({saida.stat().st_size / 1024:.0f} KB)")
+        tam = [(saida.parent / n).stat().st_size for n in arquivos]
+        print(f"Índice {saida} ({saida.stat().st_size / 1024:.0f} KB) + {len(arquivos)} arquivos em dados/ "
+              f"(soma {sum(tam) / 1e6:.1f} MB, maior {max(tam) / 1024:.0f} KB)")
 
 
 if __name__ == "__main__":

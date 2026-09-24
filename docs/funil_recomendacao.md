@@ -6,7 +6,7 @@ Código: `pipeline/recomendar.py`. Rodar: `python -m pipeline.recomendar --cargo
 ## Protótipo ponta a ponta
 
 Página: `site/index.html` (funciona por duplo clique, sem servidor; o protótipo antigo `prototipo/` foi aposentado em 2026-09-24). Os dados vêm de
-`site/dados.js`, gerado por `python -m pipeline.exportar_prototipo` a partir do próprio funil (corte 6,0; só recomenda
+`site/dados.js` (só o índice) e de um arquivo por cargo/UF em `site/dados/`, baixado sob demanda, gerados por `python -m pipeline.exportar_prototipo` a partir do próprio funil (corte 6,0; só recomenda
 quem tem idoneidade geral verificada). Sempre que o pipeline rodar de novo, regerar o `dados.js`.
 Hoje há 4 combinações liberadas (Presidente, Governador de MG, RJ e SP); as outras 105 mostram "ainda sem verificação".
 A página tem: seleção de cargo/estado, lista com o motivo de cada saída, diagrama de Nolan interativo (com versão em

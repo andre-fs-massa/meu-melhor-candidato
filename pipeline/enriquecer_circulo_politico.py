@@ -13,6 +13,7 @@ import sys
 import pandas as pd
 
 from . import config
+from .gerar_estrutural_deputados import CARGOS as CARGOS_ESTRUTURAIS
 from .pesos import PESOS_CACIQUE, soma_descontos
 
 REFERENCE_PATH = config.RAW_DIR.parent / "reference" / "circulo_politico.json"
@@ -166,12 +167,12 @@ def main() -> None:
     n_pesquisados = resultado["nota_circulo_politico"].notna().sum()
     print(f"{n_pesquisados} candidatos com nota de círculo político aplicada")
     print(
-        resultado[resultado["nota_circulo_politico"].notna() & (resultado["cargo"] != "DEPUTADO FEDERAL")]
+        resultado[resultado["nota_circulo_politico"].notna() & ~resultado["cargo"].isin(CARGOS_ESTRUTURAIS)]
         .sort_values(["cargo", "nota_circulo_politico"])[["nome_urna", "cargo", "nota_circulo_politico"]]
         .to_string()
     )
-    print("Nota de círculo político dos deputados federais (estrutural):")
-    print(resultado[resultado["cargo"] == "DEPUTADO FEDERAL"]["nota_circulo_politico"].value_counts().sort_index().to_string())
+    print("Nota de círculo político dos deputados (estrutural), por cargo:")
+    print(resultado[resultado["cargo"].isin(CARGOS_ESTRUTURAIS)].groupby("cargo")["nota_circulo_politico"].value_counts().sort_index().to_string())
 
     resultado.to_parquet(OUTPUT_PARQUET, index=False)
     resultado.to_csv(OUTPUT_CSV, index=False, encoding="utf-8")

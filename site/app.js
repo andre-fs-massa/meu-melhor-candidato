@@ -6,14 +6,31 @@
     return;
   }
 
-  // dados.js guarda uma vez só os valores repetidos (DADOS.tabelas) e deixa em cada candidato o índice;
-  // aqui cada índice volta a ser o valor original, então o resto do código não muda (valores compartilhados, só leitura).
-  (function expandirTabelas() {
+  // dados.js é só o índice: cada cargo/UF tem o seu arquivo (g.arquivo), baixado na primeira vez que é escolhido.
+  // Os valores repetidos ficam em DADOS.tabelas e o candidato guarda só o índice; ao carregar o grupo, cada índice
+  // volta a ser o valor original, então o resto do código não muda (valores compartilhados, só leitura).
+  function expandirGrupo(g) {
     const T = DADOS.tabelas || {};
-    Object.values(DADOS.grupos).forEach(g => (g.candidatos || []).forEach(c => {
-      Object.keys(T).forEach(campo => { if (typeof c[campo] === "number") c[campo] = T[campo][c[campo]]; });
-    }));
-  })();
+    g.candidatos.forEach(c => Object.keys(T).forEach(campo => { if (typeof c[campo] === "number") c[campo] = T[campo][c[campo]]; }));
+  }
+  function carregarGrupo(chave, g) {
+    if (g.candidatos) return Promise.resolve(g);
+    if (!g.carregando) {
+      g.carregando = new Promise((ok, falha) => {
+        const s = document.createElement("script");
+        s.src = g.arquivo + "?v=" + DADOS.versao;
+        s.onload = () => {
+          const dados = (window.GRUPOS_CARREGADOS || {})[chave];
+          if (!dados) return falha(new Error("grupo ausente no arquivo"));
+          Object.assign(g, dados); expandirGrupo(g); s.remove(); ok(g);
+        };
+        s.onerror = () => { s.remove(); falha(new Error("falha ao baixar o arquivo do grupo")); };
+        document.head.append(s);
+      });
+      g.carregando.catch(() => { g.carregando = null; });  // permite tentar de novo na próxima escolha
+    }
+    return g.carregando;
+  }
 
   // ---------- tema (só conveniência local, nunca enviado) ----------
   (function tema() {
@@ -522,7 +539,7 @@
      `Cada candidato mostra a profundidade da pesquisa (verificação estrutural, rápida, padrão ou aprofundada) e o resultado da conferência automática, por CPF, em bases oficiais: contas julgadas irregulares pelo TCU, motivos de indeferimento no TSE em 2022, sanções do CEIS, CNEP e CEAF e autos de infração do Ibama.`,
      `Se você não sabe seu quadrante, 2 perguntas simples indicam uma posição provável, que não é armazenada. Se nenhum candidato do seu quadrante (ou do vizinho) continuar na disputa, mostramos o mais próximo da sua posição entre os demais.`].forEach(t => m.append(el("li", null, t)));
     const lim = $("limites"); lim.textContent = "";
-    [`Cobertura desigual: Presidente, Governador e Senador têm pesquisa individual na internet em todos os estados. Deputado federal tem só verificação estrutural: círculo político (presidente do partido), cargos eletivos de 2014 a 2024 e conferência em bases oficiais; ali, nota 10 quer dizer apenas que nada consta nessas bases, sem incluir processos judiciais, inquéritos nem notícias. Deputados estadual e distrital ainda não entraram. A pesquisa de Senador foi feita com busca mais rápida (1 a 2 buscas por candidato), então nota 10 vale como "nada encontrado", não como atestado.`,
+    [`Cobertura desigual: Presidente, Governador e Senador têm pesquisa individual na internet em todos os estados. Deputados federal e estadual têm só verificação estrutural: círculo político (presidente do partido), cargos eletivos de 2014 a 2024 e conferência em bases oficiais; ali, nota 10 quer dizer apenas que nada consta nessas bases, sem incluir processos judiciais, inquéritos nem notícias. Deputado distrital ainda não entrou. A pesquisa de Senador foi feita com busca mais rápida (1 a 2 buscas por candidato), então nota 10 vale como "nada encontrado", não como atestado.`,
      `A posição de quem não teve pesquisa individual é a do partido (indicado ao passar o mouse ou focar o ponto no diagrama). Quem está perto do centro pode pertencer ao quadrante vizinho.`,
      `"Competência" mede formação e experiência declaradas, e favorece quem tem carreira eletiva ou diploma superior — não mede a qualidade do plano de governo.`,
      `O questionário de 2 perguntas ainda não foi calibrado nem testado com eleitores; uma pergunta por eixo é pouco, e respostas de meio-termo ficam "perto do centro". Ajuste sua posição manualmente se o resultado não parecer com você.`,
@@ -532,7 +549,9 @@
   }
 
   // ---------- render principal ----------
+  let versaoRender = 0;  // descarta o resultado de um carregamento se o eleitor já escolheu outro grupo
   function render() {
+    const minha = ++versaoRender;
     const cargo = $("cargo").value, uf = ufAtual(cargo), g = GRUPOS[cargo + "|" + uf];
     const chave = cargo + "|" + uf;
     if (chave !== ultimoGrupo) {
@@ -550,8 +569,18 @@
     }
     $("cobertura").className = "status";
     $("cobertura").textContent = `${onde}: ${g.n_avaliados} de ${g.n_total} candidatos com idoneidade verificada.` + (g.status === "parcial" ? " Quem não foi verificado não entra nas recomendações." : "");
-    $("fluxo").hidden = false; atual = g;
-    renderNolan(g); montarQuadrantes(g); renderSeuCandidato(g); renderTodos(g);
+    if (!g.candidatos) { $("fluxo").hidden = true; atual = null; $("cobertura").textContent += " Carregando os candidatos…"; }
+    carregarGrupo(chave, g).then(() => {
+      if (minha !== versaoRender) return;
+      $("cobertura").textContent = $("cobertura").textContent.replace(" Carregando os candidatos…", "");
+      $("fluxo").hidden = false; atual = g;
+      renderNolan(g); montarQuadrantes(g); renderSeuCandidato(g); renderTodos(g);
+    }).catch(() => {
+      if (minha !== versaoRender) return;
+      $("cobertura").className = "status alerta";
+      $("cobertura").textContent = `${onde}: não foi possível carregar os candidatos. Verifique a conexão e escolha o cargo e o estado de novo.`;
+      $("fluxo").hidden = true; atual = null;
+    });
   }
 
   function iniciar() {

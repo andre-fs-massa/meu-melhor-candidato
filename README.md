@@ -48,7 +48,7 @@ pip install -r requirements.txt
    python -m pipeline.mapear_escolaridade
    python -m pipeline.calcular_competencia_geral
    python -m pipeline.calcular_cobertura
-   python -m pipeline.exportar_prototipo        # gera site/dados.js
+   python -m pipeline.exportar_prototipo        # gera site/dados.js (índice) e site/dados/<cargo>_<uf>.js (um por grupo)
    ```
 
    Qualquer linha `Aviso:` no stderr indica uma nota que diverge das tabelas de peso em `pipeline/pesos.py` —
