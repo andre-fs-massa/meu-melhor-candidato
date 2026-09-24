@@ -451,7 +451,7 @@
 
     const ordenados = g.candidatos.slice().sort((a, b) => (b.qualificacao_geral ?? -1) - (a.qualificacao_geral ?? -1) || a.nome_urna.localeCompare(b.nome_urna, "pt-BR"));
     const ol = $("listaTodos"); ol.textContent = "";
-    ordenados.forEach((c, i) => {
+    const criarLinha = (c, i) => {
       const li = el("li", "linha" + (c.situacao === "fora_da_disputa" || c.situacao === "abaixo_do_corte" ? " fora" : ""));
       const b = el("button"); b.type = "button"; b.setAttribute("aria-expanded", "false");
       const quem = el("span", "quem"); const nm = el("span", "nomelista", tc(c.nome_urna)); quem.append(nm, el("small", null, `${c.partido} ${c.numero} · pesquisa ${verif(c).curto}`));
@@ -480,8 +480,34 @@
         if (!montado) { montado = true; montarDetalhe(); }
         const abre = det.hidden; det.hidden = !abre; b.setAttribute("aria-expanded", String(abre));
       });
-      li.append(b, det); ol.append(li);
-    });
+      li.append(b, det); return li;
+    };
+
+    // paginação: só as linhas da página atual existem no DOM (listas de deputados passam de mil candidatos)
+    const porPagina = 25, paginas = Math.max(1, Math.ceil(ordenados.length / porPagina));
+    const nav = $("paginacao"); nav.textContent = ""; nav.hidden = paginas <= 1;
+    const ant = el("button", "btn", "‹ Anterior"), prox = el("button", "btn", "Próxima ›");
+    ant.type = prox.type = "button";
+    const seletor = document.createElement("select"); seletor.setAttribute("aria-label", "Ir para a página");
+    const faixa = el("span", "faixa"); faixa.setAttribute("aria-live", "polite");
+    if (paginas > 1) {
+      for (let p = 1; p <= paginas; p++) { const o = el("option", null, `Página ${p} de ${paginas}`); o.value = String(p); seletor.append(o); }
+      ant.addEventListener("click", () => mostrarPagina(pagina - 1, true));
+      prox.addEventListener("click", () => mostrarPagina(pagina + 1, true));
+      seletor.addEventListener("change", () => mostrarPagina(Number(seletor.value), true));
+      nav.append(ant, seletor, prox, faixa);
+    }
+    let pagina = 1;
+    const mostrarPagina = (n, rolar) => {
+      pagina = Math.min(paginas, Math.max(1, n));
+      const ini = (pagina - 1) * porPagina;
+      ol.textContent = "";
+      ordenados.slice(ini, ini + porPagina).forEach((c, k) => ol.append(criarLinha(c, ini + k)));
+      ant.disabled = pagina === 1; prox.disabled = pagina === paginas; seletor.value = String(pagina);
+      faixa.textContent = `Mostrando ${ini + 1} a ${Math.min(ini + porPagina, ordenados.length)} de ${ordenados.length.toLocaleString("pt-BR")}`;
+      if (rolar) $("detalheTodos").scrollIntoView({block: "start"});
+    };
+    mostrarPagina(1, false);
   }
 
   // ---------- metodologia ----------

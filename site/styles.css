@@ -160,6 +160,12 @@ details.expansor[open] summary::before { transform: rotate(90deg); }
 details.expansor summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 details.expansor[open] summary { margin-bottom: 4px; }
 ol.lista { list-style: none; margin: 0; padding: 0; }
+.paginacao { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 10px 0; }
+.paginacao[hidden] { display: none; }
+.paginacao select { font: inherit; font-size: .87rem; padding: 6px 8px; border: 1px solid var(--axis); border-radius: var(--radius-sm); background: var(--surface); color: var(--ink); }
+.paginacao .faixa { font-size: .82rem; color: var(--muted); margin-left: auto; }
+.btn:disabled { opacity: .45; cursor: default; }
+.btn:disabled:hover { border-color: var(--axis); background: var(--surface); }
 .linha { border-top: 1px solid var(--grid); }
 .linha:first-child { border-top: 0; }
 .linha > button { all: unset; box-sizing: border-box; width: 100%; display: grid; grid-template-columns: minmax(0,1.3fr) minmax(150px,1fr) 130px; gap: 8px 14px; align-items: center; padding: 11px 4px; cursor: pointer; }
