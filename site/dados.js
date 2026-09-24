@@ -1410,34 +1410,21 @@ const DADOS = {
    [
     {
      "contado": true,
-     "desconto": 4,
-     "detalhe": "preside o PL, partido do candidato",
-     "ligacao": "presidente do partido do candidato",
-     "nome": "Valdemar Costa Neto",
-     "partido": "PL",
-     "pendencia": "Condenado e preso por corrupção/lavagem no Mensalão (2012); indulto do STF em 2016 (comutação, não reversão)"
-    }
-   ],
-   [
-    {
-     "contado": true,
-     "desconto": 1,
-     "detalhe": "preside o MDB, partido do candidato",
-     "ligacao": "presidente do partido do candidato",
-     "nome": "Baleia Rossi",
-     "partido": "MDB",
-     "pendencia": "Citado em investigação sobre fraudes em contratos e na delação da JBS; inquérito sob sigilo desde 2018. Ressalva: status atual não confirmado"
-    }
-   ],
-   [
-    {
-     "contado": true,
      "desconto": 0,
-     "detalhe": "preside o Novo, partido do candidato",
+     "detalhe": "presidente nacional do PSOL, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Eduardo Ribeiro",
-     "partido": "NOVO",
-     "pendencia": "Nenhuma pendência encontrada"
+     "nome": "Paula Coradi",
+     "partido": "PSOL",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 2,
+     "detalhe": "presidente nacional do REDE, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Paulo Lamac",
+     "partido": "REDE",
+     "pendencia": "Acordo com o MPMG (2026) para encerrar ação por uso irregular de verba pública, pagando cerca de R$ 171 mil"
     }
    ],
    [
@@ -1460,17 +1447,6 @@ const DADOS = {
      "nome": "Leonardo Péricles Vieira Roque",
      "partido": "UP",
      "pendencia": "Nenhuma pendência pessoal encontrada"
-    }
-   ],
-   [
-    {
-     "contado": true,
-     "desconto": 4,
-     "detalhe": "preside o DC, partido do candidato",
-     "ligacao": "presidente do partido do candidato",
-     "nome": "João Caldas da Silva",
-     "partido": "DC",
-     "pendencia": "Condenado por improbidade administrativa na 'Máfia das Ambulâncias', confirmada pelo TRF5 em recurso, com perda de direitos políticos"
     }
    ],
    [
@@ -1509,11 +1485,22 @@ const DADOS = {
    [
     {
      "contado": true,
-     "desconto": 0,
-     "detalhe": "preside o PSOL, partido do candidato",
+     "desconto": 4,
+     "detalhe": "preside o DC, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Paula Coradi",
-     "partido": "PSOL",
+     "nome": "João Caldas da Silva",
+     "partido": "DC",
+     "pendencia": "Condenado por improbidade administrativa na 'Máfia das Ambulâncias', confirmada pelo TRF5 em recurso, com perda de direitos políticos"
+    }
+   ],
+   [
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "preside o Novo, partido do candidato",
+     "ligacao": "presidente do partido do candidato",
+     "nome": "Eduardo Ribeiro",
+     "partido": "NOVO",
      "pendencia": "Nenhuma pendência encontrada"
     }
    ],
@@ -1543,17 +1530,6 @@ const DADOS = {
     {
      "contado": true,
      "desconto": 0,
-     "detalhe": "preside o PSOL, partido da candidata",
-     "ligacao": "presidente do partido do candidato",
-     "nome": "Paula Coradi",
-     "partido": "PSOL",
-     "pendencia": "Nenhuma pendência encontrada"
-    }
-   ],
-   [
-    {
-     "contado": true,
-     "desconto": 0,
      "detalhe": "preside o Agir, partido do candidato",
      "ligacao": "presidente do partido do candidato",
      "nome": "Daniel Sampaio Tourinho",
@@ -1564,12 +1540,12 @@ const DADOS = {
    [
     {
      "contado": true,
-     "desconto": 2,
-     "detalhe": "preside o Avante, partido do candidato",
+     "desconto": 4,
+     "detalhe": "presidente nacional do PL, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Luis Tibé",
-     "partido": "AVANTE",
-     "pendencia": "Condenado por improbidade civil em 2015 (verba indenizatória da Câmara de BH); dívida quitada, extinção pedida pelo MPMG"
+     "nome": "Valdemar Costa Neto",
+     "partido": "PL",
+     "pendencia": "Condenado e preso no Mensalão (2012); indultado em 2016"
     }
    ],
    [
@@ -1587,17 +1563,6 @@ const DADOS = {
     {
      "contado": true,
      "desconto": 0,
-     "detalhe": "preside o Republicanos, partido do candidato",
-     "ligacao": "presidente do partido do candidato",
-     "nome": "Marcos Pereira",
-     "partido": "REPUBLICANOS",
-     "pendencia": "Nenhuma pendência encontrada"
-    }
-   ],
-   [
-    {
-     "contado": true,
-     "desconto": 0,
      "detalhe": "preside o Mobiliza, partido do candidato",
      "ligacao": "presidente do partido do candidato",
      "nome": "Antonio Carlos Bosco Massarollo",
@@ -1609,22 +1574,22 @@ const DADOS = {
     {
      "contado": true,
      "desconto": 2,
-     "detalhe": "preside o PSD, partido do candidato",
+     "detalhe": "preside o Avante, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Gilberto Kassab",
-     "partido": "PSD",
-     "pendencia": "Réu desde 2021 por corrupção/lavagem/caixa 2 (JBS) + condenação civil por improbidade"
+     "nome": "Luis Tibé",
+     "partido": "AVANTE",
+     "pendencia": "Condenado por improbidade civil em 2015 (verba indenizatória da Câmara de BH); dívida quitada, extinção pedida pelo MPMG"
     }
    ],
    [
     {
      "contado": true,
-     "desconto": 0,
-     "detalhe": "preside o PSOL, partido do candidato",
+     "desconto": 1,
+     "detalhe": "presidente nacional do MISSÃO, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Paula Coradi",
-     "partido": "PSOL",
-     "pendencia": "Nenhuma encontrada nesta busca (não exaustiva)"
+     "nome": "Renan Santos",
+     "partido": "MISSÃO",
+     "pendencia": "Ação civil pública do MPF em curso (discurso de ódio contra indígenas); condenação cível anterior por danos morais (não é improbidade); sem questão penal"
     }
    ],
    [
@@ -1642,28 +1607,6 @@ const DADOS = {
     {
      "contado": true,
      "desconto": 1,
-     "detalhe": "preside o União Brasil, partido do candidato",
-     "ligacao": "presidente do partido do candidato",
-     "nome": "Antonio Rueda",
-     "partido": "UNIÃO",
-     "pendencia": "Investigado pela PF na Operação Carbono Oculto (esquema do PCC em combustíveis); sem denúncia formal"
-    }
-   ],
-   [
-    {
-     "contado": true,
-     "desconto": 0,
-     "detalhe": "preside o PSDB, partido do candidato",
-     "ligacao": "presidente do partido do candidato",
-     "nome": "Aécio Neves",
-     "partido": "PSDB",
-     "pendencia": "Nenhuma pendência ativa encontrada (INQ 4830 arquivado pelo STF em 2024)"
-    }
-   ],
-   [
-    {
-     "contado": true,
-     "desconto": 1,
      "detalhe": "preside o PCO, partido do candidato (também candidato a Presidente em 2026)",
      "ligacao": "presidente do partido do candidato",
      "nome": "Rui Costa Pimenta",
@@ -1675,55 +1618,60 @@ const DADOS = {
     {
      "contado": true,
      "desconto": 2,
-     "detalhe": "preside a Rede Sustentabilidade, partido do candidato",
+     "detalhe": "presidente nacional do REDE, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Paulo Roberto Lamac Junior",
+     "nome": "Paulo Lamac",
      "partido": "REDE",
-     "pendencia": "Acordo com o MP-MG em 2026 para encerrar ação sobre uso irregular de verba pública, com ressarcimento de ~R$171 mil"
-    }
-   ],
-   [
-    {
-     "contado": true,
-     "desconto": 1,
-     "detalhe": "preside o PT, partido da candidata",
-     "ligacao": "presidente do partido do candidato",
-     "nome": "Edinho Silva",
-     "partido": "PT",
-     "pendencia": "Inquérito da Lava Jato (2015) trancado pelo TRE-DF por excesso de prazo, sem denúncia e sem julgamento de mérito"
-    }
-   ],
-   [
-    {
-     "contado": true,
-     "desconto": 1,
-     "detalhe": "preside o PT, partido do candidato",
-     "ligacao": "presidente do partido do candidato",
-     "nome": "Edinho Silva",
-     "partido": "PT",
-     "pendencia": "Inquérito da Lava Jato (2015) trancado pelo TRE-DF por excesso de prazo, sem denúncia e sem julgamento de mérito"
-    }
-   ],
-   [
+     "pendencia": "Acordo com o MPMG (2026) para encerrar ação por uso irregular de verba pública, pagando cerca de R$ 171 mil"
+    },
     {
      "contado": true,
      "desconto": 0,
-     "detalhe": "preside o PSB, partido do candidato",
+     "detalhe": "presidente nacional do PSOL, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Paula Coradi",
+     "partido": "PSOL",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    }
+   ],
+   [
+    {
+     "contado": true,
+     "desconto": 4,
+     "detalhe": "presidente nacional do PL, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "João Campos",
-     "partido": "PSB",
-     "pendencia": "Nenhuma pendência encontrada nesta busca geral (não exaustiva)"
+     "nome": "Valdemar Costa Neto",
+     "partido": "PL",
+     "pendencia": "Condenado e preso no Mensalão (2012); indultado em 2016"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do NOVO, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Eduardo Ribeiro",
+     "partido": "NOVO",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
     }
    ],
    [
     {
      "contado": true,
      "desconto": 1,
-     "detalhe": "preside o PDT, partido do candidato",
+     "detalhe": "presidente nacional do PSDB, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Carlos Lupi",
-     "partido": "PDT",
-     "pendencia": "Delatado por ex-dirigentes do INSS por demorar ~1 ano para agir na fraude dos descontos ilegais quando era Ministro da Previdência; sem denúncia formal"
+     "nome": "Aécio Neves",
+     "partido": "PSDB",
+     "pendencia": "Inquérito INQ 4830 arquivado pelo STF (fev/2024); absolvido da acusação de propina de R$ 2 mi da J&F (1ª instância 2022, confirmada por unanimidade no TRF-3); sem pendência ativa"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do CIDADANIA, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Roberto Freire",
+     "partido": "CIDADANIA",
+     "pendencia": "Presidência restituída a Roberto Freire por decisão judicial mantida pelo STF (2026), após disputa com Comte Bittencourt; pendências pessoais não pesquisadas"
     }
    ],
    [
@@ -1734,62 +1682,511 @@ const DADOS = {
      "ligacao": "presidente do partido do candidato",
      "nome": "Baleia Rossi",
      "partido": "MDB",
-     "pendencia": "Citado em investigação sobre contratos da prefeitura de Ribeirão Preto e na delação da JBS; inquérito sob sigilo no STF desde 2018; sem denúncia (fonte de 2021, status atual não confirmado)"
-    }
-   ],
-   [
-    {
-     "contado": true,
-     "desconto": 4,
-     "detalhe": "preside o PL, partido da candidata",
-     "ligacao": "presidente do partido do candidato",
-     "nome": "Valdemar Costa Neto",
-     "partido": "PL",
-     "pendencia": "Condenado e preso por corrupção/lavagem no Mensalão (2012); indulto do STF em 2016 (comutação, não reversão)"
-    }
-   ],
-   [
-    {
-     "contado": true,
-     "desconto": 1,
-     "detalhe": "preside o MDB, partido da candidata",
-     "ligacao": "presidente do partido do candidato",
-     "nome": "Baleia Rossi",
-     "partido": "MDB",
      "pendencia": "Citado em investigação sobre fraudes em contratos e na delação da JBS; inquérito sob sigilo desde 2018. Ressalva: status atual não confirmado"
     }
    ],
    [
     {
      "contado": true,
-     "desconto": 0,
-     "detalhe": "Comte Bittencourt foi destituído pelo STF (jan/2026); disputa interna sobre sucessão",
+     "desconto": 1,
+     "detalhe": "presidente nacional do MDB, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Presidência do Cidadania (em disputa judicial)",
-     "partido": "CIDADANIA",
-     "pendencia": "Sem achado individual verificado contra a atual liderança"
+     "nome": "Baleia Rossi",
+     "partido": "MDB",
+     "pendencia": "Citado em inquérito sigiloso no STF desde 2018 (fraudes em Ribeirão Preto e delação da JBS), sem denúncia; o caso Alba Branca foi arquivado"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do AGIR, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Daniel Tourinho",
+     "partido": "AGIR",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 2,
+     "detalhe": "presidente nacional do AVANTE, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Luis Tibé",
+     "partido": "AVANTE",
+     "pendencia": "Condenado por improbidade civil (2015, verba indenizatória da Câmara de BH); dívida quitada"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do PCDOB, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Nádia Campeão",
+     "partido": "PCDOB",
+     "pendencia": "Presidente em exercício; nenhuma pendência encontrada (busca geral). A presidente licenciada, Luciana Santos (ministra), tem condenação por improbidade em 1ª instância (2019, iluminação pública de Olinda, em recurso) -- não contada por estar licenciada"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PODE, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Renata Abreu",
+     "partido": "PODE",
+     "pendencia": "Inquérito eleitoral sobre contas de campanha do Podemos em 2018 (ANPP oferecido), sem denúncia"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do PSB, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "João Campos",
+     "partido": "PSB",
+     "pendencia": "Nenhuma pendência pessoal como dirigente encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 2,
+     "detalhe": "presidente nacional do PSD, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Gilberto Kassab",
+     "partido": "PSD",
+     "pendencia": "Réu desde 2021 no caso JBS (corrupção, lavagem, caixa 2, associação criminosa), sem sentença. Condenado por improbidade em 1ª instância em 2014 (precatórios de 2006), desfecho do recurso não localizado; a ação dos precatórios de 2007 terminou em absolvição mantida pelo TJSP (2019). Sem condenação confirmada localizada"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PT, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Edinho Silva",
+     "partido": "PT",
+     "pendencia": "Inquérito da Lava Jato (campanha Dilma 2014) trancado por excesso de prazo, sem denúncia"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do PV, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "José Luiz de França Penna",
+     "partido": "PV",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
     }
    ],
    [
     {
      "contado": true,
-     "desconto": 0,
-     "detalhe": "preside o PSB, partido da candidata",
+     "desconto": 2,
+     "detalhe": "preside o PSD, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "João Campos",
-     "partido": "PSB",
-     "pendencia": "Nenhuma pendência encontrada nesta busca geral (não exaustiva)"
+     "nome": "Gilberto Kassab",
+     "partido": "PSD",
+     "pendencia": "Réu desde 2021 por corrupção/lavagem/caixa 2 (JBS) + condenação civil por improbidade"
+    }
+   ],
+   [
+    {
+     "contado": true,
+     "desconto": 4,
+     "detalhe": "presidente nacional do PL, partido do candidato",
+     "ligacao": "presidente do partido do candidato",
+     "nome": "Valdemar Costa Neto",
+     "partido": "PL",
+     "pendencia": "Condenado e preso no Mensalão (2012); indultado em 2016"
+    },
+    {
+     "contado": true,
+     "desconto": 4,
+     "detalhe": "presidente nacional do DC, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "João Caldas",
+     "partido": "DC",
+     "pendencia": "Condenado por improbidade na Máfia das Ambulâncias (Operação Taturana), confirmada pelo Plenário do TRF-5, com perda de direitos políticos"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do DEMOCRATA, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Suêd Haidar",
+     "partido": "DEMOCRATA",
+     "pendencia": "Processos de 2026 com a Procuradoria-Geral Eleitoral sem objeto identificado; não contado"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do MDB, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Baleia Rossi",
+     "partido": "MDB",
+     "pendencia": "Citado em inquérito sigiloso no STF desde 2018 (fraudes em Ribeirão Preto e delação da JBS), sem denúncia; o caso Alba Branca foi arquivado"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do MOBILIZA, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Antonio Carlos Massarollo",
+     "partido": "MOBILIZA",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PODE, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Renata Abreu",
+     "partido": "PODE",
+     "pendencia": "Inquérito eleitoral sobre contas de campanha do Podemos em 2018 (ANPP oferecido), sem denúncia"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PP, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Ciro Nogueira",
+     "partido": "PP",
+     "pendencia": "Alvo da PF na Operação Compliance Zero (caso Banco Master), sem denúncia"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PRD, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Marcus Vinícius Neskau",
+     "partido": "PRD",
+     "pendencia": "Afastado da presidência do PTB por Alexandre de Moraes (2022, INQ 4874, milícias digitais) por atuar como fachada de Roberto Jefferson; mandado ouvir pela PF; sem denúncia localizada"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do REPUBLICANOS, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Marcos Pereira",
+     "partido": "REPUBLICANOS",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do SOLIDARIEDADE, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Paulinho da Força",
+     "partido": "SOLIDARIEDADE",
+     "pendencia": "Investigado em inquérito no STF (captação de clientes para ações trabalhistas), sem denúncia"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do UNIÃO, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Antonio Rueda",
+     "partido": "UNIÃO",
+     "pendencia": "Investigado pela PF na Operação Carbono Oculto, sem denúncia"
     }
    ],
    [
     {
      "contado": true,
      "desconto": 1,
-     "detalhe": "preside o PP, partido da candidata",
+     "detalhe": "presidente nacional do PT, partido do candidato",
      "ligacao": "presidente do partido do candidato",
+     "nome": "Edinho Silva",
+     "partido": "PT",
+     "pendencia": "Inquérito da Lava Jato (campanha Dilma 2014) trancado por excesso de prazo, sem denúncia"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do PCDOB, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Nádia Campeão",
+     "partido": "PCDOB",
+     "pendencia": "Presidente em exercício; nenhuma pendência encontrada (busca geral). A presidente licenciada, Luciana Santos (ministra), tem condenação por improbidade em 1ª instância (2019, iluminação pública de Olinda, em recurso) -- não contada por estar licenciada"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do PV, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "José Luiz de França Penna",
+     "partido": "PV",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    }
+   ],
+   [
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do PSOL, partido do candidato",
+     "ligacao": "presidente do partido do candidato",
+     "nome": "Paula Coradi",
+     "partido": "PSOL",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do PCDOB, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Nádia Campeão",
+     "partido": "PCDOB",
+     "pendencia": "Presidente em exercício; nenhuma pendência encontrada (busca geral). A presidente licenciada, Luciana Santos (ministra), tem condenação por improbidade em 1ª instância (2019, iluminação pública de Olinda, em recurso) -- não contada por estar licenciada"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PDT, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Carlos Lupi",
+     "partido": "PDT",
+     "pendencia": "Delatado por ex-dirigentes do INSS (fraude dos descontos), sem denúncia"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do PSB, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "João Campos",
+     "partido": "PSB",
+     "pendencia": "Nenhuma pendência pessoal como dirigente encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PT, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Edinho Silva",
+     "partido": "PT",
+     "pendencia": "Inquérito da Lava Jato (campanha Dilma 2014) trancado por excesso de prazo, sem denúncia"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do PV, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "José Luiz de França Penna",
+     "partido": "PV",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 2,
+     "detalhe": "presidente nacional do REDE, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Paulo Lamac",
+     "partido": "REDE",
+     "pendencia": "Acordo com o MPMG (2026) para encerrar ação por uso irregular de verba pública, pagando cerca de R$ 171 mil"
+    }
+   ],
+   [
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PRD, partido do candidato",
+     "ligacao": "presidente do partido do candidato",
+     "nome": "Marcus Vinícius Neskau",
+     "partido": "PRD",
+     "pendencia": "Afastado da presidência do PTB por Alexandre de Moraes (2022, INQ 4874, milícias digitais) por atuar como fachada de Roberto Jefferson; mandado ouvir pela PF; sem denúncia localizada"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do SOLIDARIEDADE, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Paulinho da Força",
+     "partido": "SOLIDARIEDADE",
+     "pendencia": "Investigado em inquérito no STF (captação de clientes para ações trabalhistas), sem denúncia"
+    }
+   ],
+   [
+    {
+     "contado": true,
+     "desconto": 4,
+     "detalhe": "presidente nacional do PL, partido do candidato",
+     "ligacao": "presidente do partido do candidato",
+     "nome": "Valdemar Costa Neto",
+     "partido": "PL",
+     "pendencia": "Condenado e preso no Mensalão (2012); indultado em 2016"
+    },
+    {
+     "contado": true,
+     "desconto": 2,
+     "detalhe": "presidente nacional do AVANTE, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Luis Tibé",
+     "partido": "AVANTE",
+     "pendencia": "Condenado por improbidade civil (2015, verba indenizatória da Câmara de BH); dívida quitada"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do CIDADANIA, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Roberto Freire",
+     "partido": "CIDADANIA",
+     "pendencia": "Presidência restituída a Roberto Freire por decisão judicial mantida pelo STF (2026), após disputa com Comte Bittencourt; pendências pessoais não pesquisadas"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do MDB, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Baleia Rossi",
+     "partido": "MDB",
+     "pendencia": "Citado em inquérito sigiloso no STF desde 2018 (fraudes em Ribeirão Preto e delação da JBS), sem denúncia; o caso Alba Branca foi arquivado"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PODE, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Renata Abreu",
+     "partido": "PODE",
+     "pendencia": "Inquérito eleitoral sobre contas de campanha do Podemos em 2018 (ANPP oferecido), sem denúncia"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PP, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
      "nome": "Ciro Nogueira",
      "partido": "PP",
-     "pendencia": "Alvo da PF na Operação Compliance Zero (Caso Banco Master), suspeita de propina de Daniel Vorcaro em troca de atuação legislativa favorável ao banco; sem denúncia até a pesquisa"
+     "pendencia": "Alvo da PF na Operação Compliance Zero (caso Banco Master), sem denúncia"
+    },
+    {
+     "contado": true,
+     "desconto": 2,
+     "detalhe": "presidente nacional do PSD, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Gilberto Kassab",
+     "partido": "PSD",
+     "pendencia": "Réu desde 2021 no caso JBS (corrupção, lavagem, caixa 2, associação criminosa), sem sentença. Condenado por improbidade em 1ª instância em 2014 (precatórios de 2006), desfecho do recurso não localizado; a ação dos precatórios de 2007 terminou em absolvição mantida pelo TJSP (2019). Sem condenação confirmada localizada"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PSDB, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Aécio Neves",
+     "partido": "PSDB",
+     "pendencia": "Inquérito INQ 4830 arquivado pelo STF (fev/2024); absolvido da acusação de propina de R$ 2 mi da J&F (1ª instância 2022, confirmada por unanimidade no TRF-3); sem pendência ativa"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do REPUBLICANOS, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Marcos Pereira",
+     "partido": "REPUBLICANOS",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do UNIÃO, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Antonio Rueda",
+     "partido": "UNIÃO",
+     "pendencia": "Investigado pela PF na Operação Carbono Oculto, sem denúncia"
+    }
+   ],
+   [
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PT, partido do candidato",
+     "ligacao": "presidente do partido do candidato",
+     "nome": "Edinho Silva",
+     "partido": "PT",
+     "pendencia": "Inquérito da Lava Jato (campanha Dilma 2014) trancado por excesso de prazo, sem denúncia"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do PCDOB, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Nádia Campeão",
+     "partido": "PCDOB",
+     "pendencia": "Presidente em exercício; nenhuma pendência encontrada (busca geral). A presidente licenciada, Luciana Santos (ministra), tem condenação por improbidade em 1ª instância (2019, iluminação pública de Olinda, em recurso) -- não contada por estar licenciada"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PDT, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Carlos Lupi",
+     "partido": "PDT",
+     "pendencia": "Delatado por ex-dirigentes do INSS (fraude dos descontos), sem denúncia"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do PSB, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "João Campos",
+     "partido": "PSB",
+     "pendencia": "Nenhuma pendência pessoal como dirigente encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do PV, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "José Luiz de França Penna",
+     "partido": "PV",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    }
+   ],
+   [
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do MDB, partido do candidato",
+     "ligacao": "presidente do partido do candidato",
+     "nome": "Baleia Rossi",
+     "partido": "MDB",
+     "pendencia": "Citado em inquérito sigiloso no STF desde 2018 (fraudes em Ribeirão Preto e delação da JBS), sem denúncia; o caso Alba Branca foi arquivado"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do CIDADANIA, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Roberto Freire",
+     "partido": "CIDADANIA",
+     "pendencia": "Presidência restituída a Roberto Freire por decisão judicial mantida pelo STF (2026), após disputa com Comte Bittencourt; pendências pessoais não pesquisadas"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do DEMOCRATA, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Suêd Haidar",
+     "partido": "DEMOCRATA",
+     "pendencia": "Processos de 2026 com a Procuradoria-Geral Eleitoral sem objeto identificado; não contado"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PDT, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Carlos Lupi",
+     "partido": "PDT",
+     "pendencia": "Delatado por ex-dirigentes do INSS (fraude dos descontos), sem denúncia"
+    },
+    {
+     "contado": true,
+     "desconto": 2,
+     "detalhe": "presidente nacional do PSD, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Gilberto Kassab",
+     "partido": "PSD",
+     "pendencia": "Réu desde 2021 no caso JBS (corrupção, lavagem, caixa 2, associação criminosa), sem sentença. Condenado por improbidade em 1ª instância em 2014 (precatórios de 2006), desfecho do recurso não localizado; a ação dos precatórios de 2007 terminou em absolvição mantida pelo TJSP (2019). Sem condenação confirmada localizada"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PSDB, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Aécio Neves",
+     "partido": "PSDB",
+     "pendencia": "Inquérito INQ 4830 arquivado pelo STF (fev/2024); absolvido da acusação de propina de R$ 2 mi da J&F (1ª instância 2022, confirmada por unanimidade no TRF-3); sem pendência ativa"
     }
    ],
    [
@@ -1806,12 +2203,77 @@ const DADOS = {
    [
     {
      "contado": true,
-     "desconto": 2,
-     "detalhe": "preside o Missão (fundador do MBL), partido do candidato",
+     "desconto": 0,
+     "detalhe": "presidente nacional do PV, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Renan Santos",
-     "partido": "MISSÃO",
-     "pendencia": "Ação civil pública do MPF em curso (discurso de ódio contra indígenas) e condenação cível anterior por danos morais a um deputado"
+     "nome": "José Luiz de França Penna",
+     "partido": "PV",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do PCDOB, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Nádia Campeão",
+     "partido": "PCDOB",
+     "pendencia": "Presidente em exercício; nenhuma pendência encontrada (busca geral). A presidente licenciada, Luciana Santos (ministra), tem condenação por improbidade em 1ª instância (2019, iluminação pública de Olinda, em recurso) -- não contada por estar licenciada"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PT, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Edinho Silva",
+     "partido": "PT",
+     "pendencia": "Inquérito da Lava Jato (campanha Dilma 2014) trancado por excesso de prazo, sem denúncia"
+    }
+   ],
+   [
+    {
+     "contado": true,
+     "desconto": 4,
+     "detalhe": "presidente nacional do PL, partido do candidato",
+     "ligacao": "presidente do partido do candidato",
+     "nome": "Valdemar Costa Neto",
+     "partido": "PL",
+     "pendencia": "Condenado e preso no Mensalão (2012); indultado em 2016"
+    },
+    {
+     "contado": true,
+     "desconto": 4,
+     "detalhe": "presidente nacional do DC, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "João Caldas",
+     "partido": "DC",
+     "pendencia": "Condenado por improbidade na Máfia das Ambulâncias (Operação Taturana), confirmada pelo Plenário do TRF-5, com perda de direitos políticos"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do MOBILIZA, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Antonio Carlos Massarollo",
+     "partido": "MOBILIZA",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do NOVO, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Eduardo Ribeiro",
+     "partido": "NOVO",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PODE, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Renata Abreu",
+     "partido": "PODE",
+     "pendencia": "Inquérito eleitoral sobre contas de campanha do Podemos em 2018 (ANPP oferecido), sem denúncia"
     }
    ],
    [
@@ -1823,6 +2285,55 @@ const DADOS = {
      "nome": "Eduardo Ribeiro",
      "partido": "NOVO",
      "pendencia": "Nenhuma encontrada nesta busca (não exaustiva)"
+    }
+   ],
+   [
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do REPUBLICANOS, partido do candidato",
+     "ligacao": "presidente do partido do candidato",
+     "nome": "Marcos Pereira",
+     "partido": "REPUBLICANOS",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 2,
+     "detalhe": "presidente nacional do AVANTE, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Luis Tibé",
+     "partido": "AVANTE",
+     "pendencia": "Condenado por improbidade civil (2015, verba indenizatória da Câmara de BH); dívida quitada"
+    }
+   ],
+   [
+    {
+     "contado": true,
+     "desconto": 4,
+     "detalhe": "presidente nacional do PL, partido do candidato",
+     "ligacao": "presidente do partido do candidato",
+     "nome": "Valdemar Costa Neto",
+     "partido": "PL",
+     "pendencia": "Condenado e preso no Mensalão (2012); indultado em 2016"
+    },
+    {
+     "contado": true,
+     "desconto": 0,
+     "detalhe": "presidente nacional do NOVO, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Eduardo Ribeiro",
+     "partido": "NOVO",
+     "pendencia": "Nenhuma pendência encontrada (busca geral)"
+    },
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PODE, que integra a coligação/federação no TSE",
+     "ligacao": "presidente de partido aliado (coligação)",
+     "nome": "Renata Abreu",
+     "partido": "PODE",
+     "pendencia": "Inquérito eleitoral sobre contas de campanha do Podemos em 2018 (ANPP oferecido), sem denúncia"
     }
    ],
    [
@@ -2481,5 +2992,5 @@ const DADOS = {
    "pesquisa individual"
   ]
  },
- "versao": "f4200d17c8"
+ "versao": "39d88b338c"
 };

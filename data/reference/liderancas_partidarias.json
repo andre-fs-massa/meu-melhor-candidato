@@ -6,9 +6,18 @@
    "pendencias": "Réu desde 2021 por corrupção passiva, lavagem de dinheiro, caixa 2 eleitoral e associação criminosa (recebimento de R$16,5 milhões do grupo JBS via contratos simulados, 2014-2016). Também condenado por improbidade administrativa como ex-prefeito de São Paulo (não pagamento de precatórios judiciais).",
    "fontes": [
     "https://www.correiobraziliense.com.br/politica/2021/03/4911463-kassab-vira-reu-por-corrupcao-caixa-2-e-lavagem-de-rs-165-milhoes-da-jbs.html",
-    "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=23053&Id=23053"
+    "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=23053&Id=23053",
+    "https://conjur.com.br/2014-jun-04/kassab-condenado-improbidade-direitos-politicos-suspensos/",
+    "https://www.conjur.com.br/2019-ago-23/tj-mantem-absolvicao-kassab-nao-pagar-precatorios-alimentares/"
    ],
-   "pesquisado_em": "2026-09-20"
+   "pesquisado_em": "2026-09-20",
+   "cacique": {
+    "nome": "Gilberto Kassab",
+    "tipo_pendencia": "reu_acao_penal",
+    "desconto": 2,
+    "pendencia": "Réu desde 2021 no caso JBS (corrupção, lavagem, caixa 2, associação criminosa), sem sentença. Condenado por improbidade em 1ª instância em 2014 (precatórios de 2006), desfecho do recurso não localizado; a ação dos precatórios de 2007 terminou em absolvição mantida pelo TJSP (2019). Sem condenação confirmada localizada",
+    "definido_em": "2026-09-24"
+   }
   },
   "PL": {
    "presidente_nacional": "Valdemar Costa Neto",
@@ -16,19 +25,40 @@
    "fontes": [
     "https://en.wikipedia.org/wiki/Valdemar_Costa_Neto"
    ],
-   "pesquisado_em": "2026-09-20"
+   "pesquisado_em": "2026-09-20",
+   "cacique": {
+    "nome": "Valdemar Costa Neto",
+    "tipo_pendencia": "condenacao_criminal_confirmada",
+    "desconto": 4,
+    "pendencia": "Condenado e preso no Mensalão (2012); indultado em 2016",
+    "definido_em": "2026-09-24"
+   }
   },
   "REPUBLICANOS": {
    "presidente_nacional": "Marcos Pereira",
    "pendencias": "Nenhuma pendência encontrada.",
    "fontes": [],
-   "pesquisado_em": "2026-09-20"
+   "pesquisado_em": "2026-09-20",
+   "cacique": {
+    "nome": "Marcos Pereira",
+    "tipo_pendencia": "nenhuma_encontrada",
+    "desconto": 0,
+    "pendencia": "Nenhuma pendência encontrada (busca geral)",
+    "definido_em": "2026-09-24"
+   }
   },
   "NOVO": {
    "presidente_nacional": "Eduardo Ribeiro",
    "pendencias": "Nenhuma pendência encontrada.",
    "fontes": [],
-   "pesquisado_em": "2026-09-20"
+   "pesquisado_em": "2026-09-20",
+   "cacique": {
+    "nome": "Eduardo Ribeiro",
+    "tipo_pendencia": "nenhuma_encontrada",
+    "desconto": 0,
+    "pendencia": "Nenhuma pendência encontrada (busca geral)",
+    "definido_em": "2026-09-24"
+   }
   },
   "PCO": {
    "presidente_nacional": "Rui Costa Pimenta (também candidato a Presidente em 2026 -- ver idoneidade individual dele)",
@@ -36,7 +66,14 @@
    "fontes": [
     "https://www.cnnbrasil.com.br/eleicoes/pf-mira-candidato-do-pco-a-presidente-por-suposto-desvio-de-verba-eleitoral/"
    ],
-   "pesquisado_em": "2026-09-20"
+   "pesquisado_em": "2026-09-20",
+   "cacique": {
+    "nome": "Rui Costa Pimenta",
+    "tipo_pendencia": "investigado_sem_denuncia",
+    "desconto": 1,
+    "pendencia": "Alvo de operação da PF por suposto desvio de verba eleitoral, sem denúncia",
+    "definido_em": "2026-09-24"
+   }
   },
   "MISSÃO": {
    "presidente_nacional": "Renan Santos (também candidato a Presidente em 2026 -- ver idoneidade individual dele)",
@@ -44,7 +81,14 @@
    "fontes": [
     "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-processa-candidato-a-presidencia-e-o-mbl-por-discurso-de-odio-contra-indigenas-do-para"
    ],
-   "pesquisado_em": "2026-09-20"
+   "pesquisado_em": "2026-09-20",
+   "cacique": {
+    "nome": "Renan Santos",
+    "tipo_pendencia": "acao_civil_em_curso",
+    "desconto": 1,
+    "pendencia": "Ação civil pública do MPF em curso (discurso de ódio contra indígenas); condenação cível anterior por danos morais (não é improbidade); sem questão penal",
+    "definido_em": "2026-09-24"
+   }
   },
   "PT": {
    "presidente_nacional": "Edinho Silva (desde 07/2025)",
@@ -53,7 +97,14 @@
     "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/",
     "https://www.terra.com.br/noticias/brasil/politica/cotado-para-presidir-o-pt-edinho-se-livra-de-inquerito-da-lava-jato,76ee9924f0b981722d076c1c6b1c71aasodqtqtx.html"
    ],
-   "pesquisado_em": "2026-09-21"
+   "pesquisado_em": "2026-09-21",
+   "cacique": {
+    "nome": "Edinho Silva",
+    "tipo_pendencia": "investigacao_arquivada_sem_denuncia",
+    "desconto": 1,
+    "pendencia": "Inquérito da Lava Jato (campanha Dilma 2014) trancado por excesso de prazo, sem denúncia",
+    "definido_em": "2026-09-24"
+   }
   },
   "PDT": {
    "presidente_nacional": "Carlos Lupi (deixou em 05/2025 e voltou em 06/2025; segue presidente em 2026)",
@@ -62,16 +113,32 @@
     "https://www.metropoles.com/colunas/andreza-matais/dirigentes-do-inss-delataram-carlos-lupi-ex-ministro-da-previdencia-de-lula",
     "https://www.portaldacapital.com/2026/05/14/presidente-nacional-do-pdt-carlos-lupi-participa-de-posse-de-diretoria-do-partido-nesta-quinta/"
    ],
-   "pesquisado_em": "2026-09-21"
+   "pesquisado_em": "2026-09-21",
+   "cacique": {
+    "nome": "Carlos Lupi",
+    "tipo_pendencia": "delatado_sem_denuncia",
+    "desconto": 1,
+    "pendencia": "Delatado por ex-dirigentes do INSS (fraude dos descontos), sem denúncia",
+    "definido_em": "2026-09-24"
+   }
   },
   "PSDB": {
    "presidente_nacional": "Aécio Neves (reassumiu a presidência)",
    "pendencias": "Nenhuma pendência ATIVA encontrada nesta busca geral (não exaustiva): a 2ª Turma do STF arquivou em fev/2024 o inquérito INQ 4830. Histórico de múltiplas investigações da era Lava Jato/JBS não reexaminado aqui.",
    "fontes": [
     "https://en.wikipedia.org/wiki/A%C3%A9cio_Neves",
-    "https://portaldeprefeitura.com.br/bastidores-da-politica/aecio-neves-desiste-candidatura-psdb-lancara-nome-planalto/626505/"
+    "https://portaldeprefeitura.com.br/bastidores-da-politica/aecio-neves-desiste-candidatura-psdb-lancara-nome-planalto/626505/",
+    "https://www.cnnbrasil.com.br/politica/justica-absolve-aecio-neves-de-acusacao-de-propina-de-r-2-milhoes-da-jf/",
+    "https://www.metropoles.com/brasil/aecio-neves-e-absolvido-de-forma-unanime-em-caso-de-corrupcao-passiva"
    ],
-   "pesquisado_em": "2026-09-21"
+   "pesquisado_em": "2026-09-21",
+   "cacique": {
+    "nome": "Aécio Neves",
+    "tipo_pendencia": "investigacao_arquivada_sem_denuncia",
+    "desconto": 1,
+    "pendencia": "Inquérito INQ 4830 arquivado pelo STF (fev/2024); absolvido da acusação de propina de R$ 2 mi da J&F (1ª instância 2022, confirmada por unanimidade no TRF-3); sem pendência ativa",
+    "definido_em": "2026-09-24"
+   }
   },
   "PP": {
    "presidente_nacional": "Ciro Nogueira (Progressistas; federação União Progressista com o União Brasil)",
@@ -81,7 +148,14 @@
     "https://www.metropoles.com/colunas/andreza-matais/leia-a-integra-da-decisao-do-stf-contra-ciro-nogueira-no-caso-master",
     "https://www.cartacapital.com.br/cartaexpressa/ciro-nogueira-entre-os-alvos-sela-permanencia-do-caso-master-no-stf/"
    ],
-   "pesquisado_em": "2026-09-21"
+   "pesquisado_em": "2026-09-21",
+   "cacique": {
+    "nome": "Ciro Nogueira",
+    "tipo_pendencia": "investigado_sem_denuncia",
+    "desconto": 1,
+    "pendencia": "Alvo da PF na Operação Compliance Zero (caso Banco Master), sem denúncia",
+    "definido_em": "2026-09-24"
+   }
   },
   "UNIÃO": {
    "presidente_nacional": "Antonio Rueda (União Brasil)",
@@ -90,7 +164,14 @@
     "https://www.cnnbrasil.com.br/politica/pf-inclui-presidente-do-uniao-brasil-em-investigacao-sobre-esquemas-do-pcc/",
     "https://www.poder360.com.br/poder-justica/pf-inclui-presidente-do-uniao-brasil-em-operacao-que-mira-pcc/"
    ],
-   "pesquisado_em": "2026-09-21"
+   "pesquisado_em": "2026-09-21",
+   "cacique": {
+    "nome": "Antonio Rueda",
+    "tipo_pendencia": "investigado_sem_denuncia",
+    "desconto": 1,
+    "pendencia": "Investigado pela PF na Operação Carbono Oculto, sem denúncia",
+    "definido_em": "2026-09-24"
+   }
   },
   "MDB": {
    "presidente_nacional": "Baleia Rossi (reconduzido)",
@@ -99,7 +180,14 @@
     "https://www.poder360.com.br/congresso/baleia-rossi-e-citado-em-investigacoes-contra-fraudes-e-em-delacao-da-jbs/",
     "https://baleiarossi.com.br/noticias/baleia-rossi-e-reconduzido-como-presidente-nacional-do-mdb/"
    ],
-   "pesquisado_em": "2026-09-21"
+   "pesquisado_em": "2026-09-21",
+   "cacique": {
+    "nome": "Baleia Rossi",
+    "tipo_pendencia": "investigado_sem_denuncia",
+    "desconto": 1,
+    "pendencia": "Citado em inquérito sigiloso no STF desde 2018 (fraudes em Ribeirão Preto e delação da JBS), sem denúncia; o caso Alba Branca foi arquivado",
+    "definido_em": "2026-09-24"
+   }
   },
   "PSB": {
    "presidente_nacional": "João Campos (desde 06/2025; também candidato ao governo de PE)",
@@ -107,7 +195,14 @@
    "fontes": [
     "https://en.wikipedia.org/wiki/Jo%C3%A3o_Henrique_Campos"
    ],
-   "pesquisado_em": "2026-09-21"
+   "pesquisado_em": "2026-09-21",
+   "cacique": {
+    "nome": "João Campos",
+    "tipo_pendencia": "nenhuma_encontrada",
+    "desconto": 0,
+    "pendencia": "Nenhuma pendência pessoal como dirigente encontrada (busca geral)",
+    "definido_em": "2026-09-24"
+   }
   },
   "PSOL": {
    "presidente_nacional": "Paula Coradi (eleita em 2023 para mandato até 2026; sucessor não verificado)",
@@ -115,7 +210,14 @@
    "fontes": [
     "https://psol50.org.br/com-67-dos-votos-paula-coradi-e-eleita-a-nova-presidenta-do-psol/"
    ],
-   "pesquisado_em": "2026-09-21"
+   "pesquisado_em": "2026-09-21",
+   "cacique": {
+    "nome": "Paula Coradi",
+    "tipo_pendencia": "nenhuma_encontrada",
+    "desconto": 0,
+    "pendencia": "Nenhuma pendência encontrada (busca geral)",
+    "definido_em": "2026-09-24"
+   }
   },
   "SOLIDARIEDADE": {
    "presidente_nacional": "Paulinho da Força",
@@ -124,7 +226,14 @@
     "https://www.poder360.com.br/poder-justica/stf-destrava-investigacao-contra-paulinho-da-forca-apos-2-anos/",
     "https://www.cnnbrasil.com.br/politica/mendonca-movimenta-inquerito-contra-paulinho-da-forca-apos-dois-anos-parado/"
    ],
-   "pesquisado_em": "2026-09-21"
+   "pesquisado_em": "2026-09-21",
+   "cacique": {
+    "nome": "Paulinho da Força",
+    "tipo_pendencia": "investigado_sem_denuncia",
+    "desconto": 1,
+    "pendencia": "Investigado em inquérito no STF (captação de clientes para ações trabalhistas), sem denúncia",
+    "definido_em": "2026-09-24"
+   }
   },
   "AVANTE": {
    "presidente_nacional": "Luis Tibé",
@@ -133,31 +242,63 @@
     "https://ofator.com.br/informacao/luis-tibe-quita-divida-de-improbidade-por-mau-uso-de-verba-da-camara-de-bh/",
     "https://www.cnnbrasil.com.br/blogs/luisa-martins/politica/pf-afirma-nao-ver-crime-por-parte-do-presidente-do-avante-investigado-no-stf/"
    ],
-   "pesquisado_em": "2026-09-21"
+   "pesquisado_em": "2026-09-21",
+   "cacique": {
+    "nome": "Luis Tibé",
+    "tipo_pendencia": "condenacao_civil",
+    "desconto": 2,
+    "pendencia": "Condenado por improbidade civil (2015, verba indenizatória da Câmara de BH); dívida quitada",
+    "definido_em": "2026-09-24"
+   }
   },
   "PCDOB": {
    "presidente_nacional": "Nádia Campeão (a ex-presidente Luciana Santos está licenciada por ser ministra da Ciência e Tecnologia)",
    "pendencias": "NÃO VERIFICADO: uma fonte partidária (Brasil Sem Medo) afirma que Luciana Santos tem condenação por improbidade em licitação de iluminação pública; não confirmei em fonte independente e ela já não preside o partido. Nada pesquisado sobre a atual presidente.",
    "fontes": [
-    "https://brasilsemmedo.com/ministra-da-ciencia-e-tecnologia-de-lula-tem-condenacao-por-improbidade-administrativa/"
+    "https://brasilsemmedo.com/ministra-da-ciencia-e-tecnologia-de-lula-tem-condenacao-por-improbidade-administrativa/",
+    "https://pcdob.org.br/noticias/pcdob-inicia-transicao-na-presidencia-com-nadia-campeao-a-frente/",
+    "https://www.leiaja.com/politica/2019/11/02/luciana-santos-e-condenada-por-improbidade-administrativa/"
    ],
-   "pesquisado_em": "2026-09-21"
+   "pesquisado_em": "2026-09-21",
+   "cacique": {
+    "nome": "Nádia Campeão",
+    "tipo_pendencia": "nenhuma_encontrada",
+    "desconto": 0,
+    "pendencia": "Presidente em exercício; nenhuma pendência encontrada (busca geral). A presidente licenciada, Luciana Santos (ministra), tem condenação por improbidade em 1ª instância (2019, iluminação pública de Olinda, em recurso) -- não contada por estar licenciada",
+    "definido_em": "2026-09-24"
+   }
   },
   "PRD": {
    "presidente_nacional": "Marcus Vinícius Neskau",
    "pendencias": "NÃO VERIFICADO: os resultados da busca são ambíguos (menção a afastamento determinado por Alexandre de Moraes no inquérito das fake news e a influência em nomeações no Detran-RJ segundo o MPF); não consegui confirmar nenhum fato em fonte primária, então nada foi contado.",
    "fontes": [
-    "https://pt.wikipedia.org/wiki/Marcus_Vin%C3%ADcius_de_Vasconcelos_Ferreira"
+    "https://pt.wikipedia.org/wiki/Marcus_Vin%C3%ADcius_de_Vasconcelos_Ferreira",
+    "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-afasta-presidente-do-ptb-e-determina-que-pf-ouca-roberto-jefferson/"
    ],
-   "pesquisado_em": "2026-09-21"
+   "pesquisado_em": "2026-09-21",
+   "cacique": {
+    "nome": "Marcus Vinícius Neskau",
+    "tipo_pendencia": "investigado_sem_denuncia",
+    "desconto": 1,
+    "pendencia": "Afastado da presidência do PTB por Alexandre de Moraes (2022, INQ 4874, milícias digitais) por atuar como fachada de Roberto Jefferson; mandado ouvir pela PF; sem denúncia localizada",
+    "definido_em": "2026-09-24"
+   }
   },
   "CIDADANIA": {
    "presidente_nacional": "Presidência em disputa judicial: Comte Bittencourt foi destituído pelo STF (jan/2026) e o partido passaria a ter novo presidente (mar/2026)",
    "pendencias": "Sem achado individual verificado. O grupo rival (Roberto Freire) anunciou representação criminal ao MPF sobre a gestão de Comte em 2023-2025; é acusação interna de disputa partidária, NÃO contada.",
    "fontes": [
-    "https://www.band.com.br/noticias/comte-bittencourt-entrega-chave-do-tse-e-cidadania-tera-novo-presidente-202603021859"
+    "https://www.band.com.br/noticias/comte-bittencourt-entrega-chave-do-tse-e-cidadania-tera-novo-presidente-202603021859",
+    "https://www.band.com.br/noticias/destituido-da-presidencia-do-cidadania-pelo-stf-comte-bittencourt-ainda-detem-a-chave-do-partido-usada-no-tse-202601071637"
    ],
-   "pesquisado_em": "2026-09-21"
+   "pesquisado_em": "2026-09-21",
+   "cacique": {
+    "nome": "Roberto Freire",
+    "tipo_pendencia": "nao_verificado",
+    "desconto": 0,
+    "pendencia": "Presidência restituída a Roberto Freire por decisão judicial mantida pelo STF (2026), após disputa com Comte Bittencourt; pendências pessoais não pesquisadas",
+    "definido_em": "2026-09-24"
+   }
   },
   "PV": {
    "presidente_nacional": "José Luiz de França Penna",
@@ -165,7 +306,14 @@
    "fontes": [
     "https://pv.org.br/presidente-nacional-do-pv-jose-luiz-penna/"
    ],
-   "pesquisado_em": "2026-09-22"
+   "pesquisado_em": "2026-09-22",
+   "cacique": {
+    "nome": "José Luiz de França Penna",
+    "tipo_pendencia": "nenhuma_encontrada",
+    "desconto": 0,
+    "pendencia": "Nenhuma pendência encontrada (busca geral)",
+    "definido_em": "2026-09-24"
+   }
   },
   "UP": {
    "presidente_nacional": "Leonardo Péricles Vieira Roque",
@@ -173,7 +321,14 @@
    "fontes": [
     "https://sbtnews.sbt.com.br/noticia/politica/unidade-popular-quer-presidencia-e-mira-17-governos"
    ],
-   "pesquisado_em": "2026-09-22"
+   "pesquisado_em": "2026-09-22",
+   "cacique": {
+    "nome": "Leonardo Péricles",
+    "tipo_pendencia": "nenhuma_encontrada",
+    "desconto": 0,
+    "pendencia": "Nenhuma pendência pessoal encontrada (busca geral)",
+    "definido_em": "2026-09-24"
+   }
   },
   "PSTU": {
    "presidente_nacional": "José Maria Almeida",
@@ -181,7 +336,14 @@
    "fontes": [
     "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/partido-socialista-dos-trabalhadores-unificado"
    ],
-   "pesquisado_em": "2026-09-22"
+   "pesquisado_em": "2026-09-22",
+   "cacique": {
+    "nome": "José Maria Almeida",
+    "tipo_pendencia": "nenhuma_encontrada",
+    "desconto": 0,
+    "pendencia": "Nenhuma pendência pessoal encontrada (busca geral)",
+    "definido_em": "2026-09-24"
+   }
   },
   "REDE": {
    "presidente_nacional": "Paulo Roberto Lamac Junior",
@@ -189,7 +351,14 @@
    "fontes": [
     "https://pt.wikipedia.org/wiki/Rede_Sustentabilidade"
    ],
-   "pesquisado_em": "2026-09-22"
+   "pesquisado_em": "2026-09-22",
+   "cacique": {
+    "nome": "Paulo Lamac",
+    "tipo_pendencia": "condenacao_civil",
+    "desconto": 2,
+    "pendencia": "Acordo com o MPMG (2026) para encerrar ação por uso irregular de verba pública, pagando cerca de R$ 171 mil",
+    "definido_em": "2026-09-24"
+   }
   },
   "DEMOCRATA": {
    "presidente_nacional": "Suêd Haidar Nogueira (fundadora, presidente desde a criação do então PMB)",
@@ -197,7 +366,14 @@
    "fontes": [
     "https://www.escavador.com/nomes/sued-haidar-nogueira-2203134fb6"
    ],
-   "pesquisado_em": "2026-09-22"
+   "pesquisado_em": "2026-09-22",
+   "cacique": {
+    "nome": "Suêd Haidar",
+    "tipo_pendencia": "nao_verificado",
+    "desconto": 0,
+    "pendencia": "Processos de 2026 com a Procuradoria-Geral Eleitoral sem objeto identificado; não contado",
+    "definido_em": "2026-09-24"
+   }
   },
   "DC": {
    "presidente_nacional": "João Caldas da Silva (assumiu em 07/2025, sucedendo Eymael)",
@@ -207,7 +383,14 @@
     "https://www.urbanitarios-al.com.br/2014/12/joao-caldas-e-condenado-no-trf-na-mafia-das-ambulancias/",
     "https://www.tribunadosertao.com.br/politica/2026/09/11/977133-jhc-aciona-a-justica-para-esconder-condenacao-do-pai-por-desvios-na-saude"
    ],
-   "pesquisado_em": "2026-09-22"
+   "pesquisado_em": "2026-09-22",
+   "cacique": {
+    "nome": "João Caldas",
+    "tipo_pendencia": "condenacao_confirmada_sem_reversao",
+    "desconto": 4,
+    "pendencia": "Condenado por improbidade na Máfia das Ambulâncias (Operação Taturana), confirmada pelo Plenário do TRF-5, com perda de direitos políticos",
+    "definido_em": "2026-09-24"
+   }
   },
   "AGIR": {
    "presidente_nacional": "Daniel Sampaio Tourinho (fundador, preside desde 1985)",
@@ -215,7 +398,14 @@
    "fontes": [
     "https://pt.wikipedia.org/wiki/Daniel_Tourinho"
    ],
-   "pesquisado_em": "2026-09-22"
+   "pesquisado_em": "2026-09-22",
+   "cacique": {
+    "nome": "Daniel Tourinho",
+    "tipo_pendencia": "nenhuma_encontrada",
+    "desconto": 0,
+    "pendencia": "Nenhuma pendência encontrada (busca geral)",
+    "definido_em": "2026-09-24"
+   }
   },
   "MOBILIZA": {
    "presidente_nacional": "Antonio Carlos Bosco Massarollo",
@@ -223,19 +413,40 @@
    "fontes": [
     "https://pt.wikipedia.org/wiki/Mobiliza%C3%A7%C3%A3o_Nacional"
    ],
-   "pesquisado_em": "2026-09-22"
+   "pesquisado_em": "2026-09-22",
+   "cacique": {
+    "nome": "Antonio Carlos Massarollo",
+    "tipo_pendencia": "nenhuma_encontrada",
+    "desconto": 0,
+    "pendencia": "Nenhuma pendência encontrada (busca geral)",
+    "definido_em": "2026-09-24"
+   }
   },
   "PRTB": {
    "presidente_nacional": "Leonardo Avalanche",
    "pendencias": "Réu desde março/2026 por associação criminosa, violência política de gênero e inserção de dados falsos em sistemas públicos (fraude que o levou à presidência do partido, denúncia do MP-SP de janeiro/2026); também investigado pela PF por suposto desvio de R$750 mil do fundo eleitoral do PRTB nas eleições municipais de 2024. Sem condenação até a pesquisa.",
    "fontes": [],
-   "pesquisado_em": "2026-09-21 (já pesquisado ao avaliar Roberto Rocha/MA; centralizado aqui em 2026-09-22)"
+   "pesquisado_em": "2026-09-21 (já pesquisado ao avaliar Roberto Rocha/MA; centralizado aqui em 2026-09-22)",
+   "cacique": {
+    "nome": "Leonardo Avalanche",
+    "tipo_pendencia": "reu_acao_penal",
+    "desconto": 2,
+    "pendencia": "Réu desde mar/2026 por associação criminosa, violência política de gênero e inserção de dados falsos; investigado por desvio do fundo eleitoral",
+    "definido_em": "2026-09-24"
+   }
   },
   "PCB": {
    "presidente_nacional": "Edmilson Silva Costa (Secretário-Geral desde 2016; também candidato a Presidente em 2026 -- ver idoneidade individual dele)",
    "pendencias": "Nenhuma pendência pessoal encontrada nesta busca geral (não exaustiva).",
    "fontes": [],
-   "pesquisado_em": "2026-09-22"
+   "pesquisado_em": "2026-09-22",
+   "cacique": {
+    "nome": "Edmilson Costa",
+    "tipo_pendencia": "nenhuma_encontrada",
+    "desconto": 0,
+    "pendencia": "Nenhuma pendência pessoal encontrada (busca geral)",
+    "definido_em": "2026-09-24"
+   }
   },
   "PODE": {
    "presidente_nacional": "Renata Abreu",
@@ -243,7 +454,14 @@
    "fontes": [
     "https://www.metropoles.com/colunas/mirelle-pinheiro/mp-propoe-acordo-para-evitar-denuncia-contra-renata-abreu"
    ],
-   "pesquisado_em": "2026-09-21"
+   "pesquisado_em": "2026-09-21",
+   "cacique": {
+    "nome": "Renata Abreu",
+    "tipo_pendencia": "investigado_sem_denuncia",
+    "desconto": 1,
+    "pendencia": "Inquérito eleitoral sobre contas de campanha do Podemos em 2018 (ANPP oferecido), sem denúncia",
+    "definido_em": "2026-09-24"
+   }
   }
  }
 }

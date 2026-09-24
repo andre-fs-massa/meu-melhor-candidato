@@ -23,7 +23,7 @@
       "nome_urna": "FLAVIO BOLSONARO",
       "cargo_pretendido": "PRESIDENTE",
       "nota": 7,
-      "motivo": "REVISADA em 2026-09-21: Antes 6. Investigação em curso sem denúncia vale -2 na escala (mesmo peso de Rui Costa Pimenta, Douglas Ruas e Vivian Mendes), não -3. RECALCULADA em 2026-09-20 após achado adicional. (1) Acusado em 2020 de liderar organização criminosa (esquema de 'rachadinha') em seu gabinete de deputado estadual do RJ (2003-2019): lavagem de dinheiro, apropriação indébita, peculato. A denúncia caiu por decisão do STF que anulou as provas (relatórios do COAF) por vício processual -- livrou-se SEM nunca ter sido condenado ou preso (-1). (2) NOVO: alvo de inquérito do STF por corrupção e lavagem de dinheiro no 'Caso Banco Master' -- negociou diretamente com Daniel Vorcaro (dono do banco, liquidado em nov/2025 com ~R$7 bi em dívidas) um repasse de US$24 milhões para financiar 'Dark Horse', filme biográfico sobre Jair Bolsonaro; ao menos US$10,6 milhões já pagos entre fev-mai/2025 segundo mensagens, áudios e recibos bancários publicados pelo Intercept Brasil. O contrato que justificaria o pagamento está 'desaparecido'. Investigação em curso, com evidência documental substancial, sem denúncia formal até a pesquisa (-3).",
+      "motivo": "AUDITORIA 2026-09-24: só texto: o motivo citava -3 para a investigação do caso Master, mas a categoria (investigação sem denúncia) vale -2; nota inalterada (nota 7 -> 7). || REVISADA em 2026-09-21: Antes 6. Investigação em curso sem denúncia vale -2 na escala (mesmo peso de Rui Costa Pimenta, Douglas Ruas e Vivian Mendes), não -3. RECALCULADA em 2026-09-20 após achado adicional. (1) Acusado em 2020 de liderar organização criminosa (esquema de 'rachadinha') em seu gabinete de deputado estadual do RJ (2003-2019): lavagem de dinheiro, apropriação indébita, peculato. A denúncia caiu por decisão do STF que anulou as provas (relatórios do COAF) por vício processual -- livrou-se SEM nunca ter sido condenado ou preso (-1). (2) NOVO: alvo de inquérito do STF por corrupção e lavagem de dinheiro no 'Caso Banco Master' -- negociou diretamente com Daniel Vorcaro (dono do banco, liquidado em nov/2025 com ~R$7 bi em dívidas) um repasse de US$24 milhões para financiar 'Dark Horse', filme biográfico sobre Jair Bolsonaro; ao menos US$10,6 milhões já pagos entre fev-mai/2025 segundo mensagens, áudios e recibos bancários publicados pelo Intercept Brasil. O contrato que justificaria o pagamento está 'desaparecido'. Investigação em curso, com evidência documental substancial, sem denúncia formal até a pesquisa (-2).",
       "fontes": [
         "https://www.cartacapital.com.br/politica/o-que-aconteceu-com-o-caso-da-rachadinha-de-flavio-bolsonaro-suposto-candidato-em-2026/",
         "https://noticias.stf.jus.br/postsnoticias/2a-turma-decide-que-provas-contra-flavio-bolsonaro-no-caso-das-chamadas-rachadinhas-sao-ilegais/",
@@ -40,7 +40,8 @@
           "categoria": "investigacao_ou_acao_civil_em_curso",
           "descricao": "Inquérito do STF no caso Banco Master (repasse de US$ 24 mi de Vorcaro para o filme 'Dark Horse'), sem denúncia"
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "280002551932": {
       "nome_urna": "RONALDO CAIADO",
@@ -108,33 +109,32 @@
     "280002554479": {
       "nome_urna": "LEONARDO AVALANCHE",
       "cargo_pretendido": "PRESIDENTE",
-      "nota": 4,
-      "motivo": "Réu simultâneo em três frentes graves e ainda em curso, sem condenação até a pesquisa: associação criminosa, violência política de gênero e inserção de dados falsos em sistema público (fraude no fundo eleitoral do PRTB). Suposto vínculo com o PCC, que ele nega -- tratado aqui como alegação, não fato.",
+      "nota": 5,
+      "motivo": "AUDITORIA 2026-09-24: os três crimes estão numa única denúncia/ação penal (a regra conta réu por processo, não por crime); a investigação da PF sobre o fundo eleitoral, que estava só no texto, passa a ser achado próprio (nota 4 -> 5). || Réu simultâneo em três frentes graves e ainda em curso, sem condenação até a pesquisa: associação criminosa, violência política de gênero e inserção de dados falsos em sistema público (fraude no fundo eleitoral do PRTB). Suposto vínculo com o PCC, que ele nega -- tratado aqui como alegação, não fato.",
       "fontes": [
         "https://ndmais.com.br/politica/vice-de-marcal-saiba-quem-e-leonardo-avalanche-presidente-prtb/",
-        "https://www.brasildefato.com.br/2026/08/20/vice-de-marcal-e-reu-por-associacao-criminosa-violencia-politica-de-genero-e-fraude-no-prtb/"
+        "https://www.brasildefato.com.br/2026/08/20/vice-de-marcal-e-reu-por-associacao-criminosa-violencia-politica-de-genero-e-fraude-no-prtb/",
+        "https://www.infomoney.com.br/politica/vice-de-marcal-vira-reu-por-associacao-criminosa-e-violencia-politica-de-genero/",
+        "https://mpsp.mp.br/w/promotor-denuncia-ex-presidente-de-partido-por-crimes-como-fraude-eleitoral-e-associacao-criminosa"
       ],
       "pesquisado_em": "2026-09-20",
       "achados": [
         {
           "categoria": "reu_acao_penal",
-          "descricao": "Réu por associação criminosa"
+          "descricao": "Réu desde mar/2026 numa única ação penal (denúncia do MP-SP de jan/2026) por associação criminosa, violência política de gênero contra a ex-vice-presidente do PRTB e inserção de dados falsos em sistema público (fraude na eleição interna do partido)"
         },
         {
-          "categoria": "reu_acao_penal",
-          "descricao": "Réu por violência política de gênero"
-        },
-        {
-          "categoria": "reu_acao_penal",
-          "descricao": "Réu por inserção de dados falsos em sistema público (fraude no fundo eleitoral do PRTB)"
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Investigado pela PF por suposto desvio de R$ 750 mil do fundo eleitoral do PRTB, sem denúncia"
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "280002552487": {
       "nome_urna": "RUI COSTA PIMENTA",
       "cargo_pretendido": "PRESIDENTE",
-      "nota": 6,
-      "motivo": "Alvo de operação da Polícia Federal por suposto desvio de verba eleitoral, sem denúncia formal até a pesquisa. Como secretário-geral/dirigente do PCO, as contas do partido têm histórico recorrente de rejeição e falhas técnicas no TSE (contas não prestadas, divergências não justificadas, repasse indevido à fundação partidária).",
+      "nota": 8,
+      "motivo": "AUDITORIA 2026-09-24: contas rejeitadas do PCO (partido) deixam de descontar na nota pessoal: a categoria de contas se refere às contas de campanha do próprio candidato, e problemas de contas de partido não descontam de nenhum outro candidato ou dirigente (ex.: PSTU, PCO nos estados); ficam só como contexto (nota 6 -> 8). || Alvo de operação da Polícia Federal por suposto desvio de verba eleitoral, sem denúncia formal até a pesquisa. Como secretário-geral/dirigente do PCO, as contas do partido têm histórico recorrente de rejeição e falhas técnicas no TSE (contas não prestadas, divergências não justificadas, repasse indevido à fundação partidária).",
       "fontes": [
         "https://www.cnnbrasil.com.br/eleicoes/pf-mira-candidato-do-pco-a-presidente-por-suposto-desvio-de-verba-eleitoral/",
         "https://revistaoeste.com/politica/pf-operacao-rui-pimenta-candidato-presidencia-pco/"
@@ -144,16 +144,9 @@
         {
           "categoria": "investigacao_ou_acao_civil_em_curso",
           "descricao": "Operação da PF por suposto desvio de verba eleitoral, sem denúncia"
-        },
-        {
-          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
-          "descricao": "Contas do PCO, que ele dirige, com rejeições recorrentes no TSE (contas não prestadas, divergências)"
-        },
-        {
-          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
-          "descricao": "Repasse indevido do partido à fundação partidária"
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "280002551975": {
       "nome_urna": "EDMILSON COSTA",
@@ -482,14 +475,23 @@
     "130002541911": {
       "nome_urna": "MATEUS SIMÕES",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 10,
-      "motivo": "Nenhuma pendência pessoal encontrada. Advogado, atual governador em exercício de MG (assumiu com a saída de Zema para a disputa presidencial), ex-vice-governador e ex-secretário-geral do estado. ATUALIZAÇÃO 2026-09-21 (sem mudança de nota): o governo dele demitiu o ex-diretor da Cemig SIM, Rubens Soalheiro, após denúncias de ligação com negócios de Daniel Vorcaro (Banco Master); há duas auditorias internas em curso e Simões diz que o compliance barrou os contratos suspeitos -- é apuração sobre um subordinado, não sobre ele.",
+      "nota": 8,
+      "motivo": "AUDITORIA 2026-09-24: checagem por amostragem de incumbentes com nota 10: faltavam duas ordens do TRE-MG de retirada de conteúdo de campanha (-1 cada, mesmo critério de Capitão Wagner, Manuela D'Ávila e Catan) (nota 10 -> 8). || Nenhuma pendência pessoal encontrada. Advogado, atual governador em exercício de MG (assumiu com a saída de Zema para a disputa presidencial), ex-vice-governador e ex-secretário-geral do estado. ATUALIZAÇÃO 2026-09-21 (sem mudança de nota): o governo dele demitiu o ex-diretor da Cemig SIM, Rubens Soalheiro, após denúncias de ligação com negócios de Daniel Vorcaro (Banco Master); há duas auditorias internas em curso e Simões diz que o compliance barrou os contratos suspeitos -- é apuração sobre um subordinado, não sobre ele.",
       "fontes": [
         "https://www.cnnbrasil.com.br/eleicoes/quem-e-mateus-simoes-candidato-ao-governo-de-minas-gerais/",
-        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/9/16/simoes-diz-que-ex-diretor-da-cemig-sim-sera-alvo-de-investigacao-policial"
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/9/16/simoes-diz-que-ex-diretor-da-cemig-sim-sera-alvo-de-investigacao-policial",
+        "https://www.otempo.com.br/eleicoes/2026/governadores/2026/8/29/publicacao-de-simoes-e-considerada-irregular-e-justica-manda-retirar-do-ar",
+        "https://www.metropoles.com/colunas/grande-angular/tre-mg-manda-retirar-video-de-mateus-simoes-contra-vice-de-cleitinho"
       ],
       "pesquisado_em": "2026-09-21",
-      "achados": []
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "quantidade": 2,
+          "descricao": "Duas ordens do TRE-MG para retirar conteúdo de campanha: (1) 29/08/2026, vídeo gravado na UTI e na oncologia do Hospital Bom Pastor (Varginha), equipamentos pagos com dinheiro público, considerado uso de bem público em campanha (multa diária em caso de descumprimento); (2) 22/09/2026, vídeo que dizia falsamente que o vice de Cleitinho 'responde a CPI'"
+        }
+      ],
+      "auditado_em": "2026-09-24"
     },
     "130002550464": {
       "nome_urna": "PATRUS ANANIAS",
@@ -527,21 +529,27 @@
     "200002535255": {
       "nome_urna": "ALLYSON",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 8,
-      "motivo": "Nenhuma pendência judicial pessoal encontrada. Ex-prefeito de Mossoró, engenheiro civil, ex-deputado estadual, atualmente mantém posição de neutralidade na disputa nacional. || ATUALIZAÇÃO 2026-09-22: candidatura tinha nota 10 ('nenhuma pendência') por pesquisa incompleta. É alvo da Operação Mederi da PF (desvios na saúde de Mossoró), com decisão judicial que aponta recebimento pessoal de propina -- ainda sem denúncia formal do MPF confirmada, por isso tratado como 'investigação em curso' (-2), não como réu. Também alvo de uma ação no TRE-RN movida pela coligação adversária (Álvaro Dias) pedindo cassação/inelegibilidade dele e do vice Hermano Morais, ligada ao mesmo esquema -- processo em fase inicial, sem pedido de afastamento imediato, não contado como achado adicional (mesmo fato gerador da Operação Mederi).",
+      "nota": 6,
+      "motivo": "AUDITORIA 2026-09-24: AIJE pendente contra o registro vale -2 em todos os outros estados (Lucas Ribeiro/PB, Roberto Cidade/AM, Veneziano, Azevêdo, Styvenson); no RN as ações cruzadas estavam 'não contadas' (nota 8 -> 6). || Nenhuma pendência judicial pessoal encontrada. Ex-prefeito de Mossoró, engenheiro civil, ex-deputado estadual, atualmente mantém posição de neutralidade na disputa nacional. || ATUALIZAÇÃO 2026-09-22: candidatura tinha nota 10 ('nenhuma pendência') por pesquisa incompleta. É alvo da Operação Mederi da PF (desvios na saúde de Mossoró), com decisão judicial que aponta recebimento pessoal de propina -- ainda sem denúncia formal do MPF confirmada, por isso tratado como 'investigação em curso' (-2), não como réu. Também alvo de uma ação no TRE-RN movida pela coligação adversária (Álvaro Dias) pedindo cassação/inelegibilidade dele e do vice Hermano Morais, ligada ao mesmo esquema -- processo em fase inicial, sem pedido de afastamento imediato, não contado como achado adicional (mesmo fato gerador da Operação Mederi).",
       "fontes": [
         "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-allyson-bezerra-pre-candidato-ao-governo-do-rn/",
         "https://www.poder360.com.br/poder-justica/prefeito-de-mossoro-e-alvo-de-operacao-da-pf-e-da-cgu/",
         "https://pordentrodorn.com.br/2026/03/30/allyson-bezerra-investigacao-operacao-mederi-mossoro/",
-        "https://www.focoelho.com/2026/08/desvios-na-saude-de-mossoro-justica.html"
+        "https://www.focoelho.com/2026/08/desvios-na-saude-de-mossoro-justica.html",
+        "https://tribunadonorte.com.br/politica/endireita-rn-pede-ao-tre-rn-investigacao-contra-allyson/"
       ],
       "pesquisado_em": "2026-09-22",
       "achados": [
         {
           "categoria": "investigacao_ou_acao_civil_em_curso",
           "descricao": "Alvo, em 27/01/2026, da Operação Mederi da PF/CGU (35 mandados de busca e apreensão): suspeita de propina de 15% sobre pagamentos da Prefeitura de Mossoró a fornecedoras de medicamentos (sobretudo a distribuidora Dismed), estimada em mais de R$ 2,2 mi (2022-2025) -- a decisão judicial que autorizou a operação aponta recebimento pessoal de cerca de R$ 833 mil em propina. Perdeu o foro privilegiado ao renunciar à prefeitura para concorrer ao governo (03/2026) e passou a responder na Justiça Federal comum. Escutas telefônicas mantidas pelo TRF-5 em 08/2026. Também alvo de denúncia no TCE-RN por possível fraude no Pregão 07/2025 (mesma área, engenharia clínica/saúde). Sem denúncia formal do MPF confirmada até a pesquisa."
+        },
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "AIJE da coligação 'Endireita RN' (de Álvaro Dias) no TRE-RN pede investigação/cassação por abuso de poder (set/2026); sem decisão"
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "200002547826": {
       "nome_urna": "ARINALDA DO MLB",
@@ -647,12 +655,13 @@
     "200002534442": {
       "nome_urna": "ÁLVARO DIAS",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 8,
-      "motivo": "ATENÇÃO: homônimo do senador Álvaro Dias (PR, Podemos) -- este é Álvaro Costa Dias, médico, prefeito de Natal desde 2018, não é a mesma pessoa. Nenhuma pendência judicial encontrada. Migrou do Republicanos para o PL para consolidar apoio de direita/centro-direita na candidatura ao governo do RN. || ATUALIZAÇÃO 2026-09-22: candidatura tinha nota 10 ('nenhuma pendência') por pesquisa incompleta. Tem pelo menos 2 condenações CONFIRMADAS (uma já transitada em julgado) por propaganda eleitoral antecipada (-2). CUIDADO COM HOMÔNIMO: há também o senador Álvaro Dias (PR/Podemos, Paraná) -- resultados de busca sobre aborto/gênero de 2013-2016 encontrados nesta pesquisa pertencem a ELE, não a este candidato (médico, prefeito de Natal), e NÃO foram usados aqui. Também há uma ação no TRE-RN movida pela coligação de Allyson pedindo inelegibilidade dele e do vice Babá Pereira por um suposto programa diário de conteúdo eleitoral (mai/2025 a jun/2026) -- sub judice, sem decisão até a pesquisa, não contada como achado adicional (mesmo fato gerador da condenação já contada).",
+      "nota": 6,
+      "motivo": "AUDITORIA 2026-09-24: AIJE pendente contra o registro vale -2 em todos os outros estados; no RN as ações cruzadas estavam 'não contadas' (nota 8 -> 6). || ATENÇÃO: homônimo do senador Álvaro Dias (PR, Podemos) -- este é Álvaro Costa Dias, médico, prefeito de Natal desde 2018, não é a mesma pessoa. Nenhuma pendência judicial encontrada. Migrou do Republicanos para o PL para consolidar apoio de direita/centro-direita na candidatura ao governo do RN. || ATUALIZAÇÃO 2026-09-22: candidatura tinha nota 10 ('nenhuma pendência') por pesquisa incompleta. Tem pelo menos 2 condenações CONFIRMADAS (uma já transitada em julgado) por propaganda eleitoral antecipada (-2). CUIDADO COM HOMÔNIMO: há também o senador Álvaro Dias (PR/Podemos, Paraná) -- resultados de busca sobre aborto/gênero de 2013-2016 encontrados nesta pesquisa pertencem a ELE, não a este candidato (médico, prefeito de Natal), e NÃO foram usados aqui. Também há uma ação no TRE-RN movida pela coligação de Allyson pedindo inelegibilidade dele e do vice Babá Pereira por um suposto programa diário de conteúdo eleitoral (mai/2025 a jun/2026) -- sub judice, sem decisão até a pesquisa, não contada como achado adicional (mesmo fato gerador da condenação já contada).",
       "fontes": [
         "https://tribunadonorte.com.br/politica/endireitar-o-rn-alvaro-dias-e-candidato-do-pl-ao-governo-do-rn/",
         "https://saibamais.jor.br/2026/06/tre-rn-multa-alvaro-dias-e-baba-por-propaganda-eleitoral-antecipada/",
-        "https://www.opotiguar.com.br/multas-do-caso-rn-verdade-chegam-a-r-175-mil-com-nova-condenacao-de-alvaro-no-tre"
+        "https://www.opotiguar.com.br/multas-do-caso-rn-verdade-chegam-a-r-175-mil-com-nova-condenacao-de-alvaro-no-tre",
+        "https://agorarn.com.br/politica/allyson-pede-inelegibilidade-alvaro-dias-baba-propaganda-radios/"
       ],
       "pesquisado_em": "2026-09-22",
       "achados": [
@@ -660,8 +669,13 @@
           "categoria": "infracao_eleitoral_leve",
           "quantidade": 2,
           "descricao": "Condenado pelo TRE-RN, em pelo menos 2 processos distintos (um deles pelo programa de rádio 'RN Verdade com Álvaro Dias', veiculado em rádios de Caicó em 13/04/2026), por propaganda eleitoral antecipada -- multas que somam R$ 175 mil (R$ 95 mil pessoais dele). Recurso contra a condenação de abril foi NEGADO em 31/07/2026 (decisão transitada em julgado)."
+        },
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "AIJE da coligação de Allyson e do Republicanos no TRE-RN pede cassação do registro e inelegibilidade de 8 anos dele e do vice Babá Pereira por uso indevido dos meios de comunicação (245 programas de rádio de pré-campanha entre mai/2025 e jun/2026); sem decisão. Os mesmos programas já renderam as condenações por propaganda antecipada contadas acima; aqui conta o pedido de cassação pendente"
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "20002553350": {
       "nome_urna": "JHC",
@@ -932,24 +946,32 @@
     "120002552155": {
       "nome_urna": "DELCIDIO AMARAL",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 3,
-      "motivo": "REVISADA em 2026-09-21: Nota mantida (3), agora decomposta. Registro de 2026 deferido pelo TRE-MS. Preso em novembro/2015 na Operação Lava Jato, acusado de tentar obstruir as investigações (interferir em delações de outros réus). Mandato de senador cassado pelo Senado em 2016 -- ficou inelegível por 11 anos. Deixou a prisão via acordo de delação premiada (primeiro político a colaborar na Lava Jato), não por absolvição de mérito. Prisão efetivamente cumprida + cassação de mandato, sem indicação encontrada de reversão judicial da condenação -- desconto pesado por padrão do projeto (condenação com pena efetivamente cumprida).",
+      "nota": 6,
+      "motivo": "AUDITORIA 2026-09-24: a prisão de 2015 foi PREVENTIVA e ele foi absolvido em 2018 -- 'condenação com pena cumprida' (-5) exige condenação; a prisão preventiva de Marconi Perillo, por exemplo, não foi contada assim. Passa a 'acusação absolvida' (-1); entra a condenação cível por danos morais a Lula (-1); segue a cassação do mandato (-2) (nota 3 -> 6). || REVISADA em 2026-09-21: Nota mantida (3), agora decomposta. Registro de 2026 deferido pelo TRE-MS. Preso em novembro/2015 na Operação Lava Jato, acusado de tentar obstruir as investigações (interferir em delações de outros réus). Mandato de senador cassado pelo Senado em 2016 -- ficou inelegível por 11 anos. Deixou a prisão via acordo de delação premiada (primeiro político a colaborar na Lava Jato), não por absolvição de mérito. Prisão efetivamente cumprida + cassação de mandato, sem indicação encontrada de reversão judicial da condenação -- desconto pesado por padrão do projeto (condenação com pena efetivamente cumprida).",
       "fontes": [
         "https://platobr.com.br/delcidio-do-amaral-do-auge-a-cassacao-e-de-volta-a-urna",
         "https://en.wikipedia.org/wiki/Delc%C3%ADdio_do_Amaral",
-        "https://oantagonista.com.br/brasil/ex-petista-delcidio-do-amaral-ensaia-retorno-mas-rejeicao-e-alta/"
+        "https://oantagonista.com.br/brasil/ex-petista-delcidio-do-amaral-ensaia-retorno-mas-rejeicao-e-alta/",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2018-07/justica-absolve-lula-e-outros-acusados-em-caso-de-obstrucao-de-justica",
+        "https://www.campograndenews.com.br/politica/tres-anos-apos-ser-preso-e-perder-mandato-delcidio-e-inocentado",
+        "https://www.cartacapital.com.br/cartaexpressa/delcidio-e-condenado-a-indenizar-lula-por-acusacoes-falsas-na-lava-jato/"
       ],
       "pesquisado_em": "2026-09-21",
       "achados": [
         {
-          "categoria": "condenacao_criminal_pena_cumprida",
-          "descricao": "Preso em nov/2015 na Lava Jato por tentar obstruir investigações; saiu por acordo de delação, não por absolvição"
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Preso PREVENTIVAMENTE em nov/2015 (Lava Jato, tentativa de obstruir a delação de Nestor Cerveró), solto em fev/2016 após acordo de delação; no processo de obstrução foi ABSOLVIDO pela Justiça Federal do DF em jul/2018 (junto com Lula e outros), por insuficiência de provas. Nunca foi condenado criminalmente"
         },
         {
           "categoria": "cassacao_de_mandato",
           "descricao": "Mandato de senador cassado pelo Senado em 2016; inelegibilidade de 11 anos que, segundo as fontes, se encerra antes de 2027. Registro de 2026 foi deferido pelo TRE-MS"
+        },
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado a indenizar Lula por acusações falsas feitas na delação (a Justiça considerou que ele não provou o que disse)"
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "120002539834": {
       "nome_urna": "FÁBIO TRAD",
@@ -1048,8 +1070,8 @@
     "60002531351": {
       "nome_urna": "CIRO GOMES",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 6,
-      "motivo": "Responde a cerca de 77 processos no TJ-CE, a maioria (70) ações cíveis por dano moral decorrentes de declarações públicas (calúnia/injúria/difamação -- não estão no rol da Ficha Limpa). Já foi condenado a indenizar em pelo menos 8 desses casos, com cerca de R$315 mil em indenizações somadas em 6 deles, ainda recorrendo. É um padrão verificado e extenso de condenações cíveis por conduta pública agressiva, não um incidente isolado -- por isso desconto maior que o padrão de um único caso cível. || ATUALIZAÇÃO 2026-09-22: achado adicional encontrado na reconferência -- Operação Colosseum (PF, 12/2021), apuração sobre a Arena Castelão; TRF-5 anulou a busca e apreensão contra ele em 2022 por decurso de prazo, investigação seguiu sob sigilo sem desfecho confirmado até a pesquisa (-1, peso leve dado o tempo decorrido e a incerteza do status atual).",
+      "nota": 5,
+      "motivo": "AUDITORIA 2026-09-24: Operação Colosseum: alvo de busca e apreensão da PF sem denúncia nem arquivamento conhecido = investigação em curso (-2), mesmo critério aplicado ao irmão Cid Gomes (Senador) e a Wilson Lima, Rose de Freitas, Ciro Nogueira; o -1 'pela idade' era exceção fora da tabela (nota 6 -> 5). || Responde a cerca de 77 processos no TJ-CE, a maioria (70) ações cíveis por dano moral decorrentes de declarações públicas (calúnia/injúria/difamação -- não estão no rol da Ficha Limpa). Já foi condenado a indenizar em pelo menos 8 desses casos, com cerca de R$315 mil em indenizações somadas em 6 deles, ainda recorrendo. É um padrão verificado e extenso de condenações cíveis por conduta pública agressiva, não um incidente isolado -- por isso desconto maior que o padrão de um único caso cível. || ATUALIZAÇÃO 2026-09-22: achado adicional encontrado na reconferência -- Operação Colosseum (PF, 12/2021), apuração sobre a Arena Castelão; TRF-5 anulou a busca e apreensão contra ele em 2022 por decurso de prazo, investigação seguiu sob sigilo sem desfecho confirmado até a pesquisa (-1, peso leve dado o tempo decorrido e a incerteza do status atual).",
       "fontes": [
         "https://www.jota.info/eleicoes/ciro-gomes-70-processos-14062018",
         "https://mais.opovo.com.br/reportagens-especiais/2020/07/24/ciro-gomes-responde-a-74-processos-por-244-acusacoes-e-xingamentos.html"
@@ -1062,10 +1084,11 @@
           "descricao": "Cerca de 70 ações cíveis por dano moral no TJ-CE por declarações públicas; condenado a indenizar em pelo menos 8 (cerca de R$ 315 mil somados em 6), ainda recorrendo -- o peso é limitado pelo teto da categoria (3)"
         },
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "investigacao_ou_acao_civil_em_curso",
           "descricao": "PF fez busca e apreensão contra ele e o irmão Cid Gomes em 12/2021 (Operação Colosseum), apurando suposto esquema de R$ 11 milhões em propina nas obras de reforma da Arena Castelão para a Copa de 2014 (fatos de 2010-2013, quando Cid Gomes era governador do CE). O TRF-5 anulou a busca e apreensão especificamente contra Ciro em 02/2022 por decurso de prazo excessivo, mas manteve a investigação em curso sob sigilo. Não foi encontrada confirmação de denúncia formal nem de arquivamento até a pesquisa (quase 5 anos sem desfecho conhecido) -- achado antigo e de status atual incerto, por isso peso leve."
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "60002543969": {
       "nome_urna": "ELMANO DE FREITAS",
@@ -2394,7 +2417,7 @@
       "nome_urna": "WELLINGTON FAGUNDES",
       "cargo_pretendido": "GOVERNADOR",
       "nota": 3,
-      "motivo": "Senador (desde 2015), veterinário. (1) Réu no STF desde 2018 por corrupção passiva e lavagem de dinheiro na Máfia das Ambulâncias/Sanguessugas (compra de ambulâncias superfaturadas da empresa Planan via emendas parlamentares, 2001-2006, quando deputado federal) -- processo aguardava alegações finais para sentença na Justiça Federal de MT até a pesquisa, sem trânsito em julgado. (2) PF investiga (inquérito com prazo estendido) suposto recebimento de caixa 2 da JBS na campanha de 2014. (3) CONDENADO por improbidade administrativa por autopromoção pessoal em obras públicas federais (outdoors e placas em Rondonópolis) -- multa civil de 3x o salário, direitos políticos mantidos por decisão judicial que considerou desproporcional suspendê-los.",
+      "motivo": "AUDITORIA 2026-09-24: só rótulo: condenação por improbidade (autopromoção em obras) estava como 'contas irregulares'; instância final não confirmada, passa a 'condenação de 1ª instância recorrível' (mesmo peso -2) (nota 3 -> 3). || Senador (desde 2015), veterinário. (1) Réu no STF desde 2018 por corrupção passiva e lavagem de dinheiro na Máfia das Ambulâncias/Sanguessugas (compra de ambulâncias superfaturadas da empresa Planan via emendas parlamentares, 2001-2006, quando deputado federal) -- processo aguardava alegações finais para sentença na Justiça Federal de MT até a pesquisa, sem trânsito em julgado. (2) PF investiga (inquérito com prazo estendido) suposto recebimento de caixa 2 da JBS na campanha de 2014. (3) CONDENADO por improbidade administrativa por autopromoção pessoal em obras públicas federais (outdoors e placas em Rondonópolis) -- multa civil de 3x o salário, direitos políticos mantidos por decisão judicial que considerou desproporcional suspendê-los.",
       "fontes": [
         "https://www.reportermt.com/poderes/apos-12-anos-wellington-fagundes-vira-reu-por-corrupcao-passiva-e-lavagem-de-dinheiro/77928",
         "https://www.olharjuridico.com.br/noticias/exibir.asp?id=33532&noticia=wellington-fagundes-e-investigado-por-corrupcao-lavagem-de-dinheiro-e-ocultacao-de-bens",
@@ -2411,10 +2434,11 @@
           "descricao": "PF investiga suposto caixa 2 da JBS na campanha de 2014"
         },
         {
-          "categoria": "contas_irregulares_com_ressarcimento",
+          "categoria": "condenacao_1a_instancia_recorrivel",
           "descricao": "Condenado por improbidade (autopromoção pessoal em obras públicas federais em Rondonópolis), multa civil de 3x o salário"
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "110002543953": {
       "nome_urna": "RAFAELL MILAS",
@@ -3144,8 +3168,8 @@
     "250002541312": {
       "nome_urna": "GUILHERME DERRITE",
       "cargo_pretendido": "SENADOR",
-      "nota": 8,
-      "motivo": "Deputado federal (PP-SP), foi Secretário de Segurança Pública de SP (2023-2025) no governo Tarcísio. Como Secretário, comandou a Operação Escudo (Baixada Santista, 2023): 28 mortes em 40 dias; o MP-SP denunciou 13 policiais militares, mas não ele -- tratado como contexto de gestão (responsabilidade de comando), não pendência pessoal direta, mesmo critério usado para outros governantes cujos subordinados foram alvo de apuração. Já como policial da ROTA, foi ele próprio investigado repetidamente por mortes em operações das quais participou diretamente -- isso sim é achado pessoal, mesmo sem nenhuma denúncia formal.",
+      "nota": 9,
+      "motivo": "AUDITORIA 2026-09-24: os inquéritos (mortes em operações da ROTA) não resultaram em denúncia -- investigação encerrada sem acusação vale -1 (mesmo critério de Fufuca, Chico Rodrigues, Humberto Costa, Roseana Sarney), não -2 de investigação em curso (nota 8 -> 9). || Deputado federal (PP-SP), foi Secretário de Segurança Pública de SP (2023-2025) no governo Tarcísio. Como Secretário, comandou a Operação Escudo (Baixada Santista, 2023): 28 mortes em 40 dias; o MP-SP denunciou 13 policiais militares, mas não ele -- tratado como contexto de gestão (responsabilidade de comando), não pendência pessoal direta, mesmo critério usado para outros governantes cujos subordinados foram alvo de apuração. Já como policial da ROTA, foi ele próprio investigado repetidamente por mortes em operações das quais participou diretamente -- isso sim é achado pessoal, mesmo sem nenhuma denúncia formal.",
       "fontes": [
         "https://ponte.org/artigo-guilherme-derrite-o-anti-secretario-da-seguranca-publica/",
         "https://ponte.org/quem-e-guilherme-derrite-secretario-de-tarcisio-indicado-como-relator-do-pl-antifaccao/",
@@ -3155,10 +3179,11 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "categoria": "acusacao_anulada_ou_absolvida",
           "descricao": "Como policial da ROTA (antes de entrar na política), foi pessoalmente investigado em pelo menos 6 inquéritos por mortes ocorridas em operações policiais das quais participou; segundo reportagem da piauí (2024), nenhum resultou em denúncia."
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "250002553928": {
       "nome_urna": "GUTO SCHIAVETTO",
@@ -3596,13 +3621,20 @@
     "190002548145": {
       "nome_urna": "PEDRO PAULO",
       "cargo_pretendido": "SENADOR",
-      "nota": 10,
-      "motivo": "Economista, deputado federal em 4º mandato consecutivo desde 2011, reconhecido em rankings parlamentares por produtividade legislativa. Busca não encontrou processo, condenação ou pendência de registro.",
+      "nota": 9,
+      "motivo": "AUDITORIA 2026-09-24: checagem por amostragem de incumbentes com nota 10: faltava o inquérito por agressão arquivado em 2016 (-1) (nota 10 -> 9). || Economista, deputado federal em 4º mandato consecutivo desde 2011, reconhecido em rankings parlamentares por produtividade legislativa. Busca não encontrou processo, condenação ou pendência de registro.",
       "fontes": [
-        "https://www.cnnbrasil.com.br/eleicoes/quem-e-pedro-paulo-candidato-ao-senado-pelo-rio-de-janeiro/"
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-pedro-paulo-candidato-ao-senado-pelo-rio-de-janeiro/",
+        "https://noticias.stf.jus.br/postsnoticias/arquivado-inquerito-contra-deputado-pedro-paulo-por-agressao/"
       ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Inquérito no STF (Inq 4199) por lesão corporal contra a então esposa arquivado em 2016 a pedido da PGR, que não viu crime; a ex-mulher mudou a versão e disse que ele apenas se defendeu"
+        }
+      ],
+      "auditado_em": "2026-09-24"
     },
     "190002548590": {
       "nome_urna": "VINICIUS BENEVIDES",
@@ -3704,13 +3736,21 @@
     "50002536317": {
       "nome_urna": "JAQUES WAGNER",
       "cargo_pretendido": "SENADOR",
-      "nota": 10,
-      "motivo": "Ex-governador da Bahia (2007-2015), ex-Ministro da Defesa e da Casa Civil (governo Dilma), senador desde 2018. Busca não encontrou processo, condenação ou pendência de registro.",
+      "nota": 9,
+      "motivo": "AUDITORIA 2026-09-24: checagem por amostragem de incumbentes com nota 10: faltava a Operação Cartão Vermelho (arquivada em 2025) -- investigação arquivada sem denúncia vale -1 (nota 10 -> 9). || Ex-governador da Bahia (2007-2015), ex-Ministro da Defesa e da Casa Civil (governo Dilma), senador desde 2018. Busca não encontrou processo, condenação ou pendência de registro.",
       "fontes": [
-        "https://www.senado.leg.br"
+        "https://www.senado.leg.br",
+        "https://www.brasildefato.com.br/2025/02/17/justica-determina-o-arquivamento-de-investigacao-contra-senador-jaques-wagner/",
+        "https://exame.com/brasil/pf-revista-casa-de-jaques-wagner-em-investigacao-sobre-fonte-nova/"
       ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Alvo de busca e apreensão da PF (Operação Cartão Vermelho, fev/2018) sob suspeita de receber propina no contrato da Arena Fonte Nova; a Justiça Federal arquivou a investigação em fev/2025 a pedido do MPF, por falta de provas, sem denúncia"
+        }
+      ],
+      "auditado_em": "2026-09-24"
     },
     "50002533123": {
       "nome_urna": "JOÃO ROMA",
@@ -3810,18 +3850,21 @@
       "nome_urna": "DELTAN DALLAGNOL",
       "cargo_pretendido": "SENADOR",
       "nota": 8,
-      "motivo": "Ex-procurador e ex-coordenador da força-tarefa da Lava Jato em Curitiba. A disputa sobre a elegibilidade dele é a mais grave do estado: decisão unânime do TSE reconhecendo fraude à lei para escapar de processo disciplinar, com a campanha já suspensa -- mas o mérito final ainda não transitou em julgado.",
+      "motivo": "AUDITORIA 2026-09-24: status do registro atualizado (segue sub judice, mesma categoria) (nota 8 -> 8). || Ex-procurador e ex-coordenador da força-tarefa da Lava Jato em Curitiba. A disputa sobre a elegibilidade dele é a mais grave do estado: decisão unânime do TSE reconhecendo fraude à lei para escapar de processo disciplinar, com a campanha já suspensa -- mas o mérito final ainda não transitou em julgado.",
       "fontes": [
         "https://marelimartins.com.br/2026/09/19/tse-suspende-campanha-de-deltan-dallagnol-ao-senado/",
-        "https://www.congressoemfoco.com.br/noticia/122076/tre-pr-valida-registro-de-candidatura-de-deltan-dallagnol-ao-senado"
+        "https://www.congressoemfoco.com.br/noticia/122076/tre-pr-valida-registro-de-candidatura-de-deltan-dallagnol-ao-senado",
+        "https://www.bandab.com.br/politica/eleicoes-2026/tre-pr-mantem-registro-deltan-dallagnol-senado/",
+        "https://conjur.com.br/2026-set-20/tse-suspende-campanha-de-deltan-dallagnol-ao-senado/"
       ],
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
           "categoria": "registro_contestado_sub_judice",
-          "descricao": "O TSE reconheceu, por unanimidade, que ele pediu exoneração do cargo de procurador do MPF em nov/2021 'em fraude à lei', para escapar da inelegibilidade de 8 anos prevista para quem pede exoneração/aposentadoria com processo disciplinar administrativo pendente (LC 64/90, art. 1º, 'q'). Com base nisso, ministro do TSE suspendeu a campanha dele ao Senado em 19/09/2026 (sem uso de fundo eleitoral nem propaganda gratuita) até o julgamento completo do recurso; o TRE-PR havia validado o registro antes dessa decisão. O TSE já havia anulado o registro dele para deputado federal em 2023 por motivo relacionado."
+          "descricao": "O TSE reconheceu, por unanimidade, que ele pediu exoneração do cargo de procurador do MPF em nov/2021 'em fraude à lei', para escapar da inelegibilidade de 8 anos prevista para quem pede exoneração/aposentadoria com processo disciplinar administrativo pendente (LC 64/90, art. 1º, 'q'). Com base nisso, ministro do TSE suspendeu a campanha dele ao Senado em 19/09/2026 (sem uso de fundo eleitoral nem propaganda gratuita) até o julgamento completo do recurso; o TRE-PR havia validado o registro antes dessa decisão. O TSE já havia anulado o registro dele para deputado federal em 2023 por motivo relacionado. ATUALIZAÇÃO 24/09: o plenário do TSE confirmou a suspensão da campanha por 5x2 (21/09); o TRE-PR manteve o registro ao julgar embargos (23/09); o TSE deve julgar o mérito do recurso até 25/09."
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "160002547658": {
       "nome_urna": "DR ROSINHA",
@@ -3932,7 +3975,7 @@
       "nome_urna": "MANUELA D ÁVILA",
       "cargo_pretendido": "SENADOR",
       "nota": 8,
-      "motivo": "Ex-deputada federal e estadual, ex-vice-presidenciável (2018), filiou-se ao PSOL para a candidatura ao Senado. Lidera pesquisas para uma das duas vagas do RS.",
+      "motivo": "AUDITORIA 2026-09-24: só rótulo: remoção de desinformação com multa passa de 'contas/multa eleitoral' para 'infração eleitoral leve' (mesmo peso) (nota 8 -> 8). || Ex-deputada federal e estadual, ex-vice-presidenciável (2018), filiou-se ao PSOL para a candidatura ao Senado. Lidera pesquisas para uma das duas vagas do RS.",
       "fontes": [
         "https://www.metropoles.com/colunas/grande-angular/tre-rs-manda-manuela-davila-retirar-posts-que-ligam-van-hattem-ao-pcc",
         "https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/tre-multa-manuela-davila-por-fake-news-contra-van-hattem"
@@ -3940,14 +3983,15 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "categoria": "infracao_eleitoral_leve",
           "descricao": "TRE-RS (12/09/2026) mandou remover publicações em que associava um doador da campanha de Marcel Van Hattem a lavagem de dinheiro para o PCC, sem base documental -- caracterizado como desinformação; campanha dela multada em R$5 mil."
         },
         {
           "categoria": "citado_ou_apuracao_preliminar",
           "descricao": "Marcel Van Hattem protocolou queixa-crime contra ela em 18/09/2026 pelo mesmo episódio; sem decisão até a pesquisa."
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "210002547819": {
       "nome_urna": "MARCEL VAN HATTEM",
@@ -4047,13 +4091,25 @@
     "170002552102": {
       "nome_urna": "EDUARDO DA FONTE",
       "cargo_pretendido": "SENADOR",
-      "nota": 10,
-      "motivo": "Deputado federal desde 2007 (6 mandatos), candidato do PP. Busca não encontrou processo, condenação ou pendência de registro -- as acusações trocadas com Mendonça Filho em debate são retórica política de campanha, não achado verificado.",
+      "nota": 8,
+      "motivo": "AUDITORIA 2026-09-24: checagem por amostragem de incumbentes com nota 10: faltavam duas acusações da Lava Jato encerradas a favor dele (absolvição em 2022 e denúncia rejeitada em 2016), -1 cada (nota 10 -> 8). || Deputado federal desde 2007 (6 mandatos), candidato do PP. Busca não encontrou processo, condenação ou pendência de registro -- as acusações trocadas com Mendonça Filho em debate são retórica política de campanha, não achado verificado.",
       "fontes": [
-        "https://www.bj1.com.br/mendonca-rebate-eduardo-da-fonte-no-debate-em-petrolina-e-diz-que-o-adversario-fez-jogo-nefasto-com-raquel-negociando-cargo-de-senador-com-joao-campos/"
+        "https://www.bj1.com.br/mendonca-rebate-eduardo-da-fonte-no-debate-em-petrolina-e-diz-que-o-adversario-fez-jogo-nefasto-com-raquel-negociando-cargo-de-senador-com-joao-campos/",
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=485753&ori=1",
+        "https://noticias.stf.jus.br/postsnoticias/rejeitada-denuncia-por-corrupcao-passiva-contra-o-deputado-eduardo-da-fonte/"
       ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Réu na Lava Jato desde 2018 (R$ 300 mil da UTC, corrupção e lavagem); ABSOLVIDO por unanimidade pelo Plenário do STF em abr/2022 por insuficiência de provas"
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Outra denúncia por corrupção passiva (Inq 3998, delações de Paulo Roberto Costa e Fernando Baiano) rejeitada pela 2ª Turma do STF em 2016 por falta de provas de corroboração"
+        }
+      ],
+      "auditado_em": "2026-09-24"
     },
     "170002537335": {
       "nome_urna": "GORETT BITU",
@@ -4187,8 +4243,8 @@
     "60002540753": {
       "nome_urna": "CAPITÃO WAGNER",
       "cargo_pretendido": "SENADOR",
-      "nota": 7,
-      "motivo": "Ex-deputado federal (2019-2023), candidato do União Brasil ao Senado. Padrão repetido de vídeos com acusações infundadas contra autoridades, já com uma decisão judicial classificando a reincidência como descumprimento de ordem.",
+      "nota": 8,
+      "motivo": "AUDITORIA 2026-09-24: ordem judicial para remover propaganda/vídeos sem provas (com multa por descumprimento) = infração eleitoral leve (-1), mesmo critério de Manuela D'Ávila e Eli Borges; não é investigação (nota 7 -> 8). || Ex-deputado federal (2019-2023), candidato do União Brasil ao Senado. Padrão repetido de vídeos com acusações infundadas contra autoridades, já com uma decisão judicial classificando a reincidência como descumprimento de ordem.",
       "fontes": [
         "https://gcmais.com.br/noticias/2026/04/27/justica-manda-remover-video-de-capitao-wagner-que-associa-prefeito-de-fortaleza-a-faccoes-criminosas/",
         "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/inacio-aguiar/juiz-manda-capitao-wagner-apagar-novo-video-sobre-elmano-e-ve-descumprimento-de-ordem-judicial-1.3709103"
@@ -4196,14 +4252,15 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "categoria": "infracao_eleitoral_leve",
           "descricao": "A Justiça do CE determinou por 2 vezes (abr/2026 e depois) que ele removesse vídeos em que associava, sem provas, o prefeito de Fortaleza (Evandro Leitão) e o governador Elmano de Freitas ao crime organizado; a 2ª decisão considerou a postagem um descumprimento da ordem anterior, com multa diária de R$50 mil e bloqueio das redes dele em caso de novo descumprimento. Evandro Leitão move ação por calúnia e difamação."
         },
         {
           "categoria": "citado_ou_apuracao_preliminar",
           "descricao": "Foi acusado de liderar a greve da polícia no Ceará em 2020 (movimento considerado ilegal por se tratar de serviço essencial); sem confirmação de processo formal concluído nesta busca."
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "60002533959": {
       "nome_urna": "CATARINA MATOS",
@@ -4217,18 +4274,20 @@
     "60002542479": {
       "nome_urna": "CID GOMES",
       "cargo_pretendido": "SENADOR",
-      "nota": 9,
-      "motivo": "Ex-governador do Ceará (2007-2015), senador buscando reeleição, indicado por Lula/Elmano para a chapa. Filiou-se ao PSB em 2024 após racha na família política e no PDT local.",
+      "nota": 8,
+      "motivo": "AUDITORIA 2026-09-24: alvo de busca e apreensão da PF (Operação Colosseum, 2021) sem denúncia nem arquivamento conhecido = investigação em curso (-2), mesmo critério de Wilson Lima, Rose de Freitas, Ciro Nogueira e Mauro Mendes; o -1 'pela idade do achado' era exceção não prevista na tabela (vale também para Ciro Gomes/Governador-CE) (nota 9 -> 8). || Ex-governador do Ceará (2007-2015), senador buscando reeleição, indicado por Lula/Elmano para a chapa. Filiou-se ao PSB em 2024 após racha na família política e no PDT local.",
       "fontes": [
-        "https://www.jota.info/eleicoes/ciro-gomes-70-processos-14062018"
+        "https://www.jota.info/eleicoes/ciro-gomes-70-processos-14062018",
+        "https://www.cnnbrasil.com.br/nacional/policia-investiga-suposto-esquema-de-propina-em-reforma-do-castelao-em-fortaleza/"
       ],
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "investigacao_ou_acao_civil_em_curso",
           "descricao": "A PF fez busca e apreensão contra ele e o irmão Ciro Gomes em 12/2021 (Operação Colosseum), apurando suposto esquema de R$11 milhões em propina nas obras de reforma da Arena Castelão para a Copa de 2014 -- fatos de 2010-2013, quando ele próprio era governador do CE. O TRF-5 anulou a busca e apreensão contra Ciro em 2022 por decurso de prazo, mas a investigação seguiu sob sigilo; não há confirmação de denúncia nem de arquivamento até a pesquisa (quase 5 anos sem desfecho conhecido) -- mesmo achado já registrado no arquivo de Ciro Gomes, agora também contado para Cid, que era o governador à época dos fatos apurados."
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "60002539687": {
       "nome_urna": "GUILHERME THEOPHILO",
@@ -4377,17 +4436,23 @@
       "nome_urna": "HELDER",
       "cargo_pretendido": "SENADOR",
       "nota": 8,
-      "motivo": "Governador do Pará (2019-2026), renunciou para concorrer ao Senado. É filho do ex-senador e ex-governador Jader Barbalho, que é seu 1º suplente nesta chapa (ver círculo político).",
+      "motivo": "AUDITORIA 2026-09-24: o pedido da Procuradoria Regional Eleitoral contra o registro foi julgado: o TRE-PA DEFERIU a candidatura por unanimidade em 14/09/2026 (sem recurso localizado), então sai o 'registro contestado' (-2); entram os 2 inquéritos da pandemia arquivados pelo STJ (-1 cada), que a busca rasa não tinha pegado (nota 8 -> 8). || Governador do Pará (2019-2026), renunciou para concorrer ao Senado. É filho do ex-senador e ex-governador Jader Barbalho, que é seu 1º suplente nesta chapa (ver círculo político).",
       "fontes": [
-        "https://diariodopoder.com.br/brasil-e-regioes/ttc-brasil/mp-impugna-candidatura-de-helder-por-governar-mesmo-apos-haver-renunciado"
+        "https://diariodopoder.com.br/brasil-e-regioes/ttc-brasil/mp-impugna-candidatura-de-helder-por-governar-mesmo-apos-haver-renunciado",
+        "https://diariodopara.com.br/eleicoes-2026/tre-pa-decide-por-unanimidade-e-mantem-helder-barbalho-na-corrida-ao-senado/",
+        "https://www.cnnbrasil.com.br/nacional/pf-pede-indiciamento-do-governador-do-para-helder-barbalho/",
+        "https://istoe.com.br/stj-bloqueia-r-25-milhoes-de-helder-barbalho-e-mais-sete-investigados/",
+        "https://revistaexilio.substack.com/p/stj-enterra-dois-inqueritos-contra"
       ],
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "registro_contestado_sub_judice",
-          "descricao": "A Procuradoria Regional Eleitoral do Pará (PRE-PA) pediu à Justiça Eleitoral a rejeição do registro de candidatura dele ao Senado, alegando ausência de efetiva desincompatibilização: apesar de ter renunciado ao cargo de governador em abril/2026 (assumido pela vice, Hana Ghassan), a acusação é que ele continuou governando na prática. Sem decisão definitiva até a pesquisa."
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "quantidade": 2,
+          "descricao": "Dois inquéritos no STJ sobre compras emergenciais na pandemia (Operação Para Bellum: 400 respiradores chineses por R$ 50-53 mi; PF pediu o indiciamento dele e o STJ chegou a bloquear R$ 25 mi) foram ARQUIVADOS por unanimidade pela Corte Especial do STJ, sem denúncia"
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "140002553952": {
       "nome_urna": "LIVIA NORONHA",
@@ -4750,19 +4815,26 @@
     "40002541744": {
       "nome_urna": "WILSON LIMA",
       "cargo_pretendido": "SENADOR",
-      "nota": 8,
-      "motivo": "Governador do Amazonas (2019-2026), renunciou nas últimas horas do prazo eleitoral para concorrer ao Senado -- reviravolta em relação à posição pública anterior dele de que permaneceria no cargo até o fim do mandato. Não encontrei, nesta busca, nenhuma impugnação formal do MPE-AM questionando a desincompatibilização dele (diferente do caso de Helder Barbalho/PA).",
+      "nota": 5,
+      "motivo": "AUDITORIA 2026-09-24: a pesquisa rasa registrou só a busca e apreensão de 2021 'sem desfecho conhecido', mas ele é RÉU no STJ desde 2021 (APn 993, respiradores); a busca na 4ª fase (hospital Nilton Lins) é outro fato e continua como investigação (nota 8 -> 5). || Governador do Amazonas (2019-2026), renunciou nas últimas horas do prazo eleitoral para concorrer ao Senado -- reviravolta em relação à posição pública anterior dele de que permaneceria no cargo até o fim do mandato. Não encontrei, nesta busca, nenhuma impugnação formal do MPE-AM questionando a desincompatibilização dele (diferente do caso de Helder Barbalho/PA).",
       "fontes": [
         "https://www.metropoles.com/brasil/policia-br/pf-operacao-amazonas-wilson-lima",
-        "https://agenciabrasil.ebc.com.br/saude/noticia/2021-06/governador-do-amazonas-e-alvo-de-operacao-da-policia-federal"
+        "https://agenciabrasil.ebc.com.br/saude/noticia/2021-06/governador-do-amazonas-e-alvo-de-operacao-da-policia-federal",
+        "https://www.cartacapital.com.br/politica/stj-aceita-denuncia-e-governador-do-amazonas-vira-reu-por-desvios-na-pandemia/",
+        "https://vocativo.com/2026/08/14/operacao-sangria-stj-pauta-recursos-de-wilson-lima-e-ex-gestores-do-amazonas/"
       ],
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu no STJ desde 20/09/2021 (APn 993, Operação Sangria): a Corte Especial recebeu a denúncia do MPF por organização criminosa, embaraço à investigação, dispensa irregular de licitação, fraude em licitação e peculato na compra de 28 respiradores (loja de vinhos, sobrepreço ~134%); em set/2026 o STJ ainda julgava recursos processuais, sem sentença"
+        },
+        {
           "categoria": "investigacao_ou_acao_civil_em_curso",
           "descricao": "A residência dele foi alvo de busca e apreensão na Operação Sangria (PF, jun/2021, 4ª fase): apuração de fraude em licitação e desvio de recursos públicos na contratação do hospital de campanha Nilton Lins (combate à Covid), sob suposta direção da alta liderança do governo estadual; R$22,8 milhões em bens/valores bloqueados. Achado de 2021 (~5 anos); não foi possível confirmar o desfecho final (denúncia, arquivamento ou condenação) nesta busca."
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "40002550806": {
       "nome_urna": "XUXA DO AMAZONAS",
@@ -5937,19 +6009,26 @@
     "220002541490": {
       "nome_urna": "ACIR GURGACZ",
       "cargo_pretendido": "SENADOR",
-      "nota": 4,
-      "motivo": "Ex-senador por RO (2011-2019), PDT.",
+      "nota": 0,
+      "motivo": "AUDITORIA 2026-09-24: faltava a própria condenação criminal com pena cumprida (-5), contada para Lula e João Rodrigues/SC; antes só a inelegibilidade estava registrada (ele já está fora do funil pela inelegibilidade) (nota 4 -> 0). || Ex-senador por RO (2011-2019), PDT.",
       "fontes": [
         "https://expressaorondonia.com.br/justica-eleitoral-mantem-acir-gurgacz-inelegivel-ate-2030-senador-deve-recorrer-ao-tse-e-supremo/",
-        "https://painelpolitico.com/acir-gurgacz-mpf-diz-que-ex-senador-esta-inelegivel-em-2026"
+        "https://painelpolitico.com/acir-gurgacz-mpf-diz-que-ex-senador-esta-inelegivel-em-2026",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2018-11/stf-mantem-pena-de-senador-acir-gurgacz-preso-em-regime-semiaberto",
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=494376&ori=1"
       ],
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
+          "categoria": "condenacao_criminal_pena_cumprida",
+          "descricao": "Condenado pela 1ª Turma do STF (fev/2018) a 4 anos e 6 meses por fraude e desvio de finalidade em financiamento de banco oficial; cumpriu a pena em regime semiaberto (dormia na Papuda) e o STF declarou extinta a punibilidade pelo cumprimento integral"
+        },
+        {
           "categoria": "inelegibilidade_vigente",
           "descricao": "Condenado pelo STF em 27/02/2018 por crimes contra o sistema financeiro nacional, com inelegibilidade de 8 anos (Ficha Limpa) que se estenderia até 2026. Em 2026 invocou a Declaração de Elegibilidade Antecipada (LC 219/2025) no TRE-RO; o TRE-RO MANTEVE o entendimento de que ele segue inelegível até 2030, e a defesa recorre ao TSE/STF. Enquanto o recurso não é julgado, a inelegibilidade permanece vigente e não revertida."
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "220002551948": {
       "nome_urna": "LUCIANA OLIVEIRA",
@@ -6017,19 +6096,21 @@
     "270002546333": {
       "nome_urna": "EDUARDO GOMES",
       "cargo_pretendido": "SENADOR",
-      "nota": 8,
-      "motivo": "Senador (PL/TO) buscando reeleição, 1º vice-presidente do Senado.",
+      "nota": 9,
+      "motivo": "AUDITORIA 2026-09-24: a PF PEDIU a abertura de inquérito, mas não há notícia de que o STF tenha aberto; mesmo critério de Alfredo Gaspar (vice de Flávio) e Renato Casagrande: pedido de inquérito sem abertura = apuração preliminar (-1), inquérito aberto = -2 (nota 8 -> 9). || Senador (PL/TO) buscando reeleição, 1º vice-presidente do Senado.",
       "fontes": [
         "https://www.jornalopcao.com.br/ultimas-noticias/senador-tocantinense-eduardo-gomes-e-investigado-pela-pf-por-suposto-envolvimento-em-esquema-com-a-codevasf-357990/",
-        "https://conexaoto.com.br/2025/02/10/policia-federal-pede-abertura-de-investigacao-contra-o-senador-tocantinense-eduardo-gomes"
+        "https://conexaoto.com.br/2025/02/10/policia-federal-pede-abertura-de-investigacao-contra-o-senador-tocantinense-eduardo-gomes",
+        "https://www.metropoles.com/colunas/fabio-serapiao/relator-de-projeto-sobre-emendas-e-alvo-da-pf-por-desvios-em-emendas"
       ],
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "categoria": "citado_ou_apuracao_preliminar",
           "descricao": "A PF pediu abertura de inquérito (Operação Emendário, que já denunciou 3 deputados do PL) por suspeita de desvio de emendas parlamentares: mensagens mostram ex-assessor dele cobrando 'saldo devedor' de R$1,3 mi de assessor de Josimar Maranhãozinho (PL-MA). Sem denúncia formal confirmada."
         }
-      ]
+      ],
+      "auditado_em": "2026-09-24"
     },
     "270002548231": {
       "nome_urna": "GAGUIM",
