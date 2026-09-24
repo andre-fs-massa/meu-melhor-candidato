@@ -154,6 +154,11 @@ ol.lista { list-style: none; margin: 0; padding: 0; }
 .linha > button { all: unset; box-sizing: border-box; width: 100%; display: grid; grid-template-columns: minmax(0,1.3fr) minmax(150px,1fr) 130px; gap: 8px 14px; align-items: center; padding: 11px 4px; cursor: pointer; }
 .linha > button:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .linha > button:hover { background: var(--wash); }
+/* seta discreta: indica que a linha expande; gira quando aberta */
+.linha > button { position: relative; padding-right: 28px; }
+.linha > button::after { content: ""; position: absolute; right: 10px; top: 50%; width: 7px; height: 7px; margin-top: -5px; border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(45deg); opacity: .7; transition: transform .15s ease, opacity .15s ease; }
+.linha > button:hover::after { opacity: 1; }
+.linha > button[aria-expanded="true"]::after { transform: rotate(-135deg); margin-top: -2px; }
 .linha.fora .nomelista { color: var(--muted); text-decoration: line-through; text-decoration-thickness: 1px; }
 .nomelista { font-weight: 600; }
 .quem small { display: block; color: var(--ink-2); font-weight: 400; }
