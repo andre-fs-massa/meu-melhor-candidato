@@ -119,9 +119,10 @@ const DADOS = {
    "cargo": "DEPUTADO DISTRITAL",
    "uf": "DF",
    "n_total": 433,
-   "n_avaliados": 0,
+   "n_avaliados": 433,
    "corte": 8.5,
-   "status": "sem_verificacao"
+   "status": "completo",
+   "arquivo": "dados/deputado_distrital_df.js"
   },
   "DEPUTADO ESTADUAL|AC": {
    "cargo": "DEPUTADO ESTADUAL",
@@ -1178,23 +1179,23 @@ const DADOS = {
    [
     {
      "contado": true,
-     "desconto": 1,
-     "detalhe": "presidente nacional do PT, partido do candidato",
-     "ligacao": "presidente do partido do candidato",
-     "nome": "Edinho Silva",
-     "partido": "PT",
-     "pendencia": "Inquérito da Lava Jato aberto em 2015 (delação de Ricardo Pessoa/UTC: suspeita de R$ 7,5 mi em propina para a campanha de Dilma 2014, quando era tesoureiro) foi TRANCADO pelo TRE-DF por excesso de prazo (8 anos), sem denúncia e sem julgamento de mérito."
-    }
-   ],
-   [
-    {
-     "contado": true,
      "desconto": 0,
      "detalhe": "presidente nacional do PSDB, partido do candidato",
      "ligacao": "presidente do partido do candidato",
      "nome": "Aécio Neves",
      "partido": "PSDB",
      "pendencia": "Nenhuma pendência ATIVA encontrada nesta busca geral (não exaustiva): a 2ª Turma do STF arquivou em fev/2024 o inquérito INQ 4830. Histórico de múltiplas investigações da era Lava Jato/JBS não reexaminado aqui."
+    }
+   ],
+   [
+    {
+     "contado": true,
+     "desconto": 1,
+     "detalhe": "presidente nacional do PT, partido do candidato",
+     "ligacao": "presidente do partido do candidato",
+     "nome": "Edinho Silva",
+     "partido": "PT",
+     "pendencia": "Inquérito da Lava Jato aberto em 2015 (delação de Ricardo Pessoa/UTC: suspeita de R$ 7,5 mi em propina para a campanha de Dilma 2014, quando era tesoureiro) foi TRANCADO pelo TRE-DF por excesso de prazo (8 anos), sem denúncia e sem julgamento de mérito."
     }
    ],
    [
@@ -1856,12 +1857,12 @@ const DADOS = {
     "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=23053&Id=23053"
    ],
    [
-    "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/",
-    "https://www.terra.com.br/noticias/brasil/politica/cotado-para-presidir-o-pt-edinho-se-livra-de-inquerito-da-lava-jato,76ee9924f0b981722d076c1c6b1c71aasodqtqtx.html"
-   ],
-   [
     "https://en.wikipedia.org/wiki/A%C3%A9cio_Neves",
     "https://portaldeprefeitura.com.br/bastidores-da-politica/aecio-neves-desiste-candidatura-psdb-lancara-nome-planalto/626505/"
+   ],
+   [
+    "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/",
+    "https://www.terra.com.br/noticias/brasil/politica/cotado-para-presidir-o-pt-edinho-se-livra-de-inquerito-da-lava-jato,76ee9924f0b981722d076c1c6b1c71aasodqtqtx.html"
    ],
    [
     "https://ofator.com.br/informacao/luis-tibe-quita-divida-de-improbidade-por-mau-uso-de-verba-da-camara-de-bh/",
@@ -1891,11 +1892,11 @@ const DADOS = {
     "https://pt.wikipedia.org/wiki/Mobiliza%C3%A7%C3%A3o_Nacional"
    ],
    [
-    "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-processa-candidato-a-presidencia-e-o-mbl-por-discurso-de-odio-contra-indigenas-do-para"
-   ],
-   [
     "https://www.poder360.com.br/poder-justica/stf-destrava-investigacao-contra-paulinho-da-forca-apos-2-anos/",
     "https://www.cnnbrasil.com.br/politica/mendonca-movimenta-inquerito-contra-paulinho-da-forca-apos-dois-anos-parado/"
+   ],
+   [
+    "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-processa-candidato-a-presidencia-e-o-mbl-por-discurso-de-odio-contra-indigenas-do-para"
    ],
    [
     "https://pt.wikipedia.org/wiki/Marcus_Vin%C3%ADcius_de_Vasconcelos_Ferreira"
@@ -1955,18 +1956,22 @@ const DADOS = {
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-    "https://www.cnnbrasil.com.br/politica/pf-inclui-presidente-do-uniao-brasil-em-investigacao-sobre-esquemas-do-pcc/",
-    "https://www.poder360.com.br/poder-justica/pf-inclui-presidente-do-uniao-brasil-em-operacao-que-mira-pcc/"
-   ],
-   [
-    "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://www.jota.info/stf/do-supremo/caso-master-ciro-nogueira-e-alvo-da-pf-por-suspeita-de-corrupcao-em-emenda-que-ampliava-fgc",
     "https://www.metropoles.com/colunas/andreza-matais/leia-a-integra-da-decisao-do-stf-contra-ciro-nogueira-no-caso-master",
     "https://www.cartacapital.com.br/cartaexpressa/ciro-nogueira-entre-os-alvos-sela-permanencia-do-caso-master-no-stf/"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
+    "https://www.cnnbrasil.com.br/politica/pf-inclui-presidente-do-uniao-brasil-em-investigacao-sobre-esquemas-do-pcc/",
+    "https://www.poder360.com.br/poder-justica/pf-inclui-presidente-do-uniao-brasil-em-operacao-que-mira-pcc/"
+   ],
+   [
+    "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://pt.wikipedia.org/wiki/Marcus_Vin%C3%ADcius_de_Vasconcelos_Ferreira"
+   ],
+   [
+    "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
+    "https://www.escavador.com/nomes/sued-haidar-nogueira-2203134fb6"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
@@ -1978,10 +1983,6 @@ const DADOS = {
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://www.metropoles.com/colunas/andreza-matais/dirigentes-do-inss-delataram-carlos-lupi-ex-ministro-da-previdencia-de-lula",
     "https://www.portaldacapital.com/2026/05/14/presidente-nacional-do-pdt-carlos-lupi-participa-de-posse-de-diretoria-do-partido-nesta-quinta/"
-   ],
-   [
-    "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-    "https://www.escavador.com/nomes/sued-haidar-nogueira-2203134fb6"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
@@ -2480,5 +2481,5 @@ const DADOS = {
    "pesquisa individual"
   ]
  },
- "versao": "c5322537bb"
+ "versao": "f4200d17c8"
 };

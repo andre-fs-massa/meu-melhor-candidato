@@ -58,6 +58,10 @@
     {
       "cargo": "DEPUTADO ESTADUAL",
       "nivel": "estrutural"
+    },
+    {
+      "cargo": "DEPUTADO DISTRITAL",
+      "nivel": "estrutural"
     }
   ],
   "excecoes": {}

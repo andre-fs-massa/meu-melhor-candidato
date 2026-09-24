@@ -1,4 +1,4 @@
-"""Gera, SEM busca na internet, as camadas de círculo político e experiência política de Deputado Federal e Estadual.
+"""Gera, SEM busca na internet, as camadas de círculo político e experiência política de Deputado Federal, Estadual e Distrital.
 
 Para Deputado (eleição proporcional) não há vice nem padrinho identificável em massa; a pesquisa manual dos
 majoritários (Presidente, Governador, Senador) mostra que o círculo é dominado pelo presidente do próprio
@@ -41,7 +41,7 @@ TABELA_PATH = REF / "circulo_partidos_estrutural.json"
 SAIDA_CIRCULO = config.PROCESSED_DIR / "estrutural_circulo_politico.json"
 SAIDA_EXPERIENCIA = config.PROCESSED_DIR / "estrutural_experiencia_politica.json"
 
-CARGOS = {"DEPUTADO FEDERAL", "DEPUTADO ESTADUAL"}  # distrital (DF) ainda não
+CARGOS = {"DEPUTADO FEDERAL", "DEPUTADO ESTADUAL", "DEPUTADO DISTRITAL"}
 ANOS_ESPERADOS = (2014, 2016, 2018, 2020, 2022, 2024)
 MIN_TITULO_VALIDO = 0.9  # fração mínima de linhas com título de 12 dígitos para o ano contar como coberto
 
