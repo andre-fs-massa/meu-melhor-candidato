@@ -226,7 +226,7 @@
   }
 
   // ---------- cartão de candidato reaproveitado (quadrantes, seu candidato) ----------
-  function blocoCandidato(c) {
+  function blocoCandidato(c, origem) {
     const b = el("div", "cand");
     b.append(el("div", "nomegrande", tc(c.nome_urna)), el("div", "nota", `${c.partido} · número ${c.numero}`));
     const sj = subJudice(c);
@@ -241,7 +241,10 @@
     if (c.empate > 1) b.append(el("p", "nota", `Empatou com outros ${c.empate - 1} candidatos na última vaga; o desempate foi por sorteio.`));
     const btn = el("button", "btn", "Notas, achados e fontes"); btn.type = "button"; btn.setAttribute("aria-expanded", "false");
     const det = detalhe(c); det.hidden = true;
-    btn.addEventListener("click", () => { const abre = det.hidden; det.hidden = !abre; btn.setAttribute("aria-expanded", String(abre)); });
+    btn.addEventListener("click", () => {
+      const abre = det.hidden; det.hidden = !abre; btn.setAttribute("aria-expanded", String(abre));
+      if (abre) rastrear("abrir_notas_candidato", { cargo: $("cargo").value, uf: ufAtual($("cargo").value), candidato: c.nome_urna, partido: c.partido, origem: origem });
+    });
     b.append(btn, det);
     return b;
   }
@@ -379,7 +382,7 @@
         const fora = g.candidatos.filter(c => c.quadrante === chave);
         card.append(el("p", "vazio-quad", fora.length ? "Nenhum candidato desta posição continuou na disputa." : "Nenhum candidato registrado nesta posição."));
         if (fora.length) card.append(el("p", "nota", "Ficaram de fora: " + fora.map(c => `${tc(c.nome_urna)} (${c.situacao === "fora_da_disputa" ? "fora da disputa" : c.situacao === "abaixo_do_corte" ? "idoneidade " + fmt(c.idoneidade_geral) : "sem verificação"})`).join("; ") + "."));
-      } else recs.forEach(c => card.append(blocoCandidato(c)));
+      } else recs.forEach(c => card.append(blocoCandidato(c, "quadrante")));
       box.append(card);
     });
   }
@@ -421,7 +424,7 @@
     origem.style.background = qcorWash(k);
     origem.style.color = qcor(k);
     box.append(origem);
-    box.append(blocoCandidato(achado.candidato));
+    box.append(blocoCandidato(achado.candidato, "seu_candidato"));
     sec.hidden = false;
   }
 
