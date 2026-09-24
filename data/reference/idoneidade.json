@@ -3084,6 +3084,3657 @@
           "descricao": "Candidatura indeferida pelo TRE-RR por falta de comprovação de desincompatibilização do cargo na Funai e certidão criminal em modelo incorreto"
         }
       ]
+    },
+    "250002541308": {
+      "nome_urna": "ANDRÉ DO PRADO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Deputado estadual (PL-SP) em 4º mandato, presidente da Alesp (2025-2027). Múltiplas fontes descrevem histórico sem condenações penais ou de improbidade em mais de 30 anos de carreira política. O TCE-SP apontou irregularidade em contratos da época em que foi prefeito de Guararema (achado leve, administrativo, sem menção a ressarcimento). O suplente originalmente anunciado (Eduardo Bolsonaro) tornou-se inelegível (STF, coação no curso do processo) e foi substituído antes do registro final -- não é pendência pessoal do candidato.",
+      "fontes": [
+        "https://www.metropoles.com/colunas/vinicius-passarelli/prefeitura-sob-andre-do-prado-teve-contratos-julgados-irregulares-pelo-tce",
+        "https://www.cnnbrasil.com.br/eleicoes/eduardo-bolsonaro-sera-meu-suplente-ao-senado-diz-andre-do-prado/",
+        "https://boainformacao.com.br/2026/07/andre-do-prado-anuncia-suplentes-para-disputa-ao-senado-depois-da-inelegibilidade/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "Como prefeito de Guararema (mandato anterior a 2010), o TCE-SP considerou irregulares 2 de 3 contratos administrativos da gestão; um terceiro contrato relacionado teve recurso provido em 2023 e foi julgado regular."
+        }
+      ]
+    },
+    "250002541362": {
+      "nome_urna": "DRA ELIANA FERREIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Advogada, candidata pelo PSTU. Busca não encontrou processo, condenação ou pendência de registro -- cobertura mais rasa dado o baixo perfil midiático de candidatura de partido pequeno.",
+      "fontes": [
+        "https://ndmais.com.br/eleicoes/2026/candidatos/sp/senador/161-dra-eliana-ferreira/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "250002552955": {
+      "nome_urna": "EDNELSON CESARETTI",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Professor de ensino médio, candidato pelo PCO. Busca não encontrou processo, condenação ou pendência de registro -- cobertura rasa (partido pequeno, baixa exposição midiática).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "250002544673": {
+      "nome_urna": "GERALDO RUFINO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Empresário (fundou a JR Diesel em 1985, recicladora/comerciante de peças de caminhão), trajetória pessoal de superação (catador de latinhas antes de empreender). Candidatou-se a deputado federal em 2018 como suplente. Busca não encontrou processo, condenação ou pendência de registro.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-geraldo-rufino-candidato-ao-senado-por-sp/",
+        "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/sp/senador/geraldo-rufino-pode-200/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "250002541312": {
+      "nome_urna": "GUILHERME DERRITE",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Deputado federal (PP-SP), foi Secretário de Segurança Pública de SP (2023-2025) no governo Tarcísio. Como Secretário, comandou a Operação Escudo (Baixada Santista, 2023): 28 mortes em 40 dias; o MP-SP denunciou 13 policiais militares, mas não ele -- tratado como contexto de gestão (responsabilidade de comando), não pendência pessoal direta, mesmo critério usado para outros governantes cujos subordinados foram alvo de apuração. Já como policial da ROTA, foi ele próprio investigado repetidamente por mortes em operações das quais participou diretamente -- isso sim é achado pessoal, mesmo sem nenhuma denúncia formal.",
+      "fontes": [
+        "https://ponte.org/artigo-guilherme-derrite-o-anti-secretario-da-seguranca-publica/",
+        "https://ponte.org/quem-e-guilherme-derrite-secretario-de-tarcisio-indicado-como-relator-do-pl-antifaccao/",
+        "https://revistaforum.com.br/brasil/quem-e-guilherme-derrite-entenda-as-polemicas-do-candidato-ao-senado-em-sao-paulo",
+        "https://www.metropoles.com/sao-paulo/mpsp-arquiva-investigacao-operacoes-baixada"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Como policial da ROTA (antes de entrar na política), foi pessoalmente investigado em pelo menos 6 inquéritos por mortes ocorridas em operações policiais das quais participou; segundo reportagem da piauí (2024), nenhum resultou em denúncia."
+        }
+      ]
+    },
+    "250002553928": {
+      "nome_urna": "GUTO SCHIAVETTO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Empresário, porta-voz do MBL em Limeira (interior de SP); concorreu 3x a vereador sem se eleger. Figura como autor (não réu) em 4 processos na Justiça Eleitoral de 2026 -- é ele acionando a Justiça, não sendo acionado, então não conta como achado de conduta. Sem pendência pessoal encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-guto-schiavetto-candidato-ao-senado-por-sp/",
+        "https://www.plural.jor.br/ricardo-augusto-mangue-schiavetto/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "250002554075": {
+      "nome_urna": "GUTO SCHIAVETTO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Empresário, porta-voz do MBL em Limeira (interior de SP); concorreu 3x a vereador sem se eleger. Figura como autor (não réu) em 4 processos na Justiça Eleitoral de 2026 -- é ele acionando a Justiça, não sendo acionado, então não conta como achado de conduta. Sem pendência pessoal encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-guto-schiavetto-candidato-ao-senado-por-sp/",
+        "https://www.plural.jor.br/ricardo-augusto-mangue-schiavetto/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "250002544514": {
+      "nome_urna": "MARCIO ALVES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato pela Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "250002551501": {
+      "nome_urna": "MARINA SILVA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Ex-senadora pelo Acre (2 mandatos), ex-ministra do Meio Ambiente (2003-2008 e 2023-atual). Busca não encontrou processo, condenação ou pendência de registro. A candidatura consta como 'aguardando julgamento' no TRE-SP -- status administrativo de rotina (o TRE-SP havia julgado 99,3% dos pedidos de registro até a data da pesquisa), sem indício de impugnação dirigida a ela especificamente.",
+      "fontes": [
+        "https://ac24horas.com/2026/08/14/ex-senadora-pelo-acre-marina-silva-declara-r-274-mil-em-patrimonio-ao-tse/",
+        "https://www.tre-sp.jus.br/comunicacao/noticias/2026/Setembro/tre-sp-aprova-mais-de-2-100-pedidos-de-registro-de-candidatura-para-as-eleicoes-2026"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "250002544516": {
+      "nome_urna": "MAÍRA DE SOUZA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata pela Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "250002552153": {
+      "nome_urna": "PETTER MAAHS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Servidor público municipal, candidato pelo PCB. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "250002532794": {
+      "nome_urna": "SALLES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 7,
+      "motivo": "Ex-ministro do Meio Ambiente (governo Bolsonaro, 2019-2021), deputado federal (SP) desde 2023. Réu ativo por contrabando/exportação ilegal de madeira -- processo em fase final no STF, sem condenação até a pesquisa.",
+      "fontes": [
+        "https://www.oestadonet.com.br/site/noticia/24551361/stf-encerra-interrogatorios-e-julgamento-de-ricardo-salles-por-esquema-da-madeira-ilegal-deve-ficar-para-2026/",
+        "https://conexaoplaneta.com.br/blog/processo-de-exportacao-ilegal-de-madeira-da-amazonia-contra-ricardo-salles-volta-ao-stf/",
+        "https://noticias.stf.jus.br/postsnoticias/stf-vai-julgar-ricardo-salles-por-suposto-esquema-de-facilitacao-de-contrabando-de-produtos-florestais/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu no STF (Operação Akuanduba, PF/2021) por suposto esquema de facilitação à exportação ilegal de madeira: segundo a PGR, servidores indicados por ele para cargos de comando no Ministério do Meio Ambiente e no Ibama teriam atuado para beneficiar madeireiras, com flexibilização de regras e pressão sobre fiscais. Interrogatórios encerrados em 2026; julgamento definitivo esperado ainda em 2026."
+        }
+      ]
+    },
+    "250002551502": {
+      "nome_urna": "SIMONE TEBET",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Ex-senadora (MS), ex-ministra do Planejamento e Orçamento (governo Lula). Deixou o MDB após quase 30 anos para se filiar ao PSB e disputar o Senado por SP na chapa de Haddad -- troca partidária por conveniência de aliança, não achado de conduta. Único achado pessoal é o inquérito antigo (2007-2015) já prescrito.",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/vozes/lucio-vaz/com-foro-privilegiado-simone-tebet-teve-inquerito-arquivado-por-prescricao/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Como prefeita de Três Lagoas (MS), foi alvo -- junto com mais 7 pessoas -- de inquérito do MPF por suposta fraude em licitação (obra de um balneário público, empresa Anfer). Arquivado pelo STF (min. Marco Aurélio Mello) em 2015 por prescrição (decurso de 8 anos), não por absolvição de mérito. Fato de mais de 15 anos, sem outro achado."
+        }
+      ]
+    },
+    "250002552369": {
+      "nome_urna": "SONINHA FRANCINE",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Jornalista, ex-vereadora de São Paulo (2 mandatos), foi secretária de Direitos Humanos e Cidadania da gestão Ricardo Nunes (2022-2025). Busca não encontrou processo, condenação ou pendência de registro. A defesa de política de redução de danos para a Cracolândia (sala de uso supervisionado) gerou controvérsia política com aliados de Nunes/Tarcísio, mas é debate de política pública, não achado de conduta pessoal ou jurídico.",
+      "fontes": [
+        "https://www.metropoles.com/sao-paulo/cracolandia-secretaria-de-nunes-defende-uso-supervisionado-de-drogas",
+        "https://prefeitura.sp.gov.br/web/direitos_humanos/w/noticias/328402"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "250002541365": {
+      "nome_urna": "WELLER GONÇALVES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato pelo PSTU. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "250002553252": {
+      "nome_urna": "WILLIAM TEIXEIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Eletricista (declarou 'relações-públicas' ao TSE), já concorreu a vereador (PT, 2012) e deputado estadual (PCB, 2010) sem se eleger, agora pelo AGIR. Candidatura regular, sem pendência de registro ou processo encontrado.",
+      "fontes": [
+        "https://ndmais.com.br/eleicoes/2026/candidatos/sp/senador/360-william-teixeira/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "130002547884": {
+      "nome_urna": "ANA LUIZA DO MLB",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Estudante de biologia, moradora de ocupação urbana em BH, candidata da Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "130002552302": {
+      "nome_urna": "ARCANJO PIMENTA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato pelo MDB. Busca não encontrou pendência pessoal -- cobertura rasa (candidato de baixa exposição midiática).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "130002554332": {
+      "nome_urna": "AÉCIO NEVES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Ex-governador de MG, ex-presidente nacional do PSDB (voltou ao cargo). O episódio mais grave de sua carreira (gravação de Joesley Batista) terminou em absolvição definitiva por unanimidade em todas as instâncias -- não condenado, não preso. Histórico anterior de outras apurações da era Lava Jato não foi reexaminado a fundo nesta pesquisa.",
+      "fontes": [
+        "https://www.nexojornal.com.br/extra/2022/03/11/aecio-neves-e-absolvido-da-acusacao-de-corrupcao-no-caso-jbs",
+        "https://www.metropoles.com/brasil/aecio-neves-e-absolvido-de-forma-unanime-em-caso-de-corrupcao-passiva",
+        "https://revistaforum.com.br/politica/aecio-e-absolvido-em-acao-sobre-propina-da-jbs-em-que-disse-que-mataria-o-primo/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Denunciado pela PGR em 2017 por suposta propina de R$2 milhões da J&F/JBS (caso Joesley Batista); afastado do mandato de senador por duas vezes pelo STF, revertido pelo próprio Senado. Absolvido por unanimidade em 1ª instância (mar/2022) e mantido pela 11ª Turma do TRF-3 (também unânime); INQ 4830 (Lava Jato/JBS) arquivado pela 2ª Turma do STF em fev/2024."
+        }
+      ]
+    },
+    "130002552186": {
+      "nome_urna": "CARLIN MOURA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Advogado, ex-prefeito de Contagem (2012), ex-deputado estadual (2x), trajetória em vários partidos (PCdoB até Avante). Busca não encontrou pendência pessoal.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-carlin-moura-candidato-ao-senado-por-minas-gerais/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "130002545590": {
+      "nome_urna": "CARLOS VIANA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Senador por MG desde 2019 (buscando reeleição), jornalista e professor. Investigação ativa e recente (2026) sobre destinação de emendas -- acusação séria, ainda sem denúncia formal.",
+      "fontes": [
+        "https://revistaoeste.com/politica/senador-carlos-viana-nega-irregularidades-em-emendas-para-fundacao/",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-03/senador-reafirma-que-nao-cometeu-irregularidades-com-emendas"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo de apuração no STF (representação de deputados do PSOL e do PT) sobre R$3,6 milhões em emendas parlamentares (2019-2025) destinadas à Fundação Oásis (ligada à Igreja Batista da Lagoinha), questionando transparência e destinação dos recursos. Também acusado de tentar blindar o avanço da investigação na condição de presidente da CPI do INSS. Nega irregularidades; sem denúncia até a pesquisa."
+        }
+      ]
+    },
+    "130002551786": {
+      "nome_urna": "DOMINGOS SÁVIO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado federal desde 2011, veterinário, produtor rural e empresário; foi vereador e prefeito de Divinópolis. Busca não encontrou pendência pessoal.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-domingos-savio-candidato-ao-senado-por-minas-gerais/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "130002547882": {
+      "nome_urna": "FIDÉLIS ALCÂNTARA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato da Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "130002551929": {
+      "nome_urna": "JORDANO METALÚRGICO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PSTU. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "130002551265": {
+      "nome_urna": "JUÍZ RAMON MOREIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Advogado, juiz aposentado, nunca ocupou cargo eletivo (concorreu 2x a deputado federal pelo Avante sem se eleger). Busca não encontrou pendência pessoal.",
+      "fontes": [
+        "https://www.plural.jor.br/ramon-moreira/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "130002552299": {
+      "nome_urna": "MANOEL CARVALHO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato pelo MDB, baixa exposição midiática (~1% combinado com outros candidatos menores em pesquisas). Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "130002548381": {
+      "nome_urna": "MARCELO ARO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Jornalista, ex-vereador de BH, ex-deputado federal, candidato pelo PP. Busca não encontrou pendência pessoal.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/blogs/isabel-mega/eleicoes/carlos-viana-fecha-com-psd-e-deve-disputar-senado-em-mg/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "130002551284": {
+      "nome_urna": "MARCO ANTÔNIO SUPERMAN",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do NOVO, baixa exposição midiática. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "130002550560": {
+      "nome_urna": "MARÍLIA CAMPOS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Ex-prefeita de Contagem (4 mandatos, a mais recente reeleição em 2024), atual deputada estadual, candidata do PT ao Senado. Único achado é uma apuração antiga (2017) do MPC sem confirmação de desfecho desfavorável -- o fato de ter sido reeleita depois sugere que não prosperou como inabilitação.",
+      "fontes": [
+        "https://www.em.com.br/app/noticia/politica/2017/08/14/interna_politica,891603/ex-prefeitos-acusados-de-lesar-cofres-publicos.shtml"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Em 2017, como ex-prefeita de Contagem, foi citada (junto a outros ex-prefeitos) em apuração do MPC sobre atos considerados 'ilegais, antieconômicos e irregulares' na gestão municipal; o MPC pediu multa e inabilitação por 5 anos. Desfecho final não confirmado -- ela seguiu sendo eleita e reeleita depois (inclusive um 4º mandato como prefeita em 2024), o que indica que não houve condenação/inabilitação efetiva por Ficha Limpa."
+        }
+      ]
+    },
+    "130002552311": {
+      "nome_urna": "TIÃO PESSOA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PCO. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "130002551930": {
+      "nome_urna": "VICTÓRIA MELLO VIC",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata do PSTU. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "130002550557": {
+      "nome_urna": "ÁUREA CAROLINA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Cientista política, ex-vereadora de BH (2016) e ex-deputada federal por MG (2018), candidata a prefeita de BH em 2020 (não eleita). Figura como autora (não ré) em 2 processos na Justiça Eleitoral de 2026 -- é ela acionando a Justiça, não sendo acionada. Sem pendência de conduta pessoal encontrada.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-aurea-carolina-candidata-do-psol-ao-senado-de-minas-gerais/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "190002548141": {
+      "nome_urna": "BENEDITA DA SILVA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputada federal, 84 anos, mais de 4 décadas de carreira política (1ª mulher negra no Senado, 1994). Busca não encontrou processo, condenação ou pendência de registro.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-benedita-da-silva-candidata-ao-senado-pelo-rio-de-janeiro/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "190002542888": {
+      "nome_urna": "CARLOS JORDY",
+      "cargo_pretendido": "SENADOR",
+      "nota": 7,
+      "motivo": "Deputado federal (PL-RJ), líder da oposição na Câmara, um dos aliados mais próximos de Bolsonaro. Assumiu a vaga de Márcio Canella, que retirou a candidatura após operação da PF.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/politica/bom-dia-meu-lider-leia-dialogo-que-embasou-operacao-contra-deputado-carlos-jordy/",
+        "https://www.cartacapital.com.br/politica/bom-dia-meu-lider-o-que-a-pf-descobriu-sobre-carlos-jordy-e-fez-moraes-autorizar-operacao/",
+        "https://www.terra.com.br/noticias/brasil/politica/quem-e-carlos-jordy-deputado-que-bateu-boca-e-chamou-haddad-de-moleque,2d8c5cdec5f51ef922ea8b373348f852lo9entnw.html"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado pela Justiça do RJ (jun/2022) por danos morais contra o influenciador digital Felipe Neto."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo principal da 24ª fase da Operação Lesa Pátria (jan/2024, 'Bom dia meu líder'), com busca e apreensão autorizada por Moraes/STF: mensagens indicariam que ele orientou e teria poder de ordenar movimentações golpistas de apoiadores bolsonaristas no RJ ligadas ao 8 de janeiro de 2023. Sem denúncia formal confirmada até a pesquisa."
+        }
+      ]
+    },
+    "190002535142": {
+      "nome_urna": "CARLOS PORTINHO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Senador por RJ desde 2019 (mandato até 2027, mas concorre à reeleição), engenheiro. Busca não encontrou processo, condenação ou pendência de registro.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-carlos-portinho-candidato-ao-senado-pelo-rio-de-janeiro/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "190002543961": {
+      "nome_urna": "HELIO SECCO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato pela Missão (MBL). Busca não encontrou pendência pessoal -- cobertura rasa (candidato de baixa exposição midiática).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "190002552083": {
+      "nome_urna": "LUCIANO MATTOS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato pelo PRTB. Busca não encontrou pendência pessoal -- cobertura rasa (candidato de baixa exposição midiática).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "190002552521": {
+      "nome_urna": "LUIZ EUGENIO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Aposentado, candidato pelo PCO. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "190002550184": {
+      "nome_urna": "MARCELO CRIVELLA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Ex-prefeito do Rio (2017-2020), ex-senador (2003-2011, 2 mandatos), ex-ministro da Pesca, bispo da Igreja Universal. A inelegibilidade por abuso de poder é real e foi confirmada em 1ª instância eleitoral, mas está suspensa por decisão apertada (4x3) do TSE -- tratado como sub judice, não como inelegibilidade vigente, dado que a própria Justiça Eleitoral autorizou a candidatura nesta eleição.",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/tse-suspende-inelegibilidade-de-crivella-e-libera-candidatura-ao-senado/",
+        "https://www.poder360.com.br/poder-eleicoes-2026/tse-libera-marcelo-crivella-para-concorrer-nas-eleicoes/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "TRE-RJ havia declarado inelegibilidade de 8 anos por abuso de poder político/econômico (caso 'QG da Propina', ligado à gestão na Prefeitura do Rio e às eleições municipais de 2020). Em ago/2026 o TSE, por 4x3, referendou liminar (relator André Mendonça) que suspendeu a inelegibilidade e liberou a candidatura -- decisão apertada e contestada: 1 voto divergente no TRE-RJ questionou se os fatos seriam de 2016 (não 2020), e uma decisão preliminar na esfera penal já havia recomendado rejeitar a denúncia por falta de justa causa. Situação juridicamente não pacificada, resolvida provisoriamente a favor da candidatura."
+        }
+      ]
+    },
+    "190002545553": {
+      "nome_urna": "MARCOS DIAS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato pelo Podemos. Busca não encontrou pendência pessoal -- cobertura rasa (candidato de baixa exposição midiática).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "190002548589": {
+      "nome_urna": "MICHELLY XAVIER",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Advogada, candidata da Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "190002536164": {
+      "nome_urna": "MONICA BENICIO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Arquiteta e urbanista, vereadora do Rio (2º mandato), candidata do PSOL. Busca não encontrou processo, condenação ou pendência de registro.",
+      "fontes": [
+        "https://revistaforum.com.br/politica/monica-benicio-quem-e-a-candidata-pelo-senado-no-rj/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "190002539827": {
+      "nome_urna": "PAULA FALCÃO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Professora de ensino médio, candidata do PSTU. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "190002548145": {
+      "nome_urna": "PEDRO PAULO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Economista, deputado federal em 4º mandato consecutivo desde 2011, reconhecido em rankings parlamentares por produtividade legislativa. Busca não encontrou processo, condenação ou pendência de registro.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-pedro-paulo-candidato-ao-senado-pelo-rio-de-janeiro/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "190002548590": {
+      "nome_urna": "VINICIUS BENEVIDES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Operário da construção civil, candidato da Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "190002550182": {
+      "nome_urna": "WAGUINHO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 1,
+      "motivo": "Ex-prefeito de Belford Roxo (múltiplos mandatos), presidente estadual do Republicanos-RJ. Combinação grave de condenação confirmada (Fundeb), réu em ação penal (licitação da dengue) e uma terceira frente -- pedido do MPE para indeferir o próprio registro ao Senado por contas rejeitadas mais recentes (2021-2022). Já havia sido documentado no projeto como padrinho político de Garotinho (Governador-RJ); agora é candidato direto.",
+      "fontes": [
+        "https://belfordroxo24h.com/justica-mantem-condenacao-waguinho-fundeb-belford-roxo/",
+        "https://temporealrj.com/justica-mantem-condenacao-waguinho-ex-prefeito-belford-roxo-desvio-de-verba-fundeb/",
+        "https://belfordroxo24h.com/waguinho-por-um-fio-mpe-indeferimento-candidatura-senado/",
+        "https://temporealrj.com/waguinho-bloqueio-430-milhoes/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu por fraude em licitação (contratação de combate à dengue em Belford Roxo); denúncia aceita."
+        },
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado por improbidade administrativa (desvio de verba do Fundeb para passagens aéreas, contrato de R$246 mil com a Lopestur); a 6ª Câmara de Direito Público do TJRJ negou recurso e MANTEVE a condenação (abr/2026). R$428 milhões em bens tornados indisponíveis."
+        },
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "O Ministério Público Eleitoral pede o indeferimento do registro de candidatura ao Senado com base na rejeição das contas de Belford Roxo de 2021 e 2022; decisão definitiva do TRE-RJ ainda pendente até a pesquisa."
+        }
+      ]
+    },
+    "190002550190": {
+      "nome_urna": "Ó CLEMENTE",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Servidor público civil aposentado, 78 anos, candidato pelo Democrata; concorreu sem se eleger em 1998, 2002, 2004 e 2006 por outras siglas. Busca não encontrou pendência pessoal.",
+      "fontes": [
+        "https://www.plural.jor.br/clemente-sebastiao-de-almeida-campos/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "190002554290": {
+      "nome_urna": "COMANDANTE RIBEIRO AFONSO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 7,
+      "motivo": "Capitão de mar e guerra da reserva. Registro de candidatura indeferido pela Justiça Eleitoral (atualização de 20/09/2026 na base eleitoral) -- fora da disputa.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "registro_indeferido",
+          "descricao": "Registro de candidatura ao Senado indeferido pela Justiça Eleitoral."
+        }
+      ]
+    },
+    "50002533124": {
+      "nome_urna": "ANGELO CORONEL",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Senador por BA desde 2018 (buscando reeleição), ex-presidente da Alesp. Único achado é uma citação leve numa conversa gravada, esclarecida por ele mesmo como não sendo alvo de investigação.",
+      "fontes": [
+        "https://www.metropoles.com/colunas/fabio-serapiao/se-ele-cita-senador-eu-sou-um-dos-citados-diz-padrinho-de-alvo-da-pf"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Reconheceu publicamente que pode ser um dos citados numa conversa gravada pela PF na Operação Overclean (envolvendo o coordenador do Dnocs na Bahia), admitindo ter enviado emendas ao órgão em 2020; ele mesmo esclareceu não ser alvo nem estar sob investigação no caso. Também intermediou, como presidente da Alesp em 2017, um acordo num conflito fundiário no oeste baiano (~R$600 mi) -- atuação em capacidade oficial, sem indício de proveito pessoal encontrado."
+        }
+      ]
+    },
+    "50002536625": {
+      "nome_urna": "CARLOS SODRÉ",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Advogado, jornalista, professor e escritor, 80 anos, cônsul honorário da Costa do Marfim em Salvador. Candidato pelo Mobiliza. Busca não encontrou pendência pessoal.",
+      "fontes": [
+        "https://www.bahianoticias.com.br/noticia/319518-mobiliza-confirma-dr-carlos-eduardo-sodre-na-disputa-pelo-senado-na-bahia"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "50002550314": {
+      "nome_urna": "GREGORIO GOULD",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Sindicalista e escritor, candidato da Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "50002536317": {
+      "nome_urna": "JAQUES WAGNER",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Ex-governador da Bahia (2007-2015), ex-Ministro da Defesa e da Casa Civil (governo Dilma), senador desde 2018. Busca não encontrou processo, condenação ou pendência de registro.",
+      "fontes": [
+        "https://www.senado.leg.br"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "50002533123": {
+      "nome_urna": "JOÃO ROMA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado federal desde 2018, ex-Ministro da Cidadania (governo Bolsonaro, 2021-2022), ex-chefe de gabinete de ACM Neto na prefeitura de Salvador. Foi convocado para depor na CPI do Crime Organizado sobre o credenciamento do Banco Master ao consignado do auxílio emergencial durante a gestão dele no ministério; um colunista especulou envolvimento, mas não há achado verificado (convocação para depor não é ser investigado ou réu) -- não contado.",
+      "fontes": [
+        "https://www.faroldabahia.com.br/noticia/joao-roma-pode-estar-envolvido-no-escandalo-do-banco-master-diz-colunista"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "50002534774": {
+      "nome_urna": "MARCELO CARVALHO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Professor de filosofia, sindicalista e porta-voz estadual da Rede. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "50002553643": {
+      "nome_urna": "MARCELO MILLET",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato pelo PCO. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno, baixa exposição midiática).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "50002536577": {
+      "nome_urna": "MARCELO SANTTANA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato pelo DC. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno, baixa exposição midiática).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "50002534769": {
+      "nome_urna": "PROFESSORA DELLIANA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Professora da rede estadual, mestre em Letras e Representações (UESC), candidata do PSOL. Busca não encontrou pendência pessoal.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-delliana-ricelli-candidata-ao-senado-pela-bahia/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "50002536321": {
+      "nome_urna": "RUI COSTA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Ex-governador da Bahia (2015-2023, 2 mandatos), foi ministro-chefe da Casa Civil (2023-2026, cargo de indicação). A investigação sobre os respiradores é a pendência mais séria: TCU já inocentou na esfera de contas, mas a PGR pediu que o STJ retome a apuração criminal com base em nova delação.",
+      "fontes": [
+        "https://www.correio24horas.com.br/bahia/pgr-ve-indicios-de-crime-de-rui-costa-em-contrato-de-respiradores-e-pede-que-stj-retome-caso-0825",
+        "https://www.gazetadopovo.com.br/economia/tcu-inocenta-rui-costa-carlos-gabas-respiradores-nao-entregues-nordeste/",
+        "https://www.terra.com.br/noticias/brasil/politica/delacao-implica-chefe-da-casa-civil-de-lula-em-fraude-na-compra-de-respiradores-na-bahia-diz-site,cef7e5dc23b0ff41bb4ff312258374f4jsf2r0o3.html"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Como governador da Bahia (2020), assinou contrato de R$48,7 milhões (pagamento antecipado) para 300 respiradores que nunca foram entregues -- recursos não recuperados. A PF encontrou indícios ligando-o à fraude a partir da delação da empresária Cristiana Taddeo (dona da Hempcare), que relatou pagamento de R$1,6 milhão de 'comissão' a um intermediário ligado ao governo baiano; a PGR viu indícios de crime e pediu que o STJ retome o caso (foro privilegiado). O TCU (5x2) inocentou administrativamente Rui Costa e o secretário-executivo do consórcio, por falta de elementos suficientes dado o contexto emergencial da pandemia -- mas essa é a esfera de contas, não a criminal, que segue em aberto."
+        }
+      ]
+    },
+    "160002547963": {
+      "nome_urna": "ALEXANDRE CURI",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Deputado estadual, presidente da Alep (2025-2026), ex-secretário de Segurança do PR. O achado é antigo (2007-2010) e nunca virou denúncia formal, mas por vício processual do MP, não por decisão de mérito.",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/parana/alexandre-curi-inqueritos-criminais-diarios-secretos/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Como 1º secretário da Alep (2007-2010), foi alvo de 2 procedimentos investigatórios criminais abertos após o escândalo dos Diários Secretos (rede de indicados que devolviam parte do salário, dinheiro recebido por pessoas ligadas a ele). As investigações foram BLOQUEADAS pelo TJ-PR antes de virarem denúncia, por erro processual do MP (falta de autorização para abrir a investigação) somado a 7 anos sem conclusão -- não é absolvição de mérito."
+        }
+      ]
+    },
+    "160002549555": {
+      "nome_urna": "CRISTINA GRAEML",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Jornalista, várias vezes candidata em Curitiba, candidata do PSD ao Senado. Figura em 5 processos na Justiça Eleitoral de 2026 como ré e em 11 como autora -- descritos por reportagem como representações mútuas de baixa gravidade por propaganda eleitoral entre as campanhas do Senado no PR (não contadas como achado de conduta). Busca não encontrou pendência jurídica de outra natureza.",
+      "fontes": [
+        "https://www.plural.jor.br/guerra-juridica-governo-senado-parana-2026/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "160002547661": {
+      "nome_urna": "DELTAN DALLAGNOL",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Ex-procurador e ex-coordenador da força-tarefa da Lava Jato em Curitiba. A disputa sobre a elegibilidade dele é a mais grave do estado: decisão unânime do TSE reconhecendo fraude à lei para escapar de processo disciplinar, com a campanha já suspensa -- mas o mérito final ainda não transitou em julgado.",
+      "fontes": [
+        "https://marelimartins.com.br/2026/09/19/tse-suspende-campanha-de-deltan-dallagnol-ao-senado/",
+        "https://www.congressoemfoco.com.br/noticia/122076/tre-pr-valida-registro-de-candidatura-de-deltan-dallagnol-ao-senado"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "O TSE reconheceu, por unanimidade, que ele pediu exoneração do cargo de procurador do MPF em nov/2021 'em fraude à lei', para escapar da inelegibilidade de 8 anos prevista para quem pede exoneração/aposentadoria com processo disciplinar administrativo pendente (LC 64/90, art. 1º, 'q'). Com base nisso, ministro do TSE suspendeu a campanha dele ao Senado em 19/09/2026 (sem uso de fundo eleitoral nem propaganda gratuita) até o julgamento completo do recurso; o TRE-PR havia validado o registro antes dessa decisão. O TSE já havia anulado o registro dele para deputado federal em 2023 por motivo relacionado."
+        }
+      ]
+    },
+    "160002547658": {
+      "nome_urna": "DR ROSINHA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Médico pediatra, um dos fundadores do PT, ex-vereador de Curitiba, ex-deputado estadual e federal, ex-presidente estadual do PT. Busca não encontrou processo, condenação ou pendência de registro.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Dr._Rosinha"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "160002547660": {
+      "nome_urna": "FILIPE BARROS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 7,
+      "motivo": "Deputado federal (PL-PR), presidente da Comissão de Relações Exteriores da Câmara, aliado de Bolsonaro.",
+      "fontes": [
+        "https://www.otempo.com.br/politica/judiciario/2025/7/26/moraes-determina-investigacao-do-deputado-filipe-barros-por-crime-contra-a-soberania-nacional",
+        "https://dpontanews.com.br/noticias/deputado-estadual-arilson-chiorato-pt-pr-pede-investigacao-sobre-atuacao-do-deputado-federal-filipe-barros-pl-pr-em-favor-do-banco-master/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Moraes/STF determinou investigação contra ele por suposto crime contra a soberania nacional, por articulação nos EUA para pedir sanções dos EUA contra autoridades brasileiras ligadas ao processo do 8 de janeiro; também citado no inquérito das 'fake news' e mencionado por Moraes no inquérito contra Eduardo Bolsonaro (mesma articulação). A Procuradoria da Câmara chama a investigação de 'perseguição política'."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Deputado estadual (PT) pediu à PF e à PGR (jun/2026) que investiguem sua atuação em favor do Banco Master (projeto de lei que ampliava cobertura do FGC e requerimentos na Comissão de Relações Exteriores) -- representação, sem confirmação de abertura formal de inquérito."
+        }
+      ]
+    },
+    "160002547656": {
+      "nome_urna": "GLEISI",
+      "cargo_pretendido": "SENADOR",
+      "nota": 7,
+      "motivo": "Ex-presidente nacional do PT, foi Ministra de Relações Institucionais da Presidência (2025-2026, licenciada do mandato de deputada federal para o cargo, hoje concorrendo ao Senado). O processo da Petrobras é ativo e a PGR pede explicitamente a perda de mandato.",
+      "fontes": [
+        "https://www.cartacapital.com.br/politica/pgr-pede-condenacao-e-perda-do-mandato-da-senado-gleisi-hoffmann/",
+        "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-denuncia-contra-gleisi-hoffmann-por-corrupcao-passiva-e-lavagem-de-dinheiro/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Ré no STF (com o marido, ex-ministro Paulo Bernardo, e um empresário) por corrupção passiva e lavagem de dinheiro, num esquema que teria desviado R$1 milhão da Petrobras; a PGR pediu a condenação dela com perda do mandato de senadora e indenização de R$4 milhões por danos. Em processo DISTINTO (Odebrecht), o Plenário do STF rejeitou por unanimidade uma denúncia anterior contra ela por corrupção passiva/lavagem -- esse caso está encerrado a favor dela; o da Petrobras segue em curso."
+        }
+      ]
+    },
+    "160002551043": {
+      "nome_urna": "JOAQUIM DO MLB",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Mecânico de manutenção, fundador da Central de Movimentos Populares, candidato da Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "160002551121": {
+      "nome_urna": "KAREN GUERREIRO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Diretora de arte e radialista, candidata do Missão, se apresenta como alternativa à política tradicional. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "160002552563": {
+      "nome_urna": "MARCELO MARCELINO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Pedagogo, candidato do PCO. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "210002544698": {
+      "nome_urna": "DANIELA MULHERES SOCIALISTAS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata do PSTU. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "210002543865": {
+      "nome_urna": "FREDERICO ANTUNES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado estadual em 7º mandato consecutivo, liderança do governo de Eduardo Leite na Assembleia. Busca não encontrou processo, condenação ou pendência de registro.",
+      "fontes": [
+        "https://www.radiocaxias.com.br/eleicoes-2026-frederico-antunes-deseja-ser-senador-para-lutar-pelo-protagonismo-do-rs-no-cenario-nacional/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "210002533435": {
+      "nome_urna": "LUCIANO DO MLB",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato da Unidade Popular, defende reforma urbana e combate à fome. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "210002533581": {
+      "nome_urna": "MANUELA D ÁVILA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Ex-deputada federal e estadual, ex-vice-presidenciável (2018), filiou-se ao PSOL para a candidatura ao Senado. Lidera pesquisas para uma das duas vagas do RS.",
+      "fontes": [
+        "https://www.metropoles.com/colunas/grande-angular/tre-rs-manda-manuela-davila-retirar-posts-que-ligam-van-hattem-ao-pcc",
+        "https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/tre-multa-manuela-davila-por-fake-news-contra-van-hattem"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "TRE-RS (12/09/2026) mandou remover publicações em que associava um doador da campanha de Marcel Van Hattem a lavagem de dinheiro para o PCC, sem base documental -- caracterizado como desinformação; campanha dela multada em R$5 mil."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Marcel Van Hattem protocolou queixa-crime contra ela em 18/09/2026 pelo mesmo episódio; sem decisão até a pesquisa."
+        }
+      ]
+    },
+    "210002547819": {
+      "nome_urna": "MARCEL VAN HATTEM",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado federal pelo Novo, um dos rostos do partido no RS. Busca não encontrou processo, condenação ou pendência de registro (a queixa-crime que ele moveu contra Manuela D'Ávila é dele como autor, não achado de conduta própria).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "210002538467": {
+      "nome_urna": "MILTON CARDOSO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PSDB, baixa exposição midiática nesta pesquisa. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "210002533584": {
+      "nome_urna": "PIMENTA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado federal, foi Ministro-Chefe da Secretaria de Comunicação Social (Secom) da Presidência (2023-2024 e 2024-2025). Um processo de licitação da Secom (R$197 mi) foi suspenso pelo TCU e depois revogado pela própria Secom, mas um ministro do TCU não viu irregularidade; a PGR arquivou pedido de apuração sobre suposta omissão de patrimônio dele ao TSE. O senador Rogério Marinho (oposição) protocolou representação na PGR alegando abuso de poder/censura por pedidos de investigação contra críticos do governo durante a tragédia das enchentes no RS -- disputa política declarada entre os dois (ele também pediu o afastamento de Marinho da CPMI do INSS por conflito de interesse), sem confirmação de abertura de inquérito. Nenhum desses itens é um achado verificado e confirmado; não contados.",
+      "fontes": [
+        "https://www.poder360.com.br/justica/pgr-arquiva-acao-para-apurar-suposta-omissao-de-pimenta-ao-tse/",
+        "https://revistaoeste.com/politica/na-secom-paulo-pimenta-deu-quase-r-300-milhoes-ao-grupo-globo/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "210002544699": {
+      "nome_urna": "REGIS ETHUR",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PSTU. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "210002538465": {
+      "nome_urna": "RENATO JAGUARÃO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Cidadania. Busca não encontrou pendência pessoal -- cobertura rasa.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "210002552599": {
+      "nome_urna": "RIC JONES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PCO. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "210002543863": {
+      "nome_urna": "RIGOTTO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Ex-governador do RS (2003-2007). Um grande escândalo de desvio na CEEE (~R$700 milhões, 1987) envolveu o IRMÃO dele, Lindomar Rigotto, então na diretoria financeira da estatal -- não há indício de envolvimento pessoal do próprio Germano Rigotto encontrado nesta busca; tratado como não sendo achado dele. Busca não encontrou processo, condenação ou pendência de registro pessoal.",
+      "fontes": [
+        "https://www.extraclasse.org.br/politica/2018/10/o-silencio-que-encobre-o-maior-caso-de-corrupcao-do-rs/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "210002547816": {
+      "nome_urna": "SANDERSON",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Policial federal licenciado, deputado federal em 2º mandato, preside a Comissão de Segurança Pública da Câmara. Busca não encontrou processo disciplinar, condenação ou pendência de registro.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "210002533434": {
+      "nome_urna": "TANIA PERES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Servidora pública federal, candidata da Unidade Popular. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "170002530097": {
+      "nome_urna": "CARLOS SANT ANNA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Advogado tributarista, presidente da Comissão de Assuntos Tributários da OAB-PE, candidato do Novo. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "170002552102": {
+      "nome_urna": "EDUARDO DA FONTE",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado federal desde 2007 (6 mandatos), candidato do PP. Busca não encontrou processo, condenação ou pendência de registro -- as acusações trocadas com Mendonça Filho em debate são retórica política de campanha, não achado verificado.",
+      "fontes": [
+        "https://www.bj1.com.br/mendonca-rebate-eduardo-da-fonte-no-debate-em-petrolina-e-diz-que-o-adversario-fez-jogo-nefasto-com-raquel-negociando-cargo-de-senador-com-joao-campos/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "170002537335": {
+      "nome_urna": "GORETT BITU",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Aposentada, atuante no Movimento de Mulheres Olga Benário, candidata da Unidade Popular. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "170002547773": {
+      "nome_urna": "HUMBERTO COSTA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Senador por PE desde 2010 (reeleito 2018), buscando um 3º mandato; médico, foi Ministro da Saúde (governo Lula 1). O achado é antigo (2016) e a própria PF pediu o arquivamento por falta de provas.",
+      "fontes": [
+        "https://conjur.com.br/2016-ago-10/pf-arquivamento-inquerito-investigava-humberto-costa/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Foi denunciado por um delator da Lava Jato por suposto recebimento de R$590 mil em propina (superfaturamento Odebrecht/Petrobras) quando era Ministro da Saúde; também acusado por um ex-subsecretário de Saúde do RJ de receber propina do empresário Miguel Iskin. Em 2016, a própria Polícia Federal pediu o ARQUIVAMENTO do inquérito que o investigava, por não ter encontrado provas que sustentassem a relação descrita."
+        }
+      ]
+    },
+    "170002552943": {
+      "nome_urna": "MAILSON DA SILVA NETO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Engenheiro, candidato do PCO. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "170002537418": {
+      "nome_urna": "MARIANO MACEDO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Professor de ensino médio, candidato do PSTU. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "170002547771": {
+      "nome_urna": "MARÍLIA ARRAES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 5,
+      "motivo": "Deputada federal, neta de Miguel Arraes, filiou-se ao PDT para a candidatura ao Senado. Lidera as pesquisas para uma das duas vagas de PE. Tem a combinação de achados mais pesada do estado: uma condenação eleitoral confirmada e duas investigações em curso, uma envolvendo diretamente o marido dela.",
+      "fontes": [
+        "https://acervo.cbnrecife.com/artigo/policia-federal-investiga-a-deputada-federal-marilia-arraes",
+        "https://www.tre-pe.jus.br/comunicacao/noticias/2022/Maio/tre-pe-condena-deputada-federal-e-assessor-por-propaganda-antecipada",
+        "https://www.diariodepernambuco.com.br/noticia/politica/2020/11/marilia-arraes-pt-e-notificada-em-processo-de-improbidade.html"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "A PF investiga uso de caixa 2 na campanha dela a prefeita do Recife em 2020: o marido dela, André de Souza, teria pedido um empréstimo de R$1 milhão (2 parcelas) a um agiota apontado como operador de um esquema de desvios em contratos municipais e estaduais em PE."
+        },
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Condenada pelo TRE-PE (por unanimidade, com um assessor) por propaganda eleitoral antecipada em 2022 (outdoors com foto dela e Lula no aniversário do Recife); multa de R$8 mil."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Notificada em processo de improbidade administrativa sobre contratação de funcionários fantasmas durante o mandato dela como vereadora do Recife (2014-2017)."
+        }
+      ]
+    },
+    "170002539456": {
+      "nome_urna": "MENDONÇA FILHO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Ex-Ministro da Educação (governo Temer, 2016-2018), ex-deputado estadual, federal, vice-governador e governador de PE. Busca não encontrou processo, condenação ou pendência de registro.",
+      "fontes": [
+        "https://www.camara.leg.br/deputados/74428/biografia"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "170002540420": {
+      "nome_urna": "PASTOR GILVAN COSTA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Pastor evangélico, candidato do Democrata. Busca não encontrou pendência pessoal -- cobertura rasa (candidato de baixa exposição midiática).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "170002549655": {
+      "nome_urna": "PAULO RUBEM SANTIAGO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Professor universitário, um dos fundadores do PT nos anos 1980, ex-vereador do Recife, ex-deputado estadual e federal, hoje na Rede. Busca não encontrou pendência pessoal.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-paulo-rubem-santiago-candidato-ao-senado-por-pernambuco/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "170002537334": {
+      "nome_urna": "SAMUEL TIMOTEO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato da Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "170002552097": {
+      "nome_urna": "TÚLIO GADÊLHA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Jornalista, deputado federal desde 2019, candidato da Rede. Busca não encontrou pendência pessoal -- um processo dele contra a deputada Carla Zambelli por fake news é dele como autor/vítima, não achado de conduta própria.",
+      "fontes": [
+        "https://www.falanews.com.br/2022/03/tulio-gadelha0carla-zambelli-fake-processo-deputado.html"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "60002540754": {
+      "nome_urna": "ALCIDES FERNANDES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado estadual, pastor da Assembleia de Deus desde 1991, candidato do PL. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "60002540753": {
+      "nome_urna": "CAPITÃO WAGNER",
+      "cargo_pretendido": "SENADOR",
+      "nota": 7,
+      "motivo": "Ex-deputado federal (2019-2023), candidato do União Brasil ao Senado. Padrão repetido de vídeos com acusações infundadas contra autoridades, já com uma decisão judicial classificando a reincidência como descumprimento de ordem.",
+      "fontes": [
+        "https://gcmais.com.br/noticias/2026/04/27/justica-manda-remover-video-de-capitao-wagner-que-associa-prefeito-de-fortaleza-a-faccoes-criminosas/",
+        "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/inacio-aguiar/juiz-manda-capitao-wagner-apagar-novo-video-sobre-elmano-e-ve-descumprimento-de-ordem-judicial-1.3709103"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "A Justiça do CE determinou por 2 vezes (abr/2026 e depois) que ele removesse vídeos em que associava, sem provas, o prefeito de Fortaleza (Evandro Leitão) e o governador Elmano de Freitas ao crime organizado; a 2ª decisão considerou a postagem um descumprimento da ordem anterior, com multa diária de R$50 mil e bloqueio das redes dele em caso de novo descumprimento. Evandro Leitão move ação por calúnia e difamação."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Foi acusado de liderar a greve da polícia no Ceará em 2020 (movimento considerado ilegal por se tratar de serviço essencial); sem confirmação de processo formal concluído nesta busca."
+        }
+      ]
+    },
+    "60002533959": {
+      "nome_urna": "CATARINA MATOS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Professora de ensino médio, candidata da Unidade Popular. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "60002542479": {
+      "nome_urna": "CID GOMES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Ex-governador do Ceará (2007-2015), senador buscando reeleição, indicado por Lula/Elmano para a chapa. Filiou-se ao PSB em 2024 após racha na família política e no PDT local.",
+      "fontes": [
+        "https://www.jota.info/eleicoes/ciro-gomes-70-processos-14062018"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "A PF fez busca e apreensão contra ele e o irmão Ciro Gomes em 12/2021 (Operação Colosseum), apurando suposto esquema de R$11 milhões em propina nas obras de reforma da Arena Castelão para a Copa de 2014 -- fatos de 2010-2013, quando ele próprio era governador do CE. O TRF-5 anulou a busca e apreensão contra Ciro em 2022 por decurso de prazo, mas a investigação seguiu sob sigilo; não há confirmação de denúncia nem de arquivamento até a pesquisa (quase 5 anos sem desfecho conhecido) -- mesmo achado já registrado no arquivo de Ciro Gomes, agora também contado para Cid, que era o governador à época dos fatos apurados."
+        }
+      ]
+    },
+    "60002539687": {
+      "nome_urna": "GUILHERME THEOPHILO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Militar da reserva, ex-secretário nacional de Segurança Pública, candidato do Novo. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "60002551397": {
+      "nome_urna": "LINO ALVES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Engenheiro, candidato do PCO. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "60002542476": {
+      "nome_urna": "LUIZIANNE",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Ex-prefeita de Fortaleza (2005-2012), ex-vereadora, ex-deputada estadual e federal; deixou o PT após 37 anos para se filiar à Rede. Busca não encontrou processo, condenação ou pendência de registro.",
+      "fontes": [
+        "https://jovempan.com.br/politica/ex-prefeita-de-fortaleza-luizianne-lins-disputa-o-senado-pela-primeira-vez/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "60002550748": {
+      "nome_urna": "REGINALDO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Historiador, candidato do PSTU. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "140002553852": {
+      "nome_urna": "BRENO GUIMARÃES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Professor, candidato do Mobiliza, sem outros cargos eletivos anteriores. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "140002538404": {
+      "nome_urna": "CELSO SABINO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Ex-deputado federal, foi relator da Reforma Tributária na Câmara, candidato do PDT.",
+      "fontes": [
+        "https://www.plural.jor.br/celso-sabino-de-oliveira/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Figura em 5 processos na Justiça Eleitoral de 2026 -- réu (polo passivo) em 3, autor em 2. A natureza específica dos 3 processos em que é réu não foi confirmada nesta busca; registrado como achado leve pela falta de detalhamento, não por gravidade conhecida."
+        }
+      ]
+    },
+    "140002550780": {
+      "nome_urna": "CHICÃO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado estadual em 5º mandato, presidente da Alepa, candidato do União Brasil. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "140002545674": {
+      "nome_urna": "CONTI",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Servidor público federal, candidato do PSOL. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "140002554209": {
+      "nome_urna": "CORONEL JONILDO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Policial militar, candidato do DC (substituiu Willem da Silva na disputa, mantendo o número 277). Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "140002544855": {
+      "nome_urna": "DELEGADO ÉDER MAURO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 6,
+      "motivo": "Ex-delegado da Polícia Civil, deputado federal desde 2015, candidato do PL. Um processo antigo de decoro (vídeo editado do Jean Wyllys) foi arquivado sem punição pelo Conselho de Ética -- não contado.",
+      "fontes": [
+        "https://noticias.stf.jus.br/postsnoticias/segunda-turma-absolve-deputado-eder-mauro-psd-pa-por-falta-de-provas/",
+        "https://diariodopara.com.br/para/quebra-de-decoro-eder-mauro-vai-responder-processo-disciplinar/",
+        "https://pensarpiaui.com/noticias/guerra-no-pl-do-para-vereador-acusa-eder-mauro-e-pede-investigacao-da-policia-federal/83881"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "A 2ª Turma do STF absolveu-o por unanimidade (falta de provas) da acusação de cumplicidade por omissão em tortura supostamente cometida por agentes sob seu comando quando era delegado da Polícia Civil do Pará, em 2008."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "O Conselho de Ética da Câmara abriu processo disciplinar por quebra de decoro depois que ele agrediu um cidadão durante sessão da Comissão de Direitos Humanos, em 5/6/2024."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Uma representação o nomeia, junto a um vereador, o chefe de gabinete dele e um irmão dele, num suposto esquema de propina/lavagem envolvendo emendas parlamentares federais para saúde em municípios do Pará, com prefeitos supostamente obrigados a devolver ~30% dos valores recebidos; sem confirmação de inquérito formalmente aberto pela PF/PGR até a pesquisa."
+        }
+      ]
+    },
+    "140002548150": {
+      "nome_urna": "EDLAINE RODRIGUES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Contadora, candidata do Democrata, primeira candidatura a cargo eletivo. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "140002548387": {
+      "nome_urna": "FERNANDA LOPES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Professora de educação física, atua no MLB organizando famílias de baixa renda por moradia, candidata da Unidade Popular. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "140002545671": {
+      "nome_urna": "GIZELLE FREITAS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Ex-vereadora, candidata do PSOL. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "140002550779": {
+      "nome_urna": "HELDER",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Governador do Pará (2019-2026), renunciou para concorrer ao Senado. É filho do ex-senador e ex-governador Jader Barbalho, que é seu 1º suplente nesta chapa (ver círculo político).",
+      "fontes": [
+        "https://diariodopoder.com.br/brasil-e-regioes/ttc-brasil/mp-impugna-candidatura-de-helder-por-governar-mesmo-apos-haver-renunciado"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "A Procuradoria Regional Eleitoral do Pará (PRE-PA) pediu à Justiça Eleitoral a rejeição do registro de candidatura dele ao Senado, alegando ausência de efetiva desincompatibilização: apesar de ter renunciado ao cargo de governador em abril/2026 (assumido pela vice, Hana Ghassan), a acusação é que ele continuou governando na prática. Sem decisão definitiva até a pesquisa."
+        }
+      ]
+    },
+    "140002553952": {
+      "nome_urna": "LIVIA NORONHA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Mestre em Filosofia (UFPA), professora e educadora popular, candidata do Solidariedade. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "140002542691": {
+      "nome_urna": "ZEQUINHA MARINHO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Senador por PA desde 2019, buscando reeleição, candidato do Podemos.",
+      "fontes": [
+        "https://www.mpf.mp.br/pa/sala-de-imprensa/noticias-pa/mp-eleitoral-pede-ao-tse-cassacao-do-senador-zequinha-marinho-pa-por-ilegalidades-em-gastos-de-campanha",
+        "https://oimpacto.com.br/2021/01/por-desvio-de-r-23-milhoes-da-cota-de-genero-mp-pede-cassacao-do-senador-zequinha-marinho/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "O Ministério Público Eleitoral pediu ao TSE, em jan/2021, a cassação do mandato dele por captação e gastos ilícitos de recursos na campanha de 2018: despesas não declaradas (comícios, palco, som, jingle) e desvio de pelo menos R$2,3 milhões da cota de gênero do fundo eleitoral (reservada a campanhas femininas) para financiar a própria campanha, segundo a Procuradoria -- a esposa dele, Júlia Marinho, também foi acusada. O TRE-PA julgou a ação improcedente; o MP recorreu ao TSE em jun/2021. Não foi possível confirmar o desfecho final nesta busca."
+        }
+      ]
+    },
+    "240002535770": {
+      "nome_urna": "AFRÂNIO BOPPRÉ",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Economista e professor, candidato do PSOL. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "240002539636": {
+      "nome_urna": "ANA LUCIA DA SILVEIRA MACHADO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata da Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "240002541935": {
+      "nome_urna": "CARLOS BOLSONARO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Filho do ex-presidente Jair Bolsonaro, foi vereador do Rio de Janeiro por 6 mandatos consecutivos; transferiu o domicílio eleitoral para São José (SC) em 2025 para concorrer ao Senado no estado.",
+      "fontes": [
+        "https://www.diariodepernambuco.com.br/politica/2026/02/11708437-mp-do-rio-reabre-investigacao-contra-carlos-bolsonaro-por-suposta-rachadinha.html",
+        "https://www.meionews.com/politica/ex-chefe-de-gabinete-de-carlos-bolsonaro-vira-reu-por-rachadinha-na-camara-de-vereadores-do-rio-de-janeiro-567216"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "O MP-RJ reabriu, em fev/2026, a investigação sobre ele pessoalmente no esquema de 'rachadinha' no próprio gabinete de vereador (RJ) -- o arquivamento original de 2024 desconsiderou provas já coletadas. O ex-chefe de gabinete dele e 6 ex-assessores já viraram réus num processo relacionado sobre o mesmo esquema (funcionários devolvendo parte do salário, 2005-2021); ele próprio não está entre os réus desse processo específico, mas a investigação sobre a participação dele foi reaberta e segue em curso."
+        }
+      ]
+    },
+    "240002553005": {
+      "nome_urna": "CAROL",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata do PCO. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "240002541931": {
+      "nome_urna": "CAROL DE TONI",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputada federal, candidata do PL. Busca não encontrou pendência pessoal -- a dificuldade em fechar a chapa de suplentes (3 recusas sucessivas) é logística de campanha, não achado de conduta.",
+      "fontes": [
+        "https://ndmais.com.br/politica/carol-de-toni-busca-novo-nome-para-ser-o-primeiro-suplente-apos-desitencia-de-empresario/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "240002533898": {
+      "nome_urna": "DÉCIO LIMA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Político de Itajaí com mais de 3 décadas de carreira pública, candidato do PT. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "240002548632": {
+      "nome_urna": "ESPERIDIÃO AMIN",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Senador por SC buscando reeleição, ex-prefeito de Florianópolis, ex-deputado federal, ex-governador de SC por 2 mandatos. Uma busca genérica retornou menção a '1 processo em andamento' sem detalhes confirmáveis em fonte primária -- não contado por falta de especificidade.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "240002551377": {
+      "nome_urna": "JEFERSON ROCHA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PRD. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "240002537632": {
+      "nome_urna": "JOANINHA DE OLIVEIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata do PSTU. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "240002548630": {
+      "nome_urna": "LUNELLI",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do MDB, parte da chapa majoritária de João Rodrigues (PSD) ao governo. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "240002537630": {
+      "nome_urna": "MARCOS DORVAL",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PSTU. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "240002550218": {
+      "nome_urna": "MARLENE SOCCAS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata da Unidade Popular, declarou não ter bens. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "240002544094": {
+      "nome_urna": "TÚLIO DE AMORIM PFUETZENREITER",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Missão. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "90002541454": {
+      "nome_urna": "CINTIA DIAS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Cientista social (UFG), fundadora do PSOL em Goiás, atuação em movimentos sociais e sindicais. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "90002546974": {
+      "nome_urna": "DR. ZACHARIAS CALIL",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Médico (cirurgia pediátrica), candidato do MDB. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "90002545243": {
+      "nome_urna": "ERNESTO ROLLER",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Advogado, ex-deputado estadual (2003-2016), ex-secretário de Segurança Pública, ex-prefeito de Formosa, ex-secretário de Relações Institucionais, candidato do PSDB. Busca não encontrou pendência pessoal.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-ernesto-roller-candidato-ao-senado-por-goias/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "90002540997": {
+      "nome_urna": "GRACINHA CAIADO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Advogada e pecuarista, esposa do ex-governador Ronaldo Caiado (candidato a Presidente, já avaliado no projeto -- idoneidade pessoal dele: 6). Primeira candidatura a cargo eletivo. O achado listado é dela diretamente, como corré na ação -- não contabilizado de novo como padrinho político do marido para não duplicar o mesmo fato.",
+      "fontes": [
+        "https://jornalggn.com.br/eleicoes/2026/mp-de-goias-acusa-caiado-e-esposa-de-improbidade-por-uso-de-seguranca-publica-em-campanha-eleitoral/",
+        "https://www.metropoles.com/brasil/justica-determina-que-caiado-reduza-seguranca-pessoal-de-51-para-4-pms"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "O MPGO moveu ação por improbidade administrativa contra ela, o marido Ronaldo Caiado e o secretário-chefe da Casa Militar, pelo uso de policiais militares do estado como segurança pessoal do casal durante a campanha -- gasto mensal de R$797,5 mil, sem contar gratificações. O MP pede responsabilização por improbidade e ressarcimento de R$1,2 milhão ao Estado. A Justiça já determinou, em decisão parcial, a redução do efetivo de 51 para 4 PMs."
+        }
+      ]
+    },
+    "90002551198": {
+      "nome_urna": "GUILHERME DARQUES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato da Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "90002543556": {
+      "nome_urna": "GUSTAVO GAYER",
+      "cargo_pretendido": "SENADOR",
+      "nota": 5,
+      "motivo": "Deputado federal desde 2022, empresário do ramo educacional, candidato do PL ao Senado.",
+      "fontes": [
+        "https://www.congressoemfoco.com.br/noticia/112988/camara-aprova-sustacao-de-acao-penal-contra-gustavo-gayer",
+        "https://pt.org.br/pt-aciona-conselho-de-etica-contra-gustavo-gayer-por-quebra-de-decoro"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu em ação penal por calúnia, injúria e difamação movida pelo senador/candidato rival Vanderlan Cardoso; a Câmara aprovou (268 a 167) a SUSPENSÃO do andamento da ação penal, um mecanismo procedimental que não resolve o mérito nem absolve -- o processo segue pendente, apenas suspenso enquanto durar o mandato."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "O PT abriu processo no Conselho de Ética da Câmara por quebra de decoro, acusando-o de ataques misóginos e caluniosos contra a ministra Gleisi Hoffmann e outras mulheres nas redes sociais."
+        }
+      ]
+    },
+    "90002540998": {
+      "nome_urna": "GUSTAVO MENDANHA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Ex-vereador, ex-vice-prefeito e ex-prefeito de Aparecida de Goiânia (2 mandatos), candidato do PRD. Figura em 6 processos na Justiça Eleitoral de 2026 -- réu em 2, autor em 4; predominância como autor (não réu), não contado como achado de conduta.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "90002541455": {
+      "nome_urna": "ISAURA LEMOS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata do PSB. Busca não encontrou pendência pessoal -- cobertura rasa (candidata de baixa exposição midiática).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "90002545244": {
+      "nome_urna": "IURE CASTRO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Cidadania. Busca não encontrou pendência pessoal -- cobertura rasa (candidato de baixa exposição midiática).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "90002543560": {
+      "nome_urna": "OSÉIAS VARÃO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PL. Busca não encontrou pendência pessoal -- cobertura rasa (candidato de baixa exposição midiática).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "90002543215": {
+      "nome_urna": "VANDERLAN CARDOSO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Senador por GO desde 2019 (eleito pelo Progressistas, hoje no PSD), buscando reeleição. Busca não encontrou processo, condenação ou pendência de registro -- ele é o autor (não réu) na ação penal movida contra Gustavo Gayer, não achado de conduta própria.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "40002542686": {
+      "nome_urna": "CAPITÃO ALBERTO NETO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado federal (PL-AM), policial militar da reserva. Um processo de divórcio litigioso (2013-2023) com acusações mútuas da ex-esposa (abandono de lar, brigas) é disputa privada de família, não achado de conduta pública -- não contado.",
+      "fontes": [
+        "https://www.metropoles.com/colunas/grande-angular/deputado-alberto-neto-foi-acusado-de-agressoes-e-abandono-pela-ex"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "40002535391": {
+      "nome_urna": "DAILSON CORRÊA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do DC. Busca não encontrou pendência pessoal -- cobertura rasa (candidato de baixa exposição midiática).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "40002531447": {
+      "nome_urna": "EDUARDO BRAGA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 4,
+      "motivo": "Senador por AM (busca reeleição), ex-governador do AM, ex-Ministro de Minas e Energia. Segundo levantamento no sistema do STF, figura como réu, investigado ou requerido em pelo menos 12 processos ali (37 no total na instância superior) -- registrei os 3 esquemas mais especificamente descritos nesta busca; é o perfil mais extenso de apurações pendentes encontrado nesta sessão. Sem confirmação de condenação em nenhum deles até a pesquisa.",
+      "fontes": [
+        "https://revistacenarium.com.br/em-atual-levantamento-no-sistema-do-stf-senador-eduardo-braga-aparece-como-reu-em-12-processos/",
+        "https://amazonasatual.com.br/stf-decreta-sigilo-em-inquerito-que-investiga-braga-por-esquema-da-jf/",
+        "https://www.gazetadopovo.com.br/republica/defesa-de-eduardo-braga-contesta-acusacoes-de-propina-em-caso-de-farmaceutica/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Inquérito da Lava Jato (aberto em 2019 pela PF/MPF) investigando suposta simulação de notas fiscais (R$6 milhões) envolvendo ele, a empresa Rico Táxi-Aéreo, a ex-presidente Dilma Rousseff e outros senadores."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Inquérito sobre suposto esquema de pagamentos milionários do grupo J&F a congressistas do MDB, incluindo ele, baseado em delações premiadas de executivos do grupo; o STF decretou sigilo sobre a investigação."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Indiciado pela PF, junto com os senadores Renan Calheiros e Romero Jucá, por suposto favorecimento de uma farmacêutica no Senado em troca de propina; ele contesta as acusações."
+        }
+      ]
+    },
+    "40002535270": {
+      "nome_urna": "EVANDRO DE OLIVEIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PSTU. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "40002551283": {
+      "nome_urna": "ISMAEL MUNDURUKU",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Cacique Geral do Parque das Tribos (Manaus), liderança indígena da etnia Munduruku, candidato a deputado federal em 2022 (não eleito, 569 votos). Busca não encontrou pendência pessoal. Observação: há também um 'ISAEL MUNDURUKU' com biografia quase idêntica (mesma etnia, mesmo Parque das Tribos, mesmo REDE) já pesquisado como candidato a GOVERNADOR do AM em sessão anterior -- não foi possível confirmar nesta busca se são a mesma pessoa com grafias diferentes ou pessoas distintas; registrado como observação, não resolvido.",
+      "fontes": [
+        "https://ndmais.com.br/eleicoes/2026/candidatos/am/senador/181-ismael-munduruku/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "40002537344": {
+      "nome_urna": "PLINIO VALÉRIO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Senador por AM (busca reeleição), posicionado como opositor do governo Lula e crítico do que chama de 'excessos ambientais'. Busca não encontrou processo, condenação ou pendência de registro.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "40002551281": {
+      "nome_urna": "PROFESSORA EVANY",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata do PSOL. Busca não encontrou pendência pessoal -- cobertura rasa (candidata de baixa exposição midiática).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "40002541744": {
+      "nome_urna": "WILSON LIMA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Governador do Amazonas (2019-2026), renunciou nas últimas horas do prazo eleitoral para concorrer ao Senado -- reviravolta em relação à posição pública anterior dele de que permaneceria no cargo até o fim do mandato. Não encontrei, nesta busca, nenhuma impugnação formal do MPE-AM questionando a desincompatibilização dele (diferente do caso de Helder Barbalho/PA).",
+      "fontes": [
+        "https://www.metropoles.com/brasil/policia-br/pf-operacao-amazonas-wilson-lima",
+        "https://agenciabrasil.ebc.com.br/saude/noticia/2021-06/governador-do-amazonas-e-alvo-de-operacao-da-policia-federal"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "A residência dele foi alvo de busca e apreensão na Operação Sangria (PF, jun/2021, 4ª fase): apuração de fraude em licitação e desvio de recursos públicos na contratação do hospital de campanha Nilton Lins (combate à Covid), sob suposta direção da alta liderança do governo estadual; R$22,8 milhões em bens/valores bloqueados. Achado de 2021 (~5 anos); não foi possível confirmar o desfecho final (denúncia, arquivamento ou condenação) nesta busca."
+        }
+      ]
+    },
+    "40002550806": {
+      "nome_urna": "XUXA DO AMAZONAS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Mobiliza. Busca não encontrou pendência pessoal -- cobertura rasa (candidato de baixa exposição midiática).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "80002553265": {
+      "nome_urna": "EVAIR DE MELO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado federal (3º mandato), Republicanos. Busca não encontrou processo, condenação ou pendência de registro.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Evair_de_Melo"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "80002550187": {
+      "nome_urna": "FABIANO CONTARATO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Senador por ES (busca reeleição). Há registro de um inquérito eleitoral (2019, TRE-ES) sobre eventuais incorreções no registro da candidatura dele em 2018 -- achado antigo, de um ciclo eleitoral já encerrado, sem confirmação de desdobramento ou gravidade; não contado como pendência de idoneidade.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Fabiano_Contarato"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "80002551368": {
+      "nome_urna": "ROSE DE FREITAS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Senadora por ES (busca reeleição). Sem confirmação de desfecho (denúncia, arquivamento) até a pesquisa.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/politica/senadora-do-es-e-alvo-de-acao-da-pf-em-operacao-que-apura-fraudes-em-licitacoes/",
+        "https://www.correiobraziliense.com.br/politica/2021/05/4923953-senadora-rose-de-freitas-e-alvo-de-operacao-da-pf-que-apura-desvios-em-contratos.html"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo de busca e apreensão da PF na Operação Corsários (2021), que apura organização criminosa na Companhia Docas do Espírito Santo (CODESA, 2015-2018) por direcionamento de licitações e desvio de recursos públicos (~R$9 milhões em contratos irregulares)."
+        }
+      ]
+    },
+    "80002553269": {
+      "nome_urna": "MAGUINHA MALTA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Publicitária, filha do senador Magno Malta (PL); primeira candidatura a cargo eletivo. Busca não encontrou pendência pessoal (ver círculo político para o pai, padrinho político explícito da candidatura).",
+      "fontes": [
+        "https://www.agazeta.com.br/colunas/vitor-vogas/maguinha-confirma-segundo-voto-em-evair-para-o-senado-dei-palavra-0926"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "80002542401": {
+      "nome_urna": "CALLEGARI",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado estadual (DC, eleito 2022), servidor de carreira do TJES. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "80002552373": {
+      "nome_urna": "RODNEY MIRANDA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Advogado, candidato do PRTB. Busca não encontrou pendência pessoal (achados do partido estão no cacique -- ver círculo político).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "80002530022": {
+      "nome_urna": "LEONARDO MONJARDIM",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Vereador, candidato do NOVO. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "80002551370": {
+      "nome_urna": "RENATO CASAGRANDE",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "3x governador do ES (PSB), renunciou para concorrer ao Senado. Sem condenação, sem inquérito formalmente aberto -- pedido da PF foi negado pelo STF.",
+      "fontes": [
+        "https://www.infomoney.com.br/politica/pf-pede-a-abertura-de-investigacao-contra-governador-do-es-por-mensagens-com-juiz/",
+        "https://jornaldebrasilia.com.br/noticias/politica-e-poder/moraes-rejeita-pedido-de-inquerito-contra-renato-casagrande-por-relacao-com-juiz-federal/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "PF pediu ao STF a abertura de inquérito contra ele com base em mensagens (achadas no celular do juiz federal Macário Júdice/TRF2) sugerindo intermediação em favor de um aliado político (prefeito de Montanha/ES, réu por improbidade) e de um pedido pessoal do juiz; Moraes REJEITOU o pedido de inquérito (a PGR/STF não viu indício suficiente de crime). Ele diz que a conversa foi 'institucional e republicana'."
+        }
+      ]
+    },
+    "80002549404": {
+      "nome_urna": "PROFESSOR FABIAN",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Professor (doutor em Educação pela UFES), primeira candidatura, PSOL. Busca não encontrou pendência pessoal.",
+      "fontes": [
+        "https://www.folhavitoria.com.br/eleicoes/quem-e-carlos-fabian-candidato-do-psol-ao-senado-pelo-espirito-santo/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "80002552692": {
+      "nome_urna": "SERGIO MENEGUELLI",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Aposentado, candidato do PSD. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "80002538202": {
+      "nome_urna": "MARCOS DO VAL",
+      "cargo_pretendido": "SENADOR",
+      "nota": 6,
+      "motivo": "Senador por ES (busca reeleição), Avante. Perfil com múltiplas investigações em curso no STF; sem denúncia formal ou condenação confirmada até a pesquisa.",
+      "fontes": [
+        "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-determina-abertura-de-investigacao-contra-senador-marcos-do-val/",
+        "https://www.osul.com.br/cinco-polemicas-envolvendo-o-senador-marcos-do-val-alvo-de-operacao-da-policia-federal/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Investigado pelo STF (relator Alexandre de Moraes) por apresentar versões contraditórias sobre uma suposta proposta de participação em plano de ruptura institucional recebida em 2023; a investigação apura possíveis crimes de falso testemunho, denunciação caluniosa e coação no curso do processo."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Teve o passaporte apreendido em investigação distinta sobre suposta intimidação de delegados da Polícia Federal, e foi alvo de medidas cautelares por descumprimento de decisão de Moraes."
+        }
+      ]
+    },
+    "150002549791": {
+      "nome_urna": "NABOR",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Advogado, candidato do Republicanos. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "150002544909": {
+      "nome_urna": "ANDRÉ GADELHA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Deputado estadual, MDB. Também moveu ação no TRE-PB contra propaganda do presidente da Câmara Hugo Motta associando-o ao Caso Master (disputa em curso, não é achado contra Gadelha). Idoneidade pessoal do próprio Gadelha: só a contestação de registro.",
+      "fontes": [
+        "https://www.polemicaparaiba.com.br/politica/tse-pode-derrubar-candidatura-de-andre-gadelha-dc-aponta-irregularidades-e-perda-de-prazos-veja-documento/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "O DC-PB pediu ao TSE o indeferimento/cancelamento do registro da candidatura dele ao Senado, alegando irregularidade no prazo de substituição do candidato a vice na chapa; pedido em julgamento até a pesquisa."
+        }
+      ]
+    },
+    "150002544905": {
+      "nome_urna": "VENEZIANO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 6,
+      "motivo": "Senador por PB (busca reeleição), MDB. Perfil com duas pendências formais distintas em curso; sem condenação confirmada.",
+      "fontes": [
+        "https://www.polemicaparaiba.com.br/polemicas/aije-acusa-veneziano-de-uso-politico-do-dnit-e-pede-cassacao-de-candidatura-ao-senado/",
+        "https://www.reporterpb.com.br/noticia/paraiba/2026/05/27/senador-veneziano-e-investigado-pela-pf-acusado-de-usar-aviao-em-campanha-eleitoral-e-pagar-sem-prestar-contas/187820.html"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "AIJE (Ação de Investigação Judicial Eleitoral) no TRE-PB pede a cassação do registro/diploma dele e inelegibilidade de 8 anos, por suposto abuso de poder político e administrativo no uso de estruturas do DNIT e exploração eleitoral de obras federais (duplicação da BR-230); processo em julgamento até a pesquisa."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Investigado pela PF por suposto uso de aeronave em campanha eleitoral (2022, candidatura a governador) sem declarar o gasto na prestação de contas; a PGR defende que o inquérito seja remetido à Justiça Eleitoral. Sem denúncia formal até a pesquisa."
+        }
+      ]
+    },
+    "150002538459": {
+      "nome_urna": "DR. MARCELO QUEIROGA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Ex-Ministro da Saúde (governo Bolsonaro, 2021-2022), cardiologista, candidato do PL.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Marcelo_Queiroga"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "A CPI da Covid (2021) recomendou o indiciamento dele (então Ministro da Saúde) por prevaricação e epidemia com resultado morte, por omissão e conduta ambígua sobre o uso de cloroquina; recomendação parlamentar, sem denúncia formal do MPF/PGR confirmada nesta busca."
+        }
+      ]
+    },
+    "150002548971": {
+      "nome_urna": "RINALDO JÚNIOR",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Empresário, candidato do DC. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "150002552607": {
+      "nome_urna": "ADRIANO TRAJANO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PCO. Busca não encontrou pendência pessoal (achado do partido está no cacique -- ver círculo político).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "150002548968": {
+      "nome_urna": "MAJOR FÁBIO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Militar da reserva, candidato do Novo. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "150002549793": {
+      "nome_urna": "JOAO AZEVÊDO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 6,
+      "motivo": "3x governador da Paraíba (PSB), renunciou para concorrer ao Senado. Observação: manteve dois ex-secretários no cargo mesmo após denúncia do Gaeco no 'escândalo do Padre Zé' -- decisão política, não achado pessoal de conduta dele, não contado.",
+      "fontes": [
+        "https://portalcorreio.com.br/pleno-do-tce-pb-reprova-contas-de-2019-do-governador-joao-azevedo/",
+        "https://portals1.com.br/cicero-aciona-tre-pb-contra-lucas-ribeiro-e-joao-azevedo-por-inchaco-na-folha-em-ano-eleitoral/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "contas_irregulares_com_ressarcimento",
+          "descricao": "O TCE-PB reprovou as contas dele (governador) relativas aos exercícios de 2019 e 2020, aplicou multa de R$5 mil e enviou cópias ao Ministério Público estadual por indícios de improbidade administrativa (número elevado de servidores comissionados/'apadrinhados')."
+        },
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "AIJE (Ação de Investigação Judicial Eleitoral) movida contra o atual governador Lucas Ribeiro, ele (ex-governador) e outros, por suposto abuso de poder político/econômico e conduta vedada (inchaço da folha com contratados em ano eleitoral); processo em julgamento até a pesquisa."
+        }
+      ]
+    },
+    "150002544135": {
+      "nome_urna": "ROSILENE SANTANA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata da UP. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "150002544140": {
+      "nome_urna": "JOÃO BATISTA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato da UP. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "200002533843": {
+      "nome_urna": "RAFAEL MOTTA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado federal, PDT. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "200002533841": {
+      "nome_urna": "SAMANDA DE LULA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata do PT, autora da representação contra Styvenson Valentim por uso indevido de serviço público (ver círculo dele). Busca não encontrou pendência pessoal dela.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "200002542484": {
+      "nome_urna": "LUCIANA MANDU",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata do PSTU. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "200002542483": {
+      "nome_urna": "ROSÁLIA FERNANDES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata do PSTU. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "200002534448": {
+      "nome_urna": "STYVENSON VALENTIM",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Senador por RN (busca reeleição), Podemos. Sem condenação ou decisão final até a pesquisa.",
+      "fontes": [
+        "https://blogtuliolemos.com.br/tre-aprofunda-investigacao-sobre-possivel-abuso-eleitoral-de-styvenson/",
+        "https://www.blogpautarn.com.br/post/samanda-pede-cassa%C3%A7%C3%A3o-de-styvenson-por-uso-eleitoral-de-servi%C3%A7o-p%C3%BAblico"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "Representação eleitoral (TRE-RN, processo 0600722-13.2026.6.20.0000) movida pela candidata Samanda de Lula e a coligação 'Time que Cuida' pede a cassação do registro dele: publicou nas redes uma unidade móvel do programa municipal de saúde ligada a emenda parlamentar de autoria dele, com pedido de voto -- suposto uso eleitoral de serviço público. TRE aprofundou a investigação (fase de produção de provas) até a pesquisa, sem decisão final."
+        }
+      ]
+    },
+    "200002534447": {
+      "nome_urna": "CORONEL HÉLIO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Policial militar da reserva (coronel), PL. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "200002550225": {
+      "nome_urna": "LINHARES JIBOIA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do DC. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "200002549133": {
+      "nome_urna": "GARI WENDELL BATISTA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Ex-gari, liderança comunitária, AGIR. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "200002548115": {
+      "nome_urna": "CLÓVIS COSTA DO COLETIVO NÓS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Policial militar, AGIR. Candidatura listada como 'aguardando julgamento' pelo TRE-RN -- é a fase de análise padrão de qualquer registro (documentação/condições de elegibilidade), sem contestação de terceiros identificada; não contado como achado.",
+      "fontes": [
+        "https://tmc.com.br/eleicoes/candidato/gari-wendell-batista/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "200002535511": {
+      "nome_urna": "TÉRCIO TINÔCO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do União Brasil. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "200002546792": {
+      "nome_urna": "SANDRO PIMENTEL",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PSOL. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "200002546795": {
+      "nome_urna": "SONIA GODEIRO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata do PSOL. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "200002535507": {
+      "nome_urna": "ZENAIDE MAIA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Senadora por RN (busca reeleição), médica, PSD. Pedido de cassação movido pelo PSDB em 2019 (suposta captação ilícita de recursos de campanha) foi REJEITADO pelo TRE-RN -- não contado (achado antigo e resolvido favoravelmente). Busca não encontrou pendência atual.",
+      "fontes": [
+        "https://www.tre-rn.jus.br/comunicacao/noticias/2019/Junho/tre-rn-rejeita-pedido-de-cassacao-da-senadora-zenaide-maia"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "200002550541": {
+      "nome_urna": "PROFESSOR GUILHERME",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Educador, candidato da UP. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "110002551967": {
+      "nome_urna": "MARGARETH BUZETTI",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Senadora por MT (busca reeleição), empresária, PP. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "110002552698": {
+      "nome_urna": "JANAINA RIVA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputada estadual, MDB. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "110002552693": {
+      "nome_urna": "ZÉ MEDEIROS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado federal, PL. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "110002548042": {
+      "nome_urna": "CORONEL DARWIN",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Democrata. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "110002553701": {
+      "nome_urna": "PROFESSOR NELSON FERREIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Agir. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "110002553706": {
+      "nome_urna": "BENY GODOY",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Agir. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "110002544988": {
+      "nome_urna": "PEDRO TAQUES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Ex-governador de MT, ex-procurador da República, PSB. Um inquérito por financiamento ilegal de campanha (recursos da construtora HL) foi ARQUIVADO pelo Ministério Público Eleitoral (delator considerado vago) -- não contado, achado resolvido favoravelmente. Atualmente ele próprio move ações/apresenta provas contra Mauro Mendes (não é alvo).",
+      "fontes": [
+        "https://www.olhardireto.com.br/juridico/noticias/mp-afirma-que-delator-foi-vago-em-suas-declaracoes-e-arquiva-inquerito-contra-taques-e-construtora"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "110002551966": {
+      "nome_urna": "MAURO MENDES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Ex-governador de MT (2019-2026), renunciou para concorrer ao Senado, União Brasil. Ele alega que o vazamento seletivo da investigação, revelado no dia seguinte ao anúncio da pré-candidatura, sugere articulação política.",
+      "fontes": [
+        "https://boainformacao.com.br/2026/06/ex-governador-de-mt-e-investigado-pelo-stj-em-caso-master/",
+        "https://www.cnnbrasil.com.br/politica/ex-governador-de-mato-grosso-e-alvo-de-operacao-sobre-lavagem-de-dinheiro/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo da Operação Heritage (PF), que investiga crimes contra o Sistema Financeiro Nacional, peculato, lavagem de dinheiro e uso de informação privilegiada, ligados à entrada acelerada (7 dias) do Banco Master no sistema estadual de empréstimos consignados Credcesta; o STJ investiga se ele acelerou irregularmente a liberação via decreto de mai/2023 que reservou 10% da margem salarial de servidores para cartões-benefício. Passaporte apreendido e proibição de contato com outros investigados; sem busca e apreensão contra ele e sem denúncia até a pesquisa."
+        }
+      ]
+    },
+    "110002544986": {
+      "nome_urna": "FÁVARO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Atual Ministro da Agricultura, ex-vice-governador de MT (2015-2018), PSD. Um inquérito por financiamento ilegal de campanha (gráfica) foi ARQUIVADO pela Justiça -- não contado, achado resolvido favoravelmente.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Carlos_F%C3%A1varo"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "110002540403": {
+      "nome_urna": "GALVAN",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Avante. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "20002548147": {
+      "nome_urna": "DAVI DAVINO FILHO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado estadual (2 mandatos), empresário, Republicanos. Busca não encontrou pendência pessoal (ele próprio acusou publicamente um adversário não identificado de 'lobo em pele de cordeiro' por suposto recebimento de dinheiro para sair da disputa -- acusação feita por ele, não achado contra ele).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "20002553272": {
+      "nome_urna": "ARTHUR LIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Ex-presidente da Câmara dos Deputados (2021-2025), deputado federal, PP. Uma denúncia antiga contra ele na Lava Jato foi REJEITADA por maioria do STF -- não contada (resolvida favoravelmente).",
+      "fontes": [
+        "https://www.brasil247.com/regionais/brasilia/pf-encontra-planilhas-de-emendas-com-ex-assessora-de-arthur-lira",
+        "https://www.satelitenoticias.com.br/2026/07/anotacao-apreendida-pela-pf-levanta.html"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "A PF apreendeu, em dez/2025 (Operação Transparência), planilhas de emendas parlamentares e uma anotação no endereço de Mariângela Fialek ('Tuca'), ex-assessora de confiança dele quando presidia a Câmara (2021-2022); a anotação levanta suspeita de continuidade do 'orçamento secreto' mesmo após a proibição do STF (fim de 2022). A investigação mira a ex-assessora, e a PF ainda não concluiu que houve irregularidade no destino dos recursos; ele não foi formalmente nomeado investigado nesta apuração."
+        }
+      ]
+    },
+    "20002553727": {
+      "nome_urna": "RENAN",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Senador por AL (busca reeleição), MDB, presidiu o Senado por anos. Histórico extenso: chegou a réu no STF pela 1ª vez na Lava Jato em dez/2019 (corrupção passiva e lavagem, suposto recebimento de R$1,8 mi via Sérgio Machado/Transpetro), além de dezenas de outros inquéritos ao longo da carreira. EM FEV/2025 o STF (min. Fux), a pedido da PGR (Gonet, por insuficiência de provas), arquivou a ÚLTIMA investigação pendente contra ele, encerrando a série de mais de 40 casos/inquéritos -- ele entra na eleição de 2026 sem processo ou investigação ativa no STF. Não contado como achado por não haver pendência confirmada e ativa até a pesquisa.",
+      "fontes": [
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=509227&ori=1",
+        "https://www.correiobraziliense.com.br/app/noticia/politica/2019/12/03/interna_politica,811234/stf-aceita-denuncia-e-renan-calheiros-vira-reu-na-lava-jato.shtml"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "20002553726": {
+      "nome_urna": "DR. WANDERLEY",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Cardiologista, professor da UFAL, ex-secretário estadual de Saúde, ex-vice-governador de AL (2 vezes), MDB. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "20002552524": {
+      "nome_urna": "MARIEDSON",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Democrata, ligado a atividades esportivas em Maceió. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "20002553711": {
+      "nome_urna": "MARINA JHC",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Primeira-dama de Maceió, esposa do ex-prefeito JHC (que renunciou para concorrer em 2026), empresária, PSDB.",
+      "fontes": [
+        "https://www.gazetaweb.com/noticias/politica/mdb-contesta-candidatura-de-marina-candia-ao-senado-e-cita-vinculos-com-cesmac-e-prefeitura-de-maceio-931248"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "O MDB (coligação adversária) contestou o registro da candidatura dela no TRE-AL, alegando que ela não se desincompatibilizou de um cargo na Fundação Educacional Jayme de Altavila (Fejal, mantenedora do Cesmac) -- tomou posse como conselheira em 30/03/2026, órgão com atribuições administrativas que exigiria afastamento 6 meses antes da eleição -- e que continuou participando de programas da Prefeitura de Maceió após o prazo de desincompatibilização. Pendente de julgamento até a pesquisa."
+        }
+      ]
+    },
+    "20002540197": {
+      "nome_urna": "ALEXANDRE FLEMING",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato da UP. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002540446": {
+      "nome_urna": "CIRO NOGUEIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Senador por PI (busca reeleição), presidente do PP, ex-Ministro-Chefe da Casa Civil (governo Bolsonaro). Também preside o PP -- não é contado como cacique de si mesmo no círculo político (ver 'circulo_politico.json').",
+      "fontes": [
+        "https://conectapiaui.com.br/noticia/politica/caso-master-processo-que-envolve-ciro-nogueira-ja-soma-quase-6-mil-paginas-22150.html",
+        "https://www.seudinheiro.com/2026/politica/ciro-nogueira-recebe-propina-de-daniel-vorcaro-e-vira-alvo-da-policia-federal-no-caso-do-banco-master-davs/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo pessoal de mandado de busca e apreensão da PF na Operação Compliance Zero (Caso Banco Master): suspeita de receber propina mensal de R$300 mil de Daniel Vorcaro em troca de atuação legislativa favorável ao banco, incluindo a chamada 'Emenda Master' (ampliação do teto de cobertura do FGC). O processo já soma quase 6 mil páginas, envolvendo atuação parlamentar dele, movimentações financeiras e a relação com Vorcaro. Ele nega irregularidades; sem denúncia formal até a pesquisa."
+        }
+      ]
+    },
+    "180002533967": {
+      "nome_urna": "MARCELO CASTRO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Senador por PI (busca reeleição), médico, MDB. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002537340": {
+      "nome_urna": "DANNIEL ROCHA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PSTU. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002540449": {
+      "nome_urna": "TIAGO JUNQUEIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Engenheiro, primeira candidatura ao Senado, PL. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002547863": {
+      "nome_urna": "DIONISIO CARVALHO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Jornalista/empresário, ex-secretário executivo de Meio Ambiente de Teresina (2013-2016), DC. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002547860": {
+      "nome_urna": "IRMÃO EVANDRO MARQUES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do DC. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002553753": {
+      "nome_urna": "CLOVES JOSÉ",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PCO. Busca não encontrou pendência pessoal (achado do partido está no cacique -- ver círculo político).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002549933": {
+      "nome_urna": "ANTÔNIO BARROS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Médico, NOVO. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002544457": {
+      "nome_urna": "MAJOR PAULO ROBERTO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Mobiliza. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002544459": {
+      "nome_urna": "TOINHO DUFRANGO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Mobiliza. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002548157": {
+      "nome_urna": "MISSIONÁRIO EVANDRO CRAVEIRO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Democrata. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002548155": {
+      "nome_urna": "JARDENYA BEZERRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata do Democrata. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002548568": {
+      "nome_urna": "JORGE LOPES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Servidor público federal, PSDB. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002550979": {
+      "nome_urna": "FRANCINALDO LEÃO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Agricultor, PSOL. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002550977": {
+      "nome_urna": "MARIA MADALENA NUNES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Servidora pública federal, PSOL. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002533964": {
+      "nome_urna": "JÚLIO CÉSAR O JULIM DO LULA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado federal, apoiado por Lula na campanha ('Julim do Lula'), PSD. Um pedido da oposição no TRE-PI para tratar o apoio de Lula como propaganda irregular foi NEGADO (tratado como 'fato público e notório') -- não contado, achado resolvido favoravelmente a ele. Busca não encontrou outra pendência.",
+      "fontes": [
+        "https://www.poder360.com.br/poder-eleicoes-2026/deputado-julio-cesar-faz-campanha-ao-senado-pi-no-como-julim-do-lula/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002552962": {
+      "nome_urna": "ALEXANDRE MARIANO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Servidor público municipal, AVANTE. Busca não encontrou pendência pessoal. Observação: registrado com o mesmo número de urna (700) que outro candidato do Avante (Antônio José Lira) nesta lista -- não foi possível confirmar se há substituição em andamento; ambos tratados como candidaturas distintas nesta pesquisa.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002549936": {
+      "nome_urna": "ANTÔNIO JOSÉ LIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Aposentado, AVANTE. Busca não encontrou pendência pessoal. Observação: mesmo número de urna (700) que Alexandre Mariano (Avante) nesta lista -- ver nota no registro dele.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002552964": {
+      "nome_urna": "PASTOR SENA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Pastor, AVANTE. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "180002541938": {
+      "nome_urna": "PEDRO LAURENTINO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato da UP. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "70002552492": {
+      "nome_urna": "LEILA DO VÔLEI",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Senadora pelo DF (busca reeleição), ex-atleta olímpica de vôlei, PDT. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "70002552490": {
+      "nome_urna": "ERIKA KOKAY",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputada federal, PT. A PGR (Janot) a denunciou ao STF em 2016 por peculato/desvio de recursos do Sindicato dos Bancários do DF (presidência dela, 1992-1998); o processo foi enviado à 1ª instância e, mais recentemente, a própria PGR pediu ao STF o arquivamento por absoluta falta de provas -- achado antigo e encaminhado ao arquivamento, não contado.",
+      "fontes": [
+        "https://blogs.correiobraziliense.com.br/cbpoder/stf-manda-inquerito-contra-erika-kokay-para-primeira-instancia/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "70002536445": {
+      "nome_urna": "ZANATA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata do PSTU. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "70002552936": {
+      "nome_urna": "MICHELLE BOLSONARO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Ex-primeira-dama do Brasil, empresária, PL.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/politica/pf-deve-encerrar-inquerito-das-joias-sem-indiciar-michelle-bolsonaro/",
+        "https://iclnoticias.com.br/joias-sauditas-pf-michelle-bolsonaro/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Inquérito das joias sauditas (2023-em diante): a PF concluiu que não identificou participação dela no esquema de venda ilegal das joias e não deve indiciá-la; mas há relatos de que o inquérito também apura pagamentos em dinheiro vivo a ela e familiares, questão não esclarecida nesta busca. As joias em si seguem sob custódia da Receita Federal por pedido da PGR."
+        }
+      ]
+    },
+    "70002552934": {
+      "nome_urna": "BIA KICIS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Deputada federal, ex-procuradora do DF (1992-2015 aposentada), PL.",
+      "fontes": [
+        "https://apublica.org/2020/06/investigada-por-fake-news-kicis-contratou-servicos-de-midias-sociais-de-apoiadores-do-governo/",
+        "https://www.cartacapital.com.br/politica/o-inquerito-das-fake-news-sete-anos-de-uma-investigacao-sem-fim/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Um dos alvos do Inquérito das Fake News no STF (aberto em 2019), ainda em curso sem desfecho definitivo após 7 anos. Não é acusada nesta busca de participação nos atos golpistas de 8 de janeiro de 2023 (ao contrário, obteve autorização de Moraes para visitar presos do 8/1 como deputada)."
+        }
+      ]
+    },
+    "70002551426": {
+      "nome_urna": "DAVID HORN",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PCO. Busca não encontrou pendência pessoal (achado do partido está no cacique -- ver círculo político).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "70002548624": {
+      "nome_urna": "SEBASTIÃO COELHO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Magistrado, candidato do Novo. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "70002553859": {
+      "nome_urna": "AVENIR ROSA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Democrata. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "70002551323": {
+      "nome_urna": "TIAGO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Agir. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "70002553296": {
+      "nome_urna": "GUTO FELÍCIO DOS SANTOS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Economista, PSDB. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "70002553751": {
+      "nome_urna": "RONALDO FONSECA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Advogado, ex-deputado federal, PSD. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "70002552582": {
+      "nome_urna": "MARLEY",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Advogado, candidato do Avante. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "70002537112": {
+      "nome_urna": "PROFESSOR GUILHERME AMORIM",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Educador, candidato da UP. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "120002547435": {
+      "nome_urna": "VANDER LOUBET",
+      "cargo_pretendido": "SENADOR",
+      "nota": 7,
+      "motivo": "Deputado federal, PT. Uma ação penal anterior (corrupção passiva/lavagem, ligada à Lava Jato) foi julgada IMPROCEDENTE pela 2ª Turma do STF (absolvido por unanimidade) -- não contada, resolvida favoravelmente.",
+      "fontes": [
+        "https://noticias.stf.jus.br/postsnoticias/pgr-pede-a-condenacao-do-deputado-vander-loubet-por-crime-eleitoral/",
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=450200&ori=1"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "A PGR pediu ao STF a condenação dele por crime eleitoral (art. 337 do Código Eleitoral: participar de atividade partidária tendo os direitos políticos suspensos), processo em fase final com pedido de condenação apresentado."
+        }
+      ]
+    },
+    "120002535769": {
+      "nome_urna": "CAPITÃO CONTAR",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Deputado estadual, policial militar da reserva (capitão), PL.",
+      "fontes": [
+        "https://correiodoestado.com.br/politica/partido-denuncia-caixa-2-na-campanha-de-capitao-contar/406116/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "O diretório regional do Cidadania em MS pediu a investigação de possível caixa 2/financiamento ilícito na campanha dele, alegando que a candidatura não declarou corretamente a receita de campanha; sem confirmação de inquérito formalmente aberto nesta busca."
+        }
+      ]
+    },
+    "120002535764": {
+      "nome_urna": "REINALDO AZAMBUJA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Ex-governador de MS (2019-2022), PL. A Operação Vostok (2018, delação da JBS) o acusava de lavagem de dinheiro, corrupção passiva e organização criminosa; em jun/2026 o STF TRANCOU a ação para todos os 24 acusados, não só para ele -- achado encerrado e resolvido favoravelmente, não contado.",
+      "fontes": [
+        "https://investigams.com.br/2026/09/08/delacao-da-jbs-ministro-do-stf-livrou-azambuja-e-justica-eleitoral-arquivou-operacao-vostok/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "120002552183": {
+      "nome_urna": "VALTER DA COMAGRAN",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PRD. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "120002551909": {
+      "nome_urna": "LUIZ LEMES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do DC. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "120002552196": {
+      "nome_urna": "VALDERI GARCIA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PCO. Busca não encontrou pendência pessoal (achado do partido está no cacique -- ver círculo político).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "120002552115": {
+      "nome_urna": "ROBERTO OSHIRO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Advogado e empresário, candidato do Novo. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "120002534952": {
+      "nome_urna": "DANIEL JUNIOR",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do Agir. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "120002547434": {
+      "nome_urna": "SORAYA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Senadora por MS (busca reeleição), PSB (antes Podemos e União Brasil). Diz sofrer ameaças e ter sido alvo de imagens falsas ('deepnude') geradas por IA -- ela é vítima nesses casos, não investigada.",
+      "fontes": [
+        "https://tribunapopular.net/noticia/61005/soraya-thronicke-relatora-da-cpi-das-bets-surge-em-denuncias-por-ter-pedido-r-40-milhoes-a-lobista-entenda-o-caso",
+        "https://correiodoestado.com.br/politica/senadora-de-ms-e-acusada-de-envolvimento-em-esquema-de-extorsao-de-bet/440736/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Reportagens (Veja, dez/2024) revelaram que dois assessores parlamentares do gabinete dela têm vínculo familiar com o lobista Silvio Assis, investigado pela PF por suposta extorsão de R$40 milhões a um empresário do setor de apostas para evitar convocação na CPI das Bets (da qual ela era relatora). Ela nega envolvimento, chama de 'movimento orquestrado' para desacreditar a CPI e ofereceu à PF quebra voluntária de seus sigilos bancário, fiscal e telemático; não é citada como investigada nesta busca."
+        }
+      ]
+    },
+    "120002532721": {
+      "nome_urna": "BETO DO MOVIMENTO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Coordenador nacional do Movimento Popular de Luta (MPL), trabalhador rural, PSOL. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "260002549127": {
+      "nome_urna": "EDUARDO AMORIM",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Médico, ex-deputado federal, Republicanos. Registro listado como 'aguardando julgamento' pela Justiça Eleitoral -- é a fase de análise padrão de qualquer candidatura (documentação/condições de elegibilidade), sem contestação de terceiros identificada; não contado como achado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "260002549130": {
+      "nome_urna": "DELEGADO ANDRÉ DAVID",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Delegado de polícia, Republicanos, líder nas pesquisas. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "260002551550": {
+      "nome_urna": "EDVALDO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PDT. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "260002547285": {
+      "nome_urna": "ROGERIO CARVALHO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Senador por SE (busca reeleição), médico sanitarista, PT. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "260002533084": {
+      "nome_urna": "DELEGADO ALESSANDRO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Delegado de polícia, MDB. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "260002551366": {
+      "nome_urna": "CORONEL ROCHA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Militar da reserva, PL. Registro listado como 'aguardando julgamento' pela Justiça Eleitoral -- fase de análise padrão, sem contestação de terceiros identificada; não contado como achado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "260002551362": {
+      "nome_urna": "RODRIGO VALADARES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado federal (desde 2023), ex-deputado estadual, PL. Registro listado como 'aguardando julgamento' pela Justiça Eleitoral -- fase de análise padrão, sem contestação de terceiros identificada; não contado como achado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "260002543591": {
+      "nome_urna": "RENATINHA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Estudante de odontologia, primeira candidatura, DC. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "260002547290": {
+      "nome_urna": "ANDRÉ MOURA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 4,
+      "motivo": "Ex-deputado federal (2 mandatos), ex-prefeito de Pirambu/SE, União Brasil. Um dos perfis mais graves desta pesquisa: condenação confirmada pelo STF por peculato e associação criminosa, mais uma investigação distinta em curso.",
+      "fontes": [
+        "https://www.conjur.com.br/2021-set-29/andre-moura-condenado-stf-duas-acoes-penais-anos-prisao/",
+        "https://www.cartacapital.com.br/justica/a-nova-condenacao-de-andre-moura-por-feiras-pagas-com-verbas-de-municipio-sergipano/",
+        "https://www.f5news.com.br/politica/stf-aceita-acordo-que-extingue-pena-de-prisao-contra-andre-moura.html"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado pelo plenário do STF em 29/09/2021 (6 votos a 4) por peculato, desvio de recursos públicos e associação criminosa, como prefeito de Pirambu/SE (2005-2007): despesas pessoais (alimentação, telefonia, transporte) pagas com verba da prefeitura. Pena de 8 anos e 3 meses em regime fechado e impedimento de cargo público por 5 anos; posteriormente o STF aceitou um acordo de não persecução penal que extinguiu a pena de PRISÃO (não anulou a condenação em si). Há também uma condenação adicional mais recente por esquema de 'feiras' pagas com verbas de outro município sergipano -- mesmo padrão de desvio, tratado como o mesmo achado (não somado em dobro)."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "R$5 milhões em bens dele bloqueados pela Justiça em investigação por suposta fraude em contrato de plataforma educacional, da época em que foi secretário de Representação do Governo do Rio de Janeiro em Brasília. Sem denúncia formal confirmada nesta busca."
+        }
+      ]
+    },
+    "260002545677": {
+      "nome_urna": "IRAN BARBOSA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Professor, PSOL. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "220002547310": {
+      "nome_urna": "MARIANA CARVALHO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Ex-deputada federal, Republicanos. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "220002547309": {
+      "nome_urna": "SÍLVIA CRISTINA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidata do PP. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "220002541490": {
+      "nome_urna": "ACIR GURGACZ",
+      "cargo_pretendido": "SENADOR",
+      "nota": 4,
+      "motivo": "Ex-senador por RO (2011-2019), PDT.",
+      "fontes": [
+        "https://expressaorondonia.com.br/justica-eleitoral-mantem-acir-gurgacz-inelegivel-ate-2030-senador-deve-recorrer-ao-tse-e-supremo/",
+        "https://painelpolitico.com/acir-gurgacz-mpf-diz-que-ex-senador-esta-inelegivel-em-2026"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "inelegibilidade_vigente",
+          "descricao": "Condenado pelo STF em 27/02/2018 por crimes contra o sistema financeiro nacional, com inelegibilidade de 8 anos (Ficha Limpa) que se estenderia até 2026. Em 2026 invocou a Declaração de Elegibilidade Antecipada (LC 219/2025) no TRE-RO; o TRE-RO MANTEVE o entendimento de que ele segue inelegível até 2030, e a defesa recorre ao TSE/STF. Enquanto o recurso não é julgado, a inelegibilidade permanece vigente e não revertida."
+        }
+      ]
+    },
+    "220002551948": {
+      "nome_urna": "LUCIANA OLIVEIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Jornalista, primeira candidatura, PT. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "220002541944": {
+      "nome_urna": "ENGENHEIRO THULIO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Engenheiro florestal, empresário, primeira candidatura, Missão. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "220002539996": {
+      "nome_urna": "DR. FERNANDO MÁXIMO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Médico, deputado federal (desde 2023), ex-secretário estadual de Saúde de RO (2019-2022), PL. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "220002539995": {
+      "nome_urna": "BRUNO SCHEID",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Administrador, primeira candidatura, PL, próximo de Flávio Bolsonaro. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "220002550928": {
+      "nome_urna": "NEIDINHA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Historiadora, ligada à defesa de povos indígenas e questões ambientais, PSB. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "220002551946": {
+      "nome_urna": "AIRES MOTA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Candidato do PV. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "220002539771": {
+      "nome_urna": "LUIS FERNANDO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Administrador, ex-secretário estadual de Fazenda de RO, PSD. Busca não encontrou pendência pessoal.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "270002546333": {
+      "nome_urna": "EDUARDO GOMES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Senador (PL/TO) buscando reeleição, 1º vice-presidente do Senado.",
+      "fontes": [
+        "https://www.jornalopcao.com.br/ultimas-noticias/senador-tocantinense-eduardo-gomes-e-investigado-pela-pf-por-suposto-envolvimento-em-esquema-com-a-codevasf-357990/",
+        "https://conexaoto.com.br/2025/02/10/policia-federal-pede-abertura-de-investigacao-contra-o-senador-tocantinense-eduardo-gomes"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "A PF pediu abertura de inquérito (Operação Emendário, que já denunciou 3 deputados do PL) por suspeita de desvio de emendas parlamentares: mensagens mostram ex-assessor dele cobrando 'saldo devedor' de R$1,3 mi de assessor de Josimar Maranhãozinho (PL-MA). Sem denúncia formal confirmada."
+        }
+      ]
+    },
+    "270002548231": {
+      "nome_urna": "GAGUIM",
+      "cargo_pretendido": "SENADOR",
+      "nota": 4,
+      "motivo": "Ex-governador de TO (2009-2010) e deputado federal desde 2015 (UNIÃO).",
+      "fontes": [
+        "https://www.tjto.jus.br/comunicacao/noticias/sentenca-que-condenou-o-ex-governador-carlos-gaguim-e-mais-seis-reus-por-improbidade-administrativa-e-mantida-pela-1-camara-civel",
+        "https://www.jornalopcao.com.br/tocantins/ex-governador-carlos-gaguim-e-denunciado-por-crimes-cometidos-em-2010-148576/",
+        "https://conexaoto.com.br/2026/08/28/gaguim-tem-candidatura-ao-senado-deferida-em-definitivo-pela-justica-eleitoral"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado por improbidade administrativa (contrato 002/2009 da Secom-TO com direcionamento de licitação; serviços usados para fins políticos pessoais, R$2,5 mi contratados; ressarcimento coletivo de ~R$4,4 mi com outros 6 réus e suspensão de direitos políticos); sentença mantida pela 1ª Câmara Cível do TJTO em ago/2020. Não achei reversão; a candidatura foi deferida em definitivo pela Justiça Eleitoral em ago/2026 (efeitos da condenação não impediram o registro)."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Denunciado pelo MPTO em 2018 (Máfia dos Lotes) como autor intelectual da venda de 193 lotes públicos em Palmas sem licitação em 2010, disfarçada de regularização fundiária; recebimento da denúncia e andamento atual NÃO confirmados nesta busca."
+        }
+      ]
+    },
+    "270002548409": {
+      "nome_urna": "ELI BORGES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Deputado federal (Republicanos/TO) desde 2019, líder da bancada evangélica.",
+      "fontes": [
+        "https://tocantins.jornalopcao.com.br/noticias/tre-to-manda-eli-borges-recolher-panfleto-que-atribui-ao-stf-autorizacao-para-matar-bebes-de-5-meses-600236/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "TRE-TO mandou recolher panfleto de campanha que atribuía ao STF autorização para 'matar bebês', liberar tráfico de maconha e perseguir pregação religiosa (propaganda considerada ilegal)."
+        }
+      ]
+    },
+    "270002548344": {
+      "nome_urna": "ALEXANDRE GUIMARÃES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Deputado federal (MDB/TO) desde 2023, advogado e produtor rural.",
+      "fontes": [
+        "https://tocantins.jornalopcao.com.br/noticias/alexandre-guimaraes-e-o-2o-candidato-mais-multado-pelo-ibama-no-pais-e-soma-quase-r-15-milhao-598678/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "sancao_institucional_confirmada",
+          "descricao": "2º candidato do país mais multado pelo Ibama (jan/2023-ago/2026): duas autuações somando R$1,475 mi na Fazenda Lorena (Pacajá/PA), a maior de R$975,5 mil por impedir regeneração natural de 195 ha de floresta amazônica com pecuária."
+        }
+      ]
+    },
+    "270002544629": {
+      "nome_urna": "PAULO MOURÃO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Ex-deputado federal (1989-2003), ex-prefeito de Porto Nacional (2005-2009) e ex-deputado estadual (2015-2019), PT.",
+      "fontes": [
+        "https://www.tjto.jus.br/comunicacao/noticias/ex-prefeito-de-porto-nacional-e-condenado-a-devolver-r-377-mil-aos-cofres-publicos"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado por improbidade administrativa a devolver R$377,6 mil corrigidos (convênio de 2008 com o Ministério do Turismo para show cultural em Porto Nacional; falta de comprovação de exclusividade na contratação artística e de justificativa para dispensa de licitação). Data e trânsito em julgado NÃO confirmados (site do TJTO fora do ar na consulta)."
+        }
+      ]
+    },
+    "270002546038": {
+      "nome_urna": "RONALDO DIMAS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Ex-prefeito de Araguaína (2013-2021), ex-deputado federal e ex-presidente da FIETO (Podemos).",
+      "fontes": [
+        "https://tribunato.com/policial/ex-prefeito-de-araguaina-ronaldo-dimas-alega-perseguicao-pela-devassa-da-pf-em-seus-contratos-de-locacao/",
+        "https://conexaoto.com.br/2022/05/19/alvo-de-operacao-dimas-afirma-nao-haver-qualquer-conduta-ilegal-a-pf-esta-na-sua-cola-diz-seguidor"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "PF investigou (ago/2023) contratos de locação de veículos da prefeitura de Araguaína na gestão dele, com suspeita de sobrepreço; ele nega e alega perseguição política. Sem denúncia encontrada. (Operação Catilinárias, transporte escolar 2013-2018, mira servidores da Educação, sem acusação direta a ele; contas de 2018-2019 aprovadas pela Câmara contra recomendação técnica do TCE, não contado.)"
+        }
+      ]
+    },
+    "270002546039": {
+      "nome_urna": "VANDERLEI LUXEMBURGO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Ex-técnico de futebol, primeira candidatura (Podemos).",
+      "fontes": [
+        "https://www.tsf.pt/arquivo/artigo/wanderley-luxemburgo-acusado-de-fugir-ao-fisco/724487",
+        "https://www.meutimao.com.br/noticias-do-corinthians/448429/absolvido-de-assedio-e-presente-em-cpi-entenda-acusacoes-de-luxemburgo-novo-tecnico-do-corinthians"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Acusado em 2000 pelo MPF de sonegação fiscal (1993-1997, ~R$3 mi ocultados; ele admitiu erros na declaração sem dolo); desfecho penal NÃO confirmado nesta busca. Histórico antigo (2000-2001: CPI da CBF, ex-secretária o acusou de lavagem via transferências de jogadores, condenado em 1ª instância a pagar R$1 mi a ela em ação privada; absolvido em caso de assédio)."
+        }
+      ]
+    },
+    "270002551270": {
+      "nome_urna": "HELIO RODRIGUES BOLSONARO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Vendedor/representante comercial, Democrata; candidatura aguardando julgamento na Justiça Eleitoral. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "270002551273": {
+      "nome_urna": "OSVANY LUZ",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Administradora e jornalista, Democrata; 1ª disputa em 2024 (suplente de vereadora em Palmas); candidatura aguardando julgamento. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "270002552968": {
+      "nome_urna": "APÓSTOLO FLAVIO BRAGA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Advogado e apóstolo da Igreja Árvore da Vida (Araguaína), DC; candidatura deferida. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "270002550610": {
+      "nome_urna": "CORONEL NILTON SANTOS",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Tenente-coronel do Corpo de Bombeiros Militar de TO, Novo; candidatura deferida. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "270002539142": {
+      "nome_urna": "PROFESSOR OSVALDO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Servidor público estadual, PSOL, 1ª candidatura. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "270002539141": {
+      "nome_urna": "FÁBIO RIBEIRO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Empresário, presidente estadual da Rede em TO. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "100002549583": {
+      "nome_urna": "ROSEANA SARNEY",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Ex-governadora do MA (4 mandatos), ex-senadora e deputada federal (MDB).",
+      "fontes": [
+        "https://noticias.stf.jus.br/postsnoticias/stf-determina-arquivamento-de-peticao-na-qual-roseana-sarney-era-acusada-por-crimes-no-projeto-usimar/",
+        "https://www.meon.com.br/noticias/defesa-de-roseana-sarney-e-de-edison-lobao-pede-arquivamento-de-inquerito-no-stf"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "O STF (Gilmar Mendes) arquivou a petição em que era acusada, pelo MPF, de associação criminosa, fraude, falsidade ideológica e peculato no caso Usimar: a denúncia não trazia elementos objetivos ligando-a aos fatos."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Citada na Lava Jato/delação Odebrecht (suspeita de R$2 mi para a campanha de 2010); inquérito arquivado em 2016 por falta de provas. (Escândalo Lunus de 2002 não gerou acusação formal encontrada, não contado.)"
+        }
+      ]
+    },
+    "100002537338": {
+      "nome_urna": "WEVERTON ROCHA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 7,
+      "motivo": "Senador (PDT/MA) desde 2019, vice-líder do governo, buscando reeleição.",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/republica/pf-apura-se-vice-lider-de-lula-teria-atuado-para-conter-investigacao-de-homicidio-no-maranhao/",
+        "https://www.folhape.com.br/politica/dino-aponta-interferencia-indevida-de-senador-weverton-rocha-em-caso/506631/",
+        "https://en.wikipedia.org/wiki/Weverton_Rocha"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Inquérito no STF (relator Flávio Dino) apura se atuou para interferir em investigação do assassinato do empresário João Bosco (2022): a PF achou mensagens, áudios e ligações com o ministro do STJ Humberto Martins entre jan/2023 e out/2025; Dino apontou 'interferência indevida' e tirou o sigilo em ago/2026. Ele nega. Sem denúncia."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Histórico mais antigo: investigado por repasses do Ministério do Trabalho a ONGs (contratações irregulares) e alvo de 3 ações de improbidade propostas por MPF/MPE (jatos pagos por órgãos públicos, ginásio como secretário de Esporte do MA); status atual não confirmado."
+        }
+      ]
+    },
+    "100002542867": {
+      "nome_urna": "FUFUCA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Deputado federal (PP/MA) desde 2015 e ex-ministro do Esporte (2023-2026).",
+      "fontes": [
+        "https://maquinadoesporte.com.br/mercado/andre-fufuca-deixa-o-ministerio-do-esporte-para-se-candidatar-ao-senado-pelo-maranhao/",
+        "https://www.brasildefato.com.br/2024/04/04/emenda-de-fufuca-para-prefeitura-comandada-por-seu-pai-foi-destinada-a-empresa-de-suspeito-por-compra-de-votos/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Inquérito da PF sobre compra de votos na eleição de 2018 (apoiador com dinheiro vivo e mensagens sobre 'voto por chuteira') foi arquivado em set/2025 após 7 anos, sem denúncia."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Emendas parlamentares dele para a prefeitura comandada pelo pai foram parar em empresa (Projeplan) do investigado no caso de compra de votos; questionadas pelo Ministério Público junto ao TCE."
+        }
+      ]
+    },
+    "100002541459": {
+      "nome_urna": "ELIZIANE GAMA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Senadora (PT/MA, ex-Cidadania/PSD) desde 2019, relatora da CPMI do 8 de janeiro; buscando reeleição. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "100002548011": {
+      "nome_urna": "LAHESIO BONFIM",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Médico, ex-prefeito de São Pedro dos Crentes (2017-2022), 2º colocado na disputa de governador de 2022 (NOVO).",
+      "fontes": [
+        "https://atual7.com/tudo-sobre/lahesio-bonfim"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Fez acordo de não persecução penal com o MPMA em abr/2024 (pagou R$25,2 mil) para encerrar ação criminal sobre a morte de um paciente em 2019 no Hospital Amâncio Coutinho por falhas técnicas no atendimento; sem condenação."
+        }
+      ]
+    },
+    "100002550418": {
+      "nome_urna": "DR.HILTON GONÇALO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Médico e ex-prefeito de Santa Rita/MA (4 mandatos eleitos), Mobiliza.",
+      "fontes": [
+        "https://acontecemaranhao.com.br/tce-condena-hilton-goncalo-a-devolver-r-600-mil-por-irregularidades-na-saude/",
+        "https://www.omaranhense.com.br/2026/04/defesa-de-hilton-goncalo-diz-que-houve.html"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "contas_irregulares_com_ressarcimento",
+          "descricao": "TCE-MA o condenou em 15/04/2026 a devolver R$600 mil (verba fundo a fundo de 2023 para o Hospital Municipal Helena Freire) por falta de comprovação; caso enviado à PGJ. A defesa cita ofício da SES/MA declarando conformidade da execução."
+        }
+      ]
+    },
+    "100002553336": {
+      "nome_urna": "SIMPLÍCIO ARAÚJO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Empresário, ex-deputado federal (2011-2015) e ex-secretário estadual, DC.",
+      "fontes": [
+        "https://imirante.com/noticias/maranhao/amp/2026/09/16/ipolitica-candidatura-de-simplicio-araujo-ao-senado-e-indeferida",
+        "https://www.observadorma.com/2026/09/17/tre-ma-indefere-candidatura-de-simplicio-araujo-ao-senado/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "TRE-MA indeferiu por unanimidade (16-17/09/2026) o registro por falta de certidão criminal da Justiça Federal de 2º grau e de quitação eleitoral (5 processos da 9ª Zona, Pedreiras); ele promete recorrer, sem decisão de recurso encontrada."
+        }
+      ]
+    },
+    "100002537364": {
+      "nome_urna": "CIDÔNIO GONÇALVES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Produtor agropecuário, candidato a prefeito de Açailândia em 2024 (PL). Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "100002548853": {
+      "nome_urna": "ENILTON RODRIGUES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Engenheiro, PSOL, nunca eleito (candidatou-se a vereador, deputado estadual e governador). Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "100002536212": {
+      "nome_urna": "WILSON LEITE",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Técnico em informática e professor, PSTU, nunca eleito. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "100002549014": {
+      "nome_urna": "RAIMUNDO MOREIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Pescador, PCB, 1ª candidatura. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "10002548046": {
+      "nome_urna": "GLADSON CAMELÍ",
+      "cargo_pretendido": "SENADOR",
+      "nota": 0,
+      "motivo": "Ex-governador do AC (2019-2026), ex-senador e ex-deputado federal (PP).",
+      "fontes": [
+        "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/06052026-STJ-condena-ex-governador-do-Acre--Gladson-Cameli--a-25-anos-de-prisao-por-esquema-de-corrupcao.aspx",
+        "https://revistaoeste.com/politica/tre-do-acre-barra-candidatura-de-ex-governador-gladson-cameli-ao-senado/",
+        "https://portalacre.com.br/2026/09/operacao-que-tem-ex-governador-gladson-como-um-dos-alvos-apreende-r-1-milhao-que-seria-supostamente-usado-para-compra-de-votos/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "inelegibilidade_vigente",
+          "descricao": "O TRE-AC indeferiu por unanimidade (set/2026) o registro dele ao Senado por inelegibilidade decorrente da condenação pela Corte Especial do STJ; recurso não julgado até esta busca, inelegibilidade segue vigente e não revertida."
+        },
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado pela Corte Especial do STJ (mai/2026) a 25 anos e 9 meses de prisão como líder de organização criminosa na Operação Ptolomeu (fraudes em contratos e desvios de recursos do governo do Acre, prejuízo > R$16 mi). Também alvo da 4ª fase da operação (celular e veículos apreendidos) e de operação em set/2026 que apreendeu R$1 mi ligados a compra de votos."
+        }
+      ]
+    },
+    "10002535804": {
+      "nome_urna": "PETECÃO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 7,
+      "motivo": "Senador (PSD/AC) desde 2011, ex-presidente da Assembleia Legislativa do AC, buscando reeleição.",
+      "fontes": [
+        "https://conjur.com.br/2017-set-19/acusado-corrupcao-petecao-absolvido-falta-provas/",
+        "https://radar.congressoemfoco.com.br/parlamentar/24560/inqueritos"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Denunciado por corrupção eleitoral (compra de votos com obras e vantagens na eleição de 2006); a 1ª Turma do STF o absolveu por falta de provas em set/2017 (AP 880)."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Consta em ação penal por peculato (AP 542) e inquérito de peculato (Inq 3851), ambos remetidos pelo STF à 1ª Vara Criminal de Rio Branco; desfecho/andamento atual NÃO confirmados nesta busca."
+        }
+      ]
+    },
+    "10002548050": {
+      "nome_urna": "MARCIO BITTAR",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Senador (PL/AC) desde 2019, buscando reeleição.",
+      "fontes": [
+        "https://www.jota.info/stf/do-supremo/inquerito-que-investiga-marcio-bittar-por-uso-de-cota-parlamentar-fica-no-stf",
+        "https://ac24horas.com/2026/04/23/urgente-jorge-viana-aciona-stf-e-flavio-dino-investiga-emendas-de-bittar-a-santa-casa-e-obras-de-infraestrutura/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Inquérito no STF sobre uso da cota parlamentar (de quando era deputado federal), mantido no Supremo por foro cruzado; desfecho não confirmado. (Em abr/2026 Dino só intimou ele e o Senado a prestarem esclarecimentos sobre emendas, sem abrir investigação; não contado.)"
+        }
+      ]
+    },
+    "10002544274": {
+      "nome_urna": "EDUARDO VELLOSO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Médico oftalmologista, deputado federal desde 2023 e senador interino em 2022 (Solidariedade, ex-União).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/politica/quem-e-eduardo-velloso-deputado-alvo-da-pf-em-desvio-de-emendas-pix/",
+        "https://ac24horas.com/2026/08/31/eduardo-velloso-nega-envolvimento-em-operacao-da-pf-nada-a-ver-com-isso/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Em ago/2026 a PF fez busca em 2 endereços ligados a ele na apuração de desvio de ~R$1 mi de emendas Pix (shows contratados pela Cultura de Sena Madureira em set/2024); ele nega. Sem denúncia. (Condenação cível a indenizar R$140 mil a familiares de vítima de acidente de jet ski é caso privado, não contado.)"
+        }
+      ]
+    },
+    "10002536441": {
+      "nome_urna": "JORGE VIANA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Ex-governador do AC (1999-2007), ex-senador (2011-2019) e ex-presidente da Apex-Brasil (PT).",
+      "fontes": [
+        "https://acrenews.com.br/presidida-pelo-ex-governador-do-acre-jorge-viana-apex-passa-a-ser-investigada-por-falta-de-transparencia-nos-gastos/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "TCU abriu em jun/2025 auditoria sobre regularidade e transparência dos gastos da Apex-Brasil na Expo 2025 Osaka (pavilhão do Brasil), gestão que ele presidia; sem acusação pessoal. (Posse na Apex anulada em 2023 por juíza e mantida pelo TRF, não contada.)"
+        }
+      ]
+    },
+    "10002533895": {
+      "nome_urna": "MARA ROCHA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Jornalista e ex-deputada federal (2019-2023), 3ª colocada para governador em 2022 (Republicanos). Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "10002536710": {
+      "nome_urna": "DR. JUNIOR FEITOSA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Advogado, nunca eleito, candidato a prefeito de Tarauacá em 2020 (DC). Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "10002544110": {
+      "nome_urna": "PROFESSOR INACIO MOREIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Professor, PSOL, nunca eleito. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "30002549909": {
+      "nome_urna": "RANDOLFE",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Senador (PT/AP) desde 2011, líder do governo no Congresso, buscando o 3º mandato.",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/randolfe-alvo-acao-suposta-campanha-antecipada-amapa/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Alvo de ação por suposta campanha antecipada (adesivação de veículos e distribuição de material no lançamento da pré-candidatura); ele nega irregularidade. (Uma suposta investigação sobre vantagens ligadas ao Banco Master NÃO foi confirmada em fonte: as buscas sobre o caso Master não o citam, não contada.)"
+        }
+      ]
+    },
+    "30002530069": {
+      "nome_urna": "LUCAS BARRETO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Senador (PSD/AP) desde 2019, ex-deputado estadual, base política do ex-prefeito Furlan.",
+      "fontes": [
+        "https://conectamapa.com/lucas-e-citado-em-despacho-do-stf-sobre-proibicao-de-repasse-de-emendas-a-entidades-ligadas-a-suplentes/",
+        "https://www12.senado.leg.br/noticias/materias/2026/05/26/lucas-barreto-ve-seletividade-em-investigacao-de-gastos-publicos-no-amapa",
+        "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/05/pf-apura-uso-de-recursos-publicos-para-a-pratica-de-crimes-eleitorais-em-macapa"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Emenda Pix dele de R$10,7 mi para passarelas em Macapá foi executada por empresa do irmão do seu suplente (CGU vê 'indício de direcionamento' na licitação); citado em despacho do STF sobre emendas a entidades ligadas a suplentes e ligado por reportagem à Operação Paroxismo. Ele não é alvo declarado; a Operação Palanque Digital (mai/2026) mira o ex-prefeito Furlan e ele critica a 'seletividade' da investigação."
+        }
+      ]
+    },
+    "30002550229": {
+      "nome_urna": "CAPI",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Ex-governador do AP (1995-2002) e ex-senador, PSB.",
+      "fontes": [
+        "https://www12.senado.leg.br/noticias/materias/2010/11/19/tre-ap-declara-joao-capiberibe-eleito-ao-senado",
+        "https://en.wikipedia.org/wiki/Jo%C3%A3o_Capiberibe"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "cassacao_de_mandato",
+          "descricao": "Teve o mandato de senador cassado pelo TSE (abr/2004) por compra de votos na eleição de 2002, junto com a esposa (então deputada federal); voltou ao Senado em out/2005 e foi reeleito em 2010. Fato antigo (22 anos)."
+        }
+      ]
+    },
+    "30002551576": {
+      "nome_urna": "ALLINY SERRÃO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Deputada estadual (UNIÃO/AP) desde 2019, presidente da Assembleia Legislativa desde 2023.",
+      "fontes": [
+        "https://www.diariodoamapa.com.br/blogs/paulo-silva/alvo-do-mp/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "O MP-AP ajuizou ação de improbidade contra ela e mais 5 pessoas por uso de verba indenizatória para pagar pesquisas de opinião questionáveis e de interesse pessoal, via empresa de fachada; andamento atual não confirmado."
+        }
+      ]
+    },
+    "30002530071": {
+      "nome_urna": "RAYSSA FURLAN",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Médica, ex-primeira-dama de Macapá, 174 mil votos ao Senado em 2022 (Podemos). Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "30002549911": {
+      "nome_urna": "ACÁCIO FAVACHO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado federal (MDB/AP) desde 2019; candidatura deferida. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "30002551381": {
+      "nome_urna": "PROFESSOR UZIAN PINTO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Fiscal (auditor), DC. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "30002551382": {
+      "nome_urna": "JUÍZA JÔ",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Servidora pública aposentada, DC. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "30002553708": {
+      "nome_urna": "HELIO SILVA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Aposentado, PCO. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "230002553006": {
+      "nome_urna": "TERESA SURITA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 4,
+      "motivo": "Ex-prefeita de Boa Vista (3 gestões) e ex-deputada federal, MDB.",
+      "fontes": [
+        "https://www.mprr.mp.br/noticias/prefeita-de-boa-vista-e-condenada-por-ato-de-improbidade-administrativa",
+        "https://correiodolavrado.com.br/2019/04/11/teresa-surita-e-condenada-a-perda-da-funcao-por-improbidade-administrativa",
+        "https://folhabv.com.br/noticia/ELEIcOES-2022/ELEIcOES-2022/PV-pede-impugnacao-de-registro-de-candidatura-de-Teresa-Surita/89275"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenada por improbidade administrativa em ação do MPRR (fraude em licitações de 2001-2002, contratos direcionados à Diagonal Urbana, empresa ligada ao então cunhado dela): sentença de 2019 com perda da função e suspensão de direitos políticos por 5 anos; segundo impugnação de 2022 (PV), a condenação ao ressarcimento foi mantida por colegiado em grau de recurso. Não achei reversão; ela segue candidata."
+        },
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Outra condenação por improbidade (Justiça Federal, caso FUNASA/prefeitura de Boa Vista, ação de 2005): perda da função e suspensão de direitos políticos por 6 anos (notícia de 2016); andamento recursal atual NÃO confirmado."
+        }
+      ]
+    },
+    "230002550794": {
+      "nome_urna": "CHICO RODRIGUES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 9,
+      "motivo": "Senador (PSB/RR) desde 2019, ex-governador, ex-vice-governador e ex-deputado federal.",
+      "fontes": [
+        "https://www.otempo.com.br/politica/judiciario/2026/2/3/dino-arquiva-caso-de-dinheiro-na-cueca-e-livra-senador-chico-rodrigues-no-stf",
+        "https://www.tribunadosertao.com.br/poder-e-governo/2026/02/03/853350-dino-arquiva-parte-de-investigacoes-contra-senador-flagrado-com-dinheiro-na-cueca"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Alvo da Operação Desvid-19 (2020, desvio de emendas de combate à covid; R$33 mil achados na cueca). O ministro Dino arquivou a investigação no STF em 02/02/2026 a pedido da PGR (sem indício mínimo de crime); parte dos autos foi remetida à 1ª instância."
+        }
+      ]
+    },
+    "230002534806": {
+      "nome_urna": "HELIO FERNANDO BARBOSA LOPES",
+      "cargo_pretendido": "SENADOR",
+      "nota": 8,
+      "motivo": "Deputado federal (PL/RJ) desde 2019, sargento do Exército, transferiu o domicílio para RR; TRE-RR o proibiu de usar 'Bolsonaro' na urna (recurso em análise).",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/vozes/entrelinhas/bolsonaro-quer-helio-lopes-senador-por-roraima-mp-investiga-viagens-com-verba-publica/",
+        "https://jovempan.com.br/colunistas/bruno-pinheiro/indicado-ao-senado-por-roraima-helio-lopes-registra-candidatura-como-helio-bolsonaro/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Em fev/2026 o MPE abriu apuração sobre uso de verba da Câmara (viagens e atividade parlamentar) para viabilizar a troca de domicílio eleitoral e a candidatura em RR; o MPTCU também questionou a conformidade das viagens."
+        }
+      ]
+    },
+    "230002549330": {
+      "nome_urna": "REGINA TIO IVO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 6,
+      "motivo": "Empresária do agronegócio, Novo.",
+      "fontes": [
+        "https://www.folhabv.com.br/politica/moraes-ordena-retirada-de-tornozeleira-de-candidata-ao-senado-em-roraima-em-48h/",
+        "https://www.folhabv.com.br/politica/tre-forma-maioria-para-aprovar-candidatura-de-regina-tio-ivo-apos-troca-de-suplente/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenada pelo STF a 1 ano em regime aberto pela participação nos atos de 8 de janeiro de 2023 (usou tornozeleira; Moraes mandou retirá-la em 48h); segundo a imprensa, fechou acordo de não persecução penal em jul/2026 (proibida de usar redes abertas e obrigada a curso sobre democracia). O TRE-RR aprovou o registro após troca de suplente com dívida eleitoral."
+        }
+      ]
+    },
+    "230002552727": {
+      "nome_urna": "HIPERION DE OLIVEIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 0,
+      "motivo": "Engenheiro eletricista e ex-prefeito de Pacaraima, PV.",
+      "fontes": [
+        "https://www.folhabv.com.br/politica/tre-barra-candidatura-ao-senado-do-ex-prefeito-hiperion-de-oliveira/",
+        "https://roraima1.com.br/ex-prefeito-de-pacaraima-e-condenado-pelo-tce-rr-e-tera-de-devolver-r-42-milhoes/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "inelegibilidade_vigente",
+          "descricao": "O TRE-RR barrou por unanimidade a candidatura (set/2026): condenação definitiva por improbidade (transitada em 2025, ação de 2005 sobre obras/convênio federal) o deixa inelegível até 2032; recurso não julgado nesta busca."
+        },
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenação definitiva por improbidade administrativa (ação civil pública de 2005 sobre inadimplência em convênio federal; obras atrasadas segundo ele por causa da demarcação da Raposa Serra do Sol), trânsito em julgado em 2025. Também condenado pelo TCE-RR a devolver R$4,2 mi (não contado à parte)."
+        }
+      ]
+    },
+    "230002553636": {
+      "nome_urna": "MÁRCIO JUNQUEIRA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 0,
+      "motivo": "Ex-deputado federal (2007-2015), radialista e ex-presidente do Iteraima, PSDB.",
+      "fontes": [
+        "https://roraima1.com.br/tre-rr-rejeita-candidatura-de-marcio-junqueira-ao-senado-nas-eleicoes-de-2026/",
+        "https://www.folhabv.com.br/politica/tre-reprova-candidatura-de-marcio-junqueira-e-de-suplentes-ao-senado/"
+      ],
+      "pesquisado_em": "2026-09-23",
+      "achados": [
+        {
+          "categoria": "inelegibilidade_vigente",
+          "descricao": "O TRE-RR rejeitou por unanimidade a candidatura (set/2026): segundo o MPE ele é inelegível até 2031 por duas condenações definitivas ligadas à campanha de 2014; recurso não julgado nesta busca."
+        },
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenações definitivas por corrupção eleitoral (trânsito em 26/06/2024) e por falsidade ideológica na prestação de contas de 2014 (trânsito em 28/04/2025, pena reduzida). Também foi preso na Lava Jato por suposta obstrução de justiça e condenado por compra de votos."
+        }
+      ]
+    },
+    "230002534804": {
+      "nome_urna": "NICOLETTI",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputado federal (RR) desde 2019, ex-oficial do Exército, advogado e policial rodoviário federal (PL). Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "230002549845": {
+      "nome_urna": "HELENA DA ASATUR",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Deputada federal (PSD/RR) desde 2023, bióloga e advogada. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "230002553010": {
+      "nome_urna": "PASTOR ISAMAR",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Presidente da Assembleia de Deus em RR desde 1998, nunca eleito (União). Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "230002550787": {
+      "nome_urna": "HILTON XAVIER",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Professor do IFRR, consultor ambiental e agricultor (Avante). Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "230002533586": {
+      "nome_urna": "ROGÉRIO MIRANDA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Empresário e radialista, várias candidaturas desde 1990 (DC). Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "230002549360": {
+      "nome_urna": "MARIO ROCHA",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Servidor público aposentado, ex-presidente do PDT, PSOL. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
+    },
+    "230002549361": {
+      "nome_urna": "BARTÔ MACUXI",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Ativista indígena, desenhista, PSOL. Busca rasa (1-2 buscas por candidato): nada encontrado, o que não equivale a atestado de limpeza.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23",
+      "achados": []
     }
   }
 }

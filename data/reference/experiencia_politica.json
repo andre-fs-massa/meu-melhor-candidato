@@ -3205,6 +3205,1924 @@
       ],
       "pesquisado_em": "2026-09-22",
       "notas": "Primeira candidatura, nunca ocupou cargo eletivo."
+    },
+    "250002541308": {
+      "nome_urna": "ANDRÉ DO PRADO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Guararema/SP",
+          "periodo": "a partir de 1992",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "VICE-PREFEITO",
+          "local": "Guararema/SP",
+          "periodo": "não precisado",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "Guararema/SP",
+          "periodo": "não precisado (antes de 2010)",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "SP",
+          "periodo": "2011-2027 (4 mandatos, atual presidente da Alesp)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Presidente da Alesp (2025-2027), maior parlamento estadual da América Latina.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "250002541312": {
+      "nome_urna": "GUILHERME DERRITE",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "SP",
+          "periodo": "2023-atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi Secretário de Segurança Pública de SP (2023-2025), cargo de indicação, não eletivo -- não contado como cargo eletivo.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "250002532794": {
+      "nome_urna": "SALLES",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "SP",
+          "periodo": "2023-atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi Ministro do Meio Ambiente (2019-2021), cargo de indicação, não eletivo -- não contado como cargo eletivo.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "250002551501": {
+      "nome_urna": "MARINA SILVA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Rio Branco/AC",
+          "periodo": "1988-1990",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "AC",
+          "periodo": "1991-1994",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "AC",
+          "periodo": "1995-2011 (2 mandatos, com afastamento em 2003-2008)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi Ministra do Meio Ambiente (2003-2008 e 2023-atual), cargo de indicação, não eletivo -- não contado como cargo eletivo, mas relevante para competência (ver experiência profissional).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "250002551502": {
+      "nome_urna": "SIMONE TEBET",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Três Lagoas/MS",
+          "periodo": "2005-2010",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "MS",
+          "periodo": "2015-2023",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi Ministra do Planejamento e Orçamento (2023-2026), cargo de indicação, não eletivo -- não contado como cargo eletivo.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "250002552369": {
+      "nome_urna": "SONINHA FRANCINE",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "São Paulo/SP",
+          "periodo": "2005-2008 e 2017-2020 (2 mandatos)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi secretária de Direitos Humanos e Cidadania de SP (2022-2025), cargo de indicação, não eletivo -- não contado como cargo eletivo.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "130002554332": {
+      "nome_urna": "AÉCIO NEVES",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "MG",
+          "periodo": "1987-2002 (4 mandatos)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "GOVERNADOR",
+          "local": "MG",
+          "periodo": "2003-2010 (2 mandatos)",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "MG",
+          "periodo": "2011-2019",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi presidente da Câmara dos Deputados (2001-2002).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "130002545590": {
+      "nome_urna": "CARLOS VIANA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "MG",
+          "periodo": "2019-atual (busca reeleição)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Jornalista e professor antes da carreira política.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "130002551786": {
+      "nome_urna": "DOMINGOS SÁVIO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Divinópolis/MG",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "Divinópolis/MG",
+          "periodo": "não precisado",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "MG",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "MG",
+          "periodo": "2011-atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Também presidiu cooperativas e o Sindicato Rural de Divinópolis (experiência profissional, não eletiva).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "130002548381": {
+      "nome_urna": "MARCELO ARO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Belo Horizonte/MG",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "MG",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Jornalista antes da carreira política.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "130002552186": {
+      "nome_urna": "CARLIN MOURA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Contagem/MG",
+          "periodo": "2005-2006",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "MG",
+          "periodo": "2007-2012 (2 mandatos)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "Contagem/MG",
+          "periodo": "2013-2016",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "Advogado; migrou do PCdoB para o Avante ao longo da carreira.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "130002550560": {
+      "nome_urna": "MARÍLIA CAMPOS",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Contagem/MG",
+          "periodo": "2013-2016 e 2021-2026 (4 mandatos no total, incl. anteriores)",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "MG",
+          "periodo": "atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Terceiro município mais populoso de MG (Contagem).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "130002550557": {
+      "nome_urna": "ÁUREA CAROLINA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Belo Horizonte/MG",
+          "periodo": "2017-2018",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "MG",
+          "periodo": "2019-2022",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Concorreu à prefeitura de BH em 2020, não eleita.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "190002548141": {
+      "nome_urna": "BENEDITA DA SILVA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Rio de Janeiro/RJ",
+          "periodo": "1983-1986",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RJ",
+          "periodo": "1987-1994",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "RJ",
+          "periodo": "1995-2003",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "VICE-GOVERNADOR",
+          "local": "RJ",
+          "periodo": "2003-2006 (e governadora interina em 2002)",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RJ",
+          "periodo": "2007-atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Primeira mulher negra eleita ao Senado do Brasil (1994); também foi governadora interina do RJ em 2002.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "190002542888": {
+      "nome_urna": "CARLOS JORDY",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RJ",
+          "periodo": "2019-atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "190002535142": {
+      "nome_urna": "CARLOS PORTINHO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "RJ",
+          "periodo": "2019-atual (busca reeleição)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Engenheiro.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "190002550184": {
+      "nome_urna": "MARCELO CRIVELLA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "RJ",
+          "periodo": "2003-2011 (2 mandatos)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "Rio de Janeiro/RJ",
+          "periodo": "2017-2020",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "Também foi Ministro da Pesca e Aquicultura (cargo de indicação, não eletivo).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "190002548145": {
+      "nome_urna": "PEDRO PAULO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RJ",
+          "periodo": "2011-atual (4 mandatos)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Economista.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "190002536164": {
+      "nome_urna": "MONICA BENICIO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Rio de Janeiro/RJ",
+          "periodo": "atual (2º mandato)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Arquiteta e urbanista.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "190002550182": {
+      "nome_urna": "WAGUINHO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Belford Roxo/RJ",
+          "periodo": "múltiplos mandatos (não precisado)",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "Presidente estadual do Republicanos-RJ.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "50002533124": {
+      "nome_urna": "ANGELO CORONEL",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "BA",
+          "periodo": "não precisado (foi presidente da Alesp)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "BA",
+          "periodo": "2019-atual (busca reeleição)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "50002536317": {
+      "nome_urna": "JAQUES WAGNER",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "BA",
+          "periodo": "2007-2015 (2 mandatos)",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "BA",
+          "periodo": "2019-atual (busca reeleição)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Também foi Ministro da Defesa e Ministro-Chefe da Casa Civil (governo Dilma), cargos de indicação, não eletivos.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "50002533123": {
+      "nome_urna": "JOÃO ROMA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "BA",
+          "periodo": "2019-atual (eleito em 2018)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi Ministro da Cidadania (2021-2022, cargo de indicação, não eletivo). Candidatura a deputado estadual em 1998 não resultou em eleição.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "50002536321": {
+      "nome_urna": "RUI COSTA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Salvador/BA",
+          "periodo": "2001-2010 (eleito 2000, reeleito 2004)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "BA",
+          "periodo": "2011-2012 (renunciou para assumir a Casa Civil estadual)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "GOVERNADOR",
+          "local": "BA",
+          "periodo": "2015-2023 (2 mandatos)",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "Foi Ministro-Chefe da Casa Civil da Presidência (2023-2026, cargo de indicação, não eletivo).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "160002547963": {
+      "nome_urna": "ALEXANDRE CURI",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "PR",
+          "periodo": "não precisado (1º secretário 2007-2010; presidente da Alep 2025-2026)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "160002547658": {
+      "nome_urna": "DR ROSINHA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Curitiba/PR",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "PR",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "PR",
+          "periodo": "não precisado (várias legislaturas)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Médico pediatra; um dos fundadores do PT.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "160002547660": {
+      "nome_urna": "FILIPE BARROS",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "PR",
+          "periodo": "não precisado (atual)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Preside a Comissão de Relações Exteriores da Câmara.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "160002547656": {
+      "nome_urna": "GLEISI",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "PR",
+          "periodo": "não precisado (várias legislaturas, atual)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi Ministra da Casa Civil (governo Dilma) e Ministra de Relações Institucionais (2025-2026); ambos cargos de indicação, não eletivos. Ex-presidente nacional do PT.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "210002543865": {
+      "nome_urna": "FREDERICO ANTUNES",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "RS",
+          "periodo": "7 mandatos consecutivos (atual)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Líder do governo de Eduardo Leite na Assembleia.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "210002533581": {
+      "nome_urna": "MANUELA D ÁVILA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Porto Alegre/RS",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "RS",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RS",
+          "periodo": "não precisado (2 mandatos)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Candidata a vice-presidente da República em 2018 (chapa de Fernando Haddad).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "210002547819": {
+      "nome_urna": "MARCEL VAN HATTEM",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RS",
+          "periodo": "não precisado (atual)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "210002533584": {
+      "nome_urna": "PIMENTA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RS",
+          "periodo": "não precisado (várias legislaturas, atual)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi Ministro-Chefe da Secom (2023-2025, cargo de indicação, não eletivo).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "210002543863": {
+      "nome_urna": "RIGOTTO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "RS",
+          "periodo": "2003-2007",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "210002547816": {
+      "nome_urna": "SANDERSON",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RS",
+          "periodo": "2019-atual (2 mandatos)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Policial federal licenciado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "170002552102": {
+      "nome_urna": "EDUARDO DA FONTE",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "PE",
+          "periodo": "2007-atual (6 mandatos)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "170002547773": {
+      "nome_urna": "HUMBERTO COSTA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "PE",
+          "periodo": "2011-atual (2 mandatos, busca o 3º)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi Ministro da Saúde (governo Lula 1, 2003-2005, cargo de indicação, não eletivo).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "170002547771": {
+      "nome_urna": "MARÍLIA ARRAES",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Recife/PE",
+          "periodo": "2014-2017",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "PE",
+          "periodo": "não precisado (atual)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Neta de Miguel Arraes (ex-governador de PE).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "170002539456": {
+      "nome_urna": "MENDONÇA FILHO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "PE",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "PE",
+          "periodo": "não precisado (várias legislaturas)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "VICE-GOVERNADOR",
+          "local": "PE",
+          "periodo": "não precisado",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "GOVERNADOR",
+          "local": "PE",
+          "periodo": "não precisado",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "Foi Ministro da Educação (governo Temer, 2016-2018, cargo de indicação, não eletivo).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "170002549655": {
+      "nome_urna": "PAULO RUBEM SANTIAGO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Recife/PE",
+          "periodo": "não precisado (décadas de 1990-2000)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "PE",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "PE",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Um dos fundadores do PT nos anos 1980.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "170002552097": {
+      "nome_urna": "TÚLIO GADÊLHA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "PE",
+          "periodo": "2019-atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Jornalista.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "60002540753": {
+      "nome_urna": "CAPITÃO WAGNER",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "CE",
+          "periodo": "2019-2023",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Policial militar da reserva.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "60002542479": {
+      "nome_urna": "CID GOMES",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Sobral/CE",
+          "periodo": "não precisado",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "GOVERNADOR",
+          "local": "CE",
+          "periodo": "2007-2015 (2 mandatos)",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "CE",
+          "periodo": "não precisado (busca reeleição)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi Ministro da Educação e Ministro da Ciência, Tecnologia e Inovação (governo Dilma, cargos de indicação, não eletivos).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "60002542476": {
+      "nome_urna": "LUIZIANNE",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Fortaleza/CE",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "CE",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "Fortaleza/CE",
+          "periodo": "2005-2012 (2 mandatos)",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "CE",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "140002538404": {
+      "nome_urna": "CELSO SABINO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "PA",
+          "periodo": "não precisado (vários mandatos)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi relator da Reforma Tributária na Câmara.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "140002550780": {
+      "nome_urna": "CHICÃO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "PA",
+          "periodo": "5 mandatos consecutivos (atual), presidente da Alepa",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "140002544855": {
+      "nome_urna": "DELEGADO ÉDER MAURO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "PA",
+          "periodo": "2015-atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Ex-delegado da Polícia Civil do Pará.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "140002550779": {
+      "nome_urna": "HELDER",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "PA",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "GOVERNADOR",
+          "local": "PA",
+          "periodo": "2019-2026 (renunciou para concorrer ao Senado)",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "Foi Ministro da Integração Nacional (governo Dilma, cargo de indicação, não eletivo).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "140002542691": {
+      "nome_urna": "ZEQUINHA MARINHO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "PA",
+          "periodo": "2019-atual (busca reeleição)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "240002541935": {
+      "nome_urna": "CARLOS BOLSONARO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Rio de Janeiro/RJ",
+          "periodo": "2001-2025 (6 mandatos)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Renunciou ao mandato de vereador do Rio em 2025 e transferiu o domicílio eleitoral para SC.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "240002541931": {
+      "nome_urna": "CAROL DE TONI",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "SC",
+          "periodo": "não precisado (atual)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "240002548632": {
+      "nome_urna": "ESPERIDIÃO AMIN",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Florianópolis/SC",
+          "periodo": "não precisado",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "SC",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "GOVERNADOR",
+          "local": "SC",
+          "periodo": "não precisado (2 mandatos)",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "SC",
+          "periodo": "não precisado (busca reeleição)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "90002545243": {
+      "nome_urna": "ERNESTO ROLLER",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "GO",
+          "periodo": "2003-2016",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "Formosa/GO",
+          "periodo": "2017-2019",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "Foi secretário estadual de Segurança Pública (2007-2010) e de Relações Institucionais (2019-2023), cargos de indicação, não eletivos.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "90002540998": {
+      "nome_urna": "GUSTAVO MENDANHA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "VEREADOR",
+          "local": "Aparecida de Goiânia/GO",
+          "periodo": "não precisado",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "VICE-PREFEITO",
+          "local": "Aparecida de Goiânia/GO",
+          "periodo": "não precisado",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "Aparecida de Goiânia/GO",
+          "periodo": "2017-2022 (2 mandatos)",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "90002543556": {
+      "nome_urna": "GUSTAVO GAYER",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "GO",
+          "periodo": "2023-atual (eleito em 2022)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Empresário no ramo educacional antes da política.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "90002543215": {
+      "nome_urna": "VANDERLAN CARDOSO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "GO",
+          "periodo": "2019-atual (busca reeleição)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [],
+      "pesquisado_em": "2026-09-23"
+    },
+    "270002546333": {
+      "nome_urna": "EDUARDO GOMES",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "TO",
+          "periodo": "2019-atual (busca reeleição)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "TO",
+          "periodo": "2003-2015",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "VEREADOR",
+          "local": "Palmas/TO",
+          "periodo": "1997-2003",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "1º vice-presidente do Senado desde 2025.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Carlos_Eduardo_Torres_Gomes"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "270002548231": {
+      "nome_urna": "GAGUIM",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "TO",
+          "periodo": "2009-2010",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "TO",
+          "periodo": "2015-atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Carlos_Gaguim"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "270002548409": {
+      "nome_urna": "ELI BORGES",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "TO",
+          "periodo": "2019-atual",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "TO",
+          "periodo": "2003-2019",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "VEREADOR",
+          "local": "Palmas/TO",
+          "periodo": "1997-2003",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Líder da bancada evangélica no Congresso desde 2024.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Eli_Borges"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "270002548344": {
+      "nome_urna": "ALEXANDRE GUIMARÃES",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "TO",
+          "periodo": "2023-atual",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "VICE-PREFEITO",
+          "local": "Novo Repartimento/PA",
+          "periodo": "2017-2020",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Alexandre_Guimar%C3%A3es_(politician)"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "270002544629": {
+      "nome_urna": "PAULO MOURÃO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "TO",
+          "periodo": "1989-2003",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "Porto Nacional/TO",
+          "periodo": "2005-2009",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "TO",
+          "periodo": "2015-2019",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Perdeu as disputas ao Senado em 2010 e 2018 e a reeleição para prefeito em 2012.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Paulo_Mour%C3%A3o"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "270002546038": {
+      "nome_urna": "RONALDO DIMAS",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Araguaína/TO",
+          "periodo": "2013-2021 (2 mandatos)",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "TO",
+          "periodo": "2003-2007",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Também presidiu a FIETO (1997-2003) e foi secretário estadual de Cidades (2011-2012), cargos não eletivos.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Ronaldo_Dimas"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "100002549583": {
+      "nome_urna": "ROSEANA SARNEY",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "MA",
+          "periodo": "1995-2002 e 2009-2014",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "MA",
+          "periodo": "2003-2009",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "MA",
+          "periodo": "1991-1994 e 2023-atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Ex-governadora por 4 mandatos; voltou ao estado em fev/2026 após 7 meses de tratamento de câncer.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Roseana_Sarney"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "100002537338": {
+      "nome_urna": "WEVERTON ROCHA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "MA",
+          "periodo": "2019-atual (busca reeleição)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "MA",
+          "periodo": "2011-2019",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi secretário estadual de Esporte do MA (cargo não eletivo).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Weverton_Rocha"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "100002542867": {
+      "nome_urna": "FUFUCA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "MA",
+          "periodo": "2015-atual",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "MA",
+          "periodo": "2011-2015",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Ministro do Esporte (2023-2026, cargo não eletivo); deixou a pasta em abr/2026 para disputar o Senado.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Andr%C3%A9_Fufuca"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "100002541459": {
+      "nome_urna": "ELIZIANE GAMA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "MA",
+          "periodo": "2019-atual (busca reeleição)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "MA",
+          "periodo": "2015-2018",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "MA",
+          "periodo": "2007-2014",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Relatora da CPMI do 8 de janeiro (2023).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Eliziane_Gama"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "100002548011": {
+      "nome_urna": "LAHESIO BONFIM",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "São Pedro dos Crentes/MA",
+          "periodo": "2017-2022 (renunciou p/ disputar governo)",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "2º mais votado para governador em 2022 (24,87%).",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Lahesio_Bonfim"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "100002550418": {
+      "nome_urna": "DR.HILTON GONÇALO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Santa Rita/MA",
+          "periodo": "4 mandatos eleitos (2004, 2008, 2016, 2020)",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://www.omaranhense.com.br/2026/04/defesa-de-hilton-goncalo-diz-que-houve.html"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "100002553336": {
+      "nome_urna": "SIMPLÍCIO ARAÚJO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "MA",
+          "periodo": "2011-2015",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Simpl%C3%ADcio_Ara%C3%BAjo"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "10002548046": {
+      "nome_urna": "GLADSON CAMELÍ",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "AC",
+          "periodo": "2019-2026",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "AC",
+          "periodo": "2015-2019",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "AC",
+          "periodo": "2007-2015",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Gladson_Cameli"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "10002535804": {
+      "nome_urna": "PETECÃO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "AC",
+          "periodo": "2011-atual (busca reeleição)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "AC",
+          "periodo": "2007-2011",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "AC",
+          "periodo": "1995-2007 (presidiu a Assembleia 1999-2007)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/S%C3%A9rgio_Petec%C3%A3o"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "10002548050": {
+      "nome_urna": "MARCIO BITTAR",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "AC",
+          "periodo": "2019-atual (busca reeleição)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "AC",
+          "periodo": "1999-2003 e 2011-2019",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "AC",
+          "periodo": "1995-1999",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/M%C3%A1rcio_Bittar"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "10002544274": {
+      "nome_urna": "EDUARDO VELLOSO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "AC",
+          "periodo": "2023-atual",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "AC",
+          "periodo": "mai-out/2022 (suplente em exercício)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Eduardo_Velloso"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "10002536441": {
+      "nome_urna": "JORGE VIANA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "AC",
+          "periodo": "1999-2007",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "AC",
+          "periodo": "2011-2019",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "PREFEITO",
+          "local": "Rio Branco/AC",
+          "periodo": "1993-1996",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "Presidiu a Apex-Brasil de 2023 a 2026 (cargo não eletivo).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Jorge_Viana"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "10002533895": {
+      "nome_urna": "MARA ROCHA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "AC",
+          "periodo": "2019-2023",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Renunciou ao mandato em 2023 após disputar o governo em 2022.",
+      "fontes": [
+        "https://jovempan.com.br/politica/mara-rocha-mira-senado-apos-eleicao-para-a-camara-e-disputa-pelo-governo/"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "30002549909": {
+      "nome_urna": "RANDOLFE",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "AP",
+          "periodo": "2011-atual (busca o 3º mandato)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "AP",
+          "periodo": "1999-2007",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Líder do governo no Congresso desde 2023.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Randolfe_Rodrigues"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "30002530069": {
+      "nome_urna": "LUCAS BARRETO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "AP",
+          "periodo": "2019-atual (busca reeleição)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "AP",
+          "periodo": "1991-2006",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Lucas_Barreto"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "30002550229": {
+      "nome_urna": "CAPI",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "GOVERNADOR",
+          "local": "AP",
+          "periodo": "1995-2002",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "AP",
+          "periodo": "2003-2004, 2005-2010 e 2011-2019",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Jo%C3%A3o_Capiberibe"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "30002551576": {
+      "nome_urna": "ALLINY SERRÃO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "AP",
+          "periodo": "2019-atual (presidente da Assembleia desde 2023)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "VEREADOR",
+          "local": "Laranjal do Jari/AP",
+          "periodo": "antes de 2019",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://www.diariodoamapa.com.br/cadernos/politica/alliny-serrao-preside-assembleia-legislativa-pela-segunda-vez-consecutiva/"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "30002549911": {
+      "nome_urna": "ACÁCIO FAVACHO",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "AP",
+          "periodo": "2019-atual (2 mandatos)",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Ac%C3%A1cio_Favacho"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "230002553006": {
+      "nome_urna": "TERESA SURITA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Boa Vista/RR",
+          "periodo": "1993-1997, 2001-2006 e 2013-2020",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RR",
+          "periodo": "1991-1993 e 2011-2013",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi secretária nacional de Políticas Urbanas do Ministério das Cidades (2009-2010, cargo não eletivo).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Teresa_Surita"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "230002550794": {
+      "nome_urna": "CHICO RODRIGUES",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "SENADOR",
+          "local": "RR",
+          "periodo": "2019-atual (busca reeleição)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "GOVERNADOR",
+          "local": "RR",
+          "periodo": "2014-2015",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RR",
+          "periodo": "1991-2011",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "VEREADOR",
+          "local": "Boa Vista/RR",
+          "periodo": "1989-1991",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Foi vice-governador de RR (2011-2014).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Chico_Rodrigues"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "230002534806": {
+      "nome_urna": "HELIO FERNANDO BARBOSA LOPES",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RJ",
+          "periodo": "2019-atual",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "VEREADOR",
+          "local": "Nova Iguaçu/RJ",
+          "periodo": "2017-2019",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "Sargento do Exército (1992-2019); deputado federal mais votado do RJ em 2018.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/H%C3%A9lio_Fernando_Barbosa_Lopes"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "230002534804": {
+      "nome_urna": "NICOLETTI",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RR",
+          "periodo": "2019-atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Nicoletti_(politician)"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "230002549845": {
+      "nome_urna": "HELENA DA ASATUR",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RR",
+          "periodo": "2023-atual",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Helena_da_Asatur"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "230002553636": {
+      "nome_urna": "MÁRCIO JUNQUEIRA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "RR",
+          "periodo": "2007-2015",
+          "tipo": "legislativo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://www.hermesvissotto.com/post/tre-rr-reprova-por-unanimidade-candidatura-de-m%C3%A1rcio-junqueira-ao-senado"
+      ],
+      "pesquisado_em": "2026-09-23"
+    },
+    "230002552727": {
+      "nome_urna": "HIPERION DE OLIVEIRA",
+      "cargo_pretendido": "SENADOR",
+      "teve_cargo_eletivo": true,
+      "cargos_anteriores": [
+        {
+          "cargo": "PREFEITO",
+          "local": "Pacaraima/RR",
+          "periodo": "não precisado",
+          "tipo": "executivo"
+        }
+      ],
+      "notas": "",
+      "fontes": [
+        "https://www.folhabv.com.br/politica/tre-barra-candidatura-ao-senado-do-ex-prefeito-hiperion-de-oliveira/"
+      ],
+      "pesquisado_em": "2026-09-23"
     }
   }
 }

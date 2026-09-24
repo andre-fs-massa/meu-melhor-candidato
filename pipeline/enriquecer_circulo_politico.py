@@ -25,6 +25,7 @@ OUTPUT_CSV = INPUT_PATH.with_suffix(".csv")
 # Tipos de ligação entre um apoiador e o candidato (ver "_leiame" do JSON).
 ROTULO_LIGACAO = {
     "vice_de_chapa": "vice na chapa",
+    "suplente_de_chapa": "suplente na chapa",  # 2026-09-23: Senador não tem vice, tem 1º/2º suplente
     "presidente_do_partido_do_candidato": "presidente do partido do candidato",
     "presidente_de_partido_aliado": "presidente de partido aliado (coligação)",
     "padrinho_politico": "padrinho político (escolheu/controla/financia a candidatura)",

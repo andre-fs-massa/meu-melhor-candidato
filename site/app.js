@@ -420,7 +420,7 @@
      `Empates na última vaga de um quadrante são resolvidos por sorteio, nunca por ordem alfabética.`,
      `Se você não sabe seu quadrante, 2 perguntas simples indicam uma posição provável, guardada só no seu navegador. Se nenhum candidato do seu quadrante (ou do vizinho) continuar na disputa, mostramos o mais próximo da sua posição entre os demais.`].forEach(t => m.append(el("li", null, t)));
     const lim = $("limites"); lim.textContent = "";
-    [`Cobertura desigual: hoje só há verificação completa para Presidente e para Governador em alguns estados. Senador e deputados entram conforme a pesquisa avançar.`,
+    [`Cobertura desigual: há verificação para Presidente, Governador e Senador em todos os estados. Deputados entram conforme a pesquisa avançar. A pesquisa de Senador foi feita com busca mais rápida (1 a 2 buscas por candidato), então nota 10 vale como "nada encontrado", não como atestado.`,
      `A posição de quem não teve pesquisa individual é a do partido (indicado ao passar o mouse ou focar o ponto no diagrama). Quem está perto do centro pode pertencer ao quadrante vizinho.`,
      `"Competência" mede formação e experiência declaradas, e favorece quem tem carreira eletiva ou diploma superior — não mede a qualidade do plano de governo.`,
      `O questionário de 2 perguntas ainda não foi calibrado nem testado com eleitores; uma pergunta por eixo é pouco, e respostas de meio-termo ficam "perto do centro". Ajuste sua posição manualmente se o resultado não parecer com você.`,
