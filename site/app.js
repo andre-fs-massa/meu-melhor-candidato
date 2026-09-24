@@ -355,22 +355,52 @@
       }
       camada.append(gv); posicoes.push(pv);
     }
+    // Nomes no diagrama: cada nome é colocado na melhor posição livre em volta do ponto, sem cobrir os pontos dos outros
+    // candidatos nem os nomes já colocados. Se precisar ficar longe (vários candidatos podem estar no MESMO ponto, porque
+    // a posição vem do partido), uma linha fina liga o nome ao ponto. Sempre dentro da área do gráfico.
+    const ocupados = [];  // caixas [x, y, largura, altura] dos nomes já colocados
+    const pontosDistintos = [...new Map(posicoes.map(q => [Math.round(q.x) + "," + Math.round(q.y), q])).values()];
+    const medir = (texto) => {
+      const t = sv("text", {class: "rot", x: 0, y: 0, opacity: 0}); t.textContent = texto; svg.append(t);
+      let w = 0; try { w = t.getComputedTextLength(); } catch (e) { /* sem layout (ex.: teste sem navegador) */ }
+      t.remove(); return w > 0 ? w : texto.length * 7.4;
+    };
     const rotular = (o, texto) => {
-      const {x, y} = o, larg = texto.length * 7.4 + 6;
-      const opcoes = [
-        {tx: x + 13, ty: y + 4, anchor: "start", box: [x + 11, y - 10, larg, 20]},
-        {tx: x - 13, ty: y + 4, anchor: "end", box: [x - 11 - larg, y - 10, larg, 20]},
-        {tx: x, ty: y - 15, anchor: "middle", box: [x - larg / 2, y - 30, larg, 20]},
-        {tx: x, ty: y + 27, anchor: "middle", box: [x - larg / 2, y + 12, larg, 20]},
-      ];
-      const livre = (b) => b[0] >= ml && b[0] + b[2] <= ml + pw && b[1] >= mt && b[1] + b[3] <= mt + ph &&
-        !posicoes.some(q => q !== o && q.x > b[0] - 8 && q.x < b[0] + b[2] + 8 && q.y > b[1] - 8 && q.y < b[1] + b[3] + 8);
-      const e = opcoes.find(op => livre(op.box)) || opcoes[0];
-      const t = sv("text", {x: e.tx, y: e.ty, "text-anchor": e.anchor, class: "rot", stroke: "var(--surface)", "stroke-width": 3, "paint-order": "stroke"});
+      const larg = medir(texto) + 8, alt = 18, ML = ml + 2, MR = ml + pw - 2, MT = mt + 2, MB = mt + ph - 2;
+      const opcoes = [];
+      [15, 30, 48, 68, 92, 120].forEach(raio => {
+        for (let a = 0; a < 360; a += 30) {  // 0 = direita; 90 = abaixo (o eixo y do SVG cresce para baixo)
+          const cs = Math.cos(a * Math.PI / 180), sn = Math.sin(a * Math.PI / 180), cx = o.x + cs * raio, cy = o.y + sn * raio;
+          const bx = cs > .35 ? cx : cs < -.35 ? cx - larg : cx - larg / 2, by = sn > .35 ? cy : sn < -.35 ? cy - alt : cy - alt / 2;
+          opcoes.push({bx, by, raio});
+        }
+      });
+      const cortes = (b1, b2, folga) => b1[0] < b2[0] + b2[2] + folga && b1[0] + b1[2] > b2[0] - folga && b1[1] < b2[1] + b2[3] + folga && b1[1] + b1[3] > b2[1] - folga;
+      const avaliar = (op) => {
+        const box = [op.bx, op.by, larg, alt];
+        let custo = op.raio;
+        if (box[0] < ML || box[0] + larg > MR || box[1] < MT || box[1] + alt > MB) custo += 5000;          // fora do gráfico
+        ocupados.forEach(b => { if (cortes(box, b, 3)) custo += 2000; });                                    // em cima de outro nome
+        pontosDistintos.forEach(q => {
+          if (Math.abs(q.x - o.x) < 1 && Math.abs(q.y - o.y) < 1) { if (cortes(box, [o.x - 9, o.y - 9, 18, 18], 0)) custo += 3000; return; }  // cobre o próprio ponto
+          if (cortes(box, [q.x - 7, q.y - 7, 14, 14], 1)) custo += 60;                                        // cobre o ponto de outro candidato
+        });
+        return {custo, box};
+      };
+      const melhor = opcoes.map(avaliar).sort((a, b) => a.custo - b.custo)[0];
+      const [bx, by] = melhor.box;
+      ocupados.push(melhor.box);
+      const px = Math.min(Math.max(o.x, bx), bx + larg), py = Math.min(Math.max(o.y, by), by + alt);
+      const dist = Math.hypot(px - o.x, py - o.y);
+      if (dist > 12) {  // nome longe do ponto: linha fina até a borda do nome, partindo da borda do ponto
+        const k = 9 / dist;
+        camada.append(sv("line", {x1: o.x + (px - o.x) * k, y1: o.y + (py - o.y) * k, x2: px, y2: py, stroke: "var(--muted)", "stroke-width": 1}));
+      }
+      const t = sv("text", {x: bx + 4, y: by + alt - 5, "text-anchor": "start", class: "rot", stroke: "var(--surface)", "stroke-width": 3, "paint-order": "stroke"});
       t.textContent = texto; camada.append(t);
     };
-    posicoes.filter(o => o.c.situacao === "recomendado").forEach(o => rotular(o, tc(o.c.nome_urna)));
     if (pv) rotular(pv, "Você");
+    posicoes.filter(o => o.c.situacao === "recomendado").sort((a, b) => a.y - b.y || a.x - b.x).forEach(o => rotular(o, tc(o.c.nome_urna)));
     let ativo = null;
     const limpar = () => { if (ativo) ativo.classList.remove("ativo"); ativo = null; dica.hidden = true; };
     svg.onpointermove = (ev) => {
