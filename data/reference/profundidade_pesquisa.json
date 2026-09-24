@@ -1,0 +1,24 @@
+{
+  "_leiame": "Nível de profundidade da PESQUISA MANUAL (busca na internet) de cada candidato, definido por grupo cargo/UF conforme a sessão em que foi pesquisado (ver memória de retomada do projeto). Não mede a qualidade do candidato: mede o quanto se procurou. A conferência automática em bases oficiais (TCU, TSE, CEIS, CNEP, CEAF, Ibama) é independente e vem de pipeline/cruzar_bases_oficiais.py. Regras avaliadas em ordem; vale a primeira que casar. 'excecoes' (sq_candidato -> nível) tem precedência sobre as regras.",
+  "niveis": {
+    "aprofundada": {
+      "rotulo": "Pesquisa aprofundada",
+      "descricao": "Várias buscas por candidato, reconferência dos achados e dos vices, e revisão das notas mais baixas."
+    },
+    "padrao": {
+      "rotulo": "Pesquisa padrão",
+      "descricao": "Várias buscas por candidato na internet, com reconferência dos achados mais graves."
+    },
+    "rapida": {
+      "rotulo": "Pesquisa rápida",
+      "descricao": "1 a 2 buscas na internet por candidato. Nota 10 significa apenas \"nada encontrado\"; não é atestado de que não haja pendência."
+    }
+  },
+  "regras": [
+    {"cargo": "PRESIDENTE", "nivel": "aprofundada"},
+    {"cargo": "GOVERNADOR", "ufs": ["SP", "MG", "RJ", "PI", "RN", "AL", "MS", "BA", "PR", "RS", "PE", "CE", "PA", "MA"], "nivel": "padrao"},
+    {"cargo": "GOVERNADOR", "nivel": "rapida"},
+    {"cargo": "SENADOR", "nivel": "rapida"}
+  ],
+  "excecoes": {}
+}

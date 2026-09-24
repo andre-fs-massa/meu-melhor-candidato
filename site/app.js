@@ -140,6 +140,47 @@
   }
   function ufAtual(cargo) { return cargo === "PRESIDENTE" ? "BR" : $("uf").value; }
 
+  // ---------- profundidade da pesquisa e conferência em bases oficiais ----------
+  const BASE_INFO = Object.fromEntries((DADOS.bases_oficiais || []).map(b => [b.id, b]));
+  const dataBr = iso => iso.split("-").reverse().join("/");
+  function verif(c) {
+    const v = c.verificacao || { nivel: "rapida", bases: [] };
+    const niv = DADOS.profundidade[v.nivel];
+    const consultadas = v.bases.filter(b => b.resultado !== "nao_se_aplica");
+    return { v, niv, nivel: v.nivel, curto: niv.rotulo.replace("Pesquisa ", "").toLowerCase(), consultadas: consultadas.length,
+             comRegistro: consultadas.filter(b => b.resultado === "consta" || b.resultado === "a_confirmar").length };
+  }
+  function blocoVerificacao(c) {
+    const { v, niv, consultadas, comRegistro } = verif(c);
+    const box = el("div", "verif");
+    box.append(el("h4", null, "Profundidade da pesquisa"));
+    const p = el("p"); p.append(el("strong", null, niv.rotulo + ". "), document.createTextNode(niv.descricao + " "));
+    const fontes = c.fontes.filter(f => /^https?:\/\//.test(f)).length;
+    p.append(document.createTextNode(fontes ? `${fontes} ${fontes === 1 ? "fonte citada" : "fontes citadas"} para esta nota.` : "Nenhuma fonte citada: nada foi encontrado na busca."));
+    box.append(p);
+    if (!v.bases.length) return box;
+    box.append(el("h4", null, "Conferência em bases oficiais"));
+    box.append(el("p", "nota", comRegistro ? `${consultadas} bases consultadas por CPF; ${comRegistro} com registro (detalhado abaixo).` : `${consultadas} bases consultadas por CPF, nenhum registro encontrado.`));
+    const ul = el("ul", "bases");
+    v.bases.forEach(b => {
+      const info = BASE_INFO[b.id]; const li = el("li", "base " + b.resultado);
+      const icone = { nada_consta: "✓", consta: "●", a_confirmar: "?", nao_se_aplica: "–" }[b.resultado];
+      const txt = { nada_consta: "nada consta", consta: "há registro", a_confirmar: "possível correspondência, a confirmar", nao_se_aplica: b.id === "tse_2022" ? "não se aplica (sem candidatura em 2022)" : "não se aplica" }[b.resultado];
+      li.append(el("span", "ico", icone), document.createTextNode(` ${info.rotulo} — ${txt} `), el("span", "data", `(arquivo de ${dataBr(info.data)})`));
+      if (b.itens && b.itens.length) {
+        const sub = el("ul", "itens");
+        b.itens.forEach(t => sub.append(el("li", null, t)));
+        if (b.n > b.itens.length) sub.append(el("li", null, `… e mais ${b.n - b.itens.length}.`));
+        if (b.ref && /^https?:\/\//.test(b.ref)) { const li2 = el("li"), a = el("a", null, "ver fonte"); a.href = b.ref; a.target = "_blank"; a.rel = "noopener noreferrer"; li2.append(a); sub.append(li2); }
+        li.append(sub);
+      }
+      ul.append(li);
+    });
+    box.append(ul);
+    box.append(el("p", "nota", "Conferência automática por CPF e nome. \"Nada consta\" vale só para o que cada base cobre e não é atestado; um registro aqui não altera a nota por si só, a nota usa os achados verificados na pesquisa."));
+    return box;
+  }
+
   // ---------- explicação/fontes de um candidato ----------
   function detalhe(c) {
     const d = el("div", "detalhe");
@@ -149,7 +190,10 @@
       const ul = el("ul");
       c.achados.forEach(a => { const li = el("li"); li.append(el("span", "peso", "−" + a.peso + " "), document.createTextNode(a.rotulo + ": " + a.descricao)); ul.append(li); });
       d.append(ul);
-    } else d.append(el("p", null, "Nenhum achado verificado. A nota 10 reflete só o que a busca encontrou, não garante que não haja pendência."));
+    } else {
+      const { v, niv, consultadas, comRegistro } = verif(c);
+      d.append(el("p", null, `Nenhum achado verificado na ${niv.rotulo.toLowerCase()}` + (consultadas && !comRegistro ? ` nem nas ${consultadas} bases oficiais conferidas.` : ".") + " A nota 10 reflete só o que se encontrou, não garante que não haja pendência."));
+    }
     d.append(el("h4", null, "Apoiadores e o tipo de ligação"));
     if (c.apoiadores.length) {
       const ul = el("ul");
@@ -162,6 +206,7 @@
       d.append(ul);
     } else d.append(el("p", null, "Vice ainda não pesquisado."));
     if (c.apoiadores.some(a => a.desconto)) d.append(el("p", "nota", "Os descontos dos presidentes de partidos aliados somam no máximo −4 por chapa."));
+    d.append(blocoVerificacao(c));
     d.append(el("h4", null, "Cobertura da pesquisa"));
     d.append(el("p", null, `${c.camadas} de 5 camadas: ${c.cobertura}.`));
     if (c.fontes.length) {
@@ -182,6 +227,8 @@
     const st = el("div", "stats");
     [[fmt(c.qualificacao_geral), "qualificação geral"], [fmt(c.idoneidade_geral), "idoneidade geral"], [fmt(c.competencia_geral), "competência geral"]].forEach(([v, l]) => { const d = el("div"); d.append(el("b", null, v), el("span", null, l)); st.append(d); });
     b.append(st);
+    const vf = verif(c);
+    b.append(el("p", "selo " + vf.nivel, `${vf.niv.rotulo}` + (vf.consultadas ? ` · ${vf.consultadas} bases oficiais conferidas` + (vf.comRegistro ? `, ${vf.comRegistro} com registro` : "") : "")));
     b.append(el("p", "nota", `Posição: economia ${fmt(c.eco)} · costumes ${fmt(c.pes)} (${c.posicao_fonte}). ${c.camadas} de 5 camadas pesquisadas.`));
     if (c.fronteira) b.append(el("p", "nota", "Está perto do centro do diagrama: pode se identificar também com a posição vizinha."));
     if (c.empate > 1) b.append(el("p", "nota", `Empatou com outros ${c.empate - 1} candidatos na última vaga; o desempate foi por sorteio.`));
@@ -388,7 +435,7 @@
     ordenados.forEach((c, i) => {
       const li = el("li", "linha" + (c.situacao === "fora_da_disputa" || c.situacao === "abaixo_do_corte" ? " fora" : ""));
       const b = el("button"); b.type = "button"; b.setAttribute("aria-expanded", "false");
-      const quem = el("span", "quem"); const nm = el("span", "nomelista", tc(c.nome_urna)); quem.append(nm, el("small", null, `${c.partido} ${c.numero}`));
+      const quem = el("span", "quem"); const nm = el("span", "nomelista", tc(c.nome_urna)); quem.append(nm, el("small", null, `${c.partido} ${c.numero} · pesquisa ${verif(c).curto}`));
       const med = el("span");
       const n3 = el("span", "notas3");
       [["Qualificação", c.qualificacao_geral], ["Idoneidade", c.idoneidade_geral], ["Competência", c.competencia_geral]].forEach(([lab, v]) => {
@@ -418,6 +465,7 @@
      `Etapa 2: cada candidato restante é posicionado num de quatro quadrantes do diagrama de Nolan (limite em ${fmt(META.limiar)} nos dois eixos: economia e costumes).`,
      `Etapa 3: em cada quadrante, o recomendado é quem tem maior qualificação geral — a média entre idoneidade geral e competência geral (que por sua vez é a média da competência declarada e da escolaridade).`,
      `Empates na última vaga de um quadrante são resolvidos por sorteio, nunca por ordem alfabética.`,
+     `Cada candidato mostra a profundidade da pesquisa (rápida, padrão ou aprofundada) e o resultado da conferência automática, por CPF, em bases oficiais: contas julgadas irregulares pelo TCU, motivos de indeferimento no TSE em 2022, sanções do CEIS, CNEP e CEAF e autos de infração do Ibama.`,
      `Se você não sabe seu quadrante, 2 perguntas simples indicam uma posição provável, que não é armazenada. Se nenhum candidato do seu quadrante (ou do vizinho) continuar na disputa, mostramos o mais próximo da sua posição entre os demais.`].forEach(t => m.append(el("li", null, t)));
     const lim = $("limites"); lim.textContent = "";
     [`Cobertura desigual: há verificação para Presidente, Governador e Senador em todos os estados. Deputados entram conforme a pesquisa avançar. A pesquisa de Senador foi feita com busca mais rápida (1 a 2 buscas por candidato), então nota 10 vale como "nada encontrado", não como atestado.`,

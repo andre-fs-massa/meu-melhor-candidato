@@ -132,6 +132,17 @@ td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
 .fontes li::before { content: "↗"; color: var(--muted); flex: none; }
 .fontes a { color: var(--ink-2); word-break: break-all; text-decoration-color: var(--axis); }
 .fontes a:hover { color: var(--accent); }
+/* profundidade da pesquisa e conferência em bases oficiais */
+.detalhe .verif > h4:first-child { margin-top: 12px; }
+.selo { display: inline-block; justify-self: start; margin: 2px 0; padding: 3px 9px; border: 1px solid var(--grid); border-radius: 999px; font-size: .78rem; color: var(--ink-2); }
+.selo.padrao, .selo.aprofundada { border-color: var(--accent); color: var(--accent); background: var(--accent-wash); }
+.detalhe .bases { list-style: none; padding: 0; }
+.detalhe .base { display: block; margin: 5px 0; }
+.detalhe .base .ico { display: inline-block; width: 1.1em; text-align: center; font-weight: 700; color: var(--muted); }
+.detalhe .base.nada_consta .ico { color: var(--accent); }
+.detalhe .base.consta .ico, .detalhe .base.a_confirmar .ico { color: var(--warn); }
+.detalhe .base .data { color: var(--muted); font-size: .84rem; }
+.detalhe .base .itens { margin: 2px 0 4px 1.3em; padding-left: 14px; font-size: .88rem; }
 
 /* ---------- seção destaque: melhor candidato pra você ---------- */
 .destaque { border: 2px solid var(--accent); }

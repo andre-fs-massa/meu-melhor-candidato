@@ -45,6 +45,7 @@ pip install -r requirements.txt
    python -m pipeline.mapear_escolaridade
    python -m pipeline.calcular_competencia_geral
    python -m pipeline.calcular_cobertura
+   python -m pipeline.cruzar_bases_oficiais     # confere CPFs em TCU, TSE 2022, CEIS, CNEP, CEAF e Ibama (data/raw/)
    python -m pipeline.exportar_prototipo        # gera site/dados.js
    ```
 

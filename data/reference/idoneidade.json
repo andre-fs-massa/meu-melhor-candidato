@@ -766,7 +766,8 @@
       "fontes": [
         "https://folhaexpressa.com/politica/tcu-envia-ao-tre-pi-decisao-que-pode-barrar-candidatura-de-elizeu-aguiar-ao-governo-do-piaui/",
         "https://lupa1.com.br/noticias/politica/mpe-pede-impugnacao-da-candidatura-de-elizeu-aguiar-por-possivel-inelegibilidade-73730.html",
-        "https://www.elesbaonews.com/2026/08/elizeu-aguiar-conheca-o-perfil-limite.html", "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/resultado/acordao-completo/00609920220.PROC"
+        "https://www.elesbaonews.com/2026/08/elizeu-aguiar-conheca-o-perfil-limite.html",
+        "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/resultado/acordao-completo/00609920220.PROC"
       ],
       "pesquisado_em": "2026-09-21",
       "achados": [
@@ -1228,14 +1229,15 @@
     "140002549930": {
       "nome_urna": "DR. DANIEL",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 3,
-      "motivo": "REVISADA em 2026-09-21: Nota mantida (3), agora decomposta. Correção de fato: o afastamento do cargo (TJ-PA, 05/08/2025) foi suspenso pelo STJ no dia seguinte; o STF suspendeu a força-tarefa do MPPA em 02/10/2025 e a denúncia é de 03/10/2025. Réu em processo por corrupção, lavagem de dinheiro, organização criminosa e fraude em licitações (denúncia formal do MP-PA em outubro/2025), investigado na Operação Hades (irregularidades em contratos/licitações da Prefeitura de Ananindeua). Foi AFASTADO do cargo de prefeito por decisão do TJ-PA em decorrência da investigação -- bens de R$19 milhões (relógios de luxo, fazenda, veículos) alvo da operação. Múltiplas acusações graves em curso, sem condenação transitada até a pesquisa. || Reconferido em 2026-09-22: nenhum achado novo (a nota segue 3; o STF suspendeu brevemente e depois MANTEVE a validade das investigações em 17/03/2026). SEPARADAMENTE: um vídeo íntimo dele vazou nas redes em 08/2026 -- checado e NÃO CONTADO: ele é vítima de uma violação de privacidade, não há achado de conduta imprópria no conteúdo, e a candidatura, do PODE, foi registrada normalmente no dia seguinte.",
+      "nota": 1,
+      "motivo": "REVISADA em 2026-09-21: Nota mantida (3), agora decomposta. Correção de fato: o afastamento do cargo (TJ-PA, 05/08/2025) foi suspenso pelo STJ no dia seguinte; o STF suspendeu a força-tarefa do MPPA em 02/10/2025 e a denúncia é de 03/10/2025. Réu em processo por corrupção, lavagem de dinheiro, organização criminosa e fraude em licitações (denúncia formal do MP-PA em outubro/2025), investigado na Operação Hades (irregularidades em contratos/licitações da Prefeitura de Ananindeua). Foi AFASTADO do cargo de prefeito por decisão do TJ-PA em decorrência da investigação -- bens de R$19 milhões (relógios de luxo, fazenda, veículos) alvo da operação. Múltiplas acusações graves em curso, sem condenação transitada até a pesquisa. || Reconferido em 2026-09-22: nenhum achado novo (a nota segue 3; o STF suspendeu brevemente e depois MANTEVE a validade das investigações em 17/03/2026). SEPARADAMENTE: um vídeo íntimo dele vazou nas redes em 08/2026 -- checado e NÃO CONTADO: ele é vítima de uma violação de privacidade, não há achado de conduta imprópria no conteúdo, e a candidatura, do PODE, foi registrada normalmente no dia seguinte. A base oficial de autos de infração do Ibama (2026-09-24) traz ainda um auto de R$ 1,4 mi em 2024 (Tomé-Açu/PA), mesmo critério de Alexandre Guimarães/TO (-2).",
       "fontes": [
         "https://www.cnnbrasil.com.br/politica/pa-bens-de-r-19-milhoes-de-prefeito-de-ananindeua-sao-alvo-de-operacao/",
         "https://www.metropoles.com/brasil/prefeito-de-ananindeua-e-afastado-por-suspeita-de-corrupcao",
-        "https://portalofato.com.br/2025/10/16/pre-candidato-ao-governo-do-para-prefeito-de-ananindeua-coleciona-investigacoes-por-fraudes-corrupcao-e-desvio-de-recursos/"
+        "https://portalofato.com.br/2025/10/16/pre-candidato-ao-governo-do-para-prefeito-de-ananindeua-coleciona-investigacoes-por-fraudes-corrupcao-e-desvio-de-recursos/",
+        "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
       ],
-      "pesquisado_em": "2026-09-22",
+      "pesquisado_em": "2026-09-24",
       "achados": [
         {
           "categoria": "reu_acao_penal",
@@ -1248,6 +1250,10 @@
         {
           "categoria": "investigacao_ou_acao_civil_em_curso",
           "descricao": "Investigação do MPPA sobre repasses de R$ 71,5 mi ao Hospital Santa Maria sem licitação formal"
+        },
+        {
+          "categoria": "sancao_institucional_confirmada",
+          "descricao": "Auto de infração do Ibama de R$ 1,4 mi (17/06/2024, Tomé-Açu/PA), infração contra a flora; confirmado na base oficial de autos de infração do Ibama (CPF casado por nome completo)."
         }
       ]
     },
@@ -5264,11 +5270,20 @@
     "110002540403": {
       "nome_urna": "GALVAN",
       "cargo_pretendido": "SENADOR",
-      "nota": 10,
-      "motivo": "Candidato do Avante. Busca não encontrou pendência pessoal.",
-      "fontes": [],
-      "pesquisado_em": "2026-09-23",
-      "achados": []
+      "nota": 8,
+      "motivo": "Candidato do Avante. Busca não encontrou pendência pessoal. Cruzamento com a base oficial de autos de infração do Ibama (2026-09-24) achou duas autuações de 2022 somando R$ 1,56 mi (Vera/MT), o mesmo critério aplicado a Alexandre Guimarães/TO (-2).",
+      "fontes": [
+        "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
+        "https://reporterbrasil.org.br/2026/08/soja-mineracao-candidaturas-senado-mato-grosso/",
+        "https://climainfo.org.br/2026/09/14/eleicoes-2026-candidatos-somam-r-176-milhoes-em-multas-por-destruicao-ambiental-na-amazonia/"
+      ],
+      "pesquisado_em": "2026-09-24",
+      "achados": [
+        {
+          "categoria": "sancao_institucional_confirmada",
+          "descricao": "Duas autuações do Ibama em 2022 somando R$ 1,56 mi em Vera/MT (R$ 1,51 mi por controle ambiental e R$ 50,5 mil por falta de licenciamento), ligadas à pista de pouso para pulverização aérea sem autorização e ao desmatamento ilegal; confirmadas na base de autos de infração do Ibama (CPF casado por nome completo)."
+        }
+      ]
     },
     "20002548147": {
       "nome_urna": "DAVI DAVINO FILHO",
@@ -5282,17 +5297,24 @@
     "20002553272": {
       "nome_urna": "ARTHUR LIRA",
       "cargo_pretendido": "SENADOR",
-      "nota": 9,
-      "motivo": "Ex-presidente da Câmara dos Deputados (2021-2025), deputado federal, PP. Uma denúncia antiga contra ele na Lava Jato foi REJEITADA por maioria do STF -- não contada (resolvida favoravelmente).",
+      "nota": 7,
+      "motivo": "Ex-presidente da Câmara dos Deputados (2021-2025), deputado federal, PP. Uma denúncia antiga contra ele na Lava Jato foi REJEITADA por maioria do STF -- não contada (resolvida favoravelmente). O CEIS lista um impedimento de contratar (28/11/2016 a 28/11/2026) baseado na condenação por improbidade da Operação Taturana; o STJ anulou essa condenação por vício processual e mandou refazer o julgamento (resultado não localizado). Tratado como ação em curso (-2), não como condenação confirmada.",
       "fontes": [
         "https://www.brasil247.com/regionais/brasilia/pf-encontra-planilhas-de-emendas-com-ex-assessora-de-arthur-lira",
-        "https://www.satelitenoticias.com.br/2026/07/anotacao-apreendida-pela-pf-levanta.html"
+        "https://www.satelitenoticias.com.br/2026/07/anotacao-apreendida-pela-pf-levanta.html",
+        "https://www.br104.com.br/justica/stj-anula-condenacao-por-improbidade-administrativa-contra-arthur-lira-e-determina-novo-julgamento/",
+        "https://canalcienciascriminais.com.br/stj-anula-condenacao-arthur-lira/",
+        "https://portaldatransparencia.gov.br/sancoes/consulta"
       ],
-      "pesquisado_em": "2026-09-23",
+      "pesquisado_em": "2026-09-24",
       "achados": [
         {
           "categoria": "citado_ou_apuracao_preliminar",
           "descricao": "A PF apreendeu, em dez/2025 (Operação Transparência), planilhas de emendas parlamentares e uma anotação no endereço de Mariângela Fialek ('Tuca'), ex-assessora de confiança dele quando presidia a Câmara (2021-2022); a anotação levanta suspeita de continuidade do 'orçamento secreto' mesmo após a proibição do STF (fim de 2022). A investigação mira a ex-assessora, e a PF ainda não concluiu que houve irregularidade no destino dos recursos; ele não foi formalmente nomeado investigado nesta apuração."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Condenado por improbidade na Operação Taturana (TJAL, 2012; recurso rejeitado pela 3ª Câmara Cível: perda da função, suspensão de direitos políticos por 5 anos e multa de R$ 43 mil). O STJ anulou a condenação por vício processual (falta de notificação prévia dupla) e mandou refazer o julgamento; não localizei o resultado do novo julgamento. O CEIS ainda lista um impedimento de contratar com o poder público de 28/11/2016 a 28/11/2026 baseado nessa decisão."
         }
       ]
     },

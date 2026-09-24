@@ -14,6 +14,7 @@ from datetime import date
 import pandas as pd
 
 from . import config
+from .cruzar_bases_oficiais import BASES, SAIDA as CSV_BASES_OFICIAIS
 from .enriquecer_circulo_politico import ROTULO_LIGACAO
 from .pesos import PESOS_ACHADO
 from .recomendar import (
@@ -74,7 +75,52 @@ def _apoiadores(reg: dict) -> list:
     return saida
 
 
+def _carregar_bases_oficiais() -> dict:
+    """sq_candidato -> base -> {resultado, n, itens, ref}, a partir de data/processed/verificacao_bases_oficiais.csv."""
+    if not CSV_BASES_OFICIAIS.exists():
+        print(f"Aviso: {CSV_BASES_OFICIAIS.name} não existe; rode `python -m pipeline.cruzar_bases_oficiais`. "
+              "O site sairá sem a conferência em bases oficiais.")
+        return {}
+    df = pd.read_csv(CSV_BASES_OFICIAIS, dtype=str, encoding="utf-8-sig").fillna("")
+    saida: dict = {}
+    for (sq, base), g in df.groupby(["sq_candidato", "base"], sort=False):
+        resultados = set(g.resultado)
+        resultado = "consta" if "consta" in resultados else "a_confirmar" if "a_confirmar" in resultados else "nada_consta"
+        itens = list(dict.fromkeys(d for d in g.detalhe if d))  # mantém a ordem (Ibama vem do maior valor)
+        refs = [r for r in g.referencia if r]
+        saida.setdefault(sq, {})[base] = {"resultado": resultado, "n": len(itens), "itens": itens[:4],
+                                          "ref": refs[0] if refs else None}
+    return saida
+
+
+def _nivel_profundidade(prof: dict, cargo: str, uf: str, sq: str) -> str:
+    if sq in prof.get("excecoes", {}):
+        return prof["excecoes"][sq]
+    for regra in prof["regras"]:
+        if regra["cargo"] == cargo and ("ufs" not in regra or uf in regra["ufs"]):
+            return regra["nivel"]
+    return "rapida"
+
+
+def _verificacao(prof: dict, bases_of: dict, cargo: str, uf: str, sq: str) -> dict:
+    """Profundidade da pesquisa manual + conferência em bases oficiais (aparece ao eleitor, sem alterar a nota)."""
+    do_candidato = bases_of.get(sq, {})
+    bases = []
+    if bases_of:  # sem o CSV, não afirma nada sobre bases oficiais
+        for chave in BASES:
+            b = do_candidato.get(chave)
+            if not b:
+                bases.append({"id": chave, "resultado": "nao_se_aplica"})
+            elif b["resultado"] == "nada_consta":
+                bases.append({"id": chave, "resultado": "nada_consta"})
+            else:
+                bases.append({"id": chave, "resultado": b["resultado"], "n": b["n"], "itens": b["itens"], "ref": b["ref"]})
+    return {"nivel": _nivel_profundidade(prof, cargo, uf, sq), "bases": bases}
+
+
 def construir(df: pd.DataFrame) -> dict:
+    prof = json.loads((REF_DIR / "profundidade_pesquisa.json").read_text(encoding="utf-8"))
+    bases_of = _carregar_bases_oficiais()
     idn = json.loads((REF_DIR / "idoneidade.json").read_text(encoding="utf-8"))["candidatos"]
     circ = json.loads((REF_DIR / "circulo_politico.json").read_text(encoding="utf-8"))["candidatos"]
     grupos = {}
@@ -115,6 +161,7 @@ def construir(df: pd.DataFrame) -> dict:
                 "cobertura": r["cobertura_pesquisa"],
                 "achados": _achados(ri), "apoiadores": _apoiadores(rc),
                 "fontes": list(dict.fromkeys(ri.get("fontes", []) + rc.get("fontes", []))),
+                "verificacao": _verificacao(prof, bases_of, cargo, uf, sq),
                 "empate": recs[sq]["empatados_na_ultima_vaga"] if sq in recs else 0,
             })
         candidatos.sort(key=lambda c: (c["idoneidade_geral"] is None, -(c["idoneidade_geral"] or 0), c["nome_urna"]))
@@ -125,6 +172,8 @@ def construir(df: pd.DataFrame) -> dict:
         "meta": {"gerado_em": date.today().isoformat(), "corte": CORTE_IDONEIDADE_PADRAO, "limiar": LIMIAR_QUADRANTE,
                  "margem_fronteira": MARGEM_FRONTEIRA, "politica_nao_avaliados": "excluir", "data_eleicao": "2026-10-04",
                  "total_candidatos": int(len(df))},
+        "profundidade": prof["niveis"],
+        "bases_oficiais": [{"id": k, "rotulo": r, "data": d} for k, (r, d) in BASES.items()],
         "quadrantes": [{"chave": k, "nome": v, "curto": CURTO_QUADRANTE[k]} for k, v in NOME_QUADRANTE.items()],
         "cargos": [{"codigo": c, "rotulo": ROTULO_CARGO[c], "vagas": VAGAS_POR_QUADRANTE[c]} for c in ROTULO_CARGO],
         "grupos": grupos,

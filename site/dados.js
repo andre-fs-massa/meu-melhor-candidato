@@ -9,6 +9,52 @@ const DADOS = {
   "data_eleicao": "2026-10-04",
   "total_candidatos": 20043
  },
+ "profundidade": {
+  "aprofundada": {
+   "rotulo": "Pesquisa aprofundada",
+   "descricao": "Várias buscas por candidato, reconferência dos achados e dos vices, e revisão das notas mais baixas."
+  },
+  "padrao": {
+   "rotulo": "Pesquisa padrão",
+   "descricao": "Várias buscas por candidato na internet, com reconferência dos achados mais graves."
+  },
+  "rapida": {
+   "rotulo": "Pesquisa rápida",
+   "descricao": "1 a 2 buscas na internet por candidato. Nota 10 significa apenas \"nada encontrado\"; não é atestado de que não haja pendência."
+  }
+ },
+ "bases_oficiais": [
+  {
+   "id": "tcu_eleitoral",
+   "rotulo": "TCU: contas julgadas irregulares (implicação eleitoral)",
+   "data": "2026-09-24"
+  },
+  {
+   "id": "tse_2022",
+   "rotulo": "TSE: motivos de indeferimento/cassação em 2022",
+   "data": "2026-09-24"
+  },
+  {
+   "id": "ceis",
+   "rotulo": "CEIS: empresas e pessoas sancionadas (Portal da Transparência)",
+   "data": "2026-09-23"
+  },
+  {
+   "id": "cnep",
+   "rotulo": "CNEP: punições da Lei Anticorrupção (Portal da Transparência)",
+   "data": "2026-09-23"
+  },
+  {
+   "id": "ceaf",
+   "rotulo": "CEAF: servidores expulsos do serviço público federal",
+   "data": "2026-09-23"
+  },
+  {
+   "id": "ibama",
+   "rotulo": "Ibama: autos de infração ambiental",
+   "data": "2026-09-24"
+  }
+ ],
  "quadrantes": [
   {
    "chave": "LIBERTARIO",
@@ -498,6 +544,35 @@ const DADOS = {
      "fontes": [
       "https://agazetadoacre.com/2026/08/noticias/politica/quem-e-dr-luisinho-empresario-que-disputa-o-governo-do-acre-pelo-agir/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -549,6 +624,35 @@ const DADOS = {
      "fontes": [
       "https://ac24horas.com/2026/08/12/candidato-do-pcb-ao-governo-do-acre-eudo-raffael-declara-patrimonio-de-r-165-mil/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -655,6 +759,35 @@ const DADOS = {
       "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-thor-dantas-pre-candidato-ao-governo-do-acre/",
       "https://psb40.org.br/dr-thor-dantas-defende-infraestrutura-organizacao-da-producao-e-industrializacao-para-desenvolver-o-acre/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -734,6 +867,35 @@ const DADOS = {
       "https://www.atribunadoacre.com.br/noticia/2176/rio-branco/destaques/mpac-abre-investigacao-contra-bocalom-por-suspeitas-em-contrato-da-ricco.html",
       "https://agazetadoacre.com/2026/07/noticias/politica/bocalom-escolhe-sargento-adonis-como-vice-na-disputa-pelo-governo-do-acre/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -840,6 +1002,35 @@ const DADOS = {
       "https://oaquiri.com/88159-2/",
       "https://opalaciano.com.br/acre/bocalom-convida-um-dos-maiores-empresarios-do-acre-para-ser-seu-vice-em-chapa-ao-governo/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -954,6 +1145,35 @@ const DADOS = {
       "https://www.diretodoplanalto.com.br/2026/09/servidora-que-ganha-r-78-mil-e-citada.html",
       "https://www.metropoles.com/brasil/acre-alianca-de-6-partidos-oficializa-candidatura-de-mailza-a-governo"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -1020,6 +1240,35 @@ const DADOS = {
       "https://www.plural.jor.br/lenilda-luna-de-almeida/",
       "https://tribunahoje.com/noticias/politica/2026/08/15/191440-jornalista-lenilda-luna-oficializa-candidatura-ao-governo-de-alagoas-pela-unidade-popular"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -1072,6 +1321,35 @@ const DADOS = {
       "https://ojornalextra.com.br/eleicoes/pleito2026/candidatos/20002552502/eleicoes-2026-quem-e-marcio-jambo-candidato-a-governador-alagoas",
       "https://tribunahoje.com/noticias/politica/2026/08/15/191441-marcio-jambo-entra-na-corrida-pelo-governo-de-alagoas-nas-eleicoes-de-2026"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -1239,6 +1517,35 @@ const DADOS = {
       "https://exame.com/brasil/justica-bloqueia-bens-de-jhc-candidato-ao-governo-de-alagoas-por-divida-com-publiciario/",
       "https://www.gazetaweb.com/noticias/politica/quem-e-celia-rocha-escolhida-como-vice-de-jhc-na-disputa-pelo-governo-de-alagoas-929604"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -1400,6 +1707,35 @@ const DADOS = {
       "https://www.gazetaweb.com/noticias/politica/quem-e-yale-fernandes-escolhido-por-renan-filho-para-disputar-a-vice-929605",
       "https://www.br104.com.br/eleicoes-2026/cidades/tre-al-defere-candidaturas-renan-filho-jhc-governo-alagoas"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -1465,6 +1801,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-gilberto-vasconcelos-candidato-ao-governo-do-amazonas/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -1525,6 +1890,35 @@ const DADOS = {
       "https://www.metropoles.com/brasil/politica-brasil/presidenciavel-cabo-daciolo-e-investigado-por-suposto-desvio-de-verba",
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-cabo-daciolo-candidato-ao-governo-do-amazonas/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -1586,6 +1980,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-isael-munduruku-candidato-ao-governo-do-amazonas/",
       "https://amazonas1.com.br/isael-munduruku-candidato-governo-amazonas-convencao/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -1647,6 +2070,35 @@ const DADOS = {
       "https://amazonas1.com.br/maria-do-carmo-nega-vinculo-com-preso-em-operacao-que-apreendeu-25-toneladas-de-drogas/",
       "https://www.riosdenoticias.com.br/maria-do-carmo-confirma-coronel-anibal-como-vice-e-pl-oficializa-chapa-ao-governo-do-amazonas/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -1753,6 +2205,35 @@ const DADOS = {
       "https://bncamazonas.com.br/poder/maus-caminhos-um-fantasma-que-ainda-assombra-omar-aziz/",
       "https://www.cm7brasil.com/noticias/politica/tbt-da-corrupcao-vice-de-omar-aziz-alessandra-campelo-ja-foi-citada-em-desdobramento-da-operacao-maus-caminhos-video/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -1847,6 +2328,35 @@ const DADOS = {
       "https://www.riosdenoticias.com.br/mp-am-investiga-contrato-de-viaturas-da-ssp-am-apos-denuncias-envolvendo-empresas-ligadas-a-roberto-cidade/",
       "https://ncnews.com.br/2026/09/22/mpe-cassacao-roberto-cidade-serafim-correa-amazonas/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -1960,6 +2470,35 @@ const DADOS = {
       "https://www.riosdenoticias.com.br/justica-mantem-investigacao-sobre-suspeita-de-compra-de-votos-envolvendo-campanha-de-david-almeida-em-2024/",
       "https://www.acritica.com/politica/david-almeida-anuncia-shadia-fraxe-como-vice-para-governo-do-amazonas-1.410490"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -2016,6 +2555,35 @@ const DADOS = {
      "fontes": [
       "https://ndmais.com.br/politica/quem-sao-os-candidatos-a-governador-do-amapa-em-2026-veja-a-lista/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -2067,6 +2635,35 @@ const DADOS = {
      "fontes": [
       "https://candidatos.nexojornal.com.br/2026/ap/jairo-palheta-30002551388/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -2218,6 +2815,35 @@ const DADOS = {
       "https://ncnews.com.br/2026/07/28/amapa-justica-aplica-multa-de-r-25-mil-ao-governador-clecio-luis-por-propaganda-eleitoral/",
       "https://tribunaamapa.com.br/politica/clecio-confirma-teles-junior-na-vice-e-oficializa-apoio-a-randolfe-e-alliny-serrao-ao-senado"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -2307,6 +2933,35 @@ const DADOS = {
       "https://www.gov.br/pf/pt-br/assuntos/noticias/2022/04/pf-investiga-201crachadinha201d-e-fraude-em-licitacao-na-assembleia-legislativa-do-amapa",
       "https://www.debubuia.com.br/noticia/passado-incomodo-faz-luciana-virar-a-vice-que-furlan-prefere-esconder"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -2368,6 +3023,35 @@ const DADOS = {
       "https://www.congressoemfoco.com.br/noticia/34775/os-parlamentares-sob-investigacao-no-stf-e-o-que-eles-dizem",
       "https://agorars.com/eleicoes-2026/ap/governador/delegado-marcos-27/vice/cristina-araujo"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -2434,6 +3118,35 @@ const DADOS = {
       "https://www.plural.jor.br/aroldo-felix-de-azevedo-junior/",
       "https://www.poder360.com.br/poder-eleicoes-2026/up-oficializa-aroldo-felix-ao-governo-da-bahia/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -2486,6 +3199,35 @@ const DADOS = {
       "https://www.plural.jor.br/maria-bona-carrara-de-sumbuy/",
       "https://www.bahianoticias.com.br/noticia/320088-pco-oficializa-candidatura-de-maria-bona-unica-mulher-candidata-ao-governo-da-bahia-nas-eleicoes-2026"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -2547,6 +3289,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-ronaldo-mansur-candidato-ao-governo-da-bahia/",
       "https://www.cnnbrasil.com.br/eleicoes/psol-e-rede-oficializam-candidatura-de-ronaldo-mansur-ao-governo-da-bahia/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -2600,6 +3371,35 @@ const DADOS = {
       "https://www.portalsalvadorfm.com.br/politica/eleicoes/tse-nega-recurso-de-estevao-e-confirma-candidatura-de-ariel-ao-governo-da-bahia-pelo-dc/",
       "https://agorars.com/eleicoes-2026/ba/governador/ariel-capistrano-27/vice/ze-augusto"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -2716,6 +3516,35 @@ const DADOS = {
       "https://www.psnoticias.com.br/politica/apos-pressao-jeronimo-rodrigues-recua-e-exonera-ex-detento-nomeado-para-chefiar-presidio-na-bahia",
       "https://bahia.ba/politica/jeronimo-confirma-geraldo-junior-como-vice-na-chapa-a-reeleicao/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -2860,6 +3689,35 @@ const DADOS = {
       "https://criativaonline.com.br/em-jequie-acm-neto-oficializa-convite-a-ze-coca-para-vice-na-disputa-pelo-governo-da-bahia/",
       "https://www.portalsalvadorfm.com.br/politica/ze-coca-tem-contas-aprovadas-no-tcm-ba-mas-e-multado-em-r-3-mil/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -2900,6 +3758,35 @@ const DADOS = {
      "fontes": [
       "https://www.bahianoticias.com.br/noticia/320335-tre-ba-indefere-candidatura-de-jose-estevao-e-confirma-ariel-capistrano-como-candidato-do-dc-ao-governo-da-bahia"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -2964,6 +3851,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-danilo-soares-candidato-ao-governo-do-ceara/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3015,6 +3931,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-serley-leal-candidato-do-up-ao-governo-do-ceara/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3066,6 +4011,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-vera-lucia-candidata-ao-governo-do-ceara/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3117,6 +4091,35 @@ const DADOS = {
      "fontes": [
       "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-ze-batista-sindicalista-e-candidato-ao-governo-do-ceara-em-2026-1.3778193"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3168,6 +4171,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-delegado-huggo-candidato-ao-governo-do-ceara/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3219,6 +4251,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-ieri-braga-candidato-do-pco-ao-governo-do-ceara/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3397,6 +4458,35 @@ const DADOS = {
       "https://mais.opovo.com.br/jornal/politica/2026/09/22/tre-ce-confirma-perda-de-tempo-de-propaganda-de-elmano-por-associar-ciro-a-bolsonaro.html",
       "https://diariodonordeste.verdesmares.com.br/pontopoder/quem-e-gabriella-aguiar-candidata-a-vice-governadora-do-ceara-em-2026-pelo-psd-1.3780789"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3510,6 +4600,35 @@ const DADOS = {
       "https://mais.opovo.com.br/reportagens-especiais/2020/07/24/ciro-gomes-responde-a-74-processos-por-244-acusacoes-e-xingamentos.html",
       "https://diariodonordeste.verdesmares.com.br/pontopoder/roberto-claudio-admite-desejo-de-ser-vice-de-ciro-mas-moses-lembra-acordo-de-candidatura-a-camara-1.3767791"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3540,6 +4659,35 @@ const DADOS = {
      "achados": [],
      "apoiadores": [],
      "fontes": [],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -3606,6 +4754,35 @@ const DADOS = {
       "https://en.wikipedia.org/wiki/Ricardo_Cappelli",
       "https://www.brasildefato.com.br/2026/07/31/psb-oficializa-indicacao-de-ricardo-cappelli-ao-governo-do-df-mas-adia-definicao-de-vice-e-ao-senado/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3658,6 +4835,35 @@ const DADOS = {
       "https://www.tribunapr.com.br/eleicoes/2026/candidatos/df/governador/elisson-agir-36/",
       "https://jornaldebrasilia.com.br/brasilia/agir-confirma-subtenente-da-pmdf-como-vice-de-elisson-ferreira/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3710,6 +4916,35 @@ const DADOS = {
       "https://www.brasildefato.com.br/2026/08/17/candidato-do-novo-kiko-caputo-e-o-mais-rico-na-disputa-ao-governo-do-distrito-federal/",
       "https://www.correiobraziliense.com.br/cidades-df/2026/08/7474754-kiko-caputo-oficializa-delegado-rafael-sampaio-como-vice-ao-gdf.html"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3762,6 +4997,35 @@ const DADOS = {
       "https://www.plural.jor.br/robson-raymundo-da-silva/",
       "https://www.metropoles.com/colunas/grande-angular/pstu-lanca-professor-robson-como-candidato-ao-gdf-e-zanata-ao-senado"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3813,6 +5077,35 @@ const DADOS = {
      "fontes": [
       "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-samara-mineiro-pre-candidata-ao-governo-do-df/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3856,6 +5149,35 @@ const DADOS = {
       "https://causaoperaria.org.br/2026/expedito-mendonca-pco-disputa-eleicoes-para-divulgar-seu-programa/",
       "https://www.metropoles.com/distrito-federal/tre-df-aceita-candidatura-de-expedito-mendonca-para-o-gdf"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3909,6 +5231,35 @@ const DADOS = {
       "https://www.f5politica.com.br/2026/09/empresa-ligada-paula-belmonte-e-alvo-de.html",
       "https://jornaldebrasilia.com.br/brasilia/psdb-confirma-ex-juiz-everardo-ribeiro-como-vice-de-paula-belmonte-ao-gdf/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -3961,6 +5312,35 @@ const DADOS = {
       "https://www.correiobraziliense.com.br/cidades-df/2026/08/7477620-eleicoes-rico-pinheiro-projeta-debate-sobre-o-futuro-de-brasilia.html",
       "https://www.otempo.com.br/eleicoes/2026/candidatos/distrito-federal/governador/rico-pinheiro-28"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -4040,6 +5420,35 @@ const DADOS = {
       "https://www.tse.jus.br/comunicacao/noticias/2024/Maio/tse-reverte-inelegibilidade-candidato-ao-governo-do-distrito-federal-em-2022",
       "https://www.poder360.com.br/poder-eleicoes-2026/leandro-grass-lanca-candidatura-ao-governo-do-df-com-dora-gomes-vice/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -4191,6 +5600,35 @@ const DADOS = {
       "https://www.jornalopcao.com.br/ultimas-noticias/repasses-de-r-14-milhao-a-empresa-de-marido-e-filha-de-celina-leao-sao-investigados-pelo-mpdft-865371/",
       "https://www.politicadistrital.com.br/celina-leao-conta-com-apoio-de-12-partidos-politicos-para-eleicoes-de-2026/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -4233,6 +5671,45 @@ const DADOS = {
       "https://www.brasiliaconectada.com/2026/08/mpf-lista-6-condenacoes-que-deixam.html",
       "https://www.cnnbrasil.com.br/eleicoes/vou-ate-as-ultimas-consequencias-diz-arruda-barrado-pelo-tre-df/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Fundamento citado no julgamento do registro: Ficha limpa (LC 64/90)"
+        ],
+        "ref": "https://dadosabertos.tse.jus.br/dataset/candidatos-2022"
+       },
+       {
+        "id": "ceis",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Impedimento/proibição de contratar com prazo determinado (início 05/12/2018, vigente)"
+        ],
+        "ref": "https://portaldatransparencia.gov.br/sancoes/consulta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -4299,6 +5776,35 @@ const DADOS = {
       "https://www.metropoles.com/brasil/up-lanca-rafael-demuner-como-candidato-ao-governo-do-espirito-santo",
       "https://esbrasil.com.br/veja-quem-sao-candidatos-governo-do-es/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -4351,6 +5857,35 @@ const DADOS = {
       "https://www.folhavitoria.com.br/eleicoes/partido-missao-lanca-engenheiro-como-candidato-ao-governo-do-es/",
       "https://esbrasil.com.br/veja-quem-sao-candidatos-governo-do-es/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -4421,6 +5956,35 @@ const DADOS = {
       "https://elimarcortes.com.br/2026/07/23/o-vale-tudo-de-pazolini-para-chegar-ao-poder-mas-numeros-da-prefeitura-de-vitoria-desmentem-ex-prefeito/",
       "https://eshoje.com.br/politica/2026/08/bispa-eliane-vice-pazolini/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -4518,6 +6082,35 @@ const DADOS = {
       "https://simnoticias.com.br/vinicius-baptista/ferraco-fala-sobre-apex-e-defende-ampla-investigacao-no-caso/",
       "https://www.folhavitoria.com.br/politica/por-que-ricardo-escolheu-camillo-para-ser-vice-os-pontos-a-favor-do-vereador/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -4605,6 +6198,35 @@ const DADOS = {
       "https://www.tjes.jus.br/ex-prefeito-de-cariacica-e-absolvido-em-acao-de-improbidade-administrativa/",
       "https://www.seculodiario.com.br/politica/professora-valdirene-do-sape-do-norte-a-candidatura-a-vice-governadora/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -4669,6 +6291,35 @@ const DADOS = {
      "fontes": [
       "https://www.jornalopcao.com.br/politica/luciana-amorim-unica-mulher-disputa-governo-goias-2026-856549/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -4720,6 +6371,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-danilo-da-silva-candidato-ao-governo-de-goias/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -4763,6 +6443,35 @@ const DADOS = {
       "https://www.jornalopcao.com.br/ultimas-noticias/luiz-cesar-bueno-e-absolvido-em-acao-sobre-suposta-funcionaria-fantasma-783042/",
       "https://pt.org.br/luis-cesar-bueno/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -4923,6 +6632,35 @@ const DADOS = {
       "https://ndmais.com.br/justica/justica-manda-derrubar-post-sobre-daniel-vilela/",
       "https://excelencianoticias.com.br/2026/08/07/eleicoes-2026-daniel-vilela-e-lancado-a-reeleicao-ao-governo-de-goias-com-apoio-de-12-partidos-e-227-prefeitos/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -4992,6 +6730,35 @@ const DADOS = {
       "https://www.jornalda2cnews.com/noticia/policia-federal-investiga-senador-goiano-wilder-morais-por-suposto-desvio-de-dinheiro-publico",
       "https://portal6.com.br/2026/08/03/pl-oficializa-wilder-morais-candidato-ao-governo-de-goias-com-ana-paula-rezende-de-vice/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -5103,6 +6870,35 @@ const DADOS = {
       "https://jovempan.com.br/politica/conheca-marconi-perillo-ex-governador-que-tenta-retornar-ao-executivo-goiano/",
       "https://www.dm.com.br/politica/marconi-perillo-define-jacqueline-zaiden-como-vice-na-chapa-ao-governo-de-goias/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -5169,6 +6965,35 @@ const DADOS = {
       "https://www.jornalimperatriz.com.br/noticia/pcb-oficializa-candidatura-do-imperatrizense-reginaldo-lima-ao-governo-do-maranhao",
       "https://oimparcial.com.br/noticias/2026/08/gato-felix-substitui-bartolomeu-moreira-na-chapa-do-pcb-ao-governo-do-maranhao/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -5222,6 +7047,35 @@ const DADOS = {
       "https://m.imirante.com/noticias/sao-luis/2026/07/29/ipolitica-pstu-oficializa-saulo-arcangeli-como-candidato-ao-governo-do-ma",
       "https://oimparcial.com.br/politica/2026/07/pstu-confirma-chapa-propria-e-oficializa-saulo-arcangeli-na-disputa-pelo-governo-do-maranhao/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -5275,6 +7129,35 @@ const DADOS = {
       "https://ojornalextra.com.br/eleicoes/pleito2026/candidatos/100002544076/eleicoes-2026-quem-e-andre-luis-candidato-a-governador-maranhao",
       "https://oimparcial.com.br/politica/2026/07/andre-luis-e-oficializado-candidato-ao-governo-do-maranhao-pelo-partido-missao/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -5328,6 +7211,35 @@ const DADOS = {
       "https://en.wikipedia.org/wiki/Eduardo_Braide",
       "https://jornalpequeno.com.br/2026/08/03/braide-oficializa-candidatura-ao-governo-e-apresenta-chapa-para-2026/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -5392,6 +7304,35 @@ const DADOS = {
       "http://diegoemir.com/2016/08/candidatura-de-edivaldo-holanda-junior-e-impugnada-por-suspeita-de-desvio-milionario-de-recursos-publicos/",
       "https://www.cmsaoluis.ma.gov.br/noticia/846/Contas-de-Eduardo-Braide-e-Edivaldo-Holanda-estao-em-analise-na-Camara"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -5453,6 +7394,35 @@ const DADOS = {
       "https://m.imirante.com/noticias/sao-luis/2026/09/16/ipolitica-tre-ma-indefere-candidatura-de-dimas-cassimiro-ao-governo-do-maranhao",
       "https://www.condorcontabilidade.com.br/nb2/ma/maranhao/eleicoes/2026/noticia/2026/08/26/veja-o-plano-de-governo-de-dimas-cassimiro-pco-candidato-ao-governo-do-maranhao.ghtml"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -5515,6 +7485,35 @@ const DADOS = {
       "https://ndmais.com.br/politica/quem-e-leonardo-avalanche-trajetoria-e-polemicas/",
       "https://ndmais.com.br/politica/vice-de-marcal-saiba-quem-e-leonardo-avalanche-presidente-prtb/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -5585,6 +7584,35 @@ const DADOS = {
       "https://imirante.com/noticias/sao-luis/2026/05/15/ipolitica-felipe-camarao-diz-que-investigacao-foi-forjada-e-rebate-suspeitas-durante-entrevista",
       "https://gilbertoleda.com.br/2026/08/02/pt-oficializa-felipe-camarao-ao-governo-do-maranhao-e-confirma-ricardo-rodrigues-como-vice"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -5642,6 +7670,35 @@ const DADOS = {
       "https://tribunademinas.com.br/noticias/politica/eleicoes-2026/22-07-2026/up-confirma-indira-xavier-como-candidata-ao-governo-de-minas.html",
       "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -5685,6 +7742,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/eleicoes/2026/minas-gerais/quem-sao-candidatos-governador-minas-gerais-2026/",
       "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -5729,6 +7815,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-rafael-duda-candidato-ao-governo-de-minas-gerais/",
       "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -5781,6 +7896,35 @@ const DADOS = {
       "https://pordentrodeminas.com.br/noticias/eleicoes/2026/09/quem-e-ben-mendes-candidato-ao-governo-de-minas-pelo-missao/",
       "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -5834,6 +7978,35 @@ const DADOS = {
       "https://www.otempo.com.br/eleicoes/2026/governadores/2026/8/5/vereadora-de-montes-claros-sera-vice-na-chapa-de-gabriel-azevedo-para-governo-de-minas",
       "https://www.poder360.com.br/congresso/baleia-rossi-e-citado-em-investigacoes-contra-fraudes-e-em-delacao-da-jbs/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -5886,6 +8059,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/eleicoes/2026/minas-gerais/quem-sao-candidatos-governador-minas-gerais-2026/",
       "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -5957,6 +8159,35 @@ const DADOS = {
       "https://ofator.com.br/informacao/a-cronologia-da-crise-entre-o-governo-de-minas-e-o-casal-falcao/",
       "https://portalg37.com.br/minas-gerais/minas-gerais-tem-11-candidatos-ao-governo-em-2026-veja-nomes-vices-e-perfis/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -6068,6 +8299,35 @@ const DADOS = {
       "https://www.jota.info/stf/do-supremo/caso-master-ciro-nogueira-e-alvo-da-pf-por-suspeita-de-corrupcao-em-emenda-que-ampliava-fgc",
       "https://www.cnnbrasil.com.br/politica/pf-inclui-presidente-do-uniao-brasil-em-investigacao-sobre-esquemas-do-pcc/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -6131,6 +8391,35 @@ const DADOS = {
       "https://www.terra.com.br/noticias/brasil/politica/candidato-apoiado-por-flavio-bolsonaro-em-mg-anuncia-aliada-de-michelle-como-vice,d631959630d0747c22bf65511bd6075dyk7hg3bg.html",
       "https://www.acessa.com/colunistas/sindijori/2026/08/337114-pl-oficializa-candidatura-de-flavio-roscoe-ao-governo-de-minas-em-evento-nesta-segunda-feira.html"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -6213,6 +8502,35 @@ const DADOS = {
       "https://diariodocomercio.com.br/politica/psb-jarbas-soares-vice-patrus-mg/",
       "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -6303,6 +8621,35 @@ const DADOS = {
       "https://pocosja.com.br/noticia/politica/2026/09/16/mosconi-nega-irregularidades-e-aguarda-citacao-formal-em-acao-por-improbidade/",
       "https://www.metropoles.com/colunas/andreza-matais/dirigentes-do-inss-delataram-carlos-lupi-ex-ministro-da-previdencia-de-lula"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -6360,6 +8707,35 @@ const DADOS = {
       "https://oestadoonline.com.br/politica/pco-oficializa-daniel-lemes-e-ms-chega-a-sete-candidatos-ao-governo-nas-eleicoes-de-2026/",
       "https://www.msnoticias.com.br/editorias/politica-mato-grosso-sul/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -6403,6 +8779,35 @@ const DADOS = {
       "https://midiamax.com.br/politica/2026/unico-indigena-daniel-lemes-registra-candidatura-governo-ms-2026/",
       "https://correiodoestado.com.br/politica/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -6492,6 +8897,35 @@ const DADOS = {
       "https://obrasilianista.com.br/2026/09/17/politica/fabio-trad-candidato-governo-mato-grosso-sul/",
       "https://acritica.net/politica/federacao-brasil-esperanca-oficializa-fabio-trad-dona-gilda-governo-ms/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -6553,6 +8987,35 @@ const DADOS = {
       "https://correiodoestado.com.br/politica/convencao-do-psol-rede-confirma-lucien-rezende-na-disputa-pelo-governo/470182/",
       "https://www.enfoquems.com.br/federacao-psol-rede-oficializa-lucien-rezende-como-candidato-ao-governo-de-ms/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -6621,6 +9084,35 @@ const DADOS = {
       "https://ndmais.com.br/politica/riedel-consegue-direito-de-resposta-contra-catan/",
       "https://investigams.com.br/2026/08/05/joao-henrique-catan-tera-produtor-rural-como-vice/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -6664,6 +9156,35 @@ const DADOS = {
       "https://oestadoonline.com.br/politica/pco-oficializa-daniel-lemes-e-ms-chega-a-sete-candidatos-ao-governo-nas-eleicoes-de-2026/",
       "https://www.plural.jor.br/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -6791,6 +9312,35 @@ const DADOS = {
       "https://midiamax.com.br/politica/2026/barbosinha-confirma-primeira-candidatura-reeleicao-vice-governador-ms/",
       "https://www.enfoquems.com.br/plano-de-governo-de-eduardo-riedel-propoe-novo-ciclo-de-desenvolvimento-para-ms/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -6869,6 +9419,35 @@ const DADOS = {
       "https://oantagonista.com.br/brasil/ex-petista-delcidio-do-amaral-ensaia-retorno-mas-rejeicao-e-alta/",
       "https://agenciasertao.com/eleicoes/candidato/MS/mariliana-santos-solidariedade-ms--120002552154/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -6934,6 +9513,35 @@ const DADOS = {
      "fontes": [
       "https://www.plural.jor.br/mauricio-coelho-de-souza-junior/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -6985,6 +9593,35 @@ const DADOS = {
      "fontes": [
       "https://www.hnt.com.br/politica/candidatos-sobem-o-tom-de-debate-com-acusacoes-provocacoes-e-desabafo-de-laudicerio/572530"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -7036,6 +9673,35 @@ const DADOS = {
      "fontes": [
       "https://www.infomoney.com.br/politica/candidatos-governador-mato-grosso-2026/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -7097,6 +9763,35 @@ const DADOS = {
       "https://jovempan.com.br/noticias/estreante-conheca-a-medica-natasha-slhessarenko-que-disputa-governo-de-mt-e-realizou-o-sonho-da-mae/",
       "https://www.olhardireto.com.br/noticias/advogado-e-escolhido-como-vice-na-chapa-de-natasha-na-corrida-ao-governo-e-garante-pdt-na-coligacao"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -7202,6 +9897,41 @@ const DADOS = {
       "https://www.vgnoticias.com.br/politica/pivetta-anuncia-gisela-simona-como-vice-apos-renuncia-de-fabio-garcia/150370",
       "https://www.gazetadigital.com.br/editorias/judiciario/mp-ve-irregularidade-na-ata-da-reuniao-que-definiu-gisela-como-vice-de-pivetta/856599"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "consta",
+        "n": 2,
+        "itens": [
+         "Auto de infração de R$ 200,00 em 06/02/2001 (MT)",
+         "Auto de infração de R$ 200,00 em 02/07/2002 (MT)"
+        ],
+        "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -7314,6 +10044,35 @@ const DADOS = {
       "https://www.olhardireto.com.br/juridico/noticias/exibir.asp?id=38431&noticia=justica-condena-wellington-fagundes-mas-mantem-direitos-politicos",
       "https://www.infoverus.com.br/politica/empresa-de-vice-de-wellington-acumula-r-166-milhoes-em-renuncias-de-icms-e-tem-rebanho-de-suinos-penhorado-por-divida-milionaria/35216"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -7378,6 +10137,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-sao-os-candidatos-ao-governo-do-para-em-2026/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -7429,6 +10217,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-well-macedo-candidata-do-pstu-ao-governo-do-para/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -7490,6 +10307,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-araceli-lemos-que-concorre-ao-governo-do-para/",
       "https://pontodepauta.com/2026/08/03/federacao-psol-rede-oficializa-candidatura-de-araceli-lemos-para-o-governo-do-para-nesta-terca-feira-4/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -7551,6 +10397,35 @@ const DADOS = {
       "https://diariodopara.com.br/eleicoes-2026/tre-do-para-conclui-julgamento-de-791-registros-para-as-eleicoes-2026-com-onze-impugnacoes/",
       "https://revistacenarium.com.br/adversario-de-candidata-dos-barbalho-no-para-vira-alvo-de-investigacao-por-corrupcao/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -7718,6 +10593,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-hana-ghassan-mdb-candidata-ao-governo-do-para/",
       "https://www.oliberal.com/play/fatosdodia/deputado-dirceu-ten-caten-%C3%A9-o-nome-do-pt-para-ser-vice-de-hana-ghassan-nas-elei%C3%A7%C3%B5es-2026-1.1092777"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -7728,12 +10632,12 @@ const DADOS = {
      "numero": "20",
      "situacao": "abaixo_do_corte",
      "etapa": "etapa 1: idoneidade geral abaixo do corte",
-     "motivo_saida": "4.5 < 6",
-     "idoneidade_pessoal": 3.0,
+     "motivo_saida": "3.5 < 6",
+     "idoneidade_pessoal": 1.0,
      "circulo": 6.0,
-     "idoneidade_geral": 4.5,
+     "idoneidade_geral": 3.5,
      "competencia_geral": 7.25,
-     "qualificacao_geral": 5.88,
+     "qualificacao_geral": 5.38,
      "competencia": 4.5,
      "escolaridade": 10.0,
      "eco": 6.0,
@@ -7766,6 +10670,13 @@ const DADOS = {
        "peso": 2,
        "quantidade": 1,
        "descricao": "Investigação do MPPA sobre repasses de R$ 71,5 mi ao Hospital Santa Maria sem licitação formal"
+      },
+      {
+       "categoria": "sancao_institucional_confirmada",
+       "rotulo": "Sanção institucional confirmada (não criminal)",
+       "peso": 2,
+       "quantidade": 1,
+       "descricao": "Auto de infração do Ibama de R$ 1,4 mi (17/06/2024, Tomé-Açu/PA), infração contra a flora; confirmado na base oficial de autos de infração do Ibama (CPF casado por nome completo)."
       }
      ],
      "apoiadores": [
@@ -7837,8 +10748,43 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/politica/pa-bens-de-r-19-milhoes-de-prefeito-de-ananindeua-sao-alvo-de-operacao/",
       "https://www.metropoles.com/brasil/prefeito-de-ananindeua-e-afastado-por-suspeita-de-corrupcao",
       "https://portalofato.com.br/2025/10/16/pre-candidato-ao-governo-do-para-prefeito-de-ananindeua-coleciona-investigacoes-por-fraudes-corrupcao-e-desvio-de-recursos/",
+      "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
       "https://carajasojornal.com.br/ellayne-dalmeida-e-escolhida-vice-de-daniel-santos-na-disputa-pelo-governo-do-para/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Auto de infração de R$ 1.400.000,00 em 17/06/2024 (PA)"
+        ],
+        "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -7869,6 +10815,35 @@ const DADOS = {
      "achados": [],
      "apoiadores": [],
      "fontes": [],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -7901,6 +10876,35 @@ const DADOS = {
      "fontes": [
       "https://diariodopara.com.br/eleicoes-2026/candidato-deixa-corrida-ao-governo-do-para-por-problema-no-domicilio-eleitoral/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -7965,6 +10969,35 @@ const DADOS = {
      "fontes": [
       "https://www.polemicaparaiba.com.br/politica/up-registra-candidatura-de-yuri-ezequiel-ao-governo-da-paraiba-e-oficializa-chapa-para-2026/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -8016,6 +11049,35 @@ const DADOS = {
      "fontes": [
       "https://www.pbagora.com.br/noticia/politica/pco-lanca-camilo-duarte-como-candidato-ao-governo-da-paraiba/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -8068,6 +11130,35 @@ const DADOS = {
       "https://www.pbagora.com.br/noticia/politica/dc-lanca-pedro-coutinho-ao-governo-da-paraiba-e-rinaldo-junior-ao-senado/",
       "https://fonte83.com.br/politica/eleicoes-2026/dc-lanca-pedro-coutinho-ao-governo-da-paraiba-apresenta-lenilda-pereira-como-vice-e-define-rinaldo-junior-para-o-senado/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -8145,6 +11236,35 @@ const DADOS = {
       "https://www.polemicaparaiba.com.br/politica/eleicao/tre-pb-multa-efraim-filho-george-morais-evento-codevasf/",
       "https://portalcorreio.com.br/efraim-filho-oficializa-nayana-pontes-como-vice-em-chapa-ao-governo-da-paraiba/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -8312,6 +11432,35 @@ const DADOS = {
       "https://www.afonteenoticia.com.br/2026/05/tre-pb-manda-preservar-provas-contra.html",
       "https://portalcorreio.com.br/tre-condena-joao-azevedo-ligia-feliciano-e-ricardo-coutinho/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -8409,6 +11558,35 @@ const DADOS = {
       "https://blogdomiltonfigueiredo.com.br/noticias/geral/tre-aponta-cicero-lucena-quite-e-sem-registro-em-tese-de-inelegibilidade-impugnacao-segue-em-analise",
       "https://www.metropoles.com/brasil/cicero-lucena-escolhe-diogo-lima-como-vice-para-governo-na-paraiba"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -8473,6 +11651,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-guilherme-fonseca-candidato-ao-governo-de-pernambuco/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -8524,6 +11731,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-camila-falcao-candidata-ao-governo-de-pernambuco/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -8575,6 +11811,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-renan-hallais-candidato-ao-governo-de-pernambuco/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -8626,6 +11891,35 @@ const DADOS = {
      "fontes": [
       "https://focotv.com.br/2026/09/18/quem-e-victor-assis-candidato-ao-governo-de-pernambuco/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -8687,6 +11981,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-ivan-moraes-candidato-ao-governo-de-pernambuco/",
       "https://www.falanews.com.br/2026/08/federacao-psol-rede-lanca-ivan-moraes-governo-pernambuco-2026.html"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -8838,6 +12161,35 @@ const DADOS = {
       "https://www.metropoles.com/colunas/tacio-lorran/tce-pe-joao-campos",
       "https://jamildo.com/politica/saiba-quem-e-carlos-costa-vice-de-joao-campos-na-pre-candidatura-ao-governo-vao-ouvir-falar-de-mim.html"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -8953,6 +12305,35 @@ const DADOS = {
       "https://diariodopoder.com.br/brasil-e-regioes/pf-apura-suposta-arapongagem-contra-joao-campos",
       "https://portaldeprefeitura.com.br/pernambuco/raquel-confirma-permanencia-de-priscila-krause-na-chapa-para-disputar/628084/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -8993,6 +12374,35 @@ const DADOS = {
      "fontes": [
       "https://www.cbnrecife.com/2026/09/15/tre-pe-indefere-candidatura-do-professor-jeremias-do-banco-ao-governo/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -9069,6 +12479,35 @@ const DADOS = {
       "https://blogdobsilva.com.br/psdb-anuncia-ex-prefeito-paulo-eudes-como-vice-de-lucia-santos-na-disputa-pelo-governo-do-piaui",
       "https://www.plural.jor.br/paulo-eudes-carneiro/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -9121,6 +12560,35 @@ const DADOS = {
       "https://www.gp1.com.br/eleicoes-2026/noticia/2026/8/1/up-confirma-santiago-belizario-como-candidato-ao-governo-do-piaui-628427.html",
       "https://portalodia.com/blogs/piaui/unidade-popular-define-santiago-belizario-como-pre-candidato-ao-governo-do-piaui-e-thays-dias-para-vice-457709.html"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -9184,6 +12652,35 @@ const DADOS = {
       "https://portalclubenews.com/2026/09/04/tre-pi-indefere-pedido-de-registro-de-candidatura-de-geraldo-carvalho-ao-governo-do-piaui/",
       "https://www.gp1.com.br/pi/piaui/noticia/2026/8/1/pstu-oficializa-candidatura-de-geraldo-carvalho-ao-governo-do-piaui-628442.html"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -9247,6 +12744,35 @@ const DADOS = {
       "https://portalclubenews.com/2026/07/27/psol-rede-nega-pressao-nacional-e-mantem-chapa-gisvaldo-e-edilene-no-piaui/",
       "https://www.otempo.com.br/eleicoes/2026/candidatos/piaui/vice-governador/edilene-pinho-50"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -9310,6 +12836,35 @@ const DADOS = {
       "https://portalclubenews.com/2026/09/10/tre-pi-indefere-candidatura-de-lourdes-melo-e-invalida-chapa-de-ravenna-da-inclusao-ao-governo/",
       "https://agorars.com/eleicoes-2026/pi/governador/ravenna-da-inclusao-35/vice/joao-ricardo"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -9374,6 +12929,35 @@ const DADOS = {
       "https://portaldeprefeitura.com.br/bastidores-da-politica/candidata-ao-governo-do-piaui-recebe-alta-hospitalar/631536/",
       "https://cidadeverde.com/eleicoes/460605/pco-oficializa-chapa-nos-ultimos-minutos-lourdes-melo-disputa-o-governo"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -9407,7 +12991,7 @@ const DADOS = {
        "rotulo": "Contas julgadas irregulares (com ressarcimento)",
        "peso": 2,
        "quantidade": 1,
-       "descricao": "TCU julgou irregulares as contas do Idepi (2014), transitado em julgado em 2020, com ressarcimento e multa de R$ 47 mil"
+       "descricao": "TCU julgou irregulares as contas do Idepi (2014), transitado em julgado em 21/03/2026 (processo 006.099/2022-0; prazo de 8 anos até 21/03/2034), com ressarcimento e multa de R$ 47 mil"
       },
       {
        "categoria": "registro_contestado_sub_judice",
@@ -9441,9 +13025,44 @@ const DADOS = {
       "https://folhaexpressa.com/politica/tcu-envia-ao-tre-pi-decisao-que-pode-barrar-candidatura-de-elizeu-aguiar-ao-governo-do-piaui/",
       "https://lupa1.com.br/noticias/politica/mpe-pede-impugnacao-da-candidatura-de-elizeu-aguiar-por-possivel-inelegibilidade-73730.html",
       "https://www.elesbaonews.com/2026/08/elizeu-aguiar-conheca-o-perfil-limite.html",
+      "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/resultado/acordao-completo/00609920220.PROC",
       "https://www.meionews.com/politica/elizeu-aguiar-abre-disputa-ao-governo-com-candidatura-homologada-pelo-novo-no-piaui-570211",
       "https://pt.wikipedia.org/wiki/Ismar_Marques"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Contas julgadas irregulares, processo 006.099/2022-0, trânsito em julgado em 21/03/2026, prazo até 21/03/2034"
+        ],
+        "ref": "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/resultado/acordao-completo/00609920220.PROC"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -9507,6 +13126,35 @@ const DADOS = {
       "https://portalclubenews.com/2026/09/11/tre-pi-indefere-pedido-de-registro-de-candidatura-de-gustavo-henrique-ao-governo-do-piaui/",
       "https://ofator.com.br/informacao/luis-tibe-quita-divida-de-improbidade-por-mau-uso-de-verba-da-camara-de-bh/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -9615,6 +13263,35 @@ const DADOS = {
       "https://www.gp1.com.br/eleicoes-2026/noticia/2026/3/13/pt-deve-anunciar-washington-bandeira-como-vice-de-rafael-fonteles-nesta-sexta-617950.html",
       "https://pt.org.br/no-piaui-rafael-fonteles-e-o-candidato-a-governador-pelo-pt/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -9677,6 +13354,35 @@ const DADOS = {
       "https://portalclubenews.com/2026/09/15/tre-decide-indeferir-cinco-candidaturas-ao-governo-do-piaui-cabe-recurso/",
       "https://www.tnh1.com.br/noticia/nid/mafia-das-sanguessugas-justica-federal-mantem-condenacao-contra-joao-caldas/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -9775,6 +13481,35 @@ const DADOS = {
       "https://cidadeverde.com/ultimas/336968/operacao-da-pf-investiga-compra-de-votos-jeova-alencar-diz-que-e-perseguicao",
       "https://www.gp1.com.br/pi/piaui/noticia/2026/7/8/jeova-alencar-e-anunciado-como-pre-candidato-a-vice-governador-de-joel-rodrigues-626926.html"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -9840,6 +13575,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-alexandre-salomao-candidato-ao-governo-do-parana/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -9892,6 +13656,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-samuel-de-mattos-candidato-ao-governo-do-parana/",
       "https://marelimartins.com.br/2026/08/11/samuel-de-mattos-pstu-registra-candidatura-ao-governo-do-parana/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -9944,6 +13737,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-tayna-miessa-candidata-ao-governo-do-parana/",
       "https://www.plural.jor.br/poder/convencao-do-unidade-popular-oficializa-tayna-miessa-como-candidata-ao-governo/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -9995,6 +13817,35 @@ const DADOS = {
      "fontes": [
       "https://tmc.com.br/eleicoes/candidato/adriano-funileiro/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -10046,6 +13897,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-luiz-franca-candidato-ao-governo-do-parana/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -10161,6 +14041,35 @@ const DADOS = {
       "https://dpontanews.com.br/politica/denuncia-de-requiao-filho-leva-ministerio-publico-a-apurar-medidas-adotadas-na-privatizacao-da-celepar/",
       "https://www.gazetadopovo.com.br/eleicoes/2026/parana-2026/requiao-filho-define-michele-caputo-neto-como-vice/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -10286,6 +14195,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/politica/mpe-pr-defende-cassacao-do-prefeito-e-do-vice-de-curitiba/",
       "https://www.cnnbrasil.com.br/politica/justica-nega-pedido-de-cassacao-do-prefeito-de-curitiba-e-de-seu-vice/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -10367,6 +14305,35 @@ const DADOS = {
       "https://www.plural.jor.br/poder/sandro-alex-denufiep-de-mudar-estatuto-para-beneficiar-vice-de-sergio-moro/",
       "https://www.tribunapr.com.br/noticias/politica/pl-confirma-chapa-governo-parana-eleicao-2026/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -10424,6 +14391,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-andre-marinho-candidato-ao-governo-do-rio-de-janeiro/",
       "https://www.gazetadopovo.com.br/eleicoes/2026/andre-marinho-partido-novo-pre-candidato-governo-rj/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -10467,6 +14463,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/rj/governador/cyro-garcia-pstu-16/",
       "https://www.tribunanf.com.br/pstu-confirma-candidatura-de-cyro-garcia-ao-governo-do-estado-do-rio/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -10510,6 +14535,35 @@ const DADOS = {
       "https://www.italvaemfoco.com.br/2026/09/juliete-pantoja-quem-e-unica-mulher-no.html",
       "https://agendadopoder.com.br/up-oficializa-juliete-pantoja-como-candidata-ao-governo-do-rio/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -10554,6 +14608,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/rj/governador/william-siri-psol-50/",
       "https://www.cnnbrasil.com.br/eleicoes/psol-oficializa-william-siri-como-pre-candidato-ao-governo-do-rj/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -10607,6 +14690,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/rj/governador/coronel-busnello-missao-14/",
       "https://apublica.org/2026/07/partido-missao-o-projeto-de-poder-de-renan-santos-e-do-mbl/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -10660,6 +14772,35 @@ const DADOS = {
       "https://www.infomoney.com.br/politica/candidatos-governador-rio-de-janeiro-2026/",
       "https://www.tse.jus.br/partidos/contas-partidarias/prestacao-de-contas/relacao-de-processos/relacao-de-processos-partido-pco"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -10800,6 +14941,35 @@ const DADOS = {
       "https://noticias.stf.jus.br/postsnoticias/acoes-contra-eduardo-paes-por-suposto-caixa-2-irao-para-a-justica-eleitoral-decide-stf/",
       "https://platobr.com.br/os-nomes-aventados-para-a-vice-de-eduardo-paes-em-2026"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -10880,6 +15050,35 @@ const DADOS = {
       "https://www.itatiaia.com.br/politica/flavio-bolsonaro-e-claudio-castro-anunciam-douglas-ruas-para-o-governo-do-rio-em-2026/",
       "https://www.tse.jus.br/comunicacao/noticias/2026/Marco/tse-torna-inelegivel-ex-governador-do-rio-claudio-castro"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -10970,6 +15169,40 @@ const DADOS = {
       "https://www.noticiasdebelfordroxo.com/2026/04/tjrj-mantem-condenacao-de-waguinho-por.html",
       "https://www.metropoles.com/colunas/tacio-lorran/justica-do-rj-torna-waguinho-reu-em-caso-de-fraude-a-licitacao"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Impedimento/proibição de contratar com prazo determinado (início 11/07/2025, vigente)"
+        ],
+        "ref": "https://portaldatransparencia.gov.br/sancoes/consulta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -11036,6 +15269,35 @@ const DADOS = {
       "https://saibamais.jor.br/2026/07/up-lanca-diarista-e-militante-do-mlb-para-o-governo-do-rn/",
       "https://www.opotiguar.com.br/up-lanca-arinalda-medeiros-como-candidata-ao-governo-do-rio-grande-do-norte"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -11088,6 +15350,35 @@ const DADOS = {
       "https://tribunadonorte.com.br/natal/pstu-realiza-convencao-e-oficializa-candidatura-de-dario-barbosa-a-governador-do-rn/",
       "https://www.novonoticias.com.br/pstu-lanca-dario-barbosa-ao-governo-do-rn-e-anuncia-rosalia-fernandes-para-disputar-o-senado-em-2026/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -11141,6 +15432,35 @@ const DADOS = {
       "https://www.opotiguar.com.br/agir-lanca-rodrigo-bolsonaro-como-candidato-ao-governo-do-rio-grande-do-norte",
       "https://agorarn.com.br/politica/karlo-rodrigo-bolsonaro-urna-2026/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -11230,6 +15550,35 @@ const DADOS = {
       "https://psb40.org.br/larissa-rosado-e-anunciada-candidata-a-vice-governadora-ao-governo-do-rn/",
       "https://saibamais.jor.br/2026/08/lula-vem-a-natal-nesta-quinta-para-apoio-a-cadu-e-ao-time-que-cuida/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -11291,6 +15640,35 @@ const DADOS = {
       "https://tribunadonorte.com.br/politica/professor-roberio-paulino-assegura-vaga-na-disputa-ao-governo-pelo-psol/",
       "https://98fmnatal.com.br/destaque_mais/psol-rede-homologa-chapa-majoritaria-e-oficializa-candidaturas-para-as-eleicoes-de-2026-no-rn/365301/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -11351,6 +15729,35 @@ const DADOS = {
       "https://saibamais.jor.br/2026/08/rn-podera-ter-reducao-no-numero-de-candidatos-a-governador-entenda/",
       "https://tmc.com.br/eleicoes/candidato/henrique-lyra/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -11404,6 +15811,35 @@ const DADOS = {
       "https://www.blogdogm.com.br/tre-rn-confirma-candidatura-de-godeiro-linharess-ao-governo-do-rn-pelo-dc-27/",
       "https://www.bnewsrn.com.br/noticias/politica/saiba-quem-e-o-novo-candidato-ao-governo-do-rn-entenda-a-situacao.html"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -11531,6 +15967,35 @@ const DADOS = {
       "https://saibamais.jor.br/2026/02/hermano-confirma-convite-para-vice-de-allyson-suspeito-de-receber-propina/",
       "https://tribunadonorte.com.br/politica/coligacao-de-allyson-reune-8-partidos/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -11629,6 +16094,35 @@ const DADOS = {
       "https://www.opotiguar.com.br/multas-do-caso-rn-verdade-chegam-a-r-175-mil-com-nova-condenacao-de-alvaro-no-tre",
       "https://agorarn.com.br/politica/alvaro-dias-confirma-baba-pereira-como-candidato-a-vice-na-disputa-para-o-governo-do-rn/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -11670,6 +16164,35 @@ const DADOS = {
       "https://novonoticias.com.br/dc-substitui-carlos-jararaca-por-godeiro-linhares-na-disputa-pelo-governo-do-rn/",
       "https://ibandrn.com.br/eleicoes-na-band-godeiro-linhares-assume-candidatura-ao-governo-do-rn-apos-registro-de-carlos-jararaca-ser-indeferido/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -11734,6 +16257,35 @@ const DADOS = {
      "fontes": [
       "https://www.agenciarondonia.com/2026/09/por-7x0-trero-mantem-samuel-costa-e.html"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -11795,6 +16347,35 @@ const DADOS = {
       "https://www.otempo.com.br/eleicoes/2026/candidatos/rondonia/governador/pedro-abib-15",
       "https://painelpolitico.com/mdb-fecha-chapa-em-rondonia-pedro-adib-governador-e-amir-lando-vice"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -11883,6 +16464,35 @@ const DADOS = {
       "https://www.irecelider.com.br/noticias-do-mundo/i/4c90ea21e2159839b871f1ca198e2cc5/pt-lanca-expedito-netto-como-candidato-governo-de-rondonia",
       "https://tribunapopular.com.br/pt-confirma-expedito-netto-na-disputa-pelo-governo-de-rondonia/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -11961,6 +16571,35 @@ const DADOS = {
       "https://tvcaboquinho.com/noticia/8002/escandalo-em-porto-velho-gestao-hildon-chaves-pode-ter-desviado-r-4-milhoes-destinados-a-cuidados-veterinarios",
       "https://www.rolnews.com.br/noticia/federacao-uniao-progressista-lanca-hildon-chaves-como-candidato-ao-governo-de-rondonia"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -12049,6 +16688,35 @@ const DADOS = {
       "https://www.rondoniagora.com/politica/apos-tony-pablo-tce-aponta-graves-irregularidades-na-gestao-de-adailton-furia-em-cacoal",
       "https://www.hojeamazonia.com.br/noticia/convencao-do-psd-ira-lancar-adailton-furia-ao-governo-de-rondonia-e-everton-leoni-como-vice"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -12146,6 +16814,35 @@ const DADOS = {
       "https://newsrondonia.com.br/policia/2026/09/09/pf-deflagra-operacao-dreno-para-apurar-possivel-desvio-de-recursos-do-fundo-eleitoral-em-rondonia",
       "https://newsrondonia.com.br/politica/2026/07/23/marcos-rogerio-e-confirmado-ao-governo-de-rondonia-com-apoio-de-quatro-partidos"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -12221,6 +16918,35 @@ const DADOS = {
       "https://roraima1.com.br/farah-mesquita-e-oficializado-candidato-ao-governo-de-roraima-pelo-solidariedade/",
       "https://www.folhabv.com.br/politica/farah-mesquita-vira-candidato-ao-governo-e-hilton-xavier-e-oficializado-para-o-senado/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -12308,6 +17034,35 @@ const DADOS = {
      "fontes": [
       "https://www.folhabv.com.br/politica/psol-rede-lanca-rosi-aires-ao-governo-e-define-barto-macuxi-e-mario-rocha-para-o-senado/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -12413,6 +17168,35 @@ const DADOS = {
       "https://roraima1.com.br/mp-eleitoral-investiga-suposto-uso-de-servidores-para-divulgar-campanha-de-soldado-sampaio-na-eleicao-suplementar-de-rr/",
       "https://republicanos10.org.br/nacional/republicanos-oficializa-soldado-sampaio-como-candidato-ao-governo-de-roraima-em-eleicao-suplementar/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -12484,6 +17268,40 @@ const DADOS = {
       "https://portalofato.com.br/2026/09/22/justica-rejeita-acao-contra-arthur-henrique-por-suposta-propaganda-irregular-no-instagram/",
       "https://roraima1.com.br/arthur-henrique-anuncia-haroldo-cathedral-como-candidato-a-vice-ao-governo-de-roraima/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Fundamento citado no julgamento do registro: Ausência de desincompatibilização (LC 64/90)"
+        ],
+        "ref": "https://dadosabertos.tse.jus.br/dataset/candidatos-2022"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -12524,6 +17342,35 @@ const DADOS = {
      "fontes": [
       "https://roraima1.com.br/tre-indefere-candidatura-de-clebio-genuino-do-pco-ao-governo-de-roraima/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -12600,6 +17447,35 @@ const DADOS = {
       "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-marcelo-maranata-pre-candidato-ao-governo-do-rs/",
       "https://www.jornaldocomercio.com/politica/2026/05/1250055-claudio-diaz-aceita-ser-vice-na-chapa-de-marcelo-maranata.html"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -12651,6 +17527,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-sao-os-candidatos-a-governador-do-rio-grande-do-sul-em-2026/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -12702,6 +17607,35 @@ const DADOS = {
      "fontes": [
       "https://www.infomoney.com.br/politica/candidatos-governador-rs-2026/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -12753,6 +17687,35 @@ const DADOS = {
      "fontes": [
       "https://www.infomoney.com.br/politica/candidatos-governador-rs-2026/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -12850,6 +17813,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/mdb-lanca-gabriel-souza-ao-governo-do-rs-com-discurso-contra-polarizacao/",
       "https://claudemirpereira.com.br/2026/06/eleicoes-2026-gabriel-souza-e-ernani-polo-lancam-pre-candidatura-ao-governo-do-rio-grande-do-sul/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -12965,6 +17957,35 @@ const DADOS = {
       "https://www.nsctotal.com.br/politica/eleicoes-2026-quem-e-juliana-brizola-candidata-do-pdt-para-o-governo-do-rio-grande-do-sul",
       "https://www.metropoles.com/brasil/rs-edegar-pretto-sera-vice-na-chapa-de-juliana-brizola-ao-governo"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -13089,6 +18110,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/politica/moraes-arquiva-apuracao-contra-zucco-por-suposto-incentivo-a-atos-antidemocraticos/",
       "https://sul21.com.br/noticias/politica/2026/04/silvana-covatti-sera-vice-de-zucco-em-chapa-para-concorrer-ao-governo-do-rs/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -13155,6 +18205,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-lais-paganelli-chaud-candidata-ao-governo-de-santa-catarina/",
       "https://www.nsctotal.com.br/noticias/pre-candidata-da-unidade-popular-ao-governo-de-sc-confirma-nome-de-vice-para-as-eleicoes-2026"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -13207,6 +18286,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-marcus-sodre-candidato-ao-governo-de-santa-catarina/",
       "https://www.nsctotal.com.br/politica/eleicoes-2026-professora-taty-candidata-vice-governadora-pstu-sc"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -13259,6 +18367,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-bruno-pedreiro-do-pco-candidato-ao-governo-de-santa-catarina/",
       "https://ndmais.com.br/politica/pco-confirma-brunno-dias-como-candidato-ao-governo-de-santa-catarina/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -13321,6 +18458,35 @@ const DADOS = {
       "https://ndmais.com.br/politica/quem-e-ralf-zimmer-historia-carreira-e-disputas-pelo-governo-de-sc/",
       "https://ndmais.com.br/politica/carlos-bordin-vice-de-ralf-zimmer-para-candidatura-na-disputa-de-sc/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -13374,6 +18540,35 @@ const DADOS = {
       "https://fesporte.sc.gov.br/eventos/geral/item/3851-marcelo-brigadeiro-assume-diretoria-de-esporte-da-fesporte/3851-marcelo-brigadeiro-assume-diretoria-de-esporte-da-fesporte",
       "https://www.nsctotal.com.br/politica/eleicoes-2026-coronel-rodrigues-candidato-vice-governador-missao-sc"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -13489,6 +18684,35 @@ const DADOS = {
       "https://www.karinamanarin.com.br/artigo/a-denuncia-de-suposto-enriquecimento-ilicito-de-gelson-merisio/",
       "https://jornalrazao.com/politica/gelson-merisio-plano-de-governo-14-missoes-governo-de-sc"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -13625,6 +18849,35 @@ const DADOS = {
       "https://ndmais.com.br/politica/novo-lanca-adriano-silva-vice-governador-sc-encontro-joinville-2026/",
       "https://www.blogdoprisco.com.br/indicios-de-corrupcao-e-favorecimento-em-prefeitura-do-novo-em-joinville/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -13715,6 +18968,35 @@ const DADOS = {
       "https://ndmais.com.br/politica/justica-federal-absolve-joao-rodrigues-em-processo-da-merenda-escolar/",
       "https://upiara.com.br/noticias/joao-rodrigues-e-oficializado-ao-governo-chiodini-sera-vice-e-antidio-disputa-o-senado/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -13780,6 +19062,35 @@ const DADOS = {
      "fontes": [
       "https://infonet.com.br/noticias/politica/psdb-cidadania-oficializa-candidatura-de-emanuel-cacho-ao-governo-de-se/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -13841,6 +19152,35 @@ const DADOS = {
       "https://www.plural.jor.br/jose-helton-silva-monteiro/",
       "https://www.metropoles.com/brasil/psol-rede-lanca-candidatura-de-dr-helton-monteiro-ao-governo-do-se"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -13892,6 +19232,35 @@ const DADOS = {
      "fontes": [
       "https://www.metropoles.com/brasil/convencao-do-pl-lanca-ricardo-marques-para-o-governo-de-sergipe"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -13944,6 +19313,35 @@ const DADOS = {
       "https://www.plural.jor.br/tatiana-cristina-santos-de-jesus/",
       "https://ndmais.com.br/eleicoes/2026/candidatos/se/governador/27-taty-cristina-de-jesus/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -14059,6 +19457,35 @@ const DADOS = {
       "https://manguejornalismo.org/governador-pede-abertura-de-inqueritos-penal-e-civil-contra-presidente-do-sindicato-dos-professores/",
       "https://roacontece.com.br/2026/09/08/coligacao-de-fabio-valoriza-candidaturas-femininas-nas-eleicoes-de-2026/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -14137,6 +19564,41 @@ const DADOS = {
       "https://jornaldodiase.com.br/francisquinho-nao-e-vitima-responde-por-erros-politicos-e-administrativos/",
       "https://clicksergipe.com.br/cotidiano/99/108706/em-20-de-julho,-republicanos-oficializa-valmir-de-francisquinho-e-priscila-felizola-em-convencao-estadual.html"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "consta",
+        "n": 2,
+        "itens": [
+         "Fundamento citado no julgamento do registro: Ficha limpa (LC 64/90)",
+         "Fundamento citado no julgamento do registro: Abuso de poder (LC 64/90)"
+        ],
+        "ref": "https://dadosabertos.tse.jus.br/dataset/candidatos-2022"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -14195,6 +19657,35 @@ const DADOS = {
       "https://www.metropoles.com/sao-paulo/pcb-candidato-governo-sao-paulo",
       "https://www.cnnbrasil.com.br/eleicoes/pcb-oficializa-candidatura-de-carlos-machado-ao-governo-de-sao-paulo/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -14238,6 +19729,35 @@ const DADOS = {
       "https://almapreta.com.br/sessao/politica/vera-lucia-pstu-governo-sp/",
       "https://www.cnnbrasil.com.br/eleicoes/pstu-oficializa-candidatura-de-vera-lucia-ao-governo-de-sao-paulo/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -14291,6 +19811,35 @@ const DADOS = {
       "https://www.metropoles.com/sao-paulo/quem-e-vivian-mendes-candidata-da-up-ao-governo-de-sao-paulo",
       "https://www.gazetadopovo.com.br/eleicoes/2026/sao-paulo-2026/quem-sao-candidatos-governador-sao-paulo-2026/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -14353,6 +19902,35 @@ const DADOS = {
       "https://www.metropoles.com/sao-paulo/quem-e-izadora-dias-candidata-do-pco-ao-governo-de-sao-paulo",
       "https://www.gazetadopovo.com.br/eleicoes/2026/sao-paulo-2026/quem-sao-candidatos-governador-sao-paulo-2026/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -14414,6 +19992,35 @@ const DADOS = {
       "https://www.piranot.com.br/2026/09/18/noticias/politica/eleicoes/agir-apoia-tarcisio-tre-sp-indefere-chapa-policial-edjane/",
       "https://www.terra.com.br/noticias/brasil/politica/policial-edjane-registra-candidatura-ao-governo-de-sao-paulo-e-nao-declara-possuir-bens,26f409727ff030f1ae0fd7093303f694a1fkoy4o.html"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -14589,6 +20196,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/eleicoes/2026/sao-paulo-2026/tarcisio-kassab-disputam-base-politica/",
       "https://www.gazetadopovo.com.br/eleicoes/2026/tarcisio-confirma-bolsonaro-candidatura-reeleicao-sp-apoio-flavio-presidencia/"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -14693,6 +20329,35 @@ const DADOS = {
       "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/",
       "https://www.metropoles.com/colunas/andreza-matais/dirigentes-do-inss-delataram-carlos-lupi-ex-ministro-da-previdencia-de-lula"
      ],
+     "verificacao": {
+      "nivel": "padrao",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -14757,6 +20422,35 @@ const DADOS = {
      "fontes": [
       "https://ndmais.com.br/politica/com-aval-da-justica-democrata-substitui-candidato-ao-governo-do-tocantins-a-20-dias-das-eleicoes/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -14817,6 +20511,35 @@ const DADOS = {
       "https://www.jornalopcao.com.br/tocantins/ex-senador-ataides-oliveira-diz-que-recebeu-proposta-de-propina-e-ameacas-para-nao-denunciar-sistema-s-166398/",
       "https://atitudeto.com.br/politica/novo-homologa-ataides-ao-governo-e-apresenta-subtenente-rosoleia-como-vice-em-convencao-nesta-terca-feira/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -14878,6 +20601,35 @@ const DADOS = {
       "https://tocantins.jornalopcao.com.br/noticias/witer-naves-di-que-psol-rede-representa-caminho-novo-e-se-coloca-como-unico-nome-da-esquerda-na-disputa-pelo-governo-do-tocantins-594602/",
       "https://conexaoto.com.br/2026/07/22/rede-psol-e-a-primeira-federacao-a-oficializar-candidaturas-no-tocantins"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -14948,6 +20700,35 @@ const DADOS = {
       "https://gazetadoparana.com.br/artigo/empresa-fantasma-de-esposa-que-movimentou-r170-milhoes-assomba-campanha-de-vicentinho-junior",
       "https://obrasilianista.com.br/2026/09/22/politica/vicentinho-junior-candidato-governo-tocantins"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15000,6 +20781,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/to/governador/du-pereira-dc-27/",
       "https://tocantins.jornalopcao.com.br/bastidores/democracia-cristaoficializa-empresario-du-pereira-como-candidato-ao-governo-do-tocantins-596102/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15098,6 +20908,35 @@ const DADOS = {
       "https://tocantins.jornalopcao.com.br/noticias/decreto-oficializa-comissao-que-revisara-atos-dos-93-dias-da-gestao-interina-de-laurez-moreira-575921/",
       "https://conexaoto.com.br/2026/08/05/laurez-moreira-e-oficializado-candidato-ao-governo-do-tocantins-pela-coligacao-pra-frente-tocantins"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15214,6 +21053,35 @@ const DADOS = {
       "https://agora-to.com.br/tre-to-manda-apagar-montagem-que-associava-dorinha-a-apreensao-de-r-900-mil-investigada-pela-pf/",
       "https://atitudeto.com.br/politica/coligacao-de-dorinha-reune-148-candidaturas-e-oito-legendas-na-disputa-eleitoral-no-tocantins-veja-nomes/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15254,6 +21122,35 @@ const DADOS = {
      "fontes": [
       "https://ndmais.com.br/politica/com-aval-da-justica-democrata-substitui-candidato-ao-governo-do-tocantins-a-20-dias-das-eleicoes/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -15311,6 +21208,35 @@ const DADOS = {
       "https://www.correiobraziliense.com.br/politica/2026/08/7489268-quem-e-clariana-barao-candidata-a-presidencia-pelo-dc.html",
       "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-o-perfil-e-as-propostas-de-clariana-barao-dc"
      ],
+     "verificacao": {
+      "nivel": "aprofundada",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15355,6 +21281,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/br/presidente/edmilson-costa-pcb-21/",
       "https://www.nsctotal.com.br/politica/eleicoes-2026-edmilson-costa-candidato-pcb-presidente-da-republica"
      ],
+     "verificacao": {
+      "nivel": "aprofundada",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15398,6 +21353,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-hertz-dias-candidato-a-presidencia-pelo-pstu/",
       "https://www.correiobraziliense.com.br/politica/2026/08/7489635-quem-e-hertz-dias-o-rapper-candidato-a-presidente-pelo-pstu.html"
      ],
+     "verificacao": {
+      "nivel": "aprofundada",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15441,6 +21425,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-samara-martins-unica-pre-candidata-mulher-a-presidencia/",
       "https://www.cartacapital.com.br/politica/quem-e-samara-martins-pre-candidata-a-presidencia-em-2026-pelo-unidade-popular/"
      ],
+     "verificacao": {
+      "nivel": "aprofundada",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15484,6 +21497,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/br/presidente/veterinario-wilson-grassi-democrata-35/",
       "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/democrata-tem-veterinario-wilson-grassi-na-disputa-presidencial"
      ],
+     "verificacao": {
+      "nivel": "aprofundada",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15552,6 +21594,35 @@ const DADOS = {
       "https://www.tse.jus.br/comunicacao/noticias/2024/Maio/tse-multa-governador-de-minas-gerais-por-conduta-vedada-na-campanha-eleitoral-de-2022",
       "https://www.gazetadopovo.com.br/eleicoes/2026/sem-vice-definido-novo-confirma-zema-na-disputa-pela-presidencia/"
      ],
+     "verificacao": {
+      "nivel": "aprofundada",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15605,6 +21676,35 @@ const DADOS = {
       "https://ndmais.com.br/eleicoes/2026/candidatos/brasil/presidente/70-escritor-augusto-cury/",
       "https://www.camara.leg.br/noticias/463343-julio-delgado-nega-envolvimento-em-esquema-denunciado-por-ricardo-pessoa"
      ],
+     "verificacao": {
+      "nivel": "aprofundada",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15682,6 +21782,35 @@ const DADOS = {
       "https://revistaoeste.com/politica/ferro-no-rabo-lider-do-mbl-e-condenado-a-indenizar-deputado-do-pl/",
       "https://apublica.org/2026/07/partido-missao-o-projeto-de-poder-de-renan-santos-e-do-mbl/"
      ],
+     "verificacao": {
+      "nivel": "aprofundada",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15758,6 +21887,35 @@ const DADOS = {
       "https://www.tse.jus.br/partidos/contas-partidarias/prestacao-de-contas/relacao-de-processos/relacao-de-processos-partido-pco",
       "https://www.brasil247.com/brasil/pco-acusa-tse-de-sabotagem-por-bloqueio-de-fundo-eleitoral-durante-campanha"
      ],
+     "verificacao": {
+      "nivel": "aprofundada",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15817,6 +21975,35 @@ const DADOS = {
       "https://agenciabrasil.ebc.com.br/justica/noticia/2025-04/tre-go-afasta-inelegibilidade-de-governador-ronaldo-caiado",
       "https://www.correiobraziliense.com.br/politica/2021/03/4911463-kassab-vira-reu-por-corrupcao-caixa-2-e-lavagem-de-rs-165-milhoes-da-jbs.html"
      ],
+     "verificacao": {
+      "nivel": "aprofundada",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15898,6 +22085,35 @@ const DADOS = {
       "https://www.jota.info/eleicoes/eleicoes-2026/lula-confirma-alckmin-como-vice-na-chapa-para-as-eleicoes-2026",
       "https://www.gazetadopovo.com.br/republica/decisao-mendes-espaco-jose-dirceu-disputar-eleicao-2026/"
      ],
+     "verificacao": {
+      "nivel": "aprofundada",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -15979,6 +22195,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/republica/silenciado-e-preso-pelo-stf-jair-bolsonaro-seguira-como-fiador-da-direita-em-2026/",
       "https://agenciabrasil.ebc.com.br/justica/noticia/2025-09/bolsonaro-pode-ficar-inelegivel-ate-2060-apos-condenacao"
      ],
+     "verificacao": {
+      "nivel": "aprofundada",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16044,6 +22289,35 @@ const DADOS = {
       "https://ndmais.com.br/politica/vice-de-marcal-saiba-quem-e-leonardo-avalanche-presidente-prtb/",
       "https://www.brasildefato.com.br/2026/08/20/vice-de-marcal-e-reu-por-associacao-criminosa-violencia-politica-de-genero-e-fraude-no-prtb/"
      ],
+     "verificacao": {
+      "nivel": "aprofundada",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16092,6 +22366,35 @@ const DADOS = {
       "https://www.tre-sp.jus.br/comunicacao/noticias/2025/Novembro/pablo-marcal-tem-condenacao-a-inelegibilidade-revertida-em-segunda-instancia",
       "https://www.jota.info/eleicoes/eleicoes-2026/quem-e-pablo-marcal-candidato-a-presidente-que-deve-ser-barrado-pela-lei-da-ficha-limpa"
      ],
+     "verificacao": {
+      "nivel": "aprofundada",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -16146,6 +22449,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16205,6 +22537,35 @@ const DADOS = {
      "fontes": [
       "https://acrenews.com.br/presidida-pelo-ex-governador-do-acre-jorge-viana-apex-passa-a-ser-investigada-por-falta-de-transparencia-nos-gastos/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16254,6 +22615,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16314,6 +22704,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/politica/quem-e-eduardo-velloso-deputado-alvo-da-pf-em-desvio-de-emendas-pix/",
       "https://ac24horas.com/2026/08/31/eduardo-velloso-nega-envolvimento-em-operacao-da-pf-nada-a-ver-com-isso/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16354,6 +22773,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16421,6 +22869,35 @@ const DADOS = {
       "https://conjur.com.br/2017-set-19/acusado-corrupcao-petecao-absolvido-falta-provas/",
       "https://radar.congressoemfoco.com.br/parlamentar/24560/inqueritos"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16481,6 +22958,40 @@ const DADOS = {
       "https://www.jota.info/stf/do-supremo/inquerito-que-investiga-marcio-bittar-por-uso-de-cota-parlamentar-fica-no-stf",
       "https://ac24horas.com/2026/04/23/urgente-jorge-viana-aciona-stf-e-flavio-dino-investiga-emendas-de-bittar-a-santa-casa-e-obras-de-infraestrutura/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Auto de infração de R$ 1.330,00 em 02/07/2004 (AC)"
+        ],
+        "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16549,6 +23060,35 @@ const DADOS = {
       "https://revistaoeste.com/politica/tre-do-acre-barra-candidatura-de-ex-governador-gladson-cameli-ao-senado/",
       "https://portalacre.com.br/2026/09/operacao-que-tem-ex-governador-gladson-como-um-dos-alvos-apreende-r-1-milhao-que-seria-supostamente-usado-para-compra-de-votos/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -16603,6 +23143,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16643,6 +23212,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16683,6 +23281,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16723,6 +23350,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16766,57 +23422,35 @@ const DADOS = {
       "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=509227&ori=1",
       "https://www.correiobraziliense.com.br/app/noticia/politica/2019/12/03/interna_politica,811234/stf-aceita-denuncia-e-renan-calheiros-vira-reu-na-lava-jato.shtml"
      ],
-     "empate": 0
-    },
-    {
-     "sq": "20002553272",
-     "nome_urna": "ARTHUR LIRA",
-     "nome_completo": "ARTHUR CESAR PEREIRA DE LIRA",
-     "partido": "PP",
-     "numero": "111",
-     "situacao": "segue",
-     "etapa": null,
-     "motivo_saida": null,
-     "idoneidade_pessoal": 9.0,
-     "circulo": 9.0,
-     "idoneidade_geral": 9.0,
-     "competencia_geral": 7.75,
-     "qualificacao_geral": 8.38,
-     "competencia": 5.5,
-     "escolaridade": 10.0,
-     "eco": 6.5,
-     "pes": 3.5,
-     "posicao_fonte": "pesquisa individual",
-     "nivel_eco": "c",
-     "nivel_pes": "c",
-     "quadrante": "DIREITA",
-     "fronteira": false,
-     "camadas": 3,
-     "cobertura": "idoneidade; círculo político; posicionamento (econômico c, pessoal c)",
-     "achados": [
-      {
-       "categoria": "citado_ou_apuracao_preliminar",
-       "rotulo": "Citado ou em apuração preliminar",
-       "peso": 1,
-       "quantidade": 1,
-       "descricao": "A PF apreendeu, em dez/2025 (Operação Transparência), planilhas de emendas parlamentares e uma anotação no endereço de Mariângela Fialek ('Tuca'), ex-assessora de confiança dele quando presidia a Câmara (2021-2022); a anotação levanta suspeita de continuidade do 'orçamento secreto' mesmo após a proibição do STF (fim de 2022). A investigação mira a ex-assessora, e a PF ainda não concluiu que houve irregularidade no destino dos recursos; ele não foi formalmente nomeado investigado nesta apuração."
-      }
-     ],
-     "apoiadores": [
-      {
-       "nome": "Ciro Nogueira",
-       "partido": "PP",
-       "ligacao": "presidente do partido do candidato",
-       "detalhe": "preside o PP, partido do candidato",
-       "pendencia": "Alvo da PF na Operação Compliance Zero (Caso Banco Master), suspeita de propina de Daniel Vorcaro em troca de atuação legislativa favorável ao banco; sem denúncia até a pesquisa",
-       "desconto": 1,
-       "contado": true
-      }
-     ],
-     "fontes": [
-      "https://www.brasil247.com/regionais/brasilia/pf-encontra-planilhas-de-emendas-com-ex-assessora-de-arthur-lira",
-      "https://www.satelitenoticias.com.br/2026/07/anotacao-apreendida-pela-pf-levanta.html"
-     ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16867,6 +23501,130 @@ const DADOS = {
      "fontes": [
       "https://www.gazetaweb.com/noticias/politica/mdb-contesta-candidatura-de-marina-candia-ao-senado-e-cita-vinculos-com-cesmac-e-prefeitura-de-maceio-931248"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
+     "empate": 0
+    },
+    {
+     "sq": "20002553272",
+     "nome_urna": "ARTHUR LIRA",
+     "nome_completo": "ARTHUR CESAR PEREIRA DE LIRA",
+     "partido": "PP",
+     "numero": "111",
+     "situacao": "segue",
+     "etapa": null,
+     "motivo_saida": null,
+     "idoneidade_pessoal": 7.0,
+     "circulo": 9.0,
+     "idoneidade_geral": 8.0,
+     "competencia_geral": 7.75,
+     "qualificacao_geral": 7.88,
+     "competencia": 5.5,
+     "escolaridade": 10.0,
+     "eco": 6.5,
+     "pes": 3.5,
+     "posicao_fonte": "pesquisa individual",
+     "nivel_eco": "c",
+     "nivel_pes": "c",
+     "quadrante": "DIREITA",
+     "fronteira": false,
+     "camadas": 3,
+     "cobertura": "idoneidade; círculo político; posicionamento (econômico c, pessoal c)",
+     "achados": [
+      {
+       "categoria": "citado_ou_apuracao_preliminar",
+       "rotulo": "Citado ou em apuração preliminar",
+       "peso": 1,
+       "quantidade": 1,
+       "descricao": "A PF apreendeu, em dez/2025 (Operação Transparência), planilhas de emendas parlamentares e uma anotação no endereço de Mariângela Fialek ('Tuca'), ex-assessora de confiança dele quando presidia a Câmara (2021-2022); a anotação levanta suspeita de continuidade do 'orçamento secreto' mesmo após a proibição do STF (fim de 2022). A investigação mira a ex-assessora, e a PF ainda não concluiu que houve irregularidade no destino dos recursos; ele não foi formalmente nomeado investigado nesta apuração."
+      },
+      {
+       "categoria": "investigacao_ou_acao_civil_em_curso",
+       "rotulo": "Investigação ou ação civil em curso",
+       "peso": 2,
+       "quantidade": 1,
+       "descricao": "Condenado por improbidade na Operação Taturana (TJAL, 2012; recurso rejeitado pela 3ª Câmara Cível: perda da função, suspensão de direitos políticos por 5 anos e multa de R$ 43 mil). O STJ anulou a condenação por vício processual (falta de notificação prévia dupla) e mandou refazer o julgamento; não localizei o resultado do novo julgamento. O CEIS ainda lista um impedimento de contratar com o poder público de 28/11/2016 a 28/11/2026 baseado nessa decisão."
+      }
+     ],
+     "apoiadores": [
+      {
+       "nome": "Ciro Nogueira",
+       "partido": "PP",
+       "ligacao": "presidente do partido do candidato",
+       "detalhe": "preside o PP, partido do candidato",
+       "pendencia": "Alvo da PF na Operação Compliance Zero (Caso Banco Master), suspeita de propina de Daniel Vorcaro em troca de atuação legislativa favorável ao banco; sem denúncia até a pesquisa",
+       "desconto": 1,
+       "contado": true
+      }
+     ],
+     "fontes": [
+      "https://www.brasil247.com/regionais/brasilia/pf-encontra-planilhas-de-emendas-com-ex-assessora-de-arthur-lira",
+      "https://www.satelitenoticias.com.br/2026/07/anotacao-apreendida-pela-pf-levanta.html",
+      "https://www.br104.com.br/justica/stj-anula-condenacao-por-improbidade-administrativa-contra-arthur-lira-e-determina-novo-julgamento/",
+      "https://canalcienciascriminais.com.br/stj-anula-condenacao-arthur-lira/",
+      "https://portaldatransparencia.gov.br/sancoes/consulta"
+     ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Impedimento/proibição de contratar com prazo determinado (início 28/11/2016, vigente)"
+        ],
+        "ref": "https://portaldatransparencia.gov.br/sancoes/consulta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -16921,6 +23679,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -16979,6 +23766,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17019,6 +23835,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17059,6 +23904,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17101,6 +23975,35 @@ const DADOS = {
      "fontes": [
       "https://ndmais.com.br/eleicoes/2026/candidatos/am/senador/181-ismael-munduruku/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17152,6 +24055,35 @@ const DADOS = {
       "https://www.metropoles.com/brasil/policia-br/pf-operacao-amazonas-wilson-lima",
       "https://agenciabrasil.ebc.com.br/saude/noticia/2021-06/governador-do-amazonas-e-alvo-de-operacao-da-policia-federal"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17194,6 +24126,35 @@ const DADOS = {
      "fontes": [
       "https://www.metropoles.com/colunas/grande-angular/deputado-alberto-neto-foi-acusado-de-agressoes-e-abandono-pela-ex"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17234,6 +24195,42 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "consta",
+        "n": 3,
+        "itens": [
+         "Auto de infração de R$ 25.000,00 em 30/09/2002 (AM)",
+         "Auto de infração de R$ 1.500,00 em 31/07/2009 (AM)",
+         "Auto de infração de R$ 1.500,00 em 30/12/2004 (AM)"
+        ],
+        "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17300,6 +24297,35 @@ const DADOS = {
       "https://amazonasatual.com.br/stf-decreta-sigilo-em-inquerito-que-investiga-braga-por-esquema-da-jf/",
       "https://www.gazetadopovo.com.br/republica/defesa-de-eduardo-braga-contesta-acusacoes-de-propina-em-caso-de-farmaceutica/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -17354,6 +24380,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17394,6 +24449,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17445,6 +24529,35 @@ const DADOS = {
       "https://www12.senado.leg.br/noticias/materias/2010/11/19/tre-ap-declara-joao-capiberibe-eleito-ao-senado",
       "https://en.wikipedia.org/wiki/Jo%C3%A3o_Capiberibe"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17504,6 +24617,35 @@ const DADOS = {
      "fontes": [
       "https://www.gazetadopovo.com.br/eleicoes/2026/randolfe-alvo-acao-suposta-campanha-antecipada-amapa/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17563,6 +24705,35 @@ const DADOS = {
      "fontes": [
       "https://www.diariodoamapa.com.br/blogs/paulo-silva/alvo-do-mp/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17603,6 +24774,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17664,6 +24864,35 @@ const DADOS = {
       "https://www12.senado.leg.br/noticias/materias/2026/05/26/lucas-barreto-ve-seletividade-em-investigacao-de-gastos-publicos-no-amapa",
       "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/05/pf-apura-uso-de-recursos-publicos-para-a-pratica-de-crimes-eleitorais-em-macapa"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17704,6 +24933,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17762,6 +25020,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -17818,6 +25105,35 @@ const DADOS = {
      "fontes": [
       "https://www.bahianoticias.com.br/noticia/319518-mobiliza-confirma-dr-carlos-eduardo-sodre-na-disputa-pelo-senado-na-bahia"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17858,6 +25174,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17900,6 +25245,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-delliana-ricelli-candidata-ao-senado-pela-bahia/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -17968,6 +25342,35 @@ const DADOS = {
      "fontes": [
       "https://www.metropoles.com/colunas/fabio-serapiao/se-ele-cita-senador-eu-sou-um-dos-citados-diz-padrinho-de-alvo-da-pf"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18028,6 +25431,35 @@ const DADOS = {
      "fontes": [
       "https://www.senado.leg.br"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18068,6 +25500,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18108,6 +25569,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18178,6 +25668,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/economia/tcu-inocenta-rui-costa-carlos-gabas-respiradores-nao-entregues-nordeste/",
       "https://www.terra.com.br/noticias/brasil/politica/delacao-implica-chefe-da-casa-civil-de-lula-em-fraude-na-compra-de-respiradores-na-bahia-diz-site,cef7e5dc23b0ff41bb4ff312258374f4jsf2r0o3.html"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18238,6 +25757,35 @@ const DADOS = {
      "fontes": [
       "https://www.faroldabahia.com.br/noticia/joao-roma-pode-estar-envolvido-no-escandalo-do-banco-master-diz-colunista"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18278,6 +25826,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -18331,6 +25908,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18371,6 +25977,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18411,6 +26046,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18479,6 +26143,35 @@ const DADOS = {
      "fontes": [
       "https://www.jota.info/eleicoes/ciro-gomes-70-processos-14062018"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18519,6 +26212,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18579,6 +26301,35 @@ const DADOS = {
      "fontes": [
       "https://jovempan.com.br/politica/ex-prefeita-de-fortaleza-luizianne-lins-disputa-o-senado-pela-primeira-vez/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18619,6 +26370,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18696,6 +26476,35 @@ const DADOS = {
       "https://diariodonordeste.verdesmares.com.br/opiniao/colunistas/inacio-aguiar/juiz-manda-capitao-wagner-apagar-novo-video-sobre-elmano-e-ve-descumprimento-de-ordem-judicial-1.3709103",
       "https://www.opovo.com.br/noticias/politica/eleicoes/2026/08/05/ciro-e-de-rc-terao-irmaos-como-suplentes-de-capitao-wagner.html"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -18750,6 +26559,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18790,6 +26628,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 2
     },
     {
@@ -18830,6 +26697,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18870,6 +26766,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18910,6 +26835,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18950,6 +26904,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -18990,6 +26973,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19032,6 +27044,35 @@ const DADOS = {
      "fontes": [
       "https://blogs.correiobraziliense.com.br/cbpoder/stf-manda-inquerito-contra-erika-kokay-para-primeira-instancia/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 2
     },
     {
@@ -19072,6 +27113,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19112,6 +27182,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19152,6 +27251,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19203,6 +27331,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/politica/pf-deve-encerrar-inquerito-das-joias-sem-indiciar-michelle-bolsonaro/",
       "https://iclnoticias.com.br/joias-sauditas-pf-michelle-bolsonaro/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19254,6 +27411,35 @@ const DADOS = {
       "https://apublica.org/2020/06/investigada-por-fake-news-kicis-contratou-servicos-de-midias-sociais-de-apoiadores-do-governo/",
       "https://www.cartacapital.com.br/politica/o-inquerito-das-fake-news-sete-anos-de-uma-investigacao-sem-fim/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -19310,6 +27496,35 @@ const DADOS = {
      "fontes": [
       "https://en.wikipedia.org/wiki/Evair_de_Melo"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19350,6 +27565,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19392,6 +27636,35 @@ const DADOS = {
      "fontes": [
       "https://www.folhavitoria.com.br/eleicoes/quem-e-carlos-fabian-candidato-do-psol-ao-senado-pelo-espirito-santo/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19434,6 +27707,35 @@ const DADOS = {
      "fontes": [
       "https://en.wikipedia.org/wiki/Fabiano_Contarato"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19485,6 +27787,35 @@ const DADOS = {
       "https://www.infomoney.com.br/politica/pf-pede-a-abertura-de-investigacao-contra-governador-do-es-por-mensagens-com-juiz/",
       "https://jornaldebrasilia.com.br/noticias/politica-e-poder/moraes-rejeita-pedido-de-inquerito-contra-renato-casagrande-por-relacao-com-juiz-federal/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19525,6 +27856,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19565,6 +27925,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19616,6 +28005,41 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/politica/senadora-do-es-e-alvo-de-acao-da-pf-em-operacao-que-apura-fraudes-em-licitacoes/",
       "https://www.correiobraziliense.com.br/politica/2021/05/4923953-senadora-rose-de-freitas-e-alvo-de-operacao-da-pf-que-apura-desvios-em-contratos.html"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "consta",
+        "n": 2,
+        "itens": [
+         "Auto de infração de R$ 1.500,00 em data não informada (ES)",
+         "Auto de infração de R$ 500,00 em data não informada (ES)"
+        ],
+        "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19656,6 +28080,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19714,6 +28167,35 @@ const DADOS = {
       "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-determina-abertura-de-investigacao-contra-senador-marcos-do-val/",
       "https://www.osul.com.br/cinco-polemicas-envolvendo-o-senador-marcos-do-val-alvo-de-operacao-da-policia-federal/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19767,6 +28249,35 @@ const DADOS = {
       "https://www.cartacapital.com.br/cartaexpressa/magno-malta-vira-reu-por-falsa-acusacao-de-estupro-contra-ex-cobrador-de-onibus/",
       "https://www.folhavitoria.com.br/politica/magno-malta-e-denunciado-pelo-mp-por-caso-de-agressao-a-tecnica-de-enfermagem/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -19821,6 +28332,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19863,6 +28403,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-ernesto-roller-candidato-ao-senado-por-goias/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19903,6 +28472,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -19943,6 +28541,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 2
     },
     {
@@ -19983,6 +28610,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20023,6 +28679,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20081,6 +28766,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20139,6 +28853,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20199,6 +28942,35 @@ const DADOS = {
       "https://jornalggn.com.br/eleicoes/2026/mp-de-goias-acusa-caiado-e-esposa-de-improbidade-por-uso-de-seguranca-publica-em-campanha-eleitoral/",
       "https://www.metropoles.com/brasil/justica-determina-que-caiado-reduza-seguranca-pessoal-de-51-para-4-pms"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20239,6 +29011,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20297,6 +29098,35 @@ const DADOS = {
       "https://www.congressoemfoco.com.br/noticia/112988/camara-aprova-sustacao-de-acao-penal-contra-gustavo-gayer",
       "https://pt.org.br/pt-aciona-conselho-de-etica-contra-gustavo-gayer-por-quebra-de-decoro"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -20351,6 +29181,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20391,6 +29250,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20440,6 +29328,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20489,6 +29406,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20540,6 +29486,35 @@ const DADOS = {
       "https://acontecemaranhao.com.br/tce-condena-hilton-goncalo-a-devolver-r-600-mil-por-irregularidades-na-saude/",
       "https://www.omaranhense.com.br/2026/04/defesa-de-hilton-goncalo-diz-que-houve.html"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20598,6 +29573,35 @@ const DADOS = {
       "https://maquinadoesporte.com.br/mercado/andre-fufuca-deixa-o-ministerio-do-esporte-para-se-candidatar-ao-senado-pelo-maranhao/",
       "https://www.brasildefato.com.br/2024/04/04/emenda-de-fufuca-para-prefeitura-comandada-por-seu-pai-foi-destinada-a-empresa-de-suspeito-por-compra-de-votos/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20657,6 +29661,35 @@ const DADOS = {
      "fontes": [
       "https://atual7.com/tudo-sobre/lahesio-bonfim"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20697,6 +29730,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20764,6 +29826,35 @@ const DADOS = {
       "https://noticias.stf.jus.br/postsnoticias/stf-determina-arquivamento-de-peticao-na-qual-roseana-sarney-era-acusada-por-crimes-no-projeto-usimar/",
       "https://www.meon.com.br/noticias/defesa-de-roseana-sarney-e-de-edison-lobao-pede-arquivamento-de-inquerito-no-stf"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20832,6 +29923,35 @@ const DADOS = {
       "https://www.folhape.com.br/politica/dino-aponta-interferencia-indevida-de-senador-weverton-rocha-em-caso/506631/",
       "https://en.wikipedia.org/wiki/Weverton_Rocha"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20883,6 +30003,35 @@ const DADOS = {
       "https://imirante.com/noticias/maranhao/amp/2026/09/16/ipolitica-candidatura-de-simplicio-araujo-ao-senado-e-indeferida",
       "https://www.observadorma.com/2026/09/17/tre-ma-indefere-candidatura-de-simplicio-araujo-ao-senado/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -20937,6 +30086,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -20977,6 +30155,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21017,6 +30224,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21057,6 +30293,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21097,6 +30362,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21148,6 +30442,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-aurea-carolina-candidata-do-psol-ao-senado-de-minas-gerais/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21188,6 +30511,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21259,6 +30611,35 @@ const DADOS = {
       "https://revistaforum.com.br/politica/aecio-e-absolvido-em-acao-sobre-propina-da-jbs-em-que-disse-que-mataria-o-primo/",
       "https://www.otempo.com.br/eleicoes/2026/senadores/2026/8/31/o-acordo-entre-psdb-e-pdt-que-coloca-gustavo-galassi-e-marcelo-heringer-como-suplentes-de-aecio"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21299,6 +30680,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21359,6 +30769,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/blogs/isabel-mega/eleicoes/carlos-viana-fecha-com-psd-e-deve-disputar-senado-em-mg/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21399,6 +30838,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21441,6 +30909,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-carlin-moura-candidato-ao-senado-por-minas-gerais/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21511,6 +31008,35 @@ const DADOS = {
       "https://ofator.com.br/informacao/suplente-de-marilia-ex-prefeito-teve-contas-reprovadas-por-nao-investir-minimo-em-educacao/",
       "https://www.metropoles.com/minas-gerais/presidente-do-psb-indica-mae-como-suplente-e-gera-atrito-com-pt-em-mg"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21580,6 +31106,35 @@ const DADOS = {
       "https://revistaoeste.com/politica/senador-carlos-viana-nega-irregularidades-em-emendas-para-fundacao/",
       "https://agenciabrasil.ebc.com.br/politica/noticia/2026-03/senador-reafirma-que-nao-cometeu-irregularidades-com-emendas"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21640,6 +31195,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-domingos-savio-candidato-ao-senado-por-minas-gerais/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21682,6 +31266,35 @@ const DADOS = {
      "fontes": [
       "https://www.plural.jor.br/ramon-moreira/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21712,6 +31325,35 @@ const DADOS = {
      "achados": [],
      "apoiadores": [],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21742,6 +31384,35 @@ const DADOS = {
      "achados": [],
      "apoiadores": [],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -21796,6 +31467,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21836,6 +31536,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21876,6 +31605,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21916,6 +31674,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -21967,6 +31754,35 @@ const DADOS = {
       "https://tribunapopular.net/noticia/61005/soraya-thronicke-relatora-da-cpi-das-bets-surge-em-denuncias-por-ter-pedido-r-40-milhoes-a-lobista-entenda-o-caso",
       "https://correiodoestado.com.br/politica/senadora-de-ms-e-acusada-de-envolvimento-em-esquema-de-extorsao-de-bet/440736/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22007,6 +31823,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22047,6 +31892,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22089,6 +31963,40 @@ const DADOS = {
      "fontes": [
       "https://investigams.com.br/2026/09/08/delacao-da-jbs-ministro-do-stf-livrou-azambuja-e-justica-eleitoral-arquivou-operacao-vostok/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Auto de infração de R$ 20.000,00 em 30/10/2009 (MS)"
+        ],
+        "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22140,6 +32048,35 @@ const DADOS = {
       "https://noticias.stf.jus.br/postsnoticias/pgr-pede-a-condenacao-do-deputado-vander-loubet-por-crime-eleitoral/",
       "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=450200&ori=1"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22190,6 +32127,35 @@ const DADOS = {
      "fontes": [
       "https://correiodoestado.com.br/politica/partido-denuncia-caixa-2-na-campanha-de-capitao-contar/406116/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -22244,6 +32210,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22284,6 +32279,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22326,6 +32350,35 @@ const DADOS = {
      "fontes": [
       "https://www.olhardireto.com.br/juridico/noticias/mp-afirma-que-delator-foi-vago-em-suas-declaracoes-e-arquiva-inquerito-contra-taques-e-construtora"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22366,6 +32419,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22406,6 +32488,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22446,6 +32557,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22454,7 +32594,7 @@ const DADOS = {
      "nome_completo": "CARLOS HENRIQUE BAQUETA FAVARO",
      "partido": "PSD",
      "numero": "555",
-     "situacao": "segue",
+     "situacao": "recomendado",
      "etapa": null,
      "motivo_saida": null,
      "idoneidade_pessoal": 10.0,
@@ -22488,47 +32628,36 @@ const DADOS = {
      "fontes": [
       "https://en.wikipedia.org/wiki/Carlos_F%C3%A1varo"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
-    },
-    {
-     "sq": "110002540403",
-     "nome_urna": "GALVAN",
-     "nome_completo": "ANTONIO GALVAN",
-     "partido": "AVANTE",
-     "numero": "700",
-     "situacao": "recomendado",
-     "etapa": null,
-     "motivo_saida": null,
-     "idoneidade_pessoal": 10.0,
-     "circulo": 8.0,
-     "idoneidade_geral": 9.0,
-     "competencia_geral": 4.82,
-     "qualificacao_geral": 6.91,
-     "competencia": 2.5,
-     "escolaridade": 7.14,
-     "eco": 5.5,
-     "pes": 5.3,
-     "posicao_fonte": "pesquisa individual",
-     "nivel_eco": "c",
-     "nivel_pes": "c",
-     "quadrante": "LIBERTARIO",
-     "fronteira": true,
-     "camadas": 3,
-     "cobertura": "idoneidade; círculo político; posicionamento (econômico c, pessoal c)",
-     "achados": [],
-     "apoiadores": [
-      {
-       "nome": "Luis Tibé",
-       "partido": "AVANTE",
-       "ligacao": "presidente do partido do candidato",
-       "detalhe": "preside o Avante, partido do candidato",
-       "pendencia": "Condenado por improbidade civil em 2015 (verba indenizatória da Câmara de BH); dívida quitada, extinção pedida pelo MPMG",
-       "desconto": 2,
-       "contado": true
-      }
-     ],
-     "fontes": [],
-     "empate": 2
     },
     {
      "sq": "110002551966",
@@ -22579,6 +32708,122 @@ const DADOS = {
       "https://boainformacao.com.br/2026/06/ex-governador-de-mt-e-investigado-pelo-stj-em-caso-master/",
       "https://www.cnnbrasil.com.br/politica/ex-governador-de-mato-grosso-e-alvo-de-operacao-sobre-lavagem-de-dinheiro/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
+     "empate": 0
+    },
+    {
+     "sq": "110002540403",
+     "nome_urna": "GALVAN",
+     "nome_completo": "ANTONIO GALVAN",
+     "partido": "AVANTE",
+     "numero": "700",
+     "situacao": "segue",
+     "etapa": null,
+     "motivo_saida": null,
+     "idoneidade_pessoal": 8.0,
+     "circulo": 8.0,
+     "idoneidade_geral": 8.0,
+     "competencia_geral": 4.82,
+     "qualificacao_geral": 6.41,
+     "competencia": 2.5,
+     "escolaridade": 7.14,
+     "eco": 5.5,
+     "pes": 5.3,
+     "posicao_fonte": "pesquisa individual",
+     "nivel_eco": "c",
+     "nivel_pes": "c",
+     "quadrante": "LIBERTARIO",
+     "fronteira": true,
+     "camadas": 3,
+     "cobertura": "idoneidade; círculo político; posicionamento (econômico c, pessoal c)",
+     "achados": [
+      {
+       "categoria": "sancao_institucional_confirmada",
+       "rotulo": "Sanção institucional confirmada (não criminal)",
+       "peso": 2,
+       "quantidade": 1,
+       "descricao": "Duas autuações do Ibama em 2022 somando R$ 1,56 mi em Vera/MT (R$ 1,51 mi por controle ambiental e R$ 50,5 mil por falta de licenciamento), ligadas à pista de pouso para pulverização aérea sem autorização e ao desmatamento ilegal; confirmadas na base de autos de infração do Ibama (CPF casado por nome completo)."
+      }
+     ],
+     "apoiadores": [
+      {
+       "nome": "Luis Tibé",
+       "partido": "AVANTE",
+       "ligacao": "presidente do partido do candidato",
+       "detalhe": "preside o Avante, partido do candidato",
+       "pendencia": "Condenado por improbidade civil em 2015 (verba indenizatória da Câmara de BH); dívida quitada, extinção pedida pelo MPMG",
+       "desconto": 2,
+       "contado": true
+      }
+     ],
+     "fontes": [
+      "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
+      "https://reporterbrasil.org.br/2026/08/soja-mineracao-candidaturas-senado-mato-grosso/",
+      "https://climainfo.org.br/2026/09/14/eleicoes-2026-candidatos-somam-r-176-milhoes-em-multas-por-destruicao-ambiental-na-amazonia/"
+     ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "consta",
+        "n": 2,
+        "itens": [
+         "Auto de infração de R$ 1.510.500,00 em 13/05/2022 (MT)",
+         "Auto de infração de R$ 50.500,00 em 06/04/2022 (MT)"
+        ],
+        "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22619,11 +32864,40 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
    "recomendados": [
-    "110002540403",
+    "110002544986",
     "110002552698",
     "110002544988"
    ]
@@ -22673,6 +32947,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22713,6 +33016,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22753,6 +33085,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22793,6 +33154,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22833,6 +33223,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22891,6 +33310,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22931,6 +33379,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -22999,6 +33476,35 @@ const DADOS = {
      "fontes": [
       "https://www.plural.jor.br/celso-sabino-de-oliveira/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23059,6 +33565,35 @@ const DADOS = {
       "https://www.mpf.mp.br/pa/sala-de-imprensa/noticias-pa/mp-eleitoral-pede-ao-tse-cassacao-do-senador-zequinha-marinho-pa-por-ilegalidades-em-gastos-de-campanha",
       "https://oimpacto.com.br/2021/01/por-desvio-de-r-23-milhoes-da-cota-de-genero-mp-pede-cassacao-do-senador-zequinha-marinho/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23117,6 +33652,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23187,6 +33751,35 @@ const DADOS = {
       "https://en.wikipedia.org/wiki/Jader_Barbalho",
       "https://memorialdademocracia.com.br/card/crimes-e-renuncias-causam-crise-no-senado"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23253,6 +33846,35 @@ const DADOS = {
       "https://diariodopara.com.br/para/quebra-de-decoro-eder-mauro-vai-responder-processo-disciplinar/",
       "https://pensarpiaui.com/noticias/guerra-no-pl-do-para-vereador-acusa-eder-mauro-e-pede-investigacao-da-policia-federal/83881"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23283,6 +33905,35 @@ const DADOS = {
      "achados": [],
      "apoiadores": [],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -23337,6 +33988,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23377,6 +34057,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23417,6 +34126,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23457,6 +34195,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23497,6 +34264,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23547,6 +34343,35 @@ const DADOS = {
      "fontes": [
       "https://www.polemicaparaiba.com.br/politica/tse-pode-derrubar-candidatura-de-andre-gadelha-dc-aponta-irregularidades-e-perda-de-prazos-veja-documento/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23605,6 +34430,35 @@ const DADOS = {
       "https://portalcorreio.com.br/pleno-do-tce-pb-reprova-contas-de-2019-do-governador-joao-azevedo/",
       "https://portals1.com.br/cicero-aciona-tre-pb-contra-lucas-ribeiro-e-joao-azevedo-por-inchaco-na-folha-em-ano-eleitoral/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23645,6 +34499,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23695,6 +34578,35 @@ const DADOS = {
      "fontes": [
       "https://en.wikipedia.org/wiki/Marcelo_Queiroga"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23753,6 +34665,35 @@ const DADOS = {
       "https://www.polemicaparaiba.com.br/polemicas/aije-acusa-veneziano-de-uso-politico-do-dnit-e-pede-cassacao-de-candidatura-ao-senado/",
       "https://www.reporterpb.com.br/noticia/paraiba/2026/05/27/senador-veneziano-e-investigado-pela-pf-acusado-de-usar-aviao-em-campanha-eleitoral-e-pagar-sem-prestar-contas/187820.html"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -23807,6 +34748,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23847,6 +34817,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23887,6 +34886,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23927,6 +34955,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -23967,6 +35024,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24027,6 +35113,35 @@ const DADOS = {
      "fontes": [
       "https://www.bj1.com.br/mendonca-rebate-eduardo-da-fonte-no-debate-em-petrolina-e-diz-que-o-adversario-fez-jogo-nefasto-com-raquel-negociando-cargo-de-senador-com-joao-campos/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24067,6 +35182,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24135,6 +35279,35 @@ const DADOS = {
      "fontes": [
       "https://conjur.com.br/2016-ago-10/pf-arquivamento-inquerito-investigava-humberto-costa/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24177,6 +35350,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-paulo-rubem-santiago-candidato-ao-senado-por-pernambuco/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24237,6 +35439,35 @@ const DADOS = {
      "fontes": [
       "https://www.falanews.com.br/2022/03/tulio-gadelha0carla-zambelli-fake-processo-deputado.html"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24297,6 +35528,35 @@ const DADOS = {
      "fontes": [
       "https://www.camara.leg.br/deputados/74428/biografia"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24381,6 +35641,35 @@ const DADOS = {
       "https://www.tre-pe.jus.br/comunicacao/noticias/2022/Maio/tre-pe-condena-deputada-federal-e-assessor-por-propaganda-antecipada",
       "https://www.diariodepernambuco.com.br/noticia/politica/2020/11/marilia-arraes-pt-e-notificada-em-processo-de-improbidade.html"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -24435,6 +35724,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24475,6 +35793,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24515,6 +35862,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24555,6 +35931,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24595,6 +36000,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24635,6 +36069,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24675,6 +36138,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 2
     },
     {
@@ -24715,6 +36207,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24755,6 +36276,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24795,6 +36345,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24835,6 +36414,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24875,6 +36483,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24915,6 +36552,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24955,6 +36621,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -24996,6 +36691,35 @@ const DADOS = {
       "https://conectapiaui.com.br/noticia/politica/caso-master-processo-que-envolve-ciro-nogueira-ja-soma-quase-6-mil-paginas-22150.html",
       "https://www.seudinheiro.com/2026/politica/ciro-nogueira-recebe-propina-de-daniel-vorcaro-e-vira-alvo-da-policia-federal-no-caso-do-banco-master-davs/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25038,6 +36762,35 @@ const DADOS = {
      "fontes": [
       "https://www.poder360.com.br/poder-eleicoes-2026/deputado-julio-cesar-faz-campanha-ao-senado-pi-no-como-julim-do-lula/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25078,6 +36831,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25118,6 +36900,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25158,6 +36969,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25198,6 +37038,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -25252,6 +37121,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25320,6 +37218,35 @@ const DADOS = {
      "fontes": [
       "https://www.gazetadopovo.com.br/parana/alexandre-curi-inqueritos-criminais-diarios-secretos/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25380,6 +37307,35 @@ const DADOS = {
      "fontes": [
       "https://pt.wikipedia.org/wiki/Dr._Rosinha"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25420,6 +37376,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25471,6 +37456,35 @@ const DADOS = {
      "fontes": [
       "https://www.plural.jor.br/guerra-juridica-governo-senado-parana-2026/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25522,6 +37536,40 @@ const DADOS = {
       "https://marelimartins.com.br/2026/09/19/tse-suspende-campanha-de-deltan-dallagnol-ao-senado/",
       "https://www.congressoemfoco.com.br/noticia/122076/tre-pr-valida-registro-de-candidatura-de-deltan-dallagnol-ao-senado"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Fundamento citado no julgamento do registro: Ficha limpa (LC 64/90)"
+        ],
+        "ref": "https://dadosabertos.tse.jus.br/dataset/candidatos-2022"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25562,6 +37610,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25631,6 +37708,35 @@ const DADOS = {
       "https://www.cartacapital.com.br/politica/pgr-pede-condenacao-e-perda-do-mandato-da-senado-gleisi-hoffmann/",
       "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-denuncia-contra-gleisi-hoffmann-por-corrupcao-passiva-e-lavagem-de-dinheiro/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25707,6 +37813,35 @@ const DADOS = {
       "https://www.otempo.com.br/politica/judiciario/2025/7/26/moraes-determina-investigacao-do-deputado-filipe-barros-por-crime-contra-a-soberania-nacional",
       "https://dpontanews.com.br/noticias/deputado-estadual-arilson-chiorato-pt-pr-pede-investigacao-sobre-atuacao-do-deputado-federal-filipe-barros-pl-pr-em-favor-do-banco-master/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -25761,6 +37896,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25821,6 +37985,35 @@ const DADOS = {
      "fontes": [
       "https://revistaforum.com.br/politica/monica-benicio-quem-e-a-candidata-pelo-senado-no-rj/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25861,6 +38054,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25901,6 +38123,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -25943,6 +38194,35 @@ const DADOS = {
      "fontes": [
       "https://www.plural.jor.br/clemente-sebastiao-de-almeida-campos/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26003,6 +38283,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-benedita-da-silva-candidata-ao-senado-pelo-rio-de-janeiro/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26043,6 +38352,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26083,6 +38421,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26123,6 +38490,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26163,6 +38559,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26232,6 +38657,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/eleicoes/2026/tse-suspende-inelegibilidade-de-crivella-e-libera-candidatura-ao-senado/",
       "https://www.poder360.com.br/poder-eleicoes-2026/tse-libera-marcelo-crivella-para-concorrer-nas-eleicoes/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26292,6 +38746,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-pedro-paulo-candidato-ao-senado-pelo-rio-de-janeiro/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26343,6 +38826,35 @@ const DADOS = {
      "fontes": [
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-carlos-portinho-candidato-ao-senado-pelo-rio-de-janeiro/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26420,6 +38932,35 @@ const DADOS = {
       "https://www.cartacapital.com.br/politica/bom-dia-meu-lider-o-que-a-pf-descobriu-sobre-carlos-jordy-e-fez-moraes-autorizar-operacao/",
       "https://www.terra.com.br/noticias/brasil/politica/quem-e-carlos-jordy-deputado-que-bateu-boca-e-chamou-haddad-de-moleque,2d8c5cdec5f51ef922ea8b373348f852lo9entnw.html"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26487,6 +39028,35 @@ const DADOS = {
       "https://belfordroxo24h.com/waguinho-por-um-fio-mpe-indeferimento-candidatura-senado/",
       "https://temporealrj.com/waguinho-bloqueio-430-milhoes/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26517,6 +39087,35 @@ const DADOS = {
      "achados": [],
      "apoiadores": [],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26555,6 +39154,35 @@ const DADOS = {
      ],
      "apoiadores": [],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -26611,6 +39239,35 @@ const DADOS = {
      "fontes": [
       "https://tmc.com.br/eleicoes/candidato/gari-wendell-batista/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26651,6 +39308,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26691,6 +39377,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26731,6 +39446,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26771,6 +39515,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26811,6 +39584,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26851,6 +39653,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26891,6 +39722,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26931,6 +39791,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -26971,6 +39860,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27013,6 +39931,35 @@ const DADOS = {
      "fontes": [
       "https://www.tre-rn.jus.br/comunicacao/noticias/2019/Junho/tre-rn-rejeita-pedido-de-cassacao-da-senadora-zenaide-maia"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27064,6 +40011,35 @@ const DADOS = {
       "https://blogtuliolemos.com.br/tre-aprofunda-investigacao-sobre-possivel-abuso-eleitoral-de-styvenson/",
       "https://www.blogpautarn.com.br/post/samanda-pede-cassa%C3%A7%C3%A3o-de-styvenson-por-uso-eleitoral-de-servi%C3%A7o-p%C3%BAblico"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27104,6 +40080,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27144,6 +40149,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -27198,6 +40232,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27238,6 +40301,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27278,6 +40370,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27318,6 +40439,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27358,6 +40508,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27398,6 +40577,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27438,6 +40646,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27478,6 +40715,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27518,6 +40784,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27569,6 +40864,40 @@ const DADOS = {
       "https://expressaorondonia.com.br/justica-eleitoral-mantem-acir-gurgacz-inelegivel-ate-2030-senador-deve-recorrer-ao-tse-e-supremo/",
       "https://painelpolitico.com/acir-gurgacz-mpf-diz-que-ex-senador-esta-inelegivel-em-2026"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Fundamento citado no julgamento do registro: Ficha limpa (LC 64/90)"
+        ],
+        "ref": "https://dadosabertos.tse.jus.br/dataset/candidatos-2022"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -27623,6 +40952,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27663,6 +41021,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27723,6 +41110,40 @@ const DADOS = {
       "https://www.otempo.com.br/politica/judiciario/2026/2/3/dino-arquiva-caso-de-dinheiro-na-cueca-e-livra-senador-chico-rodrigues-no-stf",
       "https://www.tribunadosertao.com.br/poder-e-governo/2026/02/03/853350-dino-arquiva-parte-de-investigacoes-contra-senador-flagrado-com-dinheiro-na-cueca"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Auto de infração de R$ 189.000,00 em 02/05/2006 (RR)"
+        ],
+        "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27763,6 +41184,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27821,6 +41271,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27879,6 +41358,40 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Auto de infração de R$ 3.000,00 em 13/09/2017 (RR)"
+        ],
+        "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27919,6 +41432,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -27970,6 +41512,40 @@ const DADOS = {
       "https://www.folhabv.com.br/politica/moraes-ordena-retirada-de-tornozeleira-de-candidata-ao-senado-em-roraima-em-48h/",
       "https://www.folhabv.com.br/politica/tre-forma-maioria-para-aprovar-candidatura-de-regina-tio-ivo-apos-troca-de-suplente/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Auto de infração de R$ 11.000,00 em 11/01/2019 (RR)"
+        ],
+        "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28010,6 +41586,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28061,6 +41666,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/vozes/entrelinhas/bolsonaro-quer-helio-lopes-senador-por-roraima-mp-investiga-viagens-com-verba-publica/",
       "https://jovempan.com.br/colunistas/bruno-pinheiro/indicado-ao-senado-por-roraima-helio-lopes-registra-candidatura-como-helio-bolsonaro/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28120,6 +41754,35 @@ const DADOS = {
       "https://correiodolavrado.com.br/2019/04/11/teresa-surita-e-condenada-a-perda-da-funcao-por-improbidade-administrativa",
       "https://folhabv.com.br/noticia/ELEIcOES-2022/ELEIcOES-2022/PV-pede-impugnacao-de-registro-de-candidatura-de-Teresa-Surita/89275"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28178,6 +41841,40 @@ const DADOS = {
       "https://www.folhabv.com.br/politica/tre-barra-candidatura-ao-senado-do-ex-prefeito-hiperion-de-oliveira/",
       "https://roraima1.com.br/ex-prefeito-de-pacaraima-e-condenado-pelo-tce-rr-e-tera-de-devolver-r-42-milhoes/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Impedimento/proibição de contratar com prazo determinado (início 05/12/2025, vigente)"
+        ],
+        "ref": "https://portaldatransparencia.gov.br/sancoes/consulta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28236,6 +41933,35 @@ const DADOS = {
       "https://roraima1.com.br/tre-rr-rejeita-candidatura-de-marcio-junqueira-ao-senado-nas-eleicoes-de-2026/",
       "https://www.folhabv.com.br/politica/tre-reprova-candidatura-de-marcio-junqueira-e-de-suplentes-ao-senado/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -28290,6 +42016,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28330,6 +42085,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28370,6 +42154,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28410,6 +42223,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28450,6 +42292,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28490,6 +42361,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28530,6 +42430,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28591,6 +42520,35 @@ const DADOS = {
       "https://www.poder360.com.br/justica/pgr-arquiva-acao-para-apurar-suposta-omissao-de-pimenta-ao-tse/",
       "https://revistaoeste.com/politica/na-secom-paulo-pimenta-deu-quase-r-300-milhoes-ao-grupo-globo/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28631,6 +42589,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28673,6 +42660,35 @@ const DADOS = {
      "fontes": [
       "https://www.extraclasse.org.br/politica/2018/10/o-silencio-que-encobre-o-maior-caso-de-corrupcao-do-rs/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28733,6 +42749,35 @@ const DADOS = {
      "fontes": [
       "https://www.radiocaxias.com.br/eleicoes-2026-frederico-antunes-deseja-ser-senador-para-lutar-pelo-protagonismo-do-rs-no-cenario-nacional/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28800,6 +42845,35 @@ const DADOS = {
       "https://www.metropoles.com/colunas/grande-angular/tre-rs-manda-manuela-davila-retirar-posts-que-ligam-van-hattem-ao-pcc",
       "https://diariodopoder.com.br/brasil-e-regioes/e01-brasil/tre-multa-manuela-davila-por-fake-news-contra-van-hattem"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28858,6 +42932,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -28912,6 +43015,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28952,6 +43084,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -28992,6 +43153,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29032,6 +43222,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29072,6 +43291,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29112,6 +43360,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29170,6 +43447,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29219,6 +43525,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29277,6 +43612,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29317,6 +43681,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29357,6 +43750,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29417,6 +43839,35 @@ const DADOS = {
      "fontes": [
       "https://ndmais.com.br/politica/carol-de-toni-busca-novo-nome-para-ser-o-primeiro-suplente-apos-desitencia-de-empresario/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29468,6 +43919,35 @@ const DADOS = {
       "https://www.diariodepernambuco.com.br/politica/2026/02/11708437-mp-do-rio-reabre-investigacao-contra-carlos-bolsonaro-por-suposta-rachadinha.html",
       "https://www.meionews.com/politica/ex-chefe-de-gabinete-de-carlos-bolsonaro-vira-reu-por-rachadinha-na-camara-de-vereadores-do-rio-de-janeiro-567216"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -29522,6 +44002,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29562,6 +44071,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29602,6 +44140,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29642,6 +44209,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29682,6 +44278,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29722,6 +44347,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29762,6 +44416,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29802,6 +44485,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29842,6 +44554,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29901,6 +44642,35 @@ const DADOS = {
       "https://www.cartacapital.com.br/justica/a-nova-condenacao-de-andre-moura-por-feiras-pagas-com-verbas-de-municipio-sergipano/",
       "https://www.f5news.com.br/politica/stf-aceita-acordo-que-extingue-pena-de-prisao-contra-andre-moura.html"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -29931,6 +44701,35 @@ const DADOS = {
      "achados": [],
      "apoiadores": [],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -29986,6 +44785,35 @@ const DADOS = {
      "fontes": [
       "https://ndmais.com.br/eleicoes/2026/candidatos/sp/senador/161-dra-eliana-ferreira/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30026,6 +44854,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30066,6 +44923,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30106,6 +44992,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30167,6 +45082,35 @@ const DADOS = {
       "https://www.metropoles.com/sao-paulo/cracolandia-secretaria-de-nunes-defende-uso-supervisionado-de-drogas",
       "https://prefeitura.sp.gov.br/web/direitos_humanos/w/noticias/328402"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30207,6 +45151,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30249,6 +45222,35 @@ const DADOS = {
      "fontes": [
       "https://ndmais.com.br/eleicoes/2026/candidatos/sp/senador/360-william-teixeira/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30289,6 +45291,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30351,6 +45382,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/sp/senador/geraldo-rufino-pode-200/",
       "https://www.infomoney.com.br/politica/geraldo-rufino-podemos-lanca-candidato-ao-senado-em-sp-colado-em-tarcisio/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30420,6 +45480,35 @@ const DADOS = {
       "https://www.gazetadopovo.com.br/vozes/lucio-vaz/com-foro-privilegiado-simone-tebet-teve-inquerito-arquivado-por-prescricao/",
       "https://www.metropoles.com/sao-paulo/pt-e-pdt-ficam-com-suplencias-na-chapa-de-simone-pelo-senado-em-sp"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30463,6 +45552,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/quem-e-guto-schiavetto-candidato-ao-senado-por-sp/",
       "https://www.plural.jor.br/ricardo-augusto-mangue-schiavetto/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30525,6 +45643,35 @@ const DADOS = {
       "https://www.tre-sp.jus.br/comunicacao/noticias/2026/Setembro/tre-sp-aprova-mais-de-2-100-pedidos-de-registro-de-candidatura-para-as-eleicoes-2026",
       "https://www.metropoles.com/sao-paulo/eleicoes-2026-psol-e-pdt-ficam-com-suplencias-em-chapa-de-marina"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30596,6 +45743,35 @@ const DADOS = {
       "https://revistaforum.com.br/brasil/quem-e-guilherme-derrite-entenda-as-polemicas-do-candidato-ao-senado-em-sao-paulo",
       "https://www.metropoles.com/sao-paulo/mpsp-arquiva-investigacao-operacoes-baixada"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30658,6 +45834,35 @@ const DADOS = {
       "https://noticias.stf.jus.br/postsnoticias/stf-vai-julgar-ricardo-salles-por-suposto-esquema-de-facilitacao-de-contrabando-de-produtos-florestais/",
       "https://www.dgabc.com.br/Noticia/4340453/ricardo-salles-troca-suplente-da-chapa-do-novo-ao-senado-por-sp"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30728,6 +45933,35 @@ const DADOS = {
       "https://www.cnnbrasil.com.br/eleicoes/eduardo-bolsonaro-sera-meu-suplente-ao-senado-diz-andre-do-prado/",
       "https://boainformacao.com.br/2026/07/andre-do-prado-anuncia-suplentes-para-disputa-ao-senado-depois-da-inelegibilidade/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
@@ -30783,6 +46017,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30823,6 +46086,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30863,6 +46155,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30903,6 +46224,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30953,6 +46303,35 @@ const DADOS = {
      "fontes": [
       "https://tocantins.jornalopcao.com.br/noticias/tre-to-manda-eli-borges-recolher-panfleto-que-atribui-ao-stf-autorizacao-para-matar-bebes-de-5-meses-600236/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -30993,6 +46372,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -31053,6 +46461,35 @@ const DADOS = {
       "https://www.tsf.pt/arquivo/artigo/wanderley-luxemburgo-acusado-de-fugir-ao-fisco/724487",
       "https://www.meutimao.com.br/noticias-do-corinthians/448429/absolvido-de-assedio-e-presente-em-cpi-entenda-acusacoes-de-luxemburgo-novo-tecnico-do-corinthians"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -31104,6 +46541,35 @@ const DADOS = {
       "https://tribunato.com/policial/ex-prefeito-de-araguaina-ronaldo-dimas-alega-perseguicao-pela-devassa-da-pf-em-seus-contratos-de-locacao/",
       "https://conexaoto.com.br/2022/05/19/alvo-de-operacao-dimas-afirma-nao-haver-qualquer-conduta-ilegal-a-pf-esta-na-sua-cola-diz-seguidor"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -31172,6 +46638,41 @@ const DADOS = {
      "fontes": [
       "https://tocantins.jornalopcao.com.br/noticias/alexandre-guimaraes-e-o-2o-candidato-mais-multado-pelo-ibama-no-pais-e-soma-quase-r-15-milhao-598678/"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "consta",
+        "n": 2,
+        "itens": [
+         "Auto de infração de R$ 975.470,00 em 12/12/2024 (PA)",
+         "Auto de infração de R$ 500.000,00 em 12/12/2024 (PA)"
+        ],
+        "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -31212,6 +46713,35 @@ const DADOS = {
       }
      ],
      "fontes": [],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -31271,6 +46801,40 @@ const DADOS = {
      "fontes": [
       "https://www.tjto.jus.br/comunicacao/noticias/ex-prefeito-de-porto-nacional-e-condenado-a-devolver-r-377-mil-aos-cofres-publicos"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Auto de infração de R$ 1.000,00 em 17/09/2025 (TO)"
+        ],
+        "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -31322,6 +46886,40 @@ const DADOS = {
       "https://www.jornalopcao.com.br/ultimas-noticias/senador-tocantinense-eduardo-gomes-e-investigado-pela-pf-por-suposto-envolvimento-em-esquema-com-a-codevasf-357990/",
       "https://conexaoto.com.br/2025/02/10/policia-federal-pede-abertura-de-investigacao-contra-o-senador-tocantinense-eduardo-gomes"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nao_se_aplica"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "consta",
+        "n": 1,
+        "itens": [
+         "Auto de infração de R$ 10.000,00 em 24/10/2006 (TO)"
+        ],
+        "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+       }
+      ]
+     },
      "empate": 0
     },
     {
@@ -31381,6 +46979,35 @@ const DADOS = {
       "https://www.jornalopcao.com.br/tocantins/ex-governador-carlos-gaguim-e-denunciado-por-crimes-cometidos-em-2010-148576/",
       "https://conexaoto.com.br/2026/08/28/gaguim-tem-candidatura-ao-senado-deferida-em-definitivo-pela-justica-eleitoral"
      ],
+     "verificacao": {
+      "nivel": "rapida",
+      "bases": [
+       {
+        "id": "tcu_eleitoral",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "tse_2022",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceis",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "cnep",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ceaf",
+        "resultado": "nada_consta"
+       },
+       {
+        "id": "ibama",
+        "resultado": "nada_consta"
+       }
+      ]
+     },
      "empate": 0
     }
    ],
