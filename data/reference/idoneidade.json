@@ -762,17 +762,17 @@
       "nome_urna": "ELIZEU AGUIAR",
       "cargo_pretendido": "GOVERNADOR",
       "nota": 6,
-      "motivo": "Empresário, candidato pelo NOVO. Como diretor do Idepi (Instituto de Desenvolvimento do Piauí) em 2014, o TCU julgou suas contas IRREGULARES na aplicação de recursos federais destinados a Vila Nova do Piauí -- decisão transitada em julgado em 2020, com determinação de ressarcimento + multa de R$47 mil (-2, contas julgadas irregulares por órgão de controle). Em 2026, o TCU encaminhou essa decisão ao TRE-PI, e o Ministério Público Eleitoral pediu impugnação da candidatura por possível inelegibilidade -- ação ainda SEM julgamento definitivo até a pesquisa; defesa nega dolo (-2, ação de impugnação em curso, sem decisão final).",
+      "motivo": "Empresário, candidato pelo NOVO. Como diretor do Idepi (Instituto de Desenvolvimento do Piauí) em 2014, o TCU julgou suas contas IRREGULARES na aplicação de recursos federais destinados a Vila Nova do Piauí -- decisão transitada em julgado em 21/03/2026 (confirmada pela lista oficial do TCU de responsáveis com implicação eleitoral, prazo de 8 anos até 21/03/2034), com determinação de ressarcimento + multa de R$47 mil (-2, contas julgadas irregulares por órgão de controle). Em 2026, o TCU encaminhou essa decisão ao TRE-PI, e o Ministério Público Eleitoral pediu impugnação da candidatura por possível inelegibilidade -- ação ainda SEM julgamento definitivo até a pesquisa; defesa nega dolo (-2, ação de impugnação em curso, sem decisão final).",
       "fontes": [
         "https://folhaexpressa.com/politica/tcu-envia-ao-tre-pi-decisao-que-pode-barrar-candidatura-de-elizeu-aguiar-ao-governo-do-piaui/",
         "https://lupa1.com.br/noticias/politica/mpe-pede-impugnacao-da-candidatura-de-elizeu-aguiar-por-possivel-inelegibilidade-73730.html",
-        "https://www.elesbaonews.com/2026/08/elizeu-aguiar-conheca-o-perfil-limite.html"
+        "https://www.elesbaonews.com/2026/08/elizeu-aguiar-conheca-o-perfil-limite.html", "https://contas.tcu.gov.br/pesquisaJurisprudencia/#/resultado/acordao-completo/00609920220.PROC"
       ],
       "pesquisado_em": "2026-09-21",
       "achados": [
         {
           "categoria": "contas_irregulares_com_ressarcimento",
-          "descricao": "TCU julgou irregulares as contas do Idepi (2014), transitado em julgado em 2020, com ressarcimento e multa de R$ 47 mil"
+          "descricao": "TCU julgou irregulares as contas do Idepi (2014), transitado em julgado em 21/03/2026 (processo 006.099/2022-0; prazo de 8 anos até 21/03/2034), com ressarcimento e multa de R$ 47 mil"
         },
         {
           "categoria": "registro_contestado_sub_judice",
