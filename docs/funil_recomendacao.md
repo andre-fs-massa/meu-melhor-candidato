@@ -51,6 +51,8 @@ com dois polos que trazem custo (A/B, com a ordem sorteada a cada carga para evi
 | Decisão | Padrão | Por quê |
 |---|---|---|
 | Corte de idoneidade geral | 6,0 | Definido pelo usuário em 2026-09-21. **Muito sensível**: com 5,0 ou 7,0 mudam recomendações. |
+| Corte de idoneidade geral dos **deputados** | 8,5 | Definido pelo usuário em 2026-09-24 (8,0 e depois 8,5; `CORTE_POR_CARGO` em `recomendar.py`). A nota deles vem de bases oficiais e do presidente do partido, sem busca individual. **Efeito:** com círculo 6 (PL, DC) a idoneidade geral máxima é 8,0, então os 891 federais desses dois partidos ficam de fora (mais 6 de outros partidos); com 8,0 só caíam 14. |
+| Idoneidade pessoal **estrutural** (Deputado Federal) | 10 menos: TCU -2; CEIS/CNEP vigente -2; Ibama com auto >= R$ 1 mi -2, abaixo disso -1 | `gerar_idoneidade_estrutural.py`. TSE 2022 e CEAF só aparecem no painel. **Não pega processo judicial, inquérito nem notícia**: nota 10 = "nada consta nestas bases". O site rotula como "Verificação estrutural". |
 | Candidato sem idoneidade geral pesquisada | **excluído** da recomendação (fica numa lista à parte) | Se passasse direto, ser pesquisado viraria desvantagem: só os pesquisados poderiam ser reprovados. |
 | Critério de escolha por quadrante | qualificação geral (média de idoneidade geral e competência geral) | Decisão do usuário em 2026-09-22; antes era só competência geral. |
 | Desempate na última vaga | competência geral, idoneidade geral, competência bruta, escolaridade; depois sorteio com semente fixa | Nunca ordem alfabética. O tamanho do empate é informado. |

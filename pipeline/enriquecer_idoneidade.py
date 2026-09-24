@@ -16,6 +16,8 @@ from . import config
 from .pesos import calcular_nota, formatar_achados
 
 REFERENCE_PATH = config.RAW_DIR.parent / "reference" / "idoneidade.json"
+# Gerado sem pesquisa manual por pipeline/gerar_idoneidade_estrutural.py (deputados); o JSON manual tem precedência.
+ESTRUTURAL_PATH = config.PROCESSED_DIR / "estrutural_idoneidade.json"
 INPUT_PATH = (
     config.PROCESSED_DIR / f"candidatos_{config.ANO_ELEICAO}_competencias_enriquecido.parquet"
 )
@@ -66,13 +68,17 @@ def main() -> None:
 
     df = pd.read_parquet(INPUT_PATH)
     referencia = json.loads(REFERENCE_PATH.read_text(encoding="utf-8"))
+    if ESTRUTURAL_PATH.exists():
+        estrutural = json.loads(ESTRUTURAL_PATH.read_text(encoding="utf-8"))["candidatos"]
+        print(f"{len(estrutural):,} registros estruturais (deputados) somados aos {len(referencia['candidatos']):,} manuais")
+        referencia["candidatos"] = {**estrutural, **referencia["candidatos"]}
 
     resultado = aplicar(df, referencia)
 
     n_pesquisados = resultado["nota_idoneidade"].notna().sum()
     print(f"{n_pesquisados} candidatos com nota de idoneidade aplicada")
     print(
-        resultado[resultado["nota_idoneidade"].notna()]
+        resultado[resultado["nota_idoneidade"].notna() & (resultado["cargo"] != "DEPUTADO FEDERAL")]
         .sort_values("nota_idoneidade")[["nome_urna", "nota_idoneidade"]]
         .to_string()
     )

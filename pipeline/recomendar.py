@@ -37,6 +37,14 @@ REF_DIR = config.RAW_DIR.parent / "reference"
 OUTPUT_CSV = config.PROCESSED_DIR / f"recomendacoes_{config.ANO_ELEICAO}.csv"
 
 CORTE_IDONEIDADE_PADRAO = 6.0  # definido pelo usuário em 2026-09-21; a recomendação é muito sensível a ele
+# Deputados têm corte próprio (2026-09-24, decisão do usuário): a nota deles vem de bases oficiais e do partido,
+# sem pesquisa individual na web, então o corte é mais alto (8,0 e depois 8,5 no mesmo dia). Como o círculo de um
+# deputado é só o presidente do partido, com círculo 6 (PL, DC) a idoneidade geral máxima é 8,0: o partido inteiro cai.
+CORTE_POR_CARGO = {"DEPUTADO FEDERAL": 8.5, "DEPUTADO ESTADUAL": 8.5, "DEPUTADO DISTRITAL": 8.5}
+
+
+def corte_do_cargo(cargo: str) -> float:
+    return CORTE_POR_CARGO.get(cargo, CORTE_IDONEIDADE_PADRAO)
 LIMIAR_QUADRANTE = 5.0
 MARGEM_FRONTEIRA = 0.5
 SEMENTE_PADRAO = 2026
@@ -138,12 +146,14 @@ def recomendar(
     df: pd.DataFrame,
     cargo: str,
     uf: str,
-    corte: float = CORTE_IDONEIDADE_PADRAO,
+    corte: float = None,
     nao_avaliados: str = "excluir",
     semente: int = SEMENTE_PADRAO,
 ) -> dict:
-    """Roda o funil para um cargo e uma UF ('BR' para Presidente). `df` já passou por `preparar`."""
+    """Roda o funil para um cargo e uma UF ('BR' para Presidente). `df` já passou por `preparar`.
+    `corte=None` usa o corte do cargo (`corte_do_cargo`); um valor explícito vale para qualquer cargo."""
     assert nao_avaliados in ("excluir", "manter_sinalizado")
+    corte = corte_do_cargo(cargo) if corte is None else corte
     universo = df[(df["cargo"] == cargo) & (df["uf"] == uf)]
     resultado = {"cargo": cargo, "uf": uf, "corte": corte, "nao_avaliados": nao_avaliados,
                  "n_inicial": len(universo), "removidos": [], "recomendados": []}
@@ -224,7 +234,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--cargo", default="PRESIDENTE")
     ap.add_argument("--uf", default="BR")
-    ap.add_argument("--corte", type=float, default=CORTE_IDONEIDADE_PADRAO)
+    ap.add_argument("--corte", type=float, default=None, help="vale para qualquer cargo; sem ele, cada cargo usa o seu (deputados 8, demais 6)")
     ap.add_argument("--nao-avaliados", choices=["excluir", "manter_sinalizado"], default="excluir")
     ap.add_argument("--csv", action="store_true", help="grava as recomendações de TODOS os cargos/UFs em data/processed")
     a = ap.parse_args()
@@ -235,7 +245,7 @@ def main() -> None:
         linhas = []
         for (cargo, uf), _ in df.groupby(["cargo", "uf"]):
             res = recomendar(df, cargo, uf, a.corte, a.nao_avaliados)
-            linhas += [{"cargo": cargo, "uf": uf, "corte": a.corte, "nao_avaliados": a.nao_avaliados, **r} for r in res["recomendados"]]
+            linhas += [{"cargo": cargo, "uf": uf, "corte": res["corte"], "nao_avaliados": a.nao_avaliados, **r} for r in res["recomendados"]]
         pd.DataFrame(linhas).to_csv(OUTPUT_CSV, index=False, encoding="utf-8")
         print(f"{len(linhas)} recomendações em {OUTPUT_CSV}")
         return

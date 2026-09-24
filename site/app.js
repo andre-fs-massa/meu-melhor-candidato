@@ -6,6 +6,15 @@
     return;
   }
 
+  // dados.js guarda uma vez só os valores repetidos (DADOS.tabelas) e deixa em cada candidato o índice;
+  // aqui cada índice volta a ser o valor original, então o resto do código não muda (valores compartilhados, só leitura).
+  (function expandirTabelas() {
+    const T = DADOS.tabelas || {};
+    Object.values(DADOS.grupos).forEach(g => (g.candidatos || []).forEach(c => {
+      Object.keys(T).forEach(campo => { if (typeof c[campo] === "number") c[campo] = T[campo][c[campo]]; });
+    }));
+  })();
+
   // ---------- tema (só conveniência local, nunca enviado) ----------
   (function tema() {
     const btn = $("btnTema");
@@ -431,7 +440,7 @@
   // ---------- lista com todos os candidatos do cargo/estado ----------
   function renderTodos(g) {
     const onde = CARGO[g.cargo].rotulo + (g.uf === "BR" ? "" : " · " + UF_NOME[g.uf]);
-    $("todosSub").textContent = `${onde}. Ordenados pela qualificação geral (média entre idoneidade geral e competência geral). Quem tem registro indeferido ou idoneidade abaixo de ${fmt(META.corte)} não é recomendado, mas segue listado para transparência.`;
+    $("todosSub").textContent = `${onde}. Ordenados pela qualificação geral (média entre idoneidade geral e competência geral). Quem tem registro indeferido ou idoneidade abaixo de ${fmt(g.corte)} não é recomendado, mas segue listado para transparência.`;
     const rec = g.candidatos.filter(c => c.situacao === "recomendado" || c.situacao === "segue").length;
     const fora = g.candidatos.filter(c => c.situacao === "fora_da_disputa").length;
     const abaixo = g.candidatos.filter(c => c.situacao === "abaixo_do_corte").length;
@@ -458,10 +467,19 @@
       const pillwrap = el("span", "pillwrap"); pillwrap.append(pill);
       if (subJudice(c)) pillwrap.append(el("span", "pill warn", "⚠ Sub judice"));
       b.append(quem, med, pillwrap);
-      const det = detalhe(c); det.hidden = true; det.id = "det-" + i; b.setAttribute("aria-controls", det.id);
-      if (c.motivo_saida && c.situacao !== "abaixo_do_corte") det.prepend(el("p", null, "Por que saiu: " + c.motivo_saida.replace(/^[a-z_]+: /, "")));
-      if (c.situacao === "abaixo_do_corte") det.prepend(el("p", null, `Por que saiu: idoneidade geral ${c.motivo_saida.replace(".", ",")} (corte ${fmt(META.corte)}).`));
-      b.addEventListener("click", () => { const abre = det.hidden; det.hidden = !abre; b.setAttribute("aria-expanded", String(abre)); });
+      // o painel de detalhes só é montado na primeira abertura (com ~1.000 candidatos por lista, montar todos trava a página)
+      const det = el("div"); det.hidden = true; det.id = "det-" + i; b.setAttribute("aria-controls", det.id);
+      let montado = false;
+      const montarDetalhe = () => {
+        const d = detalhe(c);
+        if (c.motivo_saida && c.situacao !== "abaixo_do_corte") d.prepend(el("p", null, "Por que saiu: " + c.motivo_saida.replace(/^[a-z_]+: /, "")));
+        if (c.situacao === "abaixo_do_corte") d.prepend(el("p", null, `Por que saiu: idoneidade geral ${c.motivo_saida.replace(/\./g, ",")} (corte ${fmt(g.corte)}).`));
+        det.className = d.className; det.append(...d.childNodes);
+      };
+      b.addEventListener("click", () => {
+        if (!montado) { montado = true; montarDetalhe(); }
+        const abre = det.hidden; det.hidden = !abre; b.setAttribute("aria-expanded", String(abre));
+      });
       li.append(b, det); ol.append(li);
     });
   }
@@ -471,14 +489,14 @@
     const m = $("metodo"); m.textContent = "";
     [`Reunimos os candidatos oficiais do TSE para o cargo e o estado escolhidos.`,
      `Etapa 0: saem candidatos com registro indeferido ou inelegíveis, mesmo que ainda apareçam no arquivo do TSE.`,
-     `Etapa 1: sai quem tem idoneidade geral abaixo de ${fmt(META.corte)} (de 0 a 10). Idoneidade geral é a média entre a idoneidade pessoal do candidato (processos, Ficha Limpa, contas) e a do círculo político dele (vice, presidentes de partido, padrinhos). Quem não teve a idoneidade pesquisada não é recomendado, para não punir quem foi mais escrutinado.`,
+     `Etapa 1: sai quem tem idoneidade geral abaixo de ${fmt(META.corte)} (de 0 a 10; para deputados o corte é ${fmt(META.corte_deputados)}, porque a nota deles vem só de bases oficiais e do partido). Idoneidade geral é a média entre a idoneidade pessoal do candidato (processos, Ficha Limpa, contas) e a do círculo político dele (vice, presidentes de partido, padrinhos). Quem não teve a idoneidade pesquisada não é recomendado, para não punir quem foi mais escrutinado.`,
      `Etapa 2: cada candidato restante é posicionado num de quatro quadrantes do diagrama de Nolan (limite em ${fmt(META.limiar)} nos dois eixos: economia e costumes).`,
      `Etapa 3: em cada quadrante, o recomendado é quem tem maior qualificação geral — a média entre idoneidade geral e competência geral (que por sua vez é a média da competência declarada e da escolaridade).`,
      `Empates na última vaga de um quadrante são resolvidos por sorteio, nunca por ordem alfabética.`,
-     `Cada candidato mostra a profundidade da pesquisa (rápida, padrão ou aprofundada) e o resultado da conferência automática, por CPF, em bases oficiais: contas julgadas irregulares pelo TCU, motivos de indeferimento no TSE em 2022, sanções do CEIS, CNEP e CEAF e autos de infração do Ibama.`,
+     `Cada candidato mostra a profundidade da pesquisa (verificação estrutural, rápida, padrão ou aprofundada) e o resultado da conferência automática, por CPF, em bases oficiais: contas julgadas irregulares pelo TCU, motivos de indeferimento no TSE em 2022, sanções do CEIS, CNEP e CEAF e autos de infração do Ibama.`,
      `Se você não sabe seu quadrante, 2 perguntas simples indicam uma posição provável, que não é armazenada. Se nenhum candidato do seu quadrante (ou do vizinho) continuar na disputa, mostramos o mais próximo da sua posição entre os demais.`].forEach(t => m.append(el("li", null, t)));
     const lim = $("limites"); lim.textContent = "";
-    [`Cobertura desigual: há verificação para Presidente, Governador e Senador em todos os estados. Deputados entram conforme a pesquisa avançar. A pesquisa de Senador foi feita com busca mais rápida (1 a 2 buscas por candidato), então nota 10 vale como "nada encontrado", não como atestado.`,
+    [`Cobertura desigual: Presidente, Governador e Senador têm pesquisa individual na internet em todos os estados. Deputado federal tem só verificação estrutural: círculo político (presidente do partido), cargos eletivos de 2014 a 2024 e conferência em bases oficiais; ali, nota 10 quer dizer apenas que nada consta nessas bases, sem incluir processos judiciais, inquéritos nem notícias. Deputados estadual e distrital ainda não entraram. A pesquisa de Senador foi feita com busca mais rápida (1 a 2 buscas por candidato), então nota 10 vale como "nada encontrado", não como atestado.`,
      `A posição de quem não teve pesquisa individual é a do partido (indicado ao passar o mouse ou focar o ponto no diagrama). Quem está perto do centro pode pertencer ao quadrante vizinho.`,
      `"Competência" mede formação e experiência declaradas, e favorece quem tem carreira eletiva ou diploma superior — não mede a qualidade do plano de governo.`,
      `O questionário de 2 perguntas ainda não foi calibrado nem testado com eleitores; uma pergunta por eixo é pouco, e respostas de meio-termo ficam "perto do centro". Ajuste sua posição manualmente se o resultado não parecer com você.`,

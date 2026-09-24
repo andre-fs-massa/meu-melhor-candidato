@@ -43,6 +43,11 @@ PESOS_ACHADO = {
     "citado_ou_apuracao_preliminar": 1,              # [EXT] citado em delação/inquérito sem ser alvo, ou apuração preliminar
     "acao_civil_dano_moral": 1,                      # por caso; a soma é limitada a 3
     "controversia_administrativa": 0.5,              # [EXT] decisão administrativa questionável, sem ilícito
+    "infracao_administrativa_ambiental": 1,          # [EXT] 2026-09-24: auto(s) de infração do Ibama, todos abaixo de R$ 1 mi
+                                                      # (a partir de R$ 1 mi vale sancao_institucional_confirmada, -2).
+                                                      # Um achado por candidato, qualquer que seja o número de autos.
+                                                      # Definido a pedido do usuário, que decidiu penalizar autos pequenos
+                                                      # (antes só apareciam no painel, sem desconto).
 }
 
 # Limites por categoria (soma dos descontos daquela categoria)

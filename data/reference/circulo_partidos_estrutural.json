@@ -1,0 +1,339 @@
+{
+ "_leiame": "Desconto do presidente do partido no círculo político de candidatos de eleição PROPORCIONAL (deputados), onde não há vice nem padrinho identificável em massa. Derivado de circulo_politico.json (pesquisa manual) por `python -m pipeline.gerar_estrutural_deputados --derivar-tabela`; pode ser editado à mão (o campo 'origem' avisa quando for edição manual). Mesma convenção dos majoritários: parceiros de federação e coligação não entram. 'nao_verificado' com desconto 0 significa que a pendência do presidente NÃO foi pesquisada, não que não exista.",
+ "partidos": {
+  "PSD": {
+   "presidente": "Gilberto Kassab",
+   "tipo_pendencia": "reu_acao_penal",
+   "desconto": 2,
+   "pendencia": "Réu desde 2021 por corrupção passiva, lavagem de dinheiro, caixa 2 eleitoral e associação criminosa (recebimento de R$16,5 milhões do grupo JBS via contratos simulados, 2014-2016). Também condenado por improbidade administrativa como ex-prefeito de São Paulo (não pagamento de precatórios judiciais).",
+   "fontes": [
+    "https://www.correiobraziliense.com.br/politica/2021/03/4911463-kassab-vira-reu-por-corrupcao-caixa-2-e-lavagem-de-rs-165-milhoes-da-jbs.html",
+    "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=23053&Id=23053"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (15 candidatos)"
+  },
+  "PL": {
+   "presidente": "Valdemar Costa Neto",
+   "tipo_pendencia": "condenacao_confirmada_sem_reversao",
+   "desconto": 4,
+   "pendencia": "Condenado e preso por corrupção e lavagem de dinheiro no escândalo do Mensalão (2012); recebeu indulto do STF em 2016. Sem pendência penal ativa encontrada hoje, mas histórico grave.",
+   "fontes": [
+    "https://en.wikipedia.org/wiki/Valdemar_Costa_Neto"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (33 candidatos)"
+  },
+  "REPUBLICANOS": {
+   "presidente": "Marcos Pereira",
+   "tipo_pendencia": "nenhuma_encontrada",
+   "desconto": 0,
+   "pendencia": "Nenhuma pendência encontrada.",
+   "fontes": [],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (12 candidatos)"
+  },
+  "NOVO": {
+   "presidente": "Eduardo Ribeiro",
+   "tipo_pendencia": "nenhuma_encontrada",
+   "desconto": 0,
+   "pendencia": "Nenhuma pendência encontrada.",
+   "fontes": [],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (14 candidatos)"
+  },
+  "PCO": {
+   "presidente": "Rui Costa Pimenta",
+   "tipo_pendencia": "investigado_sem_denuncia",
+   "desconto": 1,
+   "pendencia": "Contas partidárias com histórico recorrente de rejeição/falhas técnicas no TSE (contas não prestadas, divergências não justificadas, repasse indevido à fundação partidária). Rui Costa Pimenta pessoalmente investigado pela PF por suposto desvio de verba eleitoral.",
+   "fontes": [
+    "https://www.cnnbrasil.com.br/eleicoes/pf-mira-candidato-do-pco-a-presidente-por-suposto-desvio-de-verba-eleitoral/"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (14 candidatos)"
+  },
+  "MISSÃO": {
+   "presidente": "Renan Santos",
+   "tipo_pendencia": "reu_acao_civil",
+   "desconto": 2,
+   "pendencia": "Ação civil pública do MPF em curso (discurso de ódio contra indígenas) e condenação cível anterior (danos morais a um deputado). Nenhuma questão penal ou de Ficha Limpa.",
+   "fontes": [
+    "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-processa-candidato-a-presidencia-e-o-mbl-por-discurso-de-odio-contra-indigenas-do-para"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (6 candidatos)"
+  },
+  "PT": {
+   "presidente": "Edinho Silva",
+   "tipo_pendencia": "investigacao_arquivada_sem_denuncia",
+   "desconto": 1,
+   "pendencia": "Inquérito da Lava Jato aberto em 2015 (delação de Ricardo Pessoa/UTC: suspeita de R$ 7,5 mi em propina para a campanha de Dilma 2014, quando era tesoureiro) foi TRANCADO pelo TRE-DF por excesso de prazo (8 anos), sem denúncia e sem julgamento de mérito.",
+   "fontes": [
+    "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/",
+    "https://www.terra.com.br/noticias/brasil/politica/cotado-para-presidir-o-pt-edinho-se-livra-de-inquerito-da-lava-jato,76ee9924f0b981722d076c1c6b1c71aasodqtqtx.html"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (19 candidatos)"
+  },
+  "PDT": {
+   "presidente": "Carlos Lupi",
+   "tipo_pendencia": "delatado_sem_denuncia",
+   "desconto": 1,
+   "pendencia": "Deixou o Ministério da Previdência em 05/2025 após a fraude dos descontos ilegais no INSS; foi delatado por ex-dirigentes do INSS (relatos de fev/2026) por demorar cerca de um ano para agir enquanto os descontos subiram de R$ 80,6 mi para R$ 248,1 mi. Sem denúncia formal encontrada.",
+   "fontes": [
+    "https://www.metropoles.com/colunas/andreza-matais/dirigentes-do-inss-delataram-carlos-lupi-ex-ministro-da-previdencia-de-lula",
+    "https://www.portaldacapital.com/2026/05/14/presidente-nacional-do-pdt-carlos-lupi-participa-de-posse-de-diretoria-do-partido-nesta-quinta/"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (7 candidatos)"
+  },
+  "PSDB": {
+   "presidente": "Aécio Neves",
+   "tipo_pendencia": "nenhuma_encontrada",
+   "desconto": 0,
+   "pendencia": "Nenhuma pendência ATIVA encontrada nesta busca geral (não exaustiva): a 2ª Turma do STF arquivou em fev/2024 o inquérito INQ 4830. Histórico de múltiplas investigações da era Lava Jato/JBS não reexaminado aqui.",
+   "fontes": [
+    "https://en.wikipedia.org/wiki/A%C3%A9cio_Neves",
+    "https://portaldeprefeitura.com.br/bastidores-da-politica/aecio-neves-desiste-candidatura-psdb-lancara-nome-planalto/626505/"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (8 candidatos)"
+  },
+  "PP": {
+   "presidente": "Ciro Nogueira",
+   "tipo_pendencia": "investigado_sem_denuncia",
+   "desconto": 1,
+   "pendencia": "Alvo da Polícia Federal na Operação Compliance Zero (caso Banco Master), com supervisão do STF (relator André Mendonça): suspeita de receber R$ 300-500 mil por mês de Daniel Vorcaro, além de imóveis, empresa comprada abaixo do mercado e viagens, em troca de atuar no Congresso pelo Master -- a Emenda 11 à PEC 65/2023, que ampliava a cobertura do FGC, teria sido redigida pela assessoria do banco. Sem denúncia formal até a pesquisa.",
+   "fontes": [
+    "https://www.jota.info/stf/do-supremo/caso-master-ciro-nogueira-e-alvo-da-pf-por-suspeita-de-corrupcao-em-emenda-que-ampliava-fgc",
+    "https://www.metropoles.com/colunas/andreza-matais/leia-a-integra-da-decisao-do-stf-contra-ciro-nogueira-no-caso-master",
+    "https://www.cartacapital.com.br/cartaexpressa/ciro-nogueira-entre-os-alvos-sela-permanencia-do-caso-master-no-stf/"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (9 candidatos)"
+  },
+  "UNIÃO": {
+   "presidente": "Antonio Rueda",
+   "tipo_pendencia": "investigado_sem_denuncia",
+   "desconto": 1,
+   "pendencia": "Investigado pela PF na Operação Carbono Oculto (esquema do PCC no setor de combustíveis): suspeita de ser dono oculto de jatos, em nome de terceiros e fundos, usados para transportar integrantes do crime organizado. Colocou seus sigilos bancário e fiscal à disposição da PGR e diz ter provas de que pagou pelos voos. Sem denúncia formal encontrada.",
+   "fontes": [
+    "https://www.cnnbrasil.com.br/politica/pf-inclui-presidente-do-uniao-brasil-em-investigacao-sobre-esquemas-do-pcc/",
+    "https://www.poder360.com.br/poder-justica/pf-inclui-presidente-do-uniao-brasil-em-operacao-que-mira-pcc/"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (10 candidatos)"
+  },
+  "MDB": {
+   "presidente": "Baleia Rossi",
+   "tipo_pendencia": "investigado_sem_denuncia",
+   "desconto": 1,
+   "pendencia": "Citado em investigação sobre fraudes em contratos da prefeitura de Ribeirão Preto e na delação da JBS; o MP-SP repassou as suspeitas à PGR e elas correm em inquérito sob sigilo no STF desde 2018 (relator Nunes Marques). Nega irregularidades. RESSALVA: a fonte é de 2021 -- o status atual NÃO foi confirmado.",
+   "fontes": [
+    "https://www.poder360.com.br/congresso/baleia-rossi-e-citado-em-investigacoes-contra-fraudes-e-em-delacao-da-jbs/",
+    "https://baleiarossi.com.br/noticias/baleia-rossi-e-reconduzido-como-presidente-nacional-do-mdb/"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (19 candidatos)"
+  },
+  "PSB": {
+   "presidente": "João Campos",
+   "tipo_pendencia": "nenhuma_encontrada",
+   "desconto": 0,
+   "pendencia": "Nenhuma pendência encontrada nesta busca geral (não exaustiva).",
+   "fontes": [
+    "https://en.wikipedia.org/wiki/Jo%C3%A3o_Henrique_Campos"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (10 candidatos)"
+  },
+  "PSOL": {
+   "presidente": "Paula Coradi",
+   "tipo_pendencia": "nenhuma_encontrada",
+   "desconto": 0,
+   "pendencia": "Nenhuma pendência encontrada nesta busca geral (não exaustiva).",
+   "fontes": [
+    "https://psol50.org.br/com-67-dos-votos-paula-coradi-e-eleita-a-nova-presidenta-do-psol/"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (21 candidatos)"
+  },
+  "SOLIDARIEDADE": {
+   "presidente": "Paulinho da Força",
+   "tipo_pendencia": "investigado_sem_denuncia",
+   "desconto": 1,
+   "pendencia": "Investigado em inquérito no STF (relator André Mendonça, destravado em dez/2025 após 2 anos parado) por suposto esquema de captação de clientes para ações trabalhistas com listas de demitidos obtidas em sindicatos -- o MP-SP aponta R$ 100 mil mensais. Sem denúncia até a pesquisa.",
+   "fontes": [
+    "https://www.poder360.com.br/poder-justica/stf-destrava-investigacao-contra-paulinho-da-forca-apos-2-anos/",
+    "https://www.cnnbrasil.com.br/politica/mendonca-movimenta-inquerito-contra-paulinho-da-forca-apos-dois-anos-parado/"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (2 candidatos)"
+  },
+  "AVANTE": {
+   "presidente": "Luis Tibé",
+   "tipo_pendencia": "condenacao_civil",
+   "desconto": 2,
+   "pendencia": "Condenado em 2015 por improbidade civil (uso irregular de verba indenizatória da Câmara de BH, 2009-2011); a dívida foi quitada e o MPMG pediu a extinção do processo. Inquérito da PF (2022) sobre gráficas de divulgação não viu crime. Citado em relatório da PF sobre lavagem de dinheiro apenas por contatos (NÃO contado). Sem pendência penal ativa encontrada.",
+   "fontes": [
+    "https://ofator.com.br/informacao/luis-tibe-quita-divida-de-improbidade-por-mau-uso-de-verba-da-camara-de-bh/",
+    "https://www.cnnbrasil.com.br/blogs/luisa-martins/politica/pf-afirma-nao-ver-crime-por-parte-do-presidente-do-avante-investigado-no-stf/"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (8 candidatos)"
+  },
+  "PCDOB": {
+   "presidente": "Nádia Campeão (a ex-presidente Luciana Santos está licenciada por ser ministra da Ciência e Tecnologia)",
+   "tipo_pendencia": "nao_verificado",
+   "desconto": 0,
+   "pendencia": "NÃO VERIFICADO: uma fonte partidária (Brasil Sem Medo) afirma que Luciana Santos tem condenação por improbidade em licitação de iluminação pública; não confirmei em fonte independente e ela já não preside o partido. Nada pesquisado sobre a atual presidente.",
+   "fontes": [
+    "https://brasilsemmedo.com/ministra-da-ciencia-e-tecnologia-de-lula-tem-condenacao-por-improbidade-administrativa/"
+   ],
+   "atualizado_em": "2026-09-21",
+   "origem": "sem apoiador correspondente nas pesquisas de círculo: presidente não verificado (desconto 0)"
+  },
+  "PRD": {
+   "presidente": "Marcus Vinícius Neskau",
+   "tipo_pendencia": "nao_verificado",
+   "desconto": 0,
+   "pendencia": "NÃO VERIFICADO: os resultados da busca são ambíguos (menção a afastamento determinado por Alexandre de Moraes no inquérito das fake news e a influência em nomeações no Detran-RJ segundo o MPF); não consegui confirmar nenhum fato em fonte primária, então nada foi contado.",
+   "fontes": [
+    "https://pt.wikipedia.org/wiki/Marcus_Vin%C3%ADcius_de_Vasconcelos_Ferreira"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (1 candidatos)"
+  },
+  "CIDADANIA": {
+   "presidente": "Presidência do Cidadania (em disputa judicial)",
+   "tipo_pendencia": "nenhuma_encontrada",
+   "desconto": 0,
+   "pendencia": "Sem achado individual verificado. O grupo rival (Roberto Freire) anunciou representação criminal ao MPF sobre a gestão de Comte em 2023-2025; é acusação interna de disputa partidária, NÃO contada.",
+   "fontes": [
+    "https://www.band.com.br/noticias/comte-bittencourt-entrega-chave-do-tse-e-cidadania-tera-novo-presidente-202603021859"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (3 candidatos)"
+  },
+  "PV": {
+   "presidente": "José Luiz de França Penna",
+   "tipo_pendencia": "nenhuma_encontrada",
+   "desconto": 0,
+   "pendencia": "Nenhuma pendência encontrada nesta busca geral (não exaustiva).",
+   "fontes": [
+    "https://pv.org.br/presidente-nacional-do-pv-jose-luiz-penna/"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (2 candidatos)"
+  },
+  "UP": {
+   "presidente": "Leonardo Péricles Vieira Roque",
+   "tipo_pendencia": "nenhuma_encontrada",
+   "desconto": 0,
+   "pendencia": "Nenhuma pendência pessoal encontrada nesta busca geral (não exaustiva). Há um processo interno de aprovação de estatuto do partido (parcialmente aprovado em 2026), sem relação com conduta pessoal dele.",
+   "fontes": [
+    "https://sbtnews.sbt.com.br/noticia/politica/unidade-popular-quer-presidencia-e-mira-17-governos"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (23 candidatos)"
+  },
+  "PSTU": {
+   "presidente": "José Maria Almeida",
+   "tipo_pendencia": "nenhuma_encontrada",
+   "desconto": 0,
+   "pendencia": "Nenhuma pendência pessoal encontrada nesta busca geral (não exaustiva). O PSTU teve candidaturas de 2026 indeferidas em vários estados por pendências de contas partidárias (DRAP) -- problema do partido, não achado de conduta pessoal dele.",
+   "fontes": [
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/partido-socialista-dos-trabalhadores-unificado"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (17 candidatos)"
+  },
+  "REDE": {
+   "presidente": "Paulo Roberto Lamac Junior",
+   "tipo_pendencia": "condenacao_civil",
+   "desconto": 2,
+   "pendencia": "Firmou em 2026 acordo com o Ministério Público de Minas Gerais para encerrar ação sobre uso irregular de verba pública, comprometendo-se a pagar cerca de R$ 171 mil -- reconhecimento implícito de irregularidade, sem condenação criminal. Também há disputa interna sobre a legitimidade do congresso partidário de 2025 (anulado pela Justiça do RJ em jan/2026), sem relação com esta pendência.",
+   "fontes": [
+    "https://pt.wikipedia.org/wiki/Rede_Sustentabilidade"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (6 candidatos)"
+  },
+  "DEMOCRATA": {
+   "presidente": "Suêd Haidar Nogueira",
+   "tipo_pendencia": "nao_verificado",
+   "desconto": 0,
+   "pendencia": "NÃO VERIFICADO: a busca mostra processos de 2026 envolvendo ela, o partido e o Procurador Geral Eleitoral, mas sem detalhes claros sobre a natureza ou o objeto -- não confirmado em fonte primária, nada contado.",
+   "fontes": [
+    "https://www.escavador.com/nomes/sued-haidar-nogueira-2203134fb6"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (10 candidatos)"
+  },
+  "DC": {
+   "presidente": "João Caldas da Silva",
+   "tipo_pendencia": "condenacao_confirmada_sem_reversao",
+   "desconto": 4,
+   "pendencia": "CORRIGIDO 2026-09-22 (pesquisando o filho dele, JHC, candidato ao governo de Alagoas): ex-deputado federal (AL), CONDENADO por improbidade administrativa no esquema 'Máfia das Ambulâncias' (Operação Taturana/Sanguessugas -- fraude em licitações de ambulâncias com emendas parlamentares, 2006). A condenação (1ª Vara Federal de Alagoas) foi CONFIRMADA pelo Plenário do TRF5 em grau de recurso, com pena de devolução de recursos públicos e PERDA DE DIREITOS POLÍTICOS -- avaliação de 2026-09-21 (que classificou como '1ª instância ainda recorrível', por uma manchete ambígua sobre o TRF5) estava desatualizada/cautelosa demais; corrigido para condenação confirmada sem reversão. Há também um processo distinto da Máfia das Sanguessugas propriamente dita, julgado em 2018 pela Justiça Federal de Cuiabá/MT -- mesma família de esquemas, tratado como o mesmo achado (não somado em dobro).",
+   "fontes": [
+    "https://reporternordeste.com.br/condenado-por-receber-propina-joao-caldas-volta-ao-banco-dos-reus-nesta-4a/",
+    "https://www.urbanitarios-al.com.br/2014/12/joao-caldas-e-condenado-no-trf-na-mafia-das-ambulancias/",
+    "https://www.tribunadosertao.com.br/politica/2026/09/11/977133-jhc-aciona-a-justica-para-esconder-condenacao-do-pai-por-desvios-na-saude"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (17 candidatos)"
+  },
+  "AGIR": {
+   "presidente": "Daniel Sampaio Tourinho",
+   "tipo_pendencia": "nenhuma_encontrada",
+   "desconto": 0,
+   "pendencia": "Nenhuma pendência encontrada nesta busca geral (não exaustiva).",
+   "fontes": [
+    "https://pt.wikipedia.org/wiki/Daniel_Tourinho"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (7 candidatos)"
+  },
+  "MOBILIZA": {
+   "presidente": "Antonio Carlos Bosco Massarollo",
+   "tipo_pendencia": "nenhuma_encontrada",
+   "desconto": 0,
+   "pendencia": "Nenhuma pendência encontrada nesta busca geral (não exaustiva).",
+   "fontes": [
+    "https://pt.wikipedia.org/wiki/Mobiliza%C3%A7%C3%A3o_Nacional"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (6 candidatos)"
+  },
+  "PRTB": {
+   "presidente": "Leonardo Avalanche",
+   "tipo_pendencia": "reu_acao_penal",
+   "desconto": 2,
+   "pendencia": "Réu desde março/2026 por associação criminosa, violência política de gênero e inserção de dados falsos em sistemas públicos (fraude que o levou à presidência do partido, denúncia do MP-SP de janeiro/2026); também investigado pela PF por suposto desvio de R$750 mil do fundo eleitoral do PRTB nas eleições municipais de 2024. Sem condenação até a pesquisa.",
+   "fontes": [],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (2 candidatos)"
+  },
+  "PCB": {
+   "presidente": "Edmilson Silva Costa",
+   "tipo_pendencia": "nenhuma_encontrada",
+   "desconto": 0,
+   "pendencia": "Nenhuma pendência pessoal encontrada nesta busca geral (não exaustiva).",
+   "fontes": [],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (2 candidatos)"
+  },
+  "PODE": {
+   "presidente": "Renata Abreu",
+   "tipo_pendencia": "investigado_sem_denuncia",
+   "desconto": 1,
+   "pendencia": "Inquérito eleitoral sobre irregularidades nas contas de campanha do Podemos em 2018 (contratos de publicidade e comunicação): o MPE ofereceu a ela um acordo de não persecução penal; não foi possível confirmar se aceitou. Parte da investigação (outras pessoas e uma empresa) foi arquivada por falta de justa causa. Sem denúncia.",
+   "fontes": [
+    "https://www.metropoles.com/colunas/mirelle-pinheiro/mp-propoe-acordo-para-evitar-denuncia-contra-renata-abreu"
+   ],
+   "atualizado_em": "2026-09-23",
+   "origem": "pesquisa manual de círculo político de 2026-09-23 (7 candidatos)"
+  }
+ }
+}

@@ -21,6 +21,8 @@ from . import competencia_dimensoes as cd
 from . import competencias, config
 
 REFERENCE_PATH = config.RAW_DIR.parent / "reference" / "experiencia_politica.json"
+# Gerado sem pesquisa manual por pipeline/gerar_estrutural_deputados.py (deputados); o JSON manual tem precedência.
+ESTRUTURAL_PATH = config.PROCESSED_DIR / "estrutural_experiencia_politica.json"
 OUTPUT_PARQUET = (
     config.PROCESSED_DIR / f"candidatos_{config.ANO_ELEICAO}_competencias_enriquecido.parquet"
 )
@@ -110,15 +112,19 @@ def main() -> None:
     )
     df = pd.read_parquet(caminho_scores)
     referencia = json.loads(REFERENCE_PATH.read_text(encoding="utf-8"))
+    if ESTRUTURAL_PATH.exists():
+        estrutural = json.loads(ESTRUTURAL_PATH.read_text(encoding="utf-8"))["candidatos"]
+        print(f"{len(estrutural):,} registros estruturais (deputados) somados aos {len(referencia['candidatos']):,} manuais")
+        referencia["candidatos"] = {**estrutural, **referencia["candidatos"]}
 
     resultado = enriquecer(df, referencia)
 
     n_pesquisados = resultado["teve_cargo_eletivo"].notna().sum()
     print(f"{n_pesquisados} candidatos com experiência política pesquisada e aplicada")
     print(
-        resultado[resultado["teve_cargo_eletivo"].notna()][
+        resultado[resultado["teve_cargo_eletivo"].notna() & resultado["experiencia_pesquisada_em"].notna()][
             ["nome_urna", "teve_cargo_eletivo", "cargos_anteriores_resumo"]
-        ].to_string()
+        ].head(400).to_string()
     )
 
     config.PROCESSED_DIR.mkdir(parents=True, exist_ok=True)

@@ -1,7 +1,7 @@
 """Exporta os dados do protótipo do eleitor (site/dados.js) a partir do funil de recomendação.
 
-Uma única fonte da verdade: as recomendações vêm de `pipeline.recomendar.recomendar`, com o corte e a
-política de não avaliados padrão (corte 6,0; só recomenda quem tem idoneidade geral verificada). Para cada
+Uma única fonte da verdade: as recomendações vêm de `pipeline.recomendar.recomendar`, com o corte do cargo e a
+política de não avaliados padrão (corte 6,0, e 8,5 para deputados; só recomenda quem tem idoneidade geral verificada). Para cada
 cargo/UF com pelo menos um candidato verificado, exporta TODOS os candidatos com a situação de cada um
 (fora da disputa, abaixo do corte, segue, recomendado) e os motivos estruturados das notas. Cargo/UF sem
 nenhum candidato verificado exporta só as contagens, e a página mostra "ainda sem verificação".
@@ -9,6 +9,7 @@ nenhum candidato verificado exporta só as contagens, e a página mostra "ainda 
 Uso: python -m pipeline.exportar_prototipo
 """
 import json
+from collections import Counter
 from datetime import date
 
 import pandas as pd
@@ -18,7 +19,7 @@ from .cruzar_bases_oficiais import BASES, SAIDA as CSV_BASES_OFICIAIS
 from .enriquecer_circulo_politico import ROTULO_LIGACAO
 from .pesos import PESOS_ACHADO
 from .recomendar import (
-    CORTE_IDONEIDADE_PADRAO, INPUT_PATH, LIMIAR_QUADRANTE, MARGEM_FRONTEIRA, NOME_QUADRANTE, REF_DIR,
+    CORTE_IDONEIDADE_PADRAO, CORTE_POR_CARGO, INPUT_PATH, LIMIAR_QUADRANTE, MARGEM_FRONTEIRA, NOME_QUADRANTE, REF_DIR,
     VAGAS_POR_QUADRANTE, preparar, recomendar,
 )
 
@@ -47,6 +48,7 @@ ROTULO_ACHADO = {
     "citado_ou_apuracao_preliminar": "Citado ou em apuração preliminar",
     "acao_civil_dano_moral": "Ação cível por dano moral",
     "controversia_administrativa": "Controvérsia administrativa",
+    "infracao_administrativa_ambiental": "Infração ambiental (autos do Ibama abaixo de R$ 1 mi)",
 }
 CURTO_QUADRANTE = {"LIBERTARIO": "Libertário", "DIREITA": "Direita conservadora", "ESQUERDA": "Esquerda progressista",
                    "AUTORITARIO": "Estatista-autoritário"}
@@ -118,15 +120,24 @@ def _verificacao(prof: dict, bases_of: dict, cargo: str, uf: str, sq: str) -> di
     return {"nivel": _nivel_profundidade(prof, cargo, uf, sq), "bases": bases}
 
 
+def _com_estrutural(manual: str, estrutural: str) -> dict:
+    dados = json.loads((REF_DIR / manual).read_text(encoding="utf-8"))["candidatos"]
+    caminho = config.PROCESSED_DIR / estrutural
+    if caminho.exists():
+        dados = {**json.loads(caminho.read_text(encoding="utf-8"))["candidatos"], **dados}
+    return dados
+
+
 def construir(df: pd.DataFrame) -> dict:
     prof = json.loads((REF_DIR / "profundidade_pesquisa.json").read_text(encoding="utf-8"))
     bases_of = _carregar_bases_oficiais()
-    idn = json.loads((REF_DIR / "idoneidade.json").read_text(encoding="utf-8"))["candidatos"]
-    circ = json.loads((REF_DIR / "circulo_politico.json").read_text(encoding="utf-8"))["candidatos"]
+    # JSONs manuais (data/reference) + registros estruturais de deputados (data/processed); o manual tem precedência
+    idn = _com_estrutural("idoneidade.json", "estrutural_idoneidade.json")
+    circ = _com_estrutural("circulo_politico.json", "estrutural_circulo_politico.json")
     grupos = {}
     for (cargo, uf), g in df.groupby(["cargo", "uf"]):
         n_aval = int(g["nota_idoneidade_geral"].notna().sum())
-        entrada = {"cargo": cargo, "uf": uf, "n_total": len(g), "n_avaliados": n_aval}
+        entrada = {"cargo": cargo, "uf": uf, "n_total": len(g), "n_avaliados": n_aval, "corte": CORTE_POR_CARGO.get(cargo, CORTE_IDONEIDADE_PADRAO)}
         if n_aval == 0:
             entrada["status"] = "sem_verificacao"
             grupos[f"{cargo}|{uf}"] = entrada
@@ -169,7 +180,7 @@ def construir(df: pd.DataFrame) -> dict:
                         "recomendados": [r["sq"] for r in res["recomendados"]]})
         grupos[f"{cargo}|{uf}"] = entrada
     return {
-        "meta": {"gerado_em": date.today().isoformat(), "corte": CORTE_IDONEIDADE_PADRAO, "limiar": LIMIAR_QUADRANTE,
+        "meta": {"gerado_em": date.today().isoformat(), "corte": CORTE_IDONEIDADE_PADRAO, "corte_deputados": max(CORTE_POR_CARGO.values()), "limiar": LIMIAR_QUADRANTE,
                  "margem_fronteira": MARGEM_FRONTEIRA, "politica_nao_avaliados": "excluir", "data_eleicao": "2026-10-04",
                  "total_candidatos": int(len(df))},
         "profundidade": prof["niveis"],
@@ -180,9 +191,35 @@ def construir(df: pd.DataFrame) -> dict:
     }
 
 
+# Campos de candidato cujo valor se repete entre milhares de candidatos (mesmo partido, mesma conferência em bases).
+CAMPOS_DEDUPLICADOS = ("apoiadores", "fontes", "verificacao", "cobertura", "posicao_fonte")
+TAMANHO_MINIMO_DEDUP = 12  # não vale trocar por índice um valor menor que isto (ex.: "[]")
+
+
+def deduplicar(dados: dict) -> dict:
+    """Guarda uma vez só (em dados['tabelas']) os valores repetidos de CAMPOS_DEDUPLICADOS e deixa no candidato o
+    índice. O site (`expandirTabelas` em app.js) devolve cada índice ao valor original ao carregar; quem lê o
+    JSON por fora deve fazer o mesmo. Valores que aparecem uma vez, ou pequenos, ficam no próprio candidato."""
+    candidatos = [c for g in dados["grupos"].values() for c in g.get("candidatos", [])]
+    ser = lambda v: json.dumps(v, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    contagem = {campo: Counter(ser(c[campo]) for c in candidatos if campo in c) for campo in CAMPOS_DEDUPLICADOS}
+    tabelas, indices = {}, {}
+    for campo in CAMPOS_DEDUPLICADOS:
+        # mais frequentes primeiro: índices menores (menos caracteres) para os valores mais usados
+        comuns = [v for v, n in contagem[campo].most_common() if n >= 2 and len(v) > TAMANHO_MINIMO_DEDUP]
+        indices[campo] = {v: i for i, v in enumerate(comuns)}
+        tabelas[campo] = [json.loads(v) for v in comuns]
+    for c in candidatos:
+        for campo in CAMPOS_DEDUPLICADOS:
+            if campo in c and ser(c[campo]) in indices[campo]:
+                c[campo] = indices[campo][ser(c[campo])]
+    dados["tabelas"] = tabelas
+    return dados
+
+
 def main() -> None:
     df = preparar(pd.read_parquet(INPUT_PATH))
-    dados = construir(df)
+    dados = deduplicar(construir(df))
     texto = ("// Gerado por pipeline/exportar_prototipo.py -- não editar à mão.\nconst DADOS = "
               + json.dumps(dados, ensure_ascii=False, indent=1) + ";\n")
     for saida in SAIDAS:

@@ -1,5 +1,5 @@
 {
-  "_leiame": "Nível de profundidade da PESQUISA MANUAL (busca na internet) de cada candidato, definido por grupo cargo/UF conforme a sessão em que foi pesquisado (ver memória de retomada do projeto). Não mede a qualidade do candidato: mede o quanto se procurou. A conferência automática em bases oficiais (TCU, TSE, CEIS, CNEP, CEAF, Ibama) é independente e vem de pipeline/cruzar_bases_oficiais.py. Regras avaliadas em ordem; vale a primeira que casar. 'excecoes' (sq_candidato -> nível) tem precedência sobre as regras.",
+  "_leiame": "Nível de profundidade da PESQUISA MANUAL (busca na internet) de cada candidato, definido por grupo cargo/UF conforme a sessão em que foi pesquisado (ver memória de retomada do projeto). Não mede a qualidade do candidato: mede o quanto se procurou. A conferência automática em bases oficiais (TCU, TSE, CEIS, CNEP, CEAF, Ibama) é independente e vem de pipeline/cruzar_bases_oficiais.py. Nível 'estrutural' (deputados, 2026-09-24): sem busca manual, só dados estruturados. Regras avaliadas em ordem; vale a primeira que casar. 'excecoes' (sq_candidato -> nível) tem precedência sobre as regras.",
   "niveis": {
     "aprofundada": {
       "rotulo": "Pesquisa aprofundada",
@@ -12,13 +12,49 @@
     "rapida": {
       "rotulo": "Pesquisa rápida",
       "descricao": "1 a 2 buscas na internet por candidato. Nota 10 significa apenas \"nada encontrado\"; não é atestado de que não haja pendência."
+    },
+    "estrutural": {
+      "rotulo": "Verificação estrutural",
+      "descricao": "Sem busca individual na internet: círculo político (só o presidente do partido), experiência política (cargos eletivos de 2014 a 2024 no TSE) e conferência em bases oficiais. Nota 10 quer dizer apenas que nada consta nessas bases; não inclui processos judiciais, inquéritos nem notícias."
     }
   },
   "regras": [
-    {"cargo": "PRESIDENTE", "nivel": "aprofundada"},
-    {"cargo": "GOVERNADOR", "ufs": ["SP", "MG", "RJ", "PI", "RN", "AL", "MS", "BA", "PR", "RS", "PE", "CE", "PA", "MA"], "nivel": "padrao"},
-    {"cargo": "GOVERNADOR", "nivel": "rapida"},
-    {"cargo": "SENADOR", "nivel": "rapida"}
+    {
+      "cargo": "PRESIDENTE",
+      "nivel": "aprofundada"
+    },
+    {
+      "cargo": "GOVERNADOR",
+      "ufs": [
+        "SP",
+        "MG",
+        "RJ",
+        "PI",
+        "RN",
+        "AL",
+        "MS",
+        "BA",
+        "PR",
+        "RS",
+        "PE",
+        "CE",
+        "PA",
+        "MA"
+      ],
+      "nivel": "padrao"
+    },
+    {
+      "cargo": "GOVERNADOR",
+      "nivel": "rapida"
+    },
+    {
+      "cargo": "SENADOR",
+      "nivel": "rapida"
+    },
+    {
+      "cargo": "DEPUTADO FEDERAL",
+      "nivel": "estrutural"
+    }
   ],
   "excecoes": {}
 }

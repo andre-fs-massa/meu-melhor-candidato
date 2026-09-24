@@ -36,8 +36,11 @@ pip install -r requirements.txt
    ```bash
    python -m pipeline.parse_candidatos          # só se o zip do TSE mudou
    python -m pipeline.mapear_competencias       # idem
+   python -m pipeline.gerar_estrutural_deputados  # círculo e experiência política de Deputado Federal, sem busca na web (usa consulta_cand_2014..2024 em data/raw/)
    python -m pipeline.enriquecer_experiencia
    python -m pipeline.enriquecer_competencia_transferivel
+   python -m pipeline.cruzar_bases_oficiais     # confere CPFs em TCU, TSE 2022, CEIS, CNEP, CEAF e Ibama (data/raw/); precisa do parquet enriquecido
+   python -m pipeline.gerar_idoneidade_estrutural # idoneidade pessoal de Deputado Federal a partir das bases acima, sem busca na web
    python -m pipeline.enriquecer_idoneidade
    python -m pipeline.enriquecer_circulo_politico
    python -m pipeline.calcular_idoneidade_geral
@@ -45,7 +48,6 @@ pip install -r requirements.txt
    python -m pipeline.mapear_escolaridade
    python -m pipeline.calcular_competencia_geral
    python -m pipeline.calcular_cobertura
-   python -m pipeline.cruzar_bases_oficiais     # confere CPFs em TCU, TSE 2022, CEIS, CNEP, CEAF e Ibama (data/raw/)
    python -m pipeline.exportar_prototipo        # gera site/dados.js
    ```
 
