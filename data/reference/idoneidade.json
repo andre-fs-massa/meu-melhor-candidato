@@ -13593,6 +13593,132 @@
         }
       ],
       "origem": "busca_finalistas"
+    },
+    "40002536451": {
+      "nome_urna": "RICHARD STONE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002532763": {
+      "nome_urna": "ATILA LINS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca): cassação pelo TRE-AM (campanha de 2010) sem efeito, com contas aprovadas pelo TSE; ação civil pública por dano ao erário sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.acritica.com/channels/cotidiano/news/deputado-federal-atila-lins-psd-e-cassado-pelo-tre-am",
+        "https://pt.wikipedia.org/wiki/%C3%81tila_Lins"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "Cassado pelo TRE-AM (4 a 2) por omissão de gastos (viagens) na prestação de contas da campanha de 2010; as contas foram aprovadas pelo TRE-AM e pelo TSE e ele seguiu no cargo e foi reeleito."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Responde a ação civil pública por dano ao erário na Justiça do Amazonas, sem desfecho encontrado; mensagens da Operação Arquimedes (PF) mostram ele cobrando a reabertura de serrarias, mas não foi denunciado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002532761": {
+      "nome_urna": "SIDNEY LEITE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 4,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): réu em ação penal por corrupção eleitoral no TRE-AM; denunciado em 2016 por estupro de vulnerável e tortura (2004), processo sigiloso sem desfecho encontrado (a confirmar); condenado por fake news e multado por propaganda irregular.",
+      "fontes": [
+        "https://amazonas1.com.br/deputado-federal-sidney-leite-sera-ouvido-em-audiencia-de-acao-penal-por-suposta-corrupcao-eleitoral-no-tre-am/",
+        "https://www.cm7brasil.com/passando-a-limpo/deputado-sidney-leite-usa-a-justica-para-calar-a-imprensa-sobre-acusacao-de-estupro/",
+        "https://amazonas1.com.br/charge_do_dia/tjam-condena-deputado-sidney-leite-por-fake-news-contra-governo-do-am/",
+        "https://fatoamazonico.com.br/tre-am-da-15-dias-para-sidney-leite-pagar-multa-de-r-5-mil-por-propaganda-irregular-contra-wilson-lima/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu em ação penal por corrupção eleitoral no TRE-AM, aberta há cerca de 15 anos e ainda em instrução."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Denunciado pela PGJ-AM em 2016 por estupro de uma menina de 12 anos e tortura da irmã dela (fatos de 2004, quando prefeito de Maués); processo em segredo no TJAM, sem confirmação de recebimento da denúncia nem desfecho (a defesa diz que não foi aceita). A confirmar."
+        },
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado pelo TJAM a pagar R$ 5 mil por divulgar notícia falsa contra o governo do Amazonas."
+        },
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multado em R$ 5 mil pelo TRE-AM por propaganda irregular (impulsionamento contra Wilson Lima, fev-mar/2026)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002533208": {
+      "nome_urna": "JOÃO CARLOS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002533207": {
+      "nome_urna": "AMOM MANDEL",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada contra ele (é autor de denúncias e vítima de ameaças; um doador de campanha foi testemunha de defesa na Operação Maus Caminhos).",
+      "fontes": [
+        "https://www.camara.leg.br/deputados/220715/biografia"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002533206": {
+      "nome_urna": "SILAS CÂMARA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca): mandato cassado pelo TRE-AM por gastos ilícitos na campanha de 2022, com recurso; ação penal por rachadinha no STF encerrada por acordo de não persecução penal.",
+      "fontes": [
+        "https://www.cartacapital.com.br/politica/tre-am-cassa-mandato-do-deputado-federal-silas-camara/",
+        "https://noticias.stf.jus.br/postsnoticias/apos-cumprimento-de-acordo-stf-encerra-processo-contra-deputado-silas-camara-por-peculato/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Mandato cassado pelo TRE-AM (4 a 2) por gastos ilícitos com fretes de avião na campanha de 2022; cabe recurso ao TSE."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Ação penal no STF por peculato (apropriação de salários de secretários parlamentares, 2000-2001) encerrada em 2023 depois de cumprido acordo de não persecução penal (multa de R$ 242 mil), sem condenação; mesma categoria usada para o ANPP de Lahesio Bonfim/MA."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002551003": {
+      "nome_urna": "NATALIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): condenada em ação civil pública do MPAM (inelegível em 2024, segundo a imprensa); instância não confirmada (a confirmar).",
+      "fontes": [
+        "https://revistacenarium.com.br/pre-candidato-a-prefeito-do-psol-em-manaus-acusa-colega-de-partido-de-corrupcao/",
+        "https://amazonas1.com.br/apos-deixar-disputa-pela-prefeitura-de-manaus-em-2024-natalia-demes-lanca-pre-candidatura-a-camara-federal/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenada em ação civil pública do MPAM, o que segundo a imprensa a tornou inelegível em 2024; empresa da qual é sócia responde a ação do município de Nova Olinda do Norte por desvio de R$ 910 mil. Instância e situação do recurso não confirmadas (a confirmar)."
+        }
+      ],
+      "origem": "busca_finalistas"
     }
   }
 }
