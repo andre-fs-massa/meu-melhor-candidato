@@ -2391,12 +2391,12 @@ const DADOS = {
     "https://www.poder360.com.br/poder-justica/pf-inclui-presidente-do-uniao-brasil-em-operacao-que-mira-pcc/"
    ],
    [
-    "https://psol50.org.br/com-67-dos-votos-paula-coradi-e-eleita-a-nova-presidenta-do-psol/"
-   ],
-   [
     "https://reporternordeste.com.br/condenado-por-receber-propina-joao-caldas-volta-ao-banco-dos-reus-nesta-4a/",
     "https://www.urbanitarios-al.com.br/2014/12/joao-caldas-e-condenado-no-trf-na-mafia-das-ambulancias/",
     "https://www.tribunadosertao.com.br/politica/2026/09/11/977133-jhc-aciona-a-justica-para-esconder-condenacao-do-pai-por-desvios-na-saude"
+   ],
+   [
+    "https://psol50.org.br/com-67-dos-votos-paula-coradi-e-eleita-a-nova-presidenta-do-psol/"
    ],
    [
     "https://www.jota.info/stf/do-supremo/caso-master-ciro-nogueira-e-alvo-da-pf-por-suspeita-de-corrupcao-em-emenda-que-ampliava-fgc",
@@ -3007,5 +3007,5 @@ const DADOS = {
    "pesquisa individual"
   ]
  },
- "versao": "2c381d892d"
+ "versao": "bb540fb23c"
 };

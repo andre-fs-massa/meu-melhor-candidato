@@ -253,10 +253,47 @@ Pesquisados: 44 candidatos (1 busca cada, mais confirmações quando houve sinal
 - Deputado Estadual · Estatista-autoritário: vazio
 
 
+### RS
+
+Pesquisados: 41 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **LUCIANA GENRO** (PSOL, Deputado Estadual), idoneidade pessoal 8, geral 9: denúncia por declarações sobre Gaza rejeitada pelo TJ-RS em 2026; denunciada em 2009 no caso da 'farra das passagens' da Câmara, sem desfecho encontrado (a confirmar).
+- **RONALDO NOGUEIRA** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 8.5, geral 9.25: Busca rápida na internet (1 busca e 1 de confirmação): alvo da Operação Gaveteiro da PF (2020) sobre desvio de R$ 50 milhões no Ministério do Trabalho, com pedido de prisão negado, sem desfecho encontrado (a confirmar); censura pública do CNDH (2019) por retrocessos no combate ao trabalho escravo.
+- **FELIPE CAMOZZATO** (NOVO, Deputado Federal), idoneidade pessoal 9, geral 9.5: alvo de representação criminal de procurador da República por crimes contra a honra em críticas ao MPF (2026), sem denúncia encontrada.
+- **FELIPE FALLER** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 9, geral 9.5: Busca rápida na internet (1 busca, fonte conferida): processo criminal encerrado por prescrição da pretensão punitiva em 2026, sem condenação.
+- **RAMIRO ROSÁRIO** (NOVO, Deputado Estadual), idoneidade pessoal 9, geral 9.5: condenado em 1ª instância por danos morais a cooperativas do MST por divulgar informação falsa sobre agrotóxico no arroz (2026). Processo na Comissão de Ética por ofender um juiz em plenário (fala, sem desconto).
+- **RODRIGO D AVILA** (NOVO, Deputado Estadual), idoneidade pessoal 9, geral 9.5: pedido de cassação por advogar contra concessionárias do município, arquivado pela Câmara de Canoas.
+- **BUSATO** (UNIÃO, Deputado Federal), idoneidade pessoal 9, geral 9: Busca rápida na internet (1 busca e 1 de confirmação): citado em delação com áudios entregues ao MPF sobre supostas propinas em contratos de saúde de Canoas quando era prefeito, sem ser réu. A condenação por improbidade no caso do aeromóvel de Canoas é de outro ex-prefeito, Jairo Jorge (sem desconto).
+- **MARIANA LESCANO** (PP, Deputado Federal), idoneidade pessoal 9, geral 9: investigada pela PF por fala na tribuna da Câmara de Porto Alegre, sem denúncia encontrada. A nota de repúdio da Defensoria a declarações dela é crítica, não processo (sem desconto).
+- **COVATTI FILHO** (PP, Deputado Federal), idoneidade pessoal 9, geral 9: citado na Lava Jato pelo doleiro Alberto Youssef (PP-RS), sem desfecho encontrado (a confirmar). Acusação da imprensa (2021) de que a família manteria escritório político pago com verba de gabinete do suplente, sem apuração encontrada (sem desconto).
+- **FERNANDA MIRANDA** (PSOL, Deputado Estadual), idoneidade pessoal 9.5, geral 9.75: parecer da Comissão de Ética por afastamento de 60 dias do mandato (abordagem com substância ilícita no Carnaval), ainda sem votação em plenário (a confirmar). Ela denunciou, e não é alvo, a apuração sobre exames citopatológicos.
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- LUCIANA GENRO (PSOL, Deputado Estadual): denúncia por declarações sobre Gaza rejeitada pelo TJ-RS em 2026; denunciada em 2009 no caso da 'farra das passagens' da Câmara, sem desfecho encontrado (a confirmar).
+- FERNANDA MIRANDA (PSOL, Deputado Estadual): parecer da Comissão de Ética por afastamento de 60 dias do mandato (abordagem com substância ilícita no Carnaval), ainda sem votação em plenário (a confirmar). Ela denunciou, e não é alvo, a apuração sobre exames citopatológicos.
+- RONALDO NOGUEIRA (REPUBLICANOS, Deputado Federal): Busca rápida na internet (1 busca e 1 de confirmação): alvo da Operação Gaveteiro da PF (2020) sobre desvio de R$ 50 milhões no Ministério do Trabalho, com pedido de prisão negado, sem desfecho encontrado (a confirmar); censura pública do CNDH (2019) por retrocessos no combate ao trabalho escravo.
+- ARTHUR SCHMIDT (MDB, Deputado Federal): nada confirmado. Em jul/2025 a Polícia Civil (Draco de São Leopoldo, Operação Dia D) fez buscas contra um ex-vereador de São Leopoldo por rachadinha em 2021-2022; as reportagens não dão o nome e o mandato registrado dele é 2017-2020, então não se confirmou que seja ele (1 busca extra de confirmação). A confirmar.
+- COVATTI FILHO (PP, Deputado Federal): citado na Lava Jato pelo doleiro Alberto Youssef (PP-RS), sem desfecho encontrado (a confirmar). Acusação da imprensa (2021) de que a família manteria escritório político pago com verba de gabinete do suplente, sem apuração encontrada (sem desconto).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: CARLA DAITX (NOVO 3033), ADA MUNARETTO (NOVO 3000), SANDRA BONETTO (NOVO 3010)
+- Deputado Federal · Direita conservadora: FRAN BAYER (REPUBLICANOS 1012), CARLOS GOMES (REPUBLICANOS 1010), RANZI (MDB 1555) — sorteio entre 7 empatados
+- Deputado Federal · Esquerda progressista: JURANDIR SILVA (PSOL 5055), CRIS MORAES (PV 4343), ATENA (PSOL 5001) — sorteio entre 5 empatados
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: KAKÁ D´ÁVILA (PODE 20333), MOISÉS BARBOZA (PSDB 45900), BRUNA MOLZ (PODE 20510) — sorteio entre 5 empatados
+- Deputado Estadual · Direita conservadora: MARCELO HARTEMINK (REPUBLICANOS 10000), ELIANA BAYER (REPUBLICANOS 10120), JOÃO UEZ (REPUBLICANOS 10603) — sorteio entre 4 empatados
+- Deputado Estadual · Esquerda progressista: MATHEUS GOMES (PSOL 50123), KAREN SANTOS (PSOL 50555), GIOVANI CULAU (PCDOB 65656) — sorteio entre 5 empatados
+- Deputado Estadual · Estatista-autoritário: vazio
+
+
 ## Situação e próximos passos
 
-- **Estados fechados (5 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44). Total: 224 candidatos, 57
-  com achado que descontou e 19 marcados "a confirmar". Nos cinco, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (6 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41). Total: 265
+  candidatos, 67 com achado que descontou e 24 marcados "a confirmar". Nos seis, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -272,12 +309,12 @@ Pesquisados: 44 candidatos (1 busca cada, mais confirmações quando houve sinal
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 22 estados**, na ordem de população: RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
+- **Faltam 21 estados**, na ordem de população: PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
 - **Anotado para o AM:** o deputado federal Adail Filho (MDB) foi alvo da PF em 16/09/2026 (Operação Dinastia do
   Lago: fraude em licitações, desvio, corrupção e lavagem) — apareceu por acaso numa busca de MG.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA e PR (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR e RS (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
