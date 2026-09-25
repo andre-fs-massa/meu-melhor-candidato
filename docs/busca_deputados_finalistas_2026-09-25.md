@@ -416,10 +416,47 @@ Observações do PA: Iran Lima volta a disputar depois de ter o registro negado 
 pela condenação por improbidade como prefeito de Moju; a inelegibilidade já venceu (ele foi eleito em 2022).
 
 
+### SC
+
+Pesquisados: 36 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **ANDRÉ MOSER** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 7, geral 8.5: Busca rápida na internet (1 busca e 1 de confirmação): inelegibilidade por abuso de poder decretada em 1ª instância (2024) e revertida pelo TRE-SC (2025); condenado por dano moral a morador ofendido nas redes (2026).
+- **JEAN KUHLMANN** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 7, geral 8.5: Busca rápida na internet (1 busca e 1 de confirmação): condenado em 1ª instância por improbidade (servidora fantasma na Alesc), com recurso sem resultado encontrado; ação civil pública de 2012 sem desfecho encontrado (a confirmar).
+- **DARCI DE MATOS** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 8, geral 9: multado por propaganda antecipada (outdoors) e alvo de representação eleitoral antiga do MP sobre a campanha a prefeito de Joinville, sem desfecho encontrado (a confirmar).
+- **PROFESSORA NATÁLIA** (MDB, Deputado Federal), idoneidade pessoal 8, geral 8.5: absolvida (TJSC, 2025) em processo iniciado em 2010 e AIJE julgada improcedente pelo TRE-SC, com multa anulada.
+- **ANA PAULA LIMA** (PT, Deputado Federal), idoneidade pessoal 9, geral 9: ação penal eleitoral baseada em delação da Odebrecht trancada pelo TRE-SC.
+- **MARCELO ACHUTTI** (MDB, Deputado Estadual), idoneidade pessoal 9, geral 9: representação ao MP (2025) por discurso contra moradores de rua, sem desfecho encontrado (a confirmar); ação de um shopping contra ele teve liminar negada.
+- **MARCELO WERNER** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 9, geral 9.5: pedido de cassação por participação em empresa contratada pela prefeitura arquivado pela Câmara de Itajaí.
+- **FABIO SCHIOCHET** (UNIÃO, Deputado Federal), idoneidade pessoal 9, geral 9: ações de cassação da campanha de 2022 julgadas improcedentes pelo TRE-SC e pelo TSE.
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- DARCI DE MATOS (REPUBLICANOS, Deputado Federal): multado por propaganda antecipada (outdoors) e alvo de representação eleitoral antiga do MP sobre a campanha a prefeito de Joinville, sem desfecho encontrado (a confirmar).
+- MARCELO ACHUTTI (MDB, Deputado Estadual): representação ao MP (2025) por discurso contra moradores de rua, sem desfecho encontrado (a confirmar); ação de um shopping contra ele teve liminar negada.
+- JEAN KUHLMANN (REPUBLICANOS, Deputado Estadual): Busca rápida na internet (1 busca e 1 de confirmação): condenado em 1ª instância por improbidade (servidora fantasma na Alesc), com recurso sem resultado encontrado; ação civil pública de 2012 sem desfecho encontrado (a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: GILSON MARQUES (NOVO 3050), KAUE OLIVEIRA (NOVO 3049), RODRIGO LIVRAMENTO (NOVO 3030) — sorteio entre 5 empatados
+- Deputado Federal · Direita conservadora: JORGE GOETTEN (REPUBLICANOS 1001), GEOVANIA DE SÁ (REPUBLICANOS 1077), DARCI DE MATOS (REPUBLICANOS 1022)
+- Deputado Federal · Esquerda progressista: EDUARDO ZANATTA (PT 1331), CAREN MACHADO (PT 1340), CARLA AYRES (PT 1344)
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: MATHEUS CADORIN (NOVO 30000), NETO PETTERS DO NOVO (NOVO 30456), MARQUINHO KURTZ (PODE 20456)
+- Deputado Estadual · Direita conservadora: LUCAS NEVES (REPUBLICANOS 10282), RAMOS POLICIAL (UNIÃO 44190), DR. VICENTE (UNIÃO 44000) — sorteio entre 5 empatados
+- Deputado Estadual · Esquerda progressista: CAMASÃO (PSOL 50500), MARQUITO (PSOL 50150), INGRID SATERÉ MAWÉ (PSOL 50180)
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações de SC: o desconto de Darci de Matos (idoneidade 8) baixou a qualificação da última vaga da direita federal
+de 9,25 para 9,00 e abriu uma rodada de reposição com 5 empatados; ele segue finalista. Ações civis de dano moral movidas contra vereadores por adversários ou empresas,
+ainda sem decisão (Camasão, Marcelo Achutti), não descontam; só a condenação desconta (André Moser).
+
+
 ## Situação e próximos passos
 
-- **Estados fechados (9 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37).
-  Total: 377 candidatos, 108 com achado que descontou e 35 marcados "a confirmar". Nos nove, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (10 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36). Total: 413 candidatos, 116 com achado que descontou e 38 marcados "a confirmar". Nos dez, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -439,12 +476,12 @@ pela condenação por improbidade como prefeito de Moju; a inelegibilidade já v
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 18 estados**, na ordem de população: SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
+- **Faltam 17 estados**, na ordem de população: GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
 - **Anotado para o AM:** o deputado federal Adail Filho (MDB) foi alvo da PF em 16/09/2026 (Operação Dinastia do
   Lago: fraude em licitações, desvio, corrupção e lavagem) — apareceu por acaso numa busca de MG.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE e PA (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA e SC (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o

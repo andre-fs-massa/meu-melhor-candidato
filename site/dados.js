@@ -2370,14 +2370,14 @@ const DADOS = {
     "https://www.conjur.com.br/2019-ago-23/tj-mantem-absolvicao-kassab-nao-pagar-precatorios-alimentares/"
    ],
    [
-    "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/",
-    "https://www.terra.com.br/noticias/brasil/politica/cotado-para-presidir-o-pt-edinho-se-livra-de-inquerito-da-lava-jato,76ee9924f0b981722d076c1c6b1c71aasodqtqtx.html"
-   ],
-   [
     "https://en.wikipedia.org/wiki/A%C3%A9cio_Neves",
     "https://portaldeprefeitura.com.br/bastidores-da-politica/aecio-neves-desiste-candidatura-psdb-lancara-nome-planalto/626505/",
     "https://www.cnnbrasil.com.br/politica/justica-absolve-aecio-neves-de-acusacao-de-propina-de-r-2-milhoes-da-jf/",
     "https://www.metropoles.com/brasil/aecio-neves-e-absolvido-de-forma-unanime-em-caso-de-corrupcao-passiva"
+   ],
+   [
+    "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/",
+    "https://www.terra.com.br/noticias/brasil/politica/cotado-para-presidir-o-pt-edinho-se-livra-de-inquerito-da-lava-jato,76ee9924f0b981722d076c1c6b1c71aasodqtqtx.html"
    ],
    [
     "https://ofator.com.br/informacao/luis-tibe-quita-divida-de-improbidade-por-mau-uso-de-verba-da-camara-de-bh/",
@@ -3013,5 +3013,5 @@ const DADOS = {
    "pesquisa individual"
   ]
  },
- "versao": "12ff03bf71"
+ "versao": "8ef558fd2b"
 };
