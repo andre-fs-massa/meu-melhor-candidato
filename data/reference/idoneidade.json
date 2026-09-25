@@ -13106,6 +13106,493 @@
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "100002548241": {
+      "nome_urna": "COROBA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): alvo de procedimento preparatório do MPMA (2024) sobre falta de repasses à Câmara quando era prefeito.",
+      "fontes": [
+        "https://www.itapecurunoticias.com/noticia/8284/ex-prefeito-benedito-coroba-sera-investigado-por-falta-de-repasses-a-camara-de-vereadores-em-itapecuru-mirim"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Procedimento preparatório do MPMA (2024) para apurar falta de repasses à Câmara de Itapecuru Mirim na gestão dele como prefeito."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "100002542571": {
+      "nome_urna": "JULIANA LEITE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://cmvargemgrande.ma.gov.br/vereadores/38"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002542563": {
+      "nome_urna": "RAFAEL NEVES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.jusbrasil.com.br/processos/nome/126401212/carlos-rafael-neves-pereira"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002542558": {
+      "nome_urna": "PÁBLO LIMA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002537309": {
+      "nome_urna": "FERNANDO FEITOSA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada confirmado: há um pedido antigo do MPMA de afastamento de oito vereadores de Paço do Lumiar (por atos na cassação do vice-prefeito) em que não foi possível confirmar se ele estava; e críticas de blog à retirada do Diário Oficial do portal da Câmara que ele preside. Não desconta; a confirmar.",
+      "fontes": [
+        "https://www.mpma.mp.br/paco-do-lumiar-promotores-pedem-afastamento-de-oito-vereadores-do-municipio/",
+        "https://joerdsonrodrigues.com.br/politica/2025/02/20/o-que-ou-quem-fernando-feitosa-camara-de-paco-do-lumiar-retira-acesso-ao-diario-oficial-do-portal-de-transparencia-veja-o-video/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002536094": {
+      "nome_urna": "JUNIOR LOURENÇO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 2,
+      "motivo": "Busca rápida na internet (1 busca e fontes conferidas): réu em várias ações penais da gestão como prefeito de Miranda do Norte (TJMA e TRF-1) e denunciado na Operação Laços de Família.",
+      "fontes": [
+        "https://www.poder360.com.br/congresso/mp-ma-denuncia-deputado-junior-lourenco-e-outros-24-por-fraudes-em-prefeitura/",
+        "https://www.mpma.mp.br/operacao-lacos-de-familia-mpma-protocola-denuncia-contra-deputado-federal-ex-prefeito-e-mais-23-pessoas/",
+        "https://www.congressoemfoco.com.br/noticia/8501/conheca-os-dois-deputados-do-pl-que-respondem-a-mais-de-dez-processos-na-justica"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "quantidade": 3,
+          "descricao": "Réu em ações penais no TJMA (propostas pelo MPMA) por crimes de responsabilidade e da Lei de Licitações da gestão como prefeito de Miranda do Norte (2009-2016), e em processos do MPF no TRF-1 (Fundeb, apropriação previdenciária, fraude em licitação de 2015); cerca de dez processos no total. (Soma dos processos penais limitada a 6.)"
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Denunciado pelo MPMA com outras 24 pessoas na Operação Laços de Família (fraude em licitação, peculato e organização criminosa na Prefeitura de Miranda do Norte), com pedido de R$ 22 milhões de reparação; denúncia sem notícia de recebimento."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "100002535232": {
+      "nome_urna": "MICAL DAMASCENO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Mical_Damasceno"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002535230": {
+      "nome_urna": "ALUISIO MENDES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): relatório da PF de 2022 aponta indícios de peculato e lavagem na campanha (desdobramento da Sermão aos Peixes), sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://atual7.com/2022/04/06/pf-atribui-a-aluisio-mendes-peculato-e-lavagem-de-dinheiro-em-desdobramento-da-sermao-aos-peixes/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "A PF atribuiu a ele (2022) indícios de peculato, lavagem, falsidade ideológica eleitoral e organização criminosa num desdobramento da Operação Sermão aos Peixes (campanha abastecida com recursos federais desviados), em processo sigiloso na Justiça Eleitoral; desfecho não encontrado (mais de 3 anos). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "100002546927": {
+      "nome_urna": "MÁRCIO JERRY",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): só uma acusação de assédio no Conselho de Ética da Câmara (2023), arquivada depois de pedido de desculpas; não desconta.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/M%C3%A1rcio_Jerry"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002546921": {
+      "nome_urna": "BIRA DO PINDARÉ",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Bira_do_Pindar%C3%A9"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002541472": {
+      "nome_urna": "MARCELO POETA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada contra ele (citado num blog sobre ação popular de emendas para projetos de zumba, mas não é réu).",
+      "fontes": [
+        "https://www.cmsaoluis.ma.gov.br/vereadores/marcelo-poeta"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002541469": {
+      "nome_urna": "GREYSSON CARVALHO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.cmbalsas.ma.gov.br/vereadores/49"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002541466": {
+      "nome_urna": "OTHELINO NETO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): processo por corrupção e peculato arquivado por habeas corpus; ação antiga por crime de licitação sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.luispablo.com.br/politica/2025/01/exclusivo-confira-a-ficha-criminal-extensa-de-othelino-neto/",
+        "https://atual7.com/noticias/politica/2017/07/processo-criminal-contra-othelino-esta-fora-da-pauta-do-tj-desde-maio/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Processo por corrupção passiva, peculato e associação criminosa arquivado por habeas corpus; ele apresentou certidões negativas em 2025. Ação penal antiga por crime da Lei de Licitações no TJMA (2017) sem desfecho encontrado (a confirmar); ação de dano moral de um pescador e pedido de cassação de suplente na Assembleia não descontam."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "100002545697": {
+      "nome_urna": "LAURINDO FREITAS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002545688": {
+      "nome_urna": "ROBERT LEMOS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/maranhao/deputado-estadual/robert-lemos-30222"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002542580": {
+      "nome_urna": "MANCHINHA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.camaraimperatriz.ma.gov.br/vereador/wanderson-manchinha"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002540283": {
+      "nome_urna": "ANTONIO PEREIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): réu em ação penal do MPF por desvio de recursos da Saúde (2011-2013), remetida ao TRF-1 em 2022; situação atual não confirmada.",
+      "fontes": [
+        "https://www.conjur.com.br/2022-jun-27/juiz-manda-acao-deputado-estadual-ma-trf",
+        "https://atual7.com/noticias/politica/2025/03/trf-1-manda-trancar-acao-penal-em-que-filho-de-antonio-pereira-e-acusado-de-desvios-de-dinheiro-da-saude/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Ação penal do MPF por desvio de recursos do Fundo Nacional de Saúde (2011-2013), com o ex-secretário Ricardo Murad e outros, remetida ao TRF-1 em 2022 pelo foro de deputado; situação em 2026 não confirmada (ação semelhante contra o filho foi trancada pelo TRF-1 em 2025)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "100002540275": {
+      "nome_urna": "RICARDO ARRUDA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados eram do deputado homônimo do Paraná).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002540273": {
+      "nome_urna": "FLORENCIO NETO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://memoria.tre-ma.jus.br/index.php/image-23-2"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002540268": {
+      "nome_urna": "NAGIB",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 4,
+      "motivo": "Busca rápida na internet (1 busca e fontes conferidas): contas irregulares no TCU (R$ 5,4 milhões, obra inacabada), condenação eleitoral de 2020 mantida pelo TRE-MA e investigação criminal da PGJ (2026) sobre contratos da prefeitura de Codó.",
+      "fontes": [
+        "https://blogdomarcosilva.com.br/tcu-rejeita-recurso-de-francisco-nagib-e-mantem-condenacao-por-prejuizo-milionario/",
+        "https://maramais.com.br/prefeito-de-codo-e-condenado-na-justica-e-nao-podera-disputar-eleicao-por-8-anos/",
+        "https://www.netoferreira.com.br/deputado-nagib-e-investigado-por-crime-de-responsabilidade-em-contratos-de-r-152-milhoes-da-sua-gestao-em-codo/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "contas_irregulares_com_ressarcimento",
+          "descricao": "Contas julgadas irregulares pelo TCU (obra inacabada em Codó com recursos federais, prejuízo atualizado de R$ 5,4 milhões); o TCU rejeitou o recurso e, segundo a imprensa local, a inelegibilidade vai até 2031."
+        },
+        {
+          "categoria": "cassacao_de_mandato",
+          "descricao": "Condenado pela Justiça Eleitoral na eleição de 2020 em Codó (promessas de pagamento a servidores), com decisão mantida por unanimidade pelo TRE-MA, que o tirou da disputa."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Investigado pela Procuradoria-Geral de Justiça (2026) por crime de responsabilidade em contratos de R$ 15,2 milhões com empresa de limpeza na gestão como prefeito de Codó."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "100002540266": {
+      "nome_urna": "OSMAR FILHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Osmar_Filho"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002540263": {
+      "nome_urna": "DANIELLA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): alvo de busca da PF na Operação Lei do Retorno (desvio de verbas da educação), suspeita de ser beneficiária.",
+      "fontes": [
+        "https://www.metropoles.com/colunas/fabio-serapiao/deputada-do-maranhao-pagou-r-550-mil-em-dinheiro-vivo-por-apartamento"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo de busca e apreensão da PF na Operação Lei do Retorno (desvio de verbas federais da educação em municípios do MA); a PF a aponta como suspeita de ser beneficiária do esquema e achou registro de pagamento de R$ 550 mil em espécie por um apartamento."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "100002540261": {
+      "nome_urna": "DAVI BRANDÃO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Davi_Brand%C3%A3o"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002540257": {
+      "nome_urna": "GLALBERT CUTRIM",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada contra ele (as investigações encontradas são do pai, Raimundo Cutrim).",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Glalbert_Cutrim"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002535490": {
+      "nome_urna": "ANDRÉ CAMPOS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.cmsaoluis.ma.gov.br/vereadores/andre-campos"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002535487": {
+      "nome_urna": "EDILAZIO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): indiciado pela PF em 2025 na investigação sobre venda de sentenças no TJMA.",
+      "fontes": [
+        "https://istoedinheiro.com.br/pf-liga-assessores-de-ex-deputado-a-propinas-de-venda-de-sentencas-no-maranhao",
+        "https://www.otempo.com.br/politica/judiciario/2025/2/10/pf-indicia-3-desembargadores-2-juizes-e-7-advogados-por-venda-de-decisoes-no-tj-do-maranhao"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Indiciado pela PF (fev/2025) no núcleo operacional da investigação sobre venda de sentenças no TJMA; mensagens indicariam que influenciava decisões da desembargadora Nelma Sarney, sua sogra. Nega."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "100002535476": {
+      "nome_urna": "ERIC COSTA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca): condenado pelo TCE-MA a devolver R$ 163 mil (2026) e réu em ação de improbidade do MPMA; ação do MPF e investigações da Seccor sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://oprogressonet.com/noticia/52369/tcema-condena-deputado-erick-costa-a-devolver-r-163-mil-aos-cofres-publicos",
+        "https://atual7.com/tudo-sobre/eric-costa/",
+        "https://blogdojuracifilho.com.br/2022/10/26/mpf-pede-condenacao-de-ex-prefeito-de-barra-do-corda-eric-costa/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "contas_irregulares_com_ressarcimento",
+          "descricao": "Condenado pelo TCE-MA (abr/2026) a devolver R$ 163,6 mil e pagar multa por falhas na prestação de contas do transporte escolar indígena quando prefeito de Barra do Corda."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Réu em ação de improbidade do MPMA (fraude em licitação, dano ao erário e enriquecimento ilícito) da gestão em Barra do Corda; há também ação do MPF (2022, R$ 510 mil sem prestação de contas) e investigações da Seccor, sem desfecho encontrado (a confirmar)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "100002545731": {
+      "nome_urna": "RODRIGO LAGO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): a busca menciona um procedimento investigatório criminal do MPMA no TJMA sem nenhum detalhe; não desconta, a confirmar.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Rodrigo_Lago"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002545727": {
+      "nome_urna": "CARLOS LULA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.al.ma.leg.br/deputados/carloslula"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002545255": {
+      "nome_urna": "DR. RUBENS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados eram de homônimos).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002548252": {
+      "nome_urna": "COLETIVO UNIÃO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2024/candidatos/maranhao/paco-do-lumiar/vereador/eder-alencar-44777"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002542878": {
+      "nome_urna": "PEDRO LUCAS FERNANDES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): citado em 2021 por uma revista como alvo de inquérito sigiloso da PF sobre emendas, mas o STF informou não haver processo em nome dele; não desconta.",
+      "fontes": [
+        "https://atual7.com/2021/10/19/pedro-lucas-vai-ao-stf-saber-se-e-investigado-por-venda-de-emendas-fux-desconsidera-processos-sigilosos-em-resposta/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "100002536098": {
+      "nome_urna": "HILDO ROCHA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): ações de improbidade antigas (contratação sem concurso como prefeito de Cantanhede) sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Hildo_Rocha"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Réu em ações civis públicas de improbidade do MPMA por contratar servidor sem concurso quando prefeito de Cantanhede; desfecho não encontrado (processos antigos). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "100002536090": {
+      "nome_urna": "CLEBER VERDE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca): investigação da PF sobre intermediação de emendas enviada ao STF; absolvido pelo STF em ação antiga sobre aposentadoria fraudulenta no INSS.",
+      "fontes": [
+        "https://www.metropoles.com/colunas/guilherme-amado/empresario-investigado-teria-intermediado-emendas-de-deputado-diz-pf",
+        "https://noticias.stf.jus.br/postsnoticias/stf-absolve-deputado-cleber-verde-da-acusacao-de-concessao-irregular-de-beneficio/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Citado em investigação da PF sobre empresário que teria intermediado a destinação de emendas dele a dois municípios do MA (áudios citam a chefe de gabinete); o caso foi enviado ao STF pelo foro do deputado."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Absolvido por unanimidade pela 1ª Turma do STF da acusação de peculato e associação criminosa (concessão fraudulenta de aposentadoria quando era servidor do INSS)."
+        }
+      ],
+      "origem": "busca_finalistas"
     }
   }
 }

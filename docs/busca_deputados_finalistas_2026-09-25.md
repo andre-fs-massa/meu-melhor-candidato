@@ -489,10 +489,55 @@ TRE-GO em jul/2026, com recurso ao TSE pendente; pela regra de 25/09 só descont
 confirmação (não desconta). Inquérito disciplinar da PM contra Cabo Senna por vídeos políticos, sem sanção, não desconta.
 
 
+### MA
+
+Pesquisados: 34 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **JUNIOR LOURENÇO** (MDB, Deputado Federal), idoneidade pessoal 2, geral 5.5: Busca rápida na internet (1 busca e fontes conferidas): réu em várias ações penais da gestão como prefeito de Miranda do Norte (TJMA e TRF-1) e denunciado na Operação Laços de Família.
+- **NAGIB** (MDB, Deputado Estadual), idoneidade pessoal 4, geral 6.5: Busca rápida na internet (1 busca e fontes conferidas): contas irregulares no TCU (R$ 5,4 milhões, obra inacabada), condenação eleitoral de 2020 mantida pelo TRE-MA e investigação criminal da PGJ (2026) sobre contratos da prefeitura de Codó.
+- **ERIC COSTA** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 6, geral 8: condenado pelo TCE-MA a devolver R$ 163 mil (2026) e réu em ação de improbidade do MPMA; ação do MPF e investigações da Seccor sem desfecho encontrado (a confirmar).
+- **ANTONIO PEREIRA** (MDB, Deputado Estadual), idoneidade pessoal 7, geral 8: Busca rápida na internet (1 busca e 1 de confirmação): réu em ação penal do MPF por desvio de recursos da Saúde (2011-2013), remetida ao TRF-1 em 2022; situação atual não confirmada.
+- **CLEBER VERDE** (MDB, Deputado Federal), idoneidade pessoal 7, geral 8: investigação da PF sobre intermediação de emendas enviada ao STF; absolvido pelo STF em ação antiga sobre aposentadoria fraudulenta no INSS.
+- **DANIELLA** (MDB, Deputado Estadual), idoneidade pessoal 8, geral 8.5: alvo de busca da PF na Operação Lei do Retorno (desvio de verbas da educação), suspeita de ser beneficiária.
+- **EDILAZIO** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 8, geral 9: indiciado pela PF em 2025 na investigação sobre venda de sentenças no TJMA.
+- **COROBA** (CIDADANIA, Deputado Federal), idoneidade pessoal 9, geral 9.5: alvo de procedimento preparatório do MPMA (2024) sobre falta de repasses à Câmara quando era prefeito.
+- **ALUISIO MENDES** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 9, geral 9.5: relatório da PF de 2022 aponta indícios de peculato e lavagem na campanha (desdobramento da Sermão aos Peixes), sem desfecho encontrado (a confirmar).
+- **OTHELINO NETO** (PSB, Deputado Federal), idoneidade pessoal 9, geral 9.5: processo por corrupção e peculato arquivado por habeas corpus; ação antiga por crime de licitação sem desfecho encontrado (a confirmar).
+- **HILDO ROCHA** (MDB, Deputado Federal), idoneidade pessoal 9, geral 9: ações de improbidade antigas (contratação sem concurso como prefeito de Cantanhede) sem desfecho encontrado (a confirmar).
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- FERNANDO FEITOSA (PODE, Deputado Federal): nada confirmado: há um pedido antigo do MPMA de afastamento de oito vereadores de Paço do Lumiar (por atos na cassação do vice-prefeito) em que não foi possível confirmar se ele estava; e críticas de blog à retirada do Diário Oficial do portal da Câmara que ele preside. Não desconta; a confirmar.
+- ALUISIO MENDES (REPUBLICANOS, Deputado Federal): relatório da PF de 2022 aponta indícios de peculato e lavagem na campanha (desdobramento da Sermão aos Peixes), sem desfecho encontrado (a confirmar).
+- OTHELINO NETO (PSB, Deputado Federal): processo por corrupção e peculato arquivado por habeas corpus; ação antiga por crime de licitação sem desfecho encontrado (a confirmar).
+- ERIC COSTA (REPUBLICANOS, Deputado Estadual): condenado pelo TCE-MA a devolver R$ 163 mil (2026) e réu em ação de improbidade do MPMA; ação do MPF e investigações da Seccor sem desfecho encontrado (a confirmar).
+- RODRIGO LAGO (PSB, Deputado Estadual): a busca menciona um procedimento investigatório criminal do MPMA no TJMA sem nenhum detalhe; não desconta, a confirmar.
+- HILDO ROCHA (MDB, Deputado Federal): ações de improbidade antigas (contratação sem concurso como prefeito de Cantanhede) sem desfecho encontrado (a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: RAFAEL NEVES (PRD 2512), PÁBLO LIMA (PRD 2533), JULIANA LEITE (PRD 2577) — sorteio entre 4 empatados
+- Deputado Federal · Direita conservadora: MICAL DAMASCENO (REPUBLICANOS 1022), COLETIVO UNIÃO (UNIÃO 4467), PEDRO LUCAS FERNANDES (UNIÃO 4444) — sorteio entre 3 empatados
+- Deputado Federal · Esquerda progressista: BIRA DO PINDARÉ (PT 1311), GREYSSON CARVALHO (PSB 4050), MARCELO POETA (PSB 4004) — sorteio entre 3 empatados
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: MANCHINHA (PRD 25111), LAURINDO FREITAS (NOVO 30138), ROBERT LEMOS (NOVO 30222)
+- Deputado Estadual · Direita conservadora: ANDRÉ CAMPOS (REPUBLICANOS 10345), FLORENCIO NETO (MDB 15222), DAVI BRANDÃO (MDB 15789) — sorteio entre 5 empatados
+- Deputado Estadual · Esquerda progressista: RODRIGO LAGO (PSB 40222), CARLOS LULA (PSB 40789), DR. RUBENS (PCDOB 65555)
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do MA: Júnior Lourenço (réu em várias ações penais e denunciado na Operação Laços de Família, nota 2) e
+Aluísio Mendes saíram da direita federal e abriram uma rodada de reposição com 4 empatados. Francisco Nagib (nota 4)
+tem, segundo a imprensa local, inelegibilidade até 2031 por contas irregulares no TCU, mas não está na lista do TCU
+cruzada pelo pipeline (conferir o registro). Rodrigo Lago, finalista estadual, aparece com um procedimento
+investigatório criminal do MPMA sem nenhum detalhe: **confirmar antes de 04/10**.
+
+
 ## Situação e próximos passos
 
-- **Estados fechados (11 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30). Total: 443 candidatos, 122 com achado que descontou e 41 marcados "a confirmar". Nos onze, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (12 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34). Total: 477 candidatos, 133 com achado que descontou e 47 marcados "a confirmar". Nos doze, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -501,7 +546,8 @@ confirmação (não desconta). Inquérito disciplinar da PM contra Cabo Senna po
 - **Achados mais graves:** Euclydes Pettersen/MG (2 ações penais e indiciamento no caso do INSS, nota 2), Lucas
   Cardoso/SP (condenação por estelionato confirmada pelo TJSP e registro impugnado, nota 4), Luiz Fernando Faria/MG
   (réu na Lava Jato, nota 6), Renato Freitas/PR (condenação por pichação com recurso, cassação de 2022 revertida,
-  réu por crime contra a honra e parecer de cassação em 2026, nota 4), Iran Lima/PA (improbidade confirmada e mandato cassado pelo TSE em 2020, nota 4), Antônio Doido/PA (alvo da PF
+  réu por crime contra a honra e parecer de cassação em 2026, nota 4), Júnior Lourenço/MA (réu em várias ações penais da gestão como prefeito, nota 2), Francisco Nagib/MA (TCU,
+  condenação eleitoral de 2020 e investigação da PGJ, nota 4), Iran Lima/PA (improbidade confirmada e mandato cassado pelo TSE em 2020, nota 4), Antônio Doido/PA (alvo da PF
   e declarado inelegível em 1ª instância, nota 6), Silvio Costa Filho/PE (réu em 4 ações
   criminais dos 'shows fantasmas', nota 4), Romero Albuquerque/PE (investigado por agressão e invasão de domicílio e 3
   multas eleitorais, nota 4), João Paulo/PE (condenação criminal de 1ª instância e ressarcimento de R$ 18 mi ao TCE,
@@ -512,12 +558,12 @@ confirmação (não desconta). Inquérito disciplinar da PM contra Cabo Senna po
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 16 estados**, na ordem de população: MA, AM, ES, PB, MT, RN, PI, AL, DF,
+- **Faltam 15 estados**, na ordem de população: AM, ES, PB, MT, RN, PI, AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
 - **Anotado para o AM:** o deputado federal Adail Filho (MDB) foi alvo da PF em 16/09/2026 (Operação Dinastia do
   Lago: fraude em licitações, desvio, corrupção e lavagem) — apareceu por acaso numa busca de MG.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC e GO (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO e MA (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
