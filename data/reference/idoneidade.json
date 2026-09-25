@@ -11752,6 +11752,478 @@
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "140002551852": {
+      "nome_urna": "DR. ALAILSON",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/para/deputado-federal/dr--alailson-3012"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002550076": {
+      "nome_urna": "DR. VERA CRUZ",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados eram de homônimos).",
+      "fontes": [
+        "https://www.jusbrasil.com.br/processos/nome/142059295/manoel-da-vera-cruz-maciel-neto"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002547300": {
+      "nome_urna": "OLIVAL MARQUES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de processos eleitorais sem detalhe no Jusbrasil.",
+      "fontes": [
+        "https://www.camara.leg.br/deputados/204498",
+        "https://www.jusbrasil.com.br/processos/nome/68309211/olival-henrique-marques-de-souza"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002540476": {
+      "nome_urna": "LU OGAWA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): só aparece como autor de ação contra um jornalista (rejeitada pelo TRE-PA); nada contra ele.",
+      "fontes": [
+        "https://www.jesocarneiro.com.br/para/tre-barra-censura-do-deputado-lu-ogawa-ao-jc-e-reafirma-liberdade-de-imprensa-em-decisao-unanime.html"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002540470": {
+      "nome_urna": "HENDERSON PINTO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): denunciado pelo MPPA em 2018 na Operação Perfuga (peculato e fraude em licitação na Câmara de Santarém, 2013-2014), com bens bloqueados; desfecho não encontrado (a confirmar).",
+      "fontes": [
+        "https://www.jesocarneiro.com.br/politica/cogitado-para-governador-regional-henderson-pinto-esta-envolvido-na-perfuga.html",
+        "https://www.jesocarneiro.com.br/justica/inquerito-policial-da-perfuga-encerra-e-vira-acao-penal-com-28-acusados.html"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Denunciado pelo MPPA em 2018 (Operação Perfuga) por peculato e fraude em licitação na Câmara de Santarém quando a presidia (2013-2014), com bens bloqueados; desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "140002540462": {
+      "nome_urna": "ANTONIO DOIDO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca e fontes conferidas): alvo da Operação Igapó da PF (dez/2025) por desvio de verbas, corrupção e lavagem; declarado inelegível pela Justiça Eleitoral em dez/2025 por abuso de poder nas eleições de 2024, com recurso.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/politica/quem-e-antonio-doido-deputado-alvo-da-pf-em-desvio-de-verbas/",
+        "https://www.cartacapital.com.br/politica/quem-e-antonio-doido-deputado-federal-do-para-alvo-de-operacao-da-pf-sobre-desvio-de-verbas/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo da Operação Igapó da PF (dez/2025), investigado pela PGR por desvio de recursos públicos, peculato, corrupção e lavagem de dinheiro; aliados presos com dinheiro vivo."
+        },
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Declarado inelegível por 8 anos pela Justiça Eleitoral em dez/2025 por abuso de poder político e econômico nas eleições municipais de 2024; cabe recurso."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "140002540457": {
+      "nome_urna": "KENISTON BRAGA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://kenistonbraga.com.br/biografia-do-keniston/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002540455": {
+      "nome_urna": "ADRIANO COELHO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca e fontes conferidas): a PF abriu investigação sobre a campanha dele e a do irmão depois de apreender R$ 2,5 milhões em espécie com pessoas ligadas a eles (set/2026).",
+      "fontes": [
+        "https://ver-o-fato.com.br/pf-abre-investigacao-sobre-campanhas-dos-irmaos-coelho-apos-apreender-r-25-milhoes",
+        "https://revistaoeste.com/politica/para-pf-apreende-r-25-milhoes-com-ligados-aos-candidatos-joao-e-adriano-coelho/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "A PF abriu investigação sobre as campanhas dele e do irmão João Coelho depois de prender em flagrante, em 16/09/2026, duas pessoas ligadas a eles com R$ 2,5 milhões em espécie (suspeita de desvio de recursos públicos para campanha)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "140002540454": {
+      "nome_urna": "RENILCE NICODEMOS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): só aparece como vítima (violência política de gênero de um ex-deputado); nada contra ela.",
+      "fontes": [
+        "https://www.oliberal.com/politica/vitima-de-toda-sorte-de-crimes-diz-renilce-nicodemos-sobre-wladimir-costa-preso-pela-pf-1.804551"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002536956": {
+      "nome_urna": "OZORIO JUVENIL",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): absolvido em ação penal eleitoral por uso de documento falso nas contas da campanha de 2010.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Oz%C3%B3rio_Juvenil",
+        "https://www.jusbrasil.com.br/topicos/50420017/deputado-estadual-ozorio-adolfo-juvenil-goes-nunes-de-sousa"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Absolvido em ação penal eleitoral por uso de documento falso na prestação de contas da campanha de 2010 (provas insuficientes)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "140002548129": {
+      "nome_urna": "VIVI REIS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://cmb.pa.gov.br/vivi-reis/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002540622": {
+      "nome_urna": "PROF. THIAGO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.itaituba.pa.leg.br/processo-legislativo/copy_of_parlamentares/vereador-thiago"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002540616": {
+      "nome_urna": "UBIRAJARA SOMPRE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de processos sem detalhe no Jusbrasil.",
+      "fontes": [
+        "https://sapl.maraba.pa.leg.br/parlamentar/27"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002540615": {
+      "nome_urna": "DR. FLAVIO NOBRE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://cma.pa.gov.br/vereadores/dr-flavio/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002551338": {
+      "nome_urna": "PR. JUNIOR BRAGA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002551334": {
+      "nome_urna": "NEYLA BRAGA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002544268": {
+      "nome_urna": "ALEXANDRE GOMES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca e fontes conferidas): denunciado pelo MPPA em set/2026 como chefe de esquema de desvio de R$ 21,7 milhões na Habitação de Ananindeua; empresa ligada a ele citada na apuração da mansão do ex-prefeito.",
+      "fontes": [
+        "https://www.metropoles.com/colunas/matheus-leitao/prefeitura-de-ananindeua-deu-golpe-em-idoso-para-desviar-r-217-mi-diz-mp",
+        "https://diariodopara.com.br/noticias/ananindeua-mp-diz-que-prefeitura-deu-golpe-em-idoso-e-desviou-r-217-milhoes-envolvido-teria-bancado-mansao-de-daniel/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Denunciado pelo MPPA (set/2026) como chefe do grupo que, segundo a acusação, desviou R$ 21,7 milhões da Prefeitura de Ananindeua com fraude em desapropriações quando era secretário de Habitação; denúncia sem notícia de recebimento."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Citado na apuração do MP sobre a mansão atribuída ao ex-prefeito Daniel Santos: empresa ligada a ele teria pago cerca de R$ 1 milhão pelo imóvel."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "140002544262": {
+      "nome_urna": "PATRICIA PERDIGÃO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/para/deputado-estadual/patricia-perdigao-20320"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002551149": {
+      "nome_urna": "FÁBIO FREITAS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://alepa.pa.gov.br/Institucional/Deputado/1019"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002551139": {
+      "nome_urna": "PAULA TITAN",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada contra ela; a condenação por improbidade encontrada é do pai, o ex-prefeito Paulo Titan.",
+      "fontes": [
+        "https://alepa.pa.gov.br/Institucional/Deputado/1045",
+        "https://ver-o-fato.com.br/castanhal-ex-prefeito-paulo-titan-e-condenado-por-fraude-em-obra-da-saude"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002551138": {
+      "nome_urna": "DIANA BELO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): como prefeita de Capitão Poço, respondeu a dois processos de cassação e inelegibilidade; desfecho não encontrado (a confirmar).",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Diana_Belo"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Como prefeita de Capitão Poço, respondeu a dois processos de cassação e inelegibilidade (Operação Fundo do Poço, por uso da prefeitura para distribuir material de campanha, e recusa em dar posse a concursados); desfecho não encontrado (processos antigos). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "140002551136": {
+      "nome_urna": "DR. RENAN LAURIA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002551126": {
+      "nome_urna": "VICTOR DIAS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Victor_Dias"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002551125": {
+      "nome_urna": "THIAGO ARAUJO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): só críticas de blog sobre uso da máquina a favor dele, sem processo; nada formal encontrado.",
+      "fontes": [
+        "https://www.alepa.pa.gov.br/Institucional/Deputado/1026"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002541730": {
+      "nome_urna": "IRAN LIMA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 4,
+      "motivo": "Busca rápida na internet (1 busca e fontes conferidas): condenado por improbidade dolosa como prefeito de Moju; o TSE negou o registro em 2019 e cassou o mandato de deputado estadual em 2020.",
+      "fontes": [
+        "https://tse.jus.br/imprensa/noticias-tse/2019/Marco/plenario-nega-registro-de-candidato-reeleito-deputado-estadual-pelo-para",
+        "https://www.jesocarneiro.com.br/politica/tse-cassa-por-7-a-0-e-em-definitivo-mandato-do-deputado-estadual-iran-lima.html"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado por ato doloso de improbidade como prefeito de Moju (2004); por isso o TSE negou o registro dele em 2019 (6 a 1), com base na Lei da Ficha Limpa."
+        },
+        {
+          "categoria": "cassacao_de_mandato",
+          "descricao": "Mandato de deputado estadual cassado em definitivo pelo TSE (7 a 0) em abr/2020 pela mesma condenação."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "140002541729": {
+      "nome_urna": "CHAMONZINHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://alepa.pa.gov.br/Institucional/Deputado/1029"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002541727": {
+      "nome_urna": "ANDREIA XARÃO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Andreia_Xar%C3%A3o"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002541724": {
+      "nome_urna": "MARTINHO CARMONA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): ação penal por fraude na contratação de estagiário rejeitada pelo Pleno do TJPA.",
+      "fontes": [
+        "https://brasil61.com/n/para-tribunal-pleno-rejeita-acao-penal-contra-deputado-martinho-carmona-tjpa141190"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Ação penal por fraude na contratação de um estagiário (sobrinho do chefe de gabinete) rejeitada pelo Pleno do TJPA por falta de prova."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "140002541715": {
+      "nome_urna": "ELCIONE BARBALHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): pedido de cassação por desvio da cota feminina em 2018 rejeitado pelo TSE em 2022.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/politica/tse-nega-cassacao-da-deputada-federal-elcione-barbalho/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Pedido de cassação do MP Eleitoral (repasse da cota feminina do fundo de campanha de 2018 a candidatos homens) rejeitado pelo TSE em mai/2022 (5 a 2)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "140002541714": {
+      "nome_urna": "CILENE COUTO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): ação de improbidade do MPPA (2012) pela fraude na folha da Alepa, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www12.senado.leg.br/noticias/materias/2012/02/07/mario-couto-contesta-denuncias-de-participacao-em-desvios"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Acionada pelo MPPA em 2012, com o pai (Mário Couto) e mais de dez pessoas, por improbidade na fraude da folha da Alepa (2003-2007); desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "140002548981": {
+      "nome_urna": "GLEISSON",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://cmb.pa.gov.br/a-camara/vereadores/gleisson-oliveira/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002548978": {
+      "nome_urna": "FÁBIO FIGUEIRAS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/F%C3%A1bio_Figueiras"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002544313": {
+      "nome_urna": "LÍVIA DUARTE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.alepa.pa.gov.br/Institucional/Deputado/1043"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002544302": {
+      "nome_urna": "MARINOR BRITO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Marinor_Brito"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }

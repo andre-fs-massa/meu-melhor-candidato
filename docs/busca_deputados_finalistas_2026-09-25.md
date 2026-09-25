@@ -378,10 +378,48 @@ marcado no TRE-CE para 29/06/2026; o resultado não foi encontrado. Pela regra d
 decretada, vale −2 e ele sai da lista: **confirmar antes de 04/10**.
 
 
+### PA
+
+Pesquisados: 37 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **IRAN LIMA** (MDB, Deputado Estadual), idoneidade pessoal 4, geral 6.5: Busca rápida na internet (1 busca e fontes conferidas): condenado por improbidade dolosa como prefeito de Moju; o TSE negou o registro em 2019 e cassou o mandato de deputado estadual em 2020.
+- **ANTONIO DOIDO** (MDB, Deputado Federal), idoneidade pessoal 6, geral 7.5: Busca rápida na internet (1 busca e fontes conferidas): alvo da Operação Igapó da PF (dez/2025) por desvio de verbas, corrupção e lavagem; declarado inelegível pela Justiça Eleitoral em dez/2025 por abuso de poder nas eleições de 2024, com recurso.
+- **ALEXANDRE GOMES** (PODE, Deputado Estadual), idoneidade pessoal 7, geral 8: Busca rápida na internet (1 busca e fontes conferidas): denunciado pelo MPPA em set/2026 como chefe de esquema de desvio de R$ 21,7 milhões na Habitação de Ananindeua; empresa ligada a ele citada na apuração da mansão do ex-prefeito.
+- **ADRIANO COELHO** (MDB, Deputado Federal), idoneidade pessoal 8, geral 8.5: Busca rápida na internet (1 busca e fontes conferidas): a PF abriu investigação sobre a campanha dele e a do irmão depois de apreender R$ 2,5 milhões em espécie com pessoas ligadas a eles (set/2026).
+- **HENDERSON PINTO** (UNIÃO, Deputado Federal), idoneidade pessoal 9, geral 9: Busca rápida na internet (1 busca e 1 de confirmação): denunciado pelo MPPA em 2018 na Operação Perfuga (peculato e fraude em licitação na Câmara de Santarém, 2013-2014), com bens bloqueados; desfecho não encontrado (a confirmar).
+- **OZORIO JUVENIL** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 9, geral 9.5: absolvido em ação penal eleitoral por uso de documento falso nas contas da campanha de 2010.
+- **DIANA BELO** (UNIÃO, Deputado Estadual), idoneidade pessoal 9, geral 9: como prefeita de Capitão Poço, respondeu a dois processos de cassação e inelegibilidade; desfecho não encontrado (a confirmar).
+- **MARTINHO CARMONA** (MDB, Deputado Estadual), idoneidade pessoal 9, geral 9: ação penal por fraude na contratação de estagiário rejeitada pelo Pleno do TJPA.
+- **ELCIONE BARBALHO** (MDB, Deputado Estadual), idoneidade pessoal 9, geral 9: pedido de cassação por desvio da cota feminina em 2018 rejeitado pelo TSE em 2022.
+- **CILENE COUTO** (MDB, Deputado Estadual), idoneidade pessoal 9, geral 9: ação de improbidade do MPPA (2012) pela fraude na folha da Alepa, sem desfecho encontrado (a confirmar).
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- HENDERSON PINTO (UNIÃO, Deputado Federal): Busca rápida na internet (1 busca e 1 de confirmação): denunciado pelo MPPA em 2018 na Operação Perfuga (peculato e fraude em licitação na Câmara de Santarém, 2013-2014), com bens bloqueados; desfecho não encontrado (a confirmar).
+- DIANA BELO (UNIÃO, Deputado Estadual): como prefeita de Capitão Poço, respondeu a dois processos de cassação e inelegibilidade; desfecho não encontrado (a confirmar).
+- CILENE COUTO (MDB, Deputado Estadual): ação de improbidade do MPPA (2012) pela fraude na folha da Alepa, sem desfecho encontrado (a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: VAVÁ MARTINS (NOVO 3010), OLIVAL MARQUES (PODE 2000), DR. FERNANDO (NOVO 3020) — sorteio entre 4 empatados
+- Deputado Federal · Direita conservadora: KENISTON BRAGA (MDB 1512), LU OGAWA (PP 1111), RENILCE NICODEMOS (MDB 1577)
+- Deputado Federal · Esquerda progressista: DR. FLAVIO NOBRE (PSB 4080), PROF. THIAGO (PSB 4022), VIVI REIS (PSOL 5050) — sorteio entre 4 empatados
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: PATRICIA PERDIGÃO (PODE 20320), PR. JUNIOR BRAGA (NOVO 30123), NEYLA BRAGA (NOVO 30000)
+- Deputado Estadual · Direita conservadora: ANDREIA XARÃO (MDB 15123), PAULA TITAN (PP 11777), DR. RENAN LAURIA (PP 11234) — sorteio entre 6 empatados
+- Deputado Estadual · Esquerda progressista: MARINOR BRITO (PSOL 50555), LÍVIA DUARTE (PSOL 50123), GLEISSON (PV 43123) — sorteio entre 4 empatados
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do PA: Iran Lima volta a disputar depois de ter o registro negado (2019) e o mandato cassado (2020) pelo TSE
+pela condenação por improbidade como prefeito de Moju; a inelegibilidade já venceu (ele foi eleito em 2022).
+
+
 ## Situação e próximos passos
 
-- **Estados fechados (8 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30).
-  Total: 340 candidatos, 98 com achado que descontou e 32 marcados "a confirmar". Nos oito, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (9 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37).
+  Total: 377 candidatos, 108 com achado que descontou e 35 marcados "a confirmar". Nos nove, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -390,7 +428,8 @@ decretada, vale −2 e ele sai da lista: **confirmar antes de 04/10**.
 - **Achados mais graves:** Euclydes Pettersen/MG (2 ações penais e indiciamento no caso do INSS, nota 2), Lucas
   Cardoso/SP (condenação por estelionato confirmada pelo TJSP e registro impugnado, nota 4), Luiz Fernando Faria/MG
   (réu na Lava Jato, nota 6), Renato Freitas/PR (condenação por pichação com recurso, cassação de 2022 revertida,
-  réu por crime contra a honra e parecer de cassação em 2026, nota 4), Silvio Costa Filho/PE (réu em 4 ações
+  réu por crime contra a honra e parecer de cassação em 2026, nota 4), Iran Lima/PA (improbidade confirmada e mandato cassado pelo TSE em 2020, nota 4), Antônio Doido/PA (alvo da PF
+  e declarado inelegível em 1ª instância, nota 6), Silvio Costa Filho/PE (réu em 4 ações
   criminais dos 'shows fantasmas', nota 4), Romero Albuquerque/PE (investigado por agressão e invasão de domicílio e 3
   multas eleitorais, nota 4), João Paulo/PE (condenação criminal de 1ª instância e ressarcimento de R$ 18 mi ao TCE,
   nota 5), Beto Richa/PR (8 ações penais extintas ou sem
@@ -400,12 +439,12 @@ decretada, vale −2 e ele sai da lista: **confirmar antes de 04/10**.
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 19 estados**, na ordem de população: PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
+- **Faltam 18 estados**, na ordem de população: SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
 - **Anotado para o AM:** o deputado federal Adail Filho (MDB) foi alvo da PF em 16/09/2026 (Operação Dinastia do
   Lago: fraude em licitações, desvio, corrupção e lavagem) — apareceu por acaso numa busca de MG.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE e CE (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE e PA (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
