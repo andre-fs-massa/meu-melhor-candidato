@@ -453,10 +453,46 @@ de 9,25 para 9,00 e abriu uma rodada de reposição com 5 empatados; ele segue f
 ainda sem decisão (Camasão, Marcelo Achutti), não descontam; só a condenação desconta (André Moser).
 
 
+### GO
+
+Pesquisados: 30 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **LÊDA BORGES** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 6, geral 8: Busca rápida na internet (1 busca e fonte conferida): condenação por improbidade como prefeita de Valparaíso de Goiás (jornal pago com dinheiro público para promoção eleitoral), restabelecida pelo STJ.
+- **IGOR FRANCO** (PODE, Deputado Federal), idoneidade pessoal 9, geral 9: ordem judicial para apagar vídeos com IA contra o prefeito de Goiânia; pedido antigo de perda de mandato por infidelidade sem efeito.
+- **MARUSSA BOLDRIN** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 9, geral 9.5: AIJE de 2022 assumida pelo MP Eleitoral por abuso de poder econômico (uso da Faeg/Senar), sem desfecho encontrado (a confirmar).
+- **JOSE NELTO** (UNIÃO, Deputado Federal), idoneidade pessoal 9, geral 9: queixa-crime por injúria e calúnia rejeitada pelo STF.
+- **MUCIO SANTANA** (PSB, Deputado Federal), idoneidade pessoal 9, geral 9.5: ação por compra de votos em 2024 julgada improcedente pelo TRE-GO.
+- **NIXON DAS CASINHAS** (PSB, Deputado Federal), idoneidade pessoal 9, geral 9.5: citado em auditoria da CGU sobre programa habitacional de Luziânia.
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- MARUSSA BOLDRIN (REPUBLICANOS, Deputado Federal): AIJE de 2022 assumida pelo MP Eleitoral por abuso de poder econômico (uso da Faeg/Senar), sem desfecho encontrado (a confirmar).
+- AAVA SANTIAGO (PSB, Deputado Federal): o TRE-GO decretou em jul/2026 a perda do mandato de vereadora por infidelidade partidária (saída do PSDB sem justa causa), com recurso ao TSE pendente e ela no cargo. Pela regra de 25/09 só desconta (−2) se a perda for mantida: a confirmar.
+- VETER MARTINS (PSB, Deputado Estadual): um blog de resumos jurídicos diz que ele é investigado no STF por crime contra a administração pública, mas a busca de confirmação não achou fonte primária nem notícia. Não desconta; a confirmar.
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: JOÃO DA LUZ (CIDADANIA 2323), LUCAS CALIL (PRD 2525), GLAUSTIN DA FOKUS (PODE 2026)
+- Deputado Federal · Direita conservadora: LUCAS VERGÍLIO (MDB 1510), RICARDO QUIRINO (REPUBLICANOS 1010), BRUNO PEIXOTO (UNIÃO 4455)
+- Deputado Federal · Esquerda progressista: CARMEM LUCIA (PSB 4012), TALES DE CASTRO (PSB 4015), AAVA SANTIAGO (PSB 4040)
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: GCM ROMÁRIO POLICARPO (CIDADANIA 23153), WELTON LEMOS (NOVO 30100), LEANDRO VENTURA (NOVO 30333)
+- Deputado Estadual · Direita conservadora: VIVIAN NAVES (REPUBLICANOS 10111), CABO SENNA (MOBILIZA 33190), EDINHO CARVALHO (AGIR 36789) — sorteio entre 4 empatados
+- Deputado Estadual · Esquerda progressista: WAGNER NETO (SOLIDARIEDADE 77123), KARLOS CABRAL (PSB 40456), VETER MARTINS (PSB 40123) — sorteio entre 4 empatados
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações de GO: Aava Santiago teve a perda do mandato de vereadora por infidelidade partidária decretada pelo
+TRE-GO em jul/2026, com recurso ao TSE pendente; pela regra de 25/09 só desconta (−2) se a perda for mantida:
+**confirmar antes de 04/10**. Veter Martins aparece como investigado no STF só num blog de resumos jurídicos, sem
+confirmação (não desconta). Inquérito disciplinar da PM contra Cabo Senna por vídeos políticos, sem sanção, não desconta.
+
+
 ## Situação e próximos passos
 
-- **Estados fechados (10 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36). Total: 413 candidatos, 116 com achado que descontou e 38 marcados "a confirmar". Nos dez, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (11 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30). Total: 443 candidatos, 122 com achado que descontou e 41 marcados "a confirmar". Nos onze, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -476,12 +512,12 @@ ainda sem decisão (Camasão, Marcelo Achutti), não descontam; só a condenaç�
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 17 estados**, na ordem de população: GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
+- **Faltam 16 estados**, na ordem de população: MA, AM, ES, PB, MT, RN, PI, AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
 - **Anotado para o AM:** o deputado federal Adail Filho (MDB) foi alvo da PF em 16/09/2026 (Operação Dinastia do
   Lago: fraude em licitações, desvio, corrupção e lavagem) — apareceu por acaso numa busca de MG.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA e SC (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC e GO (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o

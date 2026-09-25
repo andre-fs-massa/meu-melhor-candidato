@@ -12718,6 +12718,394 @@
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "90002547095": {
+      "nome_urna": "JOÃO DA LUZ",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o 'João da Luz' investigado que apareceu na busca é outra pessoa, de SC).",
+      "fontes": [
+        "https://anapolis.go.leg.br/vereador/joao-da-luz/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002543566": {
+      "nome_urna": "LUCAS CALIL",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://portal.al.go.leg.br/deputados/perfil-biografico/125"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002537635": {
+      "nome_urna": "IGOR FRANCO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): ordem judicial para apagar vídeos com IA contra o prefeito de Goiânia; pedido antigo de perda de mandato por infidelidade sem efeito.",
+      "fontes": [
+        "https://www.jornalopcao.com.br/justica/justica-manda-igor-franco-apagar-videos-com-ia-contra-mabel-e-ve-risco-de-desinformacao-em-goiania-819940/",
+        "https://www.jornalopcao.com.br/eleicoes-2022/igor-franco-deve-perder-mandato-por-infidelidade-partidaria-510135/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "A Justiça mandou apagar em 48 horas vídeos feitos com inteligência artificial contra o prefeito Sandro Mabel, por risco de desinformação. O pedido de perda do mandato de vereador por infidelidade partidária (2022) não desconta: ele segue no cargo e foi reeleito em 2024."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "90002548378": {
+      "nome_urna": "RICARDO QUIRINO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://portal.al.go.leg.br/deputados/perfil-biografico/821"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002548376": {
+      "nome_urna": "MARUSSA BOLDRIN",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): AIJE de 2022 assumida pelo MP Eleitoral por abuso de poder econômico (uso da Faeg/Senar), sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.jornalopcao.com.br/bastidores/ministerio-publico-eleitoral-mantem-acao-e-a-deputada-marussa-boldrin-pode-ser-cassada-494115/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Ação eleitoral (AIJE) de 2022, assumida pelo MP Eleitoral, por abuso de poder econômico e uso de bens e serviços da Faeg e do Senar-GO na campanha, com pedido de cassação; desfecho não encontrado (ela exerceu o mandato). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "90002548364": {
+      "nome_urna": "LÊDA BORGES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca e fonte conferida): condenação por improbidade como prefeita de Valparaíso de Goiás (jornal pago com dinheiro público para promoção eleitoral), restabelecida pelo STJ.",
+      "fontes": [
+        "https://jornaldemocratico.com.br/noticia/1366/stj-restabelece-condenacao-da-ex-prefeita-leda-borges-por-improbidade-administrativa-em-valparaiso-de-goias"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenada por improbidade como prefeita de Valparaíso de Goiás (2009-2012) por contratar com dinheiro público (R$ 2 milhões) empresa que editava jornal usado para promoção eleitoral; o STJ restabeleceu a condenação."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "90002543246": {
+      "nome_urna": "JOSE NELTO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): queixa-crime por injúria e calúnia rejeitada pelo STF.",
+      "fontes": [
+        "https://www.migalhas.com.br/quentes/454842/stf-1-turma-rejeita-queixa-de-gayer-contra-jose-nelto-por-ofensas"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Queixa-crime do deputado Gustavo Gayer por injúria e calúnia (declarações em podcast, 2023) rejeitada pela 1ª Turma do STF."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "90002543237": {
+      "nome_urna": "BRUNO PEIXOTO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://portal.al.go.leg.br/deputados/perfil-biografico/51"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002543220": {
+      "nome_urna": "LUCAS VERGÍLIO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.camara.leg.br/deputados/178879/biografia"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002554320": {
+      "nome_urna": "CARMEM LUCIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://niquelandia.go.leg.br/vereador/carmem-lucia-costa-de-oliveira-ferreira/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002547404": {
+      "nome_urna": "TALES DE CASTRO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.diariodeaparecida.com.br/2026/09/19/tales-de-castro-aposta-em-lula-e-promete-ser-a-voz-de-aparecida-de-goiania-em-brasilia/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002547139": {
+      "nome_urna": "AAVA SANTIAGO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): o TRE-GO decretou em jul/2026 a perda do mandato de vereadora por infidelidade partidária (saída do PSDB sem justa causa), com recurso ao TSE pendente e ela no cargo. Pela regra de 25/09 só desconta (−2) se a perda for mantida: a confirmar.",
+      "fontes": [
+        "https://www.maisgoias.com.br/politica/tre-go-cassa-mandato-de-aava-santiago-por-infidelidade-partidaria/",
+        "https://www.maisgoias.com.br/politica/aava-santiago-anuncia-recurso-ao-tse-apos-decisao-do-tre-go-que-cassou-mandato/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002547134": {
+      "nome_urna": "MUCIO SANTANA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): ação por compra de votos em 2024 julgada improcedente pelo TRE-GO.",
+      "fontes": [
+        "https://www.jornalopcao.com.br/politica/vereador-de-goianesia-mucio-santana-vence-processo-e-mantem-mandato-730914/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Ação do União Brasil por compra de votos (cestas básicas) na eleição de 2024 julgada improcedente em 1ª instância e pelo TRE-GO (ago/2025), por fragilidade das provas."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "90002547129": {
+      "nome_urna": "NIXON DAS CASINHAS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): citado em auditoria da CGU sobre programa habitacional de Luziânia.",
+      "fontes": [
+        "https://jornaldemocratico.com.br/cidades/luziania/cgu-aponta-supostas-irregularidades-em-programa-habitacional-de-luziania-vereador-nixon-das-casinhas-e-citado-em-auditoria/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Citado em auditoria da CGU sobre supostas irregularidades no programa habitacional Poço do Ouro I e II, em Luziânia."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "90002544858": {
+      "nome_urna": "GCM ROMÁRIO POLICARPO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (só disputas sobre a eleição da mesa da Câmara, confirmada pelo STF).",
+      "fontes": [
+        "https://www.goiania.go.leg.br/sala-de-imprensa/agencia-camara-goiania/Agencia-Camara-Goiania_noticias/eleito-por-unanimidade-romario-policarpo-prd-exercera-quarto-mandato-como-presidente-da-camara"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002540988": {
+      "nome_urna": "WELTON LEMOS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.goiania.go.leg.br/institucional/parlamentares/Welton-Lemos"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002540961": {
+      "nome_urna": "LEANDRO VENTURA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://morrinhos.go.leg.br/vereador/leandro-ventura-alves/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002548064": {
+      "nome_urna": "VIVIAN NAVES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Vivian_Naves"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002543170": {
+      "nome_urna": "ROSANGELA REZENDE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://portal.al.go.leg.br/noticias/164946/rosangela-rezende-postula-criacao-de-programa-de-apoio-a-preparacao-de-estudantes-para-o-enem-e-outros-processos-seletivos"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002543166": {
+      "nome_urna": "EDINHO CARVALHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://aparecidadegoiania.go.leg.br/vereador/edinho-carvalho/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002543142": {
+      "nome_urna": "CABO SENNA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): só um inquérito disciplinar na Corregedoria da PM por vídeos em que incentivava protesto de policiais contra o governador (fala política), sem sanção encontrada; não desconta.",
+      "fontes": [
+        "https://sagresonline.com.br/perseguicao-politica-define-cabo-senna-sobre-inquerito-na-corregedoria-da-pm/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002543119": {
+      "nome_urna": "FELIPE CORTEZ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://aparecidadegoiania.go.leg.br/vereador/felipe-cortez/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002549166": {
+      "nome_urna": "WAGNER NETO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://portal.al.go.leg.br/deputados/perfil-biografico/152"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002547083": {
+      "nome_urna": "KARLOS CABRAL",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.karloscabral.com/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002547076": {
+      "nome_urna": "WALTER CAMARGO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002547075": {
+      "nome_urna": "VETER MARTINS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): um blog de resumos jurídicos diz que ele é investigado no STF por crime contra a administração pública, mas a busca de confirmação não achou fonte primária nem notícia. Não desconta; a confirmar.",
+      "fontes": [
+        "https://www.cognijus.com/blog/veter-martins-morais-e-investigado-por-crimes-contra-a-administracao-publica-supremo-tribunal-federa"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002543842": {
+      "nome_urna": "ALEIDO AFIUNE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002543829": {
+      "nome_urna": "DIEGO JEJEES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.escavador.com/sobre/6958571/diego-jejees-dias-fernandes"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002540939": {
+      "nome_urna": "GABRIELA PUGLIESI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (as advogadas investigadas que apareceram na busca são outras pessoas).",
+      "fontes": [
+        "https://www.escavador.com/sobre/148143030/gabriela-leda-pugliesi/processos"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002537390": {
+      "nome_urna": "GLAUSTIN DA FOKUS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.camara.leg.br/deputados/204419/biografia"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }
