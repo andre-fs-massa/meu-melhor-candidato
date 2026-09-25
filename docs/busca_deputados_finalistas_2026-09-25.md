@@ -337,10 +337,51 @@ Pesquisados: 45 candidatos (1 busca cada, mais confirmações quando houve sinal
 - Deputado Estadual · Estatista-autoritário: vazio
 
 
+### CE
+
+Pesquisados: 30 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **SARGENTO REGINAURO** (PSDB, Deputado Estadual), idoneidade pessoal 7, geral 8: réu em ação penal militar pelo motim da segurança pública do Ceará em 2020, em andamento.
+- **ADAIL CARNEIRO** (PSDB, Deputado Federal), idoneidade pessoal 8, geral 8.5: preso em 2020 com R$ 2 milhões em espécie e condenado em 1ª instância por lavagem de dinheiro; absolvido pelo TRF-5 em 2025.
+- **ERIKA AMORIM** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 8, geral 9: condenada pelo TRE-CE por conduta vedada (perseguição de servidores de Caucaia na campanha de 2018) e denunciada criminalmente pelo mesmo caso, sem desfecho encontrado (a confirmar).
+- **JACQUELINE GOUVEIA** (MDB, Deputado Federal), idoneidade pessoal 8, geral 8.5: ação eleitoral por suposto abuso de poder econômico (projeto de castração gratuita com o nome dela), com liminar do TRE-CE que suspendeu o projeto em 2026; pendente.
+- **EDUARDO BISMARCK** (PV, Deputado Federal), idoneidade pessoal 8, geral 9: cassação e inelegibilidade decididas pelo TSE em 2024 (abuso de poder do prefeito de Baturité em seu favor), revertidas pelo próprio TSE no mesmo ano.
+- **FELIPE VASQUES** (PSDB, Deputado Estadual), idoneidade pessoal 8, geral 8.5: alvo da Operação Aletheia do MPCE (2026) sobre fraude em licitações da Câmara de Juazeiro do Norte, afastado e depois reconduzido pelo TJCE; investigação em curso.
+- **ROMEU ALDIGUERI** (PSB, Deputado Estadual), idoneidade pessoal 8, geral 9: Busca rápida na internet (1 busca e fontes conferidas): condenado em 1ª instância por calúnia eleitoral (2018), com alegação de prescrição; registros policiais antigos (atropelamento com morte, agressão à ex-mulher, estupro) e ação por estelionato citados pela imprensa sem desfecho conhecido (a confirmar).
+- **LEONARDO PINHEIRO** (PSB, Deputado Estadual), idoneidade pessoal 8, geral 9: réu em ação de improbidade do MPCE por suposta funcionária fantasma no gabinete (2023).
+- **ROMEU ALDIGUERI** (PSB, Deputado Federal), idoneidade pessoal 8, geral 9: Busca rápida na internet (1 busca e fontes conferidas, feitas para o registro dele a deputado estadual; o mesmo candidato tem também registro a federal): condenado em 1ª instância por calúnia eleitoral (2018), com alegação de prescrição; registros policiais antigos (atropelamento com morte, agressão à ex-mulher, estupro) e ação por estelionato citados pela imprensa sem desfecho conhecido (a confirmar).
+- **LUKÃO** (CIDADANIA, Deputado Federal), idoneidade pessoal 9, geral 9.5: ação por fraude à cota de gênero da chapa que pedia a cassação dele rejeitada pelo TRE-CE em 2026.
+- **MOSES RODRIGUES** (UNIÃO, Deputado Federal), idoneidade pessoal 9, geral 9: conduzido pela PF para explicar aglomeração perto de seções eleitorais em Sobral (2024), sem desfecho encontrado.
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- ERIKA AMORIM (REPUBLICANOS, Deputado Federal): condenada pelo TRE-CE por conduta vedada (perseguição de servidores de Caucaia na campanha de 2018) e denunciada criminalmente pelo mesmo caso, sem desfecho encontrado (a confirmar).
+- ROMEU ALDIGUERI (PSB, Deputado Estadual): Busca rápida na internet (1 busca e fontes conferidas): condenado em 1ª instância por calúnia eleitoral (2018), com alegação de prescrição; registros policiais antigos (atropelamento com morte, agressão à ex-mulher, estupro) e ação por estelionato citados pela imprensa sem desfecho conhecido (a confirmar).
+- ROMEU ALDIGUERI (PSB, Deputado Federal): Busca rápida na internet (1 busca e fontes conferidas, feitas para o registro dele a deputado estadual; o mesmo candidato tem também registro a federal): condenado em 1ª instância por calúnia eleitoral (2018), com alegação de prescrição; registros policiais antigos (atropelamento com morte, agressão à ex-mulher, estupro) e ação por estelionato citados pela imprensa sem desfecho conhecido (a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: WELLINGTON SABOIA (PODE 2026), LUKÃO (CIDADANIA 2323), CAROL SIEBRA (NOVO 3030) — sorteio entre 2 empatados
+- Deputado Federal · Direita conservadora: MICHEL LINS (REPUBLICANOS 1001), AJ ALBUQUERQUE (PP 1111), BENIGNO JUNIOR (REPUBLICANOS 1045)
+- Deputado Federal · Esquerda progressista: RENATO ROSENO (PSOL 5050), ADRIANA GERÔNIMO (PSOL 5077), FERNANDO SANTANA (PT 1322)
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: PASTOR JOÃO LUÍS (NOVO 30500), JULIO CESAR (PRD 25789), QUEIROZ FILHO (PSDB 45777) — sorteio entre 3 empatados
+- Deputado Estadual · Direita conservadora: GARDEL ROLIM (REPUBLICANOS 10333), DAVID DURAND (REPUBLICANOS 10123), SILVIO NASCIMENTO (REPUBLICANOS 10000)
+- Deputado Estadual · Esquerda progressista: GABRIEL BIOLOGIA (PSOL 50555), DR. LUCILVIO GIRÃO (PSB 40234), TIN GOMES (PSB 40600)
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do CE: Romeu Aldigueri tem dois registros (deputado estadual e federal) e recebeu o mesmo resultado nos
+dois. Gardel Rolim (finalista estadual) responde a ação de perda de mandato por infidelidade partidária com julgamento
+marcado no TRE-CE para 29/06/2026; o resultado não foi encontrado. Pela regra de 25/09, se a perda tiver sido
+decretada, vale −2 e ele sai da lista: **confirmar antes de 04/10**.
+
+
 ## Situação e próximos passos
 
-- **Estados fechados (7 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45). Total:
-  310 candidatos, 87 com achado que descontou e 29 marcados "a confirmar". Nos sete, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (8 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30).
+  Total: 340 candidatos, 98 com achado que descontou e 32 marcados "a confirmar". Nos oito, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -359,12 +400,12 @@ Pesquisados: 45 candidatos (1 busca cada, mais confirmações quando houve sinal
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 20 estados**, na ordem de população: CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
+- **Faltam 19 estados**, na ordem de população: PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
 - **Anotado para o AM:** o deputado federal Adail Filho (MDB) foi alvo da PF em 16/09/2026 (Operação Dinastia do
   Lago: fraude em licitações, desvio, corrupção e lavagem) — apareceu por acaso numa busca de MG.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS e PE (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE e CE (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o

@@ -11264,6 +11264,457 @@
         }
       ],
       "origem": "busca_finalistas"
+    },
+    "60002551879": {
+      "nome_urna": "WELLINGTON SABOIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos sem classe nem papel visíveis).",
+      "fontes": [
+        "https://www.jusbrasil.com.br/processos/nome/38279679/francisco-wellington-saboia-vitorino",
+        "https://sapl.fortaleza.ce.leg.br/parlamentar/62"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002541577": {
+      "nome_urna": "LUKÃO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): ação por fraude à cota de gênero da chapa que pedia a cassação dele rejeitada pelo TRE-CE em 2026.",
+      "fontes": [
+        "https://cn7.com.br/tre-ce-mantem-mandato-do-vereador-lukao-em-juazeiro-do-norte/",
+        "https://caririensi.com.br/2026/06/tre-ce-mantem-mandato-de-lukao-apos-julgamento-apertado-em-juazeiro-do-norte.html"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Ação eleitoral por suposta fraude à cota de gênero da chapa PSDB-Cidadania em Juazeiro do Norte (2024) que pedia a cassação dele; o TRE-CE rejeitou em jun/2026 (4 a 3) por falta de prova."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "60002541576": {
+      "nome_urna": "ADAIL CARNEIRO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): preso em 2020 com R$ 2 milhões em espécie e condenado em 1ª instância por lavagem de dinheiro; absolvido pelo TRF-5 em 2025.",
+      "fontes": [
+        "https://cn7.com.br/ex-deputado-adail-carneiro-e-absolvido-pelo-trf-das-acusacoes-de-lavagem-de-dinheiro/",
+        "https://www.opovo.com.br/noticias/ceara/2020/12/23/ex-deputado-adail-carneiro--flagrado-com-r--2-milhoes-em-especie--e-denunciado-a-justica-por-lavagem-de-dinheiro.html",
+        "https://pt.wikipedia.org/wiki/Adail_Carneiro"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "Preso em 2020 na Operação KM Livre da PF com R$ 2 milhões em espécie; condenado em 1ª instância a 8 anos, 1 mês e 15 dias por lavagem de dinheiro; absolvido por unanimidade pelo TRF-5 em 2025 por falta de prova dos crimes antecedentes."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "60002538318": {
+      "nome_urna": "DRA. LEIDIANE MAIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (advogada previdenciarista em Cascavel/CE; os resultados tratam de homônimos).",
+      "fontes": [
+        "https://m.facebook.com/p/Escrit%C3%B3rio-de-advocacia-Dra-Leidiane-Maia-100064683983197/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002538312": {
+      "nome_urna": "CAROL SIEBRA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://novo.org.br/noticias/carol-siebra-pre-candidata-deputada-federal-ceara/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002545100": {
+      "nome_urna": "BENIGNO JUNIOR",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://sapl.fortaleza.ce.leg.br/parlamentar/146"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002545098": {
+      "nome_urna": "MICHEL LINS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além do pedido do PRD de perda de mandato por infidelidade partidária (2026), sem decisão (sem desconto).",
+      "fontes": [
+        "https://sobralonline.com.br/prd-nacional-solicita-cassacao-vereador-michel-lins/",
+        "https://sapl.fortaleza.ce.leg.br/parlamentar/201"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002544112": {
+      "nome_urna": "ERIKA AMORIM",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): condenada pelo TRE-CE por conduta vedada (perseguição de servidores de Caucaia na campanha de 2018) e denunciada criminalmente pelo mesmo caso, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.mpf.mp.br/ce/sala-de-imprensa/noticias-ce/mp-eleitoral-denuncia-prefeito-de-caucaia-ce-e-deputada-estadual-por-crime-eleitoral",
+        "https://mais.opovo.com.br/jornal/politica/2020/02/08/naumi-amorim-e-erika-amorim-tem-ate-15-dias-para-responder-a-denuncia-de-crime-eleitoral.html",
+        "https://pt.wikipedia.org/wiki/%C3%89rika_Amorim"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "Condenada pelo TRE-CE (out/2019) por conduta vedada: coação e perseguição de servidores de Caucaia (cujo prefeito era o marido, Naumi Amorim) para apoiar a candidatura dela em 2018."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Denúncia criminal do MP Eleitoral (2020) contra ela e o marido pelo mesmo caso de perseguição a servidores; desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "60002542444": {
+      "nome_urna": "JACQUELINE GOUVEIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): ação eleitoral por suposto abuso de poder econômico (projeto de castração gratuita com o nome dela), com liminar do TRE-CE que suspendeu o projeto em 2026; pendente.",
+      "fontes": [
+        "https://diariodonordeste.verdesmares.com.br/pontopoder/tre-ce-suspende-castramovel-de-vereadora-de-juazeiro-por-suspeita-de-abuso-de-poder-1.3773721",
+        "https://www.opovo.com.br/noticias/politica/2026/07/31/tre-ce-suspende-castramovel-de-pre-candidata-no-ce-entenda.html"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "O TRE-CE suspendeu em 2026, a pedido do PMN, o projeto 'CastraMóvel' ligado a ela (castrações gratuitas com o nome dela), por indício de abuso de poder econômico na pré-campanha; ação pendente."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "60002534893": {
+      "nome_urna": "MOSES RODRIGUES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): conduzido pela PF para explicar aglomeração perto de seções eleitorais em Sobral (2024), sem desfecho encontrado.",
+      "fontes": [
+        "https://anoticiadoceara.com.br/moses-rodrigues-e-conduzido-para-prestar-esclarecimentos-por-aglomeracao/",
+        "https://en.wikipedia.org/wiki/Moses_Rodrigues"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Conduzido pela PF em 2024 para prestar esclarecimentos à Justiça Eleitoral sobre aglomeração perto de locais de votação em Sobral, em desrespeito à orientação de promotores eleitorais; desfecho não encontrado."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "60002534881": {
+      "nome_urna": "AJ ALBUQUERQUE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de homônimos de Alagoas).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/AJ_Albuquerque"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002540732": {
+      "nome_urna": "EDUARDO BISMARCK",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): cassação e inelegibilidade decididas pelo TSE em 2024 (abuso de poder do prefeito de Baturité em seu favor), revertidas pelo próprio TSE no mesmo ano.",
+      "fontes": [
+        "https://blogdoedisonsilva.com.br/2024/05/24/decisao-do-tse-cassa-o-mandato-do-deputado-federal-eduardo-bismarck-pdt/",
+        "https://www.al.ce.gov.br/oradores-expedientes/47802-guilherme-bismarck-parabeniza-deputado-federal-eduardo-bismarck-por-vitoria-no-tse",
+        "https://en.wikipedia.org/wiki/Eduardo_Bismarck"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "Cassado pelo TSE em mai/2024 (5 a 2), com inelegibilidade, como beneficiário de abuso de poder político do prefeito de Baturité na eleição de 2022; o plenário do TSE reverteu a decisão em out/2024 e o absolveu."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "60002538340": {
+      "nome_urna": "RENATO ROSENO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos sem classe nem papel visíveis).",
+      "fontes": [
+        "https://www.jusbrasil.com.br/processos/nome/71834587/renato-roseno-de-oliveira"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002538333": {
+      "nome_urna": "ADRIANA GERÔNIMO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como vítima de ameaças de morte).",
+      "fontes": [
+        "https://www.opovo.com.br/noticias/politica/2026/07/13/vereadora-de-fortaleza-sofre-nova-ameaca-de-morte-e-estupro.html"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002541557": {
+      "nome_urna": "SARGENTO REGINAURO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca): réu em ação penal militar pelo motim da segurança pública do Ceará em 2020, em andamento.",
+      "fontes": [
+        "https://diariodonordeste.verdesmares.com.br/pontopoder/sargento-reginauro-vira-reu-por-crimes-militares-e-suposta-participacao-no-motim-policial-em-2020-1.3278489",
+        "https://mais.opovo.com.br/colunistas/vertical/2025/01/22/justica-cita-processo-por-motim-e-nega-passar-reginauro-para-a-reserva.html"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu na Justiça Militar por motim, incitamento, aliciamento para motim, quebra de lealdade e descumprimento de lei, pela participação no motim de policiais e bombeiros do Ceará em 2020; o processo seguia em andamento em jan/2025."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "60002541547": {
+      "nome_urna": "QUEIROZ FILHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de homônimos).",
+      "fontes": [
+        "Busca na web (2026-09-25): \"Queiroz Filho\" deputado estadual CE processo OR investigado OR condenado -- só homônimos"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002541543": {
+      "nome_urna": "FELIPE VASQUES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): alvo da Operação Aletheia do MPCE (2026) sobre fraude em licitações da Câmara de Juazeiro do Norte, afastado e depois reconduzido pelo TJCE; investigação em curso.",
+      "fontes": [
+        "https://mais.opovo.com.br/jornal/politica/2026/09/03/presidente-da-camara-de-juazeiro-do-norte-e-afastado-em-operacao-que-apura-fraude-em-licitacoes.html",
+        "https://www.opovo.com.br/noticias/cariri/2026/09/15/justica-determina-retorno-de-felipe-vasques-a-presidencia-da-camara-de-juazeiro-do-norte.html",
+        "https://www.metropoles.com/colunas/mirelle-pinheiro/vereador-do-ceara-e-investigado-por-fraude-em-contratos-de-r-43-milhoes"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo de busca e apreensão e afastado da presidência da Câmara de Juazeiro do Norte em set/2026 na Operação Aletheia do MPCE, sobre fraude em contratos de mais de R$ 43 milhões; o TJCE o devolveu ao cargo por habeas corpus; investigação em curso."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "60002540342": {
+      "nome_urna": "PASTOR JOÃO LUÍS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://camarajaguaribara.ce.gov.br/parlamentares/3/perfil/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002532462": {
+      "nome_urna": "MARCIO JÓIAS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como vítima de extorsão). Anunciou desistência da candidatura para cuidar da saúde.",
+      "fontes": [
+        "https://cn7.com.br/ex-pm-joao-paulo-e-indiciado-por-crime-de-extorsao-contra-o-vereador-marcio-joias/",
+        "https://www.miseria.com.br/ultimas-noticias/politica/marcio-joias-desiste"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002532453": {
+      "nome_urna": "JULIO CESAR",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://camaramaracanau.ce.gov.br/vereadores/150"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002545132": {
+      "nome_urna": "GARDEL ROLIM",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além da ação de perda de mandato por infidelidade partidária movida pelo MP Eleitoral a pedido do PDT (julgamento marcado para jun/2026, resultado não encontrado; sem desconto enquanto não decretada).",
+      "fontes": [
+        "https://diariodonordeste.verdesmares.com.br/pontopoder/pdt-denuncia-vereador-gardel-rolim-e-pede-perda-de-mandato-por-infidelidade-partidaria-1.3749420",
+        "https://mais.opovo.com.br/colunistas/vertical/2026/06/18/tre-ce-marca-julgamento-de-ex-presidente-da-camara-municipal.html"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002545115": {
+      "nome_urna": "DAVID DURAND",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/David_Durand"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002545110": {
+      "nome_urna": "SILVIO NASCIMENTO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2024/candidatos/ceara/caucaia/vereador/silvio-nascimento-40444"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002545224": {
+      "nome_urna": "ROMEU ALDIGUERI",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca e fontes conferidas): condenado em 1ª instância por calúnia eleitoral (2018), com alegação de prescrição; registros policiais antigos (atropelamento com morte, agressão à ex-mulher, estupro) e ação por estelionato citados pela imprensa sem desfecho conhecido (a confirmar).",
+      "fontes": [
+        "https://cn7.com.br/ex-prefeito-de-granja-e-condenado-8-meses-de-detencao-por-crime-de-calunia/",
+        "https://blogdoedisonsilva.com.br/2024/11/25/elmano-quer-romeu-aldigueri-na-presidencia-da-al-ele-e-acusado-de-falsidade-ideologica-atropelamento-seguido-de-homicidio-agressao-a-ex-primeira-mulher-e-estupro-em-granja/",
+        "https://www.al.ce.gov.br/deputados/romeu-aldigueri"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado em 1ª instância pela Justiça Eleitoral (2018) a 8 meses de detenção por calúnia eleitoral (fato de 2008, campanha a prefeito de Granja); a defesa alegou prescrição; desfecho no TRE-CE não encontrado."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Registros policiais antigos (inquérito por atropelamento com morte em 1996; boletins por agressão à ex-mulher e violação de domicílio em 2005 e por estupro em 2012) e ação por estelionato na 3ª Vara Cível de Caucaia, citados pela imprensa em 2024 sem desfecho conhecido. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "60002538634": {
+      "nome_urna": "GABRIEL BIOLOGIA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (é parte em processos eleitorais de 2026, 1 no polo passivo, sem classe informada).",
+      "fontes": [
+        "https://www.plural.jor.br/gabriel-lima-de-aguiar/",
+        "https://diariodonordeste.verdesmares.com.br/pontopoder/conheca-gabriel-biologia-2-vereador-mais-votado-de-fortaleza-nas-eleicoes-2024-1.3568011"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002536683": {
+      "nome_urna": "LEONARDO PINHEIRO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): réu em ação de improbidade do MPCE por suposta funcionária fantasma no gabinete (2023).",
+      "fontes": [
+        "https://diariodonordeste.verdesmares.com.br/pontopoder/mpce-pede-afastamento-de-deputado-por-suposta-contratacao-de-funcionaria-fantasma-na-alece-1.3483616",
+        "https://cearaagora.com.br/deputado-leonardo-pinheiro-enfrenta-constrangimento-apos-ministerio-publico-estadual-denuncia-lo-por-emprego-de-funcionaria-fantasma-na-al/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Réu em ação civil pública por improbidade do MPCE (2023) por suposta funcionária fantasma no gabinete na Assembleia (empregada doméstica lotada no gabinete); o MPCE pediu o afastamento dele."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "60002536682": {
+      "nome_urna": "DR. LUCILVIO GIRÃO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TJCE e do TRE-CE sem classe nem papel visíveis).",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Luc%C3%ADlvio_Gir%C3%A3o",
+        "https://www.jusbrasil.com.br/processos/nome/36309688/lucilvio-girao-sales"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002536703": {
+      "nome_urna": "ROMEU ALDIGUERI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca e fontes conferidas, feitas para o registro dele a deputado estadual; o mesmo candidato tem também registro a federal): condenado em 1ª instância por calúnia eleitoral (2018), com alegação de prescrição; registros policiais antigos (atropelamento com morte, agressão à ex-mulher, estupro) e ação por estelionato citados pela imprensa sem desfecho conhecido (a confirmar).",
+      "fontes": [
+        "https://cn7.com.br/ex-prefeito-de-granja-e-condenado-8-meses-de-detencao-por-crime-de-calunia/",
+        "https://blogdoedisonsilva.com.br/2024/11/25/elmano-quer-romeu-aldigueri-na-presidencia-da-al-ele-e-acusado-de-falsidade-ideologica-atropelamento-seguido-de-homicidio-agressao-a-ex-primeira-mulher-e-estupro-em-granja/",
+        "https://www.al.ce.gov.br/deputados/romeu-aldigueri"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado em 1ª instância pela Justiça Eleitoral (2018) a 8 meses de detenção por calúnia eleitoral (fato de 2008, campanha a prefeito de Granja); a defesa alegou prescrição; desfecho no TRE-CE não encontrado."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Registros policiais antigos (inquérito por atropelamento com morte em 1996; boletins por agressão à ex-mulher e violação de domicílio em 2005 e por estupro em 2012) e ação por estelionato na 3ª Vara Cível de Caucaia, citados pela imprensa em 2024 sem desfecho conhecido. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "60002540744": {
+      "nome_urna": "FERNANDO SANTANA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado contra ele; o TRE-CE multou Ciro Gomes (set/2026) por dizer sem prova que ele recebia dinheiro da Enel (sem desconto).",
+      "fontes": [
+        "https://www.flaviopintonews.com.br/2026/09/ciro-e-condenado-pelo-tre-ce-pagar.html",
+        "https://pt.wikipedia.org/wiki/Fernando_Santana_(pol%C3%ADtico)"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002536674": {
+      "nome_urna": "TIN GOMES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Tin_Gomes"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }

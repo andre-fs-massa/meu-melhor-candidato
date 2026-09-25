@@ -2547,6 +2547,12 @@ const DADOS = {
     "https://pv.org.br/presidente-nacional-do-pv-jose-luiz-penna/"
    ],
    [
+    "https://cn7.com.br/ex-prefeito-de-granja-e-condenado-8-meses-de-detencao-por-crime-de-calunia/",
+    "https://blogdoedisonsilva.com.br/2024/11/25/elmano-quer-romeu-aldigueri-na-presidencia-da-al-ele-e-acusado-de-falsidade-ideologica-atropelamento-seguido-de-homicidio-agressao-a-ex-primeira-mulher-e-estupro-em-granja/",
+    "https://www.al.ce.gov.br/deputados/romeu-aldigueri",
+    "https://en.wikipedia.org/wiki/Jo%C3%A3o_Henrique_Campos"
+   ],
+   [
     "https://portaldatransparencia.gov.br/sancoes/consulta",
     "https://www.poder360.com.br/congresso/baleia-rossi-e-citado-em-investigacoes-contra-fraudes-e-em-delacao-da-jbs/",
     "https://baleiarossi.com.br/noticias/baleia-rossi-e-reconduzido-como-presidente-nacional-do-mdb/"
@@ -3007,5 +3013,5 @@ const DADOS = {
    "pesquisa individual"
   ]
  },
- "versao": "ab004d0e91"
+ "versao": "5ce9676eb4"
 };
