@@ -11715,6 +11715,43 @@
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "140002551858": {
+      "nome_urna": "VAVÁ MARTINS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Vav%C3%A1_Martins",
+        "https://www.camara.leg.br/deputados/204505/biografia"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002551856": {
+      "nome_urna": "ANA RAQUEL",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de homônimos).",
+      "fontes": [
+        "Busca na web (2026-09-25): \"Ana Raquel Braga\" advogada PA NOVO processo OR investigada OR condenada -- só homônimos"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002551855": {
+      "nome_urna": "DR. FERNANDO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado sobre o candidato (o nome é comum: centenas de processos de homônimos no TJPA, sem como identificar o dele).",
+      "fontes": [
+        "https://www.jusbrasil.com.br/processos/nome/27857528/fernando-costa-da-silva"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }
