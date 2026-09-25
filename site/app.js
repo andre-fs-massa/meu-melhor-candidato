@@ -162,14 +162,15 @@
     const s = $("cargo"); s.textContent = "";
     DADOS.cargos.forEach(c => { const o = el("option", null, c.rotulo); o.value = c.codigo; s.append(o); });
   }
+  const UF_PADRAO = "RJ";
   function preencherUfs(cargo, escolhida) {
     const campo = $("campoUf");
     if (cargo === "PRESIDENTE") { campo.hidden = true; return; }
     campo.hidden = false;
     const s = $("uf"); s.textContent = "";
     const ufs = ufsReais(cargo);
-    ufs.forEach(u => { const o = el("option", null, UF_NOME[u] + (GRUPOS[cargo + "|" + u].status === "sem_verificacao" ? "" : "  ✓")); o.value = u; s.append(o); });
-    s.value = escolhida && ufs.includes(escolhida) ? escolhida : ufs[0];
+    ufs.forEach(u => { const o = el("option", null, UF_NOME[u]); o.value = u; s.append(o); });
+    s.value = [escolhida, UF_PADRAO, ufs[0]].find(u => u && ufs.includes(u));
   }
   function ufAtual(cargo) { return cargo === "PRESIDENTE" ? "BR" : $("uf").value; }
 
@@ -618,7 +619,7 @@
     const h = decodeURIComponent(location.hash.slice(1)).split("|");
     const cargo = CARGO[h[0]] ? h[0] : "PRESIDENTE";
     $("cargo").value = cargo; preencherUfs(cargo, h[1]);
-    $("cargo").addEventListener("change", () => { preencherUfs($("cargo").value); acaoAtual = "cargo"; render(); });
+    $("cargo").addEventListener("change", () => { preencherUfs($("cargo").value, $("uf").value); acaoAtual = "cargo"; render(); });
     $("uf").addEventListener("change", () => { acaoAtual = "uf"; render(); });
     montarQuiz();
     renderMetodologia();

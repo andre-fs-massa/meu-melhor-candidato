@@ -52,8 +52,6 @@ p { margin: 0 0 10px; }
 .eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .74rem; font-weight: 700; color: var(--accent); margin: 0 0 10px; }
 .hero h1 { font-size: 2.1rem; margin: 0 0 10px; letter-spacing: -0.01em; }
 .hero .lead { font-size: 1.12rem; color: var(--ink-2); max-width: 56ch; margin: 0 0 18px; }
-.aviso { border: 1px solid var(--border); border-left: 3px solid var(--accent); background: var(--surface); border-radius: var(--radius-sm); padding: 11px 14px; margin: 0 0 24px; color: var(--ink-2); font-size: .88rem; }
-.aviso strong { color: var(--ink); }
 
 /* ---------- seções em cartão ---------- */
 .card-section { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px 20px; margin: 0 0 18px; }
@@ -221,6 +219,7 @@ footer.rodape .rodape-links { display: flex; gap: 10px; flex-wrap: wrap; justify
 footer.rodape .rodape-links a { color: var(--accent); text-decoration: none; }
 footer.rodape .rodape-links a:hover { text-decoration: underline; }
 footer.rodape .rodape-links .sep { color: var(--axis); font-weight: 400; }
+footer.rodape .rodape-aviso { font-size: .76rem; margin: 18px auto 0; opacity: .85; }
 
 @media (max-width: 620px) {
   .grid-quadrantes { grid-template-columns: 1fr; }
