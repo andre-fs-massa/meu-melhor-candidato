@@ -197,7 +197,7 @@ fieldset.pergunta legend { font-weight: 700; padding: 0 6px; font-size: .98rem; 
 .polos { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 8px 0 12px; }
 .polo { border: 1px solid var(--grid); border-radius: 8px; padding: 9px 10px; font-size: .87rem; color: var(--ink-2); }
 .polo b { color: var(--ink); }
-.escala { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.escala { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
 .op { display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 9px 4px; border: 1px solid var(--axis); border-radius: 8px; cursor: pointer; font-size: .77rem; text-align: center; color: var(--ink-2); background: var(--surface); }
 .op:has(input:checked) { border-color: var(--accent); background: var(--accent-wash); color: var(--ink); font-weight: 600; }
 .op:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }

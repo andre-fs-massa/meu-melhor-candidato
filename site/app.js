@@ -91,7 +91,7 @@
      baixo: "Preservar os valores morais e tradicionais da sociedade, mesmo que isso limite algumas escolhas individuais.",
      alto: "Proteger a liberdade de cada um decidir sobre a própria vida, desde que não prejudique outras pessoas, mesmo que a sociedade em geral desaprove essas escolhas."},
   ];
-  const ROT_ESCALA = ["Só A", "Mais A", "Meio-termo", "Mais B", "Só B"];
+  const ROT_ESCALA = ["Mais A", "Meio-termo", "Mais B"];
   const invertido = QUIZ.map(() => Math.random() < 0.5);  // true: o polo "alto" aparece como A (evita viés de posição)
   const respostas = {};  // id -> 0-10 | undefined (não respondeu ainda)
   let voce = null;       // {eco, pes} em 0-10 (null = desconhecido) ou null
@@ -120,7 +120,7 @@
       const esc = el("div", "escala");
       ROT_ESCALA.forEach((rot, i) => {
         const l = el("label", "op"), inp = document.createElement("input");
-        inp.type = "radio"; inp.name = "q_" + q.id; inp.dataset.valor = String(invertido[qi] ? 10 - 2.5 * i : 2.5 * i);
+        inp.type = "radio"; inp.name = "q_" + q.id; inp.dataset.valor = String(invertido[qi] ? 7.5 - 2.5 * i : 2.5 + 2.5 * i);
         inp.addEventListener("change", () => { respostas[q.id] = Number(inp.dataset.valor); atualizarVoce(true); });
         l.append(inp, el("span", null, rot)); esc.append(l);
       });
