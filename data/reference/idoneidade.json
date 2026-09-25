@@ -9314,6 +9314,589 @@
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "160002549533": {
+      "nome_urna": "BETO RICHA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca, 1 de confirmação e fontes conferidas): foi réu em 8 ações penais e teve prisões preventivas em 2018 e 2019; o STF anulou os atos da Lava Jato contra ele (2023) e manteve a extinção de quatro ações em 2026, sem condenação; o destino das demais não foi confirmado (a confirmar). Condenado em 2ª instância em ação popular a ressarcir diárias de viagem a Paris (2015).",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/politica/parana/tudo-o-que-se-sabe-das-investigacoes-que-pesam-contra-beto-richa-3gp7yu3fkdypabzeeze7rwsze/",
+        "https://www.gazetadopovo.com.br/parana/andamento-acoes-criminais-contra-ex-governador-parana-beto-richa/",
+        "https://contraponto.jor.br/fux-mantem-a-extincao-de-processos-contra-o-deputado-federal-beto-richa/",
+        "https://www.cartacapital.com.br/politica/fux-defende-decisao-de-toffoli-e-mantem-a-extincao-de-processos-contra-beto-richa/",
+        "https://en.wikipedia.org/wiki/Beto_Richa"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Réu em 8 ações penais (2018-2019: Rádio Patrulha, Quadro Negro, Integração, Piloto; corrupção, organização criminosa, lavagem), com prisões preventivas em 2018 e 2019; o STF (Toffoli, 2023) anulou os atos da Lava Jato e operações ligadas contra ele, e Fux manteve em 2026 a extinção de quatro ações penais. Não houve condenação."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Não se confirmou se as outras ações penais de 2019 (além das quatro extintas) também foram encerradas; desfecho não encontrado. A confirmar."
+        },
+        {
+          "categoria": "sancao_institucional_confirmada",
+          "descricao": "Condenado em ação popular, com decisão mantida pelo TJ-PR em 2ª instância (2018), a ressarcir diárias pagas com dinheiro público numa 'parada técnica' de dois dias em Paris durante viagem oficial de 2015, junto com a esposa."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "160002542303": {
+      "nome_urna": "GUILHERME LIVOTI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além do pedido de perda de mandato por infidelidade partidária movido pelo União Brasil depois que ele foi para o NOVO, decidido a favor dele (sem desconto).",
+      "fontes": [
+        "https://canal38.com.br/durante-sessao-vereador-guilherme-livoti-anuncia-desfecho-de-processo-sobre-filiacao-partidaria/",
+        "https://www.apucarana.pr.leg.br/parlamentares/guilherme-livoti"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002542299": {
+      "nome_urna": "INDIARA BARBOSA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.curitiba.pr.leg.br/informacao/nossa-memoria/galeria-de-vereadoras/vereadoras/indiara-barbosa",
+        "https://novo.org.br/noticias/indiara-barbosa-candidata-deputada-federal-pr/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002540769": {
+      "nome_urna": "PEDRO LUPION",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o Radar do Congresso indica 1 processo em andamento, sem classe nem assunto visíveis).",
+      "fontes": [
+        "https://radar.congressoemfoco.com.br/parlamentar/1204395",
+        "https://www.camara.leg.br/deputados/204395/biografia"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002540766": {
+      "nome_urna": "MARCIO PACHECO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a denúncia por rachadinha é contra um homônimo, deputado do Rio de Janeiro; a própria Assembleia do Paraná publicou o esclarecimento).",
+      "fontes": [
+        "https://assembleia.pr.leg.br/comunicacao/noticias/deputado-paranaense-marcio-pacheco-e-confundido-com-deputado-investigado-no-rio-de-janeiro"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002532852": {
+      "nome_urna": "HERMES FRANGÃO PARCIANELLO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Hermes_Parcianello",
+        "https://www.camara.leg.br/deputados/73772/biografia"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002532596": {
+      "nome_urna": "LUCIANO DUCCI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca, fonte conferida): condenado em 2ª instância (TJ-PR, 2015) a ressarcir R$ 79 mil à prefeitura por promoção pessoal com o telemarketing e o site da prefeitura; desfecho do recurso não encontrado (a confirmar).",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/vida-publica/ducci-e-condenado-a-ressarcir-municipio-em-r-79-mil-por-uso-irregular-de-telemarketing-f4fb881zo4bl0poorizqu7bet/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "sancao_institucional_confirmada",
+          "descricao": "Condenado pela 4ª Câmara Cível do TJ-PR (2015), em ação movida por vereadores de oposição, a ressarcir R$ 79 mil a Curitiba por usar o site e o telemarketing da prefeitura (2011) para promoção pessoal como prefeito; disse que recorreria, desfecho do recurso não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "160002532592": {
+      "nome_urna": "OMAR PICHETH",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TJPR e do TRE-PR sem classe nem papel visíveis).",
+      "fontes": [
+        "https://www.saomateusdosul.pr.leg.br/vereador/omar-raimundo-picheth-neto-100008",
+        "https://www.jusbrasil.com.br/processos/nome/38798098/omar-raimundo-picheth-neto"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002532590": {
+      "nome_urna": "CAMILLA GONDA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de processos da Corregedoria da Câmara de Curitiba: três representações contra vereadoras de oposição arquivadas por falta de quebra de decoro e duas sindicâncias abertas em 2025, sob sigilo, sem sanção encontrada (sem desconto).",
+      "fontes": [
+        "https://www.curitiba.pr.leg.br/informacao/noticias/corregedoria-abre-3-sindicancias-para-apurar-conduta-de-vereadoras-de-curitiba",
+        "https://www.plural.jor.br/poder/camara-arquiva-denuncias-contra-vereadoras-de-oposicao/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002542382": {
+      "nome_urna": "BRUNO SECCO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): perdeu o mandato de vereador quando o TRE-PR cassou a chapa do PMB de 2024 por fraude à cota de gênero; disse que recorreria.",
+      "fontes": [
+        "https://www.bandab.com.br/politica/tre-pr-cassa-mais-um-vereador-de-curitiba-o-terceiro-em-pouco-mais-de-um-mes/",
+        "https://ric.com.br/politica/fraude-a-cota-de-genero-derruba-mais-um-vereador-de-curitiba/",
+        "https://gazetadoparana.com.br/artigo/bruno-secco-perde-mandato-matteus-henrique-assume-e-pt-conquista-quarta-cadeira-na-camara-de-curitiba"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "cassacao_de_mandato",
+          "descricao": "Perdeu o mandato de vereador de Curitiba em 2025 quando o TRE-PR (4 a 3) anulou os votos da chapa do PMB, pela qual foi eleito, por fraude à cota de gênero (candidatura feminina fictícia); disse que recorreria."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "160002542363": {
+      "nome_urna": "AMÁLIA TORTATO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como autora de ação que ganhou na Justiça Eleitoral contra propaganda negativa).",
+      "fontes": [
+        "https://www.cmc.pr.gov.br/vereadores/amalia-tortato",
+        "https://www.gazetadopovo.com.br/vozes/entrelinhas/vereadora-do-novo-de-curitiba-vence-psolista-na-justica-eleitoral/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002542361": {
+      "nome_urna": "TOTO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.telemacoborba.pr.leg.br/processo-legislativo/parlamentares"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002542355": {
+      "nome_urna": "EDER BORGES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca, fonte conferida): condenação por difamação contra o sindicato dos professores extinta por prescrição antes do trânsito em julgado (a perda de mandato de 2022 foi desfeita); representação por nepotismo arquivada pelo Conselho de Ética. O processo de ética por gesto de arma em plenário e fala contra professores é de decoro (sem desconto).",
+      "fontes": [
+        "https://bandnewsfmcuritiba.com/vereador-eder-borges-comunica-fim-do-processo-de-cassacao/",
+        "https://www.brasildefato.com.br/2021/10/26/vereador-de-curitiba-pr-e-condenado-a-detencao-por-difamacao-contra-professores/",
+        "https://ric.com.br/politica/vereador-nepotismo-salva-camara-arquivar-processo",
+        "https://ric.com.br/politica/eder-borges-e-alvo-de-processo-no-conselho-de-etica-da-camara-de-curitiba/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Condenado pelo TJ-PR a 25 dias de detenção por difamar a APP-Sindicato (montagem sobre 'doutrinação' nas escolas); chegou a perder o mandato em 2022 com base numa certidão de trânsito em julgado emitida por erro, mas a ação prescreveu antes do trânsito e ele voltou ao cargo depois de cerca de 30 dias."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Representação por nepotismo (contratou a filha da namorada) no Conselho de Ética da Câmara de Curitiba, arquivada."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "160002547562": {
+      "nome_urna": "ALEXANDRE AMARO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Alexandre_Amaro",
+        "https://republicanos10.org.br/quem_e_quem/alexandre-amaro/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002547561": {
+      "nome_urna": "TANIA MAION",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9.5,
+      "motivo": "Busca rápida na internet (1 busca): suspensão de 30 dias do mandato aprovada pela Câmara por quebra de decoro (2025), com efeitos suspensos por liminar da Justiça; desfecho final não encontrado (a confirmar).",
+      "fontes": [
+        "https://www.opresente.com.br/politica/sessao-historica-na-camara-termina-com-suspensao-do-mandato-de-tania-maion-por-30-dias/",
+        "https://www.opresente.com.br/politica/justica-suspende-afastamento-e-tania-maion-retorna-a-camara-de-vereadores-de-marechal-rondon/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "controversia_administrativa",
+          "descricao": "A Câmara de Marechal Cândido Rondon aprovou (6 a 5, 2025) a suspensão do mandato dela por 30 dias por quebra de decoro numa visita de fiscalização à Casa Lar, a pedido do prefeito; a Justiça suspendeu os efeitos da decisão por liminar em mandado de segurança. Desfecho final não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "160002547552": {
+      "nome_urna": "NEY LEPREVOST",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.assembleia.pr.leg.br/deputados/perfil/ney-leprevost",
+        "https://www.camara.leg.br/deputados/204384/biografia"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002547550": {
+      "nome_urna": "JASSON GOULART",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.curitiba.pr.leg.br/vereadores/vereadores-19a-legislatura/jasson-goulart"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002547539": {
+      "nome_urna": "CANTORA MARA LIMA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "Busca na web (2026-09-25): \"Mara Lima\" deputada estadual PR processo OR investigada OR condenada -- nenhum resultado sobre a candidata"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002546882": {
+      "nome_urna": "MARCOS VIEIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.curitiba.pr.leg.br/vereadores/vereadores-19a-legislatura/marcos-vieira"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002546872": {
+      "nome_urna": "GOURA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "Busca na web (2026-09-25): \"Goura\" deputado estadual PR processo OR investigado OR condenado -- nenhum resultado sobre o candidato"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002546866": {
+      "nome_urna": "ALEXANDRE GUIMARÃES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca, fontes conferidas): condenado em 1ª instância por improbidade (promoção pessoal com verba da Assembleia, 2020), recurso sem desfecho encontrado; alvo de busca do Gaeco por esquema de alvarás em Campo Largo, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://dpontanews.com.br/geral/ex-deputado-estadual-alexandre-guimaraes-e-condenado-por-usar-recursos-publicos-para-promocao-pessoal/",
+        "https://www.gazetadopovo.com.br/parana/gaeco-operacao-campo-largo-mandados-buscas-prisao/",
+        "https://www.gazetadopovo.com.br/parana/affonso-e-alexandre-guimaraes-sao-investigados-por-concessao-irregular-de-alvaras/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado em 1ª instância (2ª Vara da Fazenda Pública de Curitiba, fev/2020) por improbidade, em ação do MP-PR, por gastar R$ 66 mil da verba da Assembleia (2015-2018) em material de promoção pessoal: suspensão dos direitos políticos por 8 anos, proibição de contratar com o poder público e ressarcimento. Desfecho do recurso não encontrado. A confirmar."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Alvo de busca e apreensão do Gaeco em investigação de propina para liberar alvarás e licenças ambientais quando era secretário de Governo de Campo Largo (2013-2014); não se encontrou denúncia nem desfecho (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "160002542280": {
+      "nome_urna": "ROBERTO DE SOUZA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os vereadores de Toledo condenados por corrupção são outros).",
+      "fontes": [
+        "https://toledo.votacaoeletronica.inf.br/?sec=nproponente&id=11650"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002542269": {
+      "nome_urna": "GERALDO STOCCO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado sobre a atuação pública; um cliente move ação no juizado especial contra o escritório de advocacia dele por cobrança indevida (2026), sem decisão encontrada (sem desconto).",
+      "fontes": [
+        "https://www.pontagrossa.pr.leg.br/institucional/parlamentares/geraldo-stocco",
+        "https://arede.info/ponta-grossa/641227/geraldo-stocco-diz-que-divulgacao-de-processo-e-retaliacao-politica"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002542263": {
+      "nome_urna": "YASMIN HACHEM",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.fozdoiguacu.pr.leg.br/processo-legislativo/parlamentares/yasmin-hachem"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002542261": {
+      "nome_urna": "THAYS BIEBERBACH",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como vítima de violência política de gênero na Câmara).",
+      "fontes": [
+        "https://catarinas.info/vereadoras-de-santa-catarina-e-parana-sao-perseguidas-por-denunciar-atos-antidemocraticos/",
+        "https://www.vvale.com.br/politica/thays-bieberbach-deixa-secretaria-e-mira-vaga-na-assembleia-legislativa/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002542259": {
+      "nome_urna": "BIA ALCANTARA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.camaracascavel.pr.gov.br/a-camara/vereadores/beatriz-de-alcantara-silva/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002542251": {
+      "nome_urna": "ANDERSON PREGO DA SILVA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (assumiu a vaga em 2025 depois que o TRE-PR anulou os votos da chapa do MDB por fraude à cota de gênero, sem relação com ele).",
+      "fontes": [
+        "https://www.brasildefato.com.br/2025/10/21/candidato-com-mais-votos-em-colombo-pr-anderson-prego-pt-deve-assumir-cadeira-de-vereador/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002542234": {
+      "nome_urna": "GIORGIA PRATES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como autora de representações e vítima de propaganda negativa).",
+      "fontes": [
+        "https://www.curitiba.pr.leg.br/informacao/nossa-memoria/galeria-de-vereadoras/vereadoras/giorgia-prates-mandata-preta",
+        "https://www.paranaportal.com/politica/justica-eleitoral-determina-retirada-de-video-contra-giorgia-prates-e-aplica-multa-a-candidato-do-missao/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002542233": {
+      "nome_urna": "MISS PRETA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como vítima de ataques racistas).",
+      "fontes": [
+        "https://www.brasildefato.com.br/2026/03/24/mulher-mais-votada-da-historia-de-pinhais-pr-vereadora-miss-preta-enfrenta-episodio-de-racismo-na-camara-municipal/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002542231": {
+      "nome_urna": "ANGELO VANHONI",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): alvo de representação na Câmara de Curitiba por uso de veículo oficial em manifestação política, sem desfecho encontrado.",
+      "fontes": [
+        "https://xvcuritiba.com.br/mesa-da-camara-de-curitiba-encaminha-tres-representacoes-para-apurar-uso-irregular-de-veiculos-oficiais-e-quebra-de-decoro-parlamentar",
+        "https://pt.wikipedia.org/wiki/Angelo_Vanhoni"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Representação na Câmara de Curitiba (autor: vereador Bruno Secco) por uso de veículo oficial em manifestação política num dia não útil; desfecho não encontrado."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "160002549551": {
+      "nome_urna": "EVANDRO ROMAN",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além da perda do mandato de deputado federal decretada pelo TSE em 2021 (4 a 3) por infidelidade partidária, ao trocar o PSD pelo Patriota sem justa causa; pela regra, troca de partido não desconta.",
+      "fontes": [
+        "https://www.tse.jus.br/comunicacao/noticias/2021/Novembro/tse-decreta-perda-de-mandato-do-deputado-federal-evandro-roman",
+        "https://pt.wikipedia.org/wiki/Evandro_Rog%C3%A9rio_Roman"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002541989": {
+      "nome_urna": "PROFESSORA ANA LÚCIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): alvo de processo de cassação na Câmara de Maringá por denúncia de ex-assessor (desvio de função e pressão por contribuições partidárias); a comissão processante concluiu pela improcedência e o plenário ainda ia votar.",
+      "fontes": [
+        "https://www.pingafogo.com.br/noticias/9423-comissao-vota-pelo-arquivamento-de-denuncia-e-ana-lucia-deve-se-livrar-de-cassacao",
+        "https://www.jornaldopovomaringa.com.br/2026/07/03/vereadora-ana-lucia-sera-investigada-por-comissao-processante/",
+        "https://www.pingafogo.com.br/noticias/9436-camara-de-maringa-marca-para-dia-29-o-julgamento-da-vereadora-professora-ana-lucia"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Comissão processante da Câmara de Maringá (2026) apurou denúncia de um ex-assessor (desvio de função de assessor e pressão por contribuições ao partido) e concluiu pela improcedência de todas as acusações; julgamento em plenário marcado para o fim de setembro de 2026, resultado não encontrado."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "160002536522": {
+      "nome_urna": "RENATO FREITAS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 4,
+      "motivo": "Busca rápida na internet (1 busca, 1 de confirmação e fontes conferidas): condenado em 2024 a 3 meses (convertidos em serviços comunitários) por pichação em protesto, com recurso; cassação de vereador em 2022 revertida pelo STF; réu por crimes contra a honra no TJ-PR; parecer do Conselho de Ética da Assembleia pela cassação em 2026 (briga com manobrista), resultado do plenário não encontrado (a confirmar).",
+      "fontes": [
+        "https://www.brasildefato.com.br/2024/07/25/pr-deputado-estadual-renato-freitas-e-condenado-por-pichacao-em-manifestacao-antirracista/",
+        "https://www.gazetadopovo.com.br/parana/renato-freitas-pt-condenado-pichacao-justica-parana/",
+        "https://revistaoeste.com/politica/tribunal-de-justica-do-parana-torna-deputado-estadual-do-pt-reu-por-calunia-e-difamacao/",
+        "https://www.dgabc.com.br/Noticia/4318834/conselho-de-etica-da-assembleia-do-parana-aprova-cassacao-de-renato-freitas",
+        "https://www.correiobraziliense.com.br/politica/2026/06/7438022-assembleia-votara-cassacao-de-renato-freitas-na-proxima-semana.html",
+        "https://pt.wikipedia.org/wiki/Renato_Freitas"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado em 2024 (sentença do juiz César Maranhão de Loyola Furtado, no TJ-PR) a 3 meses de detenção, convertidos em serviços comunitários, por pichar uma loja do Carrefour em protesto antirracista (nov/2020); anunciou recurso, desfecho não encontrado. A confirmar."
+        },
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "Mandato de vereador cassado pela Câmara de Curitiba em ago/2022 (protesto dentro de uma igreja); o STF (Barroso) devolveu o mandato em set/2022."
+        },
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Réu por calúnia, difamação e injúria no Órgão Especial do TJ-PR por insinuar que a nomeação de uma servidora se devia a 'amizade íntima' com o secretário de Segurança; sem julgamento encontrado."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "O Conselho de Ética da Assembleia aprovou em maio de 2026 (5 a 1) parecer pela cassação por quebra de decoro (briga de rua com um manobrista, nov/2025); votação em plenário marcada para 16/06/2026, resultado não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "160002536521": {
+      "nome_urna": "LUCIANA RAFAGNIN",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Luciana_Rafagnin",
+        "https://www.assembleia.pr.leg.br/deputados/perfil/luciana-rafagnin"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002536519": {
+      "nome_urna": "ZECA DIRCEU",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): inquérito da Lava Jato aberto no STF em 2016 e enviado à Justiça Eleitoral do PR como possível caixa dois, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2016-10/stf-abre-investigacao-contra-deputado-zeca-dirceu",
+        "https://noticias.stf.jus.br/postsnoticias/inquerito-contra-deputado-zeca-dirceu-pt-pr-e-ex-ministro-jose-dirceu-sera-enviado-a-justica-eleitoral-do-pr/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Inquérito no STF aberto em 2016 (Lava Jato) sobre lavagem de dinheiro; o MPF apontou só possível caixa dois e o caso foi enviado à Justiça Eleitoral do Paraná; desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "160002536499": {
+      "nome_urna": "ARILSON CHIORATO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TRE-PR e do TJPR sem classe nem papel visíveis; é presidente estadual do PT).",
+      "fontes": [
+        "https://www.assembleia.pr.leg.br/deputados/perfil/arilson-maroldi-chiorato",
+        "https://www.jusbrasil.com.br/processos/nome/114220411/arilson-maroldi-chiorato"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002547528": {
+      "nome_urna": "SAMUEL PINHEIRO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o vereador de São José dos Pinhais condenado por assessores fantasmas é outro).",
+      "fontes": [
+        "https://cmsjp.pr.gov.br/samuel-pinheiro/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002547512": {
+      "nome_urna": "LUCAS MIL GRAU",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.cambe.pr.leg.br/processo-legislativo/parlamentares/lucas-mil-grau"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002542371": {
+      "nome_urna": "LUIZ FERNANDO GUERRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Luiz_Fernando_Guerra",
+        "https://www.assembleia.pr.leg.br/deputados/perfil/luiz-fernando-guerra"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }

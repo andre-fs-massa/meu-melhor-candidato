@@ -211,25 +211,68 @@ Pesquisados: 29 candidatos (1 busca cada, mais confirmações quando houve sinal
 - Deputado Estadual · Estatista-autoritário: vazio
 
 
+### PR
+
+Pesquisados: 39 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **RENATO FREITAS** (PT, Deputado Federal), idoneidade pessoal 4, geral 6.5: Busca rápida na internet (1 busca, 1 de confirmação e fontes conferidas): condenado em 2024 a 3 meses (convertidos em serviços comunitários) por pichação em protesto, com recurso; cassação de vereador em 2022 revertida pelo STF; réu por crimes contra a honra no TJ-PR; parecer do Conselho de Ética da Assembleia pela cassação em 2026 (briga com manobrista), resultado do plenário não encontrado (a confirmar).
+- **BETO RICHA** (PSDB, Deputado Federal), idoneidade pessoal 6, geral 7.5: Busca rápida na internet (1 busca, 1 de confirmação e fontes conferidas): foi réu em 8 ações penais e teve prisões preventivas em 2018 e 2019; o STF anulou os atos da Lava Jato contra ele (2023) e manteve a extinção de quatro ações em 2026, sem condenação; o destino das demais não foi confirmado (a confirmar). Condenado em 2ª instância em ação popular a ressarcir diárias de viagem a Paris (2015).
+- **ALEXANDRE GUIMARÃES** (PDT, Deputado Estadual), idoneidade pessoal 7, geral 8: Busca rápida na internet (1 busca, fontes conferidas): condenado em 1ª instância por improbidade (promoção pessoal com verba da Assembleia, 2020), recurso sem desfecho encontrado; alvo de busca do Gaeco por esquema de alvarás em Campo Largo, sem desfecho encontrado (a confirmar).
+- **LUCIANO DUCCI** (PSB, Deputado Federal), idoneidade pessoal 8, geral 9: Busca rápida na internet (1 busca, fonte conferida): condenado em 2ª instância (TJ-PR, 2015) a ressarcir R$ 79 mil à prefeitura por promoção pessoal com o telemarketing e o site da prefeitura; desfecho do recurso não encontrado (a confirmar).
+- **BRUNO SECCO** (NOVO, Deputado Estadual), idoneidade pessoal 8, geral 9: perdeu o mandato de vereador quando o TRE-PR cassou a chapa do PMB de 2024 por fraude à cota de gênero; disse que recorreria.
+- **EDER BORGES** (NOVO, Deputado Estadual), idoneidade pessoal 8, geral 9: Busca rápida na internet (1 busca, fonte conferida): condenação por difamação contra o sindicato dos professores extinta por prescrição antes do trânsito em julgado (a perda de mandato de 2022 foi desfeita); representação por nepotismo arquivada pelo Conselho de Ética. O processo de ética por gesto de arma em plenário e fala contra professores é de decoro (sem desconto).
+- **ANGELO VANHONI** (PT, Deputado Estadual), idoneidade pessoal 9, geral 9: alvo de representação na Câmara de Curitiba por uso de veículo oficial em manifestação política, sem desfecho encontrado.
+- **PROFESSORA ANA LÚCIA** (PDT, Deputado Federal), idoneidade pessoal 9, geral 9: alvo de processo de cassação na Câmara de Maringá por denúncia de ex-assessor (desvio de função e pressão por contribuições partidárias); a comissão processante concluiu pela improcedência e o plenário ainda ia votar.
+- **ZECA DIRCEU** (PT, Deputado Federal), idoneidade pessoal 9, geral 9: inquérito da Lava Jato aberto no STF em 2016 e enviado à Justiça Eleitoral do PR como possível caixa dois, sem desfecho encontrado (a confirmar).
+- **TANIA MAION** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 9.5, geral 9.75: suspensão de 30 dias do mandato aprovada pela Câmara por quebra de decoro (2025), com efeitos suspensos por liminar da Justiça; desfecho final não encontrado (a confirmar).
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- BETO RICHA (PSDB, Deputado Federal): Busca rápida na internet (1 busca, 1 de confirmação e fontes conferidas): foi réu em 8 ações penais e teve prisões preventivas em 2018 e 2019; o STF anulou os atos da Lava Jato contra ele (2023) e manteve a extinção de quatro ações em 2026, sem condenação; o destino das demais não foi confirmado (a confirmar). Condenado em 2ª instância em ação popular a ressarcir diárias de viagem a Paris (2015).
+- LUCIANO DUCCI (PSB, Deputado Federal): Busca rápida na internet (1 busca, fonte conferida): condenado em 2ª instância (TJ-PR, 2015) a ressarcir R$ 79 mil à prefeitura por promoção pessoal com o telemarketing e o site da prefeitura; desfecho do recurso não encontrado (a confirmar).
+- TANIA MAION (REPUBLICANOS, Deputado Estadual): suspensão de 30 dias do mandato aprovada pela Câmara por quebra de decoro (2025), com efeitos suspensos por liminar da Justiça; desfecho final não encontrado (a confirmar).
+- ALEXANDRE GUIMARÃES (PDT, Deputado Estadual): Busca rápida na internet (1 busca, fontes conferidas): condenado em 1ª instância por improbidade (promoção pessoal com verba da Assembleia, 2020), recurso sem desfecho encontrado; alvo de busca do Gaeco por esquema de alvarás em Campo Largo, sem desfecho encontrado (a confirmar).
+- RENATO FREITAS (PT, Deputado Federal): Busca rápida na internet (1 busca, 1 de confirmação e fontes conferidas): condenado em 2024 a 3 meses (convertidos em serviços comunitários) por pichação em protesto, com recurso; cassação de vereador em 2022 revertida pelo STF; réu por crimes contra a honra no TJ-PR; parecer do Conselho de Ética da Assembleia pela cassação em 2026 (briga com manobrista), resultado do plenário não encontrado (a confirmar).
+- ZECA DIRCEU (PT, Deputado Federal): inquérito da Lava Jato aberto no STF em 2016 e enviado à Justiça Eleitoral do PR como possível caixa dois, sem desfecho encontrado (a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: GUILHERME LIVOTI (NOVO 3043), INDIARA BARBOSA (NOVO 3003), EVANDRO ROMAN (CIDADANIA 2322)
+- Deputado Federal · Direita conservadora: PEDRO LUPION (REPUBLICANOS 1000), MARCIO PACHECO (REPUBLICANOS 1077), HERMES FRANGÃO PARCIANELLO (UNIÃO 4440)
+- Deputado Federal · Esquerda progressista: OMAR PICHETH (PSB 4077), CAMILLA GONDA (PSB 4000), LUCIANA RAFAGNIN (PT 1323) — sorteio entre 2 empatados
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: AMÁLIA TORTATO (NOVO 30234), TOTO (NOVO 30444), SAMUEL PINHEIRO (PODE 20012) — sorteio entre 2 empatados
+- Deputado Estadual · Direita conservadora: JASSON GOULART (REPUBLICANOS 10789), CANTORA MARA LIMA (REPUBLICANOS 10456), NEY LEPREVOST (REPUBLICANOS 10669) — sorteio entre 4 empatados
+- Deputado Estadual · Esquerda progressista: GERALDO STOCCO (PV 43777), MISS PRETA (PT 13123), ROBERTO DE SOUZA (PT 13456) — sorteio entre 9 empatados
+- Deputado Estadual · Estatista-autoritário: vazio
+
+
 ## Situação e próximos passos
 
-- **Estados fechados (4 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29). Total: 180 candidatos, 44 com achado
-  que descontou e 13 marcados "a confirmar". Nos quatro, todos os finalistas foram pesquisados e nenhum empatado ficou
-  de fora.
+- **Estados fechados (5 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (39). Total: 219 candidatos, 54
+  com achado que descontou e 19 marcados "a confirmar". Nos cinco, todos os finalistas foram pesquisados e nenhum
+  empatado ficou de fora.
+- **Regra de infidelidade aplicada a um finalista:** Evandro Roman/PR (finalista do Libertário federal) perdeu o
+  mandato de deputado federal por decisão do TSE em 2021 por trocar de partido sem justa causa; pela tabela, troca
+  de partido não desconta (é sanção partidária, não de conduta).
 - **Achados mais graves:** Euclydes Pettersen/MG (2 ações penais e indiciamento no caso do INSS, nota 2), Lucas
   Cardoso/SP (condenação por estelionato confirmada pelo TJSP e registro impugnado, nota 4), Luiz Fernando Faria/MG
-  (réu na Lava Jato, nota 6), Roberto Carlos/BA (condenado pelo TJ-BA por rachadinha, nota 6), Luiz Martins/RJ (réu na
+  (réu na Lava Jato, nota 6), Renato Freitas/PR (condenação por pichação com recurso, cassação de 2022 revertida,
+  réu por crime contra a honra e parecer de cassação em 2026, nota 4), Beto Richa/PR (8 ações penais extintas ou sem
+  desfecho e condenação em ação popular, nota 6), Roberto Carlos/BA (condenado pelo TJ-BA por rachadinha, nota 6), Luiz Martins/RJ (réu na
   Furna da Onça, nota 7). Todos saíram da lista de finalistas.
 - **A confirmar com prioridade** (sinal grave sem confirmação, sem desconto): Jhony Sasaki/SP (ação de rachadinha
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 23 estados**, na ordem de população: PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
+- **Faltam 22 estados**, na ordem de população: RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
 - **Anotado para o AM:** o deputado federal Adail Filho (MDB) foi alvo da PF em 16/09/2026 (Operação Dinastia do
   Lago: fraude em licitações, desvio, corrupção e lavagem) — apareceu por acaso numa busca de MG.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, BA em seguida (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA e PR (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
