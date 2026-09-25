@@ -62,9 +62,10 @@ COLUNAS_HISTORICO = ["NR_TITULO_ELEITORAL_CANDIDATO", "NM_CANDIDATO", "DS_CARGO"
 
 # ---------- tabela de caciques (presidente do partido) ----------
 def derivar_tabela() -> dict:
-    """Para cada partido, o desconto do presidente segundo a pesquisa manual MAIS RECENTE de círculo político.
+    """Para cada partido, o desconto do presidente: o canônico (campo 'cacique' de liderancas_partidarias.json)
+    quando existe; senão, o da pesquisa manual MAIS RECENTE de círculo político.
 
-    Regra: entre os apoiadores 'presidente do partido do candidato' contados, vale o par (tipo_pendencia,
+    Regra do fallback: entre os apoiadores 'presidente do partido do candidato' contados, vale o par (tipo_pendencia,
     desconto) mais frequente na data de pesquisa mais recente daquele partido, considerando só as pesquisas cujo
     presidente é o do cache de lideranças; empate -> maior desconto.
     O texto público da pendência vem de liderancas_partidarias.json (sem anotações internas).
@@ -79,7 +80,12 @@ def derivar_tabela() -> dict:
 
     tabela = {}
     for partido, lider in liderancas.items():
-        if partido in por_partido:
+        if "cacique" in lider:
+            # pendência canônica do presidente (auditoria de 2026-09-24), a mesma usada nos majoritários
+            c = lider["cacique"]
+            tipo, desconto, nome, ultima = c["tipo_pendencia"], c["desconto"], c["nome"], c["definido_em"]
+            origem = "pendência canônica do presidente (campo 'cacique' de liderancas_partidarias.json)"
+        elif partido in por_partido:
             registros = por_partido[partido]
             # só as pesquisas cujo presidente é o do cache de lideranças (nas manuais houve nome de outro partido
             # atribuído por engano, ex.: presidente do PRTB em entradas do PRD); sem nenhuma, usa todas
@@ -109,7 +115,8 @@ def derivar_tabela() -> dict:
     return {
         "_leiame": (
             "Desconto do presidente do partido no círculo político de candidatos de eleição PROPORCIONAL (deputados), "
-            "onde não há vice nem padrinho identificável em massa. Derivado de circulo_politico.json (pesquisa manual) por "
+            "onde não há vice nem padrinho identificável em massa. Vem da pendência canônica do presidente (campo 'cacique' "
+            "de liderancas_partidarias.json) ou, sem ela, de circulo_politico.json (pesquisa manual), por "
             "`python -m pipeline.gerar_estrutural_deputados --derivar-tabela`; pode ser editado à mão (o campo 'origem' "
             "avisa quando for edição manual). Mesma convenção dos majoritários: parceiros de federação e coligação não entram. "
             "'nao_verificado' com desconto 0 significa que a pendência do presidente NÃO foi pesquisada, não que não exista."

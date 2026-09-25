@@ -1,7 +1,7 @@
 // Gerado por pipeline/exportar_prototipo.py -- não editar à mão. Índice: cada cargo/UF tem o seu arquivo em dados/.
 const DADOS = {
  "meta": {
-  "gerado_em": "2026-09-24",
+  "gerado_em": "2026-09-25",
   "corte": 6.0,
   "corte_deputados": 8.5,
   "limiar": 5.0,
@@ -1179,7 +1179,7 @@ const DADOS = {
    [
     {
      "contado": true,
-     "desconto": 0,
+     "desconto": 1,
      "detalhe": "presidente nacional do PSDB, partido do candidato",
      "ligacao": "presidente do partido do candidato",
      "nome": "Aécio Neves",
@@ -1248,7 +1248,7 @@ const DADOS = {
      "desconto": 4,
      "detalhe": "presidente nacional do DC, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "João Caldas da Silva",
+     "nome": "João Caldas",
      "partido": "DC",
      "pendencia": "CORRIGIDO 2026-09-22 (pesquisando o filho dele, JHC, candidato ao governo de Alagoas): ex-deputado federal (AL), CONDENADO por improbidade administrativa no esquema 'Máfia das Ambulâncias' (Operação Taturana/Sanguessugas -- fraude em licitações de ambulâncias com emendas parlamentares, 2006). A condenação (1ª Vara Federal de Alagoas) foi CONFIRMADA pelo Plenário do TRF5 em grau de recurso, com pena de devolução de recursos públicos e PERDA DE DIREITOS POLÍTICOS -- avaliação de 2026-09-21 (que classificou como '1ª instância ainda recorrível', por uma manchete ambígua sobre o TRF5) estava desatualizada/cautelosa demais; corrigido para condenação confirmada sem reversão. Há também um processo distinto da Máfia das Sanguessugas propriamente dita, julgado em 2018 pela Justiça Federal de Cuiabá/MT -- mesma família de esquemas, tratado como o mesmo achado (não somado em dobro)."
     }
@@ -1270,7 +1270,7 @@ const DADOS = {
      "desconto": 0,
      "detalhe": "presidente nacional do MOBILIZA, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Antonio Carlos Bosco Massarollo",
+     "nome": "Antonio Carlos Massarollo",
      "partido": "MOBILIZA",
      "pendencia": "Nenhuma pendência encontrada nesta busca geral (não exaustiva)."
     }
@@ -1289,7 +1289,7 @@ const DADOS = {
    [
     {
      "contado": true,
-     "desconto": 2,
+     "desconto": 1,
      "detalhe": "presidente nacional do MISSÃO, partido do candidato",
      "ligacao": "presidente do partido do candidato",
      "nome": "Renan Santos",
@@ -1300,7 +1300,7 @@ const DADOS = {
    [
     {
      "contado": true,
-     "desconto": 0,
+     "desconto": 1,
      "detalhe": "presidente nacional do PRD, partido do candidato",
      "ligacao": "presidente do partido do candidato",
      "nome": "Marcus Vinícius Neskau",
@@ -1314,7 +1314,7 @@ const DADOS = {
      "desconto": 0,
      "detalhe": "presidente nacional do AGIR, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Daniel Sampaio Tourinho",
+     "nome": "Daniel Tourinho",
      "partido": "AGIR",
      "pendencia": "Nenhuma pendência encontrada nesta busca geral (não exaustiva)."
     }
@@ -1325,7 +1325,7 @@ const DADOS = {
      "desconto": 0,
      "detalhe": "presidente nacional do DEMOCRATA, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Suêd Haidar Nogueira",
+     "nome": "Suêd Haidar",
      "partido": "DEMOCRATA",
      "pendencia": "NÃO VERIFICADO: a busca mostra processos de 2026 envolvendo ela, o partido e o Procurador Geral Eleitoral, mas sem detalhes claros sobre a natureza ou o objeto -- não confirmado em fonte primária, nada contado."
     }
@@ -1336,7 +1336,7 @@ const DADOS = {
      "desconto": 2,
      "detalhe": "presidente nacional do REDE, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Paulo Roberto Lamac Junior",
+     "nome": "Paulo Lamac",
      "partido": "REDE",
      "pendencia": "Firmou em 2026 acordo com o Ministério Público de Minas Gerais para encerrar ação sobre uso irregular de verba pública, comprometendo-se a pagar cerca de R$ 171 mil -- reconhecimento implícito de irregularidade, sem condenação criminal. Também há disputa interna sobre a legitimidade do congresso partidário de 2025 (anulado pela Justiça do RJ em jan/2026), sem relação com esta pendência."
     }
@@ -1358,7 +1358,7 @@ const DADOS = {
      "desconto": 0,
      "detalhe": "presidente nacional do CIDADANIA, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Presidência do Cidadania (em disputa judicial)",
+     "nome": "Roberto Freire",
      "partido": "CIDADANIA",
      "pendencia": "Sem achado individual verificado. O grupo rival (Roberto Freire) anunciou representação criminal ao MPF sobre a gestão de Comte em 2023-2025; é acusação interna de disputa partidária, NÃO contada."
     }
@@ -1369,7 +1369,7 @@ const DADOS = {
      "desconto": 0,
      "detalhe": "presidente nacional do PCDOB, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Nádia Campeão (a ex-presidente Luciana Santos está licenciada por ser ministra da Ciência e Tecnologia)",
+     "nome": "Nádia Campeão",
      "partido": "PCDOB",
      "pendencia": "NÃO VERIFICADO: uma fonte partidária (Brasil Sem Medo) afirma que Luciana Santos tem condenação por improbidade em licitação de iluminação pública; não confirmei em fonte independente e ela já não preside o partido. Nada pesquisado sobre a atual presidente."
     }
@@ -1380,7 +1380,7 @@ const DADOS = {
      "desconto": 0,
      "detalhe": "presidente nacional do UP, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Leonardo Péricles Vieira Roque",
+     "nome": "Leonardo Péricles",
      "partido": "UP",
      "pendencia": "Nenhuma pendência pessoal encontrada nesta busca geral (não exaustiva). Há um processo interno de aprovação de estatuto do partido (parcialmente aprovado em 2026), sem relação com conduta pessoal dele."
     }
@@ -1510,7 +1510,7 @@ const DADOS = {
      "desconto": 0,
      "detalhe": "presidente nacional do PCB, partido do candidato",
      "ligacao": "presidente do partido do candidato",
-     "nome": "Edmilson Silva Costa",
+     "nome": "Edmilson Costa",
      "partido": "PCB",
      "pendencia": "Nenhuma pendência pessoal encontrada nesta busca geral (não exaustiva)."
     }
@@ -2365,15 +2365,19 @@ const DADOS = {
    ],
    [
     "https://www.correiobraziliense.com.br/politica/2021/03/4911463-kassab-vira-reu-por-corrupcao-caixa-2-e-lavagem-de-rs-165-milhoes-da-jbs.html",
-    "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=23053&Id=23053"
-   ],
-   [
-    "https://en.wikipedia.org/wiki/A%C3%A9cio_Neves",
-    "https://portaldeprefeitura.com.br/bastidores-da-politica/aecio-neves-desiste-candidatura-psdb-lancara-nome-planalto/626505/"
+    "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=23053&Id=23053",
+    "https://conjur.com.br/2014-jun-04/kassab-condenado-improbidade-direitos-politicos-suspensos/",
+    "https://www.conjur.com.br/2019-ago-23/tj-mantem-absolvicao-kassab-nao-pagar-precatorios-alimentares/"
    ],
    [
     "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/",
     "https://www.terra.com.br/noticias/brasil/politica/cotado-para-presidir-o-pt-edinho-se-livra-de-inquerito-da-lava-jato,76ee9924f0b981722d076c1c6b1c71aasodqtqtx.html"
+   ],
+   [
+    "https://en.wikipedia.org/wiki/A%C3%A9cio_Neves",
+    "https://portaldeprefeitura.com.br/bastidores-da-politica/aecio-neves-desiste-candidatura-psdb-lancara-nome-planalto/626505/",
+    "https://www.cnnbrasil.com.br/politica/justica-absolve-aecio-neves-de-acusacao-de-propina-de-r-2-milhoes-da-jf/",
+    "https://www.metropoles.com/brasil/aecio-neves-e-absolvido-de-forma-unanime-em-caso-de-corrupcao-passiva"
    ],
    [
     "https://ofator.com.br/informacao/luis-tibe-quita-divida-de-improbidade-por-mau-uso-de-verba-da-camara-de-bh/",
@@ -2410,7 +2414,8 @@ const DADOS = {
     "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-processa-candidato-a-presidencia-e-o-mbl-por-discurso-de-odio-contra-indigenas-do-para"
    ],
    [
-    "https://pt.wikipedia.org/wiki/Marcus_Vin%C3%ADcius_de_Vasconcelos_Ferreira"
+    "https://pt.wikipedia.org/wiki/Marcus_Vin%C3%ADcius_de_Vasconcelos_Ferreira",
+    "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-afasta-presidente-do-ptb-e-determina-que-pf-ouca-roberto-jefferson/"
    ],
    [
     "https://pt.wikipedia.org/wiki/Daniel_Tourinho"
@@ -2425,10 +2430,13 @@ const DADOS = {
     "https://pv.org.br/presidente-nacional-do-pv-jose-luiz-penna/"
    ],
    [
-    "https://www.band.com.br/noticias/comte-bittencourt-entrega-chave-do-tse-e-cidadania-tera-novo-presidente-202603021859"
+    "https://www.band.com.br/noticias/comte-bittencourt-entrega-chave-do-tse-e-cidadania-tera-novo-presidente-202603021859",
+    "https://www.band.com.br/noticias/destituido-da-presidencia-do-cidadania-pelo-stf-comte-bittencourt-ainda-detem-a-chave-do-partido-usada-no-tse-202601071637"
    ],
    [
-    "https://brasilsemmedo.com/ministra-da-ciencia-e-tecnologia-de-lula-tem-condenacao-por-improbidade-administrativa/"
+    "https://brasilsemmedo.com/ministra-da-ciencia-e-tecnologia-de-lula-tem-condenacao-por-improbidade-administrativa/",
+    "https://pcdob.org.br/noticias/pcdob-inicia-transicao-na-presidencia-com-nadia-campeao-a-frente/",
+    "https://www.leiaja.com/politica/2019/11/02/luciana-santos-e-condenada-por-improbidade-administrativa/"
    ],
    [
     "https://sbtnews.sbt.com.br/noticia/politica/unidade-popular-quer-presidencia-e-mira-17-governos"
@@ -2458,12 +2466,16 @@ const DADOS = {
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://en.wikipedia.org/wiki/A%C3%A9cio_Neves",
-    "https://portaldeprefeitura.com.br/bastidores-da-politica/aecio-neves-desiste-candidatura-psdb-lancara-nome-planalto/626505/"
+    "https://portaldeprefeitura.com.br/bastidores-da-politica/aecio-neves-desiste-candidatura-psdb-lancara-nome-planalto/626505/",
+    "https://www.cnnbrasil.com.br/politica/justica-absolve-aecio-neves-de-acusacao-de-propina-de-r-2-milhoes-da-jf/",
+    "https://www.metropoles.com/brasil/aecio-neves-e-absolvido-de-forma-unanime-em-caso-de-corrupcao-passiva"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://www.correiobraziliense.com.br/politica/2021/03/4911463-kassab-vira-reu-por-corrupcao-caixa-2-e-lavagem-de-rs-165-milhoes-da-jbs.html",
-    "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=23053&Id=23053"
+    "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=23053&Id=23053",
+    "https://conjur.com.br/2014-jun-04/kassab-condenado-improbidade-direitos-politicos-suspensos/",
+    "https://www.conjur.com.br/2019-ago-23/tj-mantem-absolvicao-kassab-nao-pagar-precatorios-alimentares/"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
@@ -2478,7 +2490,8 @@ const DADOS = {
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-    "https://pt.wikipedia.org/wiki/Marcus_Vin%C3%ADcius_de_Vasconcelos_Ferreira"
+    "https://pt.wikipedia.org/wiki/Marcus_Vin%C3%ADcius_de_Vasconcelos_Ferreira",
+    "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-afasta-presidente-do-ptb-e-determina-que-pf-ouca-roberto-jefferson/"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
@@ -2521,7 +2534,9 @@ const DADOS = {
    [
     "https://portaldatransparencia.gov.br/sancoes/consulta",
     "https://www.correiobraziliense.com.br/politica/2021/03/4911463-kassab-vira-reu-por-corrupcao-caixa-2-e-lavagem-de-rs-165-milhoes-da-jbs.html",
-    "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=23053&Id=23053"
+    "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=23053&Id=23053",
+    "https://conjur.com.br/2014-jun-04/kassab-condenado-improbidade-direitos-politicos-suspensos/",
+    "https://www.conjur.com.br/2019-ago-23/tj-mantem-absolvicao-kassab-nao-pagar-precatorios-alimentares/"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
@@ -2627,7 +2642,7 @@ const DADOS = {
      },
      {
       "id": "tse_2022",
-      "resultado": "nao_se_aplica"
+      "resultado": "nada_consta"
      },
      {
       "id": "ceis",
@@ -2656,7 +2671,7 @@ const DADOS = {
      },
      {
       "id": "tse_2022",
-      "resultado": "nada_consta"
+      "resultado": "nao_se_aplica"
      },
      {
       "id": "ceis",
@@ -2992,5 +3007,5 @@ const DADOS = {
    "pesquisa individual"
   ]
  },
- "versao": "39d88b338c"
+ "versao": "ea5c5247b0"
 };
