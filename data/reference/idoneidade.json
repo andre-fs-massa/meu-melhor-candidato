@@ -10548,6 +10548,722 @@
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "170002541341": {
+      "nome_urna": "FERNANDO RODOLFO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado sobre a atuação pública; foi condenado pelo TJPE (jul/2026, cabe recurso) a pagar R$ 59,8 mil a uma empresa pela estrutura de um evento de campanha com Bolsonaro em Caruaru (2024) que não pagou: dívida contratual, sem desconto pela tabela.",
+      "fontes": [
+        "https://www.diariodepernambuco.com.br/politica/2026/07/11719034-deputado-federal-e-condenado-por-nao-pagar-empresa-que-realizou-evento-de-jair-bolsonaro-em-caruaru.html",
+        "https://en.wikipedia.org/wiki/Fernando_Rodolfo"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002534907": {
+      "nome_urna": "LUCIANO JUNIOR",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de outras pessoas).",
+      "fontes": [
+        "Busca na web (2026-09-25): \"Luciano Junior\" ex-vereador Palmares PE processo OR investigado OR condenado -- nenhum resultado sobre o candidato"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002530336": {
+      "nome_urna": "EDUARDO MOURA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): condenado por danos morais por expor uma mulher em vídeo de fiscalização (2026) e indiciado por injúria e difamação contra um colega (2026). O pedido de cassação no Conselho de Ética pelo mesmo gesto é de decoro (sem desconto).",
+      "fontes": [
+        "https://www.diariodepernambuco.com.br/politica/2026/07/11719347-justica-condena-eduardo-moura-por-gravar-mulher-em-fiscalizacao-e-expor-imagens-nas-redes.html",
+        "https://www.cnnbrasil.com.br/nacional/nordeste/pe/vereador-eduardo-moura-e-indiciado-por-injuria-contra-colega-no-recife/",
+        "https://www.cbnrecife.com/2026/02/20/chico-kiko-aciona-comissao-de-etica-da-camara-do-recife-e-pede-cassacao-de-eduardo-moura/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado pelo TJPE (25ª Vara Cível, jul/2026) a pagar R$ 5 mil de danos morais a uma mulher que filmou numa fiscalização em posto de saúde e expôs nas redes com legendas depreciativas."
+        },
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Indiciado pela Polícia Civil (2026) por injúria qualificada e difamação contra o vereador Chico Kiko e a esposa (gesto de 'chifres' em sessão da Câmara do Recife); sem denúncia encontrada."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002530108": {
+      "nome_urna": "FELIPE ALECRIM",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.recife.pe.leg.br/vereadores/legislatura-2021-2024/felipe-alecrim"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002532958": {
+      "nome_urna": "MARCELLY DA AQUARELA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://paulista.pe.leg.br/vereador/marcelly-suany-chaves-costa-de-paula/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002532954": {
+      "nome_urna": "SILVIO COSTA FILHO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 4,
+      "motivo": "Busca rápida na internet (1 busca, 1 de confirmação e fonte conferida): réu em quatro ações criminais do caso dos 'shows fantasmas' da Empetur (2008-2009), abertas em 2023; situação atual não confirmada. Há absolvição antiga (TJPE, 2014) em outro processo.",
+      "fontes": [
+        "https://marcozero.org/futuro-ministro-silvio-costa-filho-e-reu-em-processos-do-escandalo-dos-shows-fantasmas-em-pernambuco/",
+        "https://portal.tjpe.jus.br/documents/10180/964411/TJPE+na+M%C3%ADdia.+Ter%C3%A7a-feira+-+25.02.2014.pdf/ffd80afb-218a-4133-a9c5-c8c05c9a427f?t=1393327973750&download=true"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "quantidade": 4,
+          "descricao": "Réu em quatro ações criminais (uma na Justiça Federal, três na estadual, de 2014 a 2021) do escândalo dos 'shows fantasmas' (shows de Natal e verão de 2008-2009 pagos com dinheiro público e não realizados) de quando presidia a Empetur e era secretário de Turismo de PE; em 2023 seguiam abertas. Situação em 2026 não confirmada. (Soma dos processos penais limitada a 6.)"
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002532722": {
+      "nome_urna": "DELEGADO LESSA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://blogdomarioflavio.com.br/delegado-lessa-critica-remocao-de-feirantes-e-cobra-dialogo-da-prefeitura-de-caruaru/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002540299": {
+      "nome_urna": "RINALDO JÚNIOR",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.recife.pe.leg.br/vereadores/legislatura-2021-2024/rinaldo-junior"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002540289": {
+      "nome_urna": "LUCAS RAMOS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Lucas_Ramos_(politician)"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002533314": {
+      "nome_urna": "RAFAEL PREQUÉ",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): condenado por danos morais por chamar o prefeito de 'ladrão'; autuado por desmatamento (multa de R$ 19 mil). A ação de perda de mandato por infidelidade partidária está pendente (sem desconto).",
+      "fontes": [
+        "https://www.diariogravata.com.br/noticia/vereador-rafael-preque-tera-de-indenizar-prefeito-joselito-gomes-apos-chama-lo-de-ladrao-decide-justica",
+        "https://falape.com/vereador-rafael-preque-e-autuado-por-crime-ambiental-em-gravata/",
+        "https://blogdoalberesxavier.com/noticias/69950/vereador-rafael-prequ-pode-perder-mandato-por-infidelidade-partid-ria-em-gravat"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado a pagar R$ 8 mil de danos morais ao prefeito de Gravatá, Joselito Gomes, por chamá-lo de 'ladrão' nas redes sociais."
+        },
+        {
+          "categoria": "infracao_administrativa_ambiental",
+          "descricao": "Autuado por crime ambiental (desmatamento) em Gravatá: multa de R$ 19 mil, embargo da área e obrigação de apresentar plano de recuperação."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002533308": {
+      "nome_urna": "RENILDO CALHEIROS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): processado pelo MPPE desde 2017 por falta de prestação de contas de verba do FNDE como prefeito de Olinda, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Renildo_Calheiros",
+        "https://www.camara.leg.br/deputados/73801/biografia"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Processado pelo MPPE desde 2017 (improbidade e crime de responsabilidade) por não prestar contas de R$ 1,437 milhão do FNDE (Projovem Urbano, 2011) recebidos quando era prefeito de Olinda; desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002535209": {
+      "nome_urna": "JOÃO DE DEUS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de homônimos, como o médium condenado).",
+      "fontes": [
+        "Busca na web (2026-09-25): \"João de Deus\" deputado estadual PE Podemos processo OR investigado OR condenado -- só homônimos"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002535197": {
+      "nome_urna": "GILSON MACHADO FILHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): condenado por danos morais por incitar 'linchamento virtual' de um internauta (2026). A prisão citada nas notícias é do pai, Gilson Machado (sem desconto).",
+      "fontes": [
+        "https://www.diariodepernambuco.com.br/politica/2026/03/11710225-vereador-gilson-filho-e-condenado-por-incitar-linchamento-virtual-de-homem-que-festejou-morte-de-ativista.html",
+        "https://www.cnfpe.com.br/2026/03/19/justica-condena-gilson-machado-filho-a-indenizar-internauta-por-incitar-linchamento-em-rede-social/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado pelo TJPE (mar/2026) a pagar R$ 10 mil de danos morais a um internauta por expor a foto e o perfil dele nas redes e incitar um 'linchamento virtual', com ameaças e ataques racistas."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002535176": {
+      "nome_urna": "FABRIZIO FERRAZ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Fabrizio_Ferraz",
+        "https://www.alepe.pe.gov.br/parlamentar/fabrizio-ferraz/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002535172": {
+      "nome_urna": "JEFERSON TIMÓTEO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): denúncia de distribuição de comida no comitê de campanha enviada ao MP Eleitoral (2026), sem decisão encontrada.",
+      "fontes": [
+        "https://causosecausas.com/feijoada-e-cachorro-quente-em-comite-justica-eleitoral-envia-denuncia-contra-jeferson-timoteo-ao-ministerio-publico/",
+        "https://pt.wikipedia.org/wiki/Jeferson_Tim%C3%B3teo"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "A 121ª Zona Eleitoral (Cabo de Santo Agostinho) enviou ao MP Eleitoral, em 2026, denúncia de distribuição gratuita de comida (feijoada e cachorro-quente) no comitê de campanha dele; sem decisão encontrada."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002532296": {
+      "nome_urna": "RENATO ANTUNES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Renato_Antunes"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002543759": {
+      "nome_urna": "GLEIDE ÂNGELO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (um ex-assessor do gabinete foi investigado por rachadinha por fatos anteriores ao mandato dela, sem relação com o gabinete).",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Gleide_Angelo",
+        "https://tribunaonline.com.br/pernambuco/policia/assessor-da-assembleia-legislativa-e-exonerado-por-suspeita-de-rachadinha-299559"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002543757": {
+      "nome_urna": "ANTONIO COELHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de acusação política de deputados da oposição (2026) de fraude num relatório da Comissão de Finanças, sem representação ou processo encontrado (sem desconto).",
+      "fontes": [
+        "https://www.folhape.com.br/colunistas/blogdafolha/oposicao-da-comissao-de-financas-acusa-antonio-coelho-de-fraude-e-fala-em-cassacao-do-deputado/56753/",
+        "https://www.alepe.pe.gov.br/parlamentar/antonio-coelho/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002543751": {
+      "nome_urna": "KAIO MANIÇOBA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): denúncia por falsidade ideológica rejeitada pelo STF.",
+      "fontes": [
+        "https://noticias.stf.jus.br/postsnoticias/rejeitada-denuncia-contra-deputado-federal-kaio-manicoba-pmdb-pe-por-falsidade-ideologica/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Denúncia do MPF por falsidade ideológica (omitiu cargo na Assembleia ao tomar posse como ouvidor da Sudene em 2013) rejeitada por unanimidade pela 1ª Turma do STF (Inq 4105)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002543743": {
+      "nome_urna": "HENRIQUE FILHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TRE-PE e TJPE sem classe nem papel visíveis).",
+      "fontes": [
+        "https://www.jusbrasil.com.br/processos/nome/142942511/henrique-jose-queiroz-costa-filho"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002543726": {
+      "nome_urna": "DANNILO GODOY",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.alepe.pe.gov.br/parlamentar/dannilo-godoy/",
+        "https://jamildo.com/politica/pp-amplia-bancada-da-alepe-com-filiacao-de-dannilo-godoy-ex-prefeito-de-bom-conselho.html"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002532399": {
+      "nome_urna": "JUNIOR MATUTO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): alvo de ação do MPPE sobre cessão irregular de terreno público em Paulista (2026, sem julgamento); inquérito do MPF sobre licitações arquivado em 2026; afastado do cargo de prefeito em 2020 em operações por lavagem e peculato e indiciado por fraude a licitação, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.diariodepernambuco.com.br/politica/2026/04/11712305-justica-manda-fechar-empreendimento-em-paulista-por-suposto-esquema-envolvendo-ex-prefeito-junior-matuto.html",
+        "https://www.diariodepernambuco.com.br/politica/2026/04/11712334-desembargador-suspende-ordem-de-fechamento-de-empreendimento-alvo-de-investigacao-ligada-a-ex-prefeito-junior-matuto.html",
+        "https://blogcenario.com.br/2026/04/25/mpf-arquiva-inquerito-sobre-licitacoes-e-encerra-caso-sem-denuncia-contra-matuto",
+        "https://acervo.cbnrecife.com/artigo/junior-matuto-e-novamente-afastado-do-cargo-de-prefeito-de-paulista"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Ação do MPPE sobre suposta fraude na cessão irregular de terreno público de 10 mil m² em Maria Farinha a empresa ligada a aliado dele, na gestão dele como prefeito de Paulista; a Justiça mandou fechar o empreendimento (MF Marina Clube) em 2026 e um desembargador suspendeu a ordem; réus ainda não julgados."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Inquérito do MPF sobre pregões de merenda e estoques da Saúde de Paulista (2013) arquivado sem denúncia em abr/2026."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Afastado da prefeitura em 2020 nas operações Chorume e Locatário (lavagem, peculato) e indiciado na Operação Beira Rio (fraude a licitação, documento falso); desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002542900": {
+      "nome_urna": "ROMERO ALBUQUERQUE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 4,
+      "motivo": "Busca rápida na internet (1 busca): investigado por agressão, ameaça, invasão de domicílio e outros crimes num episódio de 2025 (caso remetido à 1ª instância em 2026); três multas por propaganda eleitoral irregular (2014 e outdoors da esposa); AIJE de 2018 por abuso de poder sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.diariodepernambuco.com.br/politica/2026/04/11712420-deputado-romero-albuquerque-e-acusado-de-agredir-ameacar-e-invadir-casa-de-homem-no-recife.html",
+        "https://blogdomarioflavio.com.br/deputado-romero-albuquerque-e-acusado-de-agressao-e-outros-crimes-apos-episodio-no-recife-defesa-nega-irregularidades/",
+        "https://diariodopoder.com.br/brasil-e-regioes/tre-pe-multa-deputado-em-r15-mil-por-campanha-para-esposa-em-outdoors-no-recife",
+        "https://www.slideshare.net/slideshow/romero-albuquerque-condenado-pela-justia-eleitoral/67147177",
+        "https://www.mpf.mp.br/regiao5/sala-de-imprensa/noticias-r5/mpe-pede-ao-tre-pe-cassacao-do-registro-de-candidatura-do-deputado-estadual-eleito-romero-albuquerque"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Acusado de lesão corporal, ameaça, invasão de domicílio, roubo, associação criminosa, usurpação de função pública e porte ilegal de arma num episódio de mai/2025 no Recife; em 2026 o caso foi mandado à 1ª instância por não ter relação com o mandato; sem denúncia recebida encontrada."
+        },
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "quantidade": 3,
+          "descricao": "Multas da Justiça Eleitoral por propaganda irregular: duas condenações por anúncios pagos no Facebook na campanha de 2014 e multa de R$ 15 mil, mantida pelo TRE-PE, por propaganda antecipada da esposa em outdoors no Recife."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "AIJE do MP Eleitoral (2018) por abuso de poder com serviços veterinários gratuitos antes da campanha, com pedido de cassação do registro; exerceu o mandato, desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002542424": {
+      "nome_urna": "CAYO ALBINO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.alepe.pe.gov.br/parlamentar/cayo-albino/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002542418": {
+      "nome_urna": "SILENO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): multa do TRE-PE por impulsionamento de propaganda negativa.",
+      "fontes": [
+        "https://afogadosonline.com.br/index.php/page/39/",
+        "https://pt.wikipedia.org/wiki/Sileno_Guedes"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multa de R$ 5 mil do TRE-PE por impulsionar propaganda negativa no Facebook."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002532726": {
+      "nome_urna": "BETINHO GOMES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): investigado em inquéritos da Lava Jato no STF (delação da Odebrecht, 2017), sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.congressoemfoco.com.br/noticia/34775/os-parlamentares-sob-investigacao-no-stf-e-o-que-eles-dizem",
+        "https://static.poder360.com.br/2017/04/ListaporEstados.pdf"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Investigado nos inquéritos 4125 e 4446 do STF (2017, delação da Odebrecht na Lava Jato: R$ 75 mil em 2012 e R$ 100 mil em 2014 em troca de favorecer empreendimento no Cabo de Santo Agostinho); desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002540297": {
+      "nome_urna": "ANDREZA ROMERO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): multa mantida pelo TRE-PE por propaganda antecipada em outdoors.",
+      "fontes": [
+        "https://diariodopoder.com.br/brasil-e-regioes/tre-pe-multa-deputado-em-r15-mil-por-campanha-para-esposa-em-outdoors-no-recife"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multa de R$ 15 mil, mantida pelo TRE-PE, com o marido (deputado Romero Albuquerque), por propaganda antecipada em outdoors no Recife."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002533326": {
+      "nome_urna": "CARLOS VERAS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o indiciado pela PF no caso do INSS é o irmão, Aristides Veras; o relatório da PF não o aponta como investigado).",
+      "fontes": [
+        "https://portaldeprefeitura.com.br/bastidores-da-politica/irmao-presidente-pt-pernambuco-indiciado-pf-inss/629100/",
+        "https://radar.congressoemfoco.com.br/parlamentar/1204426"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002533325": {
+      "nome_urna": "KARI SANTOS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): multa da Justiça Eleitoral por propaganda contra Gilson Machado (2024). Outras ações de Gilson Machado e de Eduardo Moura contra ela estão sem decisão (sem desconto).",
+      "fontes": [
+        "https://acervo.cbnrecife.com/blogdoelielson/artigo/kari-santos-pede-ajuda-nas-redes-sociais-para-pagar-multa-concedida-pelo-tre",
+        "https://jamildo.com/politica/gilson-machado-processa-vereadora-kari-santos-por-declaracao-polemica.html"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multa de R$ 5 mil do TRE-PE (2024) por chamar o então candidato a prefeito Gilson Machado de 'sanfoneiro do diabo'."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002533313": {
+      "nome_urna": "ROSA AMORIM",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos eleitorais com a Procuradoria Regional Eleitoral, sem classe nem papel visíveis).",
+      "fontes": [
+        "https://www.escavador.com/nomes/eleicao-2022-rosa-karina-souza-de-amorim-deputado-41ec52c14e",
+        "https://marcozero.org/rosa-amorim-leva-mst-a-alepe-em-eleicao-que-tem-bolsonaristas-lideres-de-votos/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002542425": {
+      "nome_urna": "ERIBERTO FILHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Eriberto_Filho"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002533353": {
+      "nome_urna": "VINI CASTELLO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): ordem da Justiça Eleitoral para recolher e retirar material de campanha que omitia o vice (2024).",
+      "fontes": [
+        "https://portaldeprefeitura.com.br/bastidores-da-politica/eleicoes/olinda-justica-condena-vinicius-castello-pt-por-omitir-vice-que-ja/579000/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Condenado pela Justiça Eleitoral (ago/2024), como candidato a prefeito de Olinda, por omitir o nome do vice no material de campanha: recolhimento do material e retirada das redes, sob multa diária."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002533349": {
+      "nome_urna": "MAKOY",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "Busca na web (2026-09-25): \"Makoy\" ex-vereador São Caitano PE processo OR investigado OR condenado -- nenhum resultado sobre o candidato"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002533346": {
+      "nome_urna": "JOAQUIM LIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de Arthur Lira).",
+      "fontes": [
+        "Busca na web (2026-09-25): \"Joaquim Lira\" deputado estadual PE processo OR investigado OR condenado -- só homônimos"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002533345": {
+      "nome_urna": "DANI PORTELA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): denúncia ao MP de Contas sobre contratação de empresa ligada a parente, arquivada em 2025 sem irregularidade.",
+      "fontes": [
+        "https://www.folhape.com.br/colunistas/folha-politica/ministerio-publico-de-contas-de-pernambuco-encerra-denuncia-contra-deputada-dani-portela/52814/",
+        "https://www.diariodepernambuco.com.br/politica/2025/08/7796619-dani-portela-e-denunciada-por-contratar-suposta-empresa-fantasma-deputada-rebate-acusacao.html"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Denúncia ao Ministério Público de Contas de PE (2025) por contratar para o gabinete suposta empresa fantasma de um tio do marido; arquivada em set/2025 sem irregularidade."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002533339": {
+      "nome_urna": "JOÃO DE NADEGI",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Jo%C3%A3o_de_Nadegi"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002533338": {
+      "nome_urna": "JOÃO PAULO DO PT",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 5,
+      "motivo": "Busca rápida na internet (1 busca): condenado em 1ª instância em ação penal pela contratação direta da Finatec como prefeito do Recife, recurso sem desfecho encontrado (a confirmar); TCE-PE mandou ressarcir R$ 18 milhões e aplicou multa por licitação irregular.",
+      "fontes": [
+        "https://www.slideshare.net/slideshow/tcepe-condena-joo-paulo-a-ressarcir-r-18-milhes-aos-cofres-pblicos-do-recife/248833770",
+        "https://www.jusbrasil.com.br/noticias/tce-pune-com-multa-o-ex-prefeito-joao-paulo/1055043",
+        "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Paulo_Lima_e_Silva"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado em 1ª instância em ação penal do MPPE (processo 0115495-32.2009.8.17.0001) pela contratação direta da Finatec quando era prefeito do Recife (2002-2004); desfecho do recurso não encontrado. A confirmar."
+        },
+        {
+          "categoria": "contas_irregulares_com_ressarcimento",
+          "descricao": "TCE-PE o condenou a ressarcir R$ 18 milhões aos cofres do Recife (gestão como prefeito)."
+        },
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "Multa de R$ 5 mil do TCE-PE por irregularidades numa licitação de software de 2007."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002533333": {
+      "nome_urna": "CIDA PEDROSA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de representação por quebra de decoro (fala) considerada inadmissível pela Comissão de Ética em 2026 (sem desconto).",
+      "fontes": [
+        "https://www.recife.pe.leg.br/comunicacao/noticias/2026/05/comissao-de-etica-decide-por-inadmissibilidade-de-processo-de-quebra-de-decoro"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002533332": {
+      "nome_urna": "DORIEL",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.alepe.pe.gov.br/parlamentar/doriel-barros/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002544066": {
+      "nome_urna": "FERNANDO FILHO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): alvo da Operação Vassalos da PF (2026) sobre desvio de emendas e fraude em licitações em Petrolina, investigação em curso sem denúncia.",
+      "fontes": [
+        "https://www.terra.com.br/noticias/brasil/politica/quem-sao-fernando-bezerra-coelho-e-fernando-coelho-filho-alvos-de-operacao-por-desvio-de-emendas,6687cb62d95f5340921917a24927aec20npxuv3e.html",
+        "https://timesbrasil.com.br/brasil/politica/emendas-pf-42-buscas-flavio-dino-fernando-bezerra-coelho-operacao-vassalos/",
+        "https://www.infomoney.com.br/politica/alvo-da-pf-familia-bezerra-enviou-e-se-beneficiou-de-emenda-de-r-22-mi-entenda/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo de busca e apreensão na Operação Vassalos da PF (fev/2026, autorizada por Flávio Dino no STF), com o pai, Fernando Bezerra Coelho, e o irmão Miguel Coelho, sobre suposto desvio de emendas parlamentares (R$ 22 milhões) e fraude em licitações em Petrolina; sem denúncia."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002544063": {
+      "nome_urna": "LULA DA FONTE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.camara.leg.br/deputados/220669/biografia",
+        "https://en.wikipedia.org/wiki/Lula_da_Fonte"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002544062": {
+      "nome_urna": "CLARISSA TÉRCIO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): inquérito sobre o 8 de janeiro arquivado pelo STF; condenada em 1ª instância por danos morais (transfobia) a um casal.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/politica/moraes-arquiva-inquerito-contra-deputada-clarissa-tercio-pelo-8-de-janeiro/",
+        "https://www.folhape.com.br/politica/quem-e-clarissa-tercio-deputada-condenada-a-pagar-r-10-mil-para/254869/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Inquérito no STF sobre suposta incitação aos atos de 8 de janeiro de 2023 (publicação em rede social), arquivado por Alexandre de Moraes a pedido da PGR."
+        },
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenada em 1ª instância a pagar R$ 10 mil a um casal transgênero por transfobia e uso indevido de imagem (postagem de 2020)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002532962": {
+      "nome_urna": "DR. JOÃO ROBERTO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o vereador de Timbaúba afastado na Operação Hora Extra é outro).",
+      "fontes": [
+        "https://timbauba.pe.leg.br/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002532957": {
+      "nome_urna": "LETÍCIA BORBA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): multa por conduta vedada (publicidade institucional acima do limite em ano eleitoral) mantida pelo TSE.",
+      "fontes": [
+        "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/vereadora-de-cortes-pe-e-multada-por-gasto-excessivo-com-publicidade-institucional-em-ano-de-eleicao"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "Multa de R$ 10,6 mil por conduta vedada (gasto com publicidade institucional da Câmara de Cortês acima do limite no 1º semestre de 2024, quando presidia a Casa), aplicada pelo TRE-PE e mantida pelo TSE."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "170002532733": {
+      "nome_urna": "AUGUSTO COUTINHO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): auto de infração ambiental anulado pela Justiça Federal. Bases oficiais: 1 auto(s) de infração ambiental não cancelado(s) no Ibama, o maior de R$ 5.000,00, somando R$ 5.000,00.",
+      "fontes": [
+        "https://www.congressoemfoco.com.br/noticia/104898/lista-dos-deputados-sob-investigacao",
+        "https://en.wikipedia.org/wiki/Augusto_Coutinho",
+        "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "infracao_administrativa_ambiental",
+          "descricao": "1 auto(s) de infração ambiental não cancelado(s) no Ibama, o maior de R$ 5.000,00, somando R$ 5.000,00."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Auto de infração ambiental (construção de casa de praia em suposta área de preservação; processo 0000081-53.2015.4.05.8307) anulado pela Justiça Federal em PE, que não reconheceu APP no terreno."
+        }
+      ],
+      "origem": "busca_finalistas"
     }
   }
 }

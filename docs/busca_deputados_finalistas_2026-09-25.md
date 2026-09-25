@@ -290,10 +290,57 @@ Pesquisados: 41 candidatos (1 busca cada, mais confirmações quando houve sinal
 - Deputado Estadual · Estatista-autoritário: vazio
 
 
+### PE
+
+Pesquisados: 45 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **SILVIO COSTA FILHO** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 4, geral 7: Busca rápida na internet (1 busca, 1 de confirmação e fonte conferida): réu em quatro ações criminais do caso dos 'shows fantasmas' da Empetur (2008-2009), abertas em 2023; situação atual não confirmada. Há absolvição antiga (TJPE, 2014) em outro processo.
+- **ROMERO ALBUQUERQUE** (PSB, Deputado Estadual), idoneidade pessoal 4, geral 7: investigado por agressão, ameaça, invasão de domicílio e outros crimes num episódio de 2025 (caso remetido à 1ª instância em 2026); três multas por propaganda eleitoral irregular (2014 e outdoors da esposa); AIJE de 2018 por abuso de poder sem desfecho encontrado (a confirmar).
+- **JOÃO PAULO DO PT** (PT, Deputado Estadual), idoneidade pessoal 5, geral 7: condenado em 1ª instância em ação penal pela contratação direta da Finatec como prefeito do Recife, recurso sem desfecho encontrado (a confirmar); TCE-PE mandou ressarcir R$ 18 milhões e aplicou multa por licitação irregular.
+- **JUNIOR MATUTO** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 6, geral 8: Busca rápida na internet (1 busca e 1 de confirmação): alvo de ação do MPPE sobre cessão irregular de terreno público em Paulista (2026, sem julgamento); inquérito do MPF sobre licitações arquivado em 2026; afastado do cargo de prefeito em 2020 em operações por lavagem e peculato e indiciado por fraude a licitação, sem desfecho encontrado (a confirmar).
+- **EDUARDO MOURA** (NOVO, Deputado Federal), idoneidade pessoal 8, geral 9: condenado por danos morais por expor uma mulher em vídeo de fiscalização (2026) e indiciado por injúria e difamação contra um colega (2026). O pedido de cassação no Conselho de Ética pelo mesmo gesto é de decoro (sem desconto).
+- **RAFAEL PREQUÉ** (PV, Deputado Federal), idoneidade pessoal 8, geral 9: condenado por danos morais por chamar o prefeito de 'ladrão'; autuado por desmatamento (multa de R$ 19 mil). A ação de perda de mandato por infidelidade partidária está pendente (sem desconto).
+- **FERNANDO FILHO** (UNIÃO, Deputado Federal), idoneidade pessoal 8, geral 8.5: alvo da Operação Vassalos da PF (2026) sobre desvio de emendas e fraude em licitações em Petrolina, investigação em curso sem denúncia.
+- **CLARISSA TÉRCIO** (PP, Deputado Federal), idoneidade pessoal 8, geral 8.5: inquérito sobre o 8 de janeiro arquivado pelo STF; condenada em 1ª instância por danos morais (transfobia) a um casal.
+- **AUGUSTO COUTINHO** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 8, geral 9: auto de infração ambiental anulado pela Justiça Federal. Bases oficiais: 1 auto(s) de infração ambiental não cancelado(s) no Ibama, o maior de R$ 5.000,00, somando R$ 5.000,00.
+- **RENILDO CALHEIROS** (PCDOB, Deputado Federal), idoneidade pessoal 9, geral 9.5: processado pelo MPPE desde 2017 por falta de prestação de contas de verba do FNDE como prefeito de Olinda, sem desfecho encontrado (a confirmar).
+- **GILSON MACHADO FILHO** (PODE, Deputado Estadual), idoneidade pessoal 9, geral 9: condenado por danos morais por incitar 'linchamento virtual' de um internauta (2026). A prisão citada nas notícias é do pai, Gilson Machado (sem desconto).
+- **JEFERSON TIMÓTEO** (PODE, Deputado Estadual), idoneidade pessoal 9, geral 9: denúncia de distribuição de comida no comitê de campanha enviada ao MP Eleitoral (2026), sem decisão encontrada.
+- **KAIO MANIÇOBA** (PP, Deputado Estadual), idoneidade pessoal 9, geral 9: denúncia por falsidade ideológica rejeitada pelo STF.
+- **SILENO** (PSB, Deputado Estadual), idoneidade pessoal 9, geral 9.5: multa do TRE-PE por impulsionamento de propaganda negativa.
+- **BETINHO GOMES** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 9, geral 9.5: investigado em inquéritos da Lava Jato no STF (delação da Odebrecht, 2017), sem desfecho encontrado (a confirmar).
+- **ANDREZA ROMERO** (PSB, Deputado Federal), idoneidade pessoal 9, geral 9.5: multa mantida pelo TRE-PE por propaganda antecipada em outdoors.
+- **KARI SANTOS** (PT, Deputado Federal), idoneidade pessoal 9, geral 9: multa da Justiça Eleitoral por propaganda contra Gilson Machado (2024). Outras ações de Gilson Machado e de Eduardo Moura contra ela estão sem decisão (sem desconto).
+- **VINI CASTELLO** (PCDOB, Deputado Estadual), idoneidade pessoal 9, geral 9.5: ordem da Justiça Eleitoral para recolher e retirar material de campanha que omitia o vice (2024).
+- **DANI PORTELA** (PT, Deputado Estadual), idoneidade pessoal 9, geral 9: denúncia ao MP de Contas sobre contratação de empresa ligada a parente, arquivada em 2025 sem irregularidade.
+- **LETÍCIA BORBA** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 9, geral 9.5: multa por conduta vedada (publicidade institucional acima do limite em ano eleitoral) mantida pelo TSE.
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- RENILDO CALHEIROS (PCDOB, Deputado Federal): processado pelo MPPE desde 2017 por falta de prestação de contas de verba do FNDE como prefeito de Olinda, sem desfecho encontrado (a confirmar).
+- JUNIOR MATUTO (REPUBLICANOS, Deputado Estadual): Busca rápida na internet (1 busca e 1 de confirmação): alvo de ação do MPPE sobre cessão irregular de terreno público em Paulista (2026, sem julgamento); inquérito do MPF sobre licitações arquivado em 2026; afastado do cargo de prefeito em 2020 em operações por lavagem e peculato e indiciado por fraude a licitação, sem desfecho encontrado (a confirmar).
+- ROMERO ALBUQUERQUE (PSB, Deputado Estadual): investigado por agressão, ameaça, invasão de domicílio e outros crimes num episódio de 2025 (caso remetido à 1ª instância em 2026); três multas por propaganda eleitoral irregular (2014 e outdoors da esposa); AIJE de 2018 por abuso de poder sem desfecho encontrado (a confirmar).
+- BETINHO GOMES (REPUBLICANOS, Deputado Federal): investigado em inquéritos da Lava Jato no STF (delação da Odebrecht, 2017), sem desfecho encontrado (a confirmar).
+- JOÃO PAULO DO PT (PT, Deputado Estadual): condenado em 1ª instância em ação penal pela contratação direta da Finatec como prefeito do Recife, recurso sem desfecho encontrado (a confirmar); TCE-PE mandou ressarcir R$ 18 milhões e aplicou multa por licitação irregular.
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: FELIPE ALECRIM (NOVO 3000), FERNANDO RODOLFO (PRD 2555), LUCIANO JUNIOR (PODE 2088)
+- Deputado Federal · Direita conservadora: MARCELLY DA AQUARELA (REPUBLICANOS 1020), DELEGADO LESSA (REPUBLICANOS 1090), LULA DA FONTE (PP 1111)
+- Deputado Federal · Esquerda progressista: RINALDO JÚNIOR (PSB 4013), LUCAS RAMOS (PSB 4011), CARLOS VERAS (PT 1314) — sorteio entre 3 empatados
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: RENATO ANTUNES (NOVO 30630), JOÃO DE DEUS (PODE 20615), FABRIZIO FERRAZ (PODE 20111)
+- Deputado Estadual · Direita conservadora: ANTONIO COELHO (UNIÃO 44000), GLEIDE ÂNGELO (PP 11111), HENRIQUE FILHO (PP 11777) — sorteio entre 4 empatados
+- Deputado Estadual · Esquerda progressista: CAYO ALBINO (PSB 40400), SILENO (PSB 40040), DORIEL (PT 13123)
+- Deputado Estadual · Estatista-autoritário: vazio
+
+
 ## Situação e próximos passos
 
-- **Estados fechados (6 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41). Total: 265
-  candidatos, 67 com achado que descontou e 24 marcados "a confirmar". Nos seis, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (7 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45). Total:
+  310 candidatos, 87 com achado que descontou e 29 marcados "a confirmar". Nos sete, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -302,19 +349,22 @@ Pesquisados: 41 candidatos (1 busca cada, mais confirmações quando houve sinal
 - **Achados mais graves:** Euclydes Pettersen/MG (2 ações penais e indiciamento no caso do INSS, nota 2), Lucas
   Cardoso/SP (condenação por estelionato confirmada pelo TJSP e registro impugnado, nota 4), Luiz Fernando Faria/MG
   (réu na Lava Jato, nota 6), Renato Freitas/PR (condenação por pichação com recurso, cassação de 2022 revertida,
-  réu por crime contra a honra e parecer de cassação em 2026, nota 4), Beto Richa/PR (8 ações penais extintas ou sem
+  réu por crime contra a honra e parecer de cassação em 2026, nota 4), Silvio Costa Filho/PE (réu em 4 ações
+  criminais dos 'shows fantasmas', nota 4), Romero Albuquerque/PE (investigado por agressão e invasão de domicílio e 3
+  multas eleitorais, nota 4), João Paulo/PE (condenação criminal de 1ª instância e ressarcimento de R$ 18 mi ao TCE,
+  nota 5), Beto Richa/PR (8 ações penais extintas ou sem
   desfecho e condenação em ação popular, nota 6), Roberto Carlos/BA (condenado pelo TJ-BA por rachadinha, nota 6), Luiz Martins/RJ (réu na
   Furna da Onça, nota 7). Todos saíram da lista de finalistas.
 - **A confirmar com prioridade** (sinal grave sem confirmação, sem desconto): Jhony Sasaki/SP (ação de rachadinha
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 21 estados**, na ordem de população: PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
+- **Faltam 20 estados**, na ordem de população: CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
 - **Anotado para o AM:** o deputado federal Adail Filho (MDB) foi alvo da PF em 16/09/2026 (Operação Dinastia do
   Lago: fraude em licitações, desvio, corrupção e lavagem) — apareceu por acaso numa busca de MG.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR e RS (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS e PE (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
