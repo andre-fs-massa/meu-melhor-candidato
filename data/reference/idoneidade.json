@@ -9754,14 +9754,19 @@
     "160002549551": {
       "nome_urna": "EVANDRO ROMAN",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado além da perda do mandato de deputado federal decretada pelo TSE em 2021 (4 a 3) por infidelidade partidária, ao trocar o PSD pelo Patriota sem justa causa; pela regra, troca de partido não desconta.",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): perdeu o mandato de deputado federal por decisão do TSE em 2021 (4 a 3), por infidelidade partidária ao trocar o PSD pelo Patriota sem justa causa. Por decisão do usuário (25/09), perda de mandato decretada e mantida conta como cassação (−2); pedido de perda ainda não decidido ou revertido não conta.",
       "fontes": [
         "https://www.tse.jus.br/comunicacao/noticias/2021/Novembro/tse-decreta-perda-de-mandato-do-deputado-federal-evandro-roman",
         "https://pt.wikipedia.org/wiki/Evandro_Rog%C3%A9rio_Roman"
       ],
       "pesquisado_em": "2026-09-25",
-      "achados": [],
+      "achados": [
+        {
+          "categoria": "cassacao_de_mandato",
+          "descricao": "Perda do mandato de deputado federal decretada pelo TSE em nov/2021 (4 a 3) por infidelidade partidária: trocou o PSD pelo Patriota em 2019 sem justa causa."
+        }
+      ],
       "origem": "busca_finalistas"
     },
     "160002541989": {
@@ -9896,6 +9901,82 @@
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002549541": {
+      "nome_urna": "THAIS TAKAHASHI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca): condenação por apropriação indébita contra uma cliente idosa (retenção de benefício previdenciário) confirmada em 2ª instância pelo TJ-PR em 2025. Também presidiu a sessão de 01/01/2025 da Câmara de Cornélio Procópio, anulada pela Justiça por impedir o registro de uma chapa (sem desconto: decisão sobre o ato da Mesa, não sobre ela).",
+      "fontes": [
+        "https://paiquerefm.com.br/tjpr-confirma-condenacao-de-vereadora-de-cornelio-procopio-por-apropriacao-indebita-contra-idosa/",
+        "https://contraponto.jor.br/tjpr-mantem-condenacao-de-vereadora-de-cornelio-procopio/",
+        "https://contraponto.jor.br/tribunal-de-justica-determina-nova-eleicao-na-camara-de-cornelio-procopio/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenação criminal por apropriação indébita contra idosa (reteve valores de benefício previdenciário devidos a uma cliente, como advogada) mantida pela 3ª Câmara Criminal do TJ-PR em jun/2025."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "160002549524": {
+      "nome_urna": "SIDNEI JARDIM",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://sapl.campomourao.pr.leg.br/parlamentar/6"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002546900": {
+      "nome_urna": "FELIPE FRANCISCHINI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado contra ele; a cassação pelo TSE (2021) por desinformação contra a urna eletrônica foi do pai, o ex-deputado estadual Fernando Francischini (sem desconto).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Felipe_Francischini",
+        "https://www.tse.jus.br/comunicacao/noticias/2021/Outubro/plenario-cassa-deputado-francischini-por-propagar-desinformacao-contra-o-sistema-eletronico-de-votacao"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002546899": {
+      "nome_urna": "RENAN CESCHIN",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos, a maioria do TRE-PR, sem classe nem papel visíveis).",
+      "fontes": [
+        "https://www.cmc.pr.gov.br/vereadores/renan-ceschin",
+        "https://www.jusbrasil.com.br/processos/nome/193267821/marcos-renan-de-mattos-ceschin"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002542289": {
+      "nome_urna": "HOMERO MARCHESE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): alvo de bloqueio de redes sociais no inquérito das fake news (2022), sem ser investigado formalmente segundo as reportagens.",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/parana/entenda-por-que-ex-deputado-homero-marchese-entrou-na-mira-do-gabinete-paralelo-de-moraes/",
+        "https://noticias.stf.jus.br/postsnoticias/stf-cassa-decisao-de-juiz-que-condenou-uniao-a-indenizar-ex-deputado-por-bloqueio-de-redes-sociais/",
+        "https://www.revistaoeste.com/politica/ex-deputado-alvo-de-inquerito-fala-sobre-atuacao-de-moraes/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Teve os perfis em redes sociais bloqueados por ordem de Alexandre de Moraes em nov/2022, no inquérito das fake news, por uma faixa sobre ministros do STF num evento em Nova York; as reportagens dizem que ele não era investigado no inquérito."
+        }
+      ],
       "origem": "busca_finalistas"
     }
   }
