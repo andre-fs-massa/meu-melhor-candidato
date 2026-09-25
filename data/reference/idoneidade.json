@@ -8912,6 +8912,408 @@
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "50002532679": {
+      "nome_urna": "MAURICIO TRINDADE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): réu por tráfico de influência em denúncia recebida pelo STF (fato de 1997, como vereador de Salvador), sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.sedep.com.br/noticias/lucro-indevido-deputado-maurcio-trindade-vira-ru-em-ao-penal/",
+        "https://mpf.jusbrasil.com.br/noticias/826263/recebida-denuncia-contra-deputado-mauricio-trindade"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Denúncia por tráfico de influência (fato de 1997, como vereador de Salvador: teria exigido 15% de um contrato de leite em pó da Secretaria de Saúde) recebida pelo STF quando era deputado federal, tornando-o réu; desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "50002532651": {
+      "nome_urna": "DUDA DE ALAN SANCHES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): denúncia anônima ao MP-BA por suposta compra de votos e uso de espaço público arquivada por falta de indícios (2026). Um assessor foi preso numa operação contra o tráfico e exonerado; o vereador não é alvo (sem desconto).",
+      "fontes": [
+        "https://bahia.ba/politica/mp-ba-arquiva-denuncia-contra-duda-sanches-por-falta-de-indicios/",
+        "https://atarde.com.br/politica/mpe-arquiva-denuncia-contra-duda-sanches-por-suposta-compra-de-votos-1403143",
+        "https://www.bahianoticias.com.br/noticia/312412-assessor-do-vereador-duda-sanches-e-preso-em-operacao-da-policia-civil-contra-trafico"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Denúncia anônima ao MP-BA (uso de espaço público para marketing político, captação ilícita de sufrágio, distribuição de bens) arquivada em 2026 por falta de indícios."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "50002532643": {
+      "nome_urna": "ADOLFO VIANA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca, fontes conferidas): citado em documentos apreendidos pela PF em duas apurações (obras superfaturadas com emendas dele, 2025; lista na casa de Ciro Nogueira, 2026), sem ser investigado formalmente; investigação eleitoral de 2018 arquivada.",
+      "fontes": [
+        "https://sigaanoticia.com.br/deputado-adolfo-viana-e-citado-em-investigacao-sobre-obras-superfaturadas-na-bahia/",
+        "https://mundoba.com.br/politica/pf-encontra-lista-com-nomes-de-elmar-e-adolfo-viana-e-supostos-valores-na-casa-de-ciro-nogueira/",
+        "https://blogramosfilho.com.br/2018/03/24/bahia-tre-arquiva-investigacao-contra-o-deputado-estadual-adolfo-viana/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Nome em documentos apreendidos pela PF (out/2025) na investigação de obras superfaturadas da Allpha Pavimentações em Juazeiro e Novo Horizonte, para as quais teria destinado R$ 7 milhões em emendas; não é investigado formalmente."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Nome em rascunho com nomes de parlamentares e valores apreendido pela PF na casa do senador Ciro Nogueira (Operação Compliance Zero, set/2026); conteúdo ainda não esclarecido, sem investigação dirigida a ele."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Investigação sobre doações de campanha não declaradas arquivada pelo TRE-BA a pedido do MPF (2018)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "50002532507": {
+      "nome_urna": "KEL TORRES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.cms.ba.gov.br/vereadores/kel-torres",
+        "https://republicanos10.org.br/quem_e_quem/kel-torres/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002532504": {
+      "nome_urna": "LÉO PRATES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de ser parte em processos eleitorais de 2026 (1 no polo passivo, sem classe informada; ser parte não é achado).",
+      "fontes": [
+        "https://www.plural.jor.br/leonardo-silva-prates/",
+        "https://pt.wikipedia.org/wiki/L%C3%A9o_Prates"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002531452": {
+      "nome_urna": "MÁRCIO MARINHO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. O nome dele estava entre os contatos do celular de Daniel Vorcaro (Banco Master) apreendido pela PF (mar/2026); segundo o relatório da PF citado por ele, não há contato recíproco nem relação, e ele não é investigado (sem desconto).",
+      "fontes": [
+        "https://www.portalsalvadorfm.com.br/politica/deputado-baiano-se-defende-apos-aparecer-em-celular-de-vorcaro-uma-injustica/",
+        "https://radar.congressoemfoco.com.br/parlamentar/1150418"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002538778": {
+      "nome_urna": "DELEGADA GABRIELA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (delegada; assumiu a vaga de vereadora em 2025 após o TRE-BA anular votos do Avante por fraude à cota de gênero, sem relação com ela).",
+      "fontes": [
+        "https://politicalivre.com.br/2025/07/delegada-e-diplomada-vereadora-de-vitoria-da-conquista-apos-tre-anular-votos-do-avante-posse-sera-na-sexta-feira/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002538769": {
+      "nome_urna": "OLIVIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece só como vítima: injúria racial, violência política de gênero e ofensas de outro deputado).",
+      "fontes": [
+        "https://www.metro1.com.br/noticias/justica/90187,mulher-e-condenada-por-injuria-racial-contra-a-deputada-olivia-santana",
+        "https://panoramadabahia.com.br/stj-mantem-acao-penal-contra-deputado-bolsonarista-por-ofensas-a-olivia-santana/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002538766": {
+      "nome_urna": "DANIEL",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): alvo de inquérito da Lava Jato no STF (delação da Odebrecht, 2017), sem desfecho encontrado (a confirmar). Reportagem de 2025 sobre emendas dele que beneficiaram a Contag (caso dos descontos do INSS) não o aponta como investigado (sem desconto).",
+      "fontes": [
+        "https://www.congressoemfoco.com.br/noticia/34775/os-parlamentares-sob-investigacao-no-stf-e-o-que-eles-dizem",
+        "https://pt.wikipedia.org/wiki/Daniel_Almeida"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Alvo do Inquérito 4390 no STF (Lava Jato, delação da Odebrecht: pedido de R$ 300 mil não declarados a candidato a prefeito de Juazeiro), aberto em 2017; desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "50002537398": {
+      "nome_urna": "MARIO NEGROMONTE JR",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca, fonte conferida): inquérito da Lava Jato (indiciamento pela PF em 2016) arquivado pelo STF em 2018. A ação penal por corrupção no STF é contra o pai, o ex-ministro Mário Negromonte (sem desconto).",
+      "fontes": [
+        "https://www.bahianoticias.com.br/noticia/221083-com-investigacao-arquivada-mario-negromonte-junior-diz-que-lava-jato-nunca-o-afetou.html",
+        "https://www.metropoles.com/brasil/deputado-investigado-por-corrupcao-e-indicado-a-comissao-de-orcamento"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Indiciado pela PF em 2016 na Lava Jato (repasses da Queiroz Galvão a deputados do PP); o Inquérito 4394 foi arquivado pelo STF (Fachin) a pedido da PGR em abril de 2018."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "50002537372": {
+      "nome_urna": "LIDICE DA MATA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.camara.leg.br/deputados/139285/biografia"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002535846": {
+      "nome_urna": "SANDRO OLIVEIRA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2024/candidatos/bahia/oliveira-dos-brejinhos/vereador/sandro-oliveira-50000"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002533183": {
+      "nome_urna": "ANDERSON NINHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.cms.ba.gov.br/vereadores/anderson-ninho"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002533156": {
+      "nome_urna": "JORDAVIO RAMOS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Jordavio_Ramos",
+        "https://www.al.ba.gov.br/deputados/deputado-estadual/932101"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002532691": {
+      "nome_urna": "ALEX DA PIATÃ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.al.ba.gov.br/deputados/deputado-estadual/921263"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002536042": {
+      "nome_urna": "MILITÃO DOURADO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2024/candidatos/bahia/lapao/vereador/militao-dourado-44123"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002532564": {
+      "nome_urna": "JURAILTON SANTOS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.al.ba.gov.br/deputados/deputado-estadual/926897"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002532550": {
+      "nome_urna": "JOSÉ DE ARIMATEIA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o 'Arimateia' condenado a 14 anos nas notícias é outra pessoa).",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Jos%C3%A9_de_Arimat%C3%A9ia_(pol%C3%ADtico)"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002532538": {
+      "nome_urna": "CHARLIANE SOUSA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TRE-BA e TJBA sem classe nem papel visíveis).",
+      "fontes": [
+        "https://itabuna.ba.leg.br/noticias-/camara-de-itabuna-aprova-proposta-da-vereadora-charliane-sousa-e-convoca-secretario-de-saude/",
+        "https://www.jusbrasil.com.br/processos/nome/589655372/charliane-sousa-da-silva"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002532530": {
+      "nome_urna": "ANGELO CORONEL FILHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Angelo_Coronel_Filho"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002538682": {
+      "nome_urna": "EDUARDO SALLES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "Busca na web (2026-09-25): \"Eduardo Salles\" deputado estadual BA processo OR investigado OR condenado -- resultados só sobre homônimos (Ricardo Salles) e outro deputado"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002538664": {
+      "nome_urna": "SILVIO HUMBERTO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (em 2025 um ativista o acusou publicamente de não cumprir acordos de campanha; o vereador registrou queixa por extorsão e difamação contra ele; não há processo contra o vereador).",
+      "fontes": [
+        "https://www.psnoticias.com.br/politica/oposicao-na-camara-manifesta-apoio-a-silvio-humberto-apos-denuncia-de-extorsao-e-difamacao/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002537854": {
+      "nome_urna": "FABRÍCIO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Fabr%C3%ADcio_Falc%C3%A3o"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002537850": {
+      "nome_urna": "JOÃO FELIPE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://cmbarreiras.ba.gov.br/joao-felipe/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002537847": {
+      "nome_urna": "ROBERTO CARLOS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca, 1 de confirmação e fontes conferidas): condenado pelo TJ-BA em 2024 a 6 anos e 5 meses por rachadinha na Assembleia; ele diz que o caso está encerrado e que não é inelegível, sem explicar como (a confirmar).",
+      "fontes": [
+        "https://noticiasdabahia.com.br/esquema-de-rachadinha-alba/",
+        "https://www.bahianoticias.com.br/noticia/307314-roberto-carlos-nega-inelegibilidade-e-afirma-que-nao-possui-pendencias-na-justica-sou-candidatissimo",
+        "https://marcoscangussu.com.br/interna/deputado-estadual-roberto-carlos-e-condenado-em-mais-de-seis-anos-por-esquema-de-rachadinha"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado pelo TJ-BA (foro de deputado estadual, decisão colegiada) em nov/2024 a 6 anos, 5 meses e 15 dias em regime semiaberto, mais multa, por rachadinha no gabinete na Assembleia (2008-2010: parentes como assessores fantasmas). Em ago/2025 disse que o caso 'transitou em julgado, acabou' e apresentou certidão do TSE sem processos em andamento; não se achou se a pena foi extinta ou prescrita. Registro de 2026 aguardando julgamento. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "50002535892": {
+      "nome_urna": "HILTON COELHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de um pedido de 15 vereadores de Salvador à Assembleia por quebra de decoro (entrada no plenário da Câmara com sindicalistas), sem sanção encontrada (sem desconto).",
+      "fontes": [
+        "https://aratuon.com.br/politica/invasao-na-camara-vereadores-pedem-investigacao-contra-hilton-coelho/"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002537696": {
+      "nome_urna": "PROF. LEANDRO SANSON",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (advogado e professor de Direito).",
+      "fontes": [
+        "https://www.escavador.com/sobre/5961631/leandro-carvalho-sanson"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002537681": {
+      "nome_urna": "MARTA SANTOS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de outras advogadas da Bahia, sem relação com ela).",
+      "fontes": [
+        "Busca na web (2026-09-25): \"Marta Santos\" advogada NOVO Bahia processo OR investigada OR condenada -- nenhum resultado sobre a candidata"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "50002532657": {
+      "nome_urna": "ABILIO SANTANA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado contra ele; aparece como vítima de extorsão de uma ex-assessora, condenada pelo TJ-BA em 2025 (a juíza registrou que não há investigação contra ele).",
+      "fontes": [
+        "https://www.bnews.com.br/noticias/politica/ex-assessora-e-condenada-por-extorsao-contra-deputado-abilio-santana-na-bahia.html",
+        "https://www.camara.leg.br/deputados/204554/biografia"
+      ],
+      "pesquisado_em": "2026-09-25",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }

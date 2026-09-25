@@ -180,23 +180,56 @@ Pesquisados: 43 candidatos (1 busca cada, mais confirmações quando houve sinal
 - Deputado Estadual · Estatista-autoritário: vazio
 
 
+### BA
+
+Pesquisados: 29 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **ROBERTO CARLOS** (PV, Deputado Estadual), idoneidade pessoal 6, geral 8: Busca rápida na internet (1 busca, 1 de confirmação e fontes conferidas): condenado pelo TJ-BA em 2024 a 6 anos e 5 meses por rachadinha na Assembleia; ele diz que o caso está encerrado e que não é inelegível, sem explicar como (a confirmar).
+- **ADOLFO VIANA** (PSDB, Deputado Federal), idoneidade pessoal 7, geral 8: Busca rápida na internet (1 busca, fontes conferidas): citado em documentos apreendidos pela PF em duas apurações (obras superfaturadas com emendas dele, 2025; lista na casa de Ciro Nogueira, 2026), sem ser investigado formalmente; investigação eleitoral de 2018 arquivada.
+- **MAURICIO TRINDADE** (PSDB, Deputado Federal), idoneidade pessoal 9, geral 9: Busca rápida na internet (1 busca e 1 de confirmação): réu por tráfico de influência em denúncia recebida pelo STF (fato de 1997, como vereador de Salvador), sem desfecho encontrado (a confirmar).
+- **DUDA DE ALAN SANCHES** (PSDB, Deputado Federal), idoneidade pessoal 9, geral 9: denúncia anônima ao MP-BA por suposta compra de votos e uso de espaço público arquivada por falta de indícios (2026). Um assessor foi preso numa operação contra o tráfico e exonerado; o vereador não é alvo (sem desconto).
+- **DANIEL** (PCDOB, Deputado Federal), idoneidade pessoal 9, geral 9.5: alvo de inquérito da Lava Jato no STF (delação da Odebrecht, 2017), sem desfecho encontrado (a confirmar). Reportagem de 2025 sobre emendas dele que beneficiaram a Contag (caso dos descontos do INSS) não o aponta como investigado (sem desconto).
+- **MARIO NEGROMONTE JR** (PSB, Deputado Federal), idoneidade pessoal 9, geral 9.5: Busca rápida na internet (1 busca, fonte conferida): inquérito da Lava Jato (indiciamento pela PF em 2016) arquivado pelo STF em 2018. A ação penal por corrupção no STF é contra o pai, o ex-ministro Mário Negromonte (sem desconto).
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- MAURICIO TRINDADE (PSDB, Deputado Federal): Busca rápida na internet (1 busca e 1 de confirmação): réu por tráfico de influência em denúncia recebida pelo STF (fato de 1997, como vereador de Salvador), sem desfecho encontrado (a confirmar).
+- DANIEL (PCDOB, Deputado Federal): alvo de inquérito da Lava Jato no STF (delação da Odebrecht, 2017), sem desfecho encontrado (a confirmar). Reportagem de 2025 sobre emendas dele que beneficiaram a Contag (caso dos descontos do INSS) não o aponta como investigado (sem desconto).
+- ROBERTO CARLOS (PV, Deputado Estadual): Busca rápida na internet (1 busca, 1 de confirmação e fontes conferidas): condenado pelo TJ-BA em 2024 a 6 anos e 5 meses por rachadinha na Assembleia; ele diz que o caso está encerrado e que não é inelegível, sem explicar como (a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: ABILIO SANTANA (PSDB 4533), PROF. LEANDRO SANSON (NOVO 3044), MARTA SANTOS (NOVO 3011)
+- Deputado Federal · Direita conservadora: KEL TORRES (REPUBLICANOS 1080), LÉO PRATES (REPUBLICANOS 1044), MÁRCIO MARINHO (REPUBLICANOS 1010)
+- Deputado Federal · Esquerda progressista: LIDICE DA MATA (PSB 4040), OLIVIA (PCDOB 6550), SANDRO OLIVEIRA (PSOL 5012) — sorteio entre 3 empatados
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: ANDERSON NINHO (PSDB 45300), JORDAVIO RAMOS (PSDB 45555), ALEX DA PIATÃ (PSD 55000)
+- Deputado Estadual · Direita conservadora: MILITÃO DOURADO (REPUBLICANOS 10155), CHARLIANE SOUSA (REPUBLICANOS 10888), JOSÉ DE ARIMATEIA (REPUBLICANOS 10456) — sorteio entre 5 empatados
+- Deputado Estadual · Esquerda progressista: FABRÍCIO (PCDOB 65333), HILTON COELHO (PSOL 50150), EDUARDO SALLES (PV 43222) — sorteio entre 5 empatados
+- Deputado Estadual · Estatista-autoritário: vazio
+
+
 ## Situação e próximos passos
 
-- **Estados fechados (3 de 27):** SP (64 pesquisados), MG (44), RJ (43). Total: 151 candidatos, 38 com achado que
-  descontou e 10 marcados "a confirmar". Nos três, todos os finalistas foram pesquisados e nenhum empatado ficou de fora.
+- **Estados fechados (4 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29). Total: 180 candidatos, 44 com achado
+  que descontou e 13 marcados "a confirmar". Nos quatro, todos os finalistas foram pesquisados e nenhum empatado ficou
+  de fora.
 - **Achados mais graves:** Euclydes Pettersen/MG (2 ações penais e indiciamento no caso do INSS, nota 2), Lucas
   Cardoso/SP (condenação por estelionato confirmada pelo TJSP e registro impugnado, nota 4), Luiz Fernando Faria/MG
-  (réu na Lava Jato, nota 6), Luiz Martins/RJ (réu na Furna da Onça, nota 7). Todos saíram da lista de finalistas.
+  (réu na Lava Jato, nota 6), Roberto Carlos/BA (condenado pelo TJ-BA por rachadinha, nota 6), Luiz Martins/RJ (réu na
+  Furna da Onça, nota 7). Todos saíram da lista de finalistas.
 - **A confirmar com prioridade** (sinal grave sem confirmação, sem desconto): Jhony Sasaki/SP (ação de rachadinha
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 24 estados**, na ordem de população: BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
+- **Faltam 23 estados**, na ordem de população: PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
 - **Anotado para o AM:** o deputado federal Adail Filho (MDB) foi alvo da PF em 16/09/2026 (Operação Dinastia do
   Lago: fraude em licitações, desvio, corrupção e lavagem) — apareceu por acaso numa busca de MG.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09 (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, BA em seguida (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
