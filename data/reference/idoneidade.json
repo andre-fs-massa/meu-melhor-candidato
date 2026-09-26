@@ -11956,14 +11956,15 @@
       "nome_urna": "VAVÁ MARTINS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Vav%C3%A1_Martins",
         "https://www.camara.leg.br/deputados/204505/biografia"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002551856": {
       "nome_urna": "ANA RAQUEL",
@@ -11981,13 +11982,14 @@
       "nome_urna": "DR. FERNANDO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado sobre o candidato (o nome é comum: centenas de processos de homônimos no TJPA, sem como identificar o dele).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado sobre o candidato (o nome é comum: centenas de processos de homônimos no TJPA, sem como identificar o dele). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.jusbrasil.com.br/processos/nome/27857528/fernando-costa-da-silva"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002551852": {
       "nome_urna": "DR. ALAILSON",
@@ -12017,26 +12019,30 @@
       "nome_urna": "OLIVAL MARQUES",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de processos eleitorais sem detalhe no Jusbrasil.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de processos eleitorais sem detalhe no Jusbrasil. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.camara.leg.br/deputados/204498",
-        "https://www.jusbrasil.com.br/processos/nome/68309211/olival-henrique-marques-de-souza"
+        "https://www.jusbrasil.com.br/processos/nome/68309211/olival-henrique-marques-de-souza",
+        "https://en.wikipedia.org/wiki/Olival_Marques"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002540476": {
       "nome_urna": "LU OGAWA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): só aparece como autor de ação contra um jornalista (rejeitada pelo TRE-PA); nada contra ele.",
+      "motivo": "Busca rápida na internet (1 busca): só aparece como autor de ação contra um jornalista (rejeitada pelo TRE-PA); nada contra ele. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
-        "https://www.jesocarneiro.com.br/para/tre-barra-censura-do-deputado-lu-ogawa-ao-jc-e-reafirma-liberdade-de-imprensa-em-decisao-unanime.html"
+        "https://www.jesocarneiro.com.br/para/tre-barra-censura-do-deputado-lu-ogawa-ao-jc-e-reafirma-liberdade-de-imprensa-em-decisao-unanime.html",
+        "https://pt.wikipedia.org/wiki/Lu_Ogawa"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002540470": {
       "nome_urna": "HENDERSON PINTO",
@@ -12081,14 +12087,21 @@
     "140002540457": {
       "nome_urna": "KENISTON BRAGA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "nota": 8,
+      "motivo": "Busca rápida na internet em 2 rodadas (2 buscas): réu em ação de improbidade do MPPA como ex-gestor da prefeitura de Parauapebas (2025), sem desfecho encontrado.",
       "fontes": [
-        "https://kenistonbraga.com.br/biografia-do-keniston/"
+        "https://kenistonbraga.com.br/biografia-do-keniston/",
+        "https://oantagonico.net.br/parauapebas-o-darci-lermen-o-keniston-a-improbidade-o-mp-e-a-acao-civil-publica"
       ],
       "pesquisado_em": "2026-09-25",
-      "achados": [],
-      "origem": "busca_finalistas"
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Réu em ação civil pública por improbidade do MPPA (4ª Promotoria de Parauapebas, set/2025, processo 0815287-09.2025.8.14.0040) como ex-gestor municipal, com o ex-prefeito Darci Lermen e outros; o MP pede ressarcimento de R$ 205 mil e multa civil. Desfecho não encontrado."
+        }
+      ],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002540455": {
       "nome_urna": "ADRIANO COELHO",
@@ -12111,14 +12124,22 @@
     "140002540454": {
       "nome_urna": "RENILCE NICODEMOS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): só aparece como vítima (violência política de gênero de um ex-deputado); nada contra ela.",
+      "nota": 9,
+      "motivo": "Busca rápida na internet em 2 rodadas (3 buscas): apuração do MPPA sobre a empresa de um irmão em contratos da Secretaria de Esporte, arquivada em 2018 sem irregularidade. O Jusbrasil lista 68 processos com o nome (a maioria no TRE-PA), sem outra sanção identificada.",
       "fontes": [
-        "https://www.oliberal.com/politica/vitima-de-toda-sorte-de-crimes-diz-renilce-nicodemos-sobre-wladimir-costa-preso-pela-pf-1.804551"
+        "https://www.oliberal.com/politica/vitima-de-toda-sorte-de-crimes-diz-renilce-nicodemos-sobre-wladimir-costa-preso-pela-pf-1.804551",
+        "https://aprovinciadopara.com.br/renilce-nicodemos-trajetoria-atuacao-publica-e-os-registros-que-ajudam-a-compreender-a-deputada-paraense/",
+        "https://www.jusbrasil.com.br/processos/nome/212208126/renilce-conceicao-nicodemos-de-albuquerque"
       ],
       "pesquisado_em": "2026-09-25",
-      "achados": [],
-      "origem": "busca_finalistas"
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Quando era secretária de Esporte e Lazer do Pará, o MPPA apurou se a empresa de um irmão dela se beneficiava de contratos da Seel; o Conselho Superior do MP homologou o arquivamento em 2018 porque não foram encontradas relações contratuais entre a Seel e a empresa (apuração arquivada, −1 pela tabela)."
+        }
+      ],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002536956": {
       "nome_urna": "OZORIO JUVENIL",
@@ -12142,25 +12163,28 @@
       "nome_urna": "VIVI REIS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
-        "https://cmb.pa.gov.br/vivi-reis/"
+        "https://cmb.pa.gov.br/vivi-reis/",
+        "https://en.wikipedia.org/wiki/Vivi_Reis"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002540622": {
       "nome_urna": "PROF. THIAGO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.itaituba.pa.leg.br/processo-legislativo/copy_of_parlamentares/vereador-thiago"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002540616": {
       "nome_urna": "UBIRAJARA SOMPRE",
@@ -12178,33 +12202,38 @@
       "nome_urna": "DR. FLAVIO NOBRE",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://cma.pa.gov.br/vereadores/dr-flavio/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002551338": {
       "nome_urna": "PR. JUNIOR BRAGA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002551334": {
       "nome_urna": "NEYLA BRAGA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
-      "fontes": [],
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
+      "fontes": [
+        "https://www.escavador.com/nomes/neyla-lucia-dos-santos-braga-tavares-23a598d6d8"
+      ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002544268": {
       "nome_urna": "ALEXANDRE GOMES",
@@ -12232,13 +12261,14 @@
       "nome_urna": "PATRICIA PERDIGÃO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.otempo.com.br/eleicoes/2026/candidatos/para/deputado-estadual/patricia-perdigao-20320"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002551149": {
       "nome_urna": "FÁBIO FREITAS",
@@ -12256,14 +12286,16 @@
       "nome_urna": "PAULA TITAN",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada contra ela; a condenação por improbidade encontrada é do pai, o ex-prefeito Paulo Titan.",
+      "motivo": "Busca rápida na internet (1 busca): nada contra ela; a condenação por improbidade encontrada é do pai, o ex-prefeito Paulo Titan. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://alepa.pa.gov.br/Institucional/Deputado/1045",
-        "https://ver-o-fato.com.br/castanhal-ex-prefeito-paulo-titan-e-condenado-por-fraude-em-obra-da-saude"
+        "https://ver-o-fato.com.br/castanhal-ex-prefeito-paulo-titan-e-condenado-por-fraude-em-obra-da-saude",
+        "https://en.wikipedia.org/wiki/Paula_Titan"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002551138": {
       "nome_urna": "DIANA BELO",
@@ -12286,11 +12318,12 @@
       "nome_urna": "DR. RENAN LAURIA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002551126": {
       "nome_urna": "VICTOR DIAS",
@@ -12354,13 +12387,14 @@
       "nome_urna": "ANDREIA XARÃO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Andreia_Xar%C3%A3o"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002541724": {
       "nome_urna": "MARTINHO CARMONA",
@@ -12417,13 +12451,15 @@
       "nome_urna": "GLEISSON",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
-        "https://cmb.pa.gov.br/a-camara/vereadores/gleisson-oliveira/"
+        "https://cmb.pa.gov.br/a-camara/vereadores/gleisson-oliveira/",
+        "https://cmb.pa.gov.br/gleisson-oliveira"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002548978": {
       "nome_urna": "FÁBIO FIGUEIRAS",
@@ -12441,25 +12477,28 @@
       "nome_urna": "LÍVIA DUARTE",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.alepa.pa.gov.br/Institucional/Deputado/1043"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002544302": {
       "nome_urna": "MARINOR BRITO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
-        "https://pt.wikipedia.org/wiki/Marinor_Brito"
+        "https://pt.wikipedia.org/wiki/Marinor_Brito",
+        "https://www.escavador.com/sobre/1504304/marinor-jorge-brito"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002535434": {
       "nome_urna": "GILSON MARQUES",
@@ -20729,6 +20768,62 @@
           "descricao": "Réu em ação civil pública por improbidade movida pelo município de Fazenda Rio Grande. Desfecho não encontrado."
         }
       ],
+      "origem": "busca_finalistas"
+    },
+    "140002538958": {
+      "nome_urna": "RODRIGO SANTARÉM",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (as páginas de candidatos registram desistência da candidatura, com renúncia homologada pela Justiça Eleitoral). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/eleicoes/2026/candidatos/pa/deputado-federal/rodrigo-santarem-republicanos-1077/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
+    },
+    "140002536958": {
+      "nome_urna": "RITA PINHO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/para/deputado-federal/rita-pinho-1012"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002536955": {
+      "nome_urna": "DR. MOISES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a busca só trouxe homônimos).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "140002536952": {
+      "nome_urna": "VALÉRIA PRADO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a busca só trouxe homônimas). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
+    },
+    "140002536951": {
+      "nome_urna": "DRA GISELE MAINARD",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
       "origem": "busca_finalistas"
     }
   }

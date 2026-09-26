@@ -1194,7 +1194,13 @@ extra, quem entra na lista no lugar de um finalista também passa pelas duas rod
 - **CE** (18 finalistas): nenhum achado novo; a lista não mudou. O resultado do julgamento da perda de mandato de Gardel
   Rolim por infidelidade (TRE-CE, 29/06/2026) continua não encontrado. Vários finalistas aparecem em listagens de
   processos (Jusbrasil) sem nenhum processo ou sanção identificada.
-- **Faltam:** PA e SC.
+- **PA** (18 finalistas na 2ª rodada + 5 empatados novos na 1ª): saíram Keniston Braga (réu em ação de improbidade do
+  MPPA como ex-gestor de Parauapebas, 2025, nota 8) e Renilce Nicodemos (apuração do MPPA sobre a empresa de um irmão
+  em contratos da Secretaria de Esporte, arquivada em 2018 sem irregularidade; −1 pela régua de apuração arquivada,
+  nota 9). No bloco de 5 empatados do Republicanos federal, nada encontrado; entraram Valéria Prado e Rodrigo Santarém.
+  **Atenção:** as páginas de candidatos registram que Rodrigo Santarém desistiu da candidatura (renúncia homologada);
+  o arquivo do TSE de 20/09 não traz a situação da candidatura (decisão pendente com o usuário).
+- **Falta:** SC.
 
 ## Situação e próximos passos
 
