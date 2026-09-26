@@ -689,10 +689,52 @@ condenação revertida (−2). Saíram do topo Romero Rodrigues (réu na Operaç
 incitação ao ódio contra a população LGBTQIA+, nota 5), Wilson Santiago (réu na Operação Pés de Barro, nota 7) e
 Aguinaldo Ribeiro (condenação por improbidade de instância não confirmada, nota 7). Duas rodadas de reposição.
 
+### MT
+
+Pesquisados: 35 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **ALTIR PERUZZO** (PT, Deputado Federal), idoneidade pessoal 6, geral 7.5: Busca rápida na internet (1 busca e fonte conferida): condenação por improbidade como prefeito de Juína confirmada pelo TJMT; registro deferido em 2026 por falta de enriquecimento ilícito declarado.
+- **FÁBIO GARCIA** (UNIÃO, Deputado Federal), idoneidade pessoal 7, geral 8: alvo da operação Heritage da PF (2026), com bloqueio de bens, e condenado por danos morais a Emanuel Pinheiro. A investigação de um assessor por atuar como falso terapeuta não é contra ele.
+- **CAIO CORDEIRO** (NOVO, Deputado Federal), idoneidade pessoal 8, geral 9: condenação por danos morais revertida no recurso e recomendação do MP à Câmara para apurar decoro, sem desfecho encontrado (a confirmar).
+- **ELIZEU NASCIMENTO** (NOVO, Deputado Estadual), idoneidade pessoal 8, geral 9: alvo da operação Emenda Oculta (2026) sobre desvio de emendas parlamentares, com dinheiro apreendido e bens bloqueados.
+- **JUCA DO GUARANÁ** (PSDB, Deputado Estadual), idoneidade pessoal 8, geral 8.5: investigado pela Polícia Civil no caso dos kits agrícolas pagos com emendas (2024).
+- **MAYSA LEÃO** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 8, geral 9: pedido de cassação e inquérito do MP arquivados; queixa-crime por crimes contra a honra extinta.
+- **PROFESSORA ROSA NEIDE** (PT, Deputado Federal), idoneidade pessoal 8, geral 8.5: condenada por danos morais por fake news contra deputados; inquérito da Seduc suspenso pelo STF, com as provas anuladas.
+- **MAGALY** (PP, Deputado Federal), idoneidade pessoal 9, geral 9: notícia de fato do MPMT sobre contrato da secretaria que chefiava, arquivada sem indícios.
+- **ANTERO** (PV, Deputado Federal), idoneidade pessoal 9, geral 9.5: multa por propaganda negativa antecipada e representação por publicações contra Mauro Mendes (2026).
+- **VALDENIRIA DUTRA** (PODE, Deputado Estadual), idoneidade pessoal 9, geral 9: apuração do MPMT sobre possível conflito de interesses arquivada por falta de elementos.
+- **CRISTIANO BICÔ** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 9, geral 9.5: pedido de cassação por suposta rachadinha arquivado pela Câmara, com cópia enviada ao MP e à polícia (a confirmar).
+- **WENDER MADUREIRA FILHO** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 9, geral 9.5: boletim de ocorrência por suspeita de violação de domicílio em fiscalização de maus-tratos a animais (2026), sem desfecho encontrado (a confirmar).
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- CAIO CORDEIRO (NOVO, Deputado Federal): condenação por danos morais revertida no recurso e recomendação do MP à Câmara para apurar decoro, sem desfecho encontrado (a confirmar).
+- CRISTIANO BICÔ (REPUBLICANOS, Deputado Estadual): pedido de cassação por suposta rachadinha arquivado pela Câmara, com cópia enviada ao MP e à polícia (a confirmar).
+- WENDER MADUREIRA FILHO (REPUBLICANOS, Deputado Federal): boletim de ocorrência por suspeita de violação de domicílio em fiscalização de maus-tratos a animais (2026), sem desfecho encontrado (a confirmar).
+- DR.. FLAVIANE RAMALHO (NOVO, Deputado Estadual): nada confirmado: registro deferido pelo TRE-MT sem certidões criminais positivas (vetado só o nome 'Flaviane do Bolsonaro'); um juiz que ela acusou de assédio (2018) afirmou tê-la condenado em 2010 a pagar R$ 60 mil, sem fonte que detalhe o processo (não desconta; a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: CORONEL ROVERI (PODE 2044), GISA BARROS (PODE 2050), DOUTORA DÉBORA (NOVO 3003) — sorteio entre 3 empatados
+- Deputado Federal · Direita conservadora: EDUARDO MAGALHÃES (REPUBLICANOS 1023), CESAR LIMA (DEMOCRATA 3522), DR. LEONARDO (REPUBLICANOS 1000) — sorteio entre 3 empatados
+- Deputado Federal · Esquerda progressista: JOSÉ ROBERTO (PSOL 5050), MARCELO TERRA (PDT 1222), ANDREIA SCHWARZ (PDT 1230) — sorteio entre 3 empatados
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: DRA. ANA ROSA JOB (NOVO 30030), MISSIONÁRIA ELAINE BELUSSI (NOVO 30555), DR.. FLAVIANE RAMALHO (NOVO 30022) — sorteio entre 4 empatados
+- Deputado Estadual · Direita conservadora: SANDRA DONATO (REPUBLICANOS 10800), ADEMIR DEBORTOLI (REPUBLICANOS 10500), PAULO ARAÚJO (REPUBLICANOS 10456)
+- Deputado Estadual · Esquerda progressista: DOUTOR JOSUÉ (PCDOB 65013), CARLOS WAGNER (PV 43456), ROSENWAL RODRIGUES (PV 43123) — sorteio entre 4 empatados
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do MT: saíram do topo Altir Peruzzo (improbidade confirmada pelo TJMT, nota 6), Fábio Garcia (alvo da
+operação Heritage da PF em 2026, nota 7), Elizeu Nascimento (operação Emenda Oculta, 2026) e Juca do Guaraná
+(investigação dos kits agrícolas pagos com emendas), entre outros; uma rodada de reposição com 14 empatados. Flaviane
+Ramalho, finalista estadual, tem um "a confirmar" sem desconto (alegação de um juiz sobre condenação cível de 2010).
+
 ## Situação e próximos passos
 
-- **Estados fechados (15 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27). Total: 587 candidatos, 178 com achado que descontou e 70 marcados "a confirmar". Nos quinze, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (16 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35). Total: 622 candidatos, 190 com achado que descontou e 74 marcados "a confirmar". Nos dezesseis, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -715,10 +757,10 @@ Aguinaldo Ribeiro (condenação por improbidade de instância não confirmada, n
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 12 estados**, na ordem de população: MT, RN, PI, AL, DF,
+- **Faltam 11 estados**, na ordem de população: RN, PI, AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES e PB (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB e MT (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o

@@ -15206,6 +15206,473 @@
       "pesquisado_em": "2026-09-26",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "110002543922": {
+      "nome_urna": "CAIO CORDEIRO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): condenação por danos morais revertida no recurso e recomendação do MP à Câmara para apurar decoro, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.vgnoticias.com.br/vgnjur/vereador-de-vg-e-condenado-por-distorcer-informacao/130023",
+        "https://www.varzeagrande.mt.leg.br/institucional/noticias/justica-reconhece-atuacao-de-caio-cordeiro-e-reformula-decisao-em-processo-sobre-fiscalizacao-do-transporte-publico",
+        "https://sounews.com.br/promotoria-recomenda-a-camara-avaliacao-de-conduta-de-vereador/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Condenado em 1ª instância a pagar R$ 5 mil de danos morais (com uma TV) por expor como suspeito um gerente de empresa de ônibus; a Turma Recursal reformou e julgou o pedido improcedente."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "A Promotoria recomendou à Câmara de Várzea Grande avaliar, com base em inquérito civil, eventual quebra de decoro dele e abertura de processo ético-disciplinar; desfecho não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "110002540128": {
+      "nome_urna": "CORONEL ROVERI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002540125": {
+      "nome_urna": "GISA BARROS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: boletins de ocorrência recíprocos depois de bate-boca com outra vereadora (2026), sem apuração encontrada contra ela.",
+      "fontes": [
+        "https://www.muvucapopular.com.br/2026/05/20/briga-de-vereadoras-em-varzea-grande-termina-com-registros-de-boletim-de-ocorrencia/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002550865": {
+      "nome_urna": "MAGALY",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): notícia de fato do MPMT sobre contrato da secretaria que chefiava, arquivada sem indícios.",
+      "fontes": [
+        "https://odocumento.com.br/mp-arquiva-denuncia-contra-vereadora-sobre-contrato-de-r-670-mil-firmado-por-prefeitura-em-mt/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "O MPMT arquivou notícia de fato sobre contrato emergencial de R$ 670 mil da Secretaria de Assistência Social de Cáceres, que ela comandava, por falta de indícios de irregularidade ou favorecimento."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "110002550863": {
+      "nome_urna": "FÁBIO GARCIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca): alvo da operação Heritage da PF (2026), com bloqueio de bens, e condenado por danos morais a Emanuel Pinheiro. A investigação de um assessor por atuar como falso terapeuta não é contra ele.",
+      "fontes": [
+        "https://www.folhamax.com/politica/fg-e-apontado-como-um-dos-alvos-centrais/566283",
+        "https://www.spzonline.com.br/noticia/decisao-do-stf-impede-contato-entre-mauro-mendes-e-fabio-garcia-e-pode-afetar-agenda-eleitoral-em-mato-grosso",
+        "https://www.olhardireto.com.br/juridico/noticias/fabio-garcia-e-condenado-a-pagar-indenizacao-a-emanuel-pinheiro-por-danos-morais"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Um dos alvos centrais da operação Heritage da PF (2026), autorizada por Flávio Dino no STF, sobre acordo do governo de Mato Grosso com a Oi que teria causado prejuízo de R$ 308 milhões; teve bens bloqueados e proibição de contato com o ex-governador Mauro Mendes. Desistiu de ser vice-governador."
+        },
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado a pagar R$ 5 mil de danos morais ao prefeito de Cuiabá Emanuel Pinheiro por entrevista de 2022."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "110002549182": {
+      "nome_urna": "EDUARDO MAGALHÃES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002548593": {
+      "nome_urna": "JOSÉ ROBERTO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002542608": {
+      "nome_urna": "ALTIR PERUZZO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca e fonte conferida): condenação por improbidade como prefeito de Juína confirmada pelo TJMT; registro deferido em 2026 por falta de enriquecimento ilícito declarado.",
+      "fontes": [
+        "https://www.folhamax.com/politica/tre-cita-condenacao-sem-dolo-e-libera-candidatura-de-petista-em-mt/570943"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado por improbidade administrativa como prefeito de Juína (2ª Vara de Juína, sentença mantida pelo TJMT): ressarcimento ao erário e suspensão dos direitos políticos por 5 anos. O registro de 2026 foi deferido porque a sentença não declarou enriquecimento ilícito no dispositivo (requisito da Ficha Limpa)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "110002542604": {
+      "nome_urna": "ANTERO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): multa por propaganda negativa antecipada e representação por publicações contra Mauro Mendes (2026).",
+      "fontes": [
+        "https://www.spzonline.com.br/noticia/justica-eleitoral-multa-antero-em-r-15-mil-por-propaganda-negativa-contra-pivetta",
+        "https://www.midiajur.com.br/eleicoes-2026/mpe-pede-condenacao-de-antero-por-publicacoes-contra-mauro-mendes/84403"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multa de R$ 15 mil da Justiça Eleitoral por propaganda antecipada negativa contra o governador Otaviano Pivetta, e representação (com parecer do MPE pela condenação) por publicações contra Mauro Mendes mantidas no ar depois de ordem de retirada (2026)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "110002543944": {
+      "nome_urna": "ELIZEU NASCIMENTO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): alvo da operação Emenda Oculta (2026) sobre desvio de emendas parlamentares, com dinheiro apreendido e bens bloqueados.",
+      "fontes": [
+        "https://www.jlnoticias.com.br/noticia/investigacao-aponta-saques-apos-liberacao-de-emendas-e-mira-mais-de-r-7-milhoes-ligados-a-deputado-e-vereador-em-mt",
+        "https://www.sapicua.com.br/justica-nega-afastamento-do-deputado-elizeu-e-vereador-cezinha-alvos-da-operacao-emenda-oculta"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo da operação Emenda Oculta (abr/2026), do Naco do MPMT, sobre desvio de mais de R$ 7 milhões em emendas para institutos ligados a ele, com saques em espécie após a liberação; R$ 150 mil em dinheiro apreendidos na casa dele, bens bloqueados; a Justiça negou o afastamento do mandato."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "110002542641": {
+      "nome_urna": "VALDENIRIA DUTRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): apuração do MPMT sobre possível conflito de interesses arquivada por falta de elementos.",
+      "fontes": [
+        "https://www.unicanews.com.br/politica/mp-nao-ve-indicios-de-irregularidade-e-arquiva-denuncia-que-citava-vereadora-de-caceres/141560"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "O MPMT pediu explicações sobre possível conflito de interesses num parecer assinado pela filha dela, procuradora do município de Cáceres, e arquivou por falta de elementos."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "110002541760": {
+      "nome_urna": "JUCA DO GUARANÁ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): investigado pela Polícia Civil no caso dos kits agrícolas pagos com emendas (2024).",
+      "fontes": [
+        "https://www.bnews.com.br/noticias/politica/policia-civil-investiga-14-deputados-acusados-de-desvio-em-emendas-parlamentares-saiba-quais.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Um dos 14 deputados investigados pela Polícia Civil de MT (operação de set/2024) por suposto desvio em emendas parlamentares para compra de kits agrícolas, com prejuízo estimado de R$ 28 milhões; ele nega."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "110002547812": {
+      "nome_urna": "SANDRA DONATO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: é vítima em investigação do MPF sobre crime político contra ela.",
+      "fontes": [
+        "https://www.olhardireto.com.br/juridico/noticias/mpf-nao-declina-competencia-e-investigara-crime-politico-contra-vereadora-de-sinop"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002547806": {
+      "nome_urna": "ADEMIR DEBORTOLI",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002547804": {
+      "nome_urna": "CRISTIANO BICÔ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): pedido de cassação por suposta rachadinha arquivado pela Câmara, com cópia enviada ao MP e à polícia (a confirmar).",
+      "fontes": [
+        "https://www.rdnews.com.br/legislativo/camara-de-nova-mutum-absolve-vereador-acusado-da-pratica-de-rachadinha/216868"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Processo de cassação na Câmara de Nova Mutum por suposta rachadinha, denunciada por ex-assessor, arquivado por 9 a 4 (a comissão viu vingança do denunciante); cópia enviada ao MP, à Polícia Civil e à Justiça Eleitoral, sem desfecho encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "110002547803": {
+      "nome_urna": "MAYSA LEÃO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): pedido de cassação e inquérito do MP arquivados; queixa-crime por crimes contra a honra extinta.",
+      "fontes": [
+        "https://omatogrosso.com/judiciario/pedido-de-cassacao-contra-vereadora-maysa-leao-e-arquivado-por-unanimidade/",
+        "https://24horasmt.com.br/justica/tribunal-da-vitoria-processual-a-maysa-leao-e-arquiva-queixa-de-cattani/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Pedido de cassação por exposição de uma adolescente vítima de estupro em audiência pública, arquivado por unanimidade pela Câmara de Cuiabá; inquérito do MP sobre o mesmo fato também arquivado."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Queixa-crime do deputado Cattani por calúnia, difamação e injúria extinta pela 2ª Câmara Criminal do TJMT."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "110002547800": {
+      "nome_urna": "PAULO ARAÚJO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002543210": {
+      "nome_urna": "ROSENWAL RODRIGUES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002543202": {
+      "nome_urna": "DOUTOR JOSUÉ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002543200": {
+      "nome_urna": "CARLOS WAGNER",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002543195": {
+      "nome_urna": "RONI VALTER",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002543925": {
+      "nome_urna": "VINICIUS SANTANA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002543923": {
+      "nome_urna": "CARLOS DORILÊO JR",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como advogado em processos de clientes).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002543920": {
+      "nome_urna": "DOUTORA DÉBORA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002551940": {
+      "nome_urna": "IRENE LOPES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002549185": {
+      "nome_urna": "WENDER MADUREIRA FILHO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): boletim de ocorrência por suspeita de violação de domicílio em fiscalização de maus-tratos a animais (2026), sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://matogrossomais.com.br/vereador-entra-em-imovel-para-fiscalizar-caes-e-moradora-acaba-detida-em-varzea-grande/",
+        "https://www.rdnews.com.br/legislativo/comissao-de-etica-nao-descarta-investigacao-contra-vereador-precisamos-ser-provocados/249143"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Boletim de ocorrência (2026) por suspeita de violação de domicílio e lesão corporal depois que entrou numa casa em Várzea Grande para fiscalizar maus-tratos a cães; a moradora acabou detida e a Comissão de Ética disse que só apuraria se provocada. Desfecho não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "110002549183": {
+      "nome_urna": "DR. LEONARDO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (presidiu a CPI das OSS na Assembleia).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002547825": {
+      "nome_urna": "CESAR LIMA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002551965": {
+      "nome_urna": "MARCELO TERRA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002551964": {
+      "nome_urna": "ANDREIA SCHWARZ",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002542607": {
+      "nome_urna": "PROFESSORA ROSA NEIDE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): condenada por danos morais por fake news contra deputados; inquérito da Seduc suspenso pelo STF, com as provas anuladas.",
+      "fontes": [
+        "https://olivre.com.br/rosa-neide-e-condenada-por-fake-news-e-tera-que-indenizar-deputados-de-mt",
+        "https://www.rdnews.com.br/judiciario/conteudos/136234",
+        "https://www.gazetadigital.com.br/editorias/politica-de-mt/stf-suspende-investigao-contra-deputada-rosa-neide/590316"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenada a indenizar deputados de MT, em ação do PL, por publicação falsa (nov/2023) de que teriam votado contra a reconstrução mamária pelo SUS."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Inquérito sobre suposto desvio de R$ 1,1 milhão na compra de material para escolas indígenas quando secretária de Educação de MT (2014): o STF suspendeu a investigação e declarou nula a busca e apreensão na casa dela."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "110002543950": {
+      "nome_urna": "DRA. ANA ROSA JOB",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002543939": {
+      "nome_urna": "REGINA FERRAZ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002543937": {
+      "nome_urna": "DR.. FLAVIANE RAMALHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada confirmado: registro deferido pelo TRE-MT sem certidões criminais positivas (vetado só o nome 'Flaviane do Bolsonaro'); um juiz que ela acusou de assédio (2018) afirmou tê-la condenado em 2010 a pagar R$ 60 mil, sem fonte que detalhe o processo (não desconta; a confirmar).",
+      "fontes": [
+        "https://circuitomt.com.br/tre-defere-candidatura-de-flaviane-ramalho-mas-veta-uso-de-flaviane-do-bolsonaro-na-urna/",
+        "https://www.jornaldanoticia.com.br/2018/noticia.php?codigo=11442"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "110002543930": {
+      "nome_urna": "MISSIONÁRIA ELAINE BELUSSI",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }
