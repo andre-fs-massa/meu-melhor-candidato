@@ -11479,20 +11479,21 @@
       "nome_urna": "WELLINGTON SABOIA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos sem classe nem papel visíveis).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos sem classe nem papel visíveis). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 16 processos com o nome (a maioria no TRE-CE), sem nenhuma sanção identificada.",
       "fontes": [
         "https://www.jusbrasil.com.br/processos/nome/38279679/francisco-wellington-saboia-vitorino",
         "https://sapl.fortaleza.ce.leg.br/parlamentar/62"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002541577": {
       "nome_urna": "LUKÃO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 9,
-      "motivo": "Busca rápida na internet (1 busca): ação por fraude à cota de gênero da chapa que pedia a cassação dele rejeitada pelo TRE-CE em 2026.",
+      "motivo": "Busca rápida na internet (1 busca): ação por fraude à cota de gênero da chapa que pedia a cassação dele rejeitada pelo TRE-CE em 2026. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://cn7.com.br/tre-ce-mantem-mandato-do-vereador-lukao-em-juazeiro-do-norte/",
         "https://caririensi.com.br/2026/06/tre-ce-mantem-mandato-de-lukao-apos-julgamento-apertado-em-juazeiro-do-norte.html"
@@ -11504,7 +11505,8 @@
           "descricao": "Ação eleitoral por suposta fraude à cota de gênero da chapa PSDB-Cidadania em Juazeiro do Norte (2024) que pedia a cassação dele; o TRE-CE rejeitou em jun/2026 (4 a 3) por falta de prova."
         }
       ],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002541576": {
       "nome_urna": "ADAIL CARNEIRO",
@@ -11541,38 +11543,43 @@
       "nome_urna": "CAROL SIEBRA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
-        "https://novo.org.br/noticias/carol-siebra-pre-candidata-deputada-federal-ceara/"
+        "https://novo.org.br/noticias/carol-siebra-pre-candidata-deputada-federal-ceara/",
+        "https://www.escavador.com/sobre/715562160/carolina-barreto-siebra"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002545100": {
       "nome_urna": "BENIGNO JUNIOR",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://sapl.fortaleza.ce.leg.br/parlamentar/146"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002545098": {
       "nome_urna": "MICHEL LINS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado além do pedido do PRD de perda de mandato por infidelidade partidária (2026), sem decisão (sem desconto).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além do pedido do PRD de perda de mandato por infidelidade partidária (2026), sem decisão (sem desconto). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 38 processos com o nome (a maioria no TRE-CE), sem nenhuma sanção identificada.",
       "fontes": [
         "https://sobralonline.com.br/prd-nacional-solicita-cassacao-vereador-michel-lins/",
-        "https://sapl.fortaleza.ce.leg.br/parlamentar/201"
+        "https://sapl.fortaleza.ce.leg.br/parlamentar/201",
+        "https://www.jusbrasil.com.br/processos/nome/179255580/michel-lins-cavalcante-de-almeida"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002544112": {
       "nome_urna": "ERIKA AMORIM",
@@ -11637,13 +11644,14 @@
       "nome_urna": "AJ ALBUQUERQUE",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de homônimos de Alagoas).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de homônimos de Alagoas). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado (busca de confirmação sobre a gestão como prefeito de Massapê também sem achado; a ação penal de 'Antônio Albuquerque' nas notícias é de Alagoas, outra pessoa).",
       "fontes": [
         "https://en.wikipedia.org/wiki/AJ_Albuquerque"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002540732": {
       "nome_urna": "EDUARDO BISMARCK",
@@ -11668,25 +11676,28 @@
       "nome_urna": "RENATO ROSENO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos sem classe nem papel visíveis).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos sem classe nem papel visíveis). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 33 processos com o nome (TJCE e TRE-CE), sem nenhuma sanção identificada.",
       "fontes": [
         "https://www.jusbrasil.com.br/processos/nome/71834587/renato-roseno-de-oliveira"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002538333": {
       "nome_urna": "ADRIANA GERÔNIMO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como vítima de ameaças de morte).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como vítima de ameaças de morte). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
-        "https://www.opovo.com.br/noticias/politica/2026/07/13/vereadora-de-fortaleza-sofre-nova-ameaca-de-morte-e-estupro.html"
+        "https://www.opovo.com.br/noticias/politica/2026/07/13/vereadora-de-fortaleza-sofre-nova-ameaca-de-morte-e-estupro.html",
+        "https://www.escavador.com/sobre/12032911/adriana-geronimo-vieira-silva"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002541557": {
       "nome_urna": "SARGENTO REGINAURO",
@@ -11710,13 +11721,15 @@
       "nome_urna": "QUEIROZ FILHO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de homônimos).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de homônimos). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 29 processos com o nome (TRE-CE e TJCE), sem nenhuma sanção identificada.",
       "fontes": [
-        "Busca na web (2026-09-25): \"Queiroz Filho\" deputado estadual CE processo OR investigado OR condenado -- só homônimos"
+        "Busca na web (2026-09-25): \"Queiroz Filho\" deputado estadual CE processo OR investigado OR condenado -- só homônimos",
+        "https://www.jusbrasil.com.br/processos/nome/95630492/francisco-jose-queiroz-maia-filho"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002541543": {
       "nome_urna": "FELIPE VASQUES",
@@ -11741,13 +11754,14 @@
       "nome_urna": "PASTOR JOÃO LUÍS",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://camarajaguaribara.ce.gov.br/parlamentares/3/perfil/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002532462": {
       "nome_urna": "MARCIO JÓIAS",
@@ -11766,50 +11780,56 @@
       "nome_urna": "JULIO CESAR",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado (o nome é comum; o Escavador lista processos de homônimos).",
       "fontes": [
-        "https://camaramaracanau.ce.gov.br/vereadores/150"
+        "https://camaramaracanau.ce.gov.br/vereadores/150",
+        "https://www.escavador.com/nomes/julio-cesar-costa-lima-0388e7ff83"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002545132": {
       "nome_urna": "GARDEL ROLIM",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado além da ação de perda de mandato por infidelidade partidária movida pelo MP Eleitoral a pedido do PDT (julgamento marcado para jun/2026, resultado não encontrado; sem desconto enquanto não decretada).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além da ação de perda de mandato por infidelidade partidária movida pelo MP Eleitoral a pedido do PDT (julgamento marcado para jun/2026, resultado não encontrado; sem desconto enquanto não decretada). 2ª rodada (busca pelo nome completo, 26/09): nada novo; o resultado do julgamento da ação de perda de mandato por infidelidade no TRE-CE (marcado para 29/06/2026) continua não encontrado.",
       "fontes": [
         "https://diariodonordeste.verdesmares.com.br/pontopoder/pdt-denuncia-vereador-gardel-rolim-e-pede-perda-de-mandato-por-infidelidade-partidaria-1.3749420",
         "https://mais.opovo.com.br/colunistas/vertical/2026/06/18/tre-ce-marca-julgamento-de-ex-presidente-da-camara-municipal.html"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002545115": {
       "nome_urna": "DAVID DURAND",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/David_Durand"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002545110": {
       "nome_urna": "SILVIO NASCIMENTO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
-        "https://www.otempo.com.br/eleicoes/2024/candidatos/ceara/caucaia/vereador/silvio-nascimento-40444"
+        "https://www.otempo.com.br/eleicoes/2024/candidatos/ceara/caucaia/vereador/silvio-nascimento-40444",
+        "https://www.jusbrasil.com.br/processos/nome/87234186/silvio-alencar-martins"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002545224": {
       "nome_urna": "ROMEU ALDIGUERI",
@@ -11838,14 +11858,15 @@
       "nome_urna": "GABRIEL BIOLOGIA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (é parte em processos eleitorais de 2026, 1 no polo passivo, sem classe informada).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (é parte em processos eleitorais de 2026, 1 no polo passivo, sem classe informada). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.plural.jor.br/gabriel-lima-de-aguiar/",
         "https://diariodonordeste.verdesmares.com.br/pontopoder/conheca-gabriel-biologia-2-vereador-mais-votado-de-fortaleza-nas-eleicoes-2024-1.3568011"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002536683": {
       "nome_urna": "LEONARDO PINHEIRO",
@@ -11869,14 +11890,15 @@
       "nome_urna": "DR. LUCILVIO GIRÃO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TJCE e do TRE-CE sem classe nem papel visíveis).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TJCE e do TRE-CE sem classe nem papel visíveis). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 28 processos com o nome (TJCE e TRE-CE), sem nenhuma sanção identificada.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Luc%C3%ADlvio_Gir%C3%A3o",
         "https://www.jusbrasil.com.br/processos/nome/36309688/lucilvio-girao-sales"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002536703": {
       "nome_urna": "ROMEU ALDIGUERI",
@@ -11905,26 +11927,30 @@
       "nome_urna": "FERNANDO SANTANA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado contra ele; o TRE-CE multou Ciro Gomes (set/2026) por dizer sem prova que ele recebia dinheiro da Enel (sem desconto).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado contra ele; o TRE-CE multou Ciro Gomes (set/2026) por dizer sem prova que ele recebia dinheiro da Enel (sem desconto). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.flaviopintonews.com.br/2026/09/ciro-e-condenado-pelo-tre-ce-pagar.html",
-        "https://pt.wikipedia.org/wiki/Fernando_Santana_(pol%C3%ADtico)"
+        "https://pt.wikipedia.org/wiki/Fernando_Santana_(pol%C3%ADtico)",
+        "https://en.wikipedia.org/wiki/Fernando_Santana_(politician)"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "60002536674": {
       "nome_urna": "TIN GOMES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 25 processos com o nome (TRE-CE e TJCE), sem nenhuma sanção identificada (busca de confirmação sobre as contas da Câmara de Fortaleza também sem achado).",
       "fontes": [
-        "https://pt.wikipedia.org/wiki/Tin_Gomes"
+        "https://pt.wikipedia.org/wiki/Tin_Gomes",
+        "https://www.jusbrasil.com.br/processos/nome/158504820/agostinho-frederico-tin-carmo-gomes"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "140002551858": {
       "nome_urna": "VAVÁ MARTINS",
