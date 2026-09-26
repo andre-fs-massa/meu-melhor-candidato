@@ -1158,7 +1158,7 @@ quando havia classe e tribunal conhecidos):
   Via Trajana, 2018), Wilson Filho/PB, Veter Martins/GO (só um blog automático de resumos do STF; sem desconto),
   Rodrigo Lago/MA e Airton Gurgacz/RO (sem desconto), Roberta Acioly/RR (controvérsia de gastos, −0,5).
 
-## 2ª rodada: busca pelo nome completo nos 10 estados mais populosos (26/09, em andamento)
+## 2ª rodada: busca pelo nome completo nos 10 estados mais populosos (26/09, concluída)
 
 Pedido do usuário (26/09): mais uma rodada de pesquisa individual dos finalistas, só nos 10 maiores estados (SP, MG,
 RJ, BA, PR, RS, PE, CE, PA, SC), um estado depois do outro. Método: 1 busca nova por finalista, com o **nome completo**
@@ -1200,7 +1200,15 @@ extra, quem entra na lista no lugar de um finalista também passa pelas duas rod
   nota 9). No bloco de 5 empatados do Republicanos federal, nada encontrado; entraram Valéria Prado e Rodrigo Santarém.
   **Atenção:** as páginas de candidatos registram que Rodrigo Santarém desistiu da candidatura (renúncia homologada);
   o arquivo do TSE de 20/09 não traz a situação da candidatura (decisão pendente com o usuário).
-- **Falta:** SC.
+- **SC** (18 finalistas na 2ª rodada + 9 empatados novos na 1ª): saíram Ramos Policial (porte de arma revogado pela
+  PM-SC em 2025 após inquérito policial militar, classificado como apuração −1, classificação nova a confirmar com o
+  usuário; e denúncia na Ouvidoria da Mulher arquivada em 2020, nota 8), Dr. Vicente (contas de 2022 aprovadas com
+  ressalvas, mesma régua de Zema, nota 9) e Camasão (denunciado pelo MP-SC por difamação, recusou o acordo, nota 9).
+  No bloco de 9 empatados da Esquerda estadual: Fabiano da Luz (improbidade confirmada pelo TJSC pela viagem à Europa
+  com verba pública; condenação criminal anulada pelo STF, nota 4). Entraram Sérgio Guimarães, Pepê Collaço (recurso
+  de 2004 no TCE-SC sem sanção identificada, a confirmar) e Ciça Müller, nada nas duas rodadas.
+- **Total da 2ª rodada:** 180 finalistas pesquisados pelo nome completo nos 10 estados, mais 3 blocos de empatados
+  (PR 7, PA 5, SC 9) e reposições na 1ª rodada. Saíram da lista 14 finalistas; nenhum estado ficou com pendentes.
 
 ## Situação e próximos passos
 

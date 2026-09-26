@@ -12504,13 +12504,15 @@
       "nome_urna": "GILSON MARQUES",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
-        "https://www.camara.leg.br/deputados/204365"
+        "https://www.camara.leg.br/deputados/204365",
+        "https://en.wikipedia.org/wiki/Gilson_Marques"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002535431": {
       "nome_urna": "ÉRICO VINICIUS",
@@ -12528,25 +12530,27 @@
       "nome_urna": "RODRIGO LIVRAMENTO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.jaraguadosul.sc.leg.br/rodrigo-livramento/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002535426": {
       "nome_urna": "KAUE OLIVEIRA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (preside a CPI da farmácia de Capinzal).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (preside a CPI da farmácia de Capinzal). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.michelteixeira.com.br/vereador-kaue-oliveira-protocola-pedido-de-cpi-apos-operacao-da-pf-em-capinzal/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002535421": {
       "nome_urna": "PAMELYS BARROS",
@@ -12564,31 +12568,34 @@
       "nome_urna": "JORGE GOETTEN",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada contra ele; a condenação encontrada é do filho (estupro de vulnerável).",
+      "motivo": "Busca rápida na internet (1 busca): nada contra ele; a condenação encontrada é do filho (estupro de vulnerável). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado (busca de confirmação também sem achado; a condenação que aparece é do filho).",
       "fontes": [
-        "https://www.gcd.com.br/rio-do-sul/jorge-goetten-se-manifesta-apos-condenacao-do-filho-por-estupro-de-vulneravel/"
+        "https://www.gcd.com.br/rio-do-sul/jorge-goetten-se-manifesta-apos-condenacao-do-filho-por-estupro-de-vulneravel/",
+        "https://en.wikipedia.org/wiki/Jorge_Goetten"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002537081": {
       "nome_urna": "GEOVANIA DE SÁ",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Geovania_de_S%C3%A1"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002537076": {
       "nome_urna": "DARCI DE MATOS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 8,
-      "motivo": "Busca rápida na internet (1 busca): multado por propaganda antecipada (outdoors) e alvo de representação eleitoral antiga do MP sobre a campanha a prefeito de Joinville, sem desfecho encontrado (a confirmar).",
+      "motivo": "Busca rápida na internet (1 busca): multado por propaganda antecipada (outdoors) e alvo de representação eleitoral antiga do MP sobre a campanha a prefeito de Joinville, sem desfecho encontrado (a confirmar). 2ª rodada (busca pelo nome completo, 26/09): nada novo.",
       "fontes": [
         "https://www.nsctotal.com.br/noticias/deputado-estadual-darci-de-matos-e-condenado-por-propaganda-eleitoral-antecipada",
         "https://www.nsctotal.com.br/noticias/darci-de-matos-sob-investigacao-eleitoral"
@@ -12604,43 +12611,48 @@
           "descricao": "Representação do MP à Justiça Eleitoral sobre suposto arranjo para favorecer a candidatura dele a prefeito de Joinville, com busca da PF na prefeitura; desfecho não encontrado (processo antigo). A confirmar."
         }
       ],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002533829": {
       "nome_urna": "EDUARDO ZANATTA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como autor de denúncia ao MPSC).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como autor de denúncia ao MPSC). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.bcnoticias.com.br/tag/eduardo-zanatta/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002533828": {
       "nome_urna": "CAREN MACHADO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.portalr3.com.br/eleicoes-2026/candidatos/caren-machado"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002533825": {
       "nome_urna": "CARLA AYRES",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): só aparece como vítima (assédio em sessão da Câmara); nada contra ela.",
+      "motivo": "Busca rápida na internet (1 busca): só aparece como vítima (assédio em sessão da Câmara); nada contra ela. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
-        "https://midianinja.org/vereador-bolsonarista-que-beijou-a-forca-vereadora-na-camara-de-florianopolis-e-condenado/"
+        "https://midianinja.org/vereador-bolsonarista-que-beijou-a-forca-vereadora-na-camara-de-florianopolis-e-condenado/",
+        "https://www.camara.leg.br/deputados/229106/biografia"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002533824": {
       "nome_urna": "ANA PAULA LIMA",
@@ -12663,13 +12675,14 @@
       "nome_urna": "MARQUINHO KURTZ",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada contra ele (uma assessora usou o nome dele em propaganda irregular de campanha para o conselho tutelar).",
+      "motivo": "Busca rápida na internet (1 busca): nada contra ele (uma assessora usou o nome dele em propaganda irregular de campanha para o conselho tutelar). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.balneariocamboriu.sc.leg.br/camara/membros/show/413"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002537087": {
       "nome_urna": "BRUNO CUNHA",
@@ -12687,25 +12700,28 @@
       "nome_urna": "MATHEUS CADORIN",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como autor de representação ao TCE e ao MPSC).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como autor de representação ao TCE e ao MPSC). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado (ele é autor, não alvo, das denúncias ao TCE-SC e ao MPSC sobre contratos do Ciasc).",
       "fontes": [
-        "https://www.alesc.sc.gov.br/deputado/matheus-cadorin/"
+        "https://www.alesc.sc.gov.br/deputado/matheus-cadorin/",
+        "https://www.alesc.sc.gov.br/deputados/noticia/cadorin-informa-tce-e-mpsc-sobre-suspeitas-em-contrato-do-ciasc/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002535460": {
       "nome_urna": "NETO PETTERS DO NOVO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (integra o conselho de ética da Câmara de Joinville).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (integra o conselho de ética da Câmara de Joinville). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://omunicipiojoinville.com/saiba-quais-sao-as-principais-acoes-de-neto-petters-na-camara-de-joinville/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002535449": {
       "nome_urna": "WILSON CIDRÃO",
@@ -12723,49 +12739,72 @@
       "nome_urna": "PEPÊ COLLAÇO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada confirmado: o nome aparece num recurso de 2004 no TCE-SC sobre pagamento de sessões extraordinárias da Câmara de Tubarão, sem sanção identificada (não desconta; a confirmar).",
       "fontes": [
-        "https://www.alesc.sc.gov.br/deputado/pepe-collaco/"
+        "https://www.alesc.sc.gov.br/deputado/pepe-collaco/",
+        "https://consulta.tce.sc.gov.br/relatoriosdecisao/relatoriotecnico/3052485.HTM"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002543409": {
       "nome_urna": "SÉRGIO GUIMARÃES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a condenação por esquema de CNH que apareceu na busca é de outro candidato).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a condenação por esquema de CNH que apareceu na busca é de outro candidato). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.alesc.sc.gov.br/deputado/sergio-guimaraes/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002543407": {
       "nome_urna": "RAMOS POLICIAL",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "nota": 8,
+      "motivo": "Busca rápida na internet em 2 rodadas (3 buscas): porte de arma revogado pela PM-SC em 2025 após inquérito policial militar (incitação ao crime, uso irregular de farda na inatividade, exposição de presos) e denúncia na Ouvidoria da Mulher arquivada em 2020. O Jusbrasil lista 28 processos com o nome (TJSC e TRE-SC).",
       "fontes": [
-        "https://www.otempo.com.br/eleicoes/2024/candidatos/santa-catarina/itapema/vereador/ramos-policial-11000"
+        "https://www.otempo.com.br/eleicoes/2024/candidatos/santa-catarina/itapema/vereador/ramos-policial-11000",
+        "https://folhaestado.com/exclusivo-policia-militar-de-sc-revoga-porte-de-arma-de-vereador-da-reserva-saulo-ramos-por-conduta-incompativel-com-funcao-policial/",
+        "https://www.clickcamboriu.com.br/politica/2025/08/policia-militar-de-sc-cassa-porte-de-arma-de-vereador-saulo-ramos-de-itapema-277098.html",
+        "https://www.jusbrasil.com.br/processos/nome/81059099/saulo-salustiano-ramos-neto"
       ],
       "pesquisado_em": "2026-09-25",
-      "achados": [],
-      "origem": "busca_finalistas"
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "A PM-SC revogou o porte de arma dele, policial da reserva (Portaria 748/PMSC/2025, ago/2025), com base no Inquérito Policial Militar 1185/PMSC/2025, que apontou incitação à prática de crimes, uso irregular de farda e equipamento policial na inatividade e exposição indevida de pessoas presas. Medida administrativa, sem sanção penal; ele diz que a decisão é política. Classificação nova (−1), a levar ao usuário."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Denúncia na Ouvidoria da Mulher arquivada em 2020 (segundo ele, sem responsabilização pela Polícia Civil, MP e Judiciário)."
+        }
+      ],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002543392": {
       "nome_urna": "DR. VICENTE",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "nota": 9,
+      "motivo": "Busca rápida na internet em 2 rodadas (3 buscas): contas da campanha de 2022 aprovadas com ressalvas pelo TRE-SC.",
       "fontes": [
-        "https://pt.wikipedia.org/wiki/Vicente_Caropreso"
+        "https://pt.wikipedia.org/wiki/Vicente_Caropreso",
+        "https://www.jusbrasil.com.br/jurisprudencia/busca?q=vicente+augusto+caropreso"
       ],
       "pesquisado_em": "2026-09-25",
-      "achados": [],
-      "origem": "busca_finalistas"
+      "achados": [
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "Contas da campanha de 2022 aprovadas com ressalvas pelo TRE-SC (gastos antes da data inicial da prestação parcial, 13,8% dos recursos), mesma régua das contas de Zema."
+        }
+      ],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002541393": {
       "nome_urna": "TIAGO ZILLI",
@@ -12813,13 +12852,14 @@
       "nome_urna": "LUCAS NEVES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://memoriapolitica.alesc.sc.gov.br/biografia/1415-Lucas_Neves"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002537913": {
       "nome_urna": "ANDRÉ MOSER",
@@ -12885,38 +12925,48 @@
     "240002537824": {
       "nome_urna": "CAMASÃO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada contra ele: é réu em ações cíveis movidas por políticos adversários (sem decisão encontrada) e ganhou ação por homofobia contra outro vereador.",
+      "nota": 9,
+      "motivo": "Busca rápida na internet em 2 rodadas (2 buscas): denunciado pelo MP-SC por difamação por fala em vídeo nas redes, sem desfecho encontrado. As ações cíveis movidas por adversários, sem decisão, não descontam.",
       "fontes": [
-        "https://www.nsctotal.com.br/politica/vereador-de-joinville-tem-condenacao-por-homofobia-mantida-apos-justica-negar-recurso-em-sc"
+        "https://www.nsctotal.com.br/politica/vereador-de-joinville-tem-condenacao-por-homofobia-mantida-apos-justica-negar-recurso-em-sc",
+        "https://iclnoticias.com.br/vereador-denunciado-mp-expor-historico-nazismo/"
       ],
       "pesquisado_em": "2026-09-25",
-      "achados": [],
-      "origem": "busca_finalistas"
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Denunciado pelo MP-SC por difamação por uma frase em vídeo nas redes (expôs histórico nazista do pai de uma deputada); recusou o acordo de não persecução (retratação e multa). Desfecho não encontrado; crime contra a honra pendente = −1 (mesma régua de Wanderley Porto)."
+        }
+      ],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002537811": {
       "nome_urna": "MARQUITO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://marquitoagroecologia.com/mandato/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002537798": {
       "nome_urna": "INGRID SATERÉ MAWÉ",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece só como autora de representações).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece só como autora de representações). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 10 processos com o nome (TJSC e TRE-SC), sem nenhuma sanção identificada.",
       "fontes": [
-        "https://www.cmf.sc.gov.br/imprensa/noticias/0/1/2025/5922"
+        "https://www.cmf.sc.gov.br/imprensa/noticias/0/1/2025/5922",
+        "https://www.jusbrasil.com.br/processos/nome/81060873/ingrid-silva-de-assis"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "240002541918": {
       "nome_urna": "TANIA LARSON",
@@ -20825,6 +20875,123 @@
       "pesquisado_em": "2026-09-26",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "240002540084": {
+      "nome_urna": "FABIANO DA LUZ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 4,
+      "motivo": "Busca rápida na internet (1 busca): condenação por improbidade confirmada pelo TJSC pela viagem à Europa com verba pública quando era prefeito de Pinhalzinho (2014); a condenação criminal pelo mesmo fato foi anulada pelo STF em 2026. Notícias falam em inelegibilidade mantida pelo STF (a confirmar).",
+      "fontes": [
+        "https://www.nsctotal.com.br/noticias/deputado-estadual-e-ex-prefeito-e-condenado-por-usar-dinheiro-publico-para-viajar-a-europa",
+        "https://upiara.com.br/colunistas/maga/entenda-a-condenacao-que-pode-tornar-fabiano-da-luz-inelegivel-deputado-tenta-reverter/",
+        "https://www.nsctotal.com.br/colunista/anderson-silva/deputado-de-sc-e-absolvido-e-tem-direitos-politicos-mantidos-em-decisao-do-stf",
+        "https://folharegionalwebtv.com/cotidiano/stf-nega-recurso-e-mantem-presidente-do-pt-em-sc-inelegivel-por-10-anos-90866"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado por improbidade pela 1ª Vara da Fazenda de Chapecó (ago/2023) por usar dinheiro público numa viagem de caráter turístico à Europa em 2014, quando era prefeito de Pinhalzinho; o TJSC manteve a condenação em 2024-2025, com suspensão dos direitos políticos. Há notícias de que o STF negou recursos e ele estaria inelegível (a confirmar)."
+        },
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "A condenação criminal (peculato e crime de responsabilidade) pela mesma viagem foi anulada por habeas corpus concedido pelo ministro Gilmar Mendes (STF) em mai/2026."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "240002540083": {
+      "nome_urna": "LUCIANE CARMINATTI",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Luciane_Carminatti"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "240002540080": {
+      "nome_urna": "JEAN VOLPATO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como relator da comissão processante contra outro vereador).",
+      "fontes": [
+        "https://camarablu.sc.gov.br/detalhe-vereador/45/jean-volpato/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "240002540078": {
+      "nome_urna": "PAULINHO DA SILVA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o vereador de Chapecó condenado em definitivo por tentar fraudar licitação é Derli Maier, outra pessoa).",
+      "fontes": [
+        "https://www.tjsc.jus.br/web/imprensa/-/stf-e-stj-mantem-pena-de-vereador-e-empresario-de-chapeco-por-tentar-burlar-licitacao"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "240002533294": {
+      "nome_urna": "VICTOR PICCOLI",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2024/candidatos/santa-catarina/camboriu/vereador/victor-piccoli-12555"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "240002533283": {
+      "nome_urna": "RODRIGO MINOTTO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado; o Jusbrasil lista 169 processos com o nome (a maioria no TRE-SC), sem nenhuma sanção identificada.",
+      "fontes": [
+        "https://www.jusbrasil.com.br/processos/nome/42648225/rodrigo-minotto"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "240002533282": {
+      "nome_urna": "HILDA DEOLA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (é vítima de ataques machistas; uma nota de coluna diz que o afastamento médico dela foi levado ao MP, sem apuração encontrada).",
+      "fontes": [
+        "https://diarinho.net/coluna/630082/Afastamento-de-Hilda-Deola-vai-parar-no-MP"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "240002533281": {
+      "nome_urna": "PROF. FABRICIO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "240002533277": {
+      "nome_urna": "CIÇA MÜLLER",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     }
   }
 }
