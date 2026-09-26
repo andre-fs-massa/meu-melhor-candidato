@@ -10731,26 +10731,29 @@
       "nome_urna": "FERNANDO RODOLFO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado sobre a atuação pública; foi condenado pelo TJPE (jul/2026, cabe recurso) a pagar R$ 59,8 mil a uma empresa pela estrutura de um evento de campanha com Bolsonaro em Caruaru (2024) que não pagou: dívida contratual, sem desconto pela tabela.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado sobre a atuação pública; foi condenado pelo TJPE (jul/2026, cabe recurso) a pagar R$ 59,8 mil a uma empresa pela estrutura de um evento de campanha com Bolsonaro em Caruaru (2024) que não pagou: dívida contratual, sem desconto pela tabela. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 130 processos com o nome (a maioria no TRE-PE), sem nenhum processo ou sanção identificada.",
       "fontes": [
         "https://www.diariodepernambuco.com.br/politica/2026/07/11719034-deputado-federal-e-condenado-por-nao-pagar-empresa-que-realizou-evento-de-jair-bolsonaro-em-caruaru.html",
-        "https://en.wikipedia.org/wiki/Fernando_Rodolfo"
+        "https://en.wikipedia.org/wiki/Fernando_Rodolfo",
+        "https://www.jusbrasil.com.br/topicos/61622780/fernando-rodolfo-tenorio-de-vasconcelos"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002534907": {
       "nome_urna": "LUCIANO JUNIOR",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de outras pessoas).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de outras pessoas). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "Busca na web (2026-09-25): \"Luciano Junior\" ex-vereador Palmares PE processo OR investigado OR condenado -- nenhum resultado sobre o candidato"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002530336": {
       "nome_urna": "EDUARDO MOURA",
@@ -10779,25 +10782,27 @@
       "nome_urna": "FELIPE ALECRIM",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.recife.pe.leg.br/vereadores/legislatura-2021-2024/felipe-alecrim"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002532958": {
       "nome_urna": "MARCELLY DA AQUARELA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://paulista.pe.leg.br/vereador/marcelly-suany-chaves-costa-de-paula/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002532954": {
       "nome_urna": "SILVIO COSTA FILHO",
@@ -10822,37 +10827,41 @@
       "nome_urna": "DELEGADO LESSA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://blogdomarioflavio.com.br/delegado-lessa-critica-remocao-de-feirantes-e-cobra-dialogo-da-prefeitura-de-caruaru/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002540299": {
       "nome_urna": "RINALDO JÚNIOR",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.recife.pe.leg.br/vereadores/legislatura-2021-2024/rinaldo-junior"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002540289": {
       "nome_urna": "LUCAS RAMOS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 13 processos com o nome (TRE-PE e TJPE), sem nenhuma sanção identificada.",
       "fontes": [
-        "https://en.wikipedia.org/wiki/Lucas_Ramos_(politician)"
+        "https://en.wikipedia.org/wiki/Lucas_Ramos_(politician)",
+        "https://www.jusbrasil.com.br/processos/nome/55484472/lucas-cavalcanti-ramos"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002533314": {
       "nome_urna": "RAFAEL PREQUÉ",
@@ -10899,13 +10908,15 @@
       "nome_urna": "JOÃO DE DEUS",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de homônimos, como o médium condenado).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de homônimos, como o médium condenado). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado (o deputado estadual condenado por improbidade em 2025 nas notícias é Edson Vieira, outra pessoa).",
       "fontes": [
-        "Busca na web (2026-09-25): \"João de Deus\" deputado estadual PE Podemos processo OR investigado OR condenado -- só homônimos"
+        "Busca na web (2026-09-25): \"João de Deus\" deputado estadual PE Podemos processo OR investigado OR condenado -- só homônimos",
+        "https://www.diariodepernambuco.com.br/politica/2025/07/7793617-deputado-estadual-condenado-por-improbidade-chama-sentenca-de-equivoco-e-lamentavel.html"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002535197": {
       "nome_urna": "GILSON MACHADO FILHO",
@@ -10929,14 +10940,15 @@
       "nome_urna": "FABRIZIO FERRAZ",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Fabrizio_Ferraz",
         "https://www.alepe.pe.gov.br/parlamentar/fabrizio-ferraz/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002535172": {
       "nome_urna": "JEFERSON TIMÓTEO",
@@ -10960,39 +10972,43 @@
       "nome_urna": "RENATO ANTUNES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Renato_Antunes"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002543759": {
       "nome_urna": "GLEIDE ÂNGELO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (um ex-assessor do gabinete foi investigado por rachadinha por fatos anteriores ao mandato dela, sem relação com o gabinete).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (um ex-assessor do gabinete foi investigado por rachadinha por fatos anteriores ao mandato dela, sem relação com o gabinete). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Gleide_Angelo",
-        "https://tribunaonline.com.br/pernambuco/policia/assessor-da-assembleia-legislativa-e-exonerado-por-suspeita-de-rachadinha-299559"
+        "https://tribunaonline.com.br/pernambuco/policia/assessor-da-assembleia-legislativa-e-exonerado-por-suspeita-de-rachadinha-299559",
+        "https://www.alepe.pe.gov.br/parlamentar/delegada-gleide-angelo/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002543757": {
       "nome_urna": "ANTONIO COELHO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de acusação política de deputados da oposição (2026) de fraude num relatório da Comissão de Finanças, sem representação ou processo encontrado (sem desconto).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de acusação política de deputados da oposição (2026) de fraude num relatório da Comissão de Finanças, sem representação ou processo encontrado (sem desconto). 2ª rodada (busca pelo nome completo, 26/09): nada além da acusação política já registrada; a operação da PF de fev/2026 em Petrolina tem como alvos o pai e os irmãos (processo de parente não desconta).",
       "fontes": [
         "https://www.folhape.com.br/colunistas/blogdafolha/oposicao-da-comissao-de-financas-acusa-antonio-coelho-de-fraude-e-fala-em-cassacao-do-deputado/56753/",
         "https://www.alepe.pe.gov.br/parlamentar/antonio-coelho/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002543751": {
       "nome_urna": "KAIO MANIÇOBA",
@@ -11015,13 +11031,14 @@
       "nome_urna": "HENRIQUE FILHO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TRE-PE e TJPE sem classe nem papel visíveis).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TRE-PE e TJPE sem classe nem papel visíveis). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.jusbrasil.com.br/processos/nome/142942511/henrique-jose-queiroz-costa-filho"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002543726": {
       "nome_urna": "DANNILO GODOY",
@@ -11097,23 +11114,33 @@
     "170002542424": {
       "nome_urna": "CAYO ALBINO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "nota": 9,
+      "motivo": "Busca rápida na internet em 2 rodadas (2 buscas): representação no TRE-PE por suposto uso de estrutura da prefeitura de Garanhuns no comitê eleitoral (2026), sem desfecho encontrado (a confirmar). A multa do TCE-PE por nepotismo na nomeação dele na Câmara de Garanhuns foi aplicada ao tio, então presidente da Câmara (não desconta).",
       "fontes": [
-        "https://www.alepe.pe.gov.br/parlamentar/cayo-albino/"
+        "https://www.alepe.pe.gov.br/parlamentar/cayo-albino/",
+        "https://causosecausas.com/tre-pe-manda-apurar-suspeita-de-uso-de-estrutura-publica-em-comite-eleitoral-no-municipio-de-garanhuns/",
+        "https://www.blogcenario.com.br/2023/03/24/tce-multa-vereador-irmao-do-prefeito-de-garanhuns-por-nomear-sobrinho"
       ],
       "pesquisado_em": "2026-09-25",
-      "achados": [],
-      "origem": "busca_finalistas"
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "O TRE-PE mandou apurar (2026) representação de um eleitor contra ele e o prefeito de Garanhuns, Sivaldo Albino (tio), por uso no comitê eleitoral de estruturas e materiais do Festival Viva Jesus e da Secretaria de Cultura, ligados a uma licitação da prefeitura. Desfecho não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002542418": {
       "nome_urna": "SILENO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 9,
-      "motivo": "Busca rápida na internet (1 busca): multa do TRE-PE por impulsionamento de propaganda negativa.",
+      "motivo": "Busca rápida na internet (1 busca): multa do TRE-PE por impulsionamento de propaganda negativa. 2ª rodada (busca pelo nome completo, 26/09): nada além da multa do TRE-PE já registrada (ele é autor, não alvo, do pedido de auditoria do TCE sobre empréstimos do governo estadual).",
       "fontes": [
         "https://afogadosonline.com.br/index.php/page/39/",
-        "https://pt.wikipedia.org/wiki/Sileno_Guedes"
+        "https://pt.wikipedia.org/wiki/Sileno_Guedes",
+        "https://causosecausas.com/tre-pe-condena-sileno-guedes-por-propaganda-antecipada-negativa-em-video/",
+        "https://jamildo.com/politica/emprestimos-de-raquel-lyra-serao-investigados-pelo-auditoria-do-tce-apos-pedido-de-sileno-guedes.html"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [
@@ -11122,7 +11149,8 @@
           "descricao": "Multa de R$ 5 mil do TRE-PE por impulsionar propaganda negativa no Facebook."
         }
       ],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002532726": {
       "nome_urna": "BETINHO GOMES",
@@ -11163,14 +11191,16 @@
       "nome_urna": "CARLOS VERAS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o indiciado pela PF no caso do INSS é o irmão, Aristides Veras; o relatório da PF não o aponta como investigado).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o indiciado pela PF no caso do INSS é o irmão, Aristides Veras; o relatório da PF não o aponta como investigado). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://portaldeprefeitura.com.br/bastidores-da-politica/irmao-presidente-pt-pernambuco-indiciado-pf-inss/629100/",
-        "https://radar.congressoemfoco.com.br/parlamentar/1204426"
+        "https://radar.congressoemfoco.com.br/parlamentar/1204426",
+        "https://en.wikipedia.org/wiki/Carlos_Veras"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002533325": {
       "nome_urna": "KARI SANTOS",
@@ -11329,13 +11359,14 @@
       "nome_urna": "DORIEL",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.alepe.pe.gov.br/parlamentar/doriel-barros/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002544066": {
       "nome_urna": "FERNANDO FILHO",
@@ -11360,14 +11391,15 @@
       "nome_urna": "LULA DA FONTE",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado (a ação de improbidade da Queiroz Galvão encerrada pelo STF é do pai, Eduardo da Fonte; processo de parente não desconta).",
       "fontes": [
         "https://www.camara.leg.br/deputados/220669/biografia",
         "https://en.wikipedia.org/wiki/Lula_da_Fonte"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "170002544062": {
       "nome_urna": "CLARISSA TÉRCIO",

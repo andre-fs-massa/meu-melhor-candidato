@@ -1187,7 +1187,11 @@ extra, quem entra na lista no lugar de um finalista também passa pelas duas rod
   rodadas). Geraldo Stocco: ação de cliente no juizado especial cível (honorários e dano moral), pendente, sem desconto.
 - **RS** (18 finalistas): nenhum achado novo; a lista não mudou. Atena, Bruna Molz e Giovani Culau aparecem em listagens
   de processos (Jusbrasil) sem nenhum processo ou sanção identificada.
-- **Faltam:** PE, CE, PA e SC.
+- **PE** (18 finalistas): Cayo Albino (representação no TRE-PE por suposto uso de estrutura da prefeitura de Garanhuns no
+  comitê, 2026, a confirmar) caiu de 10 para 9, mas segue na lista porque o corte da Esquerda estadual é 9 e o bloco
+  empatado já tinha sido pesquisado. Os demais sem achado novo: os processos citados em Lula da Fonte e Antonio Coelho
+  são de parentes; o deputado condenado por improbidade que apareceu na busca de João de Deus é Edson Vieira.
+- **Faltam:** CE, PA e SC.
 
 ## Situação e próximos passos
 
