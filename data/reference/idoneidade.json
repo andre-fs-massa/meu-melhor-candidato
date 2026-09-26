@@ -19305,6 +19305,439 @@
       "pesquisado_em": "2026-09-26",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "30002532250": {
+      "nome_urna": "LEDA SADALA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): AIJE por abuso de poder julgada improcedente e contas rejeitadas pelo TCE-PA como gestora em Parauapebas.",
+      "fontes": [
+        "https://www.diariodoamapa.com.br/cadernos/politica/leda-sadala-tem-registro-de-candidatura-deferido-por-ministro-do-tse/",
+        "https://pt.wikipedia.org/wiki/Leda_Sadala"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "AIJE do MP Eleitoral por abuso de poder (uso da Prefeitura de Santana, cujo prefeito era parente, com temporários ameaçados de demissão para apoiá-la) julgada improcedente pelo TRE-AP por falta de provas robustas."
+        },
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "Contas rejeitadas pelo TCE-PA como presidente da agência de emprego e projetos sociais de Parauapebas/PA; registro de candidatura deferido pelo TSE mesmo assim."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "30002532248": {
+      "nome_urna": "LUIZ ALEX",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002530510": {
+      "nome_urna": "ALEXANDRE AZEVEDO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (foi relator de comissão processante contra o vice-prefeito de Macapá, não alvo). Bases oficiais: 1 auto(s) de infração ambiental não cancelado(s) no Ibama, o maior de R$ 1.500,00, somando R$ 1.500,00.",
+      "fontes": [
+        "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "infracao_administrativa_ambiental",
+          "descricao": "1 auto(s) de infração ambiental não cancelado(s) no Ibama, o maior de R$ 1.500,00, somando R$ 1.500,00."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "30002530017": {
+      "nome_urna": "EDILEUZA RODRIGUES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002530016": {
+      "nome_urna": "BETH GARCIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002549916": {
+      "nome_urna": "MEIRE SALVIANO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002549850": {
+      "nome_urna": "HELDER",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece em processos como advogado e em disputa cível sobre a diretoria de um bloco de carnaval).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002536309": {
+      "nome_urna": "CRISTIANO FURLAN",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: o promotor demitido pelo CNMP por compra de votos é o irmão, João Paulo Furlan (parente, sem desconto).",
+      "fontes": [
+        "https://conectamapa.com/projeto-politico-de-furlan-levou-o-irmao-a-ser-demitido-do-mp-ap-por-compra-de-votos/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002536304": {
+      "nome_urna": "ALINE GURGEL",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (2 buscas): alvo da operação Cícero da PF por compra de votos (desfecho não encontrado, a confirmar), contas de 2018 desaprovadas e AIJE por abuso rejeitada.",
+      "fontes": [
+        "https://www.diariodoamapa.com.br/cadernos/politica/segunda-fase-da-operacao-cicero-atinge-deputada-federal-aline-gurgel-e-pessoas-ligadas-a-ela/",
+        "https://selesnafes.com/2020/01/aline-perde-recurso-e-segue-ameacada-de-perder-o-mandato/",
+        "https://selesnafes.com/2020/08/ministro-nao-viu-provas-de-abuso-em-reuniao-religiosa-com-deputada/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo da 2ª fase da operação Cícero da PF por compra de votos na eleição de 2018 (diálogo em que uma aliada pede R$ 1,5 mil por 100 votos e ela orienta o esquema); desfecho não encontrado. A confirmar."
+        },
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "Contas da campanha de 2018 desaprovadas pelo TRE-AP (dez/2019), recurso perdido em 2020."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "AIJE por abuso de poder religioso e econômico na campanha de 2018 julgada improcedente."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "30002536303": {
+      "nome_urna": "LUIZ CARLOS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece em centenas de processos como advogado).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002533096": {
+      "nome_urna": "PROFESSORA MARCIVÂNIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002532844": {
+      "nome_urna": "JESUS PONTES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002532841": {
+      "nome_urna": "JOSENILDO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002532040": {
+      "nome_urna": "ELENICE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002532038": {
+      "nome_urna": "R NELSON",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (autor de representação ao MPAP sobre licitação, não alvo).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002532034": {
+      "nome_urna": "JOÃO MENDONÇA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002530074": {
+      "nome_urna": "DR YURI ALESI",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (autor de representação arquivada contra operadora de telefonia).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002549895": {
+      "nome_urna": "MAX DA AABB",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 4,
+      "motivo": "Busca rápida na internet (2 buscas): condenação transitada no TSE por compra de votos em 2018, com inelegibilidade até 07/10/2026; desistiu da candidatura de 2026.",
+      "fontes": [
+        "https://www.tse.jus.br/comunicacao/noticias/2024/Fevereiro/plenario-condena-ex-deputado-estadual-pelo-amapa-ao-pagamento-de-multa-por-compra-de-votos",
+        "https://conectamapa.com/condenado-por-compra-de-votos-ex-deputado-abandona-candidatura/",
+        "https://conectamapa.com/ex-deputado-parcela-multa-eleitoral-e-justica-suspende-execucao/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "inelegibilidade_vigente",
+          "descricao": "Condenado pelo TSE por compra de votos e abuso de poder econômico na eleição de 2018 (multa de 50 mil Ufirs, parcelada em cerca de R$ 460 mil), com trânsito em julgado em 12/10/2024; inelegível por 8 anos a contar de 07/10/2018, ou seja, ainda na data da eleição de 04/10/2026. A imprensa noticiou que ele desistiu da candidatura a deputado estadual em ago/2026 (ainda consta no arquivo do TSE usado pelo site)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "30002549894": {
+      "nome_urna": "TELMA NERY",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002549877": {
+      "nome_urna": "JAIME PEREZ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002533727": {
+      "nome_urna": "PASTOR OLIVEIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002533721": {
+      "nome_urna": "ALDILENE SOUZA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (2 buscas): condenação por abuso de poder em 2018 anulada pelo STF (provas anuladas) e impugnação do registro de 2026 retirada pelo MP Eleitoral.",
+      "fontes": [
+        "https://conectamapa.com/mp-eleitoral-pede-impugnacao-das-candidaturas-de-liliane-abreu-edna-auzier-e-aldilene-souza-no-amapa/",
+        "https://conectamapa.com/mp-eleitoral-desiste-da-acao-de-indeferimento-da-candidatura-de-aldilene-souza/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "Condenada por abuso de poder econômico na eleição de 2018 (distribuição de botijões de gás, alimentos, remédios e consultas médicas em troca de apoio); o ministro Gilmar Mendes (STF) anulou as provas que sustentavam a condenação."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Impugnação do registro de 2026 pelo MP Eleitoral com base nessa condenação; o próprio MP desistiu da ação depois da decisão do STF."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "30002533108": {
+      "nome_urna": "EDNA AUZIER",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 5,
+      "motivo": "Busca rápida na internet (2 buscas): cassação por compra de votos em 2022 mantida no TSE, com efeitos suspensos por liminar do STF (set/2026), e registro de 2026 deferido.",
+      "fontes": [
+        "https://conectamapa.com/ministro-andre-mendonca-mantem-decisao-que-cassou-deputada-estadual-do-amapa-por-compra-de-votos/",
+        "https://selesnafes.com/2026/09/zanin-suspende-condenacao-e-justica-eleitoral-libera-candidatura-de-edna-auzier/",
+        "https://www.diariodoamapa.com.br/cadernos/politica/tre-ap-decide-por-unanimidade-e-defere-registro-de-candidatura-de-edna-auzier/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Diploma de deputada estadual cassado pelo TRE-AP por compra de votos e abuso de poder econômico na eleição de 2022 (promessa de vantagens, transporte de eleitores e cestas básicas), com inelegibilidade de 8 anos; cassação mantida no TSE (voto do ministro André Mendonça, mar/2026). Em set/2026 o ministro Cristiano Zanin (STF) suspendeu provisoriamente os efeitos das condenações."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Impugnação do registro de 2026 pelo MP Eleitoral julgada improcedente pelo TRE-AP depois da liminar do STF, com registro deferido por unanimidade."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "30002549889": {
+      "nome_urna": "RAYFRAN BEIRÃO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (2 buscas): alvo da operação Vinculum da PF (servidores fantasmas na Assembleia, 2025). Absolvição no TSE em processo de cassação citada só em rede social, sem desconto.",
+      "fontes": [
+        "https://agazetadoamapa.com.br/amapa/casa-e-gabinete-de-deputado-rayfran-beirao-sao-alvos-de-operacao-da-pf-que-apura-nomeacao-de-servidores-fantasmas/",
+        "https://www.metropoles.com/colunas/mirelle-pinheiro/pf-investiga-fantasmas-em-assembleia-legislativa-e-bloqueia-r-1-mi"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo de busca e apreensão (casa e gabinete) na operação Vinculum da PF com o MP Eleitoral (13/05/2025), que apura rachadinha com servidores fantasmas na Assembleia do Amapá (desvio estimado acima de R$ 50 mil por mês); o TRE-AP bloqueou até R$ 1,4 milhão dos investigados."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "30002549884": {
+      "nome_urna": "HILDEGARD GURGEL",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): alvo da operação Cícero da PF por compra de votos, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.diariodoamapa.com.br/cadernos/politica/segunda-fase-da-operacao-cicero-atinge-deputada-federal-aline-gurgel-e-pessoas-ligadas-a-ela/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo da 2ª fase da operação Cícero da PF (compra de votos, associação criminosa e transporte de eleitores), com pedido de prisão negado; é marido da deputada federal Aline Gurgel, também alvo. Desfecho não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "30002549878": {
+      "nome_urna": "DUDU TAVARES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002549865": {
+      "nome_urna": "DIOGO SENIOR",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002549863": {
+      "nome_urna": "CAROL MONTEIRO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002539124": {
+      "nome_urna": "ROBERTO GÓES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 2,
+      "motivo": "Busca rápida na internet (1 busca): condenação no STF com pena prescrita, condenação por peculato anulada pelo Plenário e ação de improbidade em curso.",
+      "fontes": [
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=413765",
+        "https://noticias.stf.jus.br/postsnoticias/stf-absolve-deputado-federal-roberto-goes-do-crime-de-peculato/",
+        "https://conectamapa.com/justica-rejeita-recurso-de-roberto-goes-e-mantem-acao-de-improbidade-administrativa-em-andamento/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado pelo STF (AP 984) por aplicação indevida de verbas do programa DST/Aids para pagar dívidas da Secretaria de Saúde de Macapá com o instituto de previdência quando prefeito; a pena foi declarada prescrita."
+        },
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "Condenação por peculato imposta pela 1ª Turma do STF em 2016, anulada pelo Plenário do STF."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Réu em ação de improbidade como ex-prefeito de Macapá; a Justiça do Amapá rejeitou os embargos da defesa e mandou marcar a audiência de instrução."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "30002533720": {
+      "nome_urna": "JACK JK",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: penhora de 30% do salário por dívida trabalhista da empresa dele (causa privada); a condenação por improbidade na operação Eclésia é do irmão, Michel JK.",
+      "fontes": [
+        "https://selesnafes.com/2020/03/com-salario-de-r-378-mil-deputado-passa-a-ter-30-penhorados-pela-justica/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002533034": {
+      "nome_urna": "FABRICIO FURLAN",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (as ações eleitorais e a demissão no MP são do irmão Antônio Furlan, ex-prefeito de Macapá, e do irmão João Paulo Furlan; parentes, sem desconto).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "30002533018": {
+      "nome_urna": "DAYSE MARQUES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): investigada em AIJE do MP Eleitoral com a prefeita de Amapá, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.diariodoamapa.com.br/blogs/paulo-silva/recurso-pautado/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Uma das investigadas em AIJE do MP Eleitoral com a prefeita de Amapá, Kelley Lobato, e outros, com recurso pautado no TRE-AP; desfecho não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
     }
   }
 }

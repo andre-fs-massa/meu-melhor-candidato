@@ -1068,10 +1068,50 @@ MPAC sobre a nomeação dela pelo marido prefeito, nota 9) e Tchê (denúncia po
 sem desfecho encontrado, a confirmar antes de 04/10). A ação do MDB pelo mandato de Eber Machado (infidelidade) ainda
 não foi decidida, sem desconto pela regra.
 
+### AP
+
+Pesquisados: 32 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **ROBERTO GÓES** (UNIÃO, Deputado Estadual), idoneidade pessoal 2, geral 5.5: condenação no STF com pena prescrita, condenação por peculato anulada pelo Plenário e ação de improbidade em curso.
+- **MAX DA AABB** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 4, geral 7: condenação transitada no TSE por compra de votos em 2018, com inelegibilidade até 07/10/2026; desistiu da candidatura de 2026.
+- **EDNA AUZIER** (PV, Deputado Estadual), idoneidade pessoal 5, geral 7.5: cassação por compra de votos em 2022 mantida no TSE, com efeitos suspensos por liminar do STF (set/2026), e registro de 2026 deferido.
+- **ALINE GURGEL** (UNIÃO, Deputado Federal), idoneidade pessoal 6, geral 7.5: alvo da operação Cícero da PF por compra de votos (desfecho não encontrado, a confirmar), contas de 2018 desaprovadas e AIJE por abuso rejeitada.
+- **ALDILENE SOUZA** (PDT, Deputado Estadual), idoneidade pessoal 7, geral 8: condenação por abuso de poder em 2018 anulada pelo STF (provas anuladas) e impugnação do registro de 2026 retirada pelo MP Eleitoral.
+- **LEDA SADALA** (PSD, Deputado Federal), idoneidade pessoal 8, geral 8: AIJE por abuso de poder julgada improcedente e contas rejeitadas pelo TCE-PA como gestora em Parauapebas.
+- **RAYFRAN BEIRÃO** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 8, geral 9: alvo da operação Vinculum da PF (servidores fantasmas na Assembleia, 2025). Absolvição no TSE em processo de cassação citada só em rede social, sem desconto.
+- **HILDEGARD GURGEL** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 8, geral 9: alvo da operação Cícero da PF por compra de votos, sem desfecho encontrado (a confirmar).
+- **DAYSE MARQUES** (REDE, Deputado Estadual), idoneidade pessoal 9, geral 8.5: investigada em AIJE do MP Eleitoral com a prefeita de Amapá, sem desfecho encontrado (a confirmar).
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- ALINE GURGEL (UNIÃO, Deputado Federal): alvo da operação Cícero da PF por compra de votos (desfecho não encontrado, a confirmar), contas de 2018 desaprovadas e AIJE por abuso rejeitada.
+- HILDEGARD GURGEL (REPUBLICANOS, Deputado Estadual): alvo da operação Cícero da PF por compra de votos, sem desfecho encontrado (a confirmar).
+- DAYSE MARQUES (REDE, Deputado Estadual): investigada em AIJE do MP Eleitoral com a prefeita de Amapá, sem desfecho encontrado (a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: ALEXANDRE AZEVEDO (PODE 2055), LUIZ ALEX (PSD 5544), BETH GARCIA (NOVO 3065) — sorteio entre 2 empatados
+- Deputado Federal · Direita conservadora: MEIRE SALVIANO (MISSÃO 1401), LUIZ CARLOS (UNIÃO 4456), CRISTIANO FURLAN (UNIÃO 4400) — sorteio entre 4 empatados
+- Deputado Federal · Esquerda progressista: JESUS PONTES (PDT 1234), JOSENILDO (PDT 1212), PROFESSORA MARCIVÂNIA (PCDOB 6565)
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: ELENICE (PODE 20200), R NELSON (PODE 20193), JOÃO MENDONÇA (PODE 20800)
+- Deputado Estadual · Direita conservadora: TELMA NERY (REPUBLICANOS 10000), JAIME PEREZ (REPUBLICANOS 10789), CAROL MONTEIRO (MDB 15000) — sorteio entre 2 empatados
+- Deputado Estadual · Esquerda progressista: PASTOR OLIVEIRA (PDT 12147), FABRICIO FURLAN (REDE 18000), JACK JK (PDT 12222)
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do AP: saíram Roberto Góes (condenado pelo STF com pena prescrita, condenação por peculato anulada e
+improbidade em curso, nota 2), Max da AABB (inelegível até 07/10/2026 por compra de votos, desistiu da candidatura,
+nota 4), Edna Auzier (cassação por compra de votos mantida no TSE e suspensa por liminar do STF, nota 5), Aline
+Gurgel e o marido Hildegard Gurgel (alvos da operação Cícero da PF), Aldilene Souza (condenação de 2018 anulada),
+Rayfran Beirão (operação Vinculum), Leda Sadala e Dayse Marques. Nenhum finalista tem desconto. Parentes com
+problemas (irmãos Furlan, irmão de Jack JK) não descontam, pela regra.
+
 ## Situação e próximos passos
 
-- **Estados fechados (25 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40), MS (37), SE (26), RO (29), TO (30), AC (37). Total: 915 candidatos, 261 com achado que descontou e 99 marcados "a confirmar". Nos 25, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (26 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40), MS (37), SE (26), RO (29), TO (30), AC (37), AP (32). Total: 947 candidatos, 270 com achado que descontou e 102 marcados "a confirmar". Nos 26, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -1094,8 +1134,8 @@ não foi decidida, sem desconto pela regra.
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 2 estados**, na ordem de população: AP, RR (estados menores, ~20 a 30 buscas cada).
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF, MS, SE, RO, TO e AC (junto com a correção dos caciques, que vale para
+- **Falta 1 estado:** RR (~20 a 30 buscas).
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF, MS, SE, RO, TO, AC e AP (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
