@@ -997,10 +997,47 @@ repetiu, para vários candidatos sem relação entre si (Catianne/AM, Cristiane 
 Pedro Geovar/RO), o mesmo texto sobre "abandono de cargo e condenação no STF por coação", sem fonte; foi descartado em
 todos os casos.
 
+### TO
+
+Pesquisados: 30 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **RICARDO AYRES** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 5, geral 7.5: alvo da operação Fames-19 da PF (inquérito no STF), condenação do TCE anulada e pedido do MP Eleitoral de indeferimento do registro de 2026 sem desfecho encontrado (a confirmar).
+- **NILTON FRANCO** (UNIÃO, Deputado Estadual), idoneidade pessoal 6, geral 7.5: condenação por improbidade desfeita pelo TJTO e alvo de operação da PF com R$ 900 mil em espécie apreendidos.
+- **IVORY DE LIRA** (PCDOB, Deputado Estadual), idoneidade pessoal 6, geral 8: condenado em 1ª instância por lavagem de dinheiro (com recurso) e investigado na operação Fames-19.
+- **PROFESSORA JANAD VALCARI** (PP, Deputado Federal), idoneidade pessoal 7, geral 8: inquérito civil do MPTO sobre a empresa dos Barões da Pisadinha e emendas (2024); AIJE de 2024 e processo antigo por fraude em licitação sem desfecho encontrado (a confirmar).
+- **TOINHO ANDRADE** (PSDB, Deputado Estadual), idoneidade pessoal 8, geral 8.5: investigado por peculato (rachadinha) na Assembleia do Tocantins, com indiciamento em 2019 e quebra de sigilo recente.
+- **JORGE FREDERICO** (PSDB, Deputado Estadual), idoneidade pessoal 8, geral 8.5: investigado na operação Fames-19, com veículos apreendidos.
+- **OLYNTHO** (MDB, Deputado Estadual), idoneidade pessoal 8, geral 8.5: inquérito antigo sobre funcionários fantasmas sem desfecho encontrado (a confirmar) e absolvição no TRE-TO no caso dos R$ 500 mil.
+- **IVANILSON MARINHO** (UNIÃO, Deputado Estadual), idoneidade pessoal 9, geral 9: denúncia anônima ao MPTO arquivada por falta de provas.
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- RICARDO AYRES (REPUBLICANOS, Deputado Federal): alvo da operação Fames-19 da PF (inquérito no STF), condenação do TCE anulada e pedido do MP Eleitoral de indeferimento do registro de 2026 sem desfecho encontrado (a confirmar).
+- OLYNTHO (MDB, Deputado Estadual): inquérito antigo sobre funcionários fantasmas sem desfecho encontrado (a confirmar) e absolvição no TRE-TO no caso dos R$ 500 mil.
+- PROFESSORA JANAD VALCARI (PP, Deputado Federal): inquérito civil do MPTO sobre a empresa dos Barões da Pisadinha e emendas (2024); AIJE de 2024 e processo antigo por fraude em licitação sem desfecho encontrado (a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: GEOVANE DOS SANTOS (PSDB 4567), CRYS FRAGA (NOVO 3003), TIAGO DIMAS (PODE 2088)
+- Deputado Federal · Direita conservadora: EULA ANGELIM (DEMOCRATA 3511), JOÃO DANTAS (DEMOCRATA 3535), FABIO VAZ (REPUBLICANOS 1020)
+- Deputado Federal · Esquerda progressista: VIVI SOUZA (PSB 4033), CÉLIO MOURA (PT 1313), GABRIELLE BORGES (PDT 1221) — sorteio entre 3 empatados
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: SILVANEY RABELO (PRD 25111), PROFESSOR JUNIOR GEO (PSDB 45123), EDNA GOMES (NOVO 30321)
+- Deputado Estadual · Direita conservadora: ELENIL DA PENHA (REPUBLICANOS 10115), DR. VINICIUS PIRES (REPUBLICANOS 10010), VALDEMAR JÚNIOR (MDB 15015) — sorteio entre 4 empatados
+- Deputado Estadual · Esquerda progressista: LAMARCK (PV 43111), EDY CESAR (PT 13000), TERCILIANO GOMES (SOLIDARIEDADE 77123)
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do TO: a operação Fames-19 (desvio de cestas básicas pagas com emendas na pandemia) atinge vários
+deputados do bloco do topo; saíram Ricardo Ayres (alvo da PF, inquérito no STF, nota 5), Ivory de Lira (condenado em 1ª
+instância por lavagem e investigado na Fames-19, nota 6), Nilton Franco (condenação por improbidade desfeita e R$ 900 mil
+apreendidos pela PF, nota 6), Jorge Frederico, Toinho Andrade, Olyntho e Janad Valcari. Nenhum finalista tem desconto.
+
 ## Situação e próximos passos
 
-- **Estados fechados (23 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40), MS (37), SE (26), RO (29). Total: 848 candidatos, 248 com achado que descontou e 95 marcados "a confirmar". Nos 23, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (24 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40), MS (37), SE (26), RO (29), TO (30). Total: 878 candidatos, 256 com achado que descontou e 98 marcados "a confirmar". Nos 24, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -1023,8 +1060,8 @@ todos os casos.
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 4 estados**, na ordem de população: TO, AC, AP, RR (estados menores, ~20 a 30 buscas cada).
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF, MS, SE e RO (junto com a correção dos caciques, que vale para
+- **Faltam 3 estados**, na ordem de população: AC, AP, RR (estados menores, ~20 a 30 buscas cada).
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF, MS, SE, RO e TO (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o

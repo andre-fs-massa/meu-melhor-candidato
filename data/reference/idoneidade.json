@@ -18483,6 +18483,395 @@
       "pesquisado_em": "2026-09-26",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "270002550584": {
+      "nome_urna": "CRYS FRAGA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002548435": {
+      "nome_urna": "TIAGO DIMAS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002542120": {
+      "nome_urna": "GEOVANE DOS SANTOS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002551277": {
+      "nome_urna": "EULA ANGELIM",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002551275": {
+      "nome_urna": "JOÃO DANTAS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002548522": {
+      "nome_urna": "RICARDO AYRES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 5,
+      "motivo": "Busca rápida na internet (1 busca): alvo da operação Fames-19 da PF (inquérito no STF), condenação do TCE anulada e pedido do MP Eleitoral de indeferimento do registro de 2026 sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/politica/ricardo-ayres-operacao-pf-to/",
+        "https://tocantins.jornalopcao.com.br/noticias/stf-assume-investigacao-da-fames-19-sobre-ricardo-ayres-e-mantem-apuracao-contra-demais-alvos-no-stj-590197/",
+        "https://al.to.leg.br/noticia/4063/tribunal-de-contas-absolve-deputado-ricardo-ayres",
+        "https://atitudeto.com.br/politica/mp-eleitoral-pede-indeferimento-da-candidatura-do-deputado-federal-ricardo-ayres-no-tocantins/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo de busca e apreensão da PF (set/2025) na operação Fames-19, sobre desvio de verbas de combate à covid (cestas básicas pagas com emendas) quando deputado estadual; o nome dele aparece em anotações em notas fiscais de empresa investigada; o inquérito passou à supervisão do STF (mai/2026)."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Condenação do Tribunal de Contas do Tocantins por irregularidades como secretário estadual da Juventude, anulada pelo próprio tribunal por falta de provas."
+        },
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "O MP Eleitoral pediu o indeferimento do registro de candidatura de 2026 por falta de certidão judicial exigida; desfecho não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "270002546903": {
+      "nome_urna": "VIVI SOUZA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002544511": {
+      "nome_urna": "GABRIELLE BORGES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002544505": {
+      "nome_urna": "PROF DR ABRAÃO LIMA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002544503": {
+      "nome_urna": "CÉLIO MOURA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002550606": {
+      "nome_urna": "SILVANEY RABELO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002542177": {
+      "nome_urna": "TOINHO ANDRADE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): investigado por peculato (rachadinha) na Assembleia do Tocantins, com indiciamento em 2019 e quebra de sigilo recente.",
+      "fontes": [
+        "https://www.metropoles.com/colunas/guilherme-amado/filho-de-deputado-tem-sigilo-quebrado-em-investigacao-de-rachadinha",
+        "https://conexaoto.com.br/2019/06/12/tony-andrade-e-investigado-por-suspeita-de-envolvimento-em-esquema-de-funcionarios-fantasmas"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Investigado por peculato (rachadinha e funcionários fantasmas na Assembleia do Tocantins quando a presidia, prejuízo estimado em R$ 1,1 milhão): indiciado com o filho em 2019 e, em investigação recente, teve quebrado o sigilo bancário do filho (56 transferências somando R$ 155 mil)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "270002542176": {
+      "nome_urna": "JORGE FREDERICO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): investigado na operação Fames-19, com veículos apreendidos.",
+      "fontes": [
+        "https://tocantins.jornalopcao.com.br/politica/stj-mantem-apreensao-de-veiculos-de-jorge-frederico-em-investigacao-sobre-cestas-basicas-590792/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Investigado no STJ (operação Fames-19) por suposto desvio de recursos de cestas básicas pagas com emendas na pandemia; o STJ manteve a apreensão de dois veículos ligados a ele."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "270002542165": {
+      "nome_urna": "PROFESSOR JUNIOR GEO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002550087": {
+      "nome_urna": "DR. VINICIUS PIRES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002550084": {
+      "nome_urna": "ELENIL DA PENHA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002548458": {
+      "nome_urna": "NILTON FRANCO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca): condenação por improbidade desfeita pelo TJTO e alvo de operação da PF com R$ 900 mil em espécie apreendidos.",
+      "fontes": [
+        "https://clebertoledo.com.br/politica/em-nova-decisao-tjto-suspende-acordao-que-condenou-nilton-franco-por-improbidade/",
+        "https://gazetadocerrado.com.br/tocantins/deputado-confirma-propriedade-de-r-900-mil-apreendidos-pela-pf-e-afirma-que-dinheiro-tem-origem-licita/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "Condenado por improbidade (com a esposa) como prefeito de Pium (2005-2012): devolução de R$ 127 mil, perda do cargo e suspensão dos direitos políticos por 10 anos; o TJTO depois acolheu agravo interno da defesa e desfez o acórdão condenatório."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo de operação da PF com busca no gabinete; a PF apreendeu com ele cerca de R$ 900 mil em espécie numa agência bancária em Palmas (ele diz que o dinheiro tem origem lícita)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "270002548456": {
+      "nome_urna": "VANDA MONTEIRO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002548452": {
+      "nome_urna": "IVANILSON MARINHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): denúncia anônima ao MPTO arquivada por falta de provas.",
+      "fontes": [
+        "https://atitudeto.com.br/politica/ministerio-publico-arquiva-denuncia-anonima-contra-presidente-da-camara-de-gurupi-ivanilson-marinho/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Denúncia anônima ao MPTO sobre desvio de função de servidores e uso de veículos públicos com fins eleitorais, arquivada por falta de provas."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "270002548450": {
+      "nome_urna": "EDUARDO DO DERTINS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002544649": {
+      "nome_urna": "VALDEMAR JÚNIOR",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: a imprensa noticiou repasses da verba de gabinete dele a escritório de advogado preso na operação Sisamnes, sem apuração contra ele encontrada.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002544646": {
+      "nome_urna": "OLYNTHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): inquérito antigo sobre funcionários fantasmas sem desfecho encontrado (a confirmar) e absolvição no TRE-TO no caso dos R$ 500 mil.",
+      "fontes": [
+        "https://conexaoto.com.br/2019/07/18/investigacoes-de-funcionarios-fantasmas-no-gabinete-de-olyntho-neto-vao-continuar",
+        "https://www.jornaldotocantins.com.br/editorias/politica/tre-to-absolve-olyntho-neto-por-processo-sobre-os-r-500-mil-encontrados-com-irm%C3%A3o-antes-de-elei%C3%A7%C3%B5es-1.1946562"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Inquérito sobre funcionários fantasmas no gabinete (o TJTO negou o arquivamento em 2019); desfecho não encontrado (processo antigo). A confirmar."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Absolvido pelo TRE-TO no processo sobre os R$ 500 mil encontrados com o irmão dias antes da eleição (suposto caixa 2)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "270002544635": {
+      "nome_urna": "MARCONE CLEITON",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002546670": {
+      "nome_urna": "EDY CESAR",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (em 2018 a OAB-TO informou que ele não era indiciado nem investigado por acusação feita nas redes).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002546667": {
+      "nome_urna": "LAMARCK",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002546663": {
+      "nome_urna": "IVORY DE LIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca): condenado em 1ª instância por lavagem de dinheiro (com recurso) e investigado na operação Fames-19.",
+      "fontes": [
+        "https://giro360to.com.br/condenado-a-prisao-deputado-ivory-de-lira-diz-que-decisao-e-inaceitavel-e-injusta/",
+        "https://clebertoledo.com.br/em-off/pcdob-analisa-situacao-de-ivory-de-lira-na-fames-19-e-pode-abrir-processo-interno-contra-deputado/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado a 3 anos de prisão por lavagem de dinheiro em esquema de desvio com a Delta Construções em contratos de limpeza urbana (2006-2010, cerca de R$ 13 milhões), em ação do MPTO; a defesa recorreu ao TJTO."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Um dos dez deputados estaduais investigados no STJ na operação Fames-19 (suposto recebimento de R$ 10 a R$ 13 por cesta básica paga com emendas na pandemia)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "270002548403": {
+      "nome_urna": "PROFESSORA JANAD VALCARI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca): inquérito civil do MPTO sobre a empresa dos Barões da Pisadinha e emendas (2024); AIJE de 2024 e processo antigo por fraude em licitação sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://t1noticias.com.br/estado/mp-forma-inquerito-para-apurar-supostas-improbidades-administrativas-feitas-por-janad/132371/",
+        "https://conexaoto.com.br/2024/10/01/juiz-recebe-denuncia-e-janad-valcari-e-seu-vice-passam-a-responder-por-abuso-de-poder-na-justica-eleitoral",
+        "https://diariodopoder.com.br/politica/e06-politica/deputada-e-ex-empresaria-de-baroes-da-pisadinha-e-investigada-por-suposto-esquema-ilicito"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Inquérito civil do MPTO (2024) por suposta improbidade e enriquecimento ilícito: sócia-administradora da empresa dos Barões da Pisadinha, que teria sido contratada por prefeituras beneficiadas por emendas dela enquanto vereadora e deputada."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Ação eleitoral (AIJE) recebida em out/2024 por abuso de poder político e econômico na campanha a prefeita de Palmas; e processo por fraude em licitação de R$ 1,2 milhão em Paranã (2017). Desfechos não encontrados. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "270002550613": {
+      "nome_urna": "EDNA GOMES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002550601": {
+      "nome_urna": "TERCILIANO GOMES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "270002548521": {
+      "nome_urna": "FABIO VAZ",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }
