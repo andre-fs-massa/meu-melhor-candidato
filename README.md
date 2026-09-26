@@ -4,7 +4,7 @@ Projeto independente e open source para ajudar eleitores brasileiros a avaliar c
 cruzando três coisas: **idoneidade** (processos, Ficha Limpa, círculo político), **competência** (formação e
 experiência) e **alinhamento ideológico** (diagrama de Nolan). 1º turno em 4 de outubro de 2026.
 
-🔗 **Site:** _em breve (publicação pendente)_
+🔗 **Site:** https://meu-melhor-candidato.afsm.me
 
 > **Este projeto usa inteligência artificial** para buscar informações e gerar boa parte do conteúdo (notas,
 > descrições de achados, textos). Por isso pode haver erros ou imprecisões. As notas são uma avaliação própria do
@@ -20,7 +20,8 @@ experiência) e **alinhamento ideológico** (diagrama de Nolan). 1º turno em 4 
 | `data/reference/` | **A fonte de verdade da pesquisa manual**: achados, apoiadores/círculo político, ideologia partidária, experiência política/profissional — cada um com as fontes usadas. |
 | `data/raw/`, `data/processed/` | Dados baixados do TSE e o resultado processado do pipeline. Não versionados (grandes e regeráveis) — ver `.gitignore`. |
 | `site/` | O site publicado: HTML/CSS/JS estático, sem build, consumindo `site/dados.js` (gerado pelo pipeline). |
-| `docs/` | Metodologia detalhada do funil de recomendação. |
+| `docs/` | Metodologia do funil de recomendação, auditoria de padronização das notas e relatório da busca dos deputados finalistas, estado a estado. |
+| `ferramentas/` | Utilitários da pesquisa: `busca_finalistas/` (listar deputados finalistas ainda não pesquisados, gravar resultados, rodar o pipeline, gerar a seção do relatório) e `datajud/` (consulta à API pública do CNJ para confirmar o andamento de processos). |
 
 ## Como rodar localmente
 
@@ -56,16 +57,30 @@ pip install -r requirements.txt
 3. Abra `site/index.html` direto no navegador (funciona por duplo clique, sem servidor).
 
 Metodologia completa do funil de recomendação: [`docs/funil_recomendacao.md`](docs/funil_recomendacao.md).
+Os descontos de idoneidade seguem categorias fechadas com pesos em [`pipeline/pesos.py`](pipeline/pesos.py); as regras
+de classificação usadas na busca dos deputados estão em
+[`docs/busca_deputados_finalistas_2026-09-25.md`](docs/busca_deputados_finalistas_2026-09-25.md).
+
+## Cobertura atual
+
+| Cargo | Como foi avaliado |
+|---|---|
+| Presidente, Governador (27 UFs) e Senador (27 UFs) | Pesquisa individual na internet de todos os candidatos: processos e achados, círculo político (vice, suplentes, coligação, caciques do partido), experiência e posicionamento ideológico. |
+| Deputado Federal, Estadual e Distrital | Verificação estrutural de todos os ~19,5 mil candidatos, sem busca na web: círculo político (presidente do partido), cargos eletivos de 2014 a 2024 no TSE e cruzamento com bases oficiais (TCU, TSE 2022, CEIS, CNEP, CEAF, Ibama). Em seguida, busca rápida na internet dos finalistas de cada quadrante e de todos os empatados com eles; concluída em 25 dos 27 estados (faltam AP e RR). |
+
+O site mostra, em cada candidato, a profundidade da pesquisa (aprofundada, padrão, rápida ou estrutural) e as fontes
+usadas.
 
 ## Como contribuir
 
 Veja [`CONTRIBUTING.md`](CONTRIBUTING.md) — formas de ajudar incluem pesquisar candidatos ainda não cobertos
-(Senador e Deputados estão 100% pendentes), corrigir ou atualizar achados existentes, e melhorar código/site.
+(sobretudo aprofundar a busca dos deputados, hoje rápida ou só estrutural), corrigir ou atualizar achados
+existentes, e melhorar código/site.
 
 ## Limitações conhecidas
 
-- Cobertura desigual: hoje só há verificação completa para Presidente e para Governador em vários estados. Senador
-  e Deputados (Estadual/Distrital/Federal) ainda não têm nenhuma pesquisa.
+- Profundidade desigual: Presidente, Governador e Senador têm pesquisa individual na web; Deputados têm verificação
+  estrutural (bases oficiais, sem processos judiciais nem notícias) e só os finalistas passaram por uma busca rápida.
 - Nota 10 de idoneidade significa "nada encontrado na busca", não "nada aconteceu" — a profundidade da apuração
   varia, sobretudo para partidos menores.
 - "Competência" mede formação e experiência declaradas, favorecendo quem tem carreira eletiva ou diploma superior

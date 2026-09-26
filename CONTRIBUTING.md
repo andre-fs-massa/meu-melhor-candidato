@@ -5,9 +5,11 @@ pequena, ajuda.
 
 ## Formas de contribuir
 
-1. **Pesquisar candidatos ainda não cobertos.** Senador (319 candidatos) e Deputados Federal/Estadual/Distrital
-   (~19,5 mil) ainda não têm nenhuma camada pesquisada. Governador tem os 27 estados com idoneidade completa, mas
-   experiência profissional e posicionamento ideológico individual ainda têm lacunas em alguns estados.
+1. **Aprofundar a pesquisa dos deputados.** Presidente, Governador e Senador já têm pesquisa individual na web. Os
+   ~19,5 mil candidatos a Deputado Federal/Estadual/Distrital têm só verificação estrutural (bases oficiais), e os
+   finalistas de cada quadrante passaram por uma busca rápida (1 a 2 buscas). Casos marcados "a confirmar" no
+   relatório [`docs/busca_deputados_finalistas_2026-09-25.md`](docs/busca_deputados_finalistas_2026-09-25.md) e
+   posicionamento ideológico individual (hoje quase todos usam a posição do partido) são boas frentes.
 2. **Corrigir ou atualizar um achado existente.** Processos mudam de status (recursos, reversões, prescrições).
    Se você encontrar uma informação desatualizada ou errada, abra uma issue ou um PR com a fonte.
 3. **Melhorar o código** — pipeline (`pipeline/`), site (`site/`) ou documentação.
