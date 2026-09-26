@@ -16039,6 +16039,472 @@
       "pesquisado_em": "2026-09-26",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "180002541695": {
+      "nome_urna": "DRA. DANIELLE PESSOA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002541693": {
+      "nome_urna": "DR. GILBERTO MOREIRA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece em processos como advogado).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002534440": {
+      "nome_urna": "DRA. KARINE BONFIM",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002533196": {
+      "nome_urna": "GEORGIANO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): réu em ação de improbidade de R$ 6,9 milhões ainda sem julgamento.",
+      "fontes": [
+        "https://www.gp1.com.br/politica/noticia/2025/2/12/processo-contra-o-deputado-georgiano-neto-esta-parado-na-justica-ha-quase-dois-anos-587595.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Réu em ação de improbidade do MPPI (desde 2016, 2ª Vara da Fazenda Pública de Teresina) por suposto dano de R$ 6,9 milhões ao Estado com indenização de reequilíbrio econômico paga à Construtora Canaã, de que era sócio majoritário; em 2025 a ação seguia parada, sem julgamento."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "180002544104": {
+      "nome_urna": "ALAN OSÓRIO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002539127": {
+      "nome_urna": "JULIO ARCOVERDE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): mencionado em investigação da Polícia Civil enviada ao STF por foro, sem ser formalmente investigado.",
+      "fontes": [
+        "https://iclnoticias.com.br/desembargador-aliados-ciro-nogueira/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Nome mencionado em investigação da Polícia Civil do Piauí (operação Carbono Oculto 86); a polícia pediu envio do caso ao STF por causa do foro, sem investigação formal contra ele encontrada."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "180002536465": {
+      "nome_urna": "MARCOS AURÉLIO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002536461": {
+      "nome_urna": "CASTRO NETO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002532479": {
+      "nome_urna": "DR. FRANCISCO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002532476": {
+      "nome_urna": "MERLONG SOLANO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 5,
+      "motivo": "Busca rápida na internet (1 busca): réu por peculato no caso das cisternas e condenado em 1ª instância por improbidade por contratações sem concurso, com recurso.",
+      "fontes": [
+        "https://www.gp1.com.br/blog/gil-sobreira/2025/6/27/trf1-devolve-acao-penal-contra-deputado-merlong-solano-a-justica-federal-no-piaui-403959.html",
+        "https://www.gp1.com.br/piaui/noticia/2023/9/25/juiz-rejeita-absolvicao-sumaria-do-deputado-merlong-solano-por-desvio-de-r-4-milhoes-556186.html",
+        "https://cidadeverde.com/noticias/351734/justica-condena-florentino-neto-e-merlong-solano-por-improbridade-administrativa"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu por peculato na Justiça Federal do Piauí (denúncia do MPF sobre desvio de cerca de R$ 4 milhões no convênio de 2004 para 8.500 cisternas no semiárido); o juiz rejeitou a absolvição sumária em 2023 e o TRF1 devolveu a ação à 1ª instância em 2025, com a instrução concluída."
+        },
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado por improbidade (2ª Vara da Fazenda Pública de Teresina), com Florentino Neto, por contratar profissionais de saúde sem concurso quando secretário de Estado: perda da função, suspensão dos direitos políticos por 3 anos e multa; recorreu."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "180002532475": {
+      "nome_urna": "FLORENTINO NETO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): condenação por improbidade por contratações sem concurso na saúde, instância não confirmada (a confirmar).",
+      "fontes": [
+        "https://cidadeverde.com/noticias/351734/justica-condena-florentino-neto-e-merlong-solano-por-improbridade-administrativa"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado por improbidade (2ª Vara da Fazenda Pública de Teresina), com Merlong Solano, por contratação de profissionais de saúde sem concurso ou seleção; instância e recurso não confirmados."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "180002532474": {
+      "nome_urna": "FRANZÉ SILVA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): ação de improbidade do MPPI (2024) pela nomeação de um condenado por homicídio na Assembleia.",
+      "fontes": [
+        "https://www.gp1.com.br/blog/brunno-suenio/2024/9/20/ministerio-publico-denuncia-presidente-da-alepi-franze-silva-403244.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Réu em ação de improbidade do MPPI (set/2024), como presidente da Assembleia, por nomear em cargo comissionado um condenado a 21 anos pelo assassinato de um vereador, sem comprovação de trabalho."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "180002532472": {
+      "nome_urna": "FLÁVIO NOGUEIRA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002554006": {
+      "nome_urna": "OTONIEL CHAGAS BISNETO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002551960": {
+      "nome_urna": "ANTÔNIO MUNIZ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002534827": {
+      "nome_urna": "MARDEN MENEZES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: expulso do PP em 2025 por infidelidade (assunto partidário).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002534824": {
+      "nome_urna": "ZÉ OSMAR",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002534812": {
+      "nome_urna": "TIAGO VASCONCELOS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002536235": {
+      "nome_urna": "SEVERO EULÁLIO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002536229": {
+      "nome_urna": "PASTOR GESSIVALDO ISAIAS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002536223": {
+      "nome_urna": "GRACINHA MÃO SANTA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): multa por conduta vedada na eleição municipal de 2024 em Parnaíba.",
+      "fontes": [
+        "https://www.portalaz.com.br/noticia/geral/93133/exclusivo-justica-eleitoral-multa-deputada-gracinha-em-r-106-mil/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "Multa de R$ 106,4 mil da Justiça Eleitoral por conduta vedada (uso da posição de deputada em eventos públicos a favor do candidato a prefeito de Parnaíba em 2024), sem cassação nem inelegibilidade; ela disse que recorreria."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "180002536221": {
+      "nome_urna": "ANA PAULA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): denúncia antiga do MP como ex-prefeita de Sebastião Leal, sem desfecho encontrado (a confirmar). No caso do relógio furtado ela é a vítima.",
+      "fontes": [
+        "https://www.gp1.com.br/blog/brunno-suenio/2025/8/18/justica-cobra-ha-um-ano-resposta-do-mp-sobre-acordo-com-acusada-de-furtar-relogio-de-r-40-mil-da-deputada-ana-paula-404093.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "O MP ofereceu denúncia contra ela como ex-prefeita de Sebastião Leal (época do PMDB); natureza e desfecho não encontrados (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "180002536218": {
+      "nome_urna": "CEL CARLOS AUGUSTO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): ação de improbidade antiga por negar informações sobre licitações da PM, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.gp1.com.br/noticias/mp-ingressa-com-acao-contra-o-deputado-coronel-carlos-augusto-464946.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Ação de improbidade do MPPI, como ex-comandante da PM, por não fornecer cópias de 25 licitações pedidas pela associação de oficiais (2016); desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "180002536214": {
+      "nome_urna": "HENRIQUE PIRES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: é autor de representação criminal contra um empresário por fraude na venda de um chalé.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002533565": {
+      "nome_urna": "FIRMINO PAULO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002533563": {
+      "nome_urna": "ELZUILA CALISTO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a vereadora de Teresina condenada por compra de votos é outra, Tatiana Medeiros).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002533560": {
+      "nome_urna": "EVALDO GOMES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): indiciado por falsificar documento nas contas de 2014, caso encerrado por acordo com o MP Eleitoral.",
+      "fontes": [
+        "https://www.gp1.com.br/blog/brunno-suenio/2024/6/24/ministerio-publico-pede-extincao-da-punibilidade-de-evaldo-gomes-por-ter-falsificado-documento-403049.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Indiciado pela PF (2020) por falsificar documento na prestação de contas da campanha de 2014; aceitou proposta do MP Eleitoral (prestação pecuniária e doação de um climatizador), homologada, e o MP pediu a extinção da punibilidade em jun/2024 (mesma categoria do ANPP de Silas Câmara/AM e Lahesio Bonfim/MA)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "180002533559": {
+      "nome_urna": "DR. VINICIUS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002533557": {
+      "nome_urna": "ENZO SAMUEL",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002533555": {
+      "nome_urna": "DR. GIL CARLOS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca): réu na operação Topique (transporte escolar) e acordo com o MP para encerrar apuração de improbidade como prefeito.",
+      "fontes": [
+        "https://www.oitomeia.com.br/noticias/2025/06/03/justica-aceita-denuncia-contra-deputado-gil-carlos-envolvido-na-operacao-topique-da-pf-pi/",
+        "https://www.gp1.com.br/pi/piaui/noticia/2025/4/9/deputado-gil-carlos-faz-acordo-com-o-mp-para-evitar-processo-por-contrato-irregular-com-tio-591670.html",
+        "https://portalodia.com/noticias/piaui/ex-prefeito,-gil-carlos,-e-investigado-por-atrasar-conta-de-luz-por-sete-anos-382398.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu desde jun/2025 na Justiça Federal do Piauí (operação Topique da PF) por fraude em licitações, desvio de recursos federais do transporte escolar (prejuízo estimado em R$ 3,2 milhões), crimes de responsabilidade e corrupção."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Acordo com o MPPI (2025) para arquivar inquérito civil por improbidade sobre aluguel de imóvel do tio pela prefeitura de São João do Piauí; também investigado por atrasar contas de luz da prefeitura por sete anos (desfecho não encontrado)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "180002533547": {
+      "nome_urna": "LIMMA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002533546": {
+      "nome_urna": "HÉLIO RODRIGUES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: ele é autor de queixa-crime contra um advogado que o acusou de desvio (2025), sem apuração encontrada contra ele.",
+      "fontes": [
+        "https://www.gp1.com.br/pi/piaui/noticia/2025/6/22/deputado-helio-rodrigues-entra-com-queixa-crime-contra-advogado-apos-acusacao-de-desvio-de-dinheiro-597420.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002533544": {
+      "nome_urna": "RUBENS VIEIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca): réu na Justiça Federal por fraude em licitação como prefeito de Cocal. Numa ação por calúnia ele foi a vítima.",
+      "fontes": [
+        "https://www.viagora.com.br/politica/noticia/2024/6/24/justica-federal-recebe-denuncia-contra-o-deputado-estadual-rubens-vieira-115251.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu desde jun/2024 na Justiça Federal, por denúncia do MPF, por suposta fraude em licitação de locação de veículos quando prefeito de Cocal (combinação com o pregoeiro e sócios da RB Engenharia)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "180002533543": {
+      "nome_urna": "FÁBIO NOVO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): inquérito da PF sobre a Secretaria de Cultura arquivado pelo TRF1.",
+      "fontes": [
+        "https://www.al.pi.leg.br/comunicacao/noticias/fabio-novo-repercute-arquivamento-de-inquerito"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Inquérito da PF sobre suposto desvio na Secretaria de Cultura do Piauí, aberto na campanha de 2024, arquivado por unanimidade pelo TRF1."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "180002533541": {
+      "nome_urna": "FÁBIO XAVIER",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): inquérito da PF por apropriação de verba de candidatura laranja em 2018.",
+      "fontes": [
+        "https://www.gp1.com.br/politica/noticia/2022/4/8/fabio-xavier-desviou-r-369-mil-destinados-a-campanha-eleitoral-aponta-pf-523173.html",
+        "https://www.gp1.com.br/politica/noticia/2023/3/25/pf-pede-prorrogacao-do-inquerito-que-investiga-o-deputado-fabio-xavier-545260.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Investigado pela PF (inquérito aberto em 2020, prorrogado em 2023) por suposta apropriação de R$ 369,9 mil do fundo de campanha destinados a uma candidatura feminina fictícia do PR em 2018, quando presidia o partido no Piauí."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "180002532473": {
+      "nome_urna": "ZÉ SANTANA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }

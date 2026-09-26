@@ -770,10 +770,52 @@ não confirmada, nota 6), Galeno Torquato (improbidade confirmada pelo STJ em 20
 (condenação definitiva por estelionato qualificado, nota 6). João Maia segue finalista com −1 "a confirmar" (denúncia
 do MPF de 2018 no caso do Dnit sem recebimento ou desfecho encontrados): **confirmar antes de 04/10** se possível.
 
+### PI
+
+Pesquisados: 36 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **MERLONG SOLANO** (PT, Deputado Federal), idoneidade pessoal 5, geral 7: réu por peculato no caso das cisternas e condenado em 1ª instância por improbidade por contratações sem concurso, com recurso.
+- **DR. GIL CARLOS** (PT, Deputado Estadual), idoneidade pessoal 6, geral 7.5: réu na operação Topique (transporte escolar) e acordo com o MP para encerrar apuração de improbidade como prefeito.
+- **RUBENS VIEIRA** (PT, Deputado Estadual), idoneidade pessoal 7, geral 8: réu na Justiça Federal por fraude em licitação como prefeito de Cocal. Numa ação por calúnia ele foi a vítima.
+- **GEORGIANO** (PSD, Deputado Federal), idoneidade pessoal 8, geral 8: réu em ação de improbidade de R$ 6,9 milhões ainda sem julgamento.
+- **FLORENTINO NETO** (PT, Deputado Federal), idoneidade pessoal 8, geral 8.5: condenação por improbidade por contratações sem concurso na saúde, instância não confirmada (a confirmar).
+- **FRANZÉ SILVA** (PT, Deputado Federal), idoneidade pessoal 8, geral 8.5: ação de improbidade do MPPI (2024) pela nomeação de um condenado por homicídio na Assembleia.
+- **FÁBIO XAVIER** (PT, Deputado Estadual), idoneidade pessoal 8, geral 8.5: inquérito da PF por apropriação de verba de candidatura laranja em 2018.
+- **JULIO ARCOVERDE** (PP, Deputado Federal), idoneidade pessoal 9, geral 9: mencionado em investigação da Polícia Civil enviada ao STF por foro, sem ser formalmente investigado.
+- **GRACINHA MÃO SANTA** (MDB, Deputado Estadual), idoneidade pessoal 9, geral 9: multa por conduta vedada na eleição municipal de 2024 em Parnaíba.
+- **ANA PAULA** (MDB, Deputado Estadual), idoneidade pessoal 9, geral 9: denúncia antiga do MP como ex-prefeita de Sebastião Leal, sem desfecho encontrado (a confirmar). No caso do relógio furtado ela é a vítima.
+- **CEL CARLOS AUGUSTO** (MDB, Deputado Estadual), idoneidade pessoal 9, geral 9: ação de improbidade antiga por negar informações sobre licitações da PM, sem desfecho encontrado (a confirmar).
+- **EVALDO GOMES** (PT, Deputado Estadual), idoneidade pessoal 9, geral 9: indiciado por falsificar documento nas contas de 2014, caso encerrado por acordo com o MP Eleitoral.
+- **FÁBIO NOVO** (PT, Deputado Estadual), idoneidade pessoal 9, geral 9: inquérito da PF sobre a Secretaria de Cultura arquivado pelo TRF1.
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- FLORENTINO NETO (PT, Deputado Federal): condenação por improbidade por contratações sem concurso na saúde, instância não confirmada (a confirmar).
+- ANA PAULA (MDB, Deputado Estadual): denúncia antiga do MP como ex-prefeita de Sebastião Leal, sem desfecho encontrado (a confirmar). No caso do relógio furtado ela é a vítima.
+- CEL CARLOS AUGUSTO (MDB, Deputado Estadual): ação de improbidade antiga por negar informações sobre licitações da PM, sem desfecho encontrado (a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: DRA. KARINE BONFIM (NOVO 3022), DRA. DANIELLE PESSOA (PODE 2026), DR. GILBERTO MOREIRA (PODE 2000)
+- Deputado Federal · Direita conservadora: ALAN OSÓRIO (REPUBLICANOS 1099), MARCOS AURÉLIO (MDB 1511), CASTRO NETO (MDB 1515)
+- Deputado Federal · Esquerda progressista: DR. FRANCISCO (PT 1313), FLÁVIO NOGUEIRA (PT 1312), ZÉ SANTANA (PT 1311)
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: MARDEN MENEZES (PSD 55456), ANTÔNIO MUNIZ (PSDB 45666), ZÉ OSMAR (PSD 55777) — sorteio entre 3 empatados
+- Deputado Estadual · Direita conservadora: SEVERO EULÁLIO (MDB 15101), PASTOR GESSIVALDO ISAIAS (MDB 15789), HENRIQUE PIRES (MDB 15123)
+- Deputado Estadual · Esquerda progressista: FIRMINO PAULO (PT 13789), LIMMA (PT 13123), HÉLIO RODRIGUES (PT 13678) — sorteio entre 5 empatados
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do PI: estado com muitos achados no topo da esquerda (PT), que saíram da lista: Merlong Solano (réu por
+peculato no caso das cisternas e improbidade de 1ª instância, nota 5), Dr. Gil Carlos (réu na operação Topique, nota 6),
+Rubens Vieira (réu por fraude em licitação, nota 7), Florentino Neto, Franzé Silva e Fábio Xavier. Nenhum finalista tem
+desconto.
+
 ## Situação e próximos passos
 
-- **Estados fechados (17 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29). Total: 651 candidatos, 199 com achado que descontou e 78 marcados "a confirmar". Nos dezessete, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (18 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36). Total: 687 candidatos, 212 com achado que descontou e 81 marcados "a confirmar". Nos dezoito, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -796,10 +838,10 @@ do MPF de 2018 no caso do Dnit sem recebimento ou desfecho encontrados): **confi
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 10 estados**, na ordem de população: PI, AL, DF,
+- **Faltam 9 estados**, na ordem de população: AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT e RN (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN e PI (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
