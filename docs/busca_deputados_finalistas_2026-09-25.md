@@ -731,10 +731,49 @@ operação Heritage da PF em 2026, nota 7), Elizeu Nascimento (operação Emenda
 (investigação dos kits agrícolas pagos com emendas), entre outros; uma rodada de reposição com 14 empatados. Flaviane
 Ramalho, finalista estadual, tem um "a confirmar" sem desconto (alegação de um juiz sobre condenação cível de 2010).
 
+### RN
+
+Pesquisados: 29 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **ROBINSON FARIA** (PP, Deputado Federal), idoneidade pessoal 6, geral 7.5: inelegibilidade por abuso de poder em 2018 decretada pelo TRE-RN e revertida pelo TSE; condenação por improbidade por excesso de gastos com pessoal, instância não confirmada (a confirmar).
+- **GALENO TORQUATO** (UNIÃO, Deputado Estadual), idoneidade pessoal 6, geral 7.5: condenação por improbidade confirmada pelo STJ (2026); acordo com confissão proposto para reverter a inelegibilidade.
+- **BIANCA NEGREIROS** (UNIÃO, Deputado Federal), idoneidade pessoal 6, geral 7.5: Busca rápida na internet (1 busca e fonte conferida): condenação definitiva por estelionato qualificado na Justiça Federal, que barrou a candidatura a prefeita de Mossoró em 2020 (situação de elegibilidade atual a confirmar).
+- **TAVEIRA JÚNIOR** (PSDB, Deputado Estadual), idoneidade pessoal 8, geral 8.5: condenação de 1ª instância por improbidade como servidor fantasma na Câmara de Parnamirim, com recurso.
+- **JOÃO MAIA** (PP, Deputado Federal), idoneidade pessoal 9, geral 9: denunciado pelo MPF em 2018 no caso do Dnit/BR-101, sem recebimento ou desfecho encontrados (a confirmar).
+- **MARLEIDE CUNHA** (PT, Deputado Federal), idoneidade pessoal 9, geral 9: ação de cassação por fraude à cota rejeitada pelo TRE-RN (mesma categoria de Lukão/CE).
+- **EZEQUIEL** (PSDB, Deputado Estadual), idoneidade pessoal 9, geral 9: absolvido pelo STF de corrupção passiva por falta de provas.
+- **ROBSON CARVALHO** (UNIÃO, Deputado Estadual), idoneidade pessoal 9, geral 9: multa por propaganda antecipada mantida pelo TRE-RN.
+- **UBALDO FERNANDES** (PV, Deputado Estadual), idoneidade pessoal 9, geral 9.5: multa por propaganda antecipada em outdoors. O pedido de perda de mandato por infidelidade (2019) foi negado pelo TRE-RN (sem desconto).
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- ROBINSON FARIA (PP, Deputado Federal): inelegibilidade por abuso de poder em 2018 decretada pelo TRE-RN e revertida pelo TSE; condenação por improbidade por excesso de gastos com pessoal, instância não confirmada (a confirmar).
+- JOÃO MAIA (PP, Deputado Federal): denunciado pelo MPF em 2018 no caso do Dnit/BR-101, sem recebimento ou desfecho encontrados (a confirmar).
+- ISOLDA DANTAS (PT, Deputado Estadual): nada que desconte: um blog questionou pagamentos da verba de gabinete a aliados na campanha de 2022 (recibos em vez de notas), sem apuração formal encontrada (a confirmar); a operação no Detran afastou um indicado dela, não ela.
+- BIANCA NEGREIROS (UNIÃO, Deputado Federal): Busca rápida na internet (1 busca e fonte conferida): condenação definitiva por estelionato qualificado na Justiça Federal, que barrou a candidatura a prefeita de Mossoró em 2020 (situação de elegibilidade atual a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: RAPHAEL FERREIRA (NOVO 3000), APOLLIANE SOUZA (AVANTE 7010), DRA ROSEMARIA (PSDB 4566) — sorteio entre 2 empatados
+- Deputado Federal · Direita conservadora: JOÃO MAIA (PP 1111), BENES LEOCÁDIO (UNIÃO 4444), PAULINHA GALDINO (PP 1122) — sorteio entre 2 empatados
+- Deputado Federal · Esquerda progressista: DR. BERNARDO (PV 4300), DRA GLEUCE LEITE (PSB 4013), RAPOSINHA (PCDOB 6513) — sorteio entre 3 empatados
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: CRISTIANE DANTAS (PSDB 45555), DRA KARINA PEREIRA (PSDB 45666), ERIKO JÁCOME (PSDB 45111)
+- Deputado Estadual · Direita conservadora: KLEBER RODRIGUES (PP 11999), NEILTON DIÓGENES (PP 11111), CLOVIS JUNIOR (MDB 15000)
+- Deputado Estadual · Esquerda progressista: UBALDO FERNANDES (PV 43222), DIVANEIDE BASÍLIO (PT 13613), ISOLDA DANTAS (PT 13123) — sorteio entre 4 empatados
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do RN: saíram do topo Robinson Faria (inelegibilidade de 2018 revertida pelo TSE e improbidade de instância
+não confirmada, nota 6), Galeno Torquato (improbidade confirmada pelo STJ em 2026, nota 6) e Bianca Negreiros
+(condenação definitiva por estelionato qualificado, nota 6). João Maia segue finalista com −1 "a confirmar" (denúncia
+do MPF de 2018 no caso do Dnit sem recebimento ou desfecho encontrados): **confirmar antes de 04/10** se possível.
+
 ## Situação e próximos passos
 
-- **Estados fechados (16 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35). Total: 622 candidatos, 190 com achado que descontou e 74 marcados "a confirmar". Nos dezesseis, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (17 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29). Total: 651 candidatos, 199 com achado que descontou e 78 marcados "a confirmar". Nos dezessete, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -757,10 +796,10 @@ Ramalho, finalista estadual, tem um "a confirmar" sem desconto (alegação de um
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 11 estados**, na ordem de população: RN, PI, AL, DF,
+- **Faltam 10 estados**, na ordem de população: PI, AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB e MT (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT e RN (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o

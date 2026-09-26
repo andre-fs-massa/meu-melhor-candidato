@@ -15673,6 +15673,372 @@
       "pesquisado_em": "2026-09-26",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "200002551422": {
+      "nome_urna": "APOLLIANE SOUZA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002538221": {
+      "nome_urna": "DRA ROSEMARIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002538218": {
+      "nome_urna": "RODRIGO ALADIM",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002535500": {
+      "nome_urna": "RAPHAEL FERREIRA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a operação da Polícia Civil de 2026 contra um advogado de Natal não identifica o alvo; sem ligação confirmada com ele).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002535722": {
+      "nome_urna": "BENES LEOCÁDIO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: o registro de visita de um motorista de Daniel Vorcaro ao gabinete (2024) não gerou investigação contra ele; ele foi autor, não réu, de ação que cassou o prefeito de Lajes.",
+      "fontes": [
+        "https://blogdodina.com/benes-reage-apos-reportagem-e-diz-ser-alvo-de-fake-news-nunca-recebi-essa-pessoa-no-meu-gabinete/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002535721": {
+      "nome_urna": "ROBINSON FARIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca): inelegibilidade por abuso de poder em 2018 decretada pelo TRE-RN e revertida pelo TSE; condenação por improbidade por excesso de gastos com pessoal, instância não confirmada (a confirmar).",
+      "fontes": [
+        "https://www.tre-rn.jus.br/comunicacao/noticias/2021/Fevereiro/tre-rn-declara-inelegibilidade-do-ex-governador-robinson-faria-e-de-seis-agentes-publicos",
+        "https://www.tse.jus.br/comunicacao/noticias/2022/Marco/tse-afasta-inelegibilidade-do-ex-governador-do-rio-grande-do-norte-robinson-faria",
+        "https://agorarn.com.br/ultimas/ex-governador-robinson-faria-e-condenado-por-excesso-de-gastos-com-pessoal-e-fica-inelegivel/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "Declarado inelegível pelo TRE-RN (fev/2021, mantido nos embargos em mai/2021) por abuso de poder político e econômico na eleição de 2018; o TSE afastou a inelegibilidade por unanimidade em mar/2022."
+        },
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado por improbidade, em ação do MPRN, por não tomar providências contra o excesso de gastos com pessoal quando governador (a partir de 2015): suspensão dos direitos políticos por 3 anos e multa de 25 vezes a última remuneração; instância e situação do recurso não confirmadas."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "200002535715": {
+      "nome_urna": "JOÃO MAIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): denunciado pelo MPF em 2018 no caso do Dnit/BR-101, sem recebimento ou desfecho encontrados (a confirmar).",
+      "fontes": [
+        "https://defato.com/politica/77417/mpf-rn-denuncia-que-joo-maia-era-o-chefe-mor-do-esquema-de-corrupo-no-dnit",
+        "https://defato.com/politica/73160/ex-deputado-joo-maia-acusado-de-ter-recebido-r-12-milho-de-propina-em-obra"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Denunciado pelo MPF-RN em 2018 (operação Via Trajana, desdobramento da Via Ápia) como suposto chefe de esquema de corrupção na superintendência do Dnit no RN, com propina de R$ 1,2 milhão em obra da BR-101 (2008-2010), segundo delação de um sobrinho; recebimento e desfecho não encontrados (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "200002546751": {
+      "nome_urna": "HELIA LIMA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002546750": {
+      "nome_urna": "DRA GLEUCE LEITE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a advogada do PSB condenada por organização criminosa que renunciou à candidatura é de outro estado, o Acre).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002533871": {
+      "nome_urna": "RAPOSINHA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002533870": {
+      "nome_urna": "MARLEIDE CUNHA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): ação de cassação por fraude à cota rejeitada pelo TRE-RN (mesma categoria de Lukão/CE).",
+      "fontes": [
+        "https://diariodorn.com.br/vereadoras-de-mossoro-tiveram-mandatos-mantidos-apos-acao-investigativa-a-cassacao-por-suposta-fraude-a-cota-de-genero/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Ação eleitoral por abuso de poder político e suposta fraude à cota de gênero na eleição de 2024 em Mossoró, que pedia a cassação dela e de outra vereadora do PT, julgada improcedente e mantida pelo TRE-RN."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "200002533867": {
+      "nome_urna": "DR. BERNARDO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002538233": {
+      "nome_urna": "TAVEIRA JÚNIOR",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): condenação de 1ª instância por improbidade como servidor fantasma na Câmara de Parnamirim, com recurso.",
+      "fontes": [
+        "https://portaln10.com.br/politica/irmao-tia-e-deputado-taveira-junior-sao-condenados-por-esquema-de-servidores-fantasmas-em-parnamirim-269639",
+        "https://sidneysilva.com.br/2025/03/20/justica-condena-deputado-estadual-taveira-junior-e-familiares-por-improbidade-administrativa-em-parnamirim-rn/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado em 1ª instância (mar/2025, 1ª Vara da Fazenda Pública de Parnamirim) por improbidade, com irmão e tia, por ter sido nomeado sem trabalhar ('servidor fantasma') no gabinete do pai na Câmara de Parnamirim (2001-2004); deve devolver os salários; recorreu."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "200002538230": {
+      "nome_urna": "EZEQUIEL",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): absolvido pelo STF de corrupção passiva por falta de provas.",
+      "fontes": [
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=515562&ori=1"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Absolvido pelo STF, por falta de provas, da acusação de corrupção passiva (pedido de vantagem em 2009 para aprovar projeto de lei sobre inspeção veicular)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "200002538228": {
+      "nome_urna": "CRISTIANE DANTAS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002535738": {
+      "nome_urna": "GALENO TORQUATO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca): condenação por improbidade confirmada pelo STJ (2026); acordo com confissão proposto para reverter a inelegibilidade.",
+      "fontes": [
+        "https://pordentrodorn.com.br/2026/02/20/stj-mantem-condenacao-deputado-galeno-torquato-improbidade/",
+        "https://defato.com/politica/127752/deputado-galeno-torquato-faz-acordo-para-reverter-inelegibilidade"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenação por improbidade como prefeito de São Miguel (fraude em licitação de UBS com recursos do Ministério da Saúde, ação do MPF) mantida pelo STJ em jan/2026: suspensão dos direitos políticos por 5 anos, ressarcimento de R$ 24,3 mil e multa de R$ 20 mil. Em jul/2026 o MPF propôs ao STJ acordo de não persecução cível, com confissão, para encerrar a ação e manter a elegibilidade."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "200002535736": {
+      "nome_urna": "KLEBER RODRIGUES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002535734": {
+      "nome_urna": "ROBSON CARVALHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): multa por propaganda antecipada mantida pelo TRE-RN.",
+      "fontes": [
+        "https://www.tre-rn.jus.br/comunicacao/noticias/2020/Julho/justica-eleitoral-condena-vereador-de-natal-a-pagar-multa-por-propaganda-eleitoral-irregular"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multa de R$ 5 mil mantida pelo TRE-RN por propaganda antecipada (distribuiu cerca de 4 mil frascos de sabão líquido com nome e foto, 2020)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "200002535725": {
+      "nome_urna": "NEILTON DIÓGENES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002534359": {
+      "nome_urna": "CLOVIS JUNIOR",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002533864": {
+      "nome_urna": "UBALDO FERNANDES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): multa por propaganda antecipada em outdoors. O pedido de perda de mandato por infidelidade (2019) foi negado pelo TRE-RN (sem desconto).",
+      "fontes": [
+        "https://agorarn.com.br/ultimas/ubaldo-fernandes-e-multado-pelo-tre-por-propaganda-irregular/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multa de R$ 5 mil do TRE-RN por propaganda antecipada e promoção pessoal em outdoors em Natal."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "200002533863": {
+      "nome_urna": "DIVANEIDE BASÍLIO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002533862": {
+      "nome_urna": "ISOLDA DANTAS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: um blog questionou pagamentos da verba de gabinete a aliados na campanha de 2022 (recibos em vez de notas), sem apuração formal encontrada (a confirmar); a operação no Detran afastou um indicado dela, não ela.",
+      "fontes": [
+        "https://robsonpiresxerife.com/deputada-isolda-dantas-sera-que-e-rachadinha/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002533849": {
+      "nome_urna": "DANIEL VALENÇA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002535723": {
+      "nome_urna": "BIANCA NEGREIROS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca e fonte conferida): condenação definitiva por estelionato qualificado na Justiça Federal, que barrou a candidatura a prefeita de Mossoró em 2020 (situação de elegibilidade atual a confirmar).",
+      "fontes": [
+        "https://mossorohoje.com.br/noticias/33384-veja-o-real-motivo-que-barrou-candidatura-de-bianca-negreiros"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenada pela Justiça Federal no RN (com Sérgio Luiz Lobato) a 3 anos e 4 meses de prisão e 214 dias-multa por estelionato qualificado contra entidade pública (art. 171, §3º, do Código Penal); segundo o senador Styvenson Valentim, a sentença transitou em julgado em 2020, o que impediu a certidão negativa e barrou a candidatura dela a prefeita de Mossoró. Eventual inelegibilidade atual (Ficha Limpa) não confirmada."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "200002535720": {
+      "nome_urna": "PAULINHA GALDINO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002535719": {
+      "nome_urna": "LEILA MAIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002554438": {
+      "nome_urna": "DRA KARINA PEREIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002538246": {
+      "nome_urna": "ERIKO JÁCOME",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }
