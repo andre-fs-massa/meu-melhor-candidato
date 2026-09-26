@@ -98,9 +98,10 @@ def preparar(df: pd.DataFrame) -> pd.DataFrame:
     a mesma pessoa em duplicidade. Fica o registro com mais camadas pesquisadas e, no empate, o mais recente.
     O dataset original não é alterado."""
     ideologia = json.loads((REF_DIR / "ideologia_partidaria.json").read_text(encoding="utf-8"))["partidos"]
-    df = df.sort_values(["camadas_pesquisadas", "sq_candidato"], ascending=[False, False]).drop_duplicates(
-        subset=CHAVE_PESSOA, keep="first"
-    )
+    # Espaços repetidos no nome não distinguem pessoas (ex.: "MENDONÇA  ALVES" no registro duplicado de AL).
+    chave = df[CHAVE_PESSOA].assign(nome_completo=df["nome_completo"].str.split().str.join(" "))
+    ordem = df.sort_values(["camadas_pesquisadas", "sq_candidato"], ascending=[False, False]).index
+    df = df.loc[ordem][~chave.loc[ordem].duplicated(keep="first")]
     base_eco = df["partido"].map(lambda p: ideologia[p]["eixo_economico"])
     base_pes = df["partido"].map(lambda p: ideologia[p]["eixo_pessoal"])
     df["eco_final"] = df["eixo_economico"].fillna(base_eco)

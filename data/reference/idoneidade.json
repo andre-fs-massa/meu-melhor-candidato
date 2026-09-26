@@ -16505,6 +16505,372 @@
       "pesquisado_em": "2026-09-26",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "20002553988": {
+      "nome_urna": "CAL MOREIRA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: ação do antigo partido pedindo o mandato por infidelidade (ida para o PSDB), ainda não decidida.",
+      "fontes": [
+        "https://www.gazetadealagoas.com.br/politica/896507/tre-define-relatores-da-acao-sobre-infidelidade-partidaria-de-vereadores-da-camara-de-maceio"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002553683": {
+      "nome_urna": "KELMANN VIEIRA DE OLIVEIRA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: o TRE-AL extinguiu a ação do MDB que pedia o mandato dele por infidelidade (2026).",
+      "fontes": [
+        "https://www.gazetadealagoas.com.br/politica/903942/tre-al-mantem-mandato-de-kelmann-e-extingue-acao-por-infidelidade-partidaria"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002553682": {
+      "nome_urna": "CHICO FILHO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): multa do TCE-AL como presidente da Câmara de Maceió (2026; multa de tribunal de contas = −1). A ação do antigo partido por infidelidade ainda não foi decidida (sem desconto).",
+      "fontes": [
+        "https://www.jaenoticia.com.br/blogs/2026/09/25/10017-tribunal-de-contas-manda-camara-de-maceio-substituir-44-servidores-terceirizados-por-concursados-e-multa-presidente-chico-filho"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "Multado pelo TCE-AL (set/2026), como presidente da Câmara de Maceió, com outros membros da gestão, que foi obrigada a substituir 44 terceirizados e comissionados por concursados."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "20002547844": {
+      "nome_urna": "MARX BELTRÃO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): absolvido pelo STF de falsidade ideológica e réu por calúnia contra o primo, sem desfecho encontrado.",
+      "fontes": [
+        "https://noticias.stf.jus.br/postsnoticias/1a-turma-absolve-marx-beltrao-da-imputacao-de-crime-de-falsidade-ideologica/",
+        "https://diariodopoder.com.br/brasil-e-regioes/ex-ministro-marx-beltrao-vira-reu-por-acusar-primo-de-tramar-falso-atentado-em-alagoas"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Absolvido pela 1ª Turma do STF da acusação de falsidade ideológica como prefeito de Coruripe."
+        },
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Réu por calúnia por acusar o primo, o deputado estadual Marcelo Beltrão, de tramar um falso atentado contra ele para ganhar vantagem na eleição de Coruripe; desfecho não encontrado."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "20002547841": {
+      "nome_urna": "DANIEL BARBOSA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002546941": {
+      "nome_urna": "ISNALDO BULHÕES JR",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 4,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): réu por falso e desvio de verba da Assembleia; condenação por improbidade na Taturana de situação não confirmada (a confirmar); investigação no STF arquivada e citação no caso Master.",
+      "fontes": [
+        "https://ojornalextra.com.br/noticias/alagoas/2025/07/116252-justica-ouve-isnaldo-bulhoes-nesta-quinta-sobre-desvio-de-recursos-da-ale",
+        "https://tribunahoje.com/noticias/politica/2017/11/22/56151-operacao-taturana-deputados-e-ex-deputados-estaduais-sao-condenados",
+        "https://tribunahoje.com/noticias/politica/2023/04/19/119375-stj-anula-condenacoes-de-deputados-estaduais-denunciados-na-taturana",
+        "https://www.alagoas24horas.com.br/1740243/moraes-arquiva-inquerito-contra-deputado-alagoano-por-malas-que-nao-passaram-em-raio-x/",
+        "https://francesnews.com.br/post/2026/06/26/27999-investigacao-sobre-ciro-nogueira-e-master-cita-deputado-federal-alagoano-isnaldo-bulhoes"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu na 10ª Vara Criminal de Maceió por uso de documentos falsos para receber verba indenizatória e desvio de recursos da Assembleia (2014, quando deputado estadual); audiência marcada em 2025."
+        },
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado por improbidade (2017) na operação Taturana, com outros cinco, por pagar empréstimos pessoais com dinheiro da Assembleia de Alagoas (prejuízo de R$ 729,9 mil): devolução de R$ 25 mil, multa e suspensão dos direitos políticos por 10 anos; o STJ anulou em 2023 condenações de deputados na Taturana, sem confirmação de que a dele estava entre elas. A confirmar."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Investigação no STF sobre malas que não passaram no raio-x de aeroporto arquivada por Alexandre de Moraes; citado em investigação sobre Ciro Nogueira e o Banco Master (2026), sem ser alvo formal."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "20002546939": {
+      "nome_urna": "RAFAEL BRITO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): ação de cassação pelo Bolsa Escola 10 rejeitada pelo TRE-AL e ordem judicial contra fake news sobre o prefeito de Maceió. A ligação com a operação Capa Dura (livros didáticos) é sobre uma empresa, não sobre ele.",
+      "fontes": [
+        "https://www.jaenoticia.com.br/blogs/2025/06/23/7988-tre-de-alagoas-absolve-governador-paulo-dantas-de-acusacao-movida-por-rodrigo-cunha-por-uso-eleitoreiro-do-programa-escola-10",
+        "https://quartopoderalagoas.com.br/politica/2024/04/candidato-de-paulo-dantas-e-dos-calheiros-rafael-brito-e-condenado-pela-justica-por-espalhar-fakenews-contra-jhc/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Ação eleitoral do MP (2022) que pedia a cassação dele e do governador Paulo Dantas por abuso de poder com o programa Bolsa Escola 10 (R$ 252 milhões pagos no ano eleitoral), rejeitada por maioria pelo TRE-AL (2025)."
+        },
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Condenado pela Justiça (2024) a deixar de divulgar informações falsas contra o prefeito de Maceió, JHC, sob multa diária."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "20002552857": {
+      "nome_urna": "DR JOÃO NETO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 4,
+      "motivo": "Busca rápida na internet (1 busca): condenação por violência doméstica mantida pelo TJAL e registro de candidatura indeferido pelo TRE-AL (2026).",
+      "fontes": [
+        "https://www.tnh1.com.br/noticia/nid/advogado-joao-neto-e-condenado-a-4-anos-de-reclusao-e-multa-de-r-40-mil/",
+        "https://www.tribunadosertao.com.br/politica/2026/09/14/978587-tre-al-indefere-registro-de-joao-neto-apos-condenacao-por-violencia-contra-mulher"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado a 4 anos e 2 meses de prisão e a pagar R$ 40 mil à ex-companheira por violência doméstica (agressão em abr/2025, quando ficou 29 dias preso); condenação mantida pela Câmara Criminal do TJAL em fev/2026."
+        },
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "Registro de candidatura a deputado federal indeferido pelo TRE-AL (set/2026, 4 a 3) por causa da condenação; recurso não confirmado."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "20002552855": {
+      "nome_urna": "HELO BEZERRA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002552851": {
+      "nome_urna": "AFRANIO NETO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002538210": {
+      "nome_urna": "AFRANIO DE MENDONCA NETO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (mesma pessoa de outro registro, AFRANIO NETO, com o mesmo número).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002553589": {
+      "nome_urna": "CÉSAR FELIZARDO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002553584": {
+      "nome_urna": "LÉO LOUREIRO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002553253": {
+      "nome_urna": "LUCAS BARBOSA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002538387": {
+      "nome_urna": "ERICK BRITO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002548330": {
+      "nome_urna": "DAVID DO EMPREGO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002548325": {
+      "nome_urna": "MESAQUE PADILHA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada confirmado: o resumo do buscador citou contas de campanha de 2022 aprovadas com ressalvas e devolução de valor, sem fonte que confirme (não desconta; a confirmar).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002548113": {
+      "nome_urna": "INACIO LOIOLA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: acusações contra o irmão (ex-presidente do TJAL) e uma sobrinha são de parentes (sem desconto).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002548095": {
+      "nome_urna": "DUDU RONALSA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002548089": {
+      "nome_urna": "CIBELE MOURA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002540114": {
+      "nome_urna": "TARCIZO FREIRE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002540108": {
+      "nome_urna": "MARCOS BARBOSA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002540104": {
+      "nome_urna": "SILVIO CAMELO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002532434": {
+      "nome_urna": "ALEX BRANDÃO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002532432": {
+      "nome_urna": "JOÃO UCHÔA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002547849": {
+      "nome_urna": "DELEGADO FABIO COSTA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002547845": {
+      "nome_urna": "OLIVIA TENORIO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002540676": {
+      "nome_urna": "CHARLES-THIAGO-MARIVONE-ENIO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (candidatura coletiva encabeçada pelo vereador de Maceió Charles Hebert).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002540672": {
+      "nome_urna": "BETA VASCONCELOS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "20002540669": {
+      "nome_urna": "NECO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }

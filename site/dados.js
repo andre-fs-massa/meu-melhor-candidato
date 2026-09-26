@@ -8,7 +8,7 @@ const DADOS = {
   "margem_fronteira": 0.5,
   "politica_nao_avaliados": "excluir",
   "data_eleicao": "2026-10-04",
-  "total_candidatos": 20043
+  "total_candidatos": 20042
  },
  "profundidade": {
   "aprofundada": {
@@ -370,8 +370,8 @@ const DADOS = {
   "DEPUTADO FEDERAL|AL": {
    "cargo": "DEPUTADO FEDERAL",
    "uf": "AL",
-   "n_total": 111,
-   "n_avaliados": 111,
+   "n_total": 110,
+   "n_avaliados": 110,
    "corte": 8.5,
    "status": "completo",
    "arquivo": "dados/deputado_federal_al.js"
@@ -3013,5 +3013,5 @@ const DADOS = {
    "pesquisa individual"
   ]
  },
- "versao": "683355f3ab"
+ "versao": "d754ef62e4"
 };

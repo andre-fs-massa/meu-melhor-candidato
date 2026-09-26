@@ -812,10 +812,44 @@ peculato no caso das cisternas e improbidade de 1ª instância, nota 5), Dr. Gil
 Rubens Vieira (réu por fraude em licitação, nota 7), Florentino Neto, Franzé Silva e Fábio Xavier. Nenhum finalista tem
 desconto.
 
+### AL
+
+Pesquisados: 29 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **ISNALDO BULHÕES JR** (MDB, Deputado Federal), idoneidade pessoal 4, geral 6.5: Busca rápida na internet (1 busca e 1 de confirmação): réu por falso e desvio de verba da Assembleia; condenação por improbidade na Taturana de situação não confirmada (a confirmar); investigação no STF arquivada e citação no caso Master.
+- **DR JOÃO NETO** (SOLIDARIEDADE, Deputado Federal), idoneidade pessoal 4, geral 6.5: condenação por violência doméstica mantida pelo TJAL e registro de candidatura indeferido pelo TRE-AL (2026).
+- **MARX BELTRÃO** (UNIÃO, Deputado Federal), idoneidade pessoal 8, geral 8.5: absolvido pelo STF de falsidade ideológica e réu por calúnia contra o primo, sem desfecho encontrado.
+- **RAFAEL BRITO** (MDB, Deputado Federal), idoneidade pessoal 8, geral 8.5: Busca rápida na internet (1 busca e 1 de confirmação): ação de cassação pelo Bolsa Escola 10 rejeitada pelo TRE-AL e ordem judicial contra fake news sobre o prefeito de Maceió. A ligação com a operação Capa Dura (livros didáticos) é sobre uma empresa, não sobre ele.
+- **CHICO FILHO** (PSDB, Deputado Federal), idoneidade pessoal 9, geral 9: multa do TCE-AL como presidente da Câmara de Maceió (2026; multa de tribunal de contas = −1). A ação do antigo partido por infidelidade ainda não foi decidida (sem desconto).
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- ISNALDO BULHÕES JR (MDB, Deputado Federal): Busca rápida na internet (1 busca e 1 de confirmação): réu por falso e desvio de verba da Assembleia; condenação por improbidade na Taturana de situação não confirmada (a confirmar); investigação no STF arquivada e citação no caso Master.
+- MESAQUE PADILHA (PP, Deputado Estadual): nada confirmado: o resumo do buscador citou contas de campanha de 2022 aprovadas com ressalvas e devolução de valor, sem fonte que confirme (não desconta; a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: CAL MOREIRA (PSDB 4577), KELMANN VIEIRA DE OLIVEIRA (PSDB 4545), JOÃO UCHÔA (NOVO 3003) — sorteio entre 2 empatados
+- Deputado Federal · Direita conservadora: DANIEL BARBOSA (PP 1155), DELEGADO FABIO COSTA (PP 1190), OLIVIA TENORIO (PP 1133)
+- Deputado Federal · Esquerda progressista: HELO BEZERRA (SOLIDARIEDADE 7777), AFRANIO NETO (SOLIDARIEDADE 7717), NECO (PV 4343) — sorteio entre 3 empatados
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: CÉSAR FELIZARDO (PSDB 45999), LÉO LOUREIRO (PSDB 45222), LUCAS BARBOSA (PSDB 45888) — sorteio entre 2 empatados
+- Deputado Estadual · Direita conservadora: DUDU RONALSA (MDB 15333), DAVID DO EMPREGO (UNIÃO 44555), INACIO LOIOLA (MDB 15345) — sorteio entre 5 empatados
+- Deputado Estadual · Esquerda progressista: MARCOS BARBOSA (PT 13333), TARCIZO FREIRE (PV 43456), SILVIO CAMELO (PV 43123)
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do AL: saíram do topo Isnaldo Bulhões Jr. (réu por falso e desvio de verba da Assembleia, condenação na
+Taturana de situação não confirmada, nota 4) e Dr. João Neto (condenado por violência doméstica, registro indeferido
+pelo TRE-AL, nota 4). **Correção no pipeline:** Afrânio de Mendonça Alves Neto (Solidariedade 7717) tem dois registros
+no TSE e ocupava duas das três vagas da esquerda federal, porque um dos nomes completos tem espaço duplo e escapava da
+remoção de pessoas duplicadas em `pipeline/recomendar.py`; a chave agora ignora espaços repetidos (só esse caso no país).
+
 ## Situação e próximos passos
 
-- **Estados fechados (18 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36). Total: 687 candidatos, 212 com achado que descontou e 81 marcados "a confirmar". Nos dezoito, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (19 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29). Total: 716 candidatos, 217 com achado que descontou e 83 marcados "a confirmar". Nos dezenove, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -838,10 +872,10 @@ desconto.
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 9 estados**, na ordem de população: AL, DF,
+- **Faltam 8 estados**, na ordem de população: DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN e PI (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI e AL (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
