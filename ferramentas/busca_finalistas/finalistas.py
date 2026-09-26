@@ -1,5 +1,6 @@
 """Lista os finalistas atuais de deputado (recomendados por quadrante), com a nota de idoneidade e o motivo gravado.
-Uso: python finalistas.py [UF ...] [--descontos]   (sem UF: todas; --descontos: só quem tem desconto ou "a confirmar")"""
+Uso: python finalistas.py [UF ...] [--descontos] [--sem-rodada2]
+(sem UF: todas; --descontos: só quem tem desconto ou "a confirmar"; --sem-rodada2: só quem ainda não teve a 2ª rodada)"""
 import json
 import sys
 
@@ -11,6 +12,7 @@ from pipeline.recomendar import preparar, recomendar  # noqa: E402
 
 args = [a for a in sys.argv[1:] if not a.startswith("--")]
 so_descontos = "--descontos" in sys.argv
+sem_r2 = "--sem-rodada2" in sys.argv
 idon = json.load(open(RAIZ + r"\data\reference\idoneidade.json", encoding="utf-8"))["candidatos"]
 prof = json.load(open(RAIZ + r"\data\reference\profundidade_pesquisa.json", encoding="utf-8")).get("excecoes", {})
 df = preparar(pd.read_parquet(RAIZ + r"\data\processed\candidatos_2026_competencias_enriquecido.parquet"))
@@ -30,5 +32,7 @@ for uf in ufs:
             desc = reg.get("nota", 10) < 10 or "confirmar" in motivo
             if so_descontos and not desc:
                 continue
+            if sem_r2 and reg.get("rodada2"):
+                continue
             print(f"{uf} | {cargo[9:12]} | {r['quadrante'][:3]} | {sq} | {r['nome_urna']} | {nomes.get(sq, '')} | "
-                  f"{r['partido']} | nota {reg.get('nota', '-')} | {prof.get(sq, '-')} | {motivo[:160]}")
+                  f"{r['partido']} | nota {reg.get('nota', '-')} | {prof.get(sq, '-')} | r2 {reg.get('rodada2', '-')} | {motivo[:160]}")
