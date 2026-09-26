@@ -1177,7 +1177,15 @@ extra, quem entra na lista no lugar de um finalista também passa pelas duas rod
   nenhum processo ou sanção identificada (sem desconto).
 - **BA** (18 finalistas): nenhum achado novo; a lista não mudou. Lídice da Mata (278 processos listados no Jusbrasil, a
   maioria no TRE-BA) e Militão Dourado aparecem em listagens de processos sem nenhum processo ou sanção identificada.
-- **Faltam:** PR, RS, PE, CE, PA e SC.
+- **PR** (18 finalistas na 2ª rodada + 7 empatados novos na 1ª): saiu Marcio Pacheco (representação no TRE-PR por
+  propaganda antecipada nas redes na campanha a prefeito de Cascavel em 2024, resultado não encontrado; pela tabela
+  vale −1 arquivada ou com multa; nota 9). No bloco de 7 empatados da Direita federal: Ricardo Barros (réu na Justiça
+  Eleitoral pela suposta propina da Copel e investigado no STF e no caso Covaxin, 5), Toninho Wandscheer (condenação por
+  improbidade na Máfia dos Sanguessugas com instância não confirmada e ação de improbidade do município, 6), Professor
+  Euler (acordo de não persecução cível com o MPF, tratado como o ANPP de Silas Câmara, a confirmar, 9). Diego Garcia:
+  processo disciplinar de 2021 encerrado com pedido de desculpas (sem desconto). Entrou Tião Medeiros (nada nas duas
+  rodadas). Geraldo Stocco: ação de cliente no juizado especial cível (honorários e dano moral), pendente, sem desconto.
+- **Faltam:** RS, PE, CE, PA e SC.
 
 ## Situação e próximos passos
 

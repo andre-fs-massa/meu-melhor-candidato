@@ -9470,65 +9470,78 @@
       "nome_urna": "GUILHERME LIVOTI",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado além do pedido de perda de mandato por infidelidade partidária movido pelo União Brasil depois que ele foi para o NOVO, decidido a favor dele (sem desconto).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além do pedido de perda de mandato por infidelidade partidária movido pelo União Brasil depois que ele foi para o NOVO, decidido a favor dele (sem desconto). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://canal38.com.br/durante-sessao-vereador-guilherme-livoti-anuncia-desfecho-de-processo-sobre-filiacao-partidaria/",
         "https://www.apucarana.pr.leg.br/parlamentares/guilherme-livoti"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002542299": {
       "nome_urna": "INDIARA BARBOSA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.curitiba.pr.leg.br/informacao/nossa-memoria/galeria-de-vereadoras/vereadoras/indiara-barbosa",
         "https://novo.org.br/noticias/indiara-barbosa-candidata-deputada-federal-pr/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002540769": {
       "nome_urna": "PEDRO LUPION",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o Radar do Congresso indica 1 processo em andamento, sem classe nem assunto visíveis).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o Radar do Congresso indica 1 processo em andamento, sem classe nem assunto visíveis). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 49 processos com o nome (a maioria no TRE-PR), sem nenhuma sanção identificada.",
       "fontes": [
         "https://radar.congressoemfoco.com.br/parlamentar/1204395",
-        "https://www.camara.leg.br/deputados/204395/biografia"
+        "https://www.camara.leg.br/deputados/204395/biografia",
+        "https://www.jusbrasil.com.br/processos/nome/97031915/pedro-deboni-lupion-mello"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002540766": {
       "nome_urna": "MARCIO PACHECO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a denúncia por rachadinha é contra um homônimo, deputado do Rio de Janeiro; a própria Assembleia do Paraná publicou o esclarecimento).",
+      "nota": 9,
+      "motivo": "Busca rápida na internet em 2 rodadas (3 buscas): representação no TRE-PR por propaganda antecipada nas redes sociais na campanha a prefeito de Cascavel (2024), resultado não encontrado (a confirmar).",
       "fontes": [
-        "https://assembleia.pr.leg.br/comunicacao/noticias/deputado-paranaense-marcio-pacheco-e-confundido-com-deputado-investigado-no-rio-de-janeiro"
+        "https://assembleia.pr.leg.br/comunicacao/noticias/deputado-paranaense-marcio-pacheco-e-confundido-com-deputado-investigado-no-rio-de-janeiro",
+        "https://www.jusbrasil.com.br/busca?q=marcio+jose+pacheco+ramos",
+        "https://en.wikipedia.org/wiki/Marcio_Pacheco"
       ],
       "pesquisado_em": "2026-09-25",
-      "achados": [],
-      "origem": "busca_finalistas"
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Representação no TRE-PR (Cascavel, 2024, eleição para prefeito) por propaganda eleitoral antecipada com pedido explícito de voto em posts no Instagram e no Facebook (30 e 31/07/2024); decisão publicada em 25/11/2024, resultado não encontrado. Pela tabela vale −1 tanto arquivada quanto com multa. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002532852": {
       "nome_urna": "HERMES FRANGÃO PARCIANELLO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Hermes_Parcianello",
         "https://www.camara.leg.br/deputados/73772/biografia"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002532596": {
       "nome_urna": "LUCIANO DUCCI",
@@ -9551,27 +9564,29 @@
       "nome_urna": "OMAR PICHETH",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TJPR e do TRE-PR sem classe nem papel visíveis).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TJPR e do TRE-PR sem classe nem papel visíveis). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 32 processos com o nome (TJPR e TRE-PR), sem nenhuma sanção identificada.",
       "fontes": [
         "https://www.saomateusdosul.pr.leg.br/vereador/omar-raimundo-picheth-neto-100008",
         "https://www.jusbrasil.com.br/processos/nome/38798098/omar-raimundo-picheth-neto"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002532590": {
       "nome_urna": "CAMILLA GONDA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de processos da Corregedoria da Câmara de Curitiba: três representações contra vereadoras de oposição arquivadas por falta de quebra de decoro e duas sindicâncias abertas em 2025, sob sigilo, sem sanção encontrada (sem desconto).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de processos da Corregedoria da Câmara de Curitiba: três representações contra vereadoras de oposição arquivadas por falta de quebra de decoro e duas sindicâncias abertas em 2025, sob sigilo, sem sanção encontrada (sem desconto). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.curitiba.pr.leg.br/informacao/noticias/corregedoria-abre-3-sindicancias-para-apurar-conduta-de-vereadoras-de-curitiba",
         "https://www.plural.jor.br/poder/camara-arquiva-denuncias-contra-vereadoras-de-oposicao/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002542382": {
       "nome_urna": "BRUNO SECCO",
@@ -9596,26 +9611,29 @@
       "nome_urna": "AMÁLIA TORTATO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como autora de ação que ganhou na Justiça Eleitoral contra propaganda negativa).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como autora de ação que ganhou na Justiça Eleitoral contra propaganda negativa). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.cmc.pr.gov.br/vereadores/amalia-tortato",
-        "https://www.gazetadopovo.com.br/vozes/entrelinhas/vereadora-do-novo-de-curitiba-vence-psolista-na-justica-eleitoral/"
+        "https://www.gazetadopovo.com.br/vozes/entrelinhas/vereadora-do-novo-de-curitiba-vence-psolista-na-justica-eleitoral/",
+        "https://www.escavador.com/sobre/4806515/maria-amalia-barros-tortato"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002542361": {
       "nome_urna": "TOTO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.telemacoborba.pr.leg.br/processo-legislativo/parlamentares"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002542355": {
       "nome_urna": "EDER BORGES",
@@ -9676,38 +9694,43 @@
       "nome_urna": "NEY LEPREVOST",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.assembleia.pr.leg.br/deputados/perfil/ney-leprevost",
-        "https://www.camara.leg.br/deputados/204384/biografia"
+        "https://www.camara.leg.br/deputados/204384/biografia",
+        "https://www.migalhas.com.br/tudo-sobre/ney-leprevost"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002547550": {
       "nome_urna": "JASSON GOULART",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.curitiba.pr.leg.br/vereadores/vereadores-19a-legislatura/jasson-goulart"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002547539": {
       "nome_urna": "CANTORA MARA LIMA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 60 processos com o nome (TJPR e TRE-PR), sem nenhuma sanção identificada.",
       "fontes": [
-        "Busca na web (2026-09-25): \"Mara Lima\" deputada estadual PR processo OR investigada OR condenada -- nenhum resultado sobre a candidata"
+        "Busca na web (2026-09-25): \"Mara Lima\" deputada estadual PR processo OR investigada OR condenada -- nenhum resultado sobre a candidata",
+        "https://www.jusbrasil.com.br/processos/nome/49527928/marilei-de-souza-lima"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002546882": {
       "nome_urna": "MARCOS VIEIRA",
@@ -9760,26 +9783,30 @@
       "nome_urna": "ROBERTO DE SOUZA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os vereadores de Toledo condenados por corrupção são outros).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os vereadores de Toledo condenados por corrupção são outros). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
-        "https://toledo.votacaoeletronica.inf.br/?sec=nproponente&id=11650"
+        "https://toledo.votacaoeletronica.inf.br/?sec=nproponente&id=11650",
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/parana/deputado-estadual/roberto-de-souza-13456"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002542269": {
       "nome_urna": "GERALDO STOCCO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado sobre a atuação pública; um cliente move ação no juizado especial contra o escritório de advocacia dele por cobrança indevida (2026), sem decisão encontrada (sem desconto).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado sobre a atuação pública; um cliente move ação no juizado especial contra o escritório de advocacia dele por cobrança indevida (2026), sem decisão encontrada (sem desconto). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado além de uma ação de cliente no juizado especial cível contra o escritório de advocacia dele (devolução de R$ 450 de honorários e dano moral), pendente, e reclamações de outros clientes (ação cível de dano moral pendente não desconta).",
       "fontes": [
         "https://www.pontagrossa.pr.leg.br/institucional/parlamentares/geraldo-stocco",
-        "https://arede.info/ponta-grossa/641227/geraldo-stocco-diz-que-divulgacao-de-processo-e-retaliacao-politica"
+        "https://arede.info/ponta-grossa/641227/geraldo-stocco-diz-que-divulgacao-de-processo-e-retaliacao-politica",
+        "https://impactopr.com.br/ponta-grossa-mais-clientes-apontam-transtornos-com-servicos-de-stocco/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002542263": {
       "nome_urna": "YASMIN HACHEM",
@@ -9847,13 +9874,14 @@
       "nome_urna": "MISS PRETA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como vítima de ataques racistas).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como vítima de ataques racistas). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.brasildefato.com.br/2026/03/24/mulher-mais-votada-da-historia-de-pinhais-pr-vereadora-miss-preta-enfrenta-episodio-de-racismo-na-camara-municipal/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002542231": {
       "nome_urna": "ANGELO VANHONI",
@@ -9948,14 +9976,16 @@
       "nome_urna": "LUCIANA RAFAGNIN",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 55 processos com o nome (TJPR e TRE-PR), sem nenhuma sanção identificada.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Luciana_Rafagnin",
-        "https://www.assembleia.pr.leg.br/deputados/perfil/luciana-rafagnin"
+        "https://www.assembleia.pr.leg.br/deputados/perfil/luciana-rafagnin",
+        "https://www.jusbrasil.com.br/processos/nome/35503256/luciana-guzella-rafagnin"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002536519": {
       "nome_urna": "ZECA DIRCEU",
@@ -9992,13 +10022,14 @@
       "nome_urna": "SAMUEL PINHEIRO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o vereador de São José dos Pinhais condenado por assessores fantasmas é outro).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o vereador de São José dos Pinhais condenado por assessores fantasmas é outro). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://cmsjp.pr.gov.br/samuel-pinheiro/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002547512": {
       "nome_urna": "LUCAS MIL GRAU",
@@ -10073,14 +10104,15 @@
       "nome_urna": "RENAN CESCHIN",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos, a maioria do TRE-PR, sem classe nem papel visíveis).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos, a maioria do TRE-PR, sem classe nem papel visíveis). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 43 processos com o nome (a maioria no TRE-PR), sem nenhuma sanção identificada.",
       "fontes": [
         "https://www.cmc.pr.gov.br/vereadores/renan-ceschin",
         "https://www.jusbrasil.com.br/processos/nome/193267821/marcos-renan-de-mattos-ceschin"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002542289": {
       "nome_urna": "HOMERO MARCHESE",
@@ -20503,6 +20535,118 @@
       ],
       "pesquisado_em": "2026-09-26",
       "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002540798": {
+      "nome_urna": "VEREADOR ADEMILSON",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.cambe.pr.leg.br/processo-legislativo/parlamentares/ademilson"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002540793": {
+      "nome_urna": "PROFESSOR EULER",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): acordo de não persecução cível com o MPF por uso de carro alugado pelo CAU-PR na campanha e apuração de nomeações cruzadas (a confirmar).",
+      "fontes": [
+        "https://www.plural.jor.br/poder/secretario-de-esporte-de-curitiba-firmou-acordo-para-nao-responder-por-improbidade-2/",
+        "https://www.paranaportal.com.br/politica/mpf-investiga-nomeacao-irregular-pelo-vereador-euler/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Firmou acordo de não persecução cível (ANPC) com o MPF para não responder por improbidade: um assessor do gabinete de vereador usou na campanha um carro alugado pelo CAU-PR (os responsáveis pelo aluguel devolveram os valores); o MPF também apurou nomeações cruzadas entre o gabinete e o CAU-PR. Tratado como o ANPP de Silas Câmara/AM (−1). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "160002532863": {
+      "nome_urna": "DIEGO GARCIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de um processo disciplinar na Câmara por empurrar uma colega e puxar o computador dela numa sessão (2021), encerrado após pedido de desculpas (disciplinar sem sanção não desconta).",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Diego_Garcia_(pol%C3%ADtico)"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002532858": {
+      "nome_urna": "TIÃO MEDEIROS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Ti%C3%A3o_Medeiros"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
+    },
+    "160002532857": {
+      "nome_urna": "RICARDO BARROS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 5,
+      "motivo": "Busca rápida na internet (1 busca): réu na Justiça Eleitoral por suposta propina na compra de parques eólicos pela Copel (Lava Jato) e investigado em inquéritos no STF e no caso Covaxin.",
+      "fontes": [
+        "https://www.gazetadopovo.com.br/vozes/roger-pereira/ricardo-barros-vira-reu-por-suposta-propina-na-copel/",
+        "https://bandnewsfmcuritiba.com/ricardo-barros-vira-reu-em-processo-que-apura-um-esquema-de-corrupcao-em-contratos-da-copel/",
+        "https://www.brasildefato.com.br/2021/06/26/quem-e-ricardo-barros-deputado-federal-envolvido-no-escandalo-da-covaxin/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu na 3ª Zona Eleitoral de Curitiba (desdobramento da Lava Jato) por lavagem de dinheiro, tráfico de influência e falsidade eleitoral: acusado de receber R$ 5 milhões da Galvão Engenharia para facilitar a compra de dois parques eólicos pela Copel. Nega. Desfecho não encontrado."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo de inquéritos no STF sobre a gestão em Maringá e no Ministério da Saúde e investigado no caso da compra superfaturada da vacina Covaxin (CPI da Covid, 2021)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "160002532853": {
+      "nome_urna": "CRISTINA SILVESTRI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Cristina_Silvestri"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "160002532851": {
+      "nome_urna": "TONINHO WANDSCHEER",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca): condenado por improbidade no caso da Máfia dos Sanguessugas como prefeito de Fazenda Rio Grande (instância não confirmada, a confirmar) e réu em ação de improbidade movida pelo município.",
+      "fontes": [
+        "https://vaipiorar.com.br/toninho-wandscheer/",
+        "https://en.wikipedia.org/wiki/Toninho_Wandscheer"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado por improbidade no caso da Máfia dos Sanguessugas (compra de ambulâncias superfaturadas como prefeito de Fazenda Rio Grande): suspensão dos direitos políticos por 5 anos, multa e proibição de contratar com o poder público. Instância não confirmada (ele segue elegível). A confirmar."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Réu em ação civil pública por improbidade movida pelo município de Fazenda Rio Grande. Desfecho não encontrado."
+        }
+      ],
       "origem": "busca_finalistas"
     }
   }
