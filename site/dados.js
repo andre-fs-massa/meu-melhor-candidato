@@ -1,7 +1,7 @@
 // Gerado por pipeline/exportar_prototipo.py -- não editar à mão. Índice: cada cargo/UF tem o seu arquivo em dados/.
 const DADOS = {
  "meta": {
-  "gerado_em": "2026-09-25",
+  "gerado_em": "2026-09-26",
   "corte": 6.0,
   "corte_deputados": 8.5,
   "limiar": 5.0,
@@ -3013,5 +3013,5 @@ const DADOS = {
    "pesquisa individual"
   ]
  },
- "versao": "a1816773f7"
+ "versao": "24273da9e6"
 };

@@ -8823,11 +8823,13 @@
     "190002541073": {
       "nome_urna": "MAX",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 7,
-      "motivo": "Busca rápida na internet (1 busca): condenação por improbidade como ex-prefeito de Queimados (tratada como de 1ª instância por não ter confirmado a instância) e multa por propaganda negativa mantida pelo TSE. A perda de mandato por infidelidade partidária (2021) foi revista pelo TRE-RJ e não conta.",
+      "nota": 5,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação em 26/09): condenação por improbidade como ex-prefeito de Queimados (tratada como de 1ª instância por não ter confirmado a instância), multa por propaganda negativa mantida pelo TSE e perda de mandato por infidelidade partidária decretada pelo TRE-RJ (2020-2021) e depois revista pelo próprio TRE-RJ (conta desde a regra de 26/09 para cassação ou perda de mandato anulada).",
       "fontes": [
         "https://www.mprj.mp.br/documents/20184/540394/acp_ic_28_2016_max_lemos_abuso_de_poder_politico.pdf",
-        "https://temporealrj.com/tse-condenacao-max-lemos-propaganda-negativa-prefeitura-queimados-2024/"
+        "https://temporealrj.com/tse-condenacao-max-lemos-propaganda-negativa-prefeitura-queimados-2024/",
+        "https://www.tre-rj.jus.br/comunicacao/noticias/2021/Maio/tre-rj-determina-a-perda-do-mandato-do-deputado-max-lemos-por-infidelidade-partidaria",
+        "https://www.tre-rj.jus.br/comunicacao/noticias/2021/Agosto/tre-rj-reve-decisao-que-havia-tirado-mandato-do-deputado-estadual-max-lemos"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [
@@ -8838,6 +8840,10 @@
         {
           "categoria": "infracao_eleitoral_leve",
           "descricao": "Multa de R$ 10 mil mantida pelo TSE por propaganda negativa contra adversários na eleição de 2024 em Queimados."
+        },
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "Perda do mandato de deputado estadual por infidelidade partidária decretada pelo TRE-RJ (jul/2020 e, depois de o TSE mandar rejulgar com quórum qualificado, mai/2021), por deixar o MDB sem justa causa para disputar a prefeitura de Nova Iguaçu; o TRE-RJ reviu a decisão em ago/2021 e reconheceu justa causa. Perda de mandato decretada e depois revertida conta como condenação revertida (decisão do usuário, 26/09)."
         }
       ],
       "origem": "busca_finalistas"
@@ -13684,16 +13690,17 @@
       "nome_urna": "SILAS CÂMARA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 7,
-      "motivo": "Busca rápida na internet (1 busca): mandato cassado pelo TRE-AM por gastos ilícitos na campanha de 2022, com recurso; ação penal por rachadinha no STF encerrada por acordo de não persecução penal.",
+      "motivo": "Busca rápida na internet (1 busca e fontes conferidas): mandato cassado pelo TRE-AM por gastos ilícitos na campanha de 2022, cassação depois anulada pelo próprio TRE-AM (decisão definitiva em 2024); ação penal por rachadinha no STF encerrada por acordo de não persecução penal.",
       "fontes": [
         "https://www.cartacapital.com.br/politica/tre-am-cassa-mandato-do-deputado-federal-silas-camara/",
-        "https://noticias.stf.jus.br/postsnoticias/apos-cumprimento-de-acordo-stf-encerra-processo-contra-deputado-silas-camara-por-peculato/"
+        "https://noticias.stf.jus.br/postsnoticias/apos-cumprimento-de-acordo-stf-encerra-processo-contra-deputado-silas-camara-por-peculato/",
+        "https://www.diap.org.br/index.php/noticias/noticias/91742-tre-am-anula-cassacao-do-deputado-silas-camara-do-republicanos"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "condenacao_1a_instancia_recorrivel",
-          "descricao": "Mandato cassado pelo TRE-AM (4 a 2) por gastos ilícitos com fretes de avião na campanha de 2022; cabe recurso ao TSE."
+          "categoria": "condenacao_revertida",
+          "descricao": "Mandato cassado pelo TRE-AM (4 a 2) em 2023 por gastos ilícitos com fretes de avião na campanha de 2022; a cassação foi anulada pelo próprio TRE-AM nos embargos (22/03/2024) e o agravo do MPE teve seguimento negado no TSE (trânsito em 22/08/2024; proc. 0602548-60.2022.6.04.0000). Cassação anulada conta como condenação revertida (decisão do usuário, 26/09)."
         },
         {
           "categoria": "citado_ou_apuracao_preliminar",
@@ -13718,6 +13725,638 @@
           "descricao": "Condenada em ação civil pública do MPAM, o que segundo a imprensa a tornou inelegível em 2024; empresa da qual é sócia responde a ação do município de Nova Olinda do Norte por desvio de R$ 910 mil. Instância e situação do recurso não confirmadas (a confirmar)."
         }
       ],
+      "origem": "busca_finalistas"
+    },
+    "40002536450": {
+      "nome_urna": "ODER AURÉLIO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002536438": {
+      "nome_urna": "DRA. EUNICE NASCIMENTO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002536437": {
+      "nome_urna": "DR RAIONE CABRAL",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 3,
+      "motivo": "Busca rápida na internet (1 busca, 1 de confirmação e fonte conferida): preso preventivamente em 2025, investigado por tentativa de estupro de uma cliente e por tergiversação; investigado por furto de combustível em Coari; presos em flagrante em 2024 por crime eleitoral e por desacato a juiz do TRE-AM.",
+      "fontes": [
+        "https://www.riosdenoticias.com.br/preso-por-tentativa-de-estupro-raione-cabral-ja-foi-detido-outras-duas-vezes-confira/",
+        "https://www.portaldoholanda.com.br/policial/advogado-suspeito-de-tentativa-de-estupro-em-coari-tambem-e-investigado-por-furto-de-combustivel-doado-pm",
+        "https://www.amazonasdireito.com.br/justica-de-coari-decreta-prisao-de-raione-cabral-queiroz-em-investigacao-criminal/",
+        "https://www.portaldoholanda.com.br/policial/oab-am-se-pronuncia-sobre-prisao-do-advogado-raione-cabral-por-tentativa-de-estupro"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Preso preventivamente em abr/2025 por ordem da Justiça de Coari, investigado por tentativa de estupro de uma cliente de 20 anos (ago/2024) e por tergiversação (atuar para as duas partes do mesmo caso); a OAB-AM abriu processo ético-disciplinar."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Investigado também por furto de combustível apreendido pela polícia e doado à PM em Coari."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Preso em flagrante em 2024 por crime eleitoral ('chuva de dinheiro' numa praça durante a campanha a prefeito de Coari), solto na audiência de custódia; desfecho não encontrado."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Preso em flagrante por desacato em nov/2024 depois de ofender um juiz durante sessão do TRE-AM; desfecho não encontrado."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002536435": {
+      "nome_urna": "JOELSON SILVA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. A operação Face Oculta do MPAM (rachadinha, out/2025) teve como alvo outro vereador de Manaus, Rosinaldo Bual.",
+      "fontes": [
+        "https://vocativo.com/2025/10/03/quem-e-o-vereador-preso-em-manaus-por-suposto-esquema-de-rachadinha/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002533204": {
+      "nome_urna": "HISSA ABRAHÃO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca e fonte conferida): ordem do TRE-AM para suspender impulsionamento de vídeo negativo contra adversários (2026) e impugnação do registro em 2018 sem desfecho encontrado (a confirmar). O resumo do buscador citou contas julgadas irregulares no TCE-AM (2013-2014), sem fonte que confirme (não desconta).",
+      "fontes": [
+        "https://amazonas1.com.br/justica-eleitoral-proibe-impulsionamento-de-video-pago-por-hissa-abrahao-contra-cidade-e-wilson/",
+        "https://amazonasatual.com.br/mpf-alega-que-hissa-abrahao-esta-inelegivel-e-pede-anulacao-de-candidatura-para-senador/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "O TRE-AM mandou suspender em 24 horas (ago/2026) o impulsionamento pago de um vídeo com ataques ao governador Roberto Cidade e ao ex-governador Wilson Lima (propaganda antecipada negativa)."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Registro de candidatura a senador impugnado pelo MP Eleitoral em 2018 por suposta inelegibilidade; desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002545600": {
+      "nome_urna": "LUIS CARLOS VELHO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. Ele não está entre os ex-vereadores de Iranduba condenados pela Justiça Federal por corrupção em 2024.",
+      "fontes": [
+        "https://www.trf1.jus.br/sjam/noticias/justica-federal-condena-ex-prefeito-secretario-e-ex-vereadores-de-iranduba-am-por-crimes-de-corrupcao-"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002541625": {
+      "nome_urna": "JOAQUIM FELIPE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002541624": {
+      "nome_urna": "CHRISTIANE MELCHIOR",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002541616": {
+      "nome_urna": "YOMARA LINS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002541593": {
+      "nome_urna": "FELIPE SOUZA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: uma ex-assessora pessoal dele (2023-2024) foi presa na operação Erga Omnes, suspeita de ligação com o Comando Vermelho; ele não é alvo (sem desconto).",
+      "fontes": [
+        "https://www.cm7brasil.com/noticias/policia/ligacoes-perigosas-lider-do-governo-deputado-felipe-souza-e-a-filha-apadrinharam-presa-por-suspeita-de-elo-com-o-cv-na-aleam/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002537627": {
+      "nome_urna": "ABDALA FRAXE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): condenação por crime contra a ordem econômica (cartel de combustíveis) confirmada pelo TRF1, com pena em execução mantida pelo STJ.",
+      "fontes": [
+        "https://amazonasatual.com.br/stj-mantem-pena-contra-deputado-abdala-fraxe-por-abuso-de-poder-economico/",
+        "https://amazonasatual.com.br/tse-autoriza-posse-do-deputado-abdala-fraxe-na-ale/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado em 2ª instância pelo TRF1 por crime contra a ordem econômica (art. 4º, I, da Lei 8.137/90) no cartel de preços de combustíveis no Amazonas denunciado pelo MPF (as condenações de 1ª instância por quadrilha e crime tributário caíram); o STJ negou suspender a execução das penas restritivas de direitos."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002536913": {
+      "nome_urna": "JONH SILVA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002536897": {
+      "nome_urna": "RAFAEL BASTOS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002536894": {
+      "nome_urna": "MARLUCIA VIEIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002536481": {
+      "nome_urna": "JOÃO PAULO JANJÃO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca e fonte conferida): ação por fraude à cota de gênero da chapa do Agir em 2024, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://redeondadigital.com.br/politica/manaus-perder-mandatos-fraude-de-cotas/",
+        "https://realtime1.com.br/seis-vereadores-de-manaus-podem-perder-o-mandato-por-fraude-na-cota-de-genero-agir-e-reincidente/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Alvo, com outros vereadores do Agir, de ação na Justiça Eleitoral (dez/2024) por fraude à cota de gênero da chapa de 2024 em Manaus, com parecer do MP Eleitoral; desfecho não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002534390": {
+      "nome_urna": "CATIANNE ALVES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada confirmado: o resumo do buscador citou abandono de cargo e condenação no STF, sem fonte que confirme (não desconta; a confirmar).",
+      "fontes": [
+        "https://newsrondonia.com.br/politica/2026/04/17/vereadora-catianne-alves-anuncia-pre-candidatura-a-deputada-estadual"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002534377": {
+      "nome_urna": "RODRIGO GUEDES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): réu por calúnia e difamação contra um colega de Câmara e alvo de outra queixa-crime por crimes contra a honra, ambos sem desfecho encontrado. Uma manchete fala em condenação depois de ele denunciar compra de votos, mas a fonte não pôde ser aberta (a confirmar).",
+      "fontes": [
+        "https://amazonasatual.com.br/juiza-torna-rodrigo-guedes-reu-por-calunia-e-difamacao-contra-alfaia/",
+        "https://amazonasatual.com.br/juiza-decide-por-conciliacao-em-processo-entre-vereadores-de-manaus/",
+        "https://www.riosdenoticias.com.br/rodrigo-guedes-revela-pedido-de-prisao-feito-por-subsecretario-da-gestao-david-almeida/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Réu por calúnia e difamação na 4ª Vara Criminal de Manaus por chamar o vereador Eduardo Alfaia de 'pau-mandado' do prefeito em sessão (set/2024); houve audiência de conciliação, desfecho não encontrado."
+        },
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Queixa-crime por calúnia e difamação movida pelo ex-secretário municipal de Trabalho e Empreendedorismo, sem desfecho encontrado."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002547001": {
+      "nome_urna": "LUIZ CASTRO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: um deputado (Wilker Barreto) acusou-o de saber, como secretário de Educação, de pagamentos indevidos na Seduc; não foi encontrada investigação formal contra ele.",
+      "fontes": [
+        "https://d24am.com/politica/para-deputado-governador-e-luiz-castro-sabiam-de-pagamentos-indevidos-na-seduc/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002546992": {
+      "nome_urna": "DR. ERON DE SÁ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002546980": {
+      "nome_urna": "OTACÍLIO NEGREIROS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002545613": {
+      "nome_urna": "ZÉ RICARDO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca e fonte conferida): ação por fraude à cota de gênero da chapa da federação em 2024, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://emtempo.com.br/399624/politica/ze-ricardo-mira-presidencia-do-pt-am-enquanto-enfrenta-risco-de-perder-mandato/",
+        "https://realtime1.com.br/seis-vereadores-de-manaus-podem-perder-o-mandato-por-fraude-na-cota-de-genero-agir-e-reincidente/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Alvo de ação na Justiça Eleitoral (dez/2024) por suposta candidatura feminina fictícia na chapa da federação PT-PCdoB-PV em Manaus, com parecer do MP Eleitoral pela cassação; ele nega e aguardava julgamento. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002545612": {
+      "nome_urna": "PROFESSOR SINÉSIO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca e fonte conferida): contas de campanha com devolução de R$ 220 mil determinada pelo TRE-AM (2022) e inquérito da PF sobre R$ 20 mil em espécie apreendidos com uma assessora (2024).",
+      "fontes": [
+        "https://portalopoder.com.br/2022/12/09/sinesio-campos-e-condenado-pelo-tre-a-devolver-r-220-mil-aos-cofres-publicos-do-am/",
+        "https://oconvergente.com.br/2024/10/04/deputado-sinesio-campos-silencia-apos-assessora-ser-apreendida-com-r-20-mil-pela-policia-federal/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "Condenado pelo TRE-AM (dez/2022) a devolver cerca de R$ 220 mil ao Tesouro por irregularidades nas contas da campanha (fretamento de aeronaves sem itinerário, publicações e pessoal)."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Inquérito da PF (out/2024) depois da apreensão de R$ 20 mil em espécie com uma assessora que embarcava para Benjamin Constant durante a campanha municipal; ele disse que o dinheiro era dele e os dois foram ouvidos como investigados."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002542676": {
+      "nome_urna": "JOANA DARC",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): cassação de 1ª instância por fraude à cota de gênero da chapa do PR em 2016, suspensa pelo TRE-AM, sem desfecho encontrado (a confirmar). Pela regra de 26/09, cassação decretada conta mesmo que depois anulada.",
+      "fontes": [
+        "https://d24am.com/politica/lider-do-governo-na-ale-joana-darc-fica-inelegivel-e-pode-ser-cassada/",
+        "https://www.portaldoholanda.com.br/aleam/presidente-do-tre-suspende-cassacao-de-vereadores-e-deputada-no-amazonas",
+        "https://amazonasatual.com.br/joana-darc-diz-que-nao-sabia-de-cotas-confia-no-judiciario-e-nao-pode-ser-prejudicada/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Mandato de vereadora de Manaus (eleição de 2016, pelo PR) cassado em 1ª instância em out/2019, com inelegibilidade de 8 anos, por fraude à cota de gênero da chapa; o presidente do TRE-AM suspendeu a cassação e ela recorreu; desfecho não encontrado (seguiu deputada estadual). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002542675": {
+      "nome_urna": "SAIMON BESSA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002542672": {
+      "nome_urna": "THAYSA LIPPY",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): pedido de cassação no TRE-AM rejeitado por unanimidade, com multa por má-fé para a autora (mesma categoria de Lukão/CE e Elcione Barbalho/PA).",
+      "fontes": [
+        "https://emtempo.com.br/476028/politica/tre-am-rejeita-acao-e-mantem-mandato-de-thaysa-lippy-em-manaus/",
+        "https://amazonas1.com.br/tentativa-de-cassar-mandato-de-thaysa-lippy-termina-com-derrota-e-multa-para-federacao/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Ação da Federação Renovação Solidária no TRE-AM pedindo a cassação do mandato de vereadora, rejeitada por unanimidade; a federação foi multada por litigância de má-fé."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002542670": {
+      "nome_urna": "FAUSTO JR",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): condenado por danos morais ao senador Omar Aziz e multado por propaganda antecipada.",
+      "fontes": [
+        "https://radaramazonico.com.br/apos-ser-condenado-por-chamar-omar-aziz-de-corrupto-fausto-junior-lanca-desafio-ao-senador-ver-video/",
+        "https://amazonasatual.com.br/eu-voto-em-comicio-gera-multa-de-r-5-mil-a-deputado-federal-do-am/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado em 1ª instância a pagar R$ 80 mil ao senador Omar Aziz (R$ 30 mil por danos morais e R$ 50 mil por descumprir ordem de retirar posts que o chamavam de corrupto)."
+        },
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multa de R$ 5 mil da Justiça Eleitoral por propaganda antecipada ('eu voto' em comício)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002531445": {
+      "nome_urna": "ADAIL FILHO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca): alvo principal da operação Dinastia do Lago da PF (set/2026), com inquérito no STF por corrupção e lavagem, e preso temporariamente em 2019 na operação Patrinus, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://ncnews.com.br/2026/09/16/deputado-federal-adail-filho-e-alvo-de-operacao-da-pf-autorizada-por-alexandre-de-moraes/",
+        "https://revistaforum.com.br/politica/adail-filho-alvo-operacao-pf/",
+        "https://www.nahoraonline.com/dinastia-do-lago-stf-afasta-prefeito-de-coari-filho-deputado-e-alvo/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Inquérito no STF (aberto por Alexandre de Moraes em abr/2026) por corrupção e lavagem; principal alvo da operação Dinastia do Lago da PF (16/09/2026), com busca e apreensão, sobre fraude em licitações e desvio de recursos em Coari, depois da apreensão de R$ 1,2 milhão em espécie com três empresários (mai/2025); o pai, prefeito Adail Pinheiro, foi afastado."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Preso temporariamente em set/2019, quando era prefeito de Coari, na operação Patrinus (fraude em licitações, corrupção e lavagem); desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002531441": {
+      "nome_urna": "SAULLO VIANNA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca e fontes conferidas): prisão temporária em 2018 com provas anuladas e inquéritos arquivados; alvo de duas operações (PF 2020 e MPAM 2021) sobre licitações em Presidente Figueiredo sem desfecho encontrado (a confirmar); condenado a indenizar o Estado por divulgar informação falsa.",
+      "fontes": [
+        "https://www.mixdenoticias.com/2026/09/discurso-e-um-historico-e-outro-saullo.html",
+        "https://amazonas1.com.br/pf-mira-familia-de-saullo-viana-em-operacao-que-apura-esquema-de-r-13-milhoes/",
+        "https://revistacenarium.com.br/justica-mantem-decisao-que-condenou-saullo-vianna-por-acusacoes-contra-governo-do-am/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Preso temporariamente pela PF por 5 dias em dez/2018 numa investigação de corrupção e organização criminosa; em jan/2019 a Justiça Eleitoral anulou as provas (juízo incompetente) e mandou arquivar os inquéritos."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Alvo de busca e apreensão na operação Ponto de Parada da PF (nov/2020) sobre fraude na licitação de transporte escolar de Presidente Figueiredo (R$ 13 milhões, sobrepreço de ~R$ 4 milhões); o pai foi preso temporariamente; desfecho não encontrado (processo antigo). A confirmar."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Alvo de busca e apreensão na operação Cachoeira Limpa do MPAM/Gaeco (fev/2021) sobre fraude em licitações, peculato e lavagem em Presidente Figueiredo; a Justiça negou os pedidos de prisão e afastamento; desfecho não encontrado (processo antigo). A confirmar."
+        },
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado pela 2ª Vara da Fazenda Pública de Manaus, em ação do Estado do Amazonas, a publicar retratação e pagar R$ 40 mil por divulgar informações falsas contra o governo; decisão mantida no recurso."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002542667": {
+      "nome_urna": "MÁRIO CÉSAR FILHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002542666": {
+      "nome_urna": "DR. GOMES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): apuração da Procuradoria Regional Eleitoral sobre consultas médicas com pedido de voto no gabinete, sem desfecho encontrado (a confirmar). A acusação de xenofobia feita pelo sindicato dos médicos em 2020 não virou processo encontrado (sem desconto).",
+      "fontes": [
+        "https://www.acritica.com/pre-am-pede-explicac-es-sobre-o-caso-do-deputado-estadual-dr-gomes-1.237479"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "A Procuradoria Regional Eleitoral pediu explicações à Assembleia (2022) sobre o uso do gabinete para dar consultas médicas e pedir votos, o que poderia configurar crime eleitoral e improbidade; desfecho não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002542663": {
+      "nome_urna": "PROFESSORA JACQUELINE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002542661": {
+      "nome_urna": "CARLINHOS BESSA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): PIC do MP Eleitoral por suposta desobediência eleitoral (mesma categoria dos PICs de Roberto Cidade/AM e Tião Bocalom/AC).",
+      "fontes": [
+        "https://emtempo.com.br/416703/politica/mp-eleitoral-instaura-investigacao-contra-deputado-do-amazonas/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "O MP Eleitoral abriu procedimento investigatório criminal (PIC) por suposta desobediência eleitoral dele, como presidente estadual do PV, a uma determinação da Resolução TSE nº 23.679/2022."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002542660": {
+      "nome_urna": "BRENA DIANNÁ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): multas por propaganda irregular e antecipada e pesquisa fraudulenta na campanha de 2024; beneficiária de abuso de poder de um secretário estadual condenado.",
+      "fontes": [
+        "https://portalofato.com.br/2024/12/17/candidata-derrotada-em-parintins-brena-dianna-e-condenada-a-pagar-multa-por-derramamento-de-santinhos/",
+        "https://www.riosdenoticias.com.br/justica-eleitoral-condena-brenna-dianna-e-israel-paulain-por-propaganda-antecipada-em-parintins/",
+        "https://www.panoramaparintins.com/2024/08/juiza-juliana-mousinho-considera.html?m=1",
+        "https://portalofato.com.br/2024/12/18/investigado-pelo-mp-por-suposto-esquema-para-fraudar-eleicoes-flavio-antony-e-condenado-por-abuso-de-poder/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multas da Justiça Eleitoral na campanha a prefeita de Parintins (2024): R$ 15 mil por propaganda antecipada com um influenciador, R$ 5 mil por derramamento de santinhos, e pesquisa favorável a ela considerada fraudulenta pela juíza eleitoral."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Apontada como beneficiária de reunião em que secretários do governo estadual teriam planejado fraude eleitoral a seu favor em Parintins; o secretário Flávio Antony foi condenado por abuso de poder por pedir votos para ela em evento oficial. Não foi encontrada condenação dela nesse caso."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002542653": {
+      "nome_urna": "RODRIGO SÁ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): apuração preliminar do MPAM sobre promoção pessoal com recursos públicos (2026).",
+      "fontes": [
+        "https://canal92am.com/politica/investigacao-rodrigo-sa/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "O MPAM abriu apuração (2026, nº 01.2026.00003713-0) sobre suposto uso de recursos públicos para promoção pessoal, incluindo R$ 6 milhões em material impresso com a imagem dele."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002541749": {
+      "nome_urna": "DR. GEORGE LINS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. A condenação por conduta vedada de 2017 é do pai, Belarmino Lins (sem desconto).",
+      "fontes": [
+        "https://www.acritica.com/justica-eleitoral-condena-deputado-estadual-belarmino-lins-por-conduta-vedada-1.170950"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002541748": {
+      "nome_urna": "MARCO CASTILHOS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002541747": {
+      "nome_urna": "WANDERLEY MONTEIRO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: processo de expulsão aberto pelo Avante (2025) por ele ter assinado pedido de CPI contra a orientação do partido; assunto interno de partido, sem desconto.",
+      "fontes": [
+        "https://amazonasatual.com.br/avante-abre-processo-para-expulsar-deputado-do-am-por-infidelidade/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002541746": {
+      "nome_urna": "ALDENOR LIMA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "40002541745": {
+      "nome_urna": "ADJUTO AFONSO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca): multa definitiva por doação eleitoral acima do limite (2020), impugnação do registro rejeitada pelo TRE-AM (2026) e ordem para retirar 20 publicações da Assembleia (2026).",
+      "fontes": [
+        "https://amazonas1.com.br/mpe-pede-impugnacao-da-candidatura-de-adjuto-afonso/",
+        "https://amazonas1.com.br/tre-am-rejeita-impugnacao-do-mpe-e-aprova-candidatura-de-adjuto-afonso/",
+        "https://amazonas1.com.br/justica-manda-adjuto-afonso-retirar-20-publicacoes-da-aleam/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "Condenado em definitivo (trânsito em 10/03/2025, proc. 0600106-55.2021.6.04.0001) por doar R$ 75 mil à campanha do filho a vereador em 2020, acima do limite legal; multa de R$ 16,1 mil."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Impugnação do registro de candidatura pelo MP Eleitoral (ago/2026) rejeitada pelo TRE-AM, que aprovou a candidatura."
+        },
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "A Justiça mandou retirar 20 publicações da Assembleia Legislativa com promoção dele (set/2026)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002532737": {
+      "nome_urna": "KENNEDY MARQUES PROTETOR",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): procedimento preparatório do MPAM por suposto nepotismo (2026).",
+      "fontes": [
+        "https://www.riosdenoticias.com.br/vereador-kennedy-marques-e-investigado-pelo-mpam-por-nepotismo-por-nomear-duas-ex-mulheres-em-seu-gabinete/",
+        "https://emtempo.com.br/473691/politica/vereador-de-manaus-e-investigado-por-suspeita-de-nepotismo/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "O MPAM abriu procedimento preparatório (2026, nº 06.2026.00000472-8) por suposto nepotismo na nomeação de duas ex-companheiras no gabinete."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "40002532736": {
+      "nome_urna": "THIAGO ABRAHIM",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada confirmado: há notícia de representação ao MP por suposta autopromoção em Itacoatiara, sem abertura de apuração encontrada (não desconta; a confirmar).",
+      "fontes": [
+        "https://www.facebook.com/portalampost/posts/deputado-thiago-abrahim-%C3%A9-alvo-de-den%C3%BAncia-no-mp-por-suposta-autopromo%C3%A7%C3%A3o-em-ita/1344990007637427/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
       "origem": "busca_finalistas"
     }
   }

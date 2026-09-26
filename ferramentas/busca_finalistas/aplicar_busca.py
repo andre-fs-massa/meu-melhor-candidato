@@ -16,7 +16,7 @@ from pipeline.pesos import calcular_nota  # noqa: E402
 IDON = RAIZ / "data/reference/idoneidade.json"
 PROF = RAIZ / "data/reference/profundidade_pesquisa.json"
 ESTR = RAIZ / "data/processed/estrutural_idoneidade.json"
-DATA = "2026-09-25"
+DATA = "2026-09-26"
 
 entrada = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
 idon = json.loads(IDON.read_text(encoding="utf-8"))

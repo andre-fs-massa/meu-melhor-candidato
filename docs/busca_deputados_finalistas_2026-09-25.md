@@ -37,7 +37,7 @@ nenhum não pesquisado empate com a última vaga. Um estado só é dado como fec
 | Réu em ação penal | `reu_acao_penal` | −3 por processo |
 | Registro de candidatura impugnado pelo MPE, pendente | `registro_contestado_sub_judice` | −2 |
 | Inquérito aberto ou ação de improbidade/civil pública em curso (recente) | `investigacao_ou_acao_civil_em_curso` | −2 |
-| Condenação de 1ª instância revertida no recurso (inclusive cassação eleitoral revertida) | `condenacao_revertida` | −2 |
+| Condenação de 1ª instância revertida no recurso; cassação ou perda de mandato **decretada e depois anulada ou revertida** (no recurso, nos embargos ou pelo próprio tribunal), inclusive por infidelidade partidária (decisão do usuário, 26/09: houve apuração e decisão contra o candidato, o que já é indício) | `condenacao_revertida` | −2 |
 | Condenação por improbidade cuja instância não se confirmou | `condenacao_1a_instancia_recorrivel` | −2 |
 | Mandato cassado ou suspenso por decisão confirmada (casa legislativa ou TSE) | `cassacao_de_mandato` | −2 |
 | Ação penal extinta por prescrição, sem condenação | `acusacao_anulada_ou_absolvida` | −1 |
@@ -51,7 +51,7 @@ nenhum não pesquisado empate com a última vaga. Um estado só é dado como fec
 | Processo disciplinar por fala ou decoro, arquivado ou sem sanção | — | 0 |
 | Ser autor ou vítima de processo; resultado de homônimo | — | 0 |
 | Perda de mandato por infidelidade partidária **decretada e mantida** (decisão do usuário, 25/09) | `cassacao_de_mandato` | −2 |
-| Pedido de perda de mandato por infidelidade partidária ainda não decidido, negado ou revertido | — | 0 |
+| Pedido de cassação ou de perda de mandato ainda não decidido ou negado (nunca decretado) | — | 0 |
 | Processos de parentes (cônjuge, pai), sem o candidato como alvo | — | 0 (entram no círculo político só dos majoritários) |
 
 ## Correção feita antes da busca: caciques dos deputados
@@ -154,7 +154,7 @@ Pesquisados: 43 candidatos (1 busca cada, mais confirmações quando houve sinal
 - **DANIELA DO WAGUINHO** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 7, geral 8.5: ação por nepotismo arquivada (2018), apuração do MP sobre gráficas da campanha de 2022 sem desfecho encontrado (a confirmar) e multa por propaganda irregular no dia da eleição. O marido, Waguinho, é alvo da PF (não entra na nota pessoal).
 - **LUIZ MARTINS** (PSDB, Deputado Estadual), idoneidade pessoal 7, geral 8: Busca rápida na internet (1 busca e 1 de confirmação): réu na Operação Furna da Onça por associação criminosa e corrupção passiva, com prisão preventiva em 2018; processo suspenso pelo STJ.
 - **MAICON CRUZ** (PV, Deputado Estadual), idoneidade pessoal 7, geral 8.5: mandato cassado pelo TSE em 2024 por fraude à cota de gênero da chapa e inquérito de 2022 arquivado.
-- **MAX** (UNIÃO, Deputado Federal), idoneidade pessoal 7, geral 8: condenação por improbidade como ex-prefeito de Queimados (tratada como de 1ª instância por não ter confirmado a instância) e multa por propaganda negativa mantida pelo TSE. A perda de mandato por infidelidade partidária (2021) foi revista pelo TRE-RJ e não conta.
+- **MAX** (UNIÃO, Deputado Federal), idoneidade pessoal 5 (era 7 até 26/09): condenação por improbidade como ex-prefeito de Queimados (tratada como de 1ª instância por não ter confirmado a instância) e multa por propaganda negativa mantida pelo TSE. A perda de mandato por infidelidade partidária decretada pelo TRE-RJ (2020-2021) e depois revista pelo próprio tribunal passou a contar como condenação revertida (−2) pela regra de 26/09.
 - **BERNARDO ROSSI** (UNIÃO, Deputado Federal), idoneidade pessoal 7, geral 8: alvo de busca e apreensão da PF no caso Refit (2026) e AIJE de 2020 sem desfecho encontrado (a confirmar).
 - **GLAUBER BRAGA** (PSOL, Deputado Federal), idoneidade pessoal 8, geral 9: suspensão do mandato por 6 meses pela Câmara por agressão física a um militante dentro da Casa.
 - **PROF. JOSEMAR** (PSOL, Deputado Estadual), idoneidade pessoal 8, geral 9: multa eleitoral por santinhos no dia da eleição e condenação por danos morais a policial federal.
@@ -534,15 +534,85 @@ cruzada pelo pipeline (conferir o registro). Rodrigo Lago, finalista estadual, a
 investigatório criminal do MPMA sem nenhum detalhe: **confirmar antes de 04/10**.
 
 
+### AM
+
+Pesquisados: 48 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **DR RAIONE CABRAL** (AVANTE, Deputado Federal), idoneidade pessoal 3, geral 5.5: Busca rápida na internet (1 busca, 1 de confirmação e fonte conferida): preso preventivamente em 2025, investigado por tentativa de estupro de uma cliente e por tergiversação; investigado por furto de combustível em Coari; presos em flagrante em 2024 por crime eleitoral e por desacato a juiz do TRE-AM.
+- **SIDNEY LEITE** (PSD, Deputado Federal), idoneidade pessoal 4, geral 6: Busca rápida na internet (1 busca e 1 de confirmação): réu em ação penal por corrupção eleitoral no TRE-AM; denunciado em 2016 por estupro de vulnerável e tortura (2004), processo sigiloso sem desfecho encontrado (a confirmar); condenado por fake news e multado por propaganda irregular.
+- **ABDALA FRAXE** (AVANTE, Deputado Estadual), idoneidade pessoal 6, geral 7: Busca rápida na internet (1 busca e 1 de confirmação): condenação por crime contra a ordem econômica (cartel de combustíveis) confirmada pelo TRF1, com pena em execução mantida pelo STJ.
+- **SAULLO VIANNA** (MDB, Deputado Federal), idoneidade pessoal 6, geral 7.5: Busca rápida na internet (1 busca e fontes conferidas): prisão temporária em 2018 com provas anuladas e inquéritos arquivados; alvo de duas operações (PF 2020 e MPAM 2021) sobre licitações em Presidente Figueiredo sem desfecho encontrado (a confirmar); condenado a indenizar o Estado por divulgar informação falsa.
+- **ATILA LINS** (PSD, Deputado Federal), idoneidade pessoal 7, geral 7.5: cassação pelo TRE-AM (campanha de 2010) sem efeito, com contas aprovadas pelo TSE; ação civil pública por dano ao erário sem desfecho encontrado (a confirmar).
+- **SILAS CÂMARA** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 7, geral 8.5: Busca rápida na internet (1 busca e fontes conferidas): mandato cassado pelo TRE-AM por gastos ilícitos na campanha de 2022, cassação depois anulada pelo próprio TRE-AM (decisão definitiva em 2024); ação penal por rachadinha no STF encerrada por acordo de não persecução penal.
+- **PROFESSOR SINÉSIO** (PT, Deputado Estadual), idoneidade pessoal 7, geral 8: Busca rápida na internet (1 busca e fonte conferida): contas de campanha com devolução de R$ 220 mil determinada pelo TRE-AM (2022) e inquérito da PF sobre R$ 20 mil em espécie apreendidos com uma assessora (2024).
+- **ADAIL FILHO** (MDB, Deputado Federal), idoneidade pessoal 7, geral 8: alvo principal da operação Dinastia do Lago da PF (set/2026), com inquérito no STF por corrupção e lavagem, e preso temporariamente em 2019 na operação Patrinus, sem desfecho encontrado (a confirmar).
+- **ADJUTO AFONSO** (UNIÃO, Deputado Estadual), idoneidade pessoal 7, geral 8: multa definitiva por doação eleitoral acima do limite (2020), impugnação do registro rejeitada pelo TRE-AM (2026) e ordem para retirar 20 publicações da Assembleia (2026).
+- **NATALIA** (PSOL, Deputado Federal), idoneidade pessoal 8, geral 9: condenada em ação civil pública do MPAM (inelegível em 2024, segundo a imprensa); instância não confirmada (a confirmar).
+- **HISSA ABRAHÃO** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 8, geral 9: Busca rápida na internet (1 busca e fonte conferida): ordem do TRE-AM para suspender impulsionamento de vídeo negativo contra adversários (2026) e impugnação do registro em 2018 sem desfecho encontrado (a confirmar). O resumo do buscador citou contas julgadas irregulares no TCE-AM (2013-2014), sem fonte que confirme (não desconta).
+- **RODRIGO GUEDES** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 8, geral 9: Busca rápida na internet (1 busca e 1 de confirmação): réu por calúnia e difamação contra um colega de Câmara e alvo de outra queixa-crime por crimes contra a honra, ambos sem desfecho encontrado. Uma manchete fala em condenação depois de ele denunciar compra de votos, mas a fonte não pôde ser aberta (a confirmar).
+- **JOANA DARC** (UNIÃO, Deputado Federal), idoneidade pessoal 8, geral 8.5: Busca rápida na internet (1 busca e 1 de confirmação): cassação de 1ª instância por fraude à cota de gênero da chapa do PR em 2016, suspensa pelo TRE-AM, sem desfecho encontrado (a confirmar). Pela regra de 26/09, cassação decretada conta mesmo que depois anulada.
+- **FAUSTO JR** (UNIÃO, Deputado Federal), idoneidade pessoal 8, geral 8.5: condenado por danos morais ao senador Omar Aziz e multado por propaganda antecipada.
+- **CARLINHOS BESSA** (UNIÃO, Deputado Estadual), idoneidade pessoal 8, geral 8.5: PIC do MP Eleitoral por suposta desobediência eleitoral (mesma categoria dos PICs de Roberto Cidade/AM e Tião Bocalom/AC).
+- **BRENA DIANNÁ** (UNIÃO, Deputado Estadual), idoneidade pessoal 8, geral 8.5: multas por propaganda irregular e antecipada e pesquisa fraudulenta na campanha de 2024; beneficiária de abuso de poder de um secretário estadual condenado.
+- **JOÃO PAULO JANJÃO** (AGIR, Deputado Estadual), idoneidade pessoal 9, geral 9.5: Busca rápida na internet (1 busca e fonte conferida): ação por fraude à cota de gênero da chapa do Agir em 2024, sem desfecho encontrado (a confirmar).
+- **ZÉ RICARDO** (PT, Deputado Estadual), idoneidade pessoal 9, geral 9: Busca rápida na internet (1 busca e fonte conferida): ação por fraude à cota de gênero da chapa da federação em 2024, sem desfecho encontrado (a confirmar).
+- **THAYSA LIPPY** (UNIÃO, Deputado Federal), idoneidade pessoal 9, geral 9: pedido de cassação no TRE-AM rejeitado por unanimidade, com multa por má-fé para a autora (mesma categoria de Lukão/CE e Elcione Barbalho/PA).
+- **DR. GOMES** (UNIÃO, Deputado Estadual), idoneidade pessoal 9, geral 9: apuração da Procuradoria Regional Eleitoral sobre consultas médicas com pedido de voto no gabinete, sem desfecho encontrado (a confirmar). A acusação de xenofobia feita pelo sindicato dos médicos em 2020 não virou processo encontrado (sem desconto).
+- **RODRIGO SÁ** (PP, Deputado Estadual), idoneidade pessoal 9, geral 9: apuração preliminar do MPAM sobre promoção pessoal com recursos públicos (2026).
+- **KENNEDY MARQUES PROTETOR** (MDB, Deputado Estadual), idoneidade pessoal 9, geral 9: procedimento preparatório do MPAM por suposto nepotismo (2026).
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- ATILA LINS (PSD, Deputado Federal): cassação pelo TRE-AM (campanha de 2010) sem efeito, com contas aprovadas pelo TSE; ação civil pública por dano ao erário sem desfecho encontrado (a confirmar).
+- SIDNEY LEITE (PSD, Deputado Federal): Busca rápida na internet (1 busca e 1 de confirmação): réu em ação penal por corrupção eleitoral no TRE-AM; denunciado em 2016 por estupro de vulnerável e tortura (2004), processo sigiloso sem desfecho encontrado (a confirmar); condenado por fake news e multado por propaganda irregular.
+- NATALIA (PSOL, Deputado Federal): condenada em ação civil pública do MPAM (inelegível em 2024, segundo a imprensa); instância não confirmada (a confirmar).
+- HISSA ABRAHÃO (REPUBLICANOS, Deputado Federal): Busca rápida na internet (1 busca e fonte conferida): ordem do TRE-AM para suspender impulsionamento de vídeo negativo contra adversários (2026) e impugnação do registro em 2018 sem desfecho encontrado (a confirmar). O resumo do buscador citou contas julgadas irregulares no TCE-AM (2013-2014), sem fonte que confirme (não desconta).
+- JOÃO PAULO JANJÃO (AGIR, Deputado Estadual): Busca rápida na internet (1 busca e fonte conferida): ação por fraude à cota de gênero da chapa do Agir em 2024, sem desfecho encontrado (a confirmar).
+- CATIANNE ALVES (REPUBLICANOS, Deputado Estadual): nada confirmado: o resumo do buscador citou abandono de cargo e condenação no STF, sem fonte que confirme (não desconta; a confirmar).
+- RODRIGO GUEDES (REPUBLICANOS, Deputado Estadual): Busca rápida na internet (1 busca e 1 de confirmação): réu por calúnia e difamação contra um colega de Câmara e alvo de outra queixa-crime por crimes contra a honra, ambos sem desfecho encontrado. Uma manchete fala em condenação depois de ele denunciar compra de votos, mas a fonte não pôde ser aberta (a confirmar).
+- ZÉ RICARDO (PT, Deputado Estadual): Busca rápida na internet (1 busca e fonte conferida): ação por fraude à cota de gênero da chapa da federação em 2024, sem desfecho encontrado (a confirmar).
+- JOANA DARC (UNIÃO, Deputado Federal): Busca rápida na internet (1 busca e 1 de confirmação): cassação de 1ª instância por fraude à cota de gênero da chapa do PR em 2016, suspensa pelo TRE-AM, sem desfecho encontrado (a confirmar). Pela regra de 26/09, cassação decretada conta mesmo que depois anulada.
+- ADAIL FILHO (MDB, Deputado Federal): alvo principal da operação Dinastia do Lago da PF (set/2026), com inquérito no STF por corrupção e lavagem, e preso temporariamente em 2019 na operação Patrinus, sem desfecho encontrado (a confirmar).
+- SAULLO VIANNA (MDB, Deputado Federal): Busca rápida na internet (1 busca e fontes conferidas): prisão temporária em 2018 com provas anuladas e inquéritos arquivados; alvo de duas operações (PF 2020 e MPAM 2021) sobre licitações em Presidente Figueiredo sem desfecho encontrado (a confirmar); condenado a indenizar o Estado por divulgar informação falsa.
+- DR. GOMES (UNIÃO, Deputado Estadual): apuração da Procuradoria Regional Eleitoral sobre consultas médicas com pedido de voto no gabinete, sem desfecho encontrado (a confirmar). A acusação de xenofobia feita pelo sindicato dos médicos em 2020 não virou processo encontrado (sem desconto).
+- THIAGO ABRAHIM (MDB, Deputado Estadual): nada confirmado: há notícia de representação ao MP por suposta autopromoção em Itacoatiara, sem abertura de apuração encontrada (não desconta; a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: RICHARD STONE (NOVO 3067), JOELSON SILVA (AVANTE 7001), DRA. EUNICE NASCIMENTO (AVANTE 7077)
+- Deputado Federal · Direita conservadora: JOÃO CARLOS (REPUBLICANOS 1033), AMOM MANDEL (REPUBLICANOS 1000), SAIMON BESSA (UNIÃO 4433)
+- Deputado Federal · Esquerda progressista: JOAQUIM FELIPE (PSB 4044), CHRISTIANE MELCHIOR (PSB 4000), LUIS CARLOS VELHO (PT 1363)
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: YOMARA LINS (PODE 20123), FELIPE SOUZA (PODE 20000), JONH SILVA (NOVO 30777) — sorteio entre 3 empatados
+- Deputado Estadual · Direita conservadora: CATIANNE ALVES (REPUBLICANOS 10321), THIAGO ABRAHIM (MDB 15789), DR. GEORGE LINS (UNIÃO 44666) — sorteio entre 8 empatados
+- Deputado Estadual · Esquerda progressista: ZÉ RICARDO (PT 13610), LUIZ CASTRO (PDT 12345), OTACÍLIO NEGREIROS (PDT 12012) — sorteio entre 3 empatados
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do AM: **regra nova do usuário (26/09): cassação ou perda de mandato decretada e depois anulada ou revertida
+desconta** (`condenacao_revertida`, −2), porque houve apuração e decisão contra o candidato. Aplicada a todos os
+registros: Max/RJ (perda de mandato por infidelidade decretada pelo TRE-RJ e revista em 2021, nota 7 → 5) e Silas Câmara (cassação anulada pelo próprio TRE-AM nos embargos, em definitivo em 2024) passou de
+"condenação recorrível" para "condenação revertida", nota mantida em 7; Kiko Beloni/SP, Renato Freitas/PR, Eduardo
+Bismarck/CE e Átila Lins/AM já estavam assim. Não mudaram: pedidos de cassação ou de perda de mandato nunca decretados
+(Livoti/PR, Igor Franco/GO: o MP pediu e o TRE-GO não decretou; ações de cassação rejeitadas seguem −1 como acusação
+rejeitada) e Eder Borges/PR, cuja perda de mandato de 2022 decorreu de uma certidão de trânsito emitida por erro na
+mesma condenação por difamação que já desconta (contar de novo seria dobrar o mesmo fato). Duas rodadas de reposição
+(os descontos de Hissa Abrahão, Janjão, Adail Filho e Saullo Vianna abriram vagas na direita): 48 pesquisados.
+Raione Cabral (preso preventivamente em 2025 por tentativa de estupro, nota 3) e Abdala Fraxe (condenação por cartel
+de combustíveis confirmada pelo TRF1, nota 6) eram do bloco do topo e saíram.
+
 ## Situação e próximos passos
 
-- **Estados fechados (12 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34). Total: 477 candidatos, 133 com achado que descontou e 47 marcados "a confirmar". Nos doze, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (13 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48). Total: 525 candidatos, 155 com achado que descontou e 60 marcados "a confirmar". Nos treze, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
-  mantida como cassação (−2); pedidos não decididos, negados ou revertidos continuam sem desconto (Gilberto Abramo,
-  Flávia Borja, Ronaldo Tannús/MG, Livoti/PR e Max/RJ, cuja perda foi revista pelo TRE-RJ, seguem como estavam).
+  mantida como cassação (−2); pedidos não decididos ou negados continuam sem desconto; desde 26/09, perda decretada e
+  depois revertida vale −2 como condenação revertida (Max/RJ: perda decretada pelo TRE-RJ em 2020-2021 e revista em
+  ago/2021, nota 7 → 5) (Gilberto Abramo,
+  Flávia Borja, Ronaldo Tannús/MG e Livoti/PR seguem como estavam).
 - **Achados mais graves:** Euclydes Pettersen/MG (2 ações penais e indiciamento no caso do INSS, nota 2), Lucas
   Cardoso/SP (condenação por estelionato confirmada pelo TJSP e registro impugnado, nota 4), Luiz Fernando Faria/MG
   (réu na Lava Jato, nota 6), Renato Freitas/PR (condenação por pichação com recurso, cassação de 2022 revertida,
@@ -558,12 +628,10 @@ investigatório criminal do MPMA sem nenhum detalhe: **confirmar antes de 04/10*
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 15 estados**, na ordem de população: AM, ES, PB, MT, RN, PI, AL, DF,
+- **Faltam 14 estados**, na ordem de população: ES, PB, MT, RN, PI, AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
-- **Anotado para o AM:** o deputado federal Adail Filho (MDB) foi alvo da PF em 16/09/2026 (Operação Dinastia do
-  Lago: fraude em licitações, desvio, corrupção e lavagem) — apareceu por acaso numa busca de MG.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO e MA (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA e AM (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
