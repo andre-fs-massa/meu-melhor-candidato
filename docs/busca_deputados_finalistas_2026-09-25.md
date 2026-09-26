@@ -1138,6 +1138,26 @@ instância por compra de votos, nota 7), Adjalma (perda do mandato de vereador p
 (gastos da cota parlamentar com empresas de aliados, controvérsia sem apuração, nota 9,5). O deputado de Roraima com
 cassação por compra de votos mantida pelo TSE em abr/2026 é Renan Bekel, que não está entre os pesquisados.
 
+## Reconferência dos finalistas "a confirmar" (26/09, tarde)
+
+Todos os finalistas do país com desconto ou sinal "a confirmar" foram reconferidos (1 a 2 buscas cada, mais DataJud
+quando havia classe e tribunal conhecidos):
+
+- **Aava Santiago/GO** (federal, Esquerda): a perda do mandato de vereadora por infidelidade foi decretada pelo TRE-GO
+  (6 a 1, 27/07/2026) e está em recurso no TSE. Como a perda decretada vale −2 tanto se mantida (regra de 25/09) quanto
+  se revertida (regra de 26/09), o desconto não depende do recurso: nota 10 → 8, saiu da lista. Entraram Adedy
+  Santana (nada encontrado) e, no bloco, Rubens Otoni (multa por propaganda antecipada e citação no caso Cachoeira
+  arquivada, nota 8).
+- **Catianne Alves/AM**: o "abandono de cargo e condenação no STF" do resumo do buscador foi conferido e a página
+  trata de outra pessoa; marcação "a confirmar" retirada (nota 10).
+- **Aline e Hildegard Gurgel/AP** (não finalistas): a operação Cícero é de 2019-2020, então vale a regra de processo
+  antigo sem desfecho (−1, a confirmar) em vez de investigação em curso (−2): notas 6 → 7 e 8 → 9.
+- **Sem mudança (desfecho continua não encontrado):** Tchê/AC (denúncia de 2013 no TRE-AC; o DataJud não traz a ação
+  originária), Kelen Bocalom/AC (apuração do MPAC sem notícia de desfecho), Zé Ricardo/AM (ação por fraude à cota de
+  gênero ainda sem julgamento), Rollemberg/DF (improbidade de 2016), Reginaldo Veras/DF, João Maia/RN (denúncia da
+  Via Trajana, 2018), Wilson Filho/PB, Veter Martins/GO (só um blog automático de resumos do STF; sem desconto),
+  Rodrigo Lago/MA e Airton Gurgacz/RO (sem desconto), Roberta Acioly/RR (controvérsia de gastos, −0,5).
+
 ## Situação e próximos passos
 
 - **Estados fechados (27 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),

@@ -12881,14 +12881,20 @@
     "90002547139": {
       "nome_urna": "AAVA SANTIAGO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): o TRE-GO decretou em jul/2026 a perda do mandato de vereadora por infidelidade partidária (saída do PSDB sem justa causa), com recurso ao TSE pendente e ela no cargo. Pela regra de 25/09 só desconta (−2) se a perda for mantida: a confirmar.",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca e 1 de reconferência): perda do mandato de vereadora por infidelidade partidária decretada pelo TRE-GO em jul/2026, em recurso no TSE (−2 qualquer que seja o desfecho do recurso).",
       "fontes": [
         "https://www.maisgoias.com.br/politica/tre-go-cassa-mandato-de-aava-santiago-por-infidelidade-partidaria/",
+        "https://www.jornalopcao.com.br/ultimas-noticias/perda-do-mandato-de-aava-nao-sera-imediata-entenda-o-que-acontece-agora-851147/",
         "https://www.maisgoias.com.br/politica/aava-santiago-anuncia-recurso-ao-tse-apos-decisao-do-tre-go-que-cassou-mandato/"
       ],
-      "pesquisado_em": "2026-09-25",
-      "achados": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "cassacao_de_mandato",
+          "descricao": "O TRE-GO decretou (6 a 1, 27/07/2026) a perda do mandato de vereadora de Goiânia por infidelidade partidária (saída do PSDB para o PSB sem justa causa); ela recorreu ao TSE e segue no cargo. Pelas regras de 25/09 e 26/09, perda decretada vale −2 tanto se mantida (cassação) quanto se revertida (condenação revertida), então o desconto não depende do recurso."
+        }
+      ],
       "origem": "busca_finalistas"
     },
     "90002547134": {
@@ -13937,7 +13943,7 @@
       "nome_urna": "CATIANNE ALVES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada confirmado: o resumo do buscador citou abandono de cargo e condenação no STF, sem fonte que confirme (não desconta; a confirmar).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado; o resumo do buscador que citava abandono de cargo e condenação no STF foi conferido na reconferência de 26/09 e a página trata de outra pessoa (erro do buscador, mesmo padrão visto em RO).",
       "fontes": [
         "https://newsrondonia.com.br/politica/2026/04/17/vereadora-catianne-alves-anuncia-pre-candidatura-a-deputada-estadual"
       ],
@@ -19410,8 +19416,8 @@
     "30002536304": {
       "nome_urna": "ALINE GURGEL",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 6,
-      "motivo": "Busca rápida na internet (2 buscas): alvo da operação Cícero da PF por compra de votos (desfecho não encontrado, a confirmar), contas de 2018 desaprovadas e AIJE por abuso rejeitada.",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (2 buscas): alvo da operação Cícero da PF por compra de votos em 2018 (processo antigo sem desfecho encontrado, a confirmar), contas de 2018 desaprovadas e AIJE por abuso rejeitada.",
       "fontes": [
         "https://www.diariodoamapa.com.br/cadernos/politica/segunda-fase-da-operacao-cicero-atinge-deputada-federal-aline-gurgel-e-pessoas-ligadas-a-ela/",
         "https://selesnafes.com/2020/01/aline-perde-recurso-e-segue-ameacada-de-perder-o-mandato/",
@@ -19420,8 +19426,8 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "investigacao_ou_acao_civil_em_curso",
-          "descricao": "Alvo da 2ª fase da operação Cícero da PF por compra de votos na eleição de 2018 (diálogo em que uma aliada pede R$ 1,5 mil por 100 votos e ela orienta o esquema); desfecho não encontrado. A confirmar."
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Alvo da 2ª fase da operação Cícero da PF por compra de votos na eleição de 2018 (diálogo em que uma aliada pede R$ 1,5 mil por 100 votos e ela orienta o esquema); desfecho não encontrado (processo com mais de 3 anos, regra de processo antigo). A confirmar."
         },
         {
           "categoria": "contas_com_ressalva_ou_multa_eleitoral",
@@ -19629,16 +19635,16 @@
     "30002549884": {
       "nome_urna": "HILDEGARD GURGEL",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 8,
-      "motivo": "Busca rápida na internet (1 busca): alvo da operação Cícero da PF por compra de votos, sem desfecho encontrado (a confirmar).",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): alvo da operação Cícero da PF por compra de votos, processo antigo sem desfecho encontrado (a confirmar).",
       "fontes": [
         "https://www.diariodoamapa.com.br/cadernos/politica/segunda-fase-da-operacao-cicero-atinge-deputada-federal-aline-gurgel-e-pessoas-ligadas-a-ela/"
       ],
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "investigacao_ou_acao_civil_em_curso",
-          "descricao": "Alvo da 2ª fase da operação Cícero da PF (compra de votos, associação criminosa e transporte de eleitores), com pedido de prisão negado; é marido da deputada federal Aline Gurgel, também alvo. Desfecho não encontrado. A confirmar."
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Alvo da 2ª fase da operação Cícero da PF (compra de votos, associação criminosa e transporte de eleitores), com pedido de prisão negado; é marido da deputada federal Aline Gurgel, também alvo. Desfecho não encontrado (processo com mais de 3 anos, regra de processo antigo). A confirmar."
         }
       ],
       "origem": "busca_finalistas"
@@ -20120,6 +20126,38 @@
         {
           "categoria": "condenacao_confirmada_sem_reversao",
           "descricao": "Condenado por corrupção eleitoral (compra de votos na eleição de 2014, com vantagens a alunos da faculdade de que era sócio): sentença de 1ª instância em mai/2021 (5 anos e perda do mandato) mantida pelo TRE-RR em set/2023, com pena reduzida para 1 ano e 4 meses; a condenação colegiada gera inelegibilidade pela Ficha Limpa. Situação do registro de 2026 não encontrada."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "90002547403": {
+      "nome_urna": "ADEDY SANTANA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "90002539151": {
+      "nome_urna": "RUBENS OTONI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): multa do TRE-GO por propaganda antecipada e citação no caso Cachoeira arquivada pela Corregedoria da Câmara.",
+      "fontes": [
+        "http://www.mpf.mp.br/go/sala-de-imprensa/noticias-go/pre-go-consegue-a-condenacao-de-rubens-otoni-e-antonio-gomide-por-propaganda-antecipada",
+        "https://www.camara.leg.br/noticias/379621-corregedoria-recomenda-processo-contra-lereia-e-inocenta-otoni-e-sandes-junior/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multado em R$ 10 mil pelo TRE-GO, com o irmão Antônio Gomide (então prefeito de Anápolis), por propaganda eleitoral antecipada num encontro partidário em Itumbiara."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Citado em 2012 nas escutas do caso Carlinhos Cachoeira (suposta oferta de dinheiro na campanha a prefeito de 2004); a Corregedoria da Câmara recomendou o arquivamento e o inocentou."
         }
       ],
       "origem": "busca_finalistas"
