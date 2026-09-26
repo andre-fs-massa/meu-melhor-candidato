@@ -18148,6 +18148,341 @@
       "pesquisado_em": "2026-09-26",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "220002536038": {
+      "nome_urna": "CRISTIANE LOPES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o resumo do buscador repetiu um texto genérico sobre 'abandono de cargo e condenação no STF' sem fonte, já visto para outros candidatos; descartado).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002536035": {
+      "nome_urna": "RAFAEL FERA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): multa por desinformação na campanha de 2024, mantida pelo TRE-RO.",
+      "fontes": [
+        "https://rondonoticias.com.br/noticia/geral/154796/tre-mantem-multa-contra-deputado-rafael-fera-por-fake-news-nas-eleicoes-de-2024",
+        "https://expressaorondonia.com.br/rafael-fera-e-condenado-a-multa-de-r-10-mil-por-desinformacao-nas-eleicoes-2024/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multa de R$ 10 mil mantida pelo TRE-RO (abr/2026) por propaganda negativa com desinformação contra a prefeita de Ariquemes na campanha de 2024."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "220002536002": {
+      "nome_urna": "ADRIANA MARTINS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002547354": {
+      "nome_urna": "ANDERSON PEREIRA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o resumo do buscador repetiu um texto genérico sobre 'abandono de cargo e condenação no STF' sem fonte, já visto para outros candidatos; descartado).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002547351": {
+      "nome_urna": "DRA. VERA PAIXÃO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002547350": {
+      "nome_urna": "DR. MAURO NAZIF",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002542947": {
+      "nome_urna": "DRA AMÁLIA MILANI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002542943": {
+      "nome_urna": "MAURÍCIO CARVALHO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002550907": {
+      "nome_urna": "DRA ROSANGELLA CIPRIANNO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 4,
+      "motivo": "Busca rápida na internet (1 busca): condenação criminal confirmada pelo TRF1 (crimes previdenciários) e registro indeferido pelo TRE-RO, com recurso anunciado ao TSE.",
+      "fontes": [
+        "https://rondoniaempauta.com.br/tre-ro-indefere-candidatura-de-rosangela-cipriano-a-deputada-federal-nas-eleicoes-de-2026/",
+        "https://extraderondonia.com.br/2026/09/11/em-visita-ao-extra-rosangela-cipriano-explica-candidatura-a-deputada-federal-e-garante-recorrer-ao-tse/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenada criminalmente por apropriação indébita previdenciária e sonegação de contribuição previdenciária, condenação mantida pela 10ª Turma do TRF1 em 18/12/2024."
+        },
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "Registro de candidatura a deputada federal indeferido por unanimidade pelo TRE-RO (2026) por causa da condenação colegiada; ela disse que recorreria ao TSE."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "220002550904": {
+      "nome_urna": "DRA POLLYANNA MAYARA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002541481": {
+      "nome_urna": "AIRTON GURGACZ",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada confirmado: uma fonte antiga cita investigação da PF sobre o Detran quando ele era vice-governador e diretor do órgão, sem detalhe (não desconta; a confirmar).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002547347": {
+      "nome_urna": "GISLAINE LEBRINHA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): denunciada por concussão e lavagem como prefeita, caso remetido ao STF.",
+      "fontes": [
+        "https://gazetarondonia.com.br/noticia/12307/rondonia-justica-determina-envio-de-processo-do-deputado-federal-lebrao-e-deputada-estadual-lebrinha-para-o-stf"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Denunciada pelo MP por concussão e lavagem de dinheiro quando prefeita de São Francisco do Guaporé, com o marido, o deputado federal Lebrão (concussão); o caso foi enviado ao STF por causa do foro dele. Recebimento e desfecho não encontrados."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "220002547336": {
+      "nome_urna": "ROSANGELA DONADON",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002547332": {
+      "nome_urna": "RIBEIRO DO SINPOL",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002542193": {
+      "nome_urna": "JOAO MENDES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002542192": {
+      "nome_urna": "RAFAELA DO BATISTA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002536028": {
+      "nome_urna": "DR. GILBER",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (postagens em redes dizem que ficou fora da convenção do NOVO; ainda consta no arquivo do TSE).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002536022": {
+      "nome_urna": "LUCAS FOLLADOR",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002536010": {
+      "nome_urna": "PEDRO GEOVAR",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o resumo do buscador repetiu um texto genérico sobre 'abandono de cargo e condenação no STF' sem fonte, já visto para outros candidatos; descartado).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002547376": {
+      "nome_urna": "ÉLITON COSTA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002547369": {
+      "nome_urna": "ADALTO DE BANDEIRANTES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: segundo o advogado dele, não é réu na ação por fraude à cota de gênero do PSB em Porto Velho citada nas redes (a confirmar).",
+      "fontes": [
+        "https://www.oobservador.com/2026/09/advogado-denuncia-fake-news-e-afirma.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002547323": {
+      "nome_urna": "DR SANTANA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): pedidos de cassação por violência política de gênero (2026), sem desfecho encontrado (a confirmar). A disputa sobre a saída do PRD não desconta.",
+      "fontes": [
+        "https://www.rondoniaovivo.com/noticia/politica/2026/05/15/combate-e-santana-advogada-protocola-pedidos-de-cassacao-por-violencia-de-genero-e-quebra-de-decoro.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Pedidos de cassação protocolados na Câmara de Porto Velho (mai/2026) por quebra de decoro e violência política de gênero, com suposto descumprimento de medida protetiva; ele nega. Desfecho não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "220002542144": {
+      "nome_urna": "RAFAEL LOPES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002539760": {
+      "nome_urna": "FRANCIMAR SIMÃO EFICAZ CONTAB",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002539753": {
+      "nome_urna": "CLÁUDIA DE JESUS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002539751": {
+      "nome_urna": "ANDRÉ DO SINDICATO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002547388": {
+      "nome_urna": "ADA DANTAS BOABAID",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): condenada por danos morais a uma professora, decisão confirmada pelo TJRO.",
+      "fontes": [
+        "https://www.rondoniagora.com/geral/tribunal-de-justica-confirma-condenacao-de-ada-dantas-por-atacar-professora-no-facebook"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenada (2018) a pagar R$ 15 mil de danos morais a uma professora ofendida no Facebook quando vereadora; condenação confirmada pelo TJRO."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "220002547382": {
+      "nome_urna": "WELISON NUNES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada confirmado: a notícia de 2026 sobre um advogado de Rondônia suspenso pela OAB por 'prompt injection' em petição não identifica o profissional (não desconta).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002541483": {
+      "nome_urna": "RICARDO FROTA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: ele contesta o uso, num debate de 2024, de um boletim de ocorrência de briga de condomínio; a notícia sobre o advogado suspenso pela OAB por 'prompt injection' não o identifica.",
+      "fontes": [
+        "https://www.rondoniadinamica.com/noticias/2026/06/da-direita-a-centro-esquerda-frota-explica-ida-ao-pdt-e-diz-que-acusacao-de-euma-tourinho-prejudica-sua-imagem-ate-hoje,245907.shtml"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }

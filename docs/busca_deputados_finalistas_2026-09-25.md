@@ -961,10 +961,46 @@ Observações do SE: saíram do topo Gustinho Ribeiro (improbidade confirmada pe
 em homologação provisória, nota 5), Luciano Bispo (improbidade confirmada, registro negado pelo TSE em 2018, nota 6) e
 Fábio Reis. Thiago de Joaldo segue finalista com −1 (preso na operação Castelo de Cartas, processo arquivado em 2018).
 
+### RO
+
+Pesquisados: 29 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **DRA ROSANGELLA CIPRIANNO** (PSB, Deputado Federal), idoneidade pessoal 4, geral 7: condenação criminal confirmada pelo TRF1 (crimes previdenciários) e registro indeferido pelo TRE-RO, com recurso anunciado ao TSE.
+- **GISLAINE LEBRINHA** (PRD, Deputado Estadual), idoneidade pessoal 8, geral 8.5: denunciada por concussão e lavagem como prefeita, caso remetido ao STF.
+- **RAFAEL FERA** (PODE, Deputado Federal), idoneidade pessoal 9, geral 9: multa por desinformação na campanha de 2024, mantida pelo TRE-RO.
+- **DR SANTANA** (UNIÃO, Deputado Estadual), idoneidade pessoal 9, geral 9: pedidos de cassação por violência política de gênero (2026), sem desfecho encontrado (a confirmar). A disputa sobre a saída do PRD não desconta.
+- **ADA DANTAS BOABAID** (PRD, Deputado Federal), idoneidade pessoal 9, geral 9: condenada por danos morais a uma professora, decisão confirmada pelo TJRO.
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- AIRTON GURGACZ (PDT, Deputado Federal): nada confirmado: uma fonte antiga cita investigação da PF sobre o Detran quando ele era vice-governador e diretor do órgão, sem detalhe (não desconta; a confirmar).
+- ADALTO DE BANDEIRANTES (REPUBLICANOS, Deputado Estadual): nada que desconte: segundo o advogado dele, não é réu na ação por fraude à cota de gênero do PSB em Porto Velho citada nas redes (a confirmar).
+- DR SANTANA (UNIÃO, Deputado Estadual): pedidos de cassação por violência política de gênero (2026), sem desfecho encontrado (a confirmar). A disputa sobre a saída do PRD não desconta.
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: CRISTIANE LOPES (PODE 2022), ADRIANA MARTINS (NOVO 3030), RAFAEL FERA (PODE 2090)
+- Deputado Federal · Direita conservadora: DRA AMÁLIA MILANI (UNIÃO 4455), MAURÍCIO CARVALHO (UNIÃO 4444), DRA. VERA PAIXÃO (REPUBLICANOS 1001) — sorteio entre 3 empatados
+- Deputado Federal · Esquerda progressista: DRA POLLYANNA MAYARA (PSB 4030), AIRTON GURGACZ (PDT 1233), WELISON NUNES (SOLIDARIEDADE 7722) — sorteio entre 2 empatados
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: LUCAS FOLLADOR (NOVO 30300), PEDRO GEOVAR (NOVO 30234), JOAO MENDES (PODE 20022) — sorteio entre 4 empatados
+- Deputado Estadual · Direita conservadora: ÉLITON COSTA (REPUBLICANOS 10800), ADALTO DE BANDEIRANTES (REPUBLICANOS 10500), RAFAEL LOPES (MDB 15123)
+- Deputado Estadual · Esquerda progressista: CLÁUDIA DE JESUS (PT 13123), ANDRÉ DO SINDICATO (PT 13111), FRANCIMAR SIMÃO EFICAZ CONTAB (PT 13456)
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do RO: saíram do topo Rosangela Cipriano (condenação por crimes previdenciários confirmada pelo TRF1 e
+registro indeferido pelo TRE-RO, nota 4) e Gislaine Lebrinha (denunciada por concussão e lavagem, caso no STF). Rafael
+Fera segue finalista com −1 (multa por desinformação na campanha de 2024). **Armadilha nova:** o resumo do buscador
+repetiu, para vários candidatos sem relação entre si (Catianne/AM, Cristiane Lopes, Anderson Pereira, Dr. Gilber e
+Pedro Geovar/RO), o mesmo texto sobre "abandono de cargo e condenação no STF por coação", sem fonte; foi descartado em
+todos os casos.
+
 ## Situação e próximos passos
 
-- **Estados fechados (22 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40), MS (37), SE (26). Total: 819 candidatos, 243 com achado que descontou e 92 marcados "a confirmar". Nos 22, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (23 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40), MS (37), SE (26), RO (29). Total: 848 candidatos, 248 com achado que descontou e 95 marcados "a confirmar". Nos 23, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -987,8 +1023,8 @@ Fábio Reis. Thiago de Joaldo segue finalista com −1 (preso na operação Cast
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 5 estados**, na ordem de população: RO, TO, AC, AP, RR (estados menores, ~20 a 30 buscas cada).
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF, MS e SE (junto com a correção dos caciques, que vale para
+- **Faltam 4 estados**, na ordem de população: TO, AC, AP, RR (estados menores, ~20 a 30 buscas cada).
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF, MS, SE e RO (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
