@@ -7758,7 +7758,7 @@
       "nome_urna": "FRANCO CARTAFINA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 9,
-      "motivo": "Busca rápida na internet (1 busca): absolvido em julho de 2026 na queixa-crime por calúnia movida por Eduardo Cunha.",
+      "motivo": "Busca rápida na internet (1 busca): absolvido em julho de 2026 na queixa-crime por calúnia movida por Eduardo Cunha. 2ª rodada (busca pelo nome completo, 26/09): nada novo.",
       "fontes": [
         "https://www.otempo.com.br/politica/2026/7/16/justica-absolve-franco-cartafina-e-caio-godoi-em-acao-movida-por-eduardo-cunha"
       ],
@@ -7769,19 +7769,21 @@
           "descricao": "Queixa-crime de Eduardo Cunha por calúnia, difamação e injúria (vídeo questionando a candidatura dele em Uberaba); absolvido em julho de 2026 (crítica eleitoral, conduta atípica)."
         }
       ],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002534468": {
       "nome_urna": "TIRZAH",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada novo.",
       "fontes": [
         "https://www.tirzahfreitas.com/sobre-mim"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002534457": {
       "nome_urna": "BRAULIO LARA",
@@ -7872,13 +7874,14 @@
       "nome_urna": "RODRIGO DE CASTRO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada novo.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Rodrigo_de_Castro_(pol%C3%ADtico)"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002542710": {
       "nome_urna": "JÚLIO CONTADOR",
@@ -7896,13 +7899,14 @@
       "nome_urna": "PINHEIRINHO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a matéria sobre deputado alvo da PF que apareceu na busca é sobre Adail Filho/AM; conferido).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a matéria sobre deputado alvo da PF que apareceu na busca é sobre Adail Filho/AM; conferido). 2ª rodada (busca pelo nome completo, 26/09): nada novo.",
       "fontes": [
         "https://www.camara.leg.br/noticias/869072-comissao-de-seguridade-social-elege-deputado-pinheirinho-como-presidente/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002542700": {
       "nome_urna": "PEDRO AIHARA",
@@ -7919,14 +7923,22 @@
     "130002537223": {
       "nome_urna": "GILBERTO ABRAMO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada que desconte (pedido de perda de mandato por infidelidade partidária em 2010, troca de partido, não é achado de idoneidade).",
+      "nota": 9,
+      "motivo": "Busca rápida na internet em 2 rodadas (3 buscas): citado na investigação da PF sobre emendas atribuídas a Eduardo Cunha (2026), sem confirmação de que seja alvo formal (a confirmar). O pedido de perda de mandato por infidelidade de 2010 não é achado.",
       "fontes": [
-        "https://en.wikipedia.org/wiki/Gilberto_Abramo"
+        "https://en.wikipedia.org/wiki/Gilberto_Abramo",
+        "https://www.metropoles.com/brasil/emendas-atribuidas-a-cunha-foram-assinadas-pelo-republicanos-na-camara",
+        "https://www.diariodocentrodomundo.com.br/essencial/quem-e-gilberto-abramo-laranja-eduardo-cunha-pf"
       ],
       "pesquisado_em": "2026-09-25",
-      "achados": [],
-      "origem": "busca_finalistas"
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Apontado pela PF (2026) como autor formal, na liderança do Republicanos, de 29 emendas (cerca de R$ 6 milhões) que a investigação atribui a Eduardo Cunha, com suspeita de peculato; a PF o descreve como parceiro político de Cunha em Minas. Não foi encontrado se ele é investigado formalmente. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002537206": {
       "nome_urna": "EUCLYDES PETTERSEN",
@@ -7967,13 +7979,15 @@
       "nome_urna": "CÉLIA XAKRIABÁ",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado como ré (é autora de representações).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado como ré (é autora de representações). 2ª rodada (busca pelo nome completo, 26/09): nada que desconte: pedido de cassação do PL no Conselho de Ética (confronto com Kim Kataguiri) arquivado; ela é autora das representações por violência política.",
       "fontes": [
-        "https://www.camara.leg.br/deputados/206018"
+        "https://www.camara.leg.br/deputados/206018",
+        "https://ofator.com.br/informacao/conselho-de-etica-arquiva-representacao-contra-deputada-mineira/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002539728": {
       "nome_urna": "DUDA SALABERT",
@@ -7996,13 +8010,14 @@
       "nome_urna": "LOHANNA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado como ré (é vítima em dois processos).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado como ré (é vítima em dois processos). 2ª rodada (busca pelo nome completo, 26/09): nada novo (autora de representação contra o governador).",
       "fontes": [
         "https://www.sistemampa.com.br/noticias/politica/mulher-que-tentou-agredir-deputada-lohanna-e-condenada/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002548730": {
       "nome_urna": "PROFESSOR JULIANO LOPES",
@@ -8020,13 +8035,14 @@
       "nome_urna": "OSVALDO LOPES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada novo.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Osvaldo_Lopes"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002548716": {
       "nome_urna": "FLÁVIA BORJA",
@@ -8069,25 +8085,27 @@
       "nome_urna": "RIAN PEREIRA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada novo.",
       "fontes": [
         "https://novo.org.br/noticias/rian-pereira-se-junta-ao-time-do-novo/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002534518": {
       "nome_urna": "MARCELA TRÓPIA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada novo.",
       "fontes": [
         "https://www.cmbh.mg.gov.br/vereadores/tr%C3%B3pia"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002533225": {
       "nome_urna": "MATHEUS BRAGA",
@@ -8152,25 +8170,27 @@
       "nome_urna": "MAURO TRAMONTE",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada novo.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Mauro_Tramonte"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002539880": {
       "nome_urna": "CHARLES SANTOS",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada novo.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Charles_Santos"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002533498": {
       "nome_urna": "TIAGO BONECÃO",
@@ -8282,13 +8302,15 @@
       "nome_urna": "RONALDO TANNÚS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada que desconte (ação de perda de mandato por infidelidade partidária, com parecer favorável do MPE em setembro de 2026; troca de partido não é achado de idoneidade).",
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte (ação de perda de mandato por infidelidade partidária, com parecer favorável do MPE em setembro de 2026; troca de partido não é achado de idoneidade). 2ª rodada (busca pelo nome completo, 26/09): nada novo: a ação de perda de mandato por infidelidade segue sem decisão (citado por hora certa após, segundo certidão do oficial, se ocultar da citação; parecer do MPE pela perda em 16/09/2026).",
       "fontes": [
-        "https://regionalzao.com.br/poder/mpe-perda-mandato-ronaldo-tannus-uberlandia"
+        "https://regionalzao.com.br/poder/mpe-perda-mandato-ronaldo-tannus-uberlandia",
+        "https://regionalzao.com.br/poder/certidao-desmente-versao-de-ronaldo-tannus-em-uberlandia/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002533255": {
       "nome_urna": "RONCALI DA FARMÁCIA",
@@ -8330,13 +8352,14 @@
       "nome_urna": "REGINALDO LOPES",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada novo.",
       "fontes": [
         "https://www.camara.leg.br/deputados/74161/biografia"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "190002540157": {
       "nome_urna": "RENAN FERREIRINHA",

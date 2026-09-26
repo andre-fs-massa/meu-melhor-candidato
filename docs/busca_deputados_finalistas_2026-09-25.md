@@ -1158,6 +1158,22 @@ quando havia classe e tribunal conhecidos):
   Via Trajana, 2018), Wilson Filho/PB, Veter Martins/GO (só um blog automático de resumos do STF; sem desconto),
   Rodrigo Lago/MA e Airton Gurgacz/RO (sem desconto), Roberta Acioly/RR (controvérsia de gastos, −0,5).
 
+## 2ª rodada: busca pelo nome completo nos 10 estados mais populosos (26/09, em andamento)
+
+Pedido do usuário (26/09): mais uma rodada de pesquisa individual dos finalistas, só nos 10 maiores estados (SP, MG,
+RJ, BA, PR, RS, PE, CE, PA, SC), um estado depois do outro. Método: 1 busca nova por finalista, com o **nome completo**
+do registro no TSE (a 1ª rodada usou o nome de urna) e termos diferentes (improbidade, ação civil, Ministério Público,
+TCE, TRE, multa), mais confirmação quando aparece sinal. Os achados novos se **somam** aos da 1ª rodada
+(`ferramentas/busca_finalistas/aplicar_rodada2.py`; o registro ganha `rodada2`). Para não punir só quem teve a busca
+extra, quem entra na lista no lugar de um finalista também passa pelas duas rodadas antes de o estado fechar
+(`finalistas.py UF --sem-rodada2` lista quem falta). As mesmas regras de classificação acima valem para a 2ª rodada.
+
+- **SP** (18 finalistas na 2ª rodada + 17 empatados novos na 1ª): saíram Sâmia Bomfim (multa do TRE-SP por desinformação, set/2026, nota 9) e Cris Monteiro (denúncia por lesão corporal leve em juizado especial pela briga na Câmara, a confirmar, nota 9). No bloco de 23 empatados da Esquerda federal: Gilson de Souza (improbidade transitada, 6), Vicentinho e Paulo Teixeira (processos antigos sem desfecho e contas, 8), Raul Marcelo (crime contra a honra, 9), Zarattini (inquéritos arquivados/suspensos, 9), Alencar Santana (contas de 2022, 9). Entraram Alexis Fonteyne e Nabil Bonduki (nada nas duas rodadas).
+- **MG (parcial, 14 de 18; site não reexportado):** Gilberto Abramo (citado pela PF como autor formal de emendas
+  atribuídas a Eduardo Cunha, 2026, a confirmar, nota 9) saiu. Faltam: Pedro Aihara (entrou no lugar dele), José
+  Carlos Gomes, Tiago Santana, Irene Melo Franco e Iza Lourença. A sessão parou no teto de 600 buscas.
+- **Faltam:** RJ, BA, PR, RS, PE, CE, PA e SC.
+
 ## Situação e próximos passos
 
 - **Estados fechados (27 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
