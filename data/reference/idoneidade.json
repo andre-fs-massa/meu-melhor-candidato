@@ -14803,6 +14803,409 @@
         }
       ],
       "origem": "busca_finalistas"
+    },
+    "150002548394": {
+      "nome_urna": "DIEGO BRAYTNNER",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002533578": {
+      "nome_urna": "RUY CARNEIRO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): condenação no caso Desk (1ª instância em 2024, mantida pelo TJPB em 2025) anulada pelo STJ em abril de 2026 por incompetência do juízo.",
+      "fontes": [
+        "https://www.metropoles.com/brasil/deputado-federal-ruy-carneiro-e-condenado-a-20-anos-de-prisao",
+        "https://poderparaiba.com.br/condenacao-de-ruy-carneiro-e-mantida-no-tribunal-de-justica-da-paraiba/",
+        "https://www.polemicaparaiba.com.br/politica/superior-tribunal-de-justica-inocenta-ruy-carneiro-por-unanimidade-e-anula-acusacoes",
+        "https://blogdomiltonfigueiredo.com.br/noticias/geral/caso-desk-stj-anula-processo-e-nao-ha-impedimento-eleitora-contra-ruy-carneiro"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "Condenado em 1ª instância (fev/2024) a 20 anos de prisão por peculato, fraude em licitação e lavagem no caso Desk (compra superfaturada de carteiras escolares quando secretário estadual de Juventude e Esporte, 2009), condenação mantida pelo TJPB em dez/2025; a 6ª Turma do STJ anulou o processo e a condenação por unanimidade em 07/04/2026 (investigação feita sem autorização do tribunal competente, com parecer do próprio MPPB pela nulidade)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002533571": {
+      "nome_urna": "ROMERO RODRIGUES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): réu na Operação Calvário por suposta propina para a campanha de 2016 em troca da gestão de hospitais municipais; denúncia antiga por declaração falsa ao fisco arquivada pelo TRF-5.",
+      "fontes": [
+        "https://portalcorreio.com.br/justica-recebe-denuncia-contra-romero-rodrigues-no-ambito-da-operacao-calvario/",
+        "https://portalcorreio.com.br/romero-rodrigues-alega-inocencia-e-diz-confiar-em-absolvicao-na-calvario/",
+        "https://jornaldaparaiba.com.br/politica/trf-5a-arquiva-denuncia-contra-romero-rodrigues"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu na Operação Calvário: a Justiça recebeu a denúncia do MPPB de que, como prefeito de Campina Grande, recebeu R$ 150 mil para a campanha de reeleição em troca de entregar à Cruz Vermelha (Daniel Gomes) a gestão do Isea e do Hospital Pedro I; ele se diz inocente."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Denúncia por declarações falsas no imposto de renda (despesas de psicólogo não prestadas, 2000-2004) arquivada pelo TRF-5."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002544209": {
+      "nome_urna": "TIÃO GOMES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): citado em delação da Operação Calvário, sem indiciamento (a PF concluiu que não havia provas).",
+      "fontes": [
+        "https://www.clickpb.com.br/paraiba/calvario-relatorio-policia-federal.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Citado em delação da Operação Calvário; a PF concluiu, depois de dois anos, que não havia provas e não indiciou os deputados estaduais citados (ele foi ouvido só como declarante)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002544205": {
+      "nome_urna": "HUGO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): citado por empresário condenado como beneficiário de propina em emenda (sem denúncia) e investigação sobre voo particular arquivada pelo STF (2026). Investigações de parentes não descontam.",
+      "fontes": [
+        "https://www.metropoles.com/colunas/fabio-serapiao/como-funcionava-esquema-de-empresario-que-delatou-hugo-motta",
+        "https://www.metropoles.com/colunas/tacio-lorran/empresario-e-condenado-por-corrupcao-em-obra-com-emenda-de-hugo-motta",
+        "https://www.reporterpb.com.br/noticia/gerais/2026/05/22/hugo-motta-ciro-nogueira-e-outros-deixam-de-ser-investigados-em-processo-sobre-voo-particular/187621.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Um empresário condenado pela Justiça Federal na Paraíba por desvio em obra paga com emenda dele disse em depoimento que ele receberia comissão de 10%; não foi denunciado nesse caso."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Investigação no STF sobre bagagens que entraram no país sem fiscalização depois de voo particular vindo do Caribe, arquivada por Alexandre de Moraes (mai/2026)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002544200": {
+      "nome_urna": "RANIERY PAULINO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002549764": {
+      "nome_urna": "FÁBIO CARNEIRO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002544178": {
+      "nome_urna": "GERVÁSIO MAIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: a apelação criminal de 2009 citada foi movida por ele e pela esposa contra um ex-vereador (autor, não réu).",
+      "fontes": [
+        "https://www.tjpb.jus.br/noticia/apelacao-criminal-do-casal-maia-contra-ex-vereador-e-rejeitada-pela-camara-criminal"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002544174": {
+      "nome_urna": "LUIZ COUTO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): queixas-crime por calúnia rejeitadas pelo STF (mesma categoria de José Nelto/GO).",
+      "fontes": [
+        "https://noticias.stf.jus.br/postsnoticias/supremo-rejeita-queixa-crime-contra-deputado-luiz-couto/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Queixas-crime por calúnia e difamação movidas por dois deputados que ele apontou como frequentadores de bordel com exploração de menores (CPI da exploração sexual); o STF rejeitou a queixa por unanimidade, com parecer da PGR pela rejeição."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002544197": {
+      "nome_urna": "DANIELLE DO VALE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): ordem do TRE-PB para retirar vídeo em ação por uso da máquina pública (2026).",
+      "fontes": [
+        "https://jornaldaparaiba.com.br/politica/conversa-politica/tre-pb-retirar-video-lucas-ribeiro-danielle-do-vale-uso-maquina-publica"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "O TRE-PB mandou retirar publicação no Instagram com o governador Lucas Ribeiro em ação do MDB por uso da máquina pública (2026)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002544196": {
+      "nome_urna": "LUCIANO CARTAXO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): operação da PF sobre obras do Parque da Lagoa na gestão dele, sem denúncia ou desfecho confirmados (a confirmar). A ligação política com a Operação Calvário e a AIJE antiga não descontam sem achado pessoal.",
+      "fontes": [
+        "https://jornaldaparaiba.com.br/politica/base-de-cartaxo-barra-quebra-de-sigilo-e-cpi-para-investigar-obras-da-lagoa",
+        "https://www.pbagora.com.br/noticia/politica/cientista-analisa-que-denuncias-de-corrupcao-envolvendo-cartaxo-devem-afetar-sua-imagem/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Obras do Parque da Lagoa, da gestão dele como prefeito de João Pessoa, foram alvo da operação Irerês da PF (perícia apontou prejuízo de R$ 6,4 milhões); não foi confirmado se ele foi denunciado; desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002544184": {
+      "nome_urna": "WILSON FILHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): inquérito civil do MPF de 2017 e bloqueio de bens junto com o pai em investigação no STF, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://jornaldaparaiba.com.br/politica/mpf-investiga-suposto-crime-de-improbidade-de-wilson-filho",
+        "https://www.paraibanoticia.net.br/ministro-do-supremo-determina-bloqueio-de-bens-dos-deputados-wilson-santiago-pai-e-filho-e-ainda-do-prefeito-bosco-fernandes-e-familiares/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Inquérito civil do MPF (2017) por suposta improbidade quando deputado federal, e bens bloqueados por ordem de ministro do STF junto com os do pai, Wilson Santiago, em investigação contra este; desfechos não encontrados (processos antigos). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002544668": {
+      "nome_urna": "CHICO MENDES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002544163": {
+      "nome_urna": "CHIÓ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002544147": {
+      "nome_urna": "JÔ OLIVEIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002544002": {
+      "nome_urna": "RAONI MENDES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): condenação eleitoral por doação ilegal em 2010, que levou o TRE-PB a barrar uma candidatura posterior.",
+      "fontes": [
+        "https://jornaldaparaiba.com.br/politica/candidatura-de-raoni-mendes-e-barrada-pelo-tre"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "Condenado em definitivo pela Justiça Eleitoral por doação ilegal de campanha na eleição de 2010; por isso teve uma candidatura posterior barrada pelo TRE-PB com base na Lei da Ficha Limpa (a defesa alegou que a lei não alcançava fatos de 2010)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002549640": {
+      "nome_urna": "ELIZA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 5,
+      "motivo": "Busca rápida na internet (1 busca): ré por incitação ao ódio contra a população LGBTQIA+ (denúncia do MPF recebida em 2025) e nova investigação por transfobia (2026).",
+      "fontes": [
+        "https://jornaldaparaiba.com.br/politica/conversa-politica/mpf-denuncia-vereadora-eliza-virginia-por-incitacao-ao-odio-contra-a-comunidade-lgbtqia",
+        "https://www.termometrodapolitica.com.br/politica/noticia/2026/05/12/mpf-pede-abertura-de-inquerito-para-investigar-vereadora-eliza-virginia-por-transfobia/",
+        "https://www.politicaetc.com.br/2026/07/eliza-e-ouvida-na-pf-por-processo-de-erika-hilton-e-questiona-perseguicao-politica-do-psol"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Ré desde fev/2025 na Justiça Federal, por denúncia do MPF, por incitação ao ódio e discriminação contra a população LGBTQIA+ (Lei do Racismo) em seis publicações nas redes entre 2021 e 2023."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Ouvida pela PF em jul/2026 em notícia-crime por falas sobre a deputada Erika Hilton; em mai/2026 o MPF pediu abertura de inquérito por transfobia em discurso na Câmara de João Pessoa."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002549636": {
+      "nome_urna": "AGUINALDO RIBEIRO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): réu no 'quadrilhão do PP' com ação encerrada pelo STF em 2021 e condenação por improbidade (febre aftosa) cuja instância não se confirmou. Reportagem cita acusação de violência doméstica sem detalhe (a confirmar, não desconta); a TCU o isentou no caso da funcionária fantasma.",
+      "fontes": [
+        "https://www.portalt5.com.br/noticias/single/nid/deputado-paraibano-aguinaldo-ribeiro-vira-reu-apos-decisao-do-stf/",
+        "https://www.cnnbrasil.com.br/politica/stf-arquiva-inquerito-do-quadrilhao-do-pp-que-tinha-lira-como-investigado/",
+        "https://jornaldaparaiba.com.br/cotidiano/deputado-aguinaldo-ribeiro-perde-direitos-politicos-por-7-anos",
+        "https://www.terra.com.br/nos/relator-da-reforma-tributaria-quem-e-aguinaldo-ribeiro-deputado-acusado-de-violencia-domestica,58768017308bad0f0a03ef7e7bbbfb844dguats3.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Réu no STF desde 2019 no inquérito do 'quadrilhão do PP' (organização criminosa na Petrobras, Lava Jato); a 2ª Turma encerrou a ação em mar/2021."
+        },
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado por improbidade pela Justiça Federal (juíza Cristina Garcez) por dispensar licitação na contratação de empresa contra a febre aftosa quando secretário de Agricultura da Paraíba: suspensão dos direitos políticos por 7 anos, multa e ressarcimento de R$ 94,9 mil; instância e situação do recurso não confirmadas."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002544607": {
+      "nome_urna": "JAILMA CARVALHO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002548945": {
+      "nome_urna": "TANILSON SOARES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002548944": {
+      "nome_urna": "JOÃO GONÇALVES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002548940": {
+      "nome_urna": "MICHEL HENRIQUE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002544180": {
+      "nome_urna": "ADRIANO GALDINO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): condenações por improbidade como prefeito de Pocinhos, instância não confirmada (a confirmar), entre 45 processos segundo a imprensa. A auditoria do TCE sobre salários da filha na Secretaria de Planejamento é sobre a filha (parente, sem desconto).",
+      "fontes": [
+        "https://jornaldaparaiba.com.br/politica/deputado-estadual-adriano-galdino-responde-a-45-processos-judiciais",
+        "https://www.cnnbrasil.com.br/politica/pb-tce-diz-que-filha-de-deputado-recebeu-salarios-e-nunca-atuou-em-cargo/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado por improbidade em ações sobre a gestão como prefeito de Pocinhos (despesa não comprovada, desvio de finalidade, vício em licitação, pós-graduação da irmã paga pela prefeitura); segundo a imprensa, responde a 45 processos. Instância das condenações não confirmada."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002540234": {
+      "nome_urna": "FELIPE LEITÃO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): condenação por compra de votos em 2008, com recurso sem desfecho encontrado (a confirmar). Pela regra de 26/09, conta mesmo que tenha sido revertida.",
+      "fontes": [
+        "https://jornaldaparaiba.com.br/politica/felipe-leitao-recorre-para-tentar-se-manter-na-camara"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado pela Justiça Eleitoral por compra de votos na eleição de 2008 para vereador de João Pessoa (R$ 70 por voto, por intermediário): inelegibilidade de 3 anos e multa de 50 mil Ufirs; recorreu para manter o mandato; desfecho não encontrado."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002544208": {
+      "nome_urna": "WILSON SANTIAGO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca): réu por corrupção passiva e organização criminosa na Operação Pés de Barro (obra da adutora Capivara).",
+      "fontes": [
+        "https://crusoe.com.br/diario/campeao-de-gastos-na-camara-wilson-santiago-vira-reu-por-corrupcao/",
+        "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2019-12/deputado-wilson-santiago-e-investigado-por",
+        "https://www.camara.leg.br/noticias/634689-camara-rejeita-afastamento-do-deputado-wilson-santiago"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu por corrupção passiva e organização criminosa na Operação Pés de Barro (desvio de mais de R$ 1 milhão em propina na obra da adutora Capivara, contratada por R$ 24 milhões): denúncia da PGR recebida em dez/2019; o STF mandou o caso para a 1ª instância na Paraíba. Chegou a ser afastado do mandato pelo STF (2019), decisão derrubada pela Câmara."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002544203": {
+      "nome_urna": "MURILO GALDINO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002544201": {
+      "nome_urna": "JANNY MILANES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: ela é autora de notícia-crime por apreensão de material de campanha em Bayeux (vítima).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }

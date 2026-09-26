@@ -643,10 +643,56 @@ direita estadual) veio dos descontos de Pablo Muribeca (multas eleitorais por fa
 de Beto Richa/PR; não é finalista. Três manchetes de condenação em Vila Velha e Viana eram de outros vereadores
 (conferido nas fontes).
 
+### PB
+
+Pesquisados: 27 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **ELIZA** (PP, Deputado Federal), idoneidade pessoal 5, geral 7: ré por incitação ao ódio contra a população LGBTQIA+ (denúncia do MPF recebida em 2025) e nova investigação por transfobia (2026).
+- **ROMERO RODRIGUES** (PODE, Deputado Federal), idoneidade pessoal 6, geral 7.5: Busca rápida na internet (1 busca e 1 de confirmação): réu na Operação Calvário por suposta propina para a campanha de 2016 em troca da gestão de hospitais municipais; denúncia antiga por declaração falsa ao fisco arquivada pelo TRF-5.
+- **AGUINALDO RIBEIRO** (PP, Deputado Federal), idoneidade pessoal 7, geral 8: Busca rápida na internet (1 busca e 1 de confirmação): réu no 'quadrilhão do PP' com ação encerrada pelo STF em 2021 e condenação por improbidade (febre aftosa) cuja instância não se confirmou. Reportagem cita acusação de violência doméstica sem detalhe (a confirmar, não desconta); a TCU o isentou no caso da funcionária fantasma.
+- **WILSON SANTIAGO** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 7, geral 8.5: réu por corrupção passiva e organização criminosa na Operação Pés de Barro (obra da adutora Capivara).
+- **RUY CARNEIRO** (PODE, Deputado Federal), idoneidade pessoal 8, geral 8.5: Busca rápida na internet (1 busca e 1 de confirmação): condenação no caso Desk (1ª instância em 2024, mantida pelo TJPB em 2025) anulada pelo STJ em abril de 2026 por incompetência do juízo.
+- **HUGO** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 8, geral 9: citado por empresário condenado como beneficiário de propina em emenda (sem denúncia) e investigação sobre voo particular arquivada pelo STF (2026). Investigações de parentes não descontam.
+- **ADRIANO GALDINO** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 8, geral 9: condenações por improbidade como prefeito de Pocinhos, instância não confirmada (a confirmar), entre 45 processos segundo a imprensa. A auditoria do TCE sobre salários da filha na Secretaria de Planejamento é sobre a filha (parente, sem desconto).
+- **FELIPE LEITÃO** (MDB, Deputado Estadual), idoneidade pessoal 8, geral 8.5: condenação por compra de votos em 2008, com recurso sem desfecho encontrado (a confirmar). Pela regra de 26/09, conta mesmo que tenha sido revertida.
+- **TIÃO GOMES** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 9, geral 9.5: citado em delação da Operação Calvário, sem indiciamento (a PF concluiu que não havia provas).
+- **LUIZ COUTO** (PT, Deputado Federal), idoneidade pessoal 9, geral 9: queixas-crime por calúnia rejeitadas pelo STF (mesma categoria de José Nelto/GO).
+- **DANIELLE DO VALE** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 9, geral 9.5: ordem do TRE-PB para retirar vídeo em ação por uso da máquina pública (2026).
+- **LUCIANO CARTAXO** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 9, geral 9.5: Busca rápida na internet (1 busca e 1 de confirmação): operação da PF sobre obras do Parque da Lagoa na gestão dele, sem denúncia ou desfecho confirmados (a confirmar). A ligação política com a Operação Calvário e a AIJE antiga não descontam sem achado pessoal.
+- **WILSON FILHO** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 9, geral 9.5: inquérito civil do MPF de 2017 e bloqueio de bens junto com o pai em investigação no STF, sem desfecho encontrado (a confirmar).
+- **RAONI MENDES** (PSD, Deputado Federal), idoneidade pessoal 9, geral 8.5: condenação eleitoral por doação ilegal em 2010, que levou o TRE-PB a barrar uma candidatura posterior.
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- LUCIANO CARTAXO (REPUBLICANOS, Deputado Estadual): Busca rápida na internet (1 busca e 1 de confirmação): operação da PF sobre obras do Parque da Lagoa na gestão dele, sem denúncia ou desfecho confirmados (a confirmar). A ligação política com a Operação Calvário e a AIJE antiga não descontam sem achado pessoal.
+- WILSON FILHO (REPUBLICANOS, Deputado Estadual): inquérito civil do MPF de 2017 e bloqueio de bens junto com o pai em investigação no STF, sem desfecho encontrado (a confirmar).
+- AGUINALDO RIBEIRO (PP, Deputado Federal): Busca rápida na internet (1 busca e 1 de confirmação): réu no 'quadrilhão do PP' com ação encerrada pelo STF em 2021 e condenação por improbidade (febre aftosa) cuja instância não se confirmou. Reportagem cita acusação de violência doméstica sem detalhe (a confirmar, não desconta); a TCU o isentou no caso da funcionária fantasma.
+- ADRIANO GALDINO (REPUBLICANOS, Deputado Estadual): condenações por improbidade como prefeito de Pocinhos, instância não confirmada (a confirmar), entre 45 processos segundo a imprensa. A auditoria do TCE sobre salários da filha na Secretaria de Planejamento é sobre a filha (parente, sem desconto).
+- FELIPE LEITÃO (MDB, Deputado Estadual): condenação por compra de votos em 2008, com recurso sem desfecho encontrado (a confirmar). Pela regra de 26/09, conta mesmo que tenha sido revertida.
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: DIEGO BRAYTNNER (NOVO 3030), RAONI MENDES (PSD 5533), RUY CARNEIRO (PODE 2030)
+- Deputado Federal · Direita conservadora: RANIERY PAULINO (REPUBLICANOS 1015), TIÃO GOMES (REPUBLICANOS 1033), MURILO GALDINO (REPUBLICANOS 1044) — sorteio entre 2 empatados
+- Deputado Federal · Esquerda progressista: GERVÁSIO MAIA (PCDOB 6565), FÁBIO CARNEIRO (SOLIDARIEDADE 7722), JAILMA CARVALHO (PSB 4045)
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: vazio
+- Deputado Estadual · Direita conservadora: DANIELLE DO VALE (REPUBLICANOS 10456), MICHEL HENRIQUE (PP 11011), WILSON FILHO (REPUBLICANOS 10110) — sorteio entre 5 empatados
+- Deputado Estadual · Esquerda progressista: CHICO MENDES (PSB 40456), CHIÓ (PV 43789), JÔ OLIVEIRA (PCDOB 65000)
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações da PB: Ruy Carneiro continua finalista (Libertário federal) com nota 8: a condenação de 20 anos no caso
+Desk, mantida pelo TJPB em dez/2025, foi anulada pelo STJ em abr/2026 por incompetência do juízo, e conta como
+condenação revertida (−2). Saíram do topo Romero Rodrigues (réu na Operação Calvário, nota 6), Eliza Virgínia (ré por
+incitação ao ódio contra a população LGBTQIA+, nota 5), Wilson Santiago (réu na Operação Pés de Barro, nota 7) e
+Aguinaldo Ribeiro (condenação por improbidade de instância não confirmada, nota 7). Duas rodadas de reposição.
+
 ## Situação e próximos passos
 
-- **Estados fechados (14 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34), AM (48), ES (35). Total: 560 candidatos, 164 com achado que descontou e 65 marcados "a confirmar". Nos catorze, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (15 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27). Total: 587 candidatos, 178 com achado que descontou e 70 marcados "a confirmar". Nos quinze, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -669,10 +715,10 @@ de Beto Richa/PR; não é finalista. Três manchetes de condenação em Vila Vel
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 13 estados**, na ordem de população: PB, MT, RN, PI, AL, DF,
+- **Faltam 12 estados**, na ordem de população: MT, RN, PI, AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM e ES (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES e PB (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
