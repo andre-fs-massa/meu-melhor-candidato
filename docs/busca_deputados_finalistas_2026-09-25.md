@@ -1208,7 +1208,7 @@ extra, quem entra na lista no lugar de um finalista também passa pelas duas rod
   com verba pública; condenação criminal anulada pelo STF, nota 4). Entraram Sérgio Guimarães, Pepê Collaço (recurso
   de 2004 no TCE-SC sem sanção identificada, a confirmar) e Ciça Müller, nada nas duas rodadas.
 - **Total da 2ª rodada:** 180 finalistas pesquisados pelo nome completo nos 10 estados, mais 3 blocos de empatados
-  (PR 7, PA 5, SC 9) e reposições na 1ª rodada. Saíram da lista 14 finalistas; nenhum estado ficou com pendentes.
+  (PR 7, PA 5, SC 9) e reposições na 1ª rodada. Saíram da lista 9 finalistas (SP 2, MG 1, PR 1, PA 2, SC 3); nenhum estado ficou com pendentes.
 
 ## Situação e próximos passos
 
