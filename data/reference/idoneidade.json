@@ -7912,13 +7912,15 @@
       "nome_urna": "PEDRO AIHARA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
-        "https://www.camara.leg.br/deputados/220630/biografia"
+        "https://www.camara.leg.br/deputados/220630/biografia",
+        "https://www.escavador.com/sobre/492600259/pedro-doshikazu-piancho-aihara"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002537223": {
       "nome_urna": "GILBERTO ABRAMO",
@@ -8158,13 +8160,14 @@
       "nome_urna": "JOSE CARLOS GOMES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.facebook.com/josecarlosgomesoficial/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002539884": {
       "nome_urna": "MAURO TRAMONTE",
@@ -8242,13 +8245,15 @@
       "nome_urna": "IZA LOURENÇA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (é vítima de violência política investigada pela PF).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (é vítima de violência política investigada pela PF). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista processos no TRE-MG e TJMG com o nome (partes mais comuns: Promotor Eleitoral e denúncias do aplicativo Pardal), sem nenhum processo, sanção ou multa identificada.",
       "fontes": [
-        "https://www.cmbh.mg.gov.br/vereadores/iza-louren%C3%A7a"
+        "https://www.cmbh.mg.gov.br/vereadores/iza-louren%C3%A7a",
+        "https://www.jusbrasil.com.br/topicos/39954722/izabella-lourenca-amorim-romualdo"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002535385": {
       "nome_urna": "PEDRO SOUSA",
@@ -8266,25 +8271,27 @@
       "nome_urna": "TIAGO SANTANA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://pcdob.org.br/candidaturas/tiago-santana/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002535359": {
       "nome_urna": "IRENE MELO FRANCO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://sapl.parademinas.mg.leg.br/parlamentar/60"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "130002535357": {
       "nome_urna": "MARCELO MONTEIRO",

@@ -1169,9 +1169,9 @@ extra, quem entra na lista no lugar de um finalista também passa pelas duas rod
 (`finalistas.py UF --sem-rodada2` lista quem falta). As mesmas regras de classificação acima valem para a 2ª rodada.
 
 - **SP** (18 finalistas na 2ª rodada + 17 empatados novos na 1ª): saíram Sâmia Bomfim (multa do TRE-SP por desinformação, set/2026, nota 9) e Cris Monteiro (denúncia por lesão corporal leve em juizado especial pela briga na Câmara, a confirmar, nota 9). No bloco de 23 empatados da Esquerda federal: Gilson de Souza (improbidade transitada, 6), Vicentinho e Paulo Teixeira (processos antigos sem desfecho e contas, 8), Raul Marcelo (crime contra a honra, 9), Zarattini (inquéritos arquivados/suspensos, 9), Alencar Santana (contas de 2022, 9). Entraram Alexis Fonteyne e Nabil Bonduki (nada nas duas rodadas).
-- **MG (parcial, 14 de 18; site não reexportado):** Gilberto Abramo (citado pela PF como autor formal de emendas
-  atribuídas a Eduardo Cunha, 2026, a confirmar, nota 9) saiu. Faltam: Pedro Aihara (entrou no lugar dele), José
-  Carlos Gomes, Tiago Santana, Irene Melo Franco e Iza Lourença. A sessão parou no teto de 600 buscas.
+- **MG** (18 finalistas na 2ª rodada + 1 empatado novo na 1ª): saiu Gilberto Abramo (citado pela PF como autor formal de
+  emendas atribuídas a Eduardo Cunha, 2026, a confirmar, nota 9). Entrou Pedro Aihara (nada nas duas rodadas). Iza
+  Lourença: o Jusbrasil lista processos no TRE-MG com o nome, sem nenhum processo ou sanção identificada (sem desconto).
 - **Faltam:** RJ, BA, PR, RS, PE, CE, PA e SC.
 
 ## Situação e próximos passos
