@@ -929,10 +929,42 @@ reposição com 16. Marquinhos Trad segue finalista com −1 (absolvido das acus
 Herculano Borges com −1 (citado em interceptações da operação Gutemberg). Gilmar Garcia, finalista estadual, teria
 desistido da candidatura segundo a imprensa, mas ainda consta no arquivo do TSE.
 
+### SE
+
+Pesquisados: 26 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **GUSTINHO RIBEIRO** (PP, Deputado Federal), idoneidade pessoal 5, geral 7: condenação por improbidade confirmada pelo TJSE (subvenções sociais a aliados), com acordo de não persecução cível em homologação provisória; impugnação do registro de 2026 rejeitada pelo TRE-SE.
+- **LUCIANO BISPO** (PSD, Deputado Estadual), idoneidade pessoal 6, geral 7: condenação por improbidade confirmada em 2ª instância, que levou o TSE a negar o registro de 2018.
+- **FÁBIO REIS** (PSD, Deputado Federal), idoneidade pessoal 8, geral 8: denúncia por desobediência eleitoral julgada improcedente pelo STF e apuração de 2020 sobre cota parlamentar sem desfecho encontrado (a confirmar).
+- **THIAGO DE JOALDO** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 9, geral 9.5: preso na operação Castelo de Cartas, processo arquivado em 2018.
+- **ROBSON VIANA** (PSB, Deputado Federal), idoneidade pessoal 9, geral 9.5: réu por peculato em caso antigo da Câmara de Aracaju, sem desfecho encontrado (a confirmar).
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- FÁBIO REIS (PSD, Deputado Federal): denúncia por desobediência eleitoral julgada improcedente pelo STF e apuração de 2020 sobre cota parlamentar sem desfecho encontrado (a confirmar).
+- ROBSON VIANA (PSB, Deputado Federal): réu por peculato em caso antigo da Câmara de Aracaju, sem desfecho encontrado (a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: DRA. JEANNE LIMA (CIDADANIA 2333), DELEGADA KATARINA (PSD 5505), NETO BATALHA (PSD 5588)
+- Deputado Federal · Direita conservadora: GRACINHA GARCEZ (REPUBLICANOS 1012), ALBERTO MACEDO (REPUBLICANOS 1044), THIAGO DE JOALDO (REPUBLICANOS 1011) — sorteio entre 2 empatados
+- Deputado Federal · Esquerda progressista: ELBER BATALHA (PSB 4010), GLEIDOALDO (SOLIDARIEDADE 7766), WALDIR RODRIGUES (PCDOB 6513)
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: MAISA MITIDIERI (PSD 55555), JORGINHO ARAUJO (PSD 55777), ADAILTON MARTINS (PSD 55123)
+- Deputado Estadual · Direita conservadora: GEORGEO PASSOS (REPUBLICANOS 10777), NETINHO GUIMARÃES (UNIÃO 44777), ANDERSON DE TUCA (UNIÃO 44123) — sorteio entre 4 empatados
+- Deputado Estadual · Esquerda progressista: LINDA BRASIL (PSOL 50180), PAULO JR (PV 43777), KITTY LIMA (PSB 40400)
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do SE: saíram do topo Gustinho Ribeiro (improbidade confirmada pelo TJSE, com acordo de não persecução cível
+em homologação provisória, nota 5), Luciano Bispo (improbidade confirmada, registro negado pelo TSE em 2018, nota 6) e
+Fábio Reis. Thiago de Joaldo segue finalista com −1 (preso na operação Castelo de Cartas, processo arquivado em 2018).
+
 ## Situação e próximos passos
 
-- **Estados fechados (21 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40), MS (37). Total: 793 candidatos, 238 com achado que descontou e 90 marcados "a confirmar". Nos 21, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (22 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40), MS (37), SE (26). Total: 819 candidatos, 243 com achado que descontou e 92 marcados "a confirmar". Nos 22, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -955,8 +987,8 @@ desistido da candidatura segundo a imprensa, mas ainda consta no arquivo do TSE.
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 6 estados**, na ordem de população: SE, RO, TO, AC, AP, RR (estados menores, ~20 a 30 buscas cada).
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF e MS (junto com a correção dos caciques, que vale para
+- **Faltam 5 estados**, na ordem de população: RO, TO, AC, AP, RR (estados menores, ~20 a 30 buscas cada).
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF, MS e SE (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o

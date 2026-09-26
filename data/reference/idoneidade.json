@@ -17836,6 +17836,318 @@
       "pesquisado_em": "2026-09-26",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "260002551705": {
+      "nome_urna": "DRA. JEANNE LIMA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002542473": {
+      "nome_urna": "FÁBIO REIS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): denúncia por desobediência eleitoral julgada improcedente pelo STF e apuração de 2020 sobre cota parlamentar sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://noticias.stf.jus.br/postsnoticias/improcedente-denuncia-contra-deputado-fabio-reis-por-desobediencia-eleitoral/",
+        "https://horanews.net/fabio-reis-nega-que-tenha-praticado-irregularidade-na-utilizacao-da-cota-parlamentar/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Denúncia do MPF por desobediência eleitoral (Inq 3909) julgada improcedente por unanimidade pelo STF."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Apuração sobre uso irregular da cota parlamentar (2020), com André Moura; ele nega e pediu a exclusão do nome; desfecho não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "260002542471": {
+      "nome_urna": "NETO BATALHA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002542470": {
+      "nome_urna": "DELEGADA KATARINA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002547411": {
+      "nome_urna": "GUSTINHO RIBEIRO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 5,
+      "motivo": "Busca rápida na internet (1 busca): condenação por improbidade confirmada pelo TJSE (subvenções sociais a aliados), com acordo de não persecução cível em homologação provisória; impugnação do registro de 2026 rejeitada pelo TRE-SE.",
+      "fontes": [
+        "https://infonet.com.br/noticias/politica/tj-mantem-condenacao-de-gustinho-ribeiro-decisao-cabe-recurso/",
+        "https://www.cartacapital.com.br/politica/deputado-do-republicanos-usou-verbas-de-subvencao-social-para-beneficiar-aliados/",
+        "https://fanf1.com.br/2026/09/10/tre-se-defere-candidatura-de-gustinho-ribeiro-a-deputado-federal/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado por improbidade (1ª Vara Cível de Lagarto, 2021) por destinar mais de R$ 600 mil em subvenções sociais da Assembleia a associações de aliados em Lagarto quando deputado estadual (2011-2014): suspensão dos direitos políticos, multa e perda do mandato; condenação mantida pelo TJSE. Em 2026 o STJ anulou a recusa do TJSE em homologar um acordo de não persecução cível com o MPSE, e o TJSE deu efeito provisório ao acordo em 28/08/2026."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Impugnação do registro de 2026 pelo MP Eleitoral por causa da condenação; o TRE-SE deferiu a candidatura (set/2026)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "260002533083": {
+      "nome_urna": "THIAGO DE JOALDO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): preso na operação Castelo de Cartas, processo arquivado em 2018.",
+      "fontes": [
+        "https://fanf1.com.br/2025/09/17/pec-da-blindagem-dos-deputados-sergipanos-que-votaram-sim-dois-ja-foram-investigados-por-corrupcao/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Preso na operação Castelo de Cartas (fraude em licitações em Itabaianinha na gestão do pai como prefeito), acusado de facilitar o esquema; o processo foi arquivado em 2018, sem condenação."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "260002533080": {
+      "nome_urna": "GRACINHA GARCEZ",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: ação do Podemos pela perda do mandato por infidelidade (2021), sem decretação encontrada.",
+      "fontes": [
+        "https://infonet.com.br/noticias/politica/podemos-entra-com-acao-contra-a-deputada-gracinha-garcez-psd/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002545622": {
+      "nome_urna": "GLEIDOALDO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o advogado de Sergipe indiciado por estupro é outra pessoa).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002541264": {
+      "nome_urna": "ELBER BATALHA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (autor, não réu, de ação por fraude à cota e vencedor de representações de adversário).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002541262": {
+      "nome_urna": "ROBSON VIANA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): réu por peculato em caso antigo da Câmara de Aracaju, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://jlpolitica.com.br/noticias/estado/tj-mantem-denuncia-contra-robson-viana"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Réu por peculato (denúncia do MPSE mantida pelo TJSE, por volta de 2018) por suposto desvio de verba indenizatória da Câmara de Aracaju quando vereador (2013); desfecho não encontrado (processo antigo, mesma regra de Beto Richa/PR). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "260002547487": {
+      "nome_urna": "LUCIANO BISPO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca): condenação por improbidade confirmada em 2ª instância, que levou o TSE a negar o registro de 2018.",
+      "fontes": [
+        "https://www.tse.jus.br/comunicacao/noticias/2018/Novembro/plenario-nega-registro-de-candidato-eleito-deputado-estadual-em-sergipe"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado em 1ª e 2ª instâncias pela Justiça Federal por improbidade dolosa como prefeito de Itabaiana (dispensa de licitação e compra superfaturada de medicamentos, dano ao erário e enriquecimento de terceiros); por isso o TSE negou (6 a 1) o registro dele como deputado estadual eleito em 2018."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "260002547482": {
+      "nome_urna": "MAISA MITIDIERI",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002547478": {
+      "nome_urna": "JORGINHO ARAUJO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002547476": {
+      "nome_urna": "ADAILTON MARTINS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002549386": {
+      "nome_urna": "PASTOR DIEGO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002549385": {
+      "nome_urna": "NETINHO GUIMARÃES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002549381": {
+      "nome_urna": "PATO MARAVILHA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002548699": {
+      "nome_urna": "ANDERSON DE TUCA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002535601": {
+      "nome_urna": "MARCOS OLIVEIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002535596": {
+      "nome_urna": "GEORGEO PASSOS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (autor, não réu, de ação que condenou um prefeito).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002547426": {
+      "nome_urna": "LINDA BRASIL",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: é vítima em processos por transfobia e ameaças.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002545628": {
+      "nome_urna": "PAULO JR",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002540205": {
+      "nome_urna": "KITTY LIMA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002547408": {
+      "nome_urna": "YANDRA MOURA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: o MDB pediu ao MPF apuração de abuso de poder econômico na campanha dela, sem apuração aberta encontrada; a condenação do pai, André Moura, é de parente (sem desconto).",
+      "fontes": [
+        "https://www.f5news.com.br/cotidiano/mdb-denuncia-yandra-moura-ao-mpf-por-abuso-de-poder-economico.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002533077": {
+      "nome_urna": "ALBERTO MACEDO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os condenados por improbidade de Barra dos Coqueiros em 2011 são outros ex-prefeitos; numa ação por difamação ele foi a vítima).",
+      "fontes": [
+        "https://infonet.com.br/noticias/politica/mpf-se-prefeito-e-ex-prefeito-da-barra-dos-coqueiros-sao-condenados-em-acao-de-improbidade/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002547439": {
+      "nome_urna": "WALDIR RODRIGUES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }
