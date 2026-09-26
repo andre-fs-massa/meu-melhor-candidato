@@ -9076,40 +9076,45 @@
       "nome_urna": "KEL TORRES",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.cms.ba.gov.br/vereadores/kel-torres",
         "https://republicanos10.org.br/quem_e_quem/kel-torres/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002532504": {
       "nome_urna": "LÉO PRATES",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de ser parte em processos eleitorais de 2026 (1 no polo passivo, sem classe informada; ser parte não é achado).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de ser parte em processos eleitorais de 2026 (1 no polo passivo, sem classe informada; ser parte não é achado). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.plural.jor.br/leonardo-silva-prates/",
-        "https://pt.wikipedia.org/wiki/L%C3%A9o_Prates"
+        "https://pt.wikipedia.org/wiki/L%C3%A9o_Prates",
+        "https://en.wikipedia.org/wiki/Leo_Prates"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002531452": {
       "nome_urna": "MÁRCIO MARINHO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. O nome dele estava entre os contatos do celular de Daniel Vorcaro (Banco Master) apreendido pela PF (mar/2026); segundo o relatório da PF citado por ele, não há contato recíproco nem relação, e ele não é investigado (sem desconto).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. O nome dele estava entre os contatos do celular de Daniel Vorcaro (Banco Master) apreendido pela PF (mar/2026); segundo o relatório da PF citado por ele, não há contato recíproco nem relação, e ele não é investigado (sem desconto). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.portalsalvadorfm.com.br/politica/deputado-baiano-se-defende-apos-aparecer-em-celular-de-vorcaro-uma-injustica/",
-        "https://radar.congressoemfoco.com.br/parlamentar/1150418"
+        "https://radar.congressoemfoco.com.br/parlamentar/1150418",
+        "https://en.wikipedia.org/wiki/M%C3%A1rcio_Marinho"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002538778": {
       "nome_urna": "DELEGADA GABRIELA",
@@ -9127,14 +9132,16 @@
       "nome_urna": "OLIVIA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece só como vítima: injúria racial, violência política de gênero e ofensas de outro deputado).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece só como vítima: injúria racial, violência política de gênero e ofensas de outro deputado). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.metro1.com.br/noticias/justica/90187,mulher-e-condenada-por-injuria-racial-contra-a-deputada-olivia-santana",
-        "https://panoramadabahia.com.br/stj-mantem-acao-penal-contra-deputado-bolsonarista-por-ofensas-a-olivia-santana/"
+        "https://panoramadabahia.com.br/stj-mantem-acao-penal-contra-deputado-bolsonarista-por-ofensas-a-olivia-santana/",
+        "https://en.wikipedia.org/wiki/Ol%C3%ADvia_Santana"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002538766": {
       "nome_urna": "DANIEL",
@@ -9176,74 +9183,83 @@
       "nome_urna": "LIDICE DA MATA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 278 processos com o nome, a maioria no TRE-BA, sem nenhum processo ou sanção identificada (busca de confirmação sobre a gestão como prefeita de Salvador também sem achado).",
       "fontes": [
-        "https://www.camara.leg.br/deputados/139285/biografia"
+        "https://www.camara.leg.br/deputados/139285/biografia",
+        "https://www.jusbrasil.com.br/topicos/36537809/lidice-da-mata-e-souza"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002535846": {
       "nome_urna": "SANDRO OLIVEIRA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.otempo.com.br/eleicoes/2024/candidatos/bahia/oliveira-dos-brejinhos/vereador/sandro-oliveira-50000"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002533183": {
       "nome_urna": "ANDERSON NINHO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.cms.ba.gov.br/vereadores/anderson-ninho"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002533156": {
       "nome_urna": "JORDAVIO RAMOS",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Jordavio_Ramos",
-        "https://www.al.ba.gov.br/deputados/deputado-estadual/932101"
+        "https://www.al.ba.gov.br/deputados/deputado-estadual/932101",
+        "https://www.plural.jor.br/jordavio-alexandre-espinola-ramos/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002532691": {
       "nome_urna": "ALEX DA PIATÃ",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.al.ba.gov.br/deputados/deputado-estadual/921263"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002536042": {
       "nome_urna": "MILITÃO DOURADO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 20 processos com o nome (TRE-BA e TRT5), sem nenhuma sanção identificada.",
       "fontes": [
-        "https://www.otempo.com.br/eleicoes/2024/candidatos/bahia/lapao/vereador/militao-dourado-44123"
+        "https://www.otempo.com.br/eleicoes/2024/candidatos/bahia/lapao/vereador/militao-dourado-44123",
+        "https://www.jusbrasil.com.br/processos/nome/34025362/valdenor-militao-vilela-dourado"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002532564": {
       "nome_urna": "JURAILTON SANTOS",
@@ -9261,26 +9277,28 @@
       "nome_urna": "JOSÉ DE ARIMATEIA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o 'Arimateia' condenado a 14 anos nas notícias é outra pessoa).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o 'Arimateia' condenado a 14 anos nas notícias é outra pessoa). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Jos%C3%A9_de_Arimat%C3%A9ia_(pol%C3%ADtico)"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002532538": {
       "nome_urna": "CHARLIANE SOUSA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TRE-BA e TJBA sem classe nem papel visíveis).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TRE-BA e TJBA sem classe nem papel visíveis). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://itabuna.ba.leg.br/noticias-/camara-de-itabuna-aprova-proposta-da-vereadora-charliane-sousa-e-convoca-secretario-de-saude/",
         "https://www.jusbrasil.com.br/processos/nome/589655372/charliane-sousa-da-silva"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002532530": {
       "nome_urna": "ANGELO CORONEL FILHO",
@@ -9298,13 +9316,14 @@
       "nome_urna": "EDUARDO SALLES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "Busca na web (2026-09-25): \"Eduardo Salles\" deputado estadual BA processo OR investigado OR condenado -- resultados só sobre homônimos (Ricardo Salles) e outro deputado"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002538664": {
       "nome_urna": "SILVIO HUMBERTO",
@@ -9322,13 +9341,14 @@
       "nome_urna": "FABRÍCIO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Fabr%C3%ADcio_Falc%C3%A3o"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002537850": {
       "nome_urna": "JOÃO FELIPE",
@@ -9365,50 +9385,57 @@
       "nome_urna": "HILTON COELHO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de um pedido de 15 vereadores de Salvador à Assembleia por quebra de decoro (entrada no plenário da Câmara com sindicalistas), sem sanção encontrada (sem desconto).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de um pedido de 15 vereadores de Salvador à Assembleia por quebra de decoro (entrada no plenário da Câmara com sindicalistas), sem sanção encontrada (sem desconto). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
-        "https://aratuon.com.br/politica/invasao-na-camara-vereadores-pedem-investigacao-contra-hilton-coelho/"
+        "https://aratuon.com.br/politica/invasao-na-camara-vereadores-pedem-investigacao-contra-hilton-coelho/",
+        "https://en.wikipedia.org/wiki/Hilton_Coelho"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002537696": {
       "nome_urna": "PROF. LEANDRO SANSON",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (advogado e professor de Direito).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (advogado e professor de Direito). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.escavador.com/sobre/5961631/leandro-carvalho-sanson"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002537681": {
       "nome_urna": "MARTA SANTOS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de outras advogadas da Bahia, sem relação com ela).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (os resultados tratam de outras advogadas da Bahia, sem relação com ela). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
-        "Busca na web (2026-09-25): \"Marta Santos\" advogada NOVO Bahia processo OR investigada OR condenada -- nenhum resultado sobre a candidata"
+        "Busca na web (2026-09-25): \"Marta Santos\" advogada NOVO Bahia processo OR investigada OR condenada -- nenhum resultado sobre a candidata",
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/bahia/deputado-federal/marta-santos-3011"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "50002532657": {
       "nome_urna": "ABILIO SANTANA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado contra ele; aparece como vítima de extorsão de uma ex-assessora, condenada pelo TJ-BA em 2025 (a juíza registrou que não há investigação contra ele).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado contra ele; aparece como vítima de extorsão de uma ex-assessora, condenada pelo TJ-BA em 2025 (a juíza registrou que não há investigação contra ele). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.bnews.com.br/noticias/politica/ex-assessora-e-condenada-por-extorsao-contra-deputado-abilio-santana-na-bahia.html",
-        "https://www.camara.leg.br/deputados/204554/biografia"
+        "https://www.camara.leg.br/deputados/204554/biografia",
+        "https://en.wikipedia.org/wiki/Jos%C3%A9_Ab%C3%ADlio_Silva_de_Santana"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "160002549533": {
       "nome_urna": "BETO RICHA",

@@ -1175,7 +1175,9 @@ extra, quem entra na lista no lugar de um finalista também passa pelas duas rod
 - **RJ** (18 finalistas): nenhum achado novo; a lista não mudou. Luiz Lima, Júlia Casamasso, Pastor Henrique, Carlos
   Macedo, Librelon e Lilian Behring aparecem em listagens de processos (Jusbrasil/Escavador, a maioria eleitorais), sem
   nenhum processo ou sanção identificada (sem desconto).
-- **Faltam:** BA, PR, RS, PE, CE, PA e SC.
+- **BA** (18 finalistas): nenhum achado novo; a lista não mudou. Lídice da Mata (278 processos listados no Jusbrasil, a
+  maioria no TRE-BA) e Militão Dourado aparecem em listagens de processos sem nenhum processo ou sanção identificada.
+- **Faltam:** PR, RS, PE, CE, PA e SC.
 
 ## Situação e próximos passos
 
