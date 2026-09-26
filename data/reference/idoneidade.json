@@ -19738,6 +19738,391 @@
         }
       ],
       "origem": "busca_finalistas"
+    },
+    "230002538186": {
+      "nome_urna": "RAY KLEBER",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002538182": {
+      "nome_urna": "DRA. MAISE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como advogada em processos).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002538181": {
+      "nome_urna": "ADJALMA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): perda do mandato de vereador por infidelidade partidária decretada pelo TSE em 2024.",
+      "fontes": [
+        "https://www.tse.jus.br/comunicacao/noticias/2024/Junho/tse-cassa-mandato-de-vereador-de-boa-vista-rr-por-infidelidade-partidaria",
+        "https://www.folhabv.com.br/politica/tse-converte-absolvicao-de-adjalma-goncalves-em-cassacao-do-vereador/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "cassacao_de_mandato",
+          "descricao": "Mandato de vereador de Boa Vista cassado pelo TSE (jun/2024) por infidelidade partidária, a pedido do Republicanos, depois de ter trocado de partido; o TRE-RR tinha negado a cassação em 2023. Perda de mandato decretada e mantida (regra do usuário de 25/09)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "230002549634": {
+      "nome_urna": "GABRIEL MOTA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8.5,
+      "motivo": "Busca rápida na internet (1 busca): condenação por danos morais em juizado especial e controvérsia sobre suposta funcionária fantasma no gabinete.",
+      "fontes": [
+        "https://roraima1.com.br/gabriel-mota-e-condenado-por-xingar-integrante-de-grupo-de-whatsapp-e-insinuar-uso-de-drogas/",
+        "https://portalofato.com.br/2026/03/18/deputado-de-roraima-que-manteve-esposa-de-ministro-do-tcu-em-suposto-cargo-fantasma-quer-se-reeleito/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado pelo 1º Juizado Especial Cível de Boa Vista a pagar R$ 2,5 mil por danos morais por ofender um integrante de grupo de WhatsApp ('laranja', 'animal', insinuação de uso de drogas); disse que vai recorrer."
+        },
+        {
+          "categoria": "controversia_administrativa",
+          "descricao": "Manteve no gabinete a esposa do ministro do TCU Jhonatan de Jesus em cargo de R$ 12 mil apontado pela imprensa como fantasma (2023); não foi encontrada apuração formal."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "230002549632": {
+      "nome_urna": "PASTOR DINIZ",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549628": {
+      "nome_urna": "ZÉ HAROLDO CATHEDRAL",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549304": {
+      "nome_urna": "ROBERTA ACIOLY",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9.5,
+      "motivo": "Busca rápida na internet (1 busca): gastos da cota parlamentar com empresas ligadas a aliados políticos. O marido é investigado pela PF por fraude na saúde (parente, sem desconto).",
+      "fontes": [
+        "https://roraima1.com.br/roberta-acioly-gastou-r-12-mil-da-cota-parlamentar-em-posto-dos-filhos-de-mecias-de-jesus-diz-metropoles/",
+        "https://www.metropoles.com/colunas/grande-angular/senadora-roberta-acioly-aluga-picape-de-locadora-do-ex-socio-de-denarium"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "controversia_administrativa",
+          "descricao": "Como senadora (desde mar/2026), gastou R$ 12 mil da cota parlamentar num posto dos filhos de Mecias de Jesus (de quem é suplente) e R$ 40 mil no aluguel de uma picape da locadora de um ex-sócio de Antonio Denarium; não foi encontrada apuração formal."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "230002549300": {
+      "nome_urna": "MARCOS JORGE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549298": {
+      "nome_urna": "ALBUQUERQUE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. Bases oficiais: 1 auto(s) de infração ambiental não cancelado(s) no Ibama, o maior de R$ 155.000,00, somando R$ 155.000,00.",
+      "fontes": [
+        "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "infracao_administrativa_ambiental",
+          "descricao": "1 auto(s) de infração ambiental não cancelado(s) no Ibama, o maior de R$ 155.000,00, somando R$ 155.000,00."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "230002552035": {
+      "nome_urna": "JANDERSON BARBOSA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (há homônimos parciais em processos criminais, sem ligação com o candidato).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549830": {
+      "nome_urna": "JOENIA WAPICHANA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549227": {
+      "nome_urna": "ROBERT DAGON",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549374": {
+      "nome_urna": "LEILA CASTRO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549367": {
+      "nome_urna": "IURI BANCÁRIO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002538165": {
+      "nome_urna": "RENATO SILVA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549251": {
+      "nome_urna": "TAYLA PERES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): alvo da operação Testa de Ferro da PF por lavagem de dinheiro (2026).",
+      "fontes": [
+        "https://www.metropoles.com/colunas/mirelle-pinheiro/deputada-tayla-peres-e-alvo-da-pf-em-acao-contra-lavagem-de-dinheiro",
+        "https://www.folhabv.com.br/geral/pf-faz-diligencias-no-gabinete-da-deputada-estadual-tayla-peres/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo, com o marido e o irmão, da operação Testa de Ferro da PF (jun/2026) sobre lavagem de dinheiro na compra e revenda de veículos; US$ 34 mil e cerca de R$ 240 mil apreendidos na casa dela. Sem denúncia até agora; a defesa diz que são negócios privados lícitos."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "230002549248": {
+      "nome_urna": "GENILSON COSTA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (2 buscas): cassação de 1ª instância por compra de votos em 2024 (em recurso) e ação penal por tráfico trancada pelo STJ.",
+      "fontes": [
+        "https://portalofato.com.br/2025/11/19/justica-eleitoral-cassa-genilson-costa-por-compra-massiva-de-votos-uso-de-caixa-dois-e-abuso-de-poder-economico/",
+        "https://www.folhabv.com.br/colunas/justica-eleitoral-mantem-cassacao-e-inelegibilidade-de-genilson-costa-caso-segue-para-o-tre-rr",
+        "https://www.migalhas.com.br/quentes/455656/stj-tranca-acao-penal-contra-vereador-de-boa-vista-acusado-de-trafico"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Mandato de vereador cassado pela 5ª Zona Eleitoral (19/11/2025) por compra massiva de votos, caixa dois e abuso de poder econômico na eleição de 2024, com inelegibilidade até 2032 e multa de R$ 53,2 mil; recurso no TRE-RR, segue no cargo."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Denunciado pelo MPRR por tráfico e associação para o tráfico (operação Tânatos da PF, 2022); o STJ trancou a ação penal contra ele por falta de provas (4 a 1, mai/2026)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "230002549239": {
+      "nome_urna": "DR. CLÁUDIO CIRURGIÃO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o deputado de Roraima com cassação por compra de votos mantida pelo TSE em 2026 é Renan Bekel, outra pessoa).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002552043": {
+      "nome_urna": "MARCELO NUNES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549329": {
+      "nome_urna": "MARCIA SANTORO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549326": {
+      "nome_urna": "ALDENICIA CADETE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549322": {
+      "nome_urna": "DR. GEISEL",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549314": {
+      "nome_urna": "RÔMULO BRAZ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549380": {
+      "nome_urna": "WELLINGTON BRASIL",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002552760": {
+      "nome_urna": "DR METON",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a condenação por ofensas no grupo de WhatsApp é de Gabriel Mota).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549356": {
+      "nome_urna": "JORGE EVERTON",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (autor de denúncia contra o ex-governador Denarium e relator da cassação de Jalser Renier, não alvo).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549354": {
+      "nome_urna": "CORONEL CHAGAS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549352": {
+      "nome_urna": "MARCELO CABRAL",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549349": {
+      "nome_urna": "LUCAS SOUZA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549347": {
+      "nome_urna": "CATARINA GUERRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549339": {
+      "nome_urna": "IDAZIO DA PERFIL",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549334": {
+      "nome_urna": "CHICO MOZART",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca): condenação por compra de votos confirmada pelo TRE-RR em 2023.",
+      "fontes": [
+        "https://www.tre-rr.jus.br/comunicacao/noticias/2023/Setembro/deputado-estadual-chico-mozart-e-condenado-pelo-tre-rr",
+        "https://www.mprr.mp.br/noticias/mp-eleitoral-deputado-estadual-e-condenado-por-corrupcao-eleitoral",
+        "https://roraimaemtempo.com.br/politica/tre-rr-mantem-inelegibilidade-de-deputado-chico-mozart/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado por corrupção eleitoral (compra de votos na eleição de 2014, com vantagens a alunos da faculdade de que era sócio): sentença de 1ª instância em mai/2021 (5 anos e perda do mandato) mantida pelo TRE-RR em set/2023, com pena reduzida para 1 ano e 4 meses; a condenação colegiada gera inelegibilidade pela Ficha Limpa. Situação do registro de 2026 não encontrada."
+        }
+      ],
+      "origem": "busca_finalistas"
     }
   }
 }

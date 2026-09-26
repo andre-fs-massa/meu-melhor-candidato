@@ -66,7 +66,7 @@ de classificação usadas na busca dos deputados estão em
 | Cargo | Como foi avaliado |
 |---|---|
 | Presidente, Governador (27 UFs) e Senador (27 UFs) | Pesquisa individual na internet de todos os candidatos: processos e achados, círculo político (vice, suplentes, coligação, caciques do partido), experiência e posicionamento ideológico. |
-| Deputado Federal, Estadual e Distrital | Verificação estrutural de todos os ~19,5 mil candidatos, sem busca na web: círculo político (presidente do partido), cargos eletivos de 2014 a 2024 no TSE e cruzamento com bases oficiais (TCU, TSE 2022, CEIS, CNEP, CEAF, Ibama). Em seguida, busca rápida na internet dos finalistas de cada quadrante e de todos os empatados com eles; concluída em 26 dos 27 estados (falta RR). |
+| Deputado Federal, Estadual e Distrital | Verificação estrutural de todos os ~19,5 mil candidatos, sem busca na web: círculo político (presidente do partido), cargos eletivos de 2014 a 2024 no TSE e cruzamento com bases oficiais (TCU, TSE 2022, CEIS, CNEP, CEAF, Ibama). Em seguida, busca rápida na internet dos finalistas de cada quadrante e de todos os empatados com eles; concluída nos 27 estados. |
 
 O site mostra, em cada candidato, a profundidade da pesquisa (aprofundada, padrão, rápida ou estrutural) e as fontes
 usadas.

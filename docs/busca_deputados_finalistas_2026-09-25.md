@@ -1108,10 +1108,40 @@ Gurgel e o marido Hildegard Gurgel (alvos da operação Cícero da PF), Aldilene
 Rayfran Beirão (operação Vinculum), Leda Sadala e Dayse Marques. Nenhum finalista tem desconto. Parentes com
 problemas (irmãos Furlan, irmão de Jack JK) não descontam, pela regra.
 
+### RR
+
+Pesquisados: 32 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **CHICO MOZART** (PP, Deputado Estadual), idoneidade pessoal 6, geral 7.5: condenação por compra de votos confirmada pelo TRE-RR em 2023.
+- **GENILSON COSTA** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 7, geral 8.5: cassação de 1ª instância por compra de votos em 2024 (em recurso) e ação penal por tráfico trancada pelo STJ.
+- **ADJALMA** (PODE, Deputado Federal), idoneidade pessoal 8, geral 8.5: perda do mandato de vereador por infidelidade partidária decretada pelo TSE em 2024.
+- **TAYLA PERES** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 8, geral 9: alvo da operação Testa de Ferro da PF por lavagem de dinheiro (2026).
+- **GABRIEL MOTA** (UNIÃO, Deputado Federal), idoneidade pessoal 8.5, geral 8.75: condenação por danos morais em juizado especial e controvérsia sobre suposta funcionária fantasma no gabinete.
+- **ROBERTA ACIOLY** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 9.5, geral 9.75: gastos da cota parlamentar com empresas ligadas a aliados políticos. O marido é investigado pela PF por fraude na saúde (parente, sem desconto).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: RAY KLEBER (PODE 2077), DRA. MAISE (PODE 2034), WELLINGTON BRASIL (NOVO 3030)
+- Deputado Federal · Direita conservadora: MARCOS JORGE (REPUBLICANOS 1011), ROBERTA ACIOLY (REPUBLICANOS 1044), ZÉ HAROLDO CATHEDRAL (UNIÃO 4455) — sorteio entre 3 empatados
+- Deputado Federal · Esquerda progressista: ROBERT DAGON (PSOL 5005), JANDERSON BARBOSA (PDT 1212), JOENIA WAPICHANA (PT 1333)
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: RENATO SILVA (PODE 20100), LEILA CASTRO (NOVO 30123), IURI BANCÁRIO (NOVO 30369)
+- Deputado Estadual · Direita conservadora: DR. CLÁUDIO CIRURGIÃO (REPUBLICANOS 10111), IDAZIO DA PERFIL (UNIÃO 44115), JORGE EVERTON (UNIÃO 44444) — sorteio entre 7 empatados
+- Deputado Estadual · Esquerda progressista: MARCELO NUNES (PDT 12345), DR. GEISEL (PV 43777), RÔMULO BRAZ (PT 13777) — sorteio entre 3 empatados
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do RR: saíram Chico Mozart (compra de votos confirmada pelo TRE-RR, nota 6), Genilson Costa (cassado em 1ª
+instância por compra de votos, nota 7), Adjalma (perda do mandato de vereador por infidelidade decretada pelo TSE, nota
+8), Tayla Peres (operação Testa de Ferro da PF) e Gabriel Mota. Uma finalista tem desconto leve: Roberta Acioly
+(gastos da cota parlamentar com empresas de aliados, controvérsia sem apuração, nota 9,5). O deputado de Roraima com
+cassação por compra de votos mantida pelo TSE em abr/2026 é Renan Bekel, que não está entre os pesquisados.
+
 ## Situação e próximos passos
 
-- **Estados fechados (26 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40), MS (37), SE (26), RO (29), TO (30), AC (37), AP (32). Total: 947 candidatos, 270 com achado que descontou e 102 marcados "a confirmar". Nos 26, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (27 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40), MS (37), SE (26), RO (29), TO (30), AC (37), AP (32), RR (32). Total: 979 candidatos, 276 com achado que descontou e 102 marcados "a confirmar". Nos 27, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -1134,8 +1164,9 @@ problemas (irmãos Furlan, irmão de Jack JK) não descontam, pela regra.
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Falta 1 estado:** RR (~20 a 30 buscas).
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF, MS, SE, RO, TO, AC e AP (junto com a correção dos caciques, que vale para
+- **Busca concluída nos 27 estados em 26/09/2026.** Próximo passo sugerido: reconferir, antes de 04/10, os
+  finalistas com desconto "a confirmar" (ver as seções de cada estado).
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF, MS, SE, RO, TO, AC, AP e RR (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
