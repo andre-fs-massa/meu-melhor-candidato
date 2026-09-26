@@ -846,10 +846,56 @@ pelo TRE-AL, nota 4). **Correção no pipeline:** Afrânio de Mendonça Alves Ne
 no TSE e ocupava duas das três vagas da esquerda federal, porque um dos nomes completos tem espaço duplo e escapava da
 remoção de pessoas duplicadas em `pipeline/recomendar.py`; a chave agora ignora espaços repetidos (só esse caso no país).
 
+### DF
+
+Pesquisados: 40 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **HERMETO** (MDB, Deputado Distrital), idoneidade pessoal 5, geral 7: indiciado por rachadinha pela PCDF; condenação por homofobia anulada pelo TJDFT; condenado a indenizar casal homoafetivo.
+- **DANIEL DONIZET** (MDB, Deputado Federal), idoneidade pessoal 7, geral 8: Busca rápida na internet (1 busca e 1 de confirmação): denunciado pelo MPDFT por assédio sexual e obstrução de justiça (2025) e alvo de pedidos de cassação na CLDF sem desfecho encontrado.
+- **WELLINGTON LUIZ** (MDB, Deputado Distrital), idoneidade pessoal 7, geral 8: absolvido de peculato pelo TJDFT e cassação de 2011 revertida pelo TSE (conta pela regra de 26/09).
+- **ROLLEMBERG** (PSB, Deputado Federal), idoneidade pessoal 8, geral 9: multa por propaganda negativa em 2018 e ação de improbidade antiga sobre renúncia fiscal sem desfecho encontrado (a confirmar).
+- **MATHEUS MILANEZ** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 8, geral 9: acusado de violência doméstica, com medida protetiva concedida pelo TJDFT (2026); renunciou à candidatura em 15/08/2026 (ainda consta no arquivo do TSE usado pelo site).
+- **WILKER LEÃO** (NOVO, Deputado Federal), idoneidade pessoal 9, geral 9.5: condenado por calúnia e difamação contra professor da UnB (crime contra a honra = −1).
+- **RAFAEL PRUDENTE** (MDB, Deputado Federal), idoneidade pessoal 9, geral 9: ação de improbidade suspensa sobre programa de incentivo fiscal, sem desfecho encontrado (a confirmar). A menção a réu no caso Caixa de Pandora não se confirmou (pode ser do pai, Leonardo Prudente).
+- **JULIO CESAR** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 9, geral 9.5: Busca rápida na internet (1 busca e 1 de confirmação): absolvido na operação Drácon (2025), com recurso do MP.
+- **PROFESSOR ISRAEL** (PSB, Deputado Federal), idoneidade pessoal 9, geral 9.5: denúncia de desvio em emendas dele analisada pelo MPDFT, sem desfecho encontrado (a confirmar).
+- **PROF. REGINALDO VERAS** (PV, Deputado Federal), idoneidade pessoal 9, geral 9.5: citado como réu por corrupção passiva em levantamento antigo sobre a CLDF, sem desfecho encontrado (a confirmar).
+- **BISPO RENATO ANDRADE** (REPUBLICANOS, Deputado Distrital), idoneidade pessoal 9, geral 9.5: Busca rápida na internet (1 busca e 1 de confirmação): absolvido na operação Drácon (2025), com recurso do MP.
+- **FRED LINHARES** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 9, geral 9.5: citado na operação Korban da PF por emendas a entidade investigada, sem ser alvo formal encontrado.
+- **FÁBIO FELIX** (PSOL, Deputado Federal), idoneidade pessoal 9, geral 9.5: inquérito da PCDF arquivado por falta de provas. A prisão de uma assessora e a versão da PM sobre suposta interferência dele (2026) não geraram apuração encontrada contra ele.
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- RAFAEL PRUDENTE (MDB, Deputado Federal): ação de improbidade suspensa sobre programa de incentivo fiscal, sem desfecho encontrado (a confirmar). A menção a réu no caso Caixa de Pandora não se confirmou (pode ser do pai, Leonardo Prudente).
+- ROLLEMBERG (PSB, Deputado Federal): multa por propaganda negativa em 2018 e ação de improbidade antiga sobre renúncia fiscal sem desfecho encontrado (a confirmar).
+- PROFESSOR ISRAEL (PSB, Deputado Federal): denúncia de desvio em emendas dele analisada pelo MPDFT, sem desfecho encontrado (a confirmar).
+- PROF. REGINALDO VERAS (PV, Deputado Federal): citado como réu por corrupção passiva em levantamento antigo sobre a CLDF, sem desfecho encontrado (a confirmar).
+- DAYSE AMARILIO (PSB, Deputado Distrital): nada confirmado: o TRE-DF apontou indícios preliminares de irregularidade nas contas da campanha de 2022; resultado do julgamento não confirmado (não desconta; a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: ROBERTO FREIRE (CIDADANIA 2323), MAYARA NORONHA (PODE 2027), WILKER LEÃO (NOVO 3000) — sorteio entre 4 empatados
+- Deputado Federal · Direita conservadora: JULIO CESAR (REPUBLICANOS 1010), LUIZ EDUARDO (REPUBLICANOS 1000), REIS COLETIVO SEGURANÇAPRIVADA (DEMOCRATA 3577) — sorteio entre 4 empatados
+- Deputado Federal · Esquerda progressista: ROLLEMBERG (PSB 4040), PROF. REGINALDO VERAS (PV 4343), CARLA GEHLEN (PSB 4007)
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Distrital · Libertário: DRA.TÂNIA SOSTER (NOVO 30555), DR JACINTO (NOVO 30007), CRIS MOURÃO (NOVO 30303) — sorteio entre 8 empatados
+- Deputado Distrital · Direita conservadora: DELEGADA DOUTORA JANE (REPUBLICANOS 10555), IOLANDO (MDB 15000), MARTINS MACHADO (REPUBLICANOS 10123)
+- Deputado Distrital · Esquerda progressista: GABRIEL MAGNO (PT 13131), RICARDO VALE (PT 13013), JACY AFONSO (PT 13001) — sorteio entre 3 empatados
+- Deputado Distrital · Estatista-autoritário: vazio
+
+Observações do DF: a operação Drácon terminou em absolvição em 1ª instância (mar/2025) de Celina Leão, Julio Cesar e
+Bispo Renato, com recurso do MP (−1 cada). Wellington Luiz teve a cassação de 2011 revertida pelo TSE e passa a
+descontar pela regra de 26/09. Saíram do topo Hermeto (indiciado por rachadinha e condenação por homofobia anulada,
+nota 5), Daniel Donizet (denunciado por assédio sexual, nota 7) e Matheus Milanez (medida protetiva por violência
+doméstica; renunciou à candidatura em 15/08, mas ainda consta no arquivo do TSE). Reginaldo Veras segue finalista com
+−1 "a confirmar" (apontado como réu por corrupção passiva em levantamento antigo).
+
 ## Situação e próximos passos
 
-- **Estados fechados (19 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29). Total: 716 candidatos, 217 com achado que descontou e 83 marcados "a confirmar". Nos dezenove, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (20 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40). Total: 756 candidatos, 230 com achado que descontou e 88 marcados "a confirmar". Nos vinte, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -872,10 +918,10 @@ remoção de pessoas duplicadas em `pipeline/recomendar.py`; a chave agora ignor
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 8 estados**, na ordem de população: DF,
+- **Faltam 7 estados**, na ordem de população:
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI e AL (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL e DF (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
