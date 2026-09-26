@@ -602,10 +602,51 @@ mesma condenação por difamação que já desconta (contar de novo seria dobrar
 Raione Cabral (preso preventivamente em 2025 por tentativa de estupro, nota 3) e Abdala Fraxe (condenação por cartel
 de combustíveis confirmada pelo TRF1, nota 6) eram do bloco do topo e saíram.
 
+### ES
+
+Pesquisados: 35 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **FABRÍCIO GANDINI** (PODE, Deputado Estadual), idoneidade pessoal 8, geral 8.5: Busca rápida na internet (1 busca e fontes conferidas): condenado por danos morais ao prefeito de Vitória e multado por conduta vedada (uso de publicidade da prefeitura) na campanha de 2020.
+- **PABLO MURIBECA** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 8, geral 9: várias multas eleitorais por propaganda antecipada, negativa e fake news, e ação sobre conteúdo falso na campanha de 2024 sem desfecho encontrado (a confirmar). A ordem para não entrar em unidades de saúde da Serra e a denúncia de ex-aliado à PF não descontam.
+- **MANATO** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 9, geral 9.5: inquérito da PF de 2019 por suposto peculato e rachadinha no gabinete, sem desfecho encontrado (a confirmar). O episódio de extorsão de 2019 teve ele como vítima (sem desconto).
+- **DR. VICTOR** (PSB, Deputado Federal), idoneidade pessoal 9, geral 9.5: pedido de cassação do MP Eleitoral em 2022 por uso de evento da Guarda Municipal, sem desfecho encontrado (a confirmar).
+- **PAULO NETO** (PODE, Deputado Estadual), idoneidade pessoal 9, geral 9: denúncia de ex-assessora à Câmara por rachadinha e funcionários fantasmas (2026), sem desfecho encontrado (a confirmar).
+- **KARLA COSER** (PT, Deputado Estadual), idoneidade pessoal 9, geral 9: multa por propaganda antecipada com informação falsa e ordem de remover postagem.
+- **DAVI ESMAEL** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 9, geral 9.5: condenação por danos morais a uma servidora revertida no recurso. A representação de 2018 na Corregedoria da Câmara de Vitória é de decoro (sem desconto).
+- **ALCÂNTARO FILHO** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 9, geral 9.5: condenação por danos morais ao prefeito de Aracruz. Os ex-vereadores de Aracruz condenados por rachid são outros.
+- **HILÁRIO ROEPKE GATINHA** (AGIR, Deputado Estadual), idoneidade pessoal 9, geral 9.5: Busca rápida na internet (1 busca e 1 de confirmação): réu desde 2017 por peculato como prefeito de Santa Maria de Jetibá, sem desfecho encontrado (a confirmar). Denúncia anônima de 2021 sobre perda de vacinas não desconta.
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- MANATO (REPUBLICANOS, Deputado Federal): inquérito da PF de 2019 por suposto peculato e rachadinha no gabinete, sem desfecho encontrado (a confirmar). O episódio de extorsão de 2019 teve ele como vítima (sem desconto).
+- DR. VICTOR (PSB, Deputado Federal): pedido de cassação do MP Eleitoral em 2022 por uso de evento da Guarda Municipal, sem desfecho encontrado (a confirmar).
+- PAULO NETO (PODE, Deputado Estadual): denúncia de ex-assessora à Câmara por rachadinha e funcionários fantasmas (2026), sem desfecho encontrado (a confirmar).
+- PABLO MURIBECA (REPUBLICANOS, Deputado Estadual): várias multas eleitorais por propaganda antecipada, negativa e fake news, e ação sobre conteúdo falso na campanha de 2024 sem desfecho encontrado (a confirmar). A ordem para não entrar em unidades de saúde da Serra e a denúncia de ex-aliado à PF não descontam.
+- HILÁRIO ROEPKE GATINHA (AGIR, Deputado Estadual): Busca rápida na internet (1 busca e 1 de confirmação): réu desde 2017 por peculato como prefeito de Santa Maria de Jetibá, sem desfecho encontrado (a confirmar). Denúncia anônima de 2021 sobre perda de vacinas não desconta.
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: SARGENTO ASSIS (NOVO 3090), GILSON DANIEL (PODE 2000), RENZO MENDES (PODE 2022)
+- Deputado Federal · Direita conservadora: DA VITÓRIA (PP 1111), MARCELO SANTOS (UNIÃO 4456), ERICK MUSSO (REPUBLICANOS 1010)
+- Deputado Federal · Esquerda progressista: TYAGO HOFFMANN (PSB 4040), FELIPE RIGONI (PSB 4044), LORENA VASQUES (PSB 4056) — sorteio entre 2 empatados
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: LEO PINDOBA (PODE 20001), ALEXANDRE XAMBINHO (PODE 20789), MARCOS MADUREIRA (PODE 20456) — sorteio entre 7 empatados
+- Deputado Estadual · Direita conservadora: BISPO ALVES (REPUBLICANOS 10123), TONINHO DA EMATER (AGIR 36500), DENNINHO SILVA (UNIÃO 44444) — sorteio entre 3 empatados
+- Deputado Estadual · Esquerda progressista: CAMILA VALADÃO (PSOL 50180), FABIO DUARTE (PDT 12789), BRUNO LAMAS (PSB 40011) — sorteio entre 2 empatados
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do ES: estado com poucos achados graves; nenhum finalista tem desconto. A rodada de reposição (6 da
+direita estadual) veio dos descontos de Pablo Muribeca (multas eleitorais por fake news) e Paulo Neto. Hilário Roepke
+(réu desde 2017 por peculato como prefeito, desfecho não encontrado) ficou com −1 "a confirmar", seguindo o precedente
+de Beto Richa/PR; não é finalista. Três manchetes de condenação em Vila Velha e Viana eram de outros vereadores
+(conferido nas fontes).
+
 ## Situação e próximos passos
 
-- **Estados fechados (13 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34), AM (48). Total: 525 candidatos, 155 com achado que descontou e 60 marcados "a confirmar". Nos treze, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (14 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48), ES (35). Total: 560 candidatos, 164 com achado que descontou e 65 marcados "a confirmar". Nos catorze, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -628,10 +669,10 @@ de combustíveis confirmada pelo TRF1, nota 6) eram do bloco do topo e saíram.
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 14 estados**, na ordem de população: ES, PB, MT, RN, PI, AL, DF,
+- **Faltam 13 estados**, na ordem de população: PB, MT, RN, PI, AL, DF,
   MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
   (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA e AM (junto com a correção dos caciques, que vale para
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM e ES (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o

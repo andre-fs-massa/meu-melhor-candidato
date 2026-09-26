@@ -14358,6 +14358,451 @@
       "pesquisado_em": "2026-09-26",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "80002536278": {
+      "nome_urna": "GILSON DANIEL",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002535613": {
+      "nome_urna": "RENZO MENDES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: ação dele próprio na Justiça Eleitoral para reconhecer justa causa para sair do PP.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002531643": {
+      "nome_urna": "SARGENTO ASSIS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002542409": {
+      "nome_urna": "DA VITÓRIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: foi alvo de acusações de um perfil anônimo no Instagram; a Justiça Eleitoral mandou a Meta identificar o autor e ele apresentou certidões negativas (vítima, sem desconto).",
+      "fontes": [
+        "https://www.folhavitoria.com.br/eleicoes/justica-manda-meta-revelar-quem-esta-por-tras-de-perfil-que-acusou-deputado-do-es-de-corrupcao/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002542404": {
+      "nome_urna": "MARCELO SANTOS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002542396": {
+      "nome_urna": "ERICK MUSSO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002542392": {
+      "nome_urna": "MANATO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): inquérito da PF de 2019 por suposto peculato e rachadinha no gabinete, sem desfecho encontrado (a confirmar). O episódio de extorsão de 2019 teve ele como vítima (sem desconto).",
+      "fontes": [
+        "https://radar365.com.br/policia-federal-investiga-carlos-manato-pela-acusacao-de-rachadinha/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Inquérito da PF (IP 1019070-05.2020.4.01.3400, aberto em 2019) por suposto peculato como deputado federal: funcionários fantasmas, rachadinha, uso de servidores da Câmara em campanha e notas fiscais frias; desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "80002541009": {
+      "nome_urna": "DR. VICTOR",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): pedido de cassação do MP Eleitoral em 2022 por uso de evento da Guarda Municipal, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.agazeta.com.br/es/politica/mp-eleitoral-pede-cassacao-do-diploma-de-dr-victor-deputado-federal-eleito-pelo-es-1222"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "O MP Eleitoral pediu em 2022 a cassação do registro ou diploma e multa de R$ 106 mil por uso eleitoral de um passeio ciclístico da Guarda Municipal de Vila Velha quando era vice-prefeito; desfecho não encontrado (exerceu o mandato). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "80002541008": {
+      "nome_urna": "TYAGO HOFFMANN",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002541006": {
+      "nome_urna": "LORENA VASQUES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002541002": {
+      "nome_urna": "MANU",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece em processos como advogada).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002541001": {
+      "nome_urna": "FELIPE RIGONI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: o TSE reconheceu justa causa para a saída dele do PSB (2021) e ele foi autor, não réu, de representação por propaganda negativa.",
+      "fontes": [
+        "https://www.tse.jus.br/comunicacao/noticias/2024/Abril/tse-rejeita-recurso-de-ex-deputado-federal-felipe-rigoni"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002540540": {
+      "nome_urna": "ANADELSO PEREIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: pedido do Podemos de perda do mandato por infidelidade, que não foi decretada. O vereador de Vila Velha condenado por corrupção em notícia do MPES é outro (Almir Neres de Souza).",
+      "fontes": [
+        "https://tribunaonline.com.br/coluna/plenario/podemos-entra-na-justica-para-tomar-mandato-de-anadelso-298099"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002537498": {
+      "nome_urna": "MARCOS MADUREIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002537496": {
+      "nome_urna": "ALLAN FERREIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002537492": {
+      "nome_urna": "JOILSON BROEDEL",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. O ex-vereador de Viana condenado por improbidade em 2020 (TJES) é outra pessoa: teve os direitos políticos suspensos por 10 anos, e ele foi eleito em 2020 e 2024.",
+      "fontes": [
+        "https://www.tjes.jus.br/ex-vereador-de-viana-e-condenado-por-improbidade-e-tem-direitos-politicos-suspensos-por-10-anos/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002537487": {
+      "nome_urna": "ALEXANDRE XAMBINHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: candidatura a prefeito da Serra em 2020 barrada e depois liberada pela Justiça Eleitoral após troca do vice; o TRE reconheceu justa causa para a saída dele da Rede.",
+      "fontes": [
+        "https://tribunaonline.com.br/eleicoes-2020/candidatura-de-xambinho-para-prefeito-da-serra-e-liberada-82024"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002537486": {
+      "nome_urna": "LEO PINDOBA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. O presidente da Câmara de Vila Velha condenado por improbidade em 2026 é outro vereador (Osvaldo Maturano).",
+      "fontes": [
+        "https://eshoje.com.br/politica/2026/05/presidente-da-camara-de-vila-velha-e-condenado-por-uso-de-assessores-em-atividades-particulares/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002537485": {
+      "nome_urna": "FABRÍCIO GANDINI",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca e fontes conferidas): condenado por danos morais ao prefeito de Vitória e multado por conduta vedada (uso de publicidade da prefeitura) na campanha de 2020.",
+      "fontes": [
+        "https://www.folhavitoria.com.br/politica/giro-politico-deputado-condenado-por-danos-morais-encontro-dos-leoes-e-nesio-toma-posse-na-presidencia-do-conass/",
+        "https://www.seculodiario.com.br/politica/justica-condena-gandinie-luciano-a-pagar-multa-poruso-irregular-de-dinheiro/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado a pagar R$ 4 mil por danos morais ao prefeito de Vitória, Lorenzo Pazolini, por vídeo da campanha de 2020 que o associava a organização criminosa."
+        },
+        {
+          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "descricao": "Condenado em 1ª instância pela Justiça Eleitoral (nov/2020), com o então prefeito Luciano Rezende, a multa de cerca de R$ 125 mil por uso de recursos públicos (publicidade da prefeitura) a favor da candidatura dele a prefeito."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "80002537482": {
+      "nome_urna": "ROGÉRIO CARDOSO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002537474": {
+      "nome_urna": "PAULO NETO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): denúncia de ex-assessora à Câmara por rachadinha e funcionários fantasmas (2026), sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://elimarcortes.com.br/2026/01/19/ex-assessora-acusa-vereador-por-assedio-moral-e-ate-rachadinha-no-espirito-santo/",
+        "https://atenasnoticias.com.br/futuro-do-vereador-paulo-neto-nas-maos-da-camara-de-itapemirim-veja-os-proximos-passos/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Ex-assessora pediu à Câmara de Itapemirim (jan/2026) processo disciplinar contra ele por funcionários fantasmas, pedido de rachadinha, coação e demissões retaliatórias, e disse que levaria o caso ao MPES; ele nega. Desfecho não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "80002549993": {
+      "nome_urna": "BISPO ALVES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002549986": {
+      "nome_urna": "PABLO MURIBECA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): várias multas eleitorais por propaganda antecipada, negativa e fake news, e ação sobre conteúdo falso na campanha de 2024 sem desfecho encontrado (a confirmar). A ordem para não entrar em unidades de saúde da Serra e a denúncia de ex-aliado à PF não descontam.",
+      "fontes": [
+        "https://www.folhavitoria.com.br/politica/tre-condena-pablo-muribeca-a-pagar-r-50-mil-por-propaganda-irregular/",
+        "https://tribunaonline.com.br/politica/eleicoes2024/es/pablo-muribeca-e-condenado-pela-justica-eleitoral-e-tera-de-pagar-r-60-mil-197366",
+        "https://www.folhavitoria.com.br/politica/tre-es-mantem-condenacao-de-muribeca-mas-reduz-r-75-mil-da-multa-imposta/",
+        "https://simnoticias.com.br/coluna-vitor-vogas/peixada-deputado-e-condenado-a-pagar-r-30-mil-por-fake-news/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Várias condenações da Justiça Eleitoral por propaganda antecipada, negativa e fake news (R$ 50 mil por ofensas ao ex-prefeito Sérgio Vidigal, R$ 60 mil por três publicações, R$ 30 mil contra um vereador; cerca de R$ 520 mil somados até 2024, segundo a imprensa), parte mantida pelo TRE-ES com redução da multa."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Alvo, com integrantes da campanha, de ação da coligação adversária por produção de conteúdo falso na eleição de 2024 para prefeito da Serra; desfecho não encontrado. A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "80002535774": {
+      "nome_urna": "TONINHO DA EMATER",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002549489": {
+      "nome_urna": "CAMILA VALADÃO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: é vítima no processo em que o deputado Gilvan foi condenado por violência política de gênero.",
+      "fontes": [
+        "https://mpes.mp.br/noticias/2025/12/10/tre-es-mantem-condenacao-de-deputado-federal-obtida-pelo-mpe-por-violencia-politica-de-genero/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002549091": {
+      "nome_urna": "KARLA COSER",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): multa por propaganda antecipada com informação falsa e ordem de remover postagem.",
+      "fontes": [
+        "https://www.agazeta.com.br/es/politica/karla-coser-e-multada-por-informacao-falsa-e-propaganda-antecipada-0824",
+        "https://www.folhavitoria.com.br/politica/vereadora-de-vitoria-tera-de-remover-postagem-sobre-doacoes-de-alimentos-a-prefeitura/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multa de R$ 5 mil da Justiça Eleitoral, em ação do Republicanos, por propaganda antecipada com desinformação (atribuiu à prefeitura de Vitória obra do governo estadual); também teve de remover postagem sobre doações de alimentos à prefeitura."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "80002549027": {
+      "nome_urna": "FABIO DUARTE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (assumiu a vaga depois da retotalização por fraude à cota do PMB em 2022, sem envolvimento dele).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002541027": {
+      "nome_urna": "DARY PAGUNG",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: em 2018 nomeou no gabinete um ex-prefeito condenado (Ficha Limpa) e a nomeação foi anulada pela procuradoria da Assembleia; ato administrativo, sem apuração contra ele.",
+      "fontes": [
+        "https://www.agazeta.com.br/es/politica/deputado-do-es-nomeia-filho-de-ex-prefeito-condenado-0919"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002541014": {
+      "nome_urna": "BRUNO LAMAS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002549987": {
+      "nome_urna": "DAVI ESMAEL",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): condenação por danos morais a uma servidora revertida no recurso. A representação de 2018 na Corregedoria da Câmara de Vitória é de decoro (sem desconto).",
+      "fontes": [
+        "https://www.agazeta.com.br/es/politica/davi-esmael-se-livra-de-pagar-indenizacao-a-servidora-por-video-em-rede-social-0223"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Condenado em 1ª instância (jun/2022) a pagar R$ 5 mil de danos morais a uma servidora estadual por vídeo nas redes sobre o uso de linguagem neutra num evento; a condenação foi revertida no recurso (fev/2023)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "80002549976": {
+      "nome_urna": "ALCÂNTARO FILHO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): condenação por danos morais ao prefeito de Aracruz. Os ex-vereadores de Aracruz condenados por rachid são outros.",
+      "fontes": [
+        "https://eshoje.com.br/colunistas/2024/04/prefeito-de-aracruz-leva-alcantaro-filho-a-justica-por-fake-news/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado a conceder direito de resposta e indenizar o prefeito de Aracruz, Dr. Coutinho, por publicações que lhe atribuíam crimes em licitação de coleta de lixo (2024)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "80002549457": {
+      "nome_urna": "DENNINHO SILVA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002549450": {
+      "nome_urna": "RAPHAELA MORAES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: dois procedimentos de ética na Câmara da Serra por manifestações públicas e comentários (decoro, sem sanção encontrada). A vereadora da Serra condenada por rachid e a ex-candidata do 8/1 são outras pessoas.",
+      "fontes": [
+        "https://serranoticiario.com.br/exclusivo-corregedor-revela-as-cinco-denuncias-contra-sete-vereadores-da-camara-da-serra/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002549097": {
+      "nome_urna": "VANDINHO LEITE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "80002535782": {
+      "nome_urna": "HILÁRIO ROEPKE GATINHA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): réu desde 2017 por peculato como prefeito de Santa Maria de Jetibá, sem desfecho encontrado (a confirmar). Denúncia anônima de 2021 sobre perda de vacinas não desconta.",
+      "fontes": [
+        "https://www.gazetaonline.com.br/noticias/politica/2017/12/prefeito-de-santa-maria-de-jetiba-vira-reu-por-desvio-de-dinheiro-1014110170.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Réu desde dez/2017 no TJES (2ª Câmara Criminal) por peculato e fraude em licitação de assessoria contábil quando prefeito de Santa Maria de Jetibá (2004-2012); desfecho não encontrado (processo antigo, mesma regra das ações sem desfecho de Beto Richa/PR). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
     }
   }
 }
