@@ -18872,6 +18872,439 @@
       "pesquisado_em": "2026-09-26",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "10002552404": {
+      "nome_urna": "FERNANDO MELO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002544282": {
+      "nome_urna": "KELEN BOCALOM",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): apuração preliminar do MPAC sobre a nomeação dela pelo marido prefeito (nepotismo), sem desfecho encontrado.",
+      "fontes": [
+        "https://oseringal.com.br/2025/02/mp-abre-investigacao-contra-o-prefeito-bocalom-que-nomeou-a-propria-mulher-como-sua-chefe-de-gabinete-veja-o-que-diz-a-constituicao/",
+        "https://www.osul.com.br/o-brasil-inteiro-faz-diz-prefeito-da-capital-do-acre-ao-defende-nomeacao-da-mulher-como-chefe-de-gabinete/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "O MPAC abriu procedimento (fev/2025) para apurar a nomeação dela como chefe de gabinete da Prefeitura de Rio Branco pelo marido, o prefeito Tião Bocalom (suspeita de nepotismo; cargos políticos são excluídos da súmula do STF); o alvo é o prefeito e a nomeação, desfecho não encontrado."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "10002533955": {
+      "nome_urna": "PEDRO PERITO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002533211": {
+      "nome_urna": "DELEGADO JUDSON",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o delegado do Acre condenado é outra pessoa).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002545231": {
+      "nome_urna": "SOCORRO NERI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002545228": {
+      "nome_urna": "CORONEL ULYSSES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: denúncia no aplicativo Pardal (pedido de voto em culto, 2026) encaminhada ao TRE-AC, sem processo encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002532489": {
+      "nome_urna": "ROBERTO DUARTE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: é autor, não réu, das ações contra um jornalista; ter advogado para a Telexfree antes do mandato não é ilícito.",
+      "fontes": [
+        "https://latamjournalismreview.org/pt-br/news/jornalista-acreano-e-condenado-a-oito-meses-de-prisao-em-regime-semiaberto-por-criticas-a-deputado/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002532486": {
+      "nome_urna": "EBER MACHADO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: ação do MDB pela perda do mandato de vereador por infidelidade (2026), com julgamento marcado e sem decretação encontrada; ele apresentou carta de anuência do presidente nacional do partido.",
+      "fontes": [
+        "https://ecosdanoticia.net/2026/07/julgamento-de-acao-que-pode-resultar-na-perda-do-mandato-de-eber-machado-e-marcado/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002532419": {
+      "nome_urna": "ANTÔNIA LÚCIA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 4,
+      "motivo": "Busca rápida na internet (1 busca): condenação por peculato confirmada pelo TRF-1 e registro de 2026 indeferido pelo TRE-AC.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/politica/deputada-e-condenada-por-usar-verba-da-camara-para-pagar-empregado-particular/",
+        "https://ac24horas.com/2026/09/05/condenada-por-peculato-antonia-lucia-recebe-quase-r-3-milhoes-do-fundo-eleitoral-para-tentar-reeleicao/",
+        "https://ac24horas.com/2026/09/08/tre-ac-indefere-candidatura-de-antonia-lucia-a-reeleicao-para-deputada-federal-por-crime-de-peculato/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenada pela Justiça Federal no Acre por peculato e concussão (7 anos e 7 meses, semiaberto) por usar verba da Câmara para pagar um funcionário que trabalhava na rádio da família; o TRF-1 manteve a condenação por peculato (absolvida da concussão). Também condenada por improbidade no mesmo caso, com perda do mandato e suspensão dos direitos políticos por 8 anos."
+        },
+        {
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "O TRE-AC indeferiu o registro da candidatura de 2026 com base na Ficha Limpa (08/09/2026)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "10002532417": {
+      "nome_urna": "FÁBIO ARAÚJO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002550796": {
+      "nome_urna": "TAILON SILAS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002538358": {
+      "nome_urna": "PERPÉTUA ALMEIDA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002538356": {
+      "nome_urna": "VIRGÍLIO VIANA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o inquérito arquivado pelo STF em 2018 era contra o pai, Tião Viana, e o tio, Jorge Viana).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002538133": {
+      "nome_urna": "ANDRÉ KAMAI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: ordem do TRE-AC para remover vídeo crítico a Marcio Bittar (propaganda negativa antecipada, 2026), sem multa aplicada encontrada.",
+      "fontes": [
+        "https://ac24horas.com/2026/05/20/justica-eleitoral-proibe-kamai-de-republicar-video-critico-a-bittar/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002533996": {
+      "nome_urna": "DR SILVANO SANTIAGO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002533980": {
+      "nome_urna": "EMERSON JARUDE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002533978": {
+      "nome_urna": "BENÍCIO DIAS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como advogado de família em caso policial).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002544543": {
+      "nome_urna": "RUTÊNIO SÁ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002544542": {
+      "nome_urna": "CLODOALDO RODRIGUES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca): condenação de 1ª instância por compra de votos em 2022 (recorrível) e impugnação do registro de 2026 rejeitada pelo TRE-AC.",
+      "fontes": [
+        "https://ac24horas.com/2026/09/05/deputado-clodoaldo-e-condenado-a-mais-de-9-anos-por-compra-de-votos-junto-com-esposa/",
+        "https://www.juruainformativo.com.br/2026/09/tre-ac-rejeita-impugnacao-e-confirma-candidatura-de-clodoaldo-rodrigues-a-deputado-estadual/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado em 1ª instância pela 4ª Zona Eleitoral de Cruzeiro do Sul (set/2026) a 9 anos e 5 meses por associação criminosa, corrupção eleitoral (compra de votos) e transporte irregular de eleitores na eleição de 2022, junto com a esposa, vice-prefeita de Cruzeiro do Sul; cabe recurso."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Impugnação do registro de 2026 rejeitada por unanimidade pelo TRE-AC (08/09/2026)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "10002544541": {
+      "nome_urna": "NICOLAU JÚNIOR",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: a busca da PF na Assembleia (operação Acúleo, 2020) apurava contratações da Prefeitura de Cruzeiro do Sul, sem ele como alvo encontrado.",
+      "fontes": [
+        "https://ac24horas.com/2020/09/11/aleac-defende-nicolau-e-diz-que-deputado-nao-tem-mandado-de-prisao-e-contribui-com-a-operacao/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002544540": {
+      "nome_urna": "ADAILTON CRUZ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002544534": {
+      "nome_urna": "FAGNER CALEGARIO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca): condenação de 1ª instância por plágio em concurso e ação civil pública ambiental. A PF não atribuiu a ele o dinheiro apreendido nas operações Ptolomeu IV e Umbra (2026), sem desconto.",
+      "fontes": [
+        "https://ac24horas.com/2025/08/28/deputado-calegario-e-condenado-por-plagio-em-concurso-e-pode-ter-direitos-politicos-suspensos/",
+        "https://nahoradanoticia.com.br/politica/deputado-fagner-calegario-e-acionado-pelo-mpac-por-danos-ambientais-em-area-de-preservacao/",
+        "https://folhadoacre.com.br/2026/09/pf-nao-atribui-r-1-milhao-a-calegario-e-assessoria-rebate-associacao-do-deputado-ao-caso/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado em 1ª instância pela Vara Criminal de Tarauacá (ago/2025) a 2 anos e 4 meses, substituídos por penas alternativas, por violação de direitos autorais: a empresa dele copiou 14 questões de uma prova da UFSC no concurso da Prefeitura de Tarauacá (2016); os direitos políticos ficam suspensos se a sentença transitar."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Réu, com empresa da família, em ação civil pública do MPAC por dano ambiental em área de preservação permanente no PA Humaitá (Porto Acre)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "10002544533": {
+      "nome_urna": "WHENDY LIMA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002544532": {
+      "nome_urna": "MANOEL MORAES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: filho e cunhado foram investigados na operação Mitocôndrias (merenda escolar, 2020); parente, sem desconto.",
+      "fontes": [
+        "https://ac24horas.com/2020/04/15/deputado-manoel-moraes-diz-que-existe-grupo-criminoso-por-tras-de-denuncias-contra-filho-e-cunhado/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002544529": {
+      "nome_urna": "DRA. MICHELLE MELO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002544528": {
+      "nome_urna": "GILBERTO LIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002544527": {
+      "nome_urna": "MARIA ANTONIA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002544524": {
+      "nome_urna": "ANDRÉ DA DROGA VALE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002544522": {
+      "nome_urna": "AFONSO FERNANDES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002544519": {
+      "nome_urna": "SAMIR BESTENE",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: o genro preso em operação de desvio na educação é de José Bestene (parente, sem desconto).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002536340": {
+      "nome_urna": "EDUARDO RIBEIRO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002536323": {
+      "nome_urna": "TADEU HASSEM",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002532438": {
+      "nome_urna": "ANTONIA SALES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a deputada condenada por peculato é Antônia Lúcia, outra pessoa).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002550669": {
+      "nome_urna": "TCHÊ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (2 buscas): réu por compra de votos em 2010, denúncia recebida pelo TRE-AC em 2013, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.tre-ac.jus.br/comunicacao/noticias/2013/Setembro/corte-eleitoral-recebe-denuncia-contra-o-deputado-estadual-luis-201ctche201d"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Denúncia do MP Eleitoral por compra de votos na campanha de 2010 (transporte de uma fanfarra escolar de 85 alunos a Cuiabá em troca de votos) recebida pelo TRE-AC em 2013; desfecho não encontrado (processo antigo, mesma regra de Beto Richa/PR). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "10002550668": {
+      "nome_urna": "DR. MÁRCIO ANDRÉ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002550660": {
+      "nome_urna": "DR. FÁBIO SANTOS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "10002550651": {
+      "nome_urna": "EDNEY BATALHA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }

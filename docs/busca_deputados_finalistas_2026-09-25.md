@@ -1034,10 +1034,44 @@ deputados do bloco do topo; saíram Ricardo Ayres (alvo da PF, inquérito no STF
 instância por lavagem e investigado na Fames-19, nota 6), Nilton Franco (condenação por improbidade desfeita e R$ 900 mil
 apreendidos pela PF, nota 6), Jorge Frederico, Toinho Andrade, Olyntho e Janad Valcari. Nenhum finalista tem desconto.
 
+### AC
+
+Pesquisados: 37 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **ANTÔNIA LÚCIA** (MDB, Deputado Federal), idoneidade pessoal 4, geral 6.5: condenação por peculato confirmada pelo TRF-1 e registro de 2026 indeferido pelo TRE-AC.
+- **FAGNER CALEGARIO** (UNIÃO, Deputado Estadual), idoneidade pessoal 6, geral 7.5: condenação de 1ª instância por plágio em concurso e ação civil pública ambiental. A PF não atribuiu a ele o dinheiro apreendido nas operações Ptolomeu IV e Umbra (2026), sem desconto.
+- **CLODOALDO RODRIGUES** (PP, Deputado Estadual), idoneidade pessoal 7, geral 8: condenação de 1ª instância por compra de votos em 2022 (recorrível) e impugnação do registro de 2026 rejeitada pelo TRE-AC.
+- **KELEN BOCALOM** (PSDB, Deputado Federal), idoneidade pessoal 9, geral 9: apuração preliminar do MPAC sobre a nomeação dela pelo marido prefeito (nepotismo), sem desfecho encontrado.
+- **TCHÊ** (PDT, Deputado Estadual), idoneidade pessoal 9, geral 9: réu por compra de votos em 2010, denúncia recebida pelo TRE-AC em 2013, sem desfecho encontrado (a confirmar).
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- TCHÊ (PDT, Deputado Estadual): réu por compra de votos em 2010, denúncia recebida pelo TRE-AC em 2013, sem desfecho encontrado (a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: FERNANDO MELO (PODE 2000), KELEN BOCALOM (PSDB 4545), DELEGADO JUDSON (NOVO 3079) — sorteio entre 2 empatados
+- Deputado Federal · Direita conservadora: SOCORRO NERI (PP 1101), CORONEL ULYSSES (UNIÃO 4422), FÁBIO ARAÚJO (MDB 1511)
+- Deputado Federal · Esquerda progressista: ANDRÉ KAMAI (PT 1313), TAILON SILAS (PSB 4040), PERPÉTUA ALMEIDA (PCDOB 6513) — sorteio entre 3 empatados
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: EMERSON JARUDE (NOVO 30000), DR SILVANO SANTIAGO (NOVO 30700), BENÍCIO DIAS (NOVO 30852)
+- Deputado Estadual · Direita conservadora: TADEU HASSEM (REPUBLICANOS 10456), MARIA ANTONIA (PP 11133), ANTONIA SALES (MDB 15122) — sorteio entre 12 empatados
+- Deputado Estadual · Esquerda progressista: TCHÊ (PDT 12123), DR. MÁRCIO ANDRÉ (PDT 12555), EDNEY BATALHA (PDT 12333) — sorteio entre 3 empatados
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do AC: saíram Antônia Lúcia (peculato confirmado pelo TRF-1 e registro indeferido, nota 4), Fagner
+Calegário (condenado em 1ª instância por plágio em concurso e réu em ação ambiental, nota 6) e Clodoaldo Rodrigues
+(condenado em 1ª instância por compra de votos, nota 7). Dois finalistas têm desconto leve: Kelen Bocalom (apuração do
+MPAC sobre a nomeação dela pelo marido prefeito, nota 9) e Tchê (denúncia por compra de votos de 2010 recebida em 2013,
+sem desfecho encontrado, a confirmar antes de 04/10). A ação do MDB pelo mandato de Eber Machado (infidelidade) ainda
+não foi decidida, sem desconto pela regra.
+
 ## Situação e próximos passos
 
-- **Estados fechados (24 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40), MS (37), SE (26), RO (29), TO (30). Total: 878 candidatos, 256 com achado que descontou e 98 marcados "a confirmar". Nos 24, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (25 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40), MS (37), SE (26), RO (29), TO (30), AC (37). Total: 915 candidatos, 261 com achado que descontou e 99 marcados "a confirmar". Nos 25, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -1060,8 +1094,8 @@ apreendidos pela PF, nota 6), Jorge Frederico, Toinho Andrade, Olyntho e Janad V
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 3 estados**, na ordem de população: AC, AP, RR (estados menores, ~20 a 30 buscas cada).
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF, MS, SE, RO e TO (junto com a correção dos caciques, que vale para
+- **Faltam 2 estados**, na ordem de população: AP, RR (estados menores, ~20 a 30 buscas cada).
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF, MS, SE, RO, TO e AC (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
