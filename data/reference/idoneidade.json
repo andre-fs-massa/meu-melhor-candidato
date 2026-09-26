@@ -10137,14 +10137,15 @@
       "nome_urna": "CARLA DAITX",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.camaratorres.rs.gov.br/camara/membros/show/150",
         "https://jornalforcadovale.com.br/eleicoes-2026/candidatos-eleicoes-2026/rio-grande-do-sul/camara-dos-deputados/quem-e-carla-daitx-candidata-a-deputada-federal-do-rs-pelo-novo/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002533002": {
       "nome_urna": "FELIPE CAMOZZATO",
@@ -10168,38 +10169,41 @@
       "nome_urna": "ADA MUNARETTO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.camarapf.rs.gov.br/vereadora/adamunaretto"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002532995": {
       "nome_urna": "SANDRA BONETTO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.radiocaxias.com.br/sandra-bonetto-busca-vaga-em-brasilia-para-defender-a-agricultura-familiar-e-as-comunidades-do-interior/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002536939": {
       "nome_urna": "FRAN BAYER",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (há só críticas a gastos com divulgação do mandato, sem apuração).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (há só críticas a gastos com divulgação do mandato, sem apuração). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.camara.leg.br/deputados/220551/biografia",
         "https://en.wikipedia.org/wiki/Franciane_Bayer"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002536919": {
       "nome_urna": "FELIPE FALLER",
@@ -10222,26 +10226,28 @@
       "nome_urna": "CARLOS GOMES",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.camara.leg.br/deputados/178962/biografia",
         "https://pt.wikipedia.org/wiki/Carlos_Gomes_da_Silva"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002534600": {
       "nome_urna": "CRIS MORAES",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.camaracanoas.rs.gov.br/vereador/view/42/cristiano-ferreira-moraes"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002533919": {
       "nome_urna": "ROBERTO ROBAINA",
@@ -10260,26 +10266,29 @@
       "nome_urna": "ATENA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como autora de ação vencida contra vereador de SP por ataques transfóbicos).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como autora de ação vencida contra vereador de SP por ataques transfóbicos). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 16 processos com o nome (TJRS e TRE-RS), sem nenhuma sanção identificada.",
       "fontes": [
         "https://sul21.com.br/noticias/politica/2026/05/atena-roveda-ganha-processo-contra-vereador-paulistano-que-fez-ataques-transfobicos/",
-        "https://www.camarapoa.rs.gov.br/vereadores/atena-roveda"
+        "https://www.camarapoa.rs.gov.br/vereadores/atena-roveda",
+        "https://www.jusbrasil.com.br/processos/nome/167202125/atena-beauvoir-roveda"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002533912": {
       "nome_urna": "JURANDIR SILVA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://ahoradosul.com.br/conteudos/2025/04/23/comissao-de-etica-avanca-em-apuracoes-contra-vereadores/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002533902": {
       "nome_urna": "FERNANDA MELCHIONNA",
@@ -10297,37 +10306,42 @@
       "nome_urna": "MOISÉS BARBOZA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o vereador preso na operação sobre emendas da saúde é outro; ele se manifestou como presidente da Câmara).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o vereador preso na operação sobre emendas da saúde é outro; ele se manifestou como presidente da Câmara). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.camarapoa.rs.gov.br/vereadores/moises-barboza"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002534334": {
       "nome_urna": "BRUNA MOLZ",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 29 processos com o nome (TJRS e TRE-RS, a maioria com o Promotor Eleitoral), sem nenhuma sanção identificada.",
       "fontes": [
-        "https://www.camarasantacruz.rs.gov.br/vereador/bruna-molz-74"
+        "https://www.camarasantacruz.rs.gov.br/vereador/bruna-molz-74",
+        "https://www.jusbrasil.com.br/topicos/46805739/bruna-jeanine-molz"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002534324": {
       "nome_urna": "KAKÁ D´ÁVILA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado (a denúncia de compra de votos contra um 'vereador Kaká' é de Camboriú/SC, outra pessoa).",
       "fontes": [
-        "https://pt.wikipedia.org/wiki/Kak%C3%A1_D%27avila"
+        "https://pt.wikipedia.org/wiki/Kak%C3%A1_D%27avila",
+        "https://pt.wikipedia.org/wiki/Kak%C3%A1_D'avila"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002534313": {
       "nome_urna": "RONALDO SANTINI",
@@ -10394,13 +10408,15 @@
       "nome_urna": "ELIANA BAYER",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
-        "https://www.alegretetudo.com.br/deputada-eliana-bayer-denuncia-falhas-na-protecao-as-mulheres-apos-feminicidio/"
+        "https://www.alegretetudo.com.br/deputada-eliana-bayer-denuncia-falhas-na-protecao-as-mulheres-apos-feminicidio/",
+        "https://pt.wikipedia.org/wiki/Eliana_Bayer"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002539087": {
       "nome_urna": "RODRIGO RABUSKE",
@@ -10418,25 +10434,27 @@
       "nome_urna": "MARCELO HARTEMINK",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://jornalforcadovale.com.br/eleicoes-2026/candidatos-eleicoes-2026/rio-grande-do-sul/assembleia-legislativa/quem-e-marcelo-hartemink-candidato-a-deputado-estadual-do-rs-pelo-republicanos/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002539061": {
       "nome_urna": "JOÃO UEZ",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.camaracaxias.rs.gov.br/noticias/index/32209"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002534031": {
       "nome_urna": "SANDRA PICOLI",
@@ -10454,13 +10472,15 @@
       "nome_urna": "GIOVANI CULAU",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de representação do MDB por suposta propaganda antecipada negativa na campanha 'Tire o título, tire o Melo' (2024), sem decisão encontrada (sem desconto: não houve multa nem ordem de retirada conhecida).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de representação do MDB por suposta propaganda antecipada negativa na campanha 'Tire o título, tire o Melo' (2024), sem decisão encontrada (sem desconto: não houve multa nem ordem de retirada conhecida). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista 19 processos com o nome (TRE-RS e TJRS), sem nenhuma sanção identificada.",
       "fontes": [
-        "https://pcdob.org.br/2024/04/vereador-giovani-culau-e-manuela-sofrem-acao-do-prefeito-de-porto-alegre/"
+        "https://pcdob.org.br/2024/04/vereador-giovani-culau-e-manuela-sofrem-acao-do-prefeito-de-porto-alegre/",
+        "https://www.jusbrasil.com.br/processos/nome/211476228/giovani-culau-oliveira"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002533940": {
       "nome_urna": "ALICE CARVALHO",
@@ -10500,26 +10520,29 @@
       "nome_urna": "MATHEUS GOMES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de ação cível de um vereador por calúnia e uso de imagem (2022), após acusá-lo de racismo, sem decisão encontrada (sem desconto: não houve condenação nem acordo).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de ação cível de um vereador por calúnia e uso de imagem (2022), após acusá-lo de racismo, sem decisão encontrada (sem desconto: não houve condenação nem acordo). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://sul21.com.br/noticias/politica/2022/05/matheus-gomes-vira-reu-de-processo-apos-acusar-colega-de-racismo-na-camara/",
-        "https://pt.wikipedia.org/wiki/Matheus_Gomes"
+        "https://pt.wikipedia.org/wiki/Matheus_Gomes",
+        "https://en.wikipedia.org/wiki/Matheus_Gomes"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002533931": {
       "nome_urna": "KAREN SANTOS",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://www.camarapoa.rs.gov.br/vereadores/karen-santos"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002533930": {
       "nome_urna": "FERNANDA MIRANDA",
@@ -10566,13 +10589,14 @@
       "nome_urna": "RANZI",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://lajeado.rs.leg.br/vereador/1003/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-26"
     },
     "210002541527": {
       "nome_urna": "ARTHUR SCHMIDT",

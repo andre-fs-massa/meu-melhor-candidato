@@ -1185,7 +1185,9 @@ extra, quem entra na lista no lugar de um finalista também passa pelas duas rod
   Euler (acordo de não persecução cível com o MPF, tratado como o ANPP de Silas Câmara, a confirmar, 9). Diego Garcia:
   processo disciplinar de 2021 encerrado com pedido de desculpas (sem desconto). Entrou Tião Medeiros (nada nas duas
   rodadas). Geraldo Stocco: ação de cliente no juizado especial cível (honorários e dano moral), pendente, sem desconto.
-- **Faltam:** RS, PE, CE, PA e SC.
+- **RS** (18 finalistas): nenhum achado novo; a lista não mudou. Atena, Bruna Molz e Giovani Culau aparecem em listagens
+  de processos (Jusbrasil) sem nenhum processo ou sanção identificada.
+- **Faltam:** PE, CE, PA e SC.
 
 ## Situação e próximos passos
 
