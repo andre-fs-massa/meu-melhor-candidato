@@ -17395,6 +17395,447 @@
       "pesquisado_em": "2026-09-26",
       "achados": [],
       "origem": "busca_finalistas"
+    },
+    "120002552180": {
+      "nome_urna": "MAURICIO PICARELLI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): condenação de 1ª instância por improbidade por acumular mandato e direção de TV. Dívidas e execuções privadas (inclusive com empresário que ele acusa de golpe) não descontam; a anulação da aposentadoria atingiu vários ex-deputados.",
+      "fontes": [
+        "https://www.jd1noticias.com/justica/ex-deputado-mauricio-picarelli-e-condenado-por-improbidade/95722/",
+        "https://www.campograndenews.com.br/politica/ex-deputado-e-condenado-por-exercer-duas-funcoes-no-servico-publico"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_1a_instancia_recorrivel",
+          "descricao": "Condenado em 1ª instância por improbidade, em ação do MPMS, por acumular o mandato de deputado estadual com a direção da TV Interativa: perda da função e multa de 40 vezes o salário de deputado."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "120002545234": {
+      "nome_urna": "MIRIAM GIMENEZ",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece em processos como advogada).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002535263": {
+      "nome_urna": "PROFESSOR JUARI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002538784": {
+      "nome_urna": "GERALDO RESENDE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): inquérito antigo da operação Uragano sobre propina em emendas, sem desfecho encontrado (a confirmar).",
+      "fontes": [
+        "https://www.campograndenews.com.br/cidades/interior/stf-cumpre-decisao-e-manda-inquerito-contra-geraldo-resende-a-1a-instancia",
+        "https://www.ojacare.com.br/2017/08/31/stf-manda-pf-investigar-geraldo-resende-por-cobra-propina-por-emendas-parlamentares/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Inquérito aberto no STF (2011, desdobramento da operação Uragano) por suposta cobrança de 10% sobre emendas parlamentares em Dourados, remetido à 1ª instância da Justiça Federal em MS em 2019; desfecho não encontrado (processo antigo). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "120002537362": {
+      "nome_urna": "NETO SANTOS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002537355": {
+      "nome_urna": "BETO PEREIRA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): contas de prefeito de Terenos julgadas irregulares pelo TCE-MS com ressarcimento (ressarcimento de tribunal de contas = −2).",
+      "fontes": [
+        "https://www.msnoticias.com.br/editorias/politica-mato-grosso-sul/beto-pereira-e-condenado-a-devolver-r-400-mil-aos-cofres-publicos/92098/",
+        "https://midiamax.com.br/politica/2024/beto-pereira-tem-derrota-dupla-na-justica-eleitoral-ao-tentar-impedir-adversarios-de-citar-ficha-suja/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "contas_irregulares_com_ressarcimento",
+          "descricao": "Contas da gestão como prefeito de Terenos julgadas irregulares pelo TCE-MS em decisões definitivas, com imputação de débito (devoluções, entre elas R$ 34 mil no processo TC/7791/2013, e cerca de R$ 400 mil segundo a imprensa); entrou na lista de gestores com contas irregulares do TCE-MS em ago/2024."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "120002537466": {
+      "nome_urna": "MARQUINHOS TRAD",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): denunciado por crimes sexuais contra sete mulheres e absolvido (2022 e 2024).",
+      "fontes": [
+        "https://www.conjur.com.br/2024-ago-26/ex-prefeito-de-campo-grande-e-absolvido-de-ultimas-acusacoes-de-assedio-sexual/",
+        "https://correiodoestado.com.br/cidades/marquinhos-e-denunciado-pelo-mp-por-crimes-sexuais-contra-sete/407140/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Denunciado pelo MPMS por crimes sexuais contra sete mulheres (assédio e importunação sexual, favorecimento à prostituição) quando prefeito de Campo Grande; absolvido sumariamente da maior parte em nov/2022 e das duas imputações restantes pela 3ª Vara Criminal em ago/2024."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "120002537465": {
+      "nome_urna": "CAMILA JARA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): ação por abuso de poder rejeitada pelo TRE-MS e multa por propaganda antecipada (2026). A representação no Conselho de Ética da Câmara pelo tumulto em plenário é de decoro (sem desconto).",
+      "fontes": [
+        "https://www.jd1noticias.com/justica/tre-ms-absolve-camila-jara-de-acusacoes-de-abuso-de-poder-economico/134351/",
+        "https://correiodoestado.com.br/politica/tre-ms-condena-camila-jara-e-tiago-botelho-por-propaganda-eleitoral/470475/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Ação eleitoral por abuso de poder econômico (impulsionamento pago após o prazo na campanha de 2022), julgada improcedente por unanimidade pelo TRE-MS."
+        },
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multa de R$ 5 mil do TRE-MS (2026) por propaganda antecipada com pedido explícito de voto num evento em Naviraí."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "120002537460": {
+      "nome_urna": "ANA SARAVY",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002544982": {
+      "nome_urna": "PROFESSOR JF",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002544978": {
+      "nome_urna": "TON BORGES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002544977": {
+      "nome_urna": "THIAGO LOUREIRO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002544967": {
+      "nome_urna": "WALKIRIA SILVA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002535536": {
+      "nome_urna": "EDUARDO ROCHA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002537522": {
+      "nome_urna": "ANTONIO VAZ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002537509": {
+      "nome_urna": "CHICÃO VIANNA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): réu em ação civil pública do MPMS com pedido de ressarcimento. A ação do PSB pelo mandato (infidelidade) foi extinta a pedido do próprio partido (sem desconto).",
+      "fontes": [
+        "https://correiodoestado.com.br/cidades/secretario-de-desenvolvimento-economico-responde-a-acao-do-mpms-por/463096/",
+        "https://midiamax.com.br/politica/2026/psb-recua-escanteia-suplente-aval-vereador-trocou-partido-republicanos/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Réu em ação civil pública do MPMS, como secretário de Desenvolvimento Econômico de Corumbá, por uso irregular de verbas, com pedido de ressarcimento de R$ 77,5 mil."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "120002537505": {
+      "nome_urna": "PEDROSSIAN NETO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002537503": {
+      "nome_urna": "HERCULANO BORGES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): citado em interceptações da operação Gutemberg, sem ser alvo formal encontrado.",
+      "fontes": [
+        "https://correiodoestado.com.br/cidades/operacao-gutemberg-gaeco-investiga-deputados-e-prefeitos/469711/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Citado em diálogos interceptados e relatórios da operação Gutemberg (Gaeco/MPMS) como 'padrinho' de negociações entre uma organização criminosa e prefeituras; não foi encontrada investigação formal contra ele."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "120002547060": {
+      "nome_urna": "LUIZA RIBEIRO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: a investigação do Gaeco sobre desvios na APAE tem o marido dela como alvo (parente, sem desconto).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002547058": {
+      "nome_urna": "ZECA DO PT",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca): condenação colegiada na 'Farra da Publicidade' com efeitos suspensos desde 2022. Ele também obteve indenização do Estado por conduta de promotores (vítima, sem desconto).",
+      "fontes": [
+        "https://jornaldanova.com.br/noticia/387185/procuradoria-pede-impugnacao-de-candidatura-do-zeca-do-pt",
+        "https://www.ojacare.com.br/2026/09/22/apos-batalha-judicial-zeca-fica-perto-de-receber-r-182-mil-por-ma-conduta-de-promotores"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenado em 2ª instância (órgão colegiado) no caso 'Farra da Publicidade', por esquema de contratação de agência de publicidade quando governador (1999-2006); em 2022 conseguiu suspender os efeitos da condenação e recuperar os direitos políticos para concorrer."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "120002547050": {
+      "nome_urna": "GILMAR GARCIA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a imprensa noticiou que ele desistiu de disputar a eleição para deputado estadual).",
+      "fontes": [
+        "https://www.rcn67.com.br/tres-lagoas/jpnews/ex-vereador-gilmar-garcia-desiste-de-disputar-eleicao-para-deputado-estadual/"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002552174": {
+      "nome_urna": "CESAR ALVES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002538787": {
+      "nome_urna": "ALAN GUEDES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte: contratos da gestão dele em Dourados com a editora investigada na operação Gutenberg estão sob apuração, mas os documentos não o apontam como investigado (a confirmar).",
+      "fontes": [
+        "https://www.regionalnoticia.com/noticia/6262/campo-grande/policia/operacao-gutenberg-coloca-contratos-firmados-na-gestao-alan-guedes-sob-os-holofotes-em-dourados.html"
+      ],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002537361": {
+      "nome_urna": "JAIME VERRUCK",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002534956": {
+      "nome_urna": "JURANDIR MACHADO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002549691": {
+      "nome_urna": "LUIS BRIZOLA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002549688": {
+      "nome_urna": "JEFFERSOM MARECCO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o ex-controlador condenado por improbidade em Itiquira/MT é outra pessoa, Jefferson Almeida Freire).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002549685": {
+      "nome_urna": "ADAUTO SOUTO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002537468": {
+      "nome_urna": "SANDRO DO VANDER",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002544722": {
+      "nome_urna": "JUNIOR MOCHI",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002544717": {
+      "nome_urna": "JUNIOR CORINGA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002539708": {
+      "nome_urna": "PROFESSOR RINALDO MODESTO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002537516": {
+      "nome_urna": "FERNANDO ROBERTO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a condenação confirmada pelo TJMS no esquema de Água Clara, 2005-2012, atinge o então prefeito e familiares, não ele).",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002547061": {
+      "nome_urna": "PEDRO KEMP",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002547057": {
+      "nome_urna": "CLARINEU NOGUEIRA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002547054": {
+      "nome_urna": "IDEVALDO CLAUDINO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "120002547046": {
+      "nome_urna": "ADÃO SALEMAQ",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [],
+      "pesquisado_em": "2026-09-26",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }

@@ -892,10 +892,47 @@ nota 5), Daniel Donizet (denunciado por assédio sexual, nota 7) e Matheus Milan
 doméstica; renunciou à candidatura em 15/08, mas ainda consta no arquivo do TSE). Reginaldo Veras segue finalista com
 −1 "a confirmar" (apontado como réu por corrupção passiva em levantamento antigo).
 
+### MS
+
+Pesquisados: 37 candidatos (1 busca cada, mais confirmações quando houve sinal grave).
+
+**Achados que descontaram na busca:**
+
+- **ZECA DO PT** (PT, Deputado Estadual), idoneidade pessoal 6, geral 7.5: condenação colegiada na 'Farra da Publicidade' com efeitos suspensos desde 2022. Ele também obteve indenização do Estado por conduta de promotores (vítima, sem desconto).
+- **MAURICIO PICARELLI** (PRD, Deputado Federal), idoneidade pessoal 8, geral 8.5: condenação de 1ª instância por improbidade por acumular mandato e direção de TV. Dívidas e execuções privadas (inclusive com empresário que ele acusa de golpe) não descontam; a anulação da aposentadoria atingiu vários ex-deputados.
+- **BETO PEREIRA** (REPUBLICANOS, Deputado Federal), idoneidade pessoal 8, geral 9: contas de prefeito de Terenos julgadas irregulares pelo TCE-MS com ressarcimento (ressarcimento de tribunal de contas = −2).
+- **CAMILA JARA** (PT, Deputado Federal), idoneidade pessoal 8, geral 8.5: ação por abuso de poder rejeitada pelo TRE-MS e multa por propaganda antecipada (2026). A representação no Conselho de Ética da Câmara pelo tumulto em plenário é de decoro (sem desconto).
+- **CHICÃO VIANNA** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 8, geral 9: réu em ação civil pública do MPMS com pedido de ressarcimento. A ação do PSB pelo mandato (infidelidade) foi extinta a pedido do próprio partido (sem desconto).
+- **GERALDO RESENDE** (UNIÃO, Deputado Federal), idoneidade pessoal 9, geral 9: inquérito antigo da operação Uragano sobre propina em emendas, sem desfecho encontrado (a confirmar).
+- **MARQUINHOS TRAD** (PV, Deputado Federal), idoneidade pessoal 9, geral 9.5: denunciado por crimes sexuais contra sete mulheres e absolvido (2022 e 2024).
+- **HERCULANO BORGES** (REPUBLICANOS, Deputado Estadual), idoneidade pessoal 9, geral 9.5: citado em interceptações da operação Gutemberg, sem ser alvo formal encontrado.
+
+**A confirmar (sinal sem confirmação; não descontou ou descontou só o que se confirmou):**
+
+- GERALDO RESENDE (UNIÃO, Deputado Federal): inquérito antigo da operação Uragano sobre propina em emendas, sem desfecho encontrado (a confirmar).
+- ALAN GUEDES (PP, Deputado Federal): nada que desconte: contratos da gestão dele em Dourados com a editora investigada na operação Gutenberg estão sob apuração, mas os documentos não o apontam como investigado (a confirmar).
+
+**Finalistas depois da busca** (todos pesquisados):
+
+- Deputado Federal · Libertário: PROFESSOR JUARI (PSDB 4599), MIRIAM GIMENEZ (NOVO 3060), CESAR ALVES (PRD 2550)
+- Deputado Federal · Direita conservadora: NETO SANTOS (REPUBLICANOS 1012), ALAN GUEDES (PP 1155), JURANDIR MACHADO (AGIR 3666) — sorteio entre 2 empatados
+- Deputado Federal · Esquerda progressista: ANA SARAVY (PV 4300), MARQUINHOS TRAD (PV 4333), JEFFERSOM MARECCO (PDT 1234) — sorteio entre 4 empatados
+- Deputado Federal · Estatista-autoritário: vazio
+- Deputado Estadual · Libertário: EDUARDO ROCHA (PSDB 45123), WALKIRIA SILVA (NOVO 30999), THIAGO LOUREIRO (NOVO 30077) — sorteio entre 4 empatados
+- Deputado Estadual · Direita conservadora: PEDROSSIAN NETO (REPUBLICANOS 10000), ANTONIO VAZ (REPUBLICANOS 10123), HERCULANO BORGES (REPUBLICANOS 10888) — sorteio entre 4 empatados
+- Deputado Estadual · Esquerda progressista: GILMAR GARCIA (PV 43123), LUIZA RIBEIRO (PT 13700), IDEVALDO CLAUDINO (PT 13300) — sorteio entre 4 empatados
+- Deputado Estadual · Estatista-autoritário: vazio
+
+Observações do MS: saíram do topo Zeca do PT (condenação colegiada na "Farra da Publicidade" com efeitos suspensos,
+nota 6), Beto Pereira (contas irregulares no TCE-MS com ressarcimento), Maurício Picarelli e Chicão Vianna; uma rodada de
+reposição com 16. Marquinhos Trad segue finalista com −1 (absolvido das acusações de crimes sexuais em 2022 e 2024) e
+Herculano Borges com −1 (citado em interceptações da operação Gutemberg). Gilmar Garcia, finalista estadual, teria
+desistido da candidatura segundo a imprensa, mas ainda consta no arquivo do TSE.
+
 ## Situação e próximos passos
 
-- **Estados fechados (20 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
-  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40). Total: 756 candidatos, 230 com achado que descontou e 88 marcados "a confirmar". Nos vinte, todos os finalistas foram pesquisados e nenhum
+- **Estados fechados (21 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),
+  SC (36), GO (30), MA (34), AM (48), ES (35), PB (27), MT (35), RN (29), PI (36), AL (29), DF (40), MS (37). Total: 793 candidatos, 238 com achado que descontou e 90 marcados "a confirmar". Nos 21, todos os finalistas foram pesquisados e nenhum
   empatado ficou de fora.
 - **Infidelidade partidária (decisão do usuário, 25/09):** Evandro Roman/PR perdeu o mandato de deputado federal por
   decisão do TSE em 2021 por trocar de partido sem justa causa. O usuário decidiu tratar a perda de mandato decretada e
@@ -918,10 +955,8 @@ doméstica; renunciou à candidatura em 15/08, mas ainda consta no arquivo do TS
   contra ex-presidente da Câmara de São Vicente) e Leandro Basson/SP (processo "Justiça Pública x" em 2025). Nenhum
   dos 10 "a confirmar" está entre os finalistas atuais, mas Sasaki e Basson estão no bloco empatado do Libertário
   estadual de SP: se o sorteio mudar e um deles entrar, confirmar antes de publicar.
-- **Faltam 7 estados**, na ordem de população:
-  MS, SE, RO, TO, AC, AP, RR. Com o teto de ~200 buscas por sessão, cada sessão nova fecha ~3 a 4 estados grandes
-  (SP levou 64 buscas, MG 44, RJ 43, mais confirmações). Estimativa: 6 a 8 sessões.
-- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL e DF (junto com a correção dos caciques, que vale para
+- **Faltam 6 estados**, na ordem de população: SE, RO, TO, AC, AP, RR (estados menores, ~20 a 30 buscas cada).
+- **Publicação por estado.** SP, MG e RJ publicados em 25/09, depois BA, PR, RS, PE, CE, PA, SC, GO, MA, AM, ES, PB, MT, RN, PI, AL, DF e MS (junto com a correção dos caciques, que vale para
   todos os estados). A cada estado novo: rodar `exportar_prototipo`, acrescentar a UF na frase de "Limites" em
   `site/app.js` ("Nos estados já concluídos (...)"), conferir numa cópia do site sem o GA e publicar.
 - **Ferramentas para continuar:** `ferramentas/busca_finalistas/` (listar pendentes, gravar resultados, rodar o
