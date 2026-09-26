@@ -1172,7 +1172,10 @@ extra, quem entra na lista no lugar de um finalista também passa pelas duas rod
 - **MG** (18 finalistas na 2ª rodada + 1 empatado novo na 1ª): saiu Gilberto Abramo (citado pela PF como autor formal de
   emendas atribuídas a Eduardo Cunha, 2026, a confirmar, nota 9). Entrou Pedro Aihara (nada nas duas rodadas). Iza
   Lourença: o Jusbrasil lista processos no TRE-MG com o nome, sem nenhum processo ou sanção identificada (sem desconto).
-- **Faltam:** RJ, BA, PR, RS, PE, CE, PA e SC.
+- **RJ** (18 finalistas): nenhum achado novo; a lista não mudou. Luiz Lima, Júlia Casamasso, Pastor Henrique, Carlos
+  Macedo, Librelon e Lilian Behring aparecem em listagens de processos (Jusbrasil/Escavador, a maioria eleitorais), sem
+  nenhum processo ou sanção identificada (sem desconto).
+- **Faltam:** BA, PR, RS, PE, CE, PA e SC.
 
 ## Situação e próximos passos
 
