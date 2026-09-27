@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://meu-melhor-candidato.afsm.me/sitemap.xml
