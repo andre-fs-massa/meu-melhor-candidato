@@ -229,11 +229,14 @@ footer.rodape .rodape-aviso { font-size: .76rem; margin: 18px auto 0; opacity: .
   .linha > button .notas3 { grid-column: 1 / -1; grid-row: 2; }
   .hero h1 { font-size: 1.7rem; }
 }
-/* resumo em texto e índice de páginas por cargo/UF (gerados por pipeline/gerar_paginas_seo.py) */
+/* lista única em texto, índice da página inicial e linha de navegação (gerados por pipeline/gerar_paginas_seo.py) */
 .seo h3 { font-size: .98rem; margin: 18px 0 8px; }
 .seo-lista { margin: 0 0 8px; padding-left: 22px; font-size: .88rem; color: var(--ink-2); line-height: 1.5; }
 .seo-lista li { margin: 0 0 4px; }
 .seo-lista strong { color: var(--ink); }
 .seo-links { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .9rem; }
-.seo-links a, .seo .nota a { color: var(--accent); }
-.seo .nota { margin-top: 14px; }
+.seo-links a { color: var(--accent); }
+#listaUnica .seo-lista { margin-top: 6px; }
+.seo-nav { font-size: .84rem; color: var(--ink-2); line-height: 1.6; margin: 0 0 18px; padding: 0 4px; }
+.seo-nav p { margin: 0 0 6px; }
+.seo-nav a { color: var(--accent); }

@@ -2,11 +2,12 @@
 
 O site é uma página única que monta tudo por JavaScript; o buscador vê pouco texto e um único endereço. Aqui cada
 cargo/UF vira uma cópia de site/index.html com título, descrição e endereço próprios, o grupo já escolhido
-(data-grupo no <body>, lido pelo app.js) e um resumo em HTML puro: recomendados, lista em texto de todos os
-candidatos e links para os grupos vizinhos. A página inicial ganha o índice com links para todas as páginas.
+(data-grupo no <body>, lido pelo app.js), a lista de todos os candidatos em texto (item "lista única" de "Todos os
+candidatos") e uma linha discreta de links para os grupos vizinhos. A página inicial ganha o índice com links para
+todas as páginas.
 
-O modelo é o próprio site/index.html: só as regiões entre <!-- seo:head --> e <!-- seo:conteudo --> são reescritas,
-então rodar de novo é idempotente. Roda sozinho no fim de pipeline.exportar_prototipo.
+O modelo é o próprio site/index.html: só as regiões entre os marcadores <!-- seo:head -->, <!-- seo:conteudo --> e
+<!-- seo:lista --> são reescritas, então rodar de novo é idempotente. Roda sozinho no fim de pipeline.exportar_prototipo.
 
 Uso: python -m pipeline.gerar_paginas_seo
 """
@@ -14,6 +15,7 @@ import json
 import re
 import shutil
 import unicodedata
+from decimal import ROUND_HALF_UP, Decimal
 from html import escape
 
 from . import config
@@ -46,7 +48,8 @@ def tc(s: str) -> str:
 
 
 def fmt(x) -> str:
-    return "n/d" if x is None else f"{x:.1f}".replace(".", ",")
+    """Como o fmt do app.js (toLocaleString): meio para cima sobre o valor binário exato (9,25 → 9,3)."""
+    return "n/d" if x is None else str(Decimal(x).quantize(Decimal("0.1"), ROUND_HALF_UP)).replace(".", ",")
 
 
 def ordem(s: str) -> str:
@@ -102,44 +105,39 @@ def links(itens) -> str:
     return '<ul class="seo-links">' + "".join(f'<li><a href="{u}">{escape(r)}</a></li>' for u, r in itens) + "</ul>"
 
 
-def conteudo_grupo(g: dict, dados_grupo: dict, rotulos: dict, grupos: dict, quad: dict, data: str) -> str:
-    cargo, uf = g["cargo"], g["uf"]
-    rot = rotulos[cargo].lower()
-    cands = dados_grupo["candidatos"]
-    por_sq = {c["sq"]: c for c in cands}
-    partes = [f'<section class="card-section seo" id="secIndice" aria-labelledby="tituloIndice">',
-              f'<h2 id="tituloIndice">Candidatos a {escape(rot)}{escape(onde(uf))} nas Eleições 2026</h2>',
-              f'<p class="sub">{milhar(g["n_total"])} candidatos a {escape(rot)} registrados no TSE{escape(onde(uf))}; '
-              f'{milhar(g["n_avaliados"])} com idoneidade verificada. Dados de {data}. '
-              + "Resumo em texto; os detalhes e as fontes de cada nota estão nas seções acima.</p>"]
-    recs = [por_sq[sq] for sq in dados_grupo["recomendados"] if sq in por_sq]
-    if recs:
-        partes.append("<h3>Recomendados por posicionamento ideológico</h3><ul class=\"seo-lista\">")
-        for c in recs:
-            partes.append(f"<li><strong>{escape(tc(c['nome_urna']))}</strong> ({escape(c['partido'])} {escape(c['numero'])}) · "
-                          f"{escape(quad.get(c['quadrante'], ''))} · qualificação geral {fmt(c['qualificacao_geral'])}</li>")
-        partes.append("</ul>")
+def lista_texto(cands: list) -> str:
+    """Itens da "lista única" de "Todos os candidatos": uma linha de texto por candidato, na ordem da lista paginada.
+    O app.js monta o mesmo texto (listaUnica) quando o eleitor troca de grupo: mudou aqui, mude lá."""
     ordenados = sorted(cands, key=lambda c: (-(c["qualificacao_geral"] if c["qualificacao_geral"] is not None else -1),
-                                             c["nome_urna"]))
-    partes.append(f'<details class="expansor"><summary>Lista em texto dos {milhar(len(cands))} candidatos</summary>'
-                  + '<ol class="seo-lista">')
+                                             ordem(c["nome_urna"])))
+    linhas = []
     for c in ordenados:
         nome = tc(c["nome_urna"])
         completo = tc(c["nome_completo"]) if c.get("nome_completo") and c["nome_completo"] != c["nome_urna"] else ""
-        partes.append(f"<li><strong>{escape(nome)}</strong>" + (f" ({escape(completo)})" if completo else "")
+        linhas.append(f"<li><strong>{escape(nome)}</strong>" + (f" ({escape(completo)})" if completo else "")
                       + f", {escape(c['partido'])} {escape(c['numero'])}: qualificação {fmt(c['qualificacao_geral'])}, "
                       f"idoneidade {fmt(c['idoneidade_geral'])}, competência {fmt(c['competencia_geral'])}. "
                       f"{SITUACAO.get(c['situacao'], '')}.</li>")
-    partes.append("</ol></details>")
+    return "\n".join(linhas)
+
+
+def navegacao_grupo(g: dict, rotulos: dict, grupos: dict) -> str:
+    """Linha discreta acima do rodapé com links para os grupos vizinhos (ajuda o buscador a achar e ligar as páginas)."""
+    cargo, uf = g["cargo"], g["uf"]
+
+    def juntar(itens):
+        return " · ".join(f'<a href="{u}">{escape(r)}</a>' for u, r in itens)
+
+    partes = ['<nav class="seo-nav" aria-label="Outras páginas do site">']
     if uf != "BR":
         outros = [(url_grupo(c, uf), rotulos[c]) for c in rotulos if c != cargo and f"{c}|{uf}" in grupos]
         if outros:
-            partes.append(f"<h3>Outros cargos{escape(onde(uf))}</h3>" + links(outros))
+            partes.append(f"<p>Outros cargos{escape(onde(uf))}: {juntar(outros)}</p>")
         vizinhos = sorted(((url_grupo(cargo, u), UF_NOME[u]) for k in grupos
                            for c, u in [k.split("|")] if c == cargo and u != uf), key=lambda x: ordem(x[1]))
         if vizinhos:
-            partes.append(f"<h3>{escape(rotulos[cargo])} em outros estados</h3>" + links(vizinhos))
-    partes.append('<p class="nota"><a href="/">Página inicial: todos os cargos e estados</a></p></section>')
+            partes.append(f"<p>{escape(rotulos[cargo])} em outros estados: {juntar(vizinhos)}</p>")
+    partes.append('<p><a href="/">Todos os cargos e estados</a></p></nav>')
     return "\n".join(partes)
 
 
@@ -159,11 +157,13 @@ def conteudo_home(rotulos: dict, grupos: dict) -> str:
     return "\n".join(partes)
 
 
-def montar(modelo: str, head: str, conteudo: str, grupo: str | None) -> str:
+def montar(modelo: str, head: str, conteudo: str, lista: str, grupo: str | None) -> str:
     t = re.sub(r"<!-- seo:head -->.*?<!-- /seo:head -->", lambda _: f"<!-- seo:head -->\n{head}<!-- /seo:head -->",
                modelo, count=1, flags=re.S)
     t = re.sub(r"<!-- seo:conteudo -->.*?<!-- /seo:conteudo -->",
                lambda _: f"<!-- seo:conteudo -->\n{conteudo}\n<!-- /seo:conteudo -->", t, count=1, flags=re.S)
+    t = re.sub(r"<!-- seo:lista -->.*?<!-- /seo:lista -->",
+               lambda _: f"<!-- seo:lista -->\n{lista}\n<!-- /seo:lista -->", t, count=1, flags=re.S)
     corpo = f'<body data-grupo="{escape(grupo)}">' if grupo else "<body>"
     return re.sub(r"<body[^>]*>", corpo, t, count=1)
 
@@ -171,9 +171,7 @@ def montar(modelo: str, head: str, conteudo: str, grupo: str | None) -> str:
 def main() -> None:
     DADOS = ler_js(SITE / "dados.js", "const DADOS = ")
     rotulos = {c["codigo"]: c["rotulo"] for c in DADOS["cargos"]}
-    quad = {q["chave"]: q["curto"] for q in DADOS["quadrantes"]}
     grupos = {k: g for k, g in DADOS["grupos"].items() if g.get("arquivo") and g.get("status") != "sem_verificacao"}
-    data = "/".join(reversed(DADOS["meta"]["gerado_em"].split("-")))
     modelo = (SITE / "index.html").read_text(encoding="utf-8")
     for s in {url_grupo(c, "BR").strip("/") for c in rotulos}:  # o gerador é o dono destas pastas
         shutil.rmtree(SITE / s, ignore_errors=True)
@@ -192,7 +190,7 @@ def main() -> None:
                     {"@type": "ListItem", "position": 2, "name": f"{rotulos[cargo]}{onde(uf)}", "item": URL + url}]
         head = cabecalho(titulo, descricao, url, json_ld({"@context": "https://schema.org", "@type": "BreadcrumbList",
                                                            "itemListElement": migalhas}))
-        html = montar(modelo, head, conteudo_grupo(g, dados_grupo, rotulos, grupos, quad, data), chave)
+        html = montar(modelo, head, navegacao_grupo(g, rotulos, grupos), lista_texto(dados_grupo["candidatos"]), chave)
         destino = SITE / url.strip("/") / "index.html"
         destino.parent.mkdir(parents=True, exist_ok=True)
         destino.write_text(html, encoding="utf-8", newline="\n")
@@ -203,7 +201,7 @@ def main() -> None:
         "inLanguage": "pt-BR",
         "description": "Ferramenta gratuita e de código aberto que avalia candidatos das Eleições 2026 no Brasil por "
                        "integridade, competência e alinhamento ideológico."}))
-    (SITE / "index.html").write_text(montar(modelo, head_home, conteudo_home(rotulos, grupos), None),
+    (SITE / "index.html").write_text(montar(modelo, head_home, conteudo_home(rotulos, grupos), "", None),
                                      encoding="utf-8", newline="\n")
 
     lastmod = DADOS["meta"]["gerado_em"]
