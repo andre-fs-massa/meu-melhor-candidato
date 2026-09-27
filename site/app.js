@@ -488,22 +488,6 @@
   }
 
   // ---------- lista com todos os candidatos do cargo/estado ----------
-  // Lista única em texto (para buscar com Ctrl+F): vem pronta no HTML da página do grupo, para o buscador ler; em
-  // outro grupo, é montada na primeira abertura. Mesmo texto de lista_texto() em pipeline/gerar_paginas_seo.py.
-  const SITUACAO_TEXTO = {recomendado: "Recomendado", segue: "Continua na disputa", abaixo_do_corte: "Abaixo do corte",
-    fora_da_disputa: "Fora da disputa", nao_avaliado: "Sem verificação"};
-  let grupoDaLista = document.body.dataset.grupo || null;  // "cargo|uf" cujos itens estão na lista única
-  function montarListaUnica(g, ordenados) {
-    const frag = document.createDocumentFragment();
-    ordenados.forEach(c => {
-      const li = el("li"); li.append(el("strong", null, tc(c.nome_urna)));
-      const completo = c.nome_completo && c.nome_completo !== c.nome_urna ? ` (${tc(c.nome_completo)})` : "";
-      li.append(document.createTextNode(`${completo}, ${c.partido} ${c.numero}: qualificação ${fmt(c.qualificacao_geral)}, idoneidade ${fmt(c.idoneidade_geral)}, competência ${fmt(c.competencia_geral)}. ${SITUACAO_TEXTO[c.situacao] || ""}.`));
-      frag.append(li);
-    });
-    $("listaUnicaItens").textContent = ""; $("listaUnicaItens").append(frag);
-    grupoDaLista = g.cargo + "|" + g.uf;
-  }
   function renderTodos(g) {
     const onde = CARGO[g.cargo].rotulo + (g.uf === "BR" ? "" : " · " + UF_NOME[g.uf]);
     $("todosSub").textContent = `${onde}. Ordenados pela qualificação geral (média entre idoneidade geral e competência geral). Quem tem registro indeferido ou idoneidade abaixo de ${fmt(g.corte)} não é recomendado, mas segue listado para transparência.`;
@@ -516,11 +500,6 @@
     $("resumoToggle").textContent = `Ver a lista completa dos ${g.candidatos.length} candidatos`;
 
     const ordenados = g.candidatos.slice().sort((a, b) => (b.qualificacao_geral ?? -1) - (a.qualificacao_geral ?? -1) || a.nome_urna.localeCompare(b.nome_urna, "pt-BR"));
-    const unica = $("listaUnica"); unica.open = false;
-    if (g.cargo + "|" + g.uf !== grupoDaLista) {
-      $("listaUnicaItens").textContent = ""; grupoDaLista = null;
-      unica.ontoggle = () => { if (unica.open && !grupoDaLista) montarListaUnica(g, ordenados); };
-    }
     const ol = $("listaTodos"); ol.textContent = "";
     const criarLinha = (c, i) => {
       const li = el("li", "linha" + (c.situacao === "fora_da_disputa" || c.situacao === "abaixo_do_corte" ? " fora" : ""));

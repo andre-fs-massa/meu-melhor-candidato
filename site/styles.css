@@ -233,7 +233,7 @@ footer.rodape .rodape-aviso { font-size: .76rem; margin: 18px auto 0; opacity: .
 .seo-lista { margin: 0 0 8px; padding-left: 22px; font-size: .88rem; color: var(--ink-2); line-height: 1.5; }
 .seo-lista li { margin: 0 0 4px; }
 .seo-lista strong { color: var(--ink); }
-#listaUnica .seo-lista { margin-top: 6px; }
+.seo-nav .seo-titulo { margin-top: 14px; font-weight: 600; color: var(--ink); }
 .seo-nav { font-size: .84rem; color: var(--ink-2); line-height: 1.6; margin: 0 0 18px; padding: 0 4px; text-align: center; }
 .seo-nav details.expansor summary { font-weight: 500; padding: 4px 0; text-align: center; }
 .seo-nav details[open] { text-align: left; }

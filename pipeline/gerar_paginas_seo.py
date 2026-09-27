@@ -2,12 +2,11 @@
 
 O site é uma página única que monta tudo por JavaScript; o buscador vê pouco texto e um único endereço. Aqui cada
 cargo/UF vira uma cópia de site/index.html com título, descrição e endereço próprios, o grupo já escolhido
-(data-grupo no <body>, lido pelo app.js), a lista de todos os candidatos em texto (item "lista única" de "Todos os
-candidatos") e uma linha discreta de links para os grupos vizinhos. A página inicial ganha o índice com links para
-todas as páginas.
+(data-grupo no <body>, lido pelo app.js) e, num bloco recolhido acima do rodapé, links para os grupos vizinhos e a
+lista de todos os candidatos em texto. A página inicial ganha, no mesmo bloco, o índice com links para todas as páginas.
 
-O modelo é o próprio site/index.html: só as regiões entre os marcadores <!-- seo:head -->, <!-- seo:conteudo --> e
-<!-- seo:lista --> são reescritas, então rodar de novo é idempotente. Roda sozinho no fim de pipeline.exportar_prototipo.
+O modelo é o próprio site/index.html: só as regiões entre os marcadores <!-- seo:head --> e <!-- seo:conteudo --> são
+reescritas, então rodar de novo é idempotente. Roda sozinho no fim de pipeline.exportar_prototipo.
 
 Uso: python -m pipeline.gerar_paginas_seo
 """
@@ -105,15 +104,17 @@ def juntar(itens) -> str:
     return " · ".join(f'<a href="{u}">{escape(r)}</a>' for u, r in itens)
 
 
-def bloco_nav(resumo: str, linhas: list) -> str:
-    """Links para outras páginas, recolhidos acima do rodapé. O buscador lê e segue links dentro de <details> fechado."""
+def bloco_nav(resumo: str, linhas: list, extra: str = "") -> str:
+    """Bloco recolhido acima do rodapé: links para outras páginas e, nas páginas de grupo, a lista de candidatos em
+    texto. O buscador lê o conteúdo e segue os links dentro de <details> fechado."""
     return ('<nav class="seo-nav" aria-label="Outras páginas do site">\n<details class="expansor">'
-            f"<summary>{escape(resumo)}</summary>\n" + "\n".join(f"<p>{x}</p>" for x in linhas) + "\n</details>\n</nav>")
+            f"<summary>{escape(resumo)}</summary>\n" + "\n".join(f"<p>{x}</p>" for x in linhas)
+            + (f"\n{extra}" if extra else "") + "\n</details>\n</nav>")
 
 
 def lista_texto(cands: list) -> str:
-    """Itens da "lista única" de "Todos os candidatos": uma linha de texto por candidato, na ordem da lista paginada.
-    O app.js monta o mesmo texto (listaUnica) quando o eleitor troca de grupo: mudou aqui, mude lá."""
+    """Itens da lista de candidatos em texto (bloco recolhido do rodapé): uma linha por candidato, na mesma ordem da
+    lista paginada de "Todos os candidatos". É o texto que deixa os nomes dos candidatos visíveis para o buscador."""
     ordenados = sorted(cands, key=lambda c: (-(c["qualificacao_geral"] if c["qualificacao_geral"] is not None else -1),
                                              ordem(c["nome_urna"])))
     linhas = []
@@ -127,8 +128,8 @@ def lista_texto(cands: list) -> str:
     return "\n".join(linhas)
 
 
-def navegacao_grupo(g: dict, rotulos: dict, grupos: dict) -> str:
-    """Links para os grupos vizinhos (ajudam o buscador a achar e ligar as páginas)."""
+def navegacao_grupo(g: dict, cands: list, rotulos: dict, grupos: dict) -> str:
+    """Links para os grupos vizinhos (ajudam o buscador a achar e ligar as páginas) e a lista de candidatos em texto."""
     cargo, uf = g["cargo"], g["uf"]
     partes = []
     if uf != "BR":
@@ -140,7 +141,10 @@ def navegacao_grupo(g: dict, rotulos: dict, grupos: dict) -> str:
         if vizinhos:
             partes.append(f"{escape(rotulos[cargo])} em outros estados: {juntar(vizinhos)}")
     partes.append('<a href="/">Todos os cargos e estados</a>')
-    return bloco_nav("Ver outros cargos e estados", partes)
+    lista = (f'<p class="seo-titulo">Candidatos a {escape(rotulos[cargo].lower())}{escape(onde(uf))} '
+             f"({milhar(len(cands))}), por qualificação geral:</p>\n"
+             f'<ol class="seo-lista">\n{lista_texto(cands)}\n</ol>')
+    return bloco_nav("Ver a lista de candidatos e outros cargos e estados", partes, lista)
 
 
 def conteudo_home(rotulos: dict, grupos: dict) -> str:
@@ -155,13 +159,11 @@ def conteudo_home(rotulos: dict, grupos: dict) -> str:
     return bloco_nav("Ver as páginas de cada cargo e estado", partes)
 
 
-def montar(modelo: str, head: str, conteudo: str, lista: str, grupo: str | None) -> str:
+def montar(modelo: str, head: str, conteudo: str, grupo: str | None) -> str:
     t = re.sub(r"<!-- seo:head -->.*?<!-- /seo:head -->", lambda _: f"<!-- seo:head -->\n{head}<!-- /seo:head -->",
                modelo, count=1, flags=re.S)
     t = re.sub(r"<!-- seo:conteudo -->.*?<!-- /seo:conteudo -->",
                lambda _: f"<!-- seo:conteudo -->\n{conteudo}\n<!-- /seo:conteudo -->", t, count=1, flags=re.S)
-    t = re.sub(r"<!-- seo:lista -->.*?<!-- /seo:lista -->",
-               lambda _: f"<!-- seo:lista -->\n{lista}\n<!-- /seo:lista -->", t, count=1, flags=re.S)
     corpo = f'<body data-grupo="{escape(grupo)}">' if grupo else "<body>"
     return re.sub(r"<body[^>]*>", corpo, t, count=1)
 
@@ -188,7 +190,7 @@ def main() -> None:
                     {"@type": "ListItem", "position": 2, "name": f"{rotulos[cargo]}{onde(uf)}", "item": URL + url}]
         head = cabecalho(titulo, descricao, url, json_ld({"@context": "https://schema.org", "@type": "BreadcrumbList",
                                                            "itemListElement": migalhas}))
-        html = montar(modelo, head, navegacao_grupo(g, rotulos, grupos), lista_texto(dados_grupo["candidatos"]), chave)
+        html = montar(modelo, head, navegacao_grupo(g, dados_grupo["candidatos"], rotulos, grupos), chave)
         destino = SITE / url.strip("/") / "index.html"
         destino.parent.mkdir(parents=True, exist_ok=True)
         destino.write_text(html, encoding="utf-8", newline="\n")
@@ -199,7 +201,7 @@ def main() -> None:
         "inLanguage": "pt-BR",
         "description": "Ferramenta gratuita e de código aberto que avalia candidatos das Eleições 2026 no Brasil por "
                        "integridade, competência e alinhamento ideológico."}))
-    (SITE / "index.html").write_text(montar(modelo, head_home, conteudo_home(rotulos, grupos), "", None),
+    (SITE / "index.html").write_text(montar(modelo, head_home, conteudo_home(rotulos, grupos), None),
                                      encoding="utf-8", newline="\n")
 
     lastmod = DADOS["meta"]["gerado_em"]
