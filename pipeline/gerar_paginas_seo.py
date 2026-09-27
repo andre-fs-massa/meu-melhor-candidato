@@ -101,8 +101,14 @@ def json_ld(obj: dict) -> str:
     return '<script type="application/ld+json">\n' + json.dumps(obj, ensure_ascii=False, indent=2) + "\n</script>\n"
 
 
-def links(itens) -> str:
-    return '<ul class="seo-links">' + "".join(f'<li><a href="{u}">{escape(r)}</a></li>' for u, r in itens) + "</ul>"
+def juntar(itens) -> str:
+    return " · ".join(f'<a href="{u}">{escape(r)}</a>' for u, r in itens)
+
+
+def bloco_nav(resumo: str, linhas: list) -> str:
+    """Links para outras páginas, recolhidos acima do rodapé. O buscador lê e segue links dentro de <details> fechado."""
+    return ('<nav class="seo-nav" aria-label="Outras páginas do site">\n<details class="expansor">'
+            f"<summary>{escape(resumo)}</summary>\n" + "\n".join(f"<p>{x}</p>" for x in linhas) + "\n</details>\n</nav>")
 
 
 def lista_texto(cands: list) -> str:
@@ -122,39 +128,31 @@ def lista_texto(cands: list) -> str:
 
 
 def navegacao_grupo(g: dict, rotulos: dict, grupos: dict) -> str:
-    """Linha discreta acima do rodapé com links para os grupos vizinhos (ajuda o buscador a achar e ligar as páginas)."""
+    """Links para os grupos vizinhos (ajudam o buscador a achar e ligar as páginas)."""
     cargo, uf = g["cargo"], g["uf"]
-
-    def juntar(itens):
-        return " · ".join(f'<a href="{u}">{escape(r)}</a>' for u, r in itens)
-
-    partes = ['<nav class="seo-nav" aria-label="Outras páginas do site">']
+    partes = []
     if uf != "BR":
         outros = [(url_grupo(c, uf), rotulos[c]) for c in rotulos if c != cargo and f"{c}|{uf}" in grupos]
         if outros:
-            partes.append(f"<p>Outros cargos{escape(onde(uf))}: {juntar(outros)}</p>")
+            partes.append(f"Outros cargos{escape(onde(uf))}: {juntar(outros)}")
         vizinhos = sorted(((url_grupo(cargo, u), UF_NOME[u]) for k in grupos
                            for c, u in [k.split("|")] if c == cargo and u != uf), key=lambda x: ordem(x[1]))
         if vizinhos:
-            partes.append(f"<p>{escape(rotulos[cargo])} em outros estados: {juntar(vizinhos)}</p>")
-    partes.append('<p><a href="/">Todos os cargos e estados</a></p></nav>')
-    return "\n".join(partes)
+            partes.append(f"{escape(rotulos[cargo])} em outros estados: {juntar(vizinhos)}")
+    partes.append('<a href="/">Todos os cargos e estados</a>')
+    return bloco_nav("Ver outros cargos e estados", partes)
 
 
 def conteudo_home(rotulos: dict, grupos: dict) -> str:
-    partes = ['<section class="card-section seo" id="secIndice" aria-labelledby="tituloIndice">',
-              '<h2 id="tituloIndice">Candidatos por cargo e estado</h2>',
-              '<p class="sub">Uma página para cada cargo e estado, com o ranking e a lista de todos os candidatos das Eleições 2026.</p>']
+    """Índice da página inicial: uma linha por cargo com links para todas as páginas."""
+    partes = []
     for cargo, rot in rotulos.items():
         ufs = sorted((u for k in grupos for c, u in [k.split("|")] if c == cargo), key=lambda u: ordem(UF_NOME.get(u, "")))
-        if not ufs:
-            continue
         if ufs == ["BR"]:
-            partes.append(f"<h3>{escape(rot)}</h3>" + links([(url_grupo(cargo, "BR"), f"Candidatos a {rot.lower()}")]))
-        else:
-            partes.append(f"<h3>{escape(rot)}</h3>" + links([(url_grupo(cargo, u), UF_NOME[u]) for u in ufs]))
-    partes.append("</section>")
-    return "\n".join(partes)
+            partes.append(f"{escape(rot)}: " + juntar([(url_grupo(cargo, "BR"), f"Candidatos a {rot.lower()}")]))
+        elif ufs:
+            partes.append(f"{escape(rot)}: " + juntar([(url_grupo(cargo, u), UF_NOME[u]) for u in ufs]))
+    return bloco_nav("Ver as páginas de cada cargo e estado", partes)
 
 
 def montar(modelo: str, head: str, conteudo: str, lista: str, grupo: str | None) -> str:
