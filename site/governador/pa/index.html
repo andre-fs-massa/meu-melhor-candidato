@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- seo:head -->
+<title>Candidatos a governador no Pará (PA) 2026: ranking e notas | Meu melhor candidato</title>
+<meta name="description" content="Compare os 8 candidatos a governador no Pará nas Eleições 2026 por idoneidade, competência e posição ideológica, e veja os recomendados em cada quadrante.">
+<link rel="canonical" href="https://meu-melhor-candidato.afsm.me/governador/pa/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Meu melhor candidato">
+<meta property="og:url" content="https://meu-melhor-candidato.afsm.me/governador/pa/">
+<meta property="og:title" content="Candidatos a governador no Pará (PA) 2026: ranking e notas | Meu melhor candidato">
+<meta property="og:description" content="Compare os 8 candidatos a governador no Pará nas Eleições 2026 por idoneidade, competência e posição ideológica, e veja os recomendados em cada quadrante.">
+<meta property="og:image" content="https://meu-melhor-candidato.afsm.me/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Meu melhor candidato: encontre o candidato com mais integridade, competência e alinhamento ideológico com você.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Candidatos a governador no Pará (PA) 2026: ranking e notas | Meu melhor candidato">
+<meta name="twitter:description" content="Compare os 8 candidatos a governador no Pará nas Eleições 2026 por idoneidade, competência e posição ideológica, e veja os recomendados em cada quadrante.">
+<meta name="twitter:image" content="https://meu-melhor-candidato.afsm.me/og-image.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Meu melhor candidato",
+      "item": "https://meu-melhor-candidato.afsm.me/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Governador no Pará",
+      "item": "https://meu-melhor-candidato.afsm.me/governador/pa/"
+    }
+  ]
+}
+</script>
+<!-- /seo:head -->
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/styles.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PGNCB3NN7K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PGNCB3NN7K');
+</script>
+</head>
+<body data-grupo="GOVERNADOR|PA">
+<div class="topbar"><button class="themebtn" id="btnTema" type="button" aria-pressed="false">Modo escuro</button></div>
+<div class="wrap">
+
+  <header class="hero">
+    <p class="eyebrow">Eleições 2026 Brasil · 1º turno em 4 de outubro</p>
+    <h1>Meu melhor candidato</h1>
+    <p class="lead">Encontre o candidato político com mais integridade, competência e alinhamento ideológico com você!</p>
+  </header>
+
+  <section class="card-section" id="secEscolha">
+    <div class="campos">
+      <div class="campo">
+        <label for="cargo">Qual cargo?</label>
+        <select id="cargo"></select>
+      </div>
+      <div class="campo" id="campoUf" hidden>
+        <label for="uf">Qual é o seu estado?</label>
+        <select id="uf"></select>
+      </div>
+    </div>
+    <p class="status" id="cobertura" role="status"></p>
+  </section>
+
+  <div id="fluxo" hidden>
+
+    <section class="card-section" id="secQuadrantes">
+      <h2>Os melhores candidatos por posicionamento ideológico</h2>
+      <p class="sub">Cada candidato é posicionado no diagrama de Nolan por dois eixos: o quanto defende o Estado presente na economia e o quanto é liberal nos costumes. Em cada um dos quatro quadrantes, mostramos quem tem a maior qualificação geral (idoneidade + competência) entre os que continuam na disputa.</p>
+      <figure>
+        <div class="legenda" id="legenda"></div>
+        <svg class="nolan" id="nolan" viewBox="0 0 440 470" role="group" aria-label="Diagrama de Nolan com a posição dos candidatos"></svg>
+        <figcaption class="nolanNota" id="nolanNota"></figcaption>
+      </figure>
+      <div class="grid-quadrantes" id="cardsQuadrantes"></div>
+    </section>
+
+    <section class="card-section" id="secDescubra">
+      <h2>Não sabe qual é o seu posicionamento ideológico?</h2>
+      <p class="sub">Responda estas 2 perguntas simples para descobrir.</p>
+      <p class="privacidade">Suas respostas não são armazenadas.</p>
+      <div id="quizCorpo"></div>
+      <div class="resultado" id="resultadoQuiz" role="region" aria-label="Sua posição" aria-live="polite" hidden>
+        <p class="quadrante-destaque">Seu posicionamento ideológico: <strong id="resQuad"></strong></p>
+        <p><strong>Sua posição provável:</strong> <span id="resTexto"></span></p>
+        <div class="acoes"><button class="btn" id="btnRefazer" type="button">Refazer as perguntas</button></div>
+      </div>
+    </section>
+
+    <section class="card-section destaque" id="secSeuCandidato" hidden>
+      <h2>O melhor candidato para você</h2>
+      <div id="blocoSeuCandidato"></div>
+    </section>
+
+    <section class="card-section" id="secTodos">
+      <h2>Todos os candidatos</h2>
+      <p class="sub" id="todosSub"></p>
+      <div class="resumo" id="resumo"></div>
+      <details class="expansor" id="detalheTodos">
+        <summary id="resumoToggle">Ver lista completa</summary>
+        <ol class="lista" id="listaTodos"></ol>
+        <nav class="paginacao" id="paginacao" aria-label="Paginação da lista de candidatos" hidden></nav>
+      </details>
+    </section>
+
+    <section class="card-section" id="secMetodologia">
+      <h2>Como calculamos o ranking</h2>
+      <details class="expansor">
+        <summary>Ver metodologia completa</summary>
+        <ol class="metodo" id="metodo"></ol>
+        <p class="nota" style="margin:0 0 6px"><strong>Limites que você deve saber:</strong></p>
+        <ul class="limites" id="limites"></ul>
+        <p class="nota" id="rodape"></p>
+      </details>
+    </section>
+
+  </div>
+
+<!-- seo:conteudo -->
+<section class="card-section seo" id="secIndice" aria-labelledby="tituloIndice">
+<h2 id="tituloIndice">Candidatos a governador no Pará nas Eleições 2026</h2>
+<p class="sub">8 candidatos a governador registrados no TSE no Pará; 6 com idoneidade verificada. Dados de 26/09/2026. Resumo em texto; os detalhes e as fontes de cada nota estão nas seções acima.</p>
+<h3>Recomendados por posicionamento ideológico</h3><ul class="seo-lista">
+<li><strong>Ruth Reis</strong> (DEMOCRATA 35) · Direita conservadora · qualificação geral 8,1</li>
+<li><strong>Araceli</strong> (PSOL 50) · Esquerda progressista · qualificação geral 7,9</li>
+</ul>
+<details class="expansor"><summary>Lista em texto dos 8 candidatos</summary><ol class="seo-lista">
+<li><strong>Ruth Reis</strong> (Ruth Helena Ferreira Reis), DEMOCRATA 35: qualificação 8,1, idoneidade 9,0, competência 7,2. Recomendado.</li>
+<li><strong>Hana Ghassan</strong> (Hana Ghassan Tuma), MDB 15: qualificação 8,0, idoneidade 7,2, competência 8,8. Continua na disputa.</li>
+<li><strong>Araceli</strong> (Araceli Maria Pereira Lemos), PSOL 50: qualificação 7,9, idoneidade 9,0, competência 6,8. Recomendado.</li>
+<li><strong>Well Macedo</strong> (Wellingta Josyane Siqueira Macedo), PSTU 16: qualificação 7,8, idoneidade 10,0, competência 5,5. Continua na disputa.</li>
+<li><strong>Gal Leite</strong> (Gualdina Maria Menezes Leite), UP 80: qualificação 7,6, idoneidade 10,0, competência 5,2. Continua na disputa.</li>
+<li><strong>Dr. Daniel</strong> (Daniel Barbosa Santos), PODE 20: qualificação 5,4, idoneidade 3,5, competência 7,2. Abaixo do corte.</li>
+<li><strong>Cleber Rabelo</strong> (Jose Cleber Barros Rabelo), PSTU 16: qualificação n/d, idoneidade n/d, competência 5,1. Sem verificação.</li>
+<li><strong>José Moita</strong> (José Lucivaldo Moita), DEMOCRATA 35: qualificação n/d, idoneidade n/d, competência 4,3. Sem verificação.</li>
+</ol></details>
+<h3>Outros cargos no Pará</h3><ul class="seo-links"><li><a href="/senador/pa/">Senador</a></li><li><a href="/deputado-federal/pa/">Deputado federal</a></li><li><a href="/deputado-estadual/pa/">Deputado estadual</a></li></ul>
+<h3>Governador em outros estados</h3><ul class="seo-links"><li><a href="/governador/ac/">Acre</a></li><li><a href="/governador/al/">Alagoas</a></li><li><a href="/governador/ap/">Amapá</a></li><li><a href="/governador/am/">Amazonas</a></li><li><a href="/governador/ba/">Bahia</a></li><li><a href="/governador/ce/">Ceará</a></li><li><a href="/governador/df/">Distrito Federal</a></li><li><a href="/governador/es/">Espírito Santo</a></li><li><a href="/governador/go/">Goiás</a></li><li><a href="/governador/ma/">Maranhão</a></li><li><a href="/governador/mt/">Mato Grosso</a></li><li><a href="/governador/ms/">Mato Grosso do Sul</a></li><li><a href="/governador/mg/">Minas Gerais</a></li><li><a href="/governador/pb/">Paraíba</a></li><li><a href="/governador/pr/">Paraná</a></li><li><a href="/governador/pe/">Pernambuco</a></li><li><a href="/governador/pi/">Piauí</a></li><li><a href="/governador/rj/">Rio de Janeiro</a></li><li><a href="/governador/rn/">Rio Grande do Norte</a></li><li><a href="/governador/rs/">Rio Grande do Sul</a></li><li><a href="/governador/ro/">Rondônia</a></li><li><a href="/governador/rr/">Roraima</a></li><li><a href="/governador/sc/">Santa Catarina</a></li><li><a href="/governador/sp/">São Paulo</a></li><li><a href="/governador/se/">Sergipe</a></li><li><a href="/governador/to/">Tocantins</a></li></ul>
+<p class="nota"><a href="/">Página inicial: todos os cargos e estados</a></p></section>
+<!-- /seo:conteudo -->
+
+  <footer class="rodape">
+    <p>Projeto independente de avaliação de candidatos, criado por André Felipe Suzano Massa com apoio de
+      inteligência artificial na pesquisa e na geração de conteúdo — por isso pode haver erros ou imprecisões.
+      Nenhuma nota substitui a leitura do plano de governo de cada candidato.</p>
+    <p class="rodape-links">
+      <a href="https://github.com/andre-fs-massa/meu-melhor-candidato" target="_blank" rel="noopener noreferrer">Código aberto no GitHub — colaboradores são bem-vindos</a>
+      <span class="sep" aria-hidden="true">·</span>
+      <a href="mailto:contact@afsm.me">Relatar um erro</a>
+    </p>
+    <p class="rodape-aviso" id="avisoGeral">As notas são uma avaliação própria do projeto, feita a partir de fontes públicas —
+      não são um índice oficial.</p>
+  </footer>
+</div>
+<div class="dica" id="dica" hidden></div>
+<script src="/dados.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

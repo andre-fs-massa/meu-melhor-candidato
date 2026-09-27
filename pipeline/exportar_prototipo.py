@@ -19,7 +19,7 @@ from datetime import date
 
 import pandas as pd
 
-from . import config
+from . import config, gerar_paginas_seo
 from .cruzar_bases_oficiais import BASES, SAIDA as CSV_BASES_OFICIAIS
 from .enriquecer_circulo_politico import ROTULO_LIGACAO
 from .pesos import PESOS_ACHADO
@@ -263,6 +263,7 @@ def main() -> None:
         tam = [(saida.parent / n).stat().st_size for n in arquivos]
         print(f"Índice {saida} ({saida.stat().st_size / 1024:.0f} KB) + {len(arquivos)} arquivos em dados/ "
               f"(soma {sum(tam) / 1e6:.1f} MB, maior {max(tam) / 1024:.0f} KB)")
+    gerar_paginas_seo.main()  # páginas por cargo/UF e sitemap, a partir do que acabou de ser exportado
 
 
 if __name__ == "__main__":

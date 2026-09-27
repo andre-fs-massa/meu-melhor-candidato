@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- seo:head -->
+<title>Candidatos a deputado estadual em Santa Catarina (SC) 2026: ranking e notas | Meu melhor candidato</title>
+<meta name="description" content="Compare os 414 candidatos a deputado estadual em Santa Catarina nas Eleições 2026 por idoneidade, competência e posição ideológica, e veja os recomendados em cada quadrante.">
+<link rel="canonical" href="https://meu-melhor-candidato.afsm.me/deputado-estadual/sc/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Meu melhor candidato">
+<meta property="og:url" content="https://meu-melhor-candidato.afsm.me/deputado-estadual/sc/">
+<meta property="og:title" content="Candidatos a deputado estadual em Santa Catarina (SC) 2026: ranking e notas | Meu melhor candidato">
+<meta property="og:description" content="Compare os 414 candidatos a deputado estadual em Santa Catarina nas Eleições 2026 por idoneidade, competência e posição ideológica, e veja os recomendados em cada quadrante.">
+<meta property="og:image" content="https://meu-melhor-candidato.afsm.me/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Meu melhor candidato: encontre o candidato com mais integridade, competência e alinhamento ideológico com você.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Candidatos a deputado estadual em Santa Catarina (SC) 2026: ranking e notas | Meu melhor candidato">
+<meta name="twitter:description" content="Compare os 414 candidatos a deputado estadual em Santa Catarina nas Eleições 2026 por idoneidade, competência e posição ideológica, e veja os recomendados em cada quadrante.">
+<meta name="twitter:image" content="https://meu-melhor-candidato.afsm.me/og-image.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Meu melhor candidato",
+      "item": "https://meu-melhor-candidato.afsm.me/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Deputado estadual em Santa Catarina",
+      "item": "https://meu-melhor-candidato.afsm.me/deputado-estadual/sc/"
+    }
+  ]
+}
+</script>
+<!-- /seo:head -->
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/styles.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PGNCB3NN7K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PGNCB3NN7K');
+</script>
+</head>
+<body data-grupo="DEPUTADO ESTADUAL|SC">
+<div class="topbar"><button class="themebtn" id="btnTema" type="button" aria-pressed="false">Modo escuro</button></div>
+<div class="wrap">
+
+  <header class="hero">
+    <p class="eyebrow">Eleições 2026 Brasil · 1º turno em 4 de outubro</p>
+    <h1>Meu melhor candidato</h1>
+    <p class="lead">Encontre o candidato político com mais integridade, competência e alinhamento ideológico com você!</p>
+  </header>
+
+  <section class="card-section" id="secEscolha">
+    <div class="campos">
+      <div class="campo">
+        <label for="cargo">Qual cargo?</label>
+        <select id="cargo"></select>
+      </div>
+      <div class="campo" id="campoUf" hidden>
+        <label for="uf">Qual é o seu estado?</label>
+        <select id="uf"></select>
+      </div>
+    </div>
+    <p class="status" id="cobertura" role="status"></p>
+  </section>
+
+  <div id="fluxo" hidden>
+
+    <section class="card-section" id="secQuadrantes">
+      <h2>Os melhores candidatos por posicionamento ideológico</h2>
+      <p class="sub">Cada candidato é posicionado no diagrama de Nolan por dois eixos: o quanto defende o Estado presente na economia e o quanto é liberal nos costumes. Em cada um dos quatro quadrantes, mostramos quem tem a maior qualificação geral (idoneidade + competência) entre os que continuam na disputa.</p>
+      <figure>
+        <div class="legenda" id="legenda"></div>
+        <svg class="nolan" id="nolan" viewBox="0 0 440 470" role="group" aria-label="Diagrama de Nolan com a posição dos candidatos"></svg>
+        <figcaption class="nolanNota" id="nolanNota"></figcaption>
+      </figure>
+      <div class="grid-quadrantes" id="cardsQuadrantes"></div>
+    </section>
+
+    <section class="card-section" id="secDescubra">
+      <h2>Não sabe qual é o seu posicionamento ideológico?</h2>
+      <p class="sub">Responda estas 2 perguntas simples para descobrir.</p>
+      <p class="privacidade">Suas respostas não são armazenadas.</p>
+      <div id="quizCorpo"></div>
+      <div class="resultado" id="resultadoQuiz" role="region" aria-label="Sua posição" aria-live="polite" hidden>
+        <p class="quadrante-destaque">Seu posicionamento ideológico: <strong id="resQuad"></strong></p>
+        <p><strong>Sua posição provável:</strong> <span id="resTexto"></span></p>
+        <div class="acoes"><button class="btn" id="btnRefazer" type="button">Refazer as perguntas</button></div>
+      </div>
+    </section>
+
+    <section class="card-section destaque" id="secSeuCandidato" hidden>
+      <h2>O melhor candidato para você</h2>
+      <div id="blocoSeuCandidato"></div>
+    </section>
+
+    <section class="card-section" id="secTodos">
+      <h2>Todos os candidatos</h2>
+      <p class="sub" id="todosSub"></p>
+      <div class="resumo" id="resumo"></div>
+      <details class="expansor" id="detalheTodos">
+        <summary id="resumoToggle">Ver lista completa</summary>
+        <ol class="lista" id="listaTodos"></ol>
+        <nav class="paginacao" id="paginacao" aria-label="Paginação da lista de candidatos" hidden></nav>
+      </details>
+    </section>
+
+    <section class="card-section" id="secMetodologia">
+      <h2>Como calculamos o ranking</h2>
+      <details class="expansor">
+        <summary>Ver metodologia completa</summary>
+        <ol class="metodo" id="metodo"></ol>
+        <p class="nota" style="margin:0 0 6px"><strong>Limites que você deve saber:</strong></p>
+        <ul class="limites" id="limites"></ul>
+        <p class="nota" id="rodape"></p>
+      </details>
+    </section>
+
+  </div>
+
+<!-- seo:conteudo -->
+<section class="card-section seo" id="secIndice" aria-labelledby="tituloIndice">
+<h2 id="tituloIndice">Candidatos a deputado estadual em Santa Catarina nas Eleições 2026</h2>
+<p class="sub">414 candidatos a deputado estadual registrados no TSE em Santa Catarina; 414 com idoneidade verificada. Dados de 26/09/2026. Resumo em texto; os detalhes e as fontes de cada nota estão nas seções acima.</p>
+<h3>Recomendados por posicionamento ideológico</h3><ul class="seo-lista">
+<li><strong>Matheus Cadorin</strong> (NOVO 30000) · Libertário · qualificação geral 9,2</li>
+<li><strong>Neto Petters do Novo</strong> (NOVO 30456) · Libertário · qualificação geral 9,2</li>
+<li><strong>Marquinho Kurtz</strong> (PODE 20456) · Libertário · qualificação geral 9,0</li>
+<li><strong>Lucas Neves</strong> (REPUBLICANOS 10282) · Direita conservadora · qualificação geral 9,2</li>
+<li><strong>Sérgio Guimarães</strong> (UNIÃO 44500) · Direita conservadora · qualificação geral 9,0</li>
+<li><strong>Pepê Collaço</strong> (PP 11223) · Direita conservadora · qualificação geral 9,0</li>
+<li><strong>Marquito</strong> (PSOL 50150) · Esquerda progressista · qualificação geral 9,2</li>
+<li><strong>Ingrid Sateré Mawé</strong> (PSOL 50180) · Esquerda progressista · qualificação geral 9,2</li>
+<li><strong>Ciça Müller</strong> (PDT 12012) · Esquerda progressista · qualificação geral 9,0</li>
+</ul>
+<details class="expansor"><summary>Lista em texto dos 414 candidatos</summary><ol class="seo-lista">
+<li><strong>Ingrid Sateré Mawé</strong> (Ingrid Silva de Assis), PSOL 50180: qualificação 9,2, idoneidade 10,0, competência 8,5. Recomendado.</li>
+<li><strong>Lucas Neves</strong> (Lucas Felipe Melo Neves), REPUBLICANOS 10282: qualificação 9,2, idoneidade 10,0, competência 8,5. Recomendado.</li>
+<li><strong>Marquito</strong> (Marcos José de Abreu), PSOL 50150: qualificação 9,2, idoneidade 10,0, competência 8,5. Recomendado.</li>
+<li><strong>Matheus Cadorin</strong> (Matheus Andreis Cadorin), NOVO 30000: qualificação 9,2, idoneidade 10,0, competência 8,5. Recomendado.</li>
+<li><strong>Neto Petters do Novo</strong> (Italmar Jose Petters Neto), NOVO 30456: qualificação 9,2, idoneidade 10,0, competência 8,5. Recomendado.</li>
+<li><strong>Anna Carolina</strong> (Anna Carolina Cristofolini Martins), REPUBLICANOS 10200: qualificação 9,0, idoneidade 10,0, competência 8,0. Continua na disputa.</li>
+<li><strong>Bruno Cunha</strong> (Bruno Horwatitsch Cunha), CIDADANIA 23123: qualificação 9,0, idoneidade 10,0, competência 8,0. Continua na disputa.</li>
+<li><strong>Camasão</strong> (Leonel David Jesus Camasão Cordeiro), PSOL 50500: qualificação 9,0, idoneidade 9,5, competência 8,5. Continua na disputa.</li>
+<li><strong>Ciça Müller</strong> (Dagmar Clarissa Basseggio Muller), PDT 12012: qualificação 9,0, idoneidade 9,5, competência 8,5. Recomendado.</li>
+<li><strong>Hilda Deola</strong> (Hilda Carolina Deola), PDT 12000: qualificação 9,0, idoneidade 9,5, competência 8,5. Continua na disputa.</li>
+<li><strong>Jean Volpato</strong>, PT 13313: qualificação 9,0, idoneidade 9,5, competência 8,5. Continua na disputa.</li>
+<li><strong>Luciane Carminatti</strong> (Luciane Maria Carminatti), PT 13601: qualificação 9,0, idoneidade 9,5, competência 8,5. Continua na disputa.</li>
+<li><strong>Marquinho Kurtz</strong> (Marcos Augusto Kurtz), PODE 20456: qualificação 9,0, idoneidade 9,5, competência 8,5. Recomendado.</li>
+<li><strong>Paulinho da Silva</strong>, PCDOB 65500: qualificação 9,0, idoneidade 10,0, competência 8,0. Continua na disputa.</li>
+<li><strong>Pepê Collaço</strong> (Felippe Luiz Collaco), PP 11223: qualificação 9,0, idoneidade 9,5, competência 8,5. Recomendado.</li>
+<li><strong>Prof. Fabricio</strong> (Fabrício Dalcastagné), PDT 12500: qualificação 9,0, idoneidade 9,5, competência 8,5. Continua na disputa.</li>
+<li><strong>Rodrigo Minotto</strong>, PDT 12345: qualificação 9,0, idoneidade 9,5, competência 8,5. Continua na disputa.</li>
+<li><strong>Sérgio Guimarães</strong> (Sergio da Rosa Guimaraes), UNIÃO 44500: qualificação 9,0, idoneidade 9,5, competência 8,5. Recomendado.</li>
+<li><strong>Tiago Zilli</strong>, MDB 15789: qualificação 9,0, idoneidade 9,5, competência 8,5. Continua na disputa.</li>
+<li><strong>Victor Piccoli</strong> (Victor Hugo Branco Piccoli), PDT 12555: qualificação 9,0, idoneidade 9,5, competência 8,5. Continua na disputa.</li>
+<li><strong>Wilson Cidrão</strong> (Wilson Junior Cidrão), NOVO 30022: qualificação 9,0, idoneidade 10,0, competência 8,0. Continua na disputa.</li>
+<li><strong>Aguinaldo Vargas</strong> (Aguinaldo Vargas de Vargas), AGIR 36222: qualificação 8,9, idoneidade 10,0, competência 7,8. Continua na disputa.</li>
+<li><strong>Alex Stein</strong> (Alex Sandro Gonzaga Stein), PSOL 50005: qualificação 8,9, idoneidade 10,0, competência 7,8. Continua na disputa.</li>
+<li><strong>Cabral</strong> (Noemia Leonida Cabral Borges), REPUBLICANOS 10144: qualificação 8,9, idoneidade 10,0, competência 7,8. Continua na disputa.</li>
+<li><strong>Carlos Otto</strong> (Carlos Eduardo Otto), NOVO 30111: qualificação 8,9, idoneidade 10,0, competência 7,8. Continua na disputa.</li>
+<li><strong>Dra Aynoã Mello</strong> (Aynoã Thayssa Lima de Mello), REPUBLICANOS 10500: qualificação 8,9, idoneidade 10,0, competência 7,8. Continua na disputa.</li>
+<li><strong>Ely Silveira</strong> (Ely Edson Silveira Melo Filho), NOVO 30777: qualificação 8,9, idoneidade 10,0, competência 7,8. Continua na disputa.</li>
+<li><strong>Gabriel Carrara</strong> (Gabriel Martins Carrara), REPUBLICANOS 10101: qualificação 8,9, idoneidade 10,0, competência 7,8. Continua na disputa.</li>
+<li><strong>Gean Loureiro</strong> (Gean Marques Loureiro), UNIÃO 44123: qualificação 8,9, idoneidade 9,5, competência 8,2. Continua na disputa.</li>
+<li><strong>Jefferson Monteiro</strong> (Jefferson Damin Monteiro), REPUBLICANOS 10333: qualificação 8,9, idoneidade 10,0, competência 7,8. Continua na disputa.</li>
+<li><strong>Lucas Jean</strong> (Lucas Jean Slonczewski), NOVO 30700: qualificação 8,9, idoneidade 10,0, competência 7,8. Continua na disputa.</li>
+<li><strong>Michele Marques</strong> (Michele Marques Silva Scotti), NOVO 30600: qualificação 8,9, idoneidade 10,0, competência 7,8. Continua na disputa.</li>
+<li><strong>Mirna Rubia</strong> (Mirna Rubia da Silva Commandulli), CIDADANIA 23000: qualificação 8,9, idoneidade 10,0, competência 7,8. Continua na disputa.</li>
+<li><strong>Robson Zagre</strong>, AGIR 36123: qualificação 8,9, idoneidade 10,0, competência 7,8. Continua na disputa.</li>
+<li><strong>Rogerio Souza</strong> (Rogerio Nunes de Souza), NOVO 30100: qualificação 8,9, idoneidade 10,0, competência 7,8. Continua na disputa.</li>
+<li><strong>Altair Silva</strong> (Altair da Silva), PP 11130: qualificação 8,8, idoneidade 9,5, competência 8,0. Continua na disputa.</li>
+<li><strong>Arlindo Rocha</strong>, PT 13013: qualificação 8,8, idoneidade 9,5, competência 8,0. Continua na disputa.</li>
+<li><strong>Brandel Junior</strong> (Josias Brandel Junior), REPUBLICANOS 10010: qualificação 8,8, idoneidade 10,0, competência 7,5. Continua na disputa.</li>
+<li><strong>Cryslan</strong> (Cryslan Jorjan de Moraes), NOVO 30500: qualificação 8,8, idoneidade 10,0, competência 7,5. Continua na disputa.</li>
+<li><strong>Deputado Marcos Vieira</strong> (Marcos Luiz Vieira), PSDB 45699: qualificação 8,8, idoneidade 9,5, competência 8,0. Continua na disputa.</li>
+<li><strong>Dr. Vicente</strong> (Vicente Augusto Caropreso), UNIÃO 44000: qualificação 8,8, idoneidade 9,0, competência 8,5. Continua na disputa.</li>
+<li><strong>Emmanuel Tuca</strong> (Emmanuel Antonio Silvério dos Santos), PRD 25000: qualificação 8,8, idoneidade 9,5, competência 8,0. Continua na disputa.</li>
+<li><strong>Jeferson Cardozo</strong>, REPUBLICANOS 10444: qualificação 8,8, idoneidade 10,0, competência 7,5. Continua na disputa.</li>
+<li><strong>João Cobalchini</strong> (Joao Luiz Augusto Cobalchini), MDB 15600: qualificação 8,8, idoneidade 9,5, competência 8,0. Continua na disputa.</li>
+<li><strong>Luciano Buligon</strong> (Luciano José Buligon), PDT 12123: qualificação 8,8, idoneidade 9,5, competência 8,0. Continua na disputa.</li>
+<li><strong>Marcelo Achutti</strong>, MDB 15444: qualificação 8,8, idoneidade 9,0, competência 8,5. Continua na disputa.</li>
+<li><strong>Marcelo Werner</strong>, REPUBLICANOS 10777: qualificação 8,8, idoneidade 9,5, competência 8,0. Continua na disputa.</li>
+<li><strong>Marcos Both</strong> (Marcos Rafael Piacentini Both), MDB 15115: qualificação 8,8, idoneidade 9,5, competência 8,0. Continua na disputa.</li>
+<li><strong>Mauro de Nadal</strong>, MDB 15220: qualificação 8,8, idoneidade 9,5, competência 8,0. Continua na disputa.</li>
+<li><strong>Neodi Saretta</strong>, PT 13120: qualificação 8,8, idoneidade 9,5, competência 8,0. Continua na disputa.</li>
+<li><strong>Neuri Mantelli</strong> (Neuri Luiz Mantelli), PSD 55007: qualificação 8,8, idoneidade 9,0, competência 8,5. Continua na disputa.</li>
+<li><strong>Paulo Drumm</strong> (Paulo Ricardo Drumm), UNIÃO 44111: qualificação 8,8, idoneidade 9,5, competência 8,0. Continua na disputa.</li>
+<li><strong>Pedrão</strong> (Pedro de Assis Silvestre), REPUBLICANOS 10033: qualificação 8,8, idoneidade 10,0, competência 7,5. Continua na disputa.</li>
+<li><strong>Pri Fernandes Adote</strong> (Priscila Fernandes Farias), PSD 55444: qualificação 8,8, idoneidade 9,0, competência 8,5. Continua na disputa.</li>
+<li><strong>Salmir da Silva</strong>, REPUBLICANOS 10789: qualificação 8,8, idoneidade 10,0, competência 7,5. Continua na disputa.</li>
+<li><strong>Sergio Motta</strong> (Sérgio Motta Ribeiro), REPUBLICANOS 10123: qualificação 8,8, idoneidade 10,0, competência 7,5. Continua na disputa.</li>
+<li><strong>Cacá Tavares</strong> (Cassiano Tavares), PODE 20111: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Alba</strong> (Ricardo Joao Peluso Alba), PRD 25222: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Alcir Marcos</strong> (Alcir Manoel Marcos), SOLIDARIEDADE 77007: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>André Xavier</strong> (André Xavier Alves), PDT 12121: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Claudia Bratti</strong> (Claudia Lucia Bratti), PT 13130: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Dr Adriano Machado (chiquinho)</strong> (Adriano Machado), PRD 25225: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Dr Mario Carvalho</strong> (Mario Jorge da Costa Carvalho), PODE 20034: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Elizeu Mattos</strong>, MDB 15001: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Felipe Ferreira (gêmeos)</strong> (Luiz Felipe Ferreira), PODE 20800: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Gilberto Leal - Giba</strong> (Gilberto de Souza Leal Junior), PODE 20333: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Irineu Filho</strong> (Irineu de Souza Filho), PRD 25190: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>João Paulo</strong> (João Paulo Tavares Bastos Gama), PT 13200: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Juninho</strong> (José Carlos Silva Júnior), PDT 12095: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Leatrice Bez</strong> (Leatrice Mendonca Bez de Oliveira Gomes), MDB 15104: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Lu Indalécio</strong> (Luciana Indalecio), PODE 20010: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Maurício Couto</strong> (Maurício Souza Couto), MISSÃO 14555: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Napoleão Bernardes</strong> (Napoleão Bernardes Neto), PSD 55777: qualificação 8,6, idoneidade 9,0, competência 8,2. Continua na disputa.</li>
+<li><strong>Orlei Correia</strong>, MISSÃO 14123: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Patricia Sobreda</strong> (Patricia da Silva Sobreda), PSDB 45000: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Paulo Eccel</strong> (Paulo Roberto Eccel), PT 13030: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Rafael Consul Coletivo de Axé</strong> (Rafael Consul de Almeida), PT 13137: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Victoria Salgado</strong> (Victoria Salgado Figueiredo Gomes), PDT 12112: qualificação 8,6, idoneidade 9,5, competência 7,8. Continua na disputa.</li>
+<li><strong>Rick Zanata</strong> (Ricardo Gianesini), NOVO 30222: qualificação 8,5, idoneidade 10,0, competência 7,1. Continua na disputa.</li>
+<li><strong>Aanderson Batata</strong> (Anderson Luz dos Santos), PP 11456: qualificação 8,5, idoneidade 9,5, competência 7,5. Continua na disputa.</li>
+<li><strong>Alexandre Caminha</strong> (Alexandre Pereira Caminha), PDT 12222: qualificação 8,5, idoneidade 9,5, competência 7,5. Continua na disputa.</li>
+<li><strong>Berlanda</strong> (Nilso Jose Berlanda), PSD 55055: qualificação 8,5, idoneidade 9,0, competência 8,0. Continua na disputa.</li>
+<li><strong>Marcio Dedé</strong> (Marcio Jose Goncalves), UNIÃO 44444: qualificação 8,5, idoneidade 9,5, competência 7,5. Continua na disputa.</li>
+<li><strong>Pacheco</strong> (Rogerio Luciano Pacheco), PSD 55655: qualificação 8,5, idoneidade 9,0, competência 8,0. Continua na disputa.</li>
+<li><strong>Padre Pedro</strong> (Pedro Baldissera), PT 13987: qualificação 8,5, idoneidade 9,5, competência 7,5. Continua na disputa.</li>
+<li><strong>Ramos Policial</strong> (Saulo Salustiano Ramos Neto), UNIÃO 44190: qualificação 8,5, idoneidade 8,5, competência 8,5. Continua na disputa.</li>
+<li><strong>Serginho</strong> (Sergio Freitas), PSDB 45555: qualificação 8,5, idoneidade 9,5, competência 7,5. Continua na disputa.</li>
+<li><strong>Sheyla Chaves</strong> (Sheyla Cristina Chaves), PSD 55155: qualificação 8,5, idoneidade 9,0, competência 8,0. Continua na disputa.</li>
+<li><strong>César Damiani</strong>, NOVO 30789: qualificação 8,4, idoneidade 10,0, competência 6,8. Continua na disputa.</li>
+<li><strong>Dr. Jorge</strong> (Jorge Antonio Lopes Oliveira), REPUBLICANOS 10210: qualificação 8,4, idoneidade 10,0, competência 6,8. Continua na disputa.</li>
+<li><strong>Dr. Paulo Coral</strong> (Paulo Henrique Nobrega Coral), REPUBLICANOS 10555: qualificação 8,4, idoneidade 10,0, competência 6,8. Continua na disputa.</li>
+<li><strong>Fernando Krelling</strong>, MDB 15655: qualificação 8,4, idoneidade 9,5, competência 7,2. Continua na disputa.</li>
+<li><strong>Lizandra Dadam</strong>, NOVO 30123: qualificação 8,4, idoneidade 10,0, competência 6,8. Continua na disputa.</li>
+<li><strong>Luciano Pereira</strong>, NOVO 30030: qualificação 8,4, idoneidade 10,0, competência 6,8. Continua na disputa.</li>
+<li><strong>Maria Barros</strong> (Maria Aparecida Telles de Barros), NOVO 30128: qualificação 8,4, idoneidade 10,0, competência 6,8. Continua na disputa.</li>
+<li><strong>Marlene Fengler</strong>, PSD 55123: qualificação 8,4, idoneidade 9,0, competência 7,8. Continua na disputa.</li>
+<li><strong>Matheus Testa</strong> (Matheus Luiz Cerioli Testa), NOVO 30221: qualificação 8,4, idoneidade 10,0, competência 6,8. Continua na disputa.</li>
+<li><strong>Piccoli</strong> (Gimar Piccoli), REPUBLICANOS 10800: qualificação 8,4, idoneidade 10,0, competência 6,8. Continua na disputa.</li>
+<li><strong>Professor Cristiano Florêncio</strong> (Cristiano Rafael Florencio), PSTU 16000: qualificação 8,4, idoneidade 10,0, competência 6,8. Continua na disputa.</li>
+<li><strong>Silvio Dreveck</strong>, PP 11222: qualificação 8,4, idoneidade 9,5, competência 7,2. Continua na disputa.</li>
+<li><strong>Victor Forte</strong> (Victor Hugo Silva Forte), REPUBLICANOS 10888: qualificação 8,4, idoneidade 10,0, competência 6,8. Continua na disputa.</li>
+<li><strong>Gringo Ladomenega</strong> (Ivaldo Pizzinatto), UNIÃO 44555: qualificação 8,3, idoneidade 9,5, competência 7,1. Continua na disputa.</li>
+<li><strong>Gui Pereira</strong> (Guilherme Pereira de Paulo), PDT 12100: qualificação 8,3, idoneidade 9,5, competência 7,1. Continua na disputa.</li>
+<li><strong>Jackson Goetten</strong> (Jackson de Souza Goetten), UNIÃO 44333: qualificação 8,3, idoneidade 9,5, competência 7,1. Continua na disputa.</li>
+<li><strong>Jerry Comper</strong> (Jerry Edson Comper), MDB 15010: qualificação 8,3, idoneidade 9,5, competência 7,1. Continua na disputa.</li>
+<li><strong>Kelly Paz</strong> (Kelly Tatiane Silva da Paz), UNIÃO 44411: qualificação 8,3, idoneidade 9,5, competência 7,1. Continua na disputa.</li>
+<li><strong>Ana Liz</strong> (Ana Maris de Liz), PDT 12777: qualificação 8,3, idoneidade 9,5, competência 7,0. Continua na disputa.</li>
+<li><strong>A Alex Brasil</strong> (Alexander Brasil Alves Pereira), PL 22000: qualificação 8,2, idoneidade 8,0, competência 8,5. Abaixo do corte.</li>
+<li><strong>Acélio Casagrande</strong> (Acelio Casagrande), REPUBLICANOS 10100: qualificação 8,2, idoneidade 10,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Ana Campagnolo</strong> (Ana Caroline Campagnolo Galvao), PL 22222: qualificação 8,2, idoneidade 8,0, competência 8,5. Abaixo do corte.</li>
+<li><strong>André Moser</strong> (Andre Luiz Moser), REPUBLICANOS 10222: qualificação 8,2, idoneidade 8,5, competência 8,0. Continua na disputa.</li>
+<li><strong>Camilo Martins</strong> (Camilo Nazareno Pagani Martins), PL 22369: qualificação 8,2, idoneidade 8,0, competência 8,5. Abaixo do corte.</li>
+<li><strong>Ciliane Augustin</strong> (Ciliane Raquel Wille Augustin), NOVO 30130: qualificação 8,2, idoneidade 10,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Consoli Gerri Consoli</strong> (Gerri Adriani Consoli), REPUBLICANOS 10000: qualificação 8,2, idoneidade 10,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Delegado Jorge Koch</strong> (Jorge Luiz Koch), MDB 15000: qualificação 8,2, idoneidade 9,5, competência 7,0. Continua na disputa.</li>
+<li><strong>Diego Machado</strong>, PSD 55100: qualificação 8,2, idoneidade 9,0, competência 7,5. Continua na disputa.</li>
+<li><strong>Edson Piriquito</strong> (Edson Renato Dias), REPUBLICANOS 10015: qualificação 8,2, idoneidade 10,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Emerson Maas</strong>, MDB 15670: qualificação 8,2, idoneidade 9,5, competência 7,0. Continua na disputa.</li>
+<li><strong>Evandro Scaini</strong>, PP 11234: qualificação 8,2, idoneidade 9,5, competência 7,0. Continua na disputa.</li>
+<li><strong>Expedito Michels da Fucap</strong> (Expedito Michels), REPUBLICANOS 10110: qualificação 8,2, idoneidade 10,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Geleia</strong> (Edson Alipe Capistrano), PSOL 50550: qualificação 8,2, idoneidade 10,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Guilherme Martins</strong> (Guilherme Martins Passos), NOVO 30190: qualificação 8,2, idoneidade 10,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Jean Kuhlmann</strong> (Jean Jackson Kuhlmann), REPUBLICANOS 10022: qualificação 8,2, idoneidade 8,5, competência 8,0. Continua na disputa.</li>
+<li><strong>Julio Bolfe</strong> (Julio Strate Bolfe), NOVO 30021: qualificação 8,2, idoneidade 10,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Júlia Ilha</strong> (Júlia Ruschel de Oliveira Ilha Jiquiriçá), NOVO 30321: qualificação 8,2, idoneidade 10,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Maurício Peixer</strong> (Mauricio Fernando Peixer), PL 22122: qualificação 8,2, idoneidade 8,0, competência 8,5. Abaixo do corte.</li>
+<li><strong>Professor Andrew Leal</strong> (Andrew Leal), PSOL 50321: qualificação 8,2, idoneidade 10,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Professor Marcelo</strong> (Marcelo Henrique Pereira), PSOL 50600: qualificação 8,2, idoneidade 10,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Ricardo Pastrana</strong> (Ricardo Luiz de Souza), PSD 55153: qualificação 8,2, idoneidade 9,0, competência 7,5. Continua na disputa.</li>
+<li><strong>Robson Calixto</strong> (Robson Calixto dos Reis), NOVO 30555: qualificação 8,2, idoneidade 10,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Suelen Geremia</strong>, REPUBLICANOS 10456: qualificação 8,2, idoneidade 10,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Thayse Helena</strong> (Thayse Helena Domingos de Souza), NOVO 30707: qualificação 8,2, idoneidade 10,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Vivian Quiquio</strong> (Vivian Cristine Quiquio), PSD 55852: qualificação 8,2, idoneidade 9,0, competência 7,5. Continua na disputa.</li>
+<li><strong>Wilian Tonezi</strong> (Wilian Martini Tonezi), PL 22001: qualificação 8,2, idoneidade 8,0, competência 8,5. Abaixo do corte.</li>
+<li><strong>Silvana</strong> (Silvana Walger), AGIR 36022: qualificação 8,2, idoneidade 10,0, competência 6,3. Continua na disputa.</li>
+<li><strong>Tita Almeida</strong> (João Batista Ramos de Almeida), NOVO 30001: qualificação 8,1, idoneidade 10,0, competência 6,3. Continua na disputa.</li>
+<li><strong>Abia Alves</strong> (Beatriz Alves de Souza), PODE 20555: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Adilson Girardi</strong> (Adilson Luiz Girardi), MDB 15123: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>André Guesser</strong>, PDT 12456: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Dr.elcio</strong> (Elcio Rogerio Kuhnen), MDB 15777: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Gislaine Durski</strong> (Gislaine Cardoso Durski), PT 13113: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Haneron</strong> (Haneron Victor Marcos), PDT 12200: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Isaura</strong> (Isaura Candida Provin), MDB 15234: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Jean Antigranizo</strong> (Jean Carlo Ribeiro), PODE 20789: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Lairton Bolico da Saude</strong> (Lairton José Bólico Joaquim), PODE 20120: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Magno Júnior</strong> (Carlos Magno da Cruz Junior), PDT 12191: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Marilise Martinez</strong> (Marilise Schmidt Martinez), PP 11122: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Mário Motta</strong> (Mario Pinto da Motta Junior), PSD 55555: qualificação 8,1, idoneidade 9,0, competência 7,2. Continua na disputa.</li>
+<li><strong>Osmar Teixeira</strong> (Osmar Anibal Teixeira Junior), PODE 20106: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Preta</strong> (Adriane Biava), PODE 20600: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Prof. Evandro Accadrolli</strong> (Evandro Accadrolli), PDT 12640: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Professora Ana Lucia Martins</strong> (Ana Lucia Martins Rosskamp), PT 13180: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Professora Caterine</strong> (Caterine Nogueira Mendes), PODE 20200: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Renato da Farmácia</strong> (Renato Geske), PSDB 45051: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Rosenvaldo Junior</strong> (Rosenvaldo da Silva Junior), PDT 12789: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Sargento Puttkammer O Alemão</strong> (Leandro Puttkammer), PP 11369: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Sonia Vedovatto</strong> (Sonia Salete Vedovatto), PSDB 45450: qualificação 8,1, idoneidade 9,5, competência 6,8. Continua na disputa.</li>
+<li><strong>Emerson Stein</strong> (Emerson Luciano Stein), MDB 15100: qualificação 8,0, idoneidade 9,5, competência 6,6. Continua na disputa.</li>
+<li><strong>Tigrão</strong> (Valdemir Antonio Stobe), PSD 55800: qualificação 8,0, idoneidade 9,0, competência 7,1. Continua na disputa.</li>
+<li><strong>Kerly Koch</strong> (Kérly Simone Koch), AGIR 36358: qualificação 8,0, idoneidade 10,0, competência 6,0. Continua na disputa.</li>
+<li><strong>A A Margareth Pratts da Missão</strong> (Margareth Hach Pratts), MISSÃO 14000: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Adelina Martins</strong>, SOLIDARIEDADE 77111: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Adri</strong> (Adriana Fernanda Savi Fernandes), PP 11999: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Anelisio da Assessoritec</strong> (Anelisio Machado), PP 11000: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Beto Kuerten Marcelino</strong> (Roberto Kuerten Marcelino), PSD 55789: qualificação 8,0, idoneidade 9,0, competência 7,0. Continua na disputa.</li>
+<li><strong>Bruno Souza</strong> (Bruno André de Souza), PL 22722: qualificação 8,0, idoneidade 8,0, competência 8,0. Abaixo do corte.</li>
+<li><strong>Carla Z Pereira</strong> (Carla Andressa Zamperlini Pereira), PODE 20055: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Carlos Humberto</strong> (Carlos Humberto Metzner Silva), PL 22444: qualificação 8,0, idoneidade 8,0, competência 8,0. Abaixo do corte.</li>
+<li><strong>Cláudio Márcio</strong> (Claudio Marcio Araujo da Gama), PT 13100: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Coronel Jefferson Schmidt</strong> (Jefferson Schmidt), PSDB 45678: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Dalton Lueders</strong> (Dalton Parucker Lueders), PP 11033: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>David Busarello</strong> (David Christian Busarello), UNIÃO 44044: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Fabio Botelho</strong> (Fabio Murilo Botelho), PODE 20020: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Iara Hausmann</strong> (Iara Rosana Hausmann O Loughlin), PODE 20122: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Inajara Rodrigues</strong> (Inajara Rodrigues dos Santos), MDB 15180: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Isadora Piana</strong> (Isadora Romanatto Piana), NOVO 30900: qualificação 8,0, idoneidade 10,0, competência 6,0. Continua na disputa.</li>
+<li><strong>Ivan Naatz</strong>, PL 22555: qualificação 8,0, idoneidade 8,0, competência 8,0. Abaixo do corte.</li>
+<li><strong>Jair Miotto</strong> (Jair Antonio Miotto), PL 22422: qualificação 8,0, idoneidade 8,0, competência 8,0. Abaixo do corte.</li>
+<li><strong>Juliana Maciel</strong> (Juliana Maciel Hoppe), PL 22200: qualificação 8,0, idoneidade 8,0, competência 8,0. Abaixo do corte.</li>
+<li><strong>Juliano da Emuvi</strong> (Juliano Batista de Lima), PDT 12400: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Juliano Martins</strong> (Juliano da Silva Martins), PRD 25022: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Kariny Naiara Muller</strong> (Kariny Naiara Muller Brum), PSDB 45888: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Liba</strong> (Libardoni Lauro Claudino Fronza), PSD 55470: qualificação 8,0, idoneidade 9,0, competência 7,0. Continua na disputa.</li>
+<li><strong>Lucas Lucindo</strong> (Lucas Lucindo Vieira), PODE 20005: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Lucas Mello</strong> (Lucas Alves de Mello Rosa), PODE 20316: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Marco A Benedet Périco</strong> (Marco Antônio Benedet Périco), MISSÃO 14144: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Marcos da Rosa</strong>, PL 22077: qualificação 8,0, idoneidade 8,0, competência 8,0. Abaixo do corte.</li>
+<li><strong>Mariana Franco</strong> (Mariana Franco Fuckner), PDT 12180: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Mariel Grando</strong> (Mariel de Carvalho Coelho Grando), PODE 20522: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Mario Felippi</strong> (Mario Cesar Felippi Filho), NOVO 30007: qualificação 8,0, idoneidade 10,0, competência 6,0. Continua na disputa.</li>
+<li><strong>Maristela Francisco</strong> (Maristela da Silva Francisco), PT 13007: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Odair Tramontin</strong>, NOVO 30300: qualificação 8,0, idoneidade 10,0, competência 6,0. Continua na disputa.</li>
+<li><strong>Patricia Odwazny Flexa</strong>, REPUBLICANOS 10157: qualificação 8,0, idoneidade 10,0, competência 6,0. Continua na disputa.</li>
+<li><strong>Policial Emily Pereira</strong> (Emily Rosane Pereira), UNIÃO 44047: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Prof Norma Rodrigues</strong> (Norma Rodrigues dos Santos), NOVO 30050: qualificação 8,0, idoneidade 10,0, competência 6,0. Continua na disputa.</li>
+<li><strong>Prof. Genésio Adolfo</strong> (Genésio Adolfo da Silva), PSOL 50054: qualificação 8,0, idoneidade 10,0, competência 6,0. Continua na disputa.</li>
+<li><strong>Prof. Iza</strong> (Izabele Cristini da Silva), PSOL 50555: qualificação 8,0, idoneidade 10,0, competência 6,0. Continua na disputa.</li>
+<li><strong>Professora Nadir Fernandes</strong> (Nadir Fernandes), PSTU 16016: qualificação 8,0, idoneidade 10,0, competência 6,0. Continua na disputa.</li>
+<li><strong>Sargento Floriano</strong> (Rudinei Luis Floriano), PODE 20190: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Subtenente Antunes do Trânsito</strong> (Atanir Antunes), PODE 20500: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Thiago Vieira</strong> (Thiago Augusto Vieira), PODE 20000: qualificação 8,0, idoneidade 9,5, competência 6,5. Continua na disputa.</li>
+<li><strong>Bernadete Souza</strong> (Maria Bernadete de Souza), NOVO 30003: qualificação 7,9, idoneidade 10,0, competência 5,8. Continua na disputa.</li>
+<li><strong>Carol Matos</strong> (Caroline Simão Matos), NOVO 30567: qualificação 7,9, idoneidade 10,0, competência 5,8. Continua na disputa.</li>
+<li><strong>Roberto Pereira</strong> (Roberto Chaves Pereira), NOVO 30999: qualificação 7,9, idoneidade 10,0, competência 5,8. Continua na disputa.</li>
+<li><strong>Ale Paolazzi</strong> (Alessandra da Rosa Pavelski Paolazzi), UNIÃO 44789: qualificação 7,9, idoneidade 9,5, competência 6,2. Continua na disputa.</li>
+<li><strong>Cleiton Siqueira</strong>, MISSÃO 14001: qualificação 7,9, idoneidade 9,5, competência 6,2. Continua na disputa.</li>
+<li><strong>Dr. Roni Ribeiro</strong> (Roni Francisco Batista Ribeiro), REPUBLICANOS 10999: qualificação 7,9, idoneidade 10,0, competência 5,8. Continua na disputa.</li>
+<li><strong>Guilherme Colombo</strong> (Guilherme Horacio Colombo), PL 22333: qualificação 7,9, idoneidade 8,0, competência 7,8. Abaixo do corte.</li>
+<li><strong>Larissa Stephanie</strong> (Larissa Stephanie Pereira), PCDOB 65180: qualificação 7,9, idoneidade 10,0, competência 5,8. Continua na disputa.</li>
+<li><strong>Lucas Esmeraldino</strong> (Lucas de Souza Esmeraldino), AVANTE 70070: qualificação 7,9, idoneidade 9,0, competência 6,8. Continua na disputa.</li>
+<li><strong>Mariana Sartor</strong> (Mariana Furlan Sartor), PSOL 50100: qualificação 7,9, idoneidade 10,0, competência 5,8. Continua na disputa.</li>
+<li><strong>Mozara Schadeck</strong> (Mozara Carvalho Schadeck), PSD 55500: qualificação 7,9, idoneidade 9,0, competência 6,8. Continua na disputa.</li>
+<li><strong>Ramon Tartari</strong>, NOVO 30147: qualificação 7,9, idoneidade 10,0, competência 5,8. Continua na disputa.</li>
+<li><strong>Sandra</strong> (Sandra Andréa Veloso), REPUBLICANOS 10017: qualificação 7,9, idoneidade 10,0, competência 5,8. Continua na disputa.</li>
+<li><strong>Vinicius Borges</strong> (Vinicius Nuernberg Borges), NOVO 30333: qualificação 7,9, idoneidade 10,0, competência 5,8. Continua na disputa.</li>
+<li><strong>Jucemar Custódio (bujão)</strong> (Jucemar Custódio), PSDB 45222: qualificação 7,8, idoneidade 9,5, competência 6,1. Continua na disputa.</li>
+<li><strong>Parisotto</strong> (Narcizo Luiz Parisotto), UNIÃO 44104: qualificação 7,8, idoneidade 9,5, competência 6,1. Continua na disputa.</li>
+<li><strong>Sirlei Muller</strong> (Sirlei Teresinha Muller), MDB 15555: qualificação 7,8, idoneidade 9,5, competência 6,1. Continua na disputa.</li>
+<li><strong>Fábio de Oliveira</strong> (Fábio Silveira de Oliveira), PSOL 50369: qualificação 7,8, idoneidade 10,0, competência 5,5. Continua na disputa.</li>
+<li><strong>Gerson Popaye</strong> (Gerson Antonio Ribeiro), PSOL 50111: qualificação 7,8, idoneidade 10,0, competência 5,5. Continua na disputa.</li>
+<li><strong>Jefinho Chupel</strong> (Jeferson Chupel), PDT 12001: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Tuta</strong> (Vilmar Astrogildo Tuta de Souza), MDB 15015: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>A Júlia da Causa Animal</strong> (Júlia dos Santos Opuski de Almeida), PDT 12022: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>André Livramento</strong> (Andre Luis Livramento), PP 11470: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Arildo Fernandes</strong> (Arildo Fernandes da Silva), PSDB 45777: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Betão do Imposto</strong> (Roberto Agenor de Queiroz Sartori), AVANTE 70123: qualificação 7,8, idoneidade 9,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Cacica Eliara</strong> (Elizete Antunes), PT 13524: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Cesconetto</strong> (Eduardo Cesconetto de Souza), REPUBLICANOS 10220: qualificação 7,8, idoneidade 10,0, competência 5,5. Continua na disputa.</li>
+<li><strong>Claudio Bianchini</strong> (Claudio Luiz Bianchini Freitas), PP 11022: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Coronel Mocellin</strong> (Onir Mocellin), PL 22193: qualificação 7,8, idoneidade 8,0, competência 7,5. Abaixo do corte.</li>
+<li><strong>Fabi da Educação</strong> (Fabiana da Silva), CIDADANIA 23456: qualificação 7,8, idoneidade 10,0, competência 5,5. Continua na disputa.</li>
+<li><strong>Flaviana Rocho</strong> (Flaviana Speransa Rocho), PODE 20250: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Gilson Ciconet</strong> (Gilson Joel Ciconet), NOVO 30033: qualificação 7,8, idoneidade 10,0, competência 5,5. Continua na disputa.</li>
+<li><strong>Jaciara Di Santo</strong> (Jaciara Di Santo Santos), UNIÃO 44055: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Jaciara Machuga</strong>, PT 13040: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Jumeri Zanetti</strong>, PT 13044: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Leonardo Heinzen</strong> (Leonardo Garcia Heinzen), PSDB 45455: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Linno Vianna</strong> (Lindomar Vianna Nogueira), PT 13131: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Lu Dias</strong> (Lucinéia Aparecida Dias Rodrigues), PDT 12300: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Marcio Tinte</strong> (Marcio Antonio de Araujo), UNIÃO 44110: qualificação 7,8, idoneidade 9,0, competência 6,5. Continua na disputa.</li>
+<li><strong>Marcius Machado</strong> (Marcius da Silva Machado), PL 22123: qualificação 7,8, idoneidade 8,0, competência 7,5. Abaixo do corte.</li>
+<li><strong>Marisa Zanoni - Nós Juntas</strong> (Marisa Zanoni Fernandes), PT 13300: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Martina Domingues</strong> (Martina Domingues Chiaradia), PODE 20444: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Michel</strong> (Michel da Silva Schlemper), PL 22456: qualificação 7,8, idoneidade 8,0, competência 7,5. Abaixo do corte.</li>
+<li><strong>Prof Caleb Clarindo</strong> (Erick Caleb Magalhães Clarindo), PT 13321: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Prof. Renato</strong> (Renato Cristopher dos Santos), PODE 20321: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Professor Cadu</strong> (Carlos Eduardo de Souza), PT 13123: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Professor Chico</strong> (Francisco Assis Rocha), PT 13690: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Professor Vitor Xuxa</strong> (Vitor Rollin Prudêncio), PT 13000: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Renata Aguiar - Kida</strong> (Renata Aguiar), PODE 20999: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Rita Lang</strong> (Rita de Cássia Lang), PDT 12282: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Rodrigo Pedrini</strong>, PL 22233: qualificação 7,8, idoneidade 8,0, competência 7,5. Abaixo do corte.</li>
+<li><strong>Rodrigo Preis</strong>, PT 13470: qualificação 7,8, idoneidade 8,5, competência 7,0. Continua na disputa.</li>
+<li><strong>Selma Adão</strong> (Selma Terezinha Adão), PDT 12612: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Vinicius Ganem</strong> (Vinicius Ganem Sanches Faile), PODE 20100: qualificação 7,8, idoneidade 9,5, competência 6,0. Continua na disputa.</li>
+<li><strong>Ana Vaz</strong> (Ana Paula Godoi Vaz), PSOL 50123: qualificação 7,6, idoneidade 10,0, competência 5,3. Continua na disputa.</li>
+<li><strong>Bia Vargas</strong> (Beatriz da Silva Vargas), PT 13620: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Cris Milli</strong> (Cristianne Milli da Silva), NOVO 30180: qualificação 7,6, idoneidade 10,0, competência 5,3. Continua na disputa.</li>
+<li><strong>Jairo</strong> (Jairo Fortunato), MISSÃO 14999: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Jessica Prado</strong> (Jessica Emanuele Priscila Prado Herber), PODE 20777: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>José Thomé</strong> (Jose Eduardo Rothbarth Thome), PSD 55888: qualificação 7,6, idoneidade 9,0, competência 6,3. Continua na disputa.</li>
+<li><strong>Mauricio Correa</strong> (Mauricio de Almeida Correa), MISSÃO 14077: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Meirinho</strong> (Everton Meirinho de Oliveira), PSOL 50456: qualificação 7,6, idoneidade 10,0, competência 5,3. Continua na disputa.</li>
+<li><strong>Monica Borges</strong> (Monica Silva), MDB 15111: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Pupo Junckes</strong> (Evaldo João Junckes), PDT 12280: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Rafael Gomes</strong> (Rafael Gomes dos Santos), PRD 25000: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Rodrigo Barros</strong> (Rodrigo Kauer de Barros), PDT 12111: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Simone Andrade</strong> (Simone Cristina Andrade), PP 11777: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Suboficial Anfrisio</strong> (Anfrísio Gomes Ferreira), PRD 25100: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Yoli Ravazzi</strong> (Iolanda Pereira Alves Franco Ravazzi Viana), REPUBLICANOS 10028: qualificação 7,6, idoneidade 10,0, competência 5,3. Continua na disputa.</li>
+<li><strong>Carol Formigoni</strong> (Caroline Formigoni Alves), MISSÃO 14014: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Dorlei</strong> (Dorlei João Antunes), PDT 12678: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Dr Natel</strong> (Joao Natel Pollonio Machado), MDB 15055: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Dr. Anibal Dario</strong> (Anibal José Sieber Dario), PDT 12999: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Dr. Irani</strong> (Irani Valentin Alberton Junior), PP 11111: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Eroni Foresti</strong>, PODE 20400: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Jessé Lopes</strong> (Jesse de Faria Lopes), PL 22022: qualificação 7,6, idoneidade 8,0, competência 7,2. Abaixo do corte.</li>
+<li><strong>Priscila Dal Bosco</strong>, PP 11233: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Professor Ozzy</strong> (Orozimbo Furlan Junior), PRD 25025: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Tolfo</strong> (Adelar José Tolfo), PSDB 45345: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Tulio Veterinario</strong> (Túlio Tavares Santos), MDB 15022: qualificação 7,6, idoneidade 9,5, competência 5,8. Continua na disputa.</li>
+<li><strong>Alexandre Nau</strong> (Carlos Alexandre Nau), PSOL 50000: qualificação 7,5, idoneidade 10,0, competência 5,1. Continua na disputa.</li>
+<li><strong>Carla Corrêa</strong> (Carla Danielle Corrêa), NOVO 30227: qualificação 7,5, idoneidade 10,0, competência 5,1. Continua na disputa.</li>
+<li><strong>Henrique Todeschini</strong> (Henrique Todeschini da Silva), AGIR 36777: qualificação 7,5, idoneidade 10,0, competência 5,1. Continua na disputa.</li>
+<li><strong>Rabuja</strong> (Valdemar Ignaczuk), PODE 20470: qualificação 7,5, idoneidade 9,5, competência 5,6. Continua na disputa.</li>
+<li><strong>Sabrina Maia</strong> (Sabrina Siebers Maia Girardi), REPUBLICANOS 10026: qualificação 7,5, idoneidade 10,0, competência 5,1. Continua na disputa.</li>
+<li><strong>Tatiane Santana</strong> (Tatiane Buhler Sant Ana), NOVO 30800: qualificação 7,5, idoneidade 10,0, competência 5,1. Continua na disputa.</li>
+<li><strong>Jô Marquez</strong> (Josiane dos Santos Marques), PSOL 50096: qualificação 7,5, idoneidade 10,0, competência 5,0. Continua na disputa.</li>
+<li><strong>Vivi do Juntos</strong> (Vitória Pedroni), PSOL 50999: qualificação 7,5, idoneidade 10,0, competência 5,0. Continua na disputa.</li>
+<li><strong>Byanca Dolzan</strong> (Byanca Aparecida Mendes Dolzan Moritz), MISSÃO 14141: qualificação 7,5, idoneidade 9,5, competência 5,5. Continua na disputa.</li>
+<li><strong>Cleci Veronezi</strong> (Cleci Aparecida Veronezi), PL 22282: qualificação 7,5, idoneidade 8,0, competência 7,0. Abaixo do corte.</li>
+<li><strong>Fabiano da Luz</strong>, PT 13500: qualificação 7,5, idoneidade 6,5, competência 8,5. Abaixo do corte.</li>
+<li><strong>Janete Krueger</strong> (Janete Sueli Krueger), PDT 12102: qualificação 7,5, idoneidade 9,5, competência 5,5. Continua na disputa.</li>
+<li><strong>Mário Hildebrandt</strong> (Mario Hildebrandt), PL 22199: qualificação 7,5, idoneidade 8,0, competência 7,0. Abaixo do corte.</li>
+<li><strong>Pastor Renato</strong> (Luiz Renato Lucio), SOLIDARIEDADE 77725: qualificação 7,5, idoneidade 9,5, competência 5,5. Continua na disputa.</li>
+<li><strong>Ricardo Becker</strong>, MISSÃO 14777: qualificação 7,5, idoneidade 9,5, competência 5,5. Continua na disputa.</li>
+<li><strong>Sara Melo</strong> (Sara Ricardo de Melo Pereira), AVANTE 70222: qualificação 7,5, idoneidade 9,0, competência 6,0. Continua na disputa.</li>
+<li><strong>Tcharles Purim</strong>, PSDB 45045: qualificação 7,5, idoneidade 9,5, competência 5,5. Continua na disputa.</li>
+<li><strong>Dionísio Bertoldi</strong> (Dionísio Luis Bertoldi), PT 13456: qualificação 7,4, idoneidade 9,5, competência 5,4. Continua na disputa.</li>
+<li><strong>Mara da Saúde</strong> (Mara Lucia Xavier da Costa dos Santos), PP 11020: qualificação 7,4, idoneidade 9,5, competência 5,3. Continua na disputa.</li>
+<li><strong>Tetê Pro Consumidor</strong> (Wallace Avanir de Souza), PODE 20151: qualificação 7,4, idoneidade 9,5, competência 5,3. Continua na disputa.</li>
+<li><strong>Carlos Castro</strong> (Carlos Roberto de Castro), PDT 12055: qualificação 7,4, idoneidade 9,5, competência 5,3. Continua na disputa.</li>
+<li><strong>Eliane Araújo</strong> (Eliane de Araújo Silva), PDT 12444: qualificação 7,4, idoneidade 9,5, competência 5,3. Continua na disputa.</li>
+<li><strong>Everaldo Di Berti</strong>, PL 22007: qualificação 7,4, idoneidade 8,0, competência 6,8. Abaixo do corte.</li>
+<li><strong>Fran Villani</strong> (Franciele Cristina Villani), MISSÃO 14007: qualificação 7,4, idoneidade 9,5, competência 5,3. Continua na disputa.</li>
+<li><strong>Joao do Posto</strong> (Joao Batista da Silva), PRD 25123: qualificação 7,4, idoneidade 9,5, competência 5,3. Continua na disputa.</li>
+<li><strong>Juliana Tomaz</strong> (Juliana Regina Tomaz Moser), PRD 25550: qualificação 7,4, idoneidade 9,5, competência 5,3. Continua na disputa.</li>
+<li><strong>Malu</strong> (Maria Luiza Ferreira de Oliveira), SOLIDARIEDADE 77002: qualificação 7,4, idoneidade 9,5, competência 5,3. Continua na disputa.</li>
+<li><strong>Micheli de Lima</strong>, AVANTE 70000: qualificação 7,4, idoneidade 9,0, competência 5,8. Continua na disputa.</li>
+<li><strong>Yolanda Silva</strong> (Yolanda Cargnin da Silva), MISSÃO 14111: qualificação 7,4, idoneidade 9,5, competência 5,3. Continua na disputa.</li>
+<li><strong>Adrianinha da Saúde</strong> (Adriana Correa), PL 22192: qualificação 7,4, idoneidade 8,0, competência 6,8. Abaixo do corte.</li>
+<li><strong>Nilza Simas</strong> (Nilza Nilda Simas), PL 22777: qualificação 7,4, idoneidade 8,0, competência 6,8. Abaixo do corte.</li>
+<li><strong>Simone Moredo</strong>, REDE 18018: qualificação 7,4, idoneidade 9,0, competência 5,8. Continua na disputa.</li>
+<li><strong>Carlos Antunes</strong> (Carlos Daurição Antunes), MISSÃO 14040: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Cassi Bueno</strong> (Cassiana Bueno da Silva), PRD 25312: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Cris Brilhante</strong> (Crisania Dantas Brilhante), PP 11011: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Cris da Saude</strong> (Maria Cristina Correa Clemente), MDB 15700: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Crislane Fernandes</strong> (Crislane Evaristo Fernandes), PSDB 45333: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Douglas Meriz</strong>, PSOL 50505: qualificação 7,3, idoneidade 10,0, competência 4,6. Continua na disputa.</li>
+<li><strong>Landa da Rosa Costa</strong> (Eolanda Terezinha da Rosa Costa), PSD 55232: qualificação 7,3, idoneidade 9,0, competência 5,6. Continua na disputa.</li>
+<li><strong>Lindomar Ferreira</strong>, PP 11123: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Luciane Cooper</strong> (Luciane Gomes de Lima Cooper), MDB 15715: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Léo Lamera</strong> (Leonardo Lopes dos Santos), MISSÃO 14444: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Mattiolo</strong> (Celso Mattiolo), PP 11322: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Michel Costa</strong> (Michel Jhonnatan da Costa), PRD 25255: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Pastor Foppa</strong> (Marcus Foppa), REPUBLICANOS 10722: qualificação 7,3, idoneidade 10,0, competência 4,6. Continua na disputa.</li>
+<li><strong>Rafael Lima</strong> (Rafael de Lima Oechsler), PT 13777: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Renata Ferreira</strong> (Renata Vieira Ferreira), NOVO 30220: qualificação 7,3, idoneidade 10,0, competência 4,6. Continua na disputa.</li>
+<li><strong>Ronan Souza</strong> (Ronan Cleiton de Souza), PRD 25555: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Simone do Caldo de Cana</strong> (Simone Alves Siqueira), PRD 25122: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Tito Zanin</strong> (Valmir Joao Zanin), PODE 20222: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Wagner Araújo</strong> (Wagner Darlis de Araujo), PODE 20220: qualificação 7,3, idoneidade 9,5, competência 5,1. Continua na disputa.</li>
+<li><strong>Ágatha Brum</strong> (Ágatha Ísis Brum da Silva), PSOL 50044: qualificação 7,3, idoneidade 10,0, competência 4,6. Continua na disputa.</li>
+<li><strong>Ângelo Chocolate</strong> (Ângelo Máximo de Lima), PSOL 50333: qualificação 7,3, idoneidade 10,0, competência 4,6. Continua na disputa.</li>
+<li><strong>Marinêz dos Idosos</strong> (Marinez Casagrande), MDB 15215: qualificação 7,3, idoneidade 9,5, competência 5,0. Continua na disputa.</li>
+<li><strong>A Deco Batisti</strong> (Andre Batisti), PL 22999: qualificação 7,2, idoneidade 8,0, competência 6,5. Abaixo do corte.</li>
+<li><strong>A Fabi Venera</strong> (Fabiola Marilene de Souza Sestren Venera), PL 22357: qualificação 7,2, idoneidade 8,0, competência 6,5. Abaixo do corte.</li>
+<li><strong>Delegado Ulisses Gabriel</strong> (Ulisses Gabriel), PL 22111: qualificação 7,2, idoneidade 8,0, competência 6,5. Abaixo do corte.</li>
+<li><strong>Eleane Patriota</strong> (Eleane Carmela Raulino), AVANTE 70022: qualificação 7,2, idoneidade 9,0, competência 5,5. Continua na disputa.</li>
+<li><strong>Junior Cardoso</strong> (Silvio Cardoso Junior), PL 22322: qualificação 7,2, idoneidade 8,0, competência 6,5. Abaixo do corte.</li>
+<li><strong>Sargento Pacheco</strong> (Andre Luiz Pacheco), PL 22190: qualificação 7,2, idoneidade 8,0, competência 6,5. Abaixo do corte.</li>
+<li><strong>Sorgatto</strong> (Leandro Sorgato), PL 22234: qualificação 7,2, idoneidade 8,0, competência 6,5. Abaixo do corte.</li>
+<li><strong>Cide Machado</strong> (Cidney Machado Waltrick), PSD 55000: qualificação 7,2, idoneidade 9,0, competência 5,4. Continua na disputa.</li>
+<li><strong>Jairo Teixeira</strong> (Jairo Antônio Teixeira), NOVO 30200: qualificação 7,2, idoneidade 10,0, competência 4,4. Continua na disputa.</li>
+<li><strong>Jorge Kruger</strong> (Jorge Augusto Kruger), PODE 20123: qualificação 7,2, idoneidade 9,5, competência 4,9. Continua na disputa.</li>
+<li><strong>Ana Flávia</strong> (Ana Flávia Luiz), PSOL 50777: qualificação 7,2, idoneidade 10,0, competência 4,3. Continua na disputa.</li>
+<li><strong>Edinho da Casa Azul</strong> (Edson Luiz Duarte), PSDB 45444: qualificação 7,2, idoneidade 9,0, competência 5,3. Continua na disputa.</li>
+<li><strong>José Júlio Guahnon</strong> (Jose Julio Guahnon), REDE 18800: qualificação 7,1, idoneidade 9,0, competência 5,3. Continua na disputa.</li>
+<li><strong>Alemão da Alumetal</strong> (Carlos Cezar Wagner), UNIÃO 44144: qualificação 7,1, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Ademir Lima</strong> (Ademir Lima dos Anjos), MISSÃO 14500: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Alex Corrêa</strong> (Alex Sander Godinho Correa), PODE 20620: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Alexandre José</strong> (Alexandre Jose Piaz), PODE 20300: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Amanda Ribeiro</strong> (Amanda Ribeiro de Proença), REDE 18180: qualificação 7,0, idoneidade 9,0, competência 5,1. Continua na disputa.</li>
+<li><strong>Barbara Costa</strong> (Bárbara Karoline Costa), PRD 25296: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Bombeiro Alan Martins</strong> (Alan Martins dos Santos), PRD 25193: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Carol da Rocha</strong> (Caroline Fernandes da Rocha), PDT 12333: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Gabriel Oliveira</strong> (Gabriel Felipe de Oliveira), MISSÃO 14140: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Guilherme Duarte</strong> (Guilherme Santiago Duarte), PRD 25250: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Jana Medeiros</strong> (Janaina Sabino Medeiros), SOLIDARIEDADE 77773: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Joel Santos da Rádio</strong> (Joel Leal dos Santos Junior), PODE 20007: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>João Roque</strong> (João Maria Roque), PDT 12320: qualificação 7,0, idoneidade 9,0, competência 5,1. Continua na disputa.</li>
+<li><strong>Ju do Taxi</strong> (Juceia dos Santos Lucas), UNIÃO 44042: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Jucy Eckart</strong> (Jucineia Ribeiro Eckart), PRD 25256: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Pastor Napoleão Bonaparte</strong> (José Napoleão Bonaparte Maia Rodrigues), UNIÃO 44777: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Pedro Santacannabis</strong> (Pedro Luis Sabaciauskis Pereira), PODE 20420: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Pimentel</strong> (Edison Pimentel Maciel), AGIR 36007: qualificação 7,0, idoneidade 10,0, competência 4,1. Continua na disputa.</li>
+<li><strong>Raquel Afonso</strong> (Raquel da Silva Afonso), PODE 20021: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Rodolfo de Ramos</strong>, PT 13045: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Silvéria Zanchi</strong> (Silveria Soeli Zanchi), PP 11622: qualificação 7,0, idoneidade 9,5, competência 4,6. Continua na disputa.</li>
+<li><strong>Mamede</strong> (Hederaldo Mamede do Rosário), AVANTE 70777: qualificação 7,0, idoneidade 9,0, competência 5,0. Continua na disputa.</li>
+<li><strong>Carla Enfermeira</strong> (Carla Regina Rudolf), PL 22522: qualificação 7,0, idoneidade 8,0, competência 6,0. Abaixo do corte.</li>
+<li><strong>Flávia Ribas</strong> (Flavia Maris Muller Ribas), PL 22211: qualificação 7,0, idoneidade 8,0, competência 6,0. Abaixo do corte.</li>
+<li><strong>Professora Bruni</strong> (Bruni Hubner), PL 22002: qualificação 7,0, idoneidade 8,0, competência 6,0. Abaixo do corte.</li>
+<li><strong>Anderson Sandmann</strong>, PODE 20888: qualificação 6,9, idoneidade 9,5, competência 4,4. Continua na disputa.</li>
+<li><strong>Jorge Junior</strong> (Jorge Godinho da Silva Junior), SOLIDARIEDADE 77777: qualificação 6,9, idoneidade 9,5, competência 4,4. Continua na disputa.</li>
+<li><strong>Letícia Mattos</strong> (Letícia Maduell de Mattos), PL 22888: qualificação 6,9, idoneidade 8,0, competência 5,8. Abaixo do corte.</li>
+<li><strong>Marcilene Miss</strong> (Marcilene Maria Menegassi), REPUBLICANOS 10111: qualificação 6,8, idoneidade 10,0, competência 3,6. Continua na disputa.</li>
+<li><strong>Fabinho Henschel</strong> (Fabio Henschel Sabel), PSOL 50007: qualificação 6,8, idoneidade 10,0, competência 3,6. Continua na disputa.</li>
+<li><strong>Chica do Eskudlark</strong> (Solange Aparecida Bitencourt Schlichting), PL 22822: qualificação 6,8, idoneidade 8,0, competência 5,6. Abaixo do corte.</li>
+<li><strong>Clesio Salvaro</strong>, PSD 55111: qualificação 6,8, idoneidade 8,0, competência 5,6. Abaixo do corte.</li>
+<li><strong>Cris Quadros</strong> (Cristiane Claudino Quadros), PODE 20026: qualificação 6,8, idoneidade 9,5, competência 4,1. Continua na disputa.</li>
+<li><strong>Jessica Rodrigues</strong> (Jessica Degering Rodrigues), PSDB 45199: qualificação 6,8, idoneidade 9,5, competência 4,1. Continua na disputa.</li>
+<li><strong>Josi Menestrina</strong> (Josiane Freitas Neto Menestrina), MDB 15844: qualificação 6,8, idoneidade 9,5, competência 4,1. Continua na disputa.</li>
+<li><strong>Osmar Barcaro</strong>, PT 13999: qualificação 6,8, idoneidade 9,5, competência 4,1. Continua na disputa.</li>
+<li><strong>Saulo Sperotto</strong>, PL 22245: qualificação 6,8, idoneidade 8,0, competência 5,6. Abaixo do corte.</li>
+<li><strong>Frigo</strong> (Tiago Bolan Frigo), PL 22100: qualificação 6,8, idoneidade 8,0, competência 5,5. Abaixo do corte.</li>
+<li><strong>Paulinho</strong> (Paulo Spengler), PSDB 45145: qualificação 6,7, idoneidade 9,5, competência 3,9. Continua na disputa.</li>
+<li><strong>Junior do Esporte</strong> (Adalberto dos Santos Júnior), PDT 12220: qualificação 6,7, idoneidade 9,5, competência 3,9. Continua na disputa.</li>
+<li><strong>Manjuva Caminhoneiro</strong> (Sergio Joao Wildner), PP 11112: qualificação 6,7, idoneidade 9,5, competência 3,9. Continua na disputa.</li>
+<li><strong>Massocco</strong> (Edilson Massocco), PL 22150: qualificação 6,7, idoneidade 7,5, competência 5,9. Abaixo do corte.</li>
+<li><strong>Miranda</strong> (Edinelson Miranda), PRD 25888: qualificação 6,7, idoneidade 9,5, competência 3,9. Continua na disputa.</li>
+<li><strong>Sommer</strong> (João Batista Sommer), SOLIDARIEDADE 77770: qualificação 6,7, idoneidade 9,5, competência 3,9. Continua na disputa.</li>
+<li><strong>Carlos Silva</strong>, PSOL 50900: qualificação 6,6, idoneidade 10,0, competência 3,1. Continua na disputa.</li>
+<li><strong>José Carlos</strong> (José Carlos Jantsch), PDT 12321: qualificação 6,6, idoneidade 9,5, competência 3,6. Continua na disputa.</li>
+<li><strong>Nilson Vicenti</strong>, MISSÃO 14100: qualificação 6,6, idoneidade 9,5, competência 3,6. Continua na disputa.</li>
+<li><strong>Sandra Scheffer</strong> (Sandra Colaço Ferreira Scheffer), UNIÃO 44122: qualificação 6,5, idoneidade 9,5, competência 3,4. Continua na disputa.</li>
+<li><strong>Tom da Barra Pcd</strong> (Milton Rangel Constanti), PT 13613: qualificação 6,4, idoneidade 9,5, competência 3,4. Continua na disputa.</li>
+<li><strong>Lavinya Dealis</strong> (Lavinya Aparecida Costa Dealis), PL 22005: qualificação 6,4, idoneidade 8,0, competência 4,8. Abaixo do corte.</li>
+<li><strong>Joelma Cardoso</strong>, PRD 25079: qualificação 6,3, idoneidade 9,5, competência 3,1. Continua na disputa.</li>
+<li><strong>Willian Esteves</strong> (Everson Willian Esteves Galdino), AVANTE 70700: qualificação 6,3, idoneidade 9,0, competência 3,6. Continua na disputa.</li>
+<li><strong>Oscar Gutz</strong>, PL 22470: qualificação 6,2, idoneidade 8,0, competência 4,4. Abaixo do corte.</li>
+<li><strong>Paulinha</strong> (Ana Paula de Souza), REPUBLICANOS 10008: qualificação 6,2, idoneidade 10,0, competência 2,4. Continua na disputa.</li>
+<li><strong>Simone Tomkelski</strong> (Simone Aparecida Tomkelski), REPUBLICANOS 10137: qualificação 6,2, idoneidade 10,0, competência 2,4. Continua na disputa.</li>
+<li><strong>Alemão Goleiro</strong> (Edilberto dos Santos), AVANTE 70300: qualificação 6,2, idoneidade 9,0, competência 3,4. Continua na disputa.</li>
+<li><strong>Amarildo Narciso</strong>, PSOL 50789: qualificação 6,1, idoneidade 10,0, competência 2,2. Continua na disputa.</li>
+<li><strong>Leandro da Silva</strong>, REDE 18000: qualificação 6,0, idoneidade 9,0, competência 2,9. Continua na disputa.</li>
+<li><strong>Lobão Segurança</strong> (Vilson Caetano Estevao), PRD 25023: qualificação 6,0, idoneidade 9,5, competência 2,4. Continua na disputa.</li>
+<li><strong>Nilson José</strong> (Nilson José de Borba), AVANTE 70999: qualificação 6,0, idoneidade 9,0, competência 2,9. Continua na disputa.</li>
+<li><strong>Rosinha Pelo Povo</strong> (Rosinha Nichelatti Machado), PRD 25549: qualificação 6,0, idoneidade 9,5, competência 2,4. Continua na disputa.</li>
+<li><strong>Paulo Coelho</strong>, MDB 15077: qualificação 5,8, idoneidade 9,5, competência 2,2. Continua na disputa.</li>
+<li><strong>Josi Carvalho</strong> (Josiane dos Santos), PRD 25333: qualificação 5,7, idoneidade 9,5, competência 1,9. Continua na disputa.</li>
+<li><strong>Negão Barata</strong> (Idesio Fernandes), AVANTE 70888: qualificação 5,7, idoneidade 9,0, competência 2,4. Continua na disputa.</li>
+<li><strong>Voltolini Taxista</strong> (Aparecido Voltolini), PSD 55678: qualificação 5,7, idoneidade 9,0, competência 2,4. Continua na disputa.</li>
+<li><strong>Maria do Tatu</strong> (Maria do Carmo Moreira Kovalski), PSD 55282: qualificação 5,5, idoneidade 9,0, competência 1,9. Continua na disputa.</li>
+</ol></details>
+<h3>Outros cargos em Santa Catarina</h3><ul class="seo-links"><li><a href="/governador/sc/">Governador</a></li><li><a href="/senador/sc/">Senador</a></li><li><a href="/deputado-federal/sc/">Deputado federal</a></li></ul>
+<h3>Deputado estadual em outros estados</h3><ul class="seo-links"><li><a href="/deputado-estadual/ac/">Acre</a></li><li><a href="/deputado-estadual/al/">Alagoas</a></li><li><a href="/deputado-estadual/ap/">Amapá</a></li><li><a href="/deputado-estadual/am/">Amazonas</a></li><li><a href="/deputado-estadual/ba/">Bahia</a></li><li><a href="/deputado-estadual/ce/">Ceará</a></li><li><a href="/deputado-estadual/es/">Espírito Santo</a></li><li><a href="/deputado-estadual/go/">Goiás</a></li><li><a href="/deputado-estadual/ma/">Maranhão</a></li><li><a href="/deputado-estadual/mt/">Mato Grosso</a></li><li><a href="/deputado-estadual/ms/">Mato Grosso do Sul</a></li><li><a href="/deputado-estadual/mg/">Minas Gerais</a></li><li><a href="/deputado-estadual/pa/">Pará</a></li><li><a href="/deputado-estadual/pb/">Paraíba</a></li><li><a href="/deputado-estadual/pr/">Paraná</a></li><li><a href="/deputado-estadual/pe/">Pernambuco</a></li><li><a href="/deputado-estadual/pi/">Piauí</a></li><li><a href="/deputado-estadual/rj/">Rio de Janeiro</a></li><li><a href="/deputado-estadual/rn/">Rio Grande do Norte</a></li><li><a href="/deputado-estadual/rs/">Rio Grande do Sul</a></li><li><a href="/deputado-estadual/ro/">Rondônia</a></li><li><a href="/deputado-estadual/rr/">Roraima</a></li><li><a href="/deputado-estadual/sp/">São Paulo</a></li><li><a href="/deputado-estadual/se/">Sergipe</a></li><li><a href="/deputado-estadual/to/">Tocantins</a></li></ul>
+<p class="nota"><a href="/">Página inicial: todos os cargos e estados</a></p></section>
+<!-- /seo:conteudo -->
+
+  <footer class="rodape">
+    <p>Projeto independente de avaliação de candidatos, criado por André Felipe Suzano Massa com apoio de
+      inteligência artificial na pesquisa e na geração de conteúdo — por isso pode haver erros ou imprecisões.
+      Nenhuma nota substitui a leitura do plano de governo de cada candidato.</p>
+    <p class="rodape-links">
+      <a href="https://github.com/andre-fs-massa/meu-melhor-candidato" target="_blank" rel="noopener noreferrer">Código aberto no GitHub — colaboradores são bem-vindos</a>
+      <span class="sep" aria-hidden="true">·</span>
+      <a href="mailto:contact@afsm.me">Relatar um erro</a>
+    </p>
+    <p class="rodape-aviso" id="avisoGeral">As notas são uma avaliação própria do projeto, feita a partir de fontes públicas —
+      não são um índice oficial.</p>
+  </footer>
+</div>
+<div class="dica" id="dica" hidden></div>
+<script src="/dados.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>

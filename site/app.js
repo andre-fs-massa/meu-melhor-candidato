@@ -18,7 +18,7 @@
     if (!g.carregando) {
       g.carregando = new Promise((ok, falha) => {
         const s = document.createElement("script");
-        s.src = g.arquivo + "?v=" + DADOS.versao;
+        s.src = "/" + g.arquivo + "?v=" + DADOS.versao;
         s.onload = () => {
           const dados = (window.GRUPOS_CARREGADOS || {})[chave];
           if (!dados) return falha(new Error("grupo ausente no arquivo"));
@@ -173,6 +173,8 @@
     s.value = [escolhida, UF_PADRAO, ufs[0]].find(u => u && ufs.includes(u));
   }
   function ufAtual(cargo) { return cargo === "PRESIDENTE" ? "BR" : $("uf").value; }
+  // cada cargo/UF tem página própria (gerada por pipeline/gerar_paginas_seo.py): /deputado-federal/sp/, /presidente/
+  const urlGrupo = (cargo, uf) => "/" + cargo.toLowerCase().replace(/ /g, "-") + "/" + (uf === "BR" ? "" : uf.toLowerCase() + "/");
 
   // ---------- profundidade da pesquisa e conferência em bases oficiais ----------
   const BASE_INFO = Object.fromEntries((DADOS.bases_oficiais || []).map(b => [b.id, b]));
@@ -589,9 +591,14 @@
       rastrear("selecionar_grupo", { cargo: cargo, uf: uf, acao: acaoAtual });
       ultimoGrupo = chave;
     }
-    acaoAtual = "carga";
-    history.replaceState(null, "", "#" + cargo + "|" + uf);
     const onde = CARGO[cargo].rotulo + (uf === "BR" ? "" : " · " + UF_NOME[uf]);
+    // na página inicial sem escolha prévia, o endereço continua "/"; depois de escolher, vira o endereço da página do grupo
+    if (acaoAtual !== "carga" || location.pathname !== "/" || location.hash) {
+      history.replaceState(null, "", urlGrupo(cargo, uf));
+      // ao abrir a página, fica o título gerado para o buscador; só muda quando o eleitor troca de cargo ou estado
+      if (acaoAtual !== "carga") document.title = `${onde}: candidatos nas Eleições 2026 | Meu melhor candidato`;
+    }
+    acaoAtual = "carga";
     if (!g || g.status === "sem_verificacao") {
       $("cobertura").innerHTML = "";
       $("cobertura").className = "status alerta";
@@ -616,7 +623,8 @@
 
   function iniciar() {
     preencherCargos();
-    const h = decodeURIComponent(location.hash.slice(1)).split("|");
+    // endereço antigo com #CARGO|UF tem prioridade; senão, o grupo da página (data-grupo no <body>)
+    const h = decodeURIComponent(location.hash.slice(1) || document.body.dataset.grupo || "").split("|");
     const cargo = CARGO[h[0]] ? h[0] : "PRESIDENTE";
     $("cargo").value = cargo; preencherUfs(cargo, h[1]);
     $("cargo").addEventListener("change", () => { preencherUfs($("cargo").value, $("uf").value); acaoAtual = "cargo"; render(); });

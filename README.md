@@ -49,12 +49,16 @@ pip install -r requirements.txt
    python -m pipeline.mapear_escolaridade
    python -m pipeline.calcular_competencia_geral
    python -m pipeline.calcular_cobertura
-   python -m pipeline.exportar_prototipo        # gera site/dados.js (índice) e site/dados/<cargo>_<uf>.js (um por grupo)
+   python -m pipeline.exportar_prototipo        # gera site/dados.js (índice), site/dados/<cargo>_<uf>.js (um por grupo),
+                                                # as páginas site/<cargo>/<uf>/ e o site/sitemap.xml
    ```
 
    Qualquer linha `Aviso:` no stderr indica uma nota que diverge das tabelas de peso em `pipeline/pesos.py` —
    resolva antes de seguir.
-3. Abra `site/index.html` direto no navegador (funciona por duplo clique, sem servidor).
+3. Sirva a pasta `site/` e abra no navegador: `python -m http.server 8000 --directory site` → http://localhost:8000.
+   Os caminhos são absolutos (`/app.js`, `/dados/...`) porque cada cargo/UF tem página própria
+   (`/deputado-federal/sp/`), então abrir o `index.html` por duplo clique não funciona. Ao testar localmente, a
+   tag do Google Analytics envia visitas à propriedade de produção.
 
 Metodologia completa do funil de recomendação: [`docs/funil_recomendacao.md`](docs/funil_recomendacao.md).
 Os descontos de idoneidade seguem categorias fechadas com pesos em [`pipeline/pesos.py`](pipeline/pesos.py); as regras
