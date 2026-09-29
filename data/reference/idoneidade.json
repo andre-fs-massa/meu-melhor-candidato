@@ -3495,13 +3495,23 @@
     "190002548141": {
       "nome_urna": "BENEDITA DA SILVA",
       "cargo_pretendido": "SENADOR",
-      "nota": 10,
-      "motivo": "Deputada federal, 84 anos, mais de 4 décadas de carreira política (1ª mulher negra no Senado, 1994). Busca não encontrou processo, condenação ou pendência de registro.",
+      "nota": 8,
+      "motivo": "ESCRUTÍNIO 2026-09-29: busca mais funda achou ação de improbidade do MPRJ (−2); a condenação dos filhos por improbidade (funcionários fantasmas na Uerj) é de parentes e não desconta. || Deputada federal, 84 anos, mais de 4 décadas de carreira política (1ª mulher negra no Senado, 1994).",
       "fontes": [
-        "https://www.cnnbrasil.com.br/eleicoes/quem-e-benedita-da-silva-candidata-ao-senado-pelo-rio-de-janeiro/"
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-benedita-da-silva-candidata-ao-senado-pelo-rio-de-janeiro/",
+        "https://conjur.com.br/2015-abr-01/justica-rio-quebra-sigilo-fiscal-bancario-benedita-silva/",
+        "https://crusoe.com.br/diario/juiz-mantem-bloqueio-de-bens-de-benedita-da-silva-acusada-de-improbidade/",
+        "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2015-04/benedita-da-silva-e-acusada-de-improbidade",
+        "https://www.metropoles.com/brasil/improbidade-filhos-de-benedita-da-silva-e-ex-reitor-da-uerj-sao-condenados"
       ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Ré em ação civil de improbidade do MPRJ (2015) sobre cerca de R$ 33 milhões dos projetos Mulheres da Paz, Protejo e PEUS (2008-2011), geridos pela Secretaria estadual de Direitos Humanos que ela comandava; sigilos quebrados e bens bloqueados, bloqueio mantido depois. Desfecho não encontrado (a confirmar)."
+        }
+      ],
+      "escrutinado_em": "2026-09-29"
     },
     "190002542888": {
       "nome_urna": "CARLOS JORDY",
@@ -3566,19 +3576,37 @@
     "190002550184": {
       "nome_urna": "MARCELO CRIVELLA",
       "cargo_pretendido": "SENADOR",
-      "nota": 8,
-      "motivo": "Ex-prefeito do Rio (2017-2020), ex-senador (2003-2011, 2 mandatos), ex-ministro da Pesca, bispo da Igreja Universal. A inelegibilidade por abuso de poder é real e foi confirmada em 1ª instância eleitoral, mas está suspensa por decisão apertada (4x3) do TSE -- tratado como sub judice, não como inelegibilidade vigente, dado que a própria Justiça Eleitoral autorizou a candidatura nesta eleição.",
+      "nota": 3,
+      "motivo": "ESCRUTÍNIO 2026-09-29: busca mais funda achou a inelegibilidade revertida de 2020 (−2), a prisão preventiva com denúncia rejeitada (−1) e a ação de improbidade de R$ 32 mi (−2), além da inelegibilidade suspensa já registrada (−2). || Ex-prefeito do Rio (2017-2020), ex-senador (2003-2011, 2 mandatos), ex-ministro da Pesca, bispo da Igreja Universal. A inelegibilidade por abuso de poder é real e foi confirmada em 1ª instância eleitoral, mas está suspensa por decisão apertada (4x3) do TSE -- tratado como sub judice, não como inelegibilidade vigente, dado que a própria Justiça Eleitoral autorizou a candidatura nesta eleição.",
       "fontes": [
         "https://www.gazetadopovo.com.br/eleicoes/2026/tse-suspende-inelegibilidade-de-crivella-e-libera-candidatura-ao-senado/",
-        "https://www.poder360.com.br/poder-eleicoes-2026/tse-libera-marcelo-crivella-para-concorrer-nas-eleicoes/"
+        "https://www.poder360.com.br/poder-eleicoes-2026/tse-libera-marcelo-crivella-para-concorrer-nas-eleicoes/",
+        "https://www.brasildefato.com.br/2026/08/28/tre-rj-rejeita-denuncia-contra-marcelo-crivella-no-caso-do-qg-da-propina/",
+        "https://www.infomoney.com.br/politica/mp-denuncia-crivella-e-pede-devolucao-de-r-32-mi-aos-cofres-publicos/",
+        "https://istoe.com.br/tse-derruba-decisao-que-tornou-crivella-inelegivel-e-devolve-direitos-politicos",
+        "https://www.diariodepernambuco.com.br/noticia/politica/2020/09/por-unanimidade-tre-rj-torna-crivella-inelegivel.html",
+        "https://www.jb.com.br/rio/2024/10/1052391-qg-da-propina-tre-do-rio-declara-marcelo-crivella-inelegivel-por-8-anos.html"
       ],
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
           "categoria": "registro_contestado_sub_judice",
-          "descricao": "TRE-RJ havia declarado inelegibilidade de 8 anos por abuso de poder político/econômico (caso 'QG da Propina', ligado à gestão na Prefeitura do Rio e às eleições municipais de 2020). Em ago/2026 o TSE, por 4x3, referendou liminar (relator André Mendonça) que suspendeu a inelegibilidade e liberou a candidatura -- decisão apertada e contestada: 1 voto divergente no TRE-RJ questionou se os fatos seriam de 2016 (não 2020), e uma decisão preliminar na esfera penal já havia recomendado rejeitar a denúncia por falta de justa causa. Situação juridicamente não pacificada, resolvida provisoriamente a favor da candidatura."
+          "descricao": "TRE-RJ (out/2024) declarou inelegibilidade de 8 anos por abuso de poder nas eleições municipais de 2020 (caso 'QG da Propina'); em ago/2026 o TSE, por 4x3, referendou liminar do relator André Mendonça que suspendeu a inelegibilidade e liberou a candidatura. Situação não pacificada (a confirmar se a decisão do TRE julgou recurso, o que a tornaria condenação confirmada suspensa por liminar)."
+        },
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "TRE-RJ (set/2020, unânime) o declarou inelegível por usar evento da Comlurb (2018) para pedir votos para o filho; o TSE (out/2021) derrubou a inelegibilidade, mas manteve a condenação por conduta vedada com multa de R$ 15 mil."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Preso preventivamente em dez/2020 na operação 'QG da Propina' (depois solto); a denúncia criminal (fraude em licitações, notas frias, empresas de fachada) foi REJEITADA pelo TRE-RJ por 4x3 em 27/08/2026, por falta de indícios suficientes. Prisão preventiva sem condenação não conta como pena cumprida."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Ação civil de improbidade do MPRJ (dez/2025) contra ele e outras 10 pessoas pelo 'QG da Propina', pedindo devolução de R$ 32 milhões; sem notícia de recebimento até a pesquisa."
         }
-      ]
+      ],
+      "escrutinado_em": "2026-09-29"
     },
     "190002545553": {
       "nome_urna": "MARCOS DIAS",
