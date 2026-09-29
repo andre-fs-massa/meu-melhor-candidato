@@ -14744,10 +14744,16 @@
           "nome": "Manoel Severino",
           "partido": "PT",
           "tipo_ligacao": "suplente_de_chapa",
-          "ligacao_detalhe": "ex-presidente da Casa da Moeda; 1º suplente",
-          "tipo_pendencia": "nenhuma_encontrada",
-          "pendencia": "Nenhuma encontrada nesta busca (não exaustiva)",
-          "desconto": 0
+          "ligacao_detalhe": "1º suplente; ex-presidente da Casa da Moeda (2003-2005)",
+          "tipo_pendencia": "citado_ou_apuracao_preliminar",
+          "pendencia": "Deixou a Casa da Moeda em 2005 após ser citado nas investigações do Mensalão; nunca denunciado nem condenado (diz ter as contas aprovadas); a escolha foi criticada dentro do PT por Washington Quaquá",
+          "desconto": 1,
+          "achados": [
+            {
+              "categoria": "citado_ou_apuracao_preliminar",
+              "descricao": "Citado nas investigações do Mensalão (2005), sem denúncia nem condenação"
+            }
+          ]
         },
         {
           "nome": "Kleber Lucas",
@@ -14879,9 +14885,12 @@
           "contado": true
         }
       ],
-      "fontes": [],
+      "fontes": [
+        "https://temporealrj.com/benedita-manoel-severino-suplente-pt/",
+        "https://grupoportaldenoticias.com.br/quaqua-questiona-indicado-por-benedita-para-chapa-ao-senado-no-rj-envolvido-em-escandalos/"
+      ],
       "pesquisado_em": "2026-09-23",
-      "nota": 6,
+      "nota": 5,
       "motivo": "PADRONIZADO em 2026-09-24 (caciques = presidentes nacionais de todos os partidos da coligação oficial no TSE, com a mesma pendência por partido em todo o projeto): nota 9 -> 6. || Ver decomposição em 'apoiadores'.",
       "descontos_adicionais": [],
       "padronizado_em": "2026-09-24"
@@ -15022,10 +15031,10 @@
       "cargo_pretendido": "SENADOR",
       "apoiadores": [
         {
-          "nome": "Vagner Arruda dos Santos",
+          "nome": "Tânia Bastos (Tania Cristina Magalhães Bastos e Silva)",
           "partido": "REPUBLICANOS",
           "tipo_ligacao": "suplente_de_chapa",
-          "ligacao_detalhe": "1º suplente",
+          "ligacao_detalhe": "1º suplente (substituiu Vagner Arruda dos Santos); vereadora do Rio em 4º mandato",
           "tipo_pendencia": "nenhuma_encontrada",
           "pendencia": "Nenhuma encontrada nesta busca (não exaustiva)",
           "desconto": 0
@@ -15049,7 +15058,10 @@
           "desconto": 0
         }
       ],
-      "fontes": [],
+      "fontes": [
+        "https://diariodorio.com/quem-sao-os-candidatos-ao-senado-pelo-rio-de-janeiro-em-2026-seus-numeros-e-suplentes/",
+        "https://temporealrj.com/crivella-filho-suplentes/"
+      ],
       "pesquisado_em": "2026-09-23",
       "nota": 10,
       "motivo": "Ver decomposição em 'apoiadores'."
@@ -15066,9 +15078,41 @@
           "tipo_pendencia": "investigado_sem_denuncia",
           "pendencia": "Inquérito eleitoral sobre contas de campanha de 2018; MPE ofereceu acordo de não persecução penal; sem denúncia",
           "desconto": 1
+        },
+        {
+          "nome": "Elaine Diniz",
+          "partido": "PODE",
+          "tipo_ligacao": "suplente_de_chapa",
+          "ligacao_detalhe": "1º suplente (era 2ª; subiu após o TRE-RJ barrar Pastor Everaldo)",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada nesta busca (não exaustiva)",
+          "desconto": 0
+        },
+        {
+          "nome": "Rafael dos Santos Silva (Rafinha JJ)",
+          "partido": "PODE",
+          "tipo_ligacao": "suplente_de_chapa",
+          "ligacao_detalhe": "2º suplente (entrou em set/2026)",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada nesta busca (não exaustiva)",
+          "desconto": 0
+        },
+        {
+          "nome": "Pastor Everaldo (Everaldo Dias Pereira)",
+          "partido": "PODE",
+          "tipo_ligacao": "apoio_externo",
+          "ligacao_detalhe": "irmão do candidato; era o 1º suplente registrado",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Registro de 1º suplente indeferido pelo TRE-RJ em 14/09/2026 por ser apontado como líder de organização criminosa no governo Witzel ('milícia de gravata'); não recorreu ao TSE",
+          "desconto": 0,
+          "contado": false,
+          "razao_nao_contado": "Saiu da chapa (substituído); não há evidência de que controle a candidatura como padrinho. Decisão a confirmar com o usuário."
         }
       ],
-      "fontes": [],
+      "fontes": [
+        "https://temporealrj.com/tre-rj-chapa-marcos-dias-senado-pastor-everaldo/",
+        "https://temporealrj.com/marcos-dias-anuncia-novos-suplentes-ao-senado/"
+      ],
       "pesquisado_em": "2026-09-23",
       "nota": 9,
       "motivo": "Ver decomposição em 'apoiadores'."

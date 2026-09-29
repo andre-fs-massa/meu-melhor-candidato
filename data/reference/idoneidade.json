@@ -3516,12 +3516,14 @@
     "190002542888": {
       "nome_urna": "CARLOS JORDY",
       "cargo_pretendido": "SENADOR",
-      "nota": 7,
-      "motivo": "Deputado federal (PL-RJ), líder da oposição na Câmara, um dos aliados mais próximos de Bolsonaro. Assumiu a vaga de Márcio Canella, que retirou a candidatura após operação da PF.",
+      "nota": 6,
+      "motivo": "ESCRUTÍNIO 2026-09-29: busca mais funda achou a investigação por ameaça a vereador (2022), enviada ao TJRJ em 2025 (−1). || Deputado federal (PL-RJ), líder da oposição na Câmara, um dos aliados mais próximos de Bolsonaro. Assumiu a vaga de Márcio Canella, que retirou a candidatura após operação da PF.",
       "fontes": [
         "https://www.cnnbrasil.com.br/politica/bom-dia-meu-lider-leia-dialogo-que-embasou-operacao-contra-deputado-carlos-jordy/",
         "https://www.cartacapital.com.br/politica/bom-dia-meu-lider-o-que-a-pf-descobriu-sobre-carlos-jordy-e-fez-moraes-autorizar-operacao/",
-        "https://www.terra.com.br/noticias/brasil/politica/quem-e-carlos-jordy-deputado-que-bateu-boca-e-chamou-haddad-de-moleque,2d8c5cdec5f51ef922ea8b373348f852lo9entnw.html"
+        "https://www.terra.com.br/noticias/brasil/politica/quem-e-carlos-jordy-deputado-que-bateu-boca-e-chamou-haddad-de-moleque,2d8c5cdec5f51ef922ea8b373348f852lo9entnw.html",
+        "https://www.cartacapital.com.br/politica/por-ordem-de-kassio-acusacao-contra-carlos-jordy-por-ameaca-sai-do-stf-e-vai-a-1a-instancia/",
+        "https://www.terra.com.br/noticias/brasil/politica/stf-decide-que-carlos-jordy-nao-tem-direito-a-foro-privilegiado-em-acusacao-de-ameaca,8845cf14138a81a4033723c7d2735584sjbzcl8k.html"
       ],
       "pesquisado_em": "2026-09-23",
       "achados": [
@@ -3532,52 +3534,72 @@
         {
           "categoria": "investigacao_ou_acao_civil_em_curso",
           "descricao": "Alvo principal da 24ª fase da Operação Lesa Pátria (jan/2024, 'Bom dia meu líder'), com busca e apreensão autorizada por Moraes/STF: mensagens indicariam que ele orientou e teria poder de ordenar movimentações golpistas de apoiadores bolsonaristas no RJ ligadas ao 8 de janeiro de 2023. Sem denúncia formal confirmada até a pesquisa."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Investigado por ameaça ao vereador Túlio Mota (PSOL-Niterói) em ago/2022 ('eu te arrebento', filmado); em mai/2025 o STF (Nunes Marques) mandou a apuração para a 1ª instância no TJRJ; sem denúncia encontrada (crime de menor potencial, mesma régua de crime contra a honra, a confirmar). A apuração da Lesa Pátria segue sem denúncia encontrada."
         }
-      ]
+      ],
+      "escrutinado_em": "2026-09-29"
     },
     "190002535142": {
       "nome_urna": "CARLOS PORTINHO",
       "cargo_pretendido": "SENADOR",
       "nota": 10,
-      "motivo": "Senador por RJ desde 2019 (mandato até 2027, mas concorre à reeleição), engenheiro. Busca não encontrou processo, condenação ou pendência de registro.",
+      "motivo": "ESCRUTÍNIO 2026-09-29: Busca mais funda (2 buscas: processos, improbidade, TCE, ação civil) não achou pendência pessoal. || Senador por RJ desde 2019 (mandato até 2027, mas concorre à reeleição), engenheiro. Busca não encontrou processo, condenação ou pendência de registro.",
       "fontes": [
-        "https://www.cnnbrasil.com.br/eleicoes/quem-e-carlos-portinho-candidato-ao-senado-pelo-rio-de-janeiro/"
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-carlos-portinho-candidato-ao-senado-pelo-rio-de-janeiro/",
+        "https://en.wikipedia.org/wiki/Carlos_Portinho",
+        "https://radar.congressoemfoco.com.br/parlamentar/25936"
       ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [],
+      "escrutinado_em": "2026-09-29"
     },
     "190002543961": {
       "nome_urna": "HELIO SECCO",
       "cargo_pretendido": "SENADOR",
       "nota": 10,
-      "motivo": "Candidato pela Missão (MBL). Busca não encontrou pendência pessoal -- cobertura rasa (candidato de baixa exposição midiática).",
-      "fontes": [],
+      "motivo": "ESCRUTÍNIO 2026-09-29: Biólogo, doutor em ciências ambientais (UFRJ), consultor ambiental; foi candidato a vice-governador em 2022 pelo Novo. Busca por nome completo não achou pendência pessoal (cobertura rasa). || Candidato pela Missão (MBL). Busca não encontrou pendência pessoal -- cobertura rasa (candidato de baixa exposição midiática).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-helio-secco-candidato-ao-senado-pelo-rio-de-janeiro/",
+        "https://www.diariodorio.com/partido-missao-do-mbl-lanca-helio-secco-ao-senado-pelo-rio/"
+      ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [],
+      "escrutinado_em": "2026-09-29"
     },
     "190002552083": {
       "nome_urna": "LUCIANO MATTOS",
       "cargo_pretendido": "SENADOR",
       "nota": 10,
-      "motivo": "Candidato pelo PRTB. Busca não encontrou pendência pessoal -- cobertura rasa (candidato de baixa exposição midiática).",
-      "fontes": [],
+      "motivo": "ESCRUTÍNIO 2026-09-29: Ex-procurador-geral de Justiça do MPRJ (2021-2024, reconduzido por Castro como 2º da lista tríplice), primeira candidatura. Busca mais funda (2 buscas) não achou pendência pessoal; o nome aparece em processos como advogado. || Candidato pelo PRTB. Busca não encontrou pendência pessoal -- cobertura rasa (candidato de baixa exposição midiática).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-luciano-mattos-candidato-ao-senado-pelo-rio-de-janeiro/",
+        "https://oabrj.org.br/noticias/ex-procurador-geral-justica-retorna-advocacia-recebe-carteira-ordem",
+        "https://amaerj.org.br/noticias/castro-reconduz-luciano-mattos-segundo-lugar-na-lista-triplice-para-o-cargo-de-procurador-geral-de-justica/"
+      ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [],
+      "escrutinado_em": "2026-09-29"
     },
     "190002552521": {
       "nome_urna": "LUIZ EUGENIO",
       "cargo_pretendido": "SENADOR",
       "nota": 10,
-      "motivo": "Aposentado, candidato pelo PCO. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
-      "fontes": [],
+      "motivo": "ESCRUTÍNIO 2026-09-29: Metalúrgico aposentado da CSN, fundador do PCO, candidato a governador (2018) e prefeito (2020). Busca por nome completo não achou pendência pessoal (cobertura rasa). || Aposentado, candidato pelo PCO. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-luiz-eugenio-candidato-ao-senado-pelo-rio-de-janeiro/"
+      ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [],
+      "escrutinado_em": "2026-09-29"
     },
     "190002550184": {
       "nome_urna": "MARCELO CRIVELLA",
       "cargo_pretendido": "SENADOR",
-      "nota": 3,
-      "motivo": "ESCRUTÍNIO 2026-09-29: busca mais funda achou a inelegibilidade revertida de 2020 (−2), a prisão preventiva com denúncia rejeitada (−1) e a ação de improbidade de R$ 32 mi (−2), além da inelegibilidade suspensa já registrada (−2). || Ex-prefeito do Rio (2017-2020), ex-senador (2003-2011, 2 mandatos), ex-ministro da Pesca, bispo da Igreja Universal. A inelegibilidade por abuso de poder é real e foi confirmada em 1ª instância eleitoral, mas está suspensa por decisão apertada (4x3) do TSE -- tratado como sub judice, não como inelegibilidade vigente, dado que a própria Justiça Eleitoral autorizou a candidatura nesta eleição.",
+      "nota": 0,
+      "motivo": "ESCRUTÍNIO 2026-09-29: 2ª passada: a inelegibilidade do QG da Propina foi sentença de 1ª instância CONFIRMADA pelo TRE-RJ e só está suspensa por liminar do TSE (−4, régua de Edna Auzier/AP, no lugar de 'registro contestado' −2); somado o caso 'Guardiões do Crivella' (cassação e inelegibilidade decretadas em 1ª instância e afastadas pelo TRE-RJ, −2). || ESCRUTÍNIO 2026-09-29: busca mais funda achou a inelegibilidade revertida de 2020 (−2), a prisão preventiva com denúncia rejeitada (−1) e a ação de improbidade de R$ 32 mi (−2), além da inelegibilidade suspensa já registrada. || Ex-prefeito do Rio (2017-2020), ex-senador (2003-2011, 2 mandatos), ex-ministro da Pesca, bispo da Igreja Universal. A inelegibilidade por abuso de poder é real e foi confirmada em 1ª instância eleitoral, mas está suspensa por decisão apertada (4x3) do TSE -- tratado como sub judice, não como inelegibilidade vigente, dado que a própria Justiça Eleitoral autorizou a candidatura nesta eleição.",
       "fontes": [
         "https://www.gazetadopovo.com.br/eleicoes/2026/tse-suspende-inelegibilidade-de-crivella-e-libera-candidatura-ao-senado/",
         "https://www.poder360.com.br/poder-eleicoes-2026/tse-libera-marcelo-crivella-para-concorrer-nas-eleicoes/",
@@ -3585,13 +3607,19 @@
         "https://www.infomoney.com.br/politica/mp-denuncia-crivella-e-pede-devolucao-de-r-32-mi-aos-cofres-publicos/",
         "https://istoe.com.br/tse-derruba-decisao-que-tornou-crivella-inelegivel-e-devolve-direitos-politicos",
         "https://www.diariodepernambuco.com.br/noticia/politica/2020/09/por-unanimidade-tre-rj-torna-crivella-inelegivel.html",
-        "https://www.jb.com.br/rio/2024/10/1052391-qg-da-propina-tre-do-rio-declara-marcelo-crivella-inelegivel-por-8-anos.html"
+        "https://www.jb.com.br/rio/2024/10/1052391-qg-da-propina-tre-do-rio-declara-marcelo-crivella-inelegivel-por-8-anos.html",
+        "https://www.tre-rj.jus.br/comunicacao/noticias/2024/Outubro/crivella-e-condenado-por-abuso-de-poder-politico-e-economico",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2024-10/tre-rj-condena-crivella-por-abuso-de-poder-nas-eleicoes-de-2020",
+        "https://www.cnnbrasil.com.br/eleicoes/tse-da-liminar-e-libera-crivella-para-disputar-o-senado-pelo-rj/",
+        "https://exame.com/brasil/cassado-e-inelegivel-crivella-tera-que-pagar-multa-de-quase-meio-milhao-de-reais-entenda/",
+        "https://conjur.com.br/2023-jul-24/tre-rj-suspende-condenacao-crivella-abuso-poder-politico/",
+        "https://oantagonista.com.br/brasil/tre-rj-alivia-crivella-da-inelegibilidade-nao-de-multa/"
       ],
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "registro_contestado_sub_judice",
-          "descricao": "TRE-RJ (out/2024) declarou inelegibilidade de 8 anos por abuso de poder nas eleições municipais de 2020 (caso 'QG da Propina'); em ago/2026 o TSE, por 4x3, referendou liminar do relator André Mendonça que suspendeu a inelegibilidade e liberou a candidatura. Situação não pacificada (a confirmar se a decisão do TRE julgou recurso, o que a tornaria condenação confirmada suspensa por liminar)."
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Inelegibilidade de 8 anos por abuso de poder político e econômico nas eleições municipais de 2020 (AIJE derivada da Operação Hades, 'QG da Propina'): sentença de 1ª instância mantida pelo TRE-RJ em out/2024. Em ago/2026 o TSE, por 4x3, referendou liminar do ministro André Mendonça que suspendeu provisoriamente a inelegibilidade e liberou a candidatura (mesma régua de Edna Auzier/AP: condenação confirmada com efeitos suspensos por liminar)."
         },
         {
           "categoria": "condenacao_revertida",
@@ -3604,6 +3632,10 @@
         {
           "categoria": "investigacao_ou_acao_civil_em_curso",
           "descricao": "Ação civil de improbidade do MPRJ (dez/2025) contra ele e outras 10 pessoas pelo 'QG da Propina', pedindo devolução de R$ 32 milhões; sem notícia de recebimento até a pesquisa."
+        },
+        {
+          "categoria": "condenacao_revertida",
+          "descricao": "Caso 'Guardiões do Crivella' (servidores municipais que intimidavam jornalistas em hospitais, 2020): a 23ª Zona Eleitoral cassou o mandato de deputado federal, declarou inelegibilidade de 8 anos e aplicou multa de R$ 433 mil (mai/2023); o TRE-RJ, por 4x3 (mar/2024), afastou cassação e inelegibilidade e manteve só a multa."
         }
       ],
       "escrutinado_em": "2026-09-29"
@@ -3611,78 +3643,116 @@
     "190002545553": {
       "nome_urna": "MARCOS DIAS",
       "cargo_pretendido": "SENADOR",
-      "nota": 10,
-      "motivo": "Candidato pelo Podemos. Busca não encontrou pendência pessoal -- cobertura rasa (candidato de baixa exposição midiática).",
-      "fontes": [],
+      "nota": 9,
+      "motivo": "ESCRUTÍNIO 2026-09-29: impugnação do registro rejeitada pelo TRE-RJ (−1); o 1º suplente original (o irmão, Pastor Everaldo) foi barrado e substituído. || Pastor da Assembleia de Deus de Madureira, vereador do Rio (Podemos), irmão do Pastor Everaldo.",
+      "fontes": [
+        "https://temporealrj.com/tre-rj-chapa-marcos-dias-senado-pastor-everaldo/",
+        "https://temporealrj.com/marcos-dias-anuncia-novos-suplentes-ao-senado/",
+        "https://diariodorio.com/pastor-vereador-e-irmao-do-pastor-everaldo-marcos-dias-anuncia-pre-candidatura-ao-senado/"
+      ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Registro ao Senado impugnado com base na tese de 'milícia de gravata' (esquema atribuído ao irmão, Pastor Everaldo, no governo Witzel); o TRE-RJ (14/09/2026) deferiu o registro dele por unanimidade, por falta de provas contra ele, e barrou o irmão, que era o 1º suplente da chapa (mesma régua de Edna Auzier/AP: impugnação rejeitada −1)."
+        }
+      ],
+      "escrutinado_em": "2026-09-29"
     },
     "190002548589": {
       "nome_urna": "MICHELLY XAVIER",
       "cargo_pretendido": "SENADOR",
       "nota": 10,
-      "motivo": "Advogada, candidata da Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
-      "fontes": [],
+      "motivo": "ESCRUTÍNIO 2026-09-29: Advogada da Baixada Fluminense (Duque de Caxias), foi candidata a vice-prefeita em 2020 pelo PSOL. Busca por nome completo não achou pendência pessoal (cobertura rasa). || Advogada, candidata da Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-michelly-xavier-candidata-ao-senado-pelo-rio-de-janeiro/"
+      ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [],
+      "escrutinado_em": "2026-09-29"
     },
     "190002536164": {
       "nome_urna": "MONICA BENICIO",
       "cargo_pretendido": "SENADOR",
-      "nota": 10,
-      "motivo": "Arquiteta e urbanista, vereadora do Rio (2º mandato), candidata do PSOL. Busca não encontrou processo, condenação ou pendência de registro.",
+      "nota": 9,
+      "motivo": "ESCRUTÍNIO 2026-09-29: busca mais funda achou multa do TRE-RJ por propaganda negativa antecipada (−1). || Arquiteta e urbanista, vereadora do Rio (2º mandato), candidata do PSOL.",
       "fontes": [
-        "https://revistaforum.com.br/politica/monica-benicio-quem-e-a-candidata-pelo-senado-no-rj/"
+        "https://revistaforum.com.br/politica/monica-benicio-quem-e-a-candidata-pelo-senado-no-rj/",
+        "https://temporealrj.com/tre-rj-monica-benicio-post-pedro-paulo/",
+        "https://revistaforum.com.br/politica/monica-benicio-multa/",
+        "https://iclnoticias.com.br/justica-manda-monica-benicio-apagar-post/"
       ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multada em R$ 5 mil pelo TRE-RJ por propaganda eleitoral negativa antecipada (post que chamava Pedro Paulo de 'agressor de mulher' e 'miliciano'), com ordem de retirada; disse que recorreria."
+        }
+      ],
+      "escrutinado_em": "2026-09-29"
     },
     "190002539827": {
       "nome_urna": "PAULA FALCÃO",
       "cargo_pretendido": "SENADOR",
       "nota": 10,
-      "motivo": "Professora de ensino médio, candidata do PSTU. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
-      "fontes": [],
+      "motivo": "ESCRUTÍNIO 2026-09-29: Professora de educação física, diretora do SEPE-RJ, candidata a vice-prefeita do Rio em 2024. Busca por nome completo não achou pendência pessoal (cobertura rasa). || Professora de ensino médio, candidata do PSTU. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-paula-falcao-candidata-ao-senado-pelo-rio-de-janeiro/"
+      ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [],
+      "escrutinado_em": "2026-09-29"
     },
     "190002548145": {
       "nome_urna": "PEDRO PAULO",
       "cargo_pretendido": "SENADOR",
-      "nota": 9,
-      "motivo": "AUDITORIA 2026-09-24: checagem por amostragem de incumbentes com nota 10: faltava o inquérito por agressão arquivado em 2016 (-1) (nota 10 -> 9). || Economista, deputado federal em 4º mandato consecutivo desde 2011, reconhecido em rankings parlamentares por produtividade legislativa. Busca não encontrou processo, condenação ou pendência de registro.",
+      "nota": 8,
+      "motivo": "ESCRUTÍNIO 2026-09-29: busca mais funda achou a denúncia de caixa 2 da Odebrecht (2020), arquivada com a anulação das provas (−1). || AUDITORIA 2026-09-24: checagem por amostragem de incumbentes com nota 10: faltava o inquérito por agressão arquivado em 2016 (-1) (nota 10 -> 9). || Economista, deputado federal em 4º mandato consecutivo desde 2011, reconhecido em rankings parlamentares por produtividade legislativa. Busca não encontrou processo, condenação ou pendência de registro.",
       "fontes": [
         "https://www.cnnbrasil.com.br/eleicoes/quem-e-pedro-paulo-candidato-ao-senado-pelo-rio-de-janeiro/",
-        "https://noticias.stf.jus.br/postsnoticias/arquivado-inquerito-contra-deputado-pedro-paulo-por-agressao/"
+        "https://noticias.stf.jus.br/postsnoticias/arquivado-inquerito-contra-deputado-pedro-paulo-por-agressao/",
+        "https://www.diariodorio.com/alem-de-paes-deputado-federal-pedro-paulo-tambem-e-denunciado-em-inquerito-sobre-corrupcao/",
+        "https://www.poder360.com.br/justica/eduardo-paes-recebeu-r-108-milhoes-da-odebrecht-via-caixa-2-diz-mp-rj/",
+        "https://www.em.com.br/politica/platobr/2025/03/7089814-depois-de-oito-anos-inquerito-contra-paes-sobre-odebrecht-e-arquivado-no-stf.html"
       ],
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
           "categoria": "acusacao_anulada_ou_absolvida",
           "descricao": "Inquérito no STF (Inq 4199) por lesão corporal contra a então esposa arquivado em 2016 a pedido da PGR, que não viu crime; a ex-mulher mudou a versão e disse que ele apenas se defendeu"
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Denunciado em 2020 pelo MP Eleitoral (204ª Zona Eleitoral) junto com Eduardo Paes por corrupção, falsidade e lavagem ligadas a R$ 10,8 mi de caixa 2 da Odebrecht na campanha de 2012 (ele era chefe da Casa Civil e coordenador da campanha); as ações na Justiça Eleitoral foram arquivadas com a anulação das provas do acordo da Odebrecht pelo STF, e o inquérito no STF sobre R$ 300 mil na campanha dele de 2014 foi arquivado em mar/2025 (André Mendonça, a pedido da PGR). Nunca condenado."
         }
       ],
-      "auditado_em": "2026-09-24"
+      "auditado_em": "2026-09-24",
+      "escrutinado_em": "2026-09-29"
     },
     "190002548590": {
       "nome_urna": "VINICIUS BENEVIDES",
       "cargo_pretendido": "SENADOR",
       "nota": 10,
-      "motivo": "Operário da construção civil, candidato da Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
-      "fontes": [],
+      "motivo": "ESCRUTÍNIO 2026-09-29: Ambulante nos trens da Central e operário da construção civil, dirigente estadual da UP, candidato a vice-prefeito do Rio em 2024. Busca por nome completo não achou pendência pessoal (cobertura rasa). || Operário da construção civil, candidato da Unidade Popular. Busca não encontrou pendência pessoal -- cobertura rasa (partido pequeno).",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-vinicius-benevides-candidato-ao-senado-pelo-rio-de-janeiro/"
+      ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [],
+      "escrutinado_em": "2026-09-29"
     },
     "190002550182": {
       "nome_urna": "WAGUINHO",
       "cargo_pretendido": "SENADOR",
-      "nota": 1,
-      "motivo": "Ex-prefeito de Belford Roxo (múltiplos mandatos), presidente estadual do Republicanos-RJ. Combinação grave de condenação confirmada (Fundeb), réu em ação penal (licitação da dengue) e uma terceira frente -- pedido do MPE para indeferir o próprio registro ao Senado por contas rejeitadas mais recentes (2021-2022). Já havia sido documentado no projeto como padrinho político de Garotinho (Governador-RJ); agora é candidato direto.",
+      "nota": 0,
+      "motivo": "ESCRUTÍNIO 2026-09-29: registro ao Senado ainda sem decisão do TRE-RJ; nova menção em investigação da Draco sobre milícias (−1). || Ex-prefeito de Belford Roxo (múltiplos mandatos), presidente estadual do Republicanos-RJ. Combinação grave de condenação confirmada (Fundeb), réu em ação penal (licitação da dengue) e uma terceira frente -- pedido do MPE para indeferir o próprio registro ao Senado por contas rejeitadas mais recentes (2021-2022). Já havia sido documentado no projeto como padrinho político de Garotinho (Governador-RJ); agora é candidato direto.",
       "fontes": [
         "https://belfordroxo24h.com/justica-mantem-condenacao-waguinho-fundeb-belford-roxo/",
         "https://temporealrj.com/justica-mantem-condenacao-waguinho-ex-prefeito-belford-roxo-desvio-de-verba-fundeb/",
         "https://belfordroxo24h.com/waguinho-por-um-fio-mpe-indeferimento-candidatura-senado/",
-        "https://temporealrj.com/waguinho-bloqueio-430-milhoes/"
+        "https://temporealrj.com/waguinho-bloqueio-430-milhoes/",
+        "https://temporealrj.com/tre-rj-adia-julgamento-waguinho-senado/",
+        "https://belfordroxo24h.com/waguinho-investigacao-milicias-tre-rj-candidatura-senado/"
       ],
       "pesquisado_em": "2026-09-23",
       "achados": [
@@ -3697,19 +3767,26 @@
         {
           "categoria": "registro_contestado_sub_judice",
           "descricao": "O Ministério Público Eleitoral pede o indeferimento do registro de candidatura ao Senado com base na rejeição das contas de Belford Roxo de 2021 e 2022; decisão definitiva do TRE-RJ ainda pendente até a pesquisa."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Aparece como 'envolvido' numa investigação da Draco (Polícia Civil) sobre milícias; em set/2026 o TRE-RJ adiou o julgamento do registro ao Senado para pedir esclarecimentos sobre a natureza da menção (pode ser autor ou testemunha)."
         }
-      ]
+      ],
+      "escrutinado_em": "2026-09-29"
     },
     "190002550190": {
       "nome_urna": "Ó CLEMENTE",
       "cargo_pretendido": "SENADOR",
       "nota": 10,
-      "motivo": "Servidor público civil aposentado, 78 anos, candidato pelo Democrata; concorreu sem se eleger em 1998, 2002, 2004 e 2006 por outras siglas. Busca não encontrou pendência pessoal.",
+      "motivo": "ESCRUTÍNIO 2026-09-29: Busca por nome completo não achou pendência pessoal (cobertura rasa). || Servidor público civil aposentado, 78 anos, candidato pelo Democrata; concorreu sem se eleger em 1998, 2002, 2004 e 2006 por outras siglas. Busca não encontrou pendência pessoal.",
       "fontes": [
-        "https://www.plural.jor.br/clemente-sebastiao-de-almeida-campos/"
+        "https://www.plural.jor.br/clemente-sebastiao-de-almeida-campos/",
+        "https://boletimrj.com.br/clemente-sebastiao-pre-candidato-senado-fim-do-senado/"
       ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [],
+      "escrutinado_em": "2026-09-29"
     },
     "190002554290": {
       "nome_urna": "COMANDANTE RIBEIRO AFONSO",
