@@ -1,5 +1,5 @@
 {
-  "_leiame": "Nota de idoneidade (0-10) por candidato, pesquisada manualmente via busca na internet (processos judiciais, Ficha Limpa, contas rejeitadas, sanções éticas) -- não vem do TSE. É uma heurística própria deste projeto, não um índice oficial. Metodologia: parte de 10 e desconta por achado VERIFICADO por busca (nunca por suposição). Categorias e desconto: inelegibilidade Ficha Limpa vigente e não revertida (-6); condenação criminal com pena efetivamente cumprida (inclusive prisão), mesmo que anulada depois por vício processual/jurisdicional e não por absolvição de mérito (-5); réu em processo penal grave em curso, sem condenação (-3); investigação em curso (ex.: operação da PF) sem denúncia formal (-2); condenação por improbidade/abuso revertida em instância superior sem nunca ter havido prisão (-2); acusação anulada antes de qualquer condenação ou prisão (-1); contas rejeitadas/aprovadas com ressalva ou multa por conduta vedada (-1 cada); ação cível por danos morais fora da esfera penal (-0.5 a -1). A distinção central é entre 'nunca aconteceu' (desconto leve) e 'aconteceu de fato (prisão/pena cumprida) e só depois foi revertido por motivo processual' (desconto pesado), não apenas o status jurídico atual. Ausência de achado (nota 10) reflete o que a busca encontrou, não garantia de inexistência -- candidatos de partidos pequenos têm cobertura de imprensa muito menor. Cobre PRESIDENTE (14 candidatos, pesquisados em 2026-09-20) e GOVERNADOR do Rio de Janeiro (9 candidatos, pesquisados em 2026-09-20); expandir por estado/cargo conforme for pesquisado. EXPANDIDO 2026-09-21 para Governador em MG, RN, AL, PI, MS, ES(parcial), CE(parcial), AP(parcial), MA(parcial), RR(0), PA(parcial), PB(parcial) -- rodada interrompida por limite de sessao de busca web; cobertura de Governador fora do RJ ainda parcial, ver memoria do projeto para status exato por estado. ||| REVISÃO 2026-09-21 -- PADRONIZAÇÃO. Cada achado agora é classificado em uma categoria FECHADA com peso fixo em pipeline/pesos.py (PESOS_ACHADO), listada em 'achados'; a nota é 10 menos a soma dos pesos (tetos: réu em ação penal soma no máximo 6; ações cíveis por dano moral no máximo 3) e o pipeline avisa se a nota gravada divergir. Motivo: casos parecidos vinham com pesos diferentes, por exemplo suspensão de nomeações por suspeita de nepotismo (-3) pesando mais que uma condenação de 1ª instância por nepotismo (-2), ou um pedido de cancelamento de registro sem decisão (-4) pesando mais que um registro já indeferido (-2). Categorias incluídas na revisão além da escala original (marcadas [EXT] em pesos.py): condenação confirmada sem reversão (-4), condenação de 1ª instância recorrível (-2), cassação de mandato (-2), registro indeferido definitivo (-3), registro contestado/sub judice (-2), contas irregulares com ressarcimento (-2), infração eleitoral leve (-1), citado ou apuração preliminar (-1) e controvérsia administrativa (-0.5). Um pedido de impeachment arquivado sem mérito, ou o uso de um sobrenome no nome de urna sem irregularidade documentada, NÃO são achados verificados e não descontam. Notas 10 (54 candidatos sem achado) refletem apenas o que a busca encontrou; a profundidade da busca varia com a cobertura de imprensa do candidato, então 10 não é garantia de ausência de pendência.",
+  "_leiame": "Nota de idoneidade (0-10) por candidato, pesquisada manualmente via busca na internet (processos judiciais, Ficha Limpa, contas rejeitadas, sanções éticas) -- não vem do TSE. É uma heurística própria deste projeto, não um índice oficial. Metodologia: parte de 10 e desconta por achado VERIFICADO por busca (nunca por suposição). Categorias e desconto: inelegibilidade Ficha Limpa vigente e não revertida (-6); condenação criminal com pena efetivamente cumprida (inclusive prisão), mesmo que anulada depois por vício processual/jurisdicional e não por absolvição de mérito (-5); réu em processo penal grave em curso, sem condenação (-3); investigação em curso (ex.: operação da PF) sem denúncia formal (-2); condenação por improbidade/abuso revertida em instância superior sem nunca ter havido prisão (-2); acusação anulada antes de qualquer condenação ou prisão (-1); contas rejeitadas/aprovadas com ressalva ou multa por conduta vedada (-1 cada); ação cível por danos morais fora da esfera penal (-0.5 a -1). A distinção central é entre 'nunca aconteceu' (desconto leve) e 'aconteceu de fato (prisão/pena cumprida) e só depois foi revertido por motivo processual' (desconto pesado), não apenas o status jurídico atual. Ausência de achado (nota 10) reflete o que a busca encontrou, não garantia de inexistência -- candidatos de partidos pequenos têm cobertura de imprensa muito menor. Cobre PRESIDENTE (14 candidatos, pesquisados em 2026-09-20) e GOVERNADOR do Rio de Janeiro (9 candidatos, pesquisados em 2026-09-20); expandir por estado/cargo conforme for pesquisado. EXPANDIDO 2026-09-21 para Governador em MG, RN, AL, PI, MS, ES(parcial), CE(parcial), AP(parcial), MA(parcial), RR(0), PA(parcial), PB(parcial) -- rodada interrompida por limite de sessao de busca web; cobertura de Governador fora do RJ ainda parcial, ver memoria do projeto para status exato por estado. ||| REVISÃO 2026-09-21 -- PADRONIZAÇÃO. Cada achado agora é classificado em uma categoria FECHADA com peso fixo em pipeline/pesos.py (PESOS_ACHADO), listada em 'achados'; a nota é 10 menos a soma dos pesos (tetos: réu em ação penal soma no máximo 6; ações cíveis por dano moral no máximo 3) e o pipeline avisa se a nota gravada divergir. Motivo: casos parecidos vinham com pesos diferentes, por exemplo suspensão de nomeações por suspeita de nepotismo (-3) pesando mais que uma condenação de 1ª instância por nepotismo (-2), ou um pedido de cancelamento de registro sem decisão (-4) pesando mais que um registro já indeferido (-2). Categorias incluídas na revisão além da escala original (marcadas [EXT] em pesos.py): condenação confirmada sem reversão (-4), condenação de 1ª instância recorrível (-2), cassação de mandato (-2), registro indeferido definitivo (-3), registro contestado/sub judice (-2), contas irregulares com ressarcimento (-2), infração eleitoral leve (-1), citado ou apuração preliminar (-1) e controvérsia administrativa (-0.5). Um pedido de impeachment arquivado sem mérito, ou o uso de um sobrenome no nome de urna sem irregularidade documentada, NÃO são achados verificados e não descontam. Notas 10 (54 candidatos sem achado) refletem apenas o que a busca encontrou; a profundidade da busca varia com a cobertura de imprensa do candidato, então 10 não é garantia de ausência de pendência. ||| REVISÃO 2026-09-29 -- JUSTIÇA DOS PESOS (docs/revisao_pesos_idoneidade_2026-09-29.md): condenação de 1ª instância -3 (antes -2, menos que réu); condenação CRIMINAL confirmada -5 (nova; improbidade/abuso eleitoral confirmada segue -4); registro indeferido/contestado 0 (só marcador; a causa pessoal conta como achado próprio); contas rejeitadas/desaprovadas -2 e aprovadas com ressalva -0,5 (novas; multa segue -1); absolvição/rejeição/arquivamento por falta de provas -0,5 (nova), anulação/prescrição/arquivamento sem motivo conhecido segue -1; citado limitado a -2 no total; acordo de não persecução -2 (nova); cassação de mandato -3 (antes -2). Os pesos vigentes estão sempre em pipeline/pesos.py; os números citados acima neste texto são históricos.",
   "candidatos": {
     "280002542548": {
       "nome_urna": "LULA",
@@ -67,7 +67,7 @@
     "280002539826": {
       "nome_urna": "ZEMA",
       "cargo_pretendido": "PRESIDENTE",
-      "nota": 8,
+      "nota": 8.5,
       "motivo": "Contas de campanha de 2018 aprovadas com ressalvas pelo TRE-MG (uso de caminhões e lojas da própria empresa -- Grupo Zema/EletroZema -- como propaganda). Multa do TSE em 2024 por conduta vedada na campanha de 2022 (5 mil UFIRs). Nunca foi condenado ou preso.",
       "fontes": [
         "https://www.tre-mg.jus.br/comunicacao/noticias/2018/Dezembro/tre-aprova-com-ressalvas-as-contas-do-governador-eleito-romeu-zema",
@@ -76,7 +76,7 @@
       "pesquisado_em": "2026-09-20",
       "achados": [
         {
-          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "categoria": "contas_aprovadas_com_ressalva",
           "descricao": "Contas de campanha de 2018 aprovadas com ressalvas pelo TRE-MG"
         },
         {
@@ -376,7 +376,7 @@
     "130002539775": {
       "nome_urna": "ALEXANDRE KALIL",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 5,
+      "nota": 3,
       "motivo": "RECALCULADA em 2026-09-21: a nota anterior (3) tratava a condenação por improbidade do caso do condomínio como inelegibilidade vigente (-6), mas o TJMG (5ª Câmara Cível) REVERTEU essa condenação por unanimidade em 23/07/2026 (dolo exigido pela Lei 14.230/2021 não provado; o portão foi instalado em 2005, antes de Kalil ser prefeito) e restituiu os direitos políticos -- o MPMG ainda pode recorrer. Desconto agora: -2 condenação por improbidade revertida em instância superior, sem prisão; -2 condenação em 1ª instância (30/04/2026, 3ª Vara da Fazenda Pública Municipal de BH) por nepotismo -- nomeação, em out/2020, do irmão de uma ex-namorada que era assessora jurídica dele, com multa civil e proibição de contratar com o poder público por 2 anos, SEM suspensão de direitos políticos (processo distinto do anterior, ainda recorrível); -1 contas de campanha de 2016 desaprovadas pelo TSE (R$ 2,2 milhões devolvidos, recursos de origem não identificada). Não descontados por falta de condenação: acusação de 'pedalada fiscal' (déficits de R$ 20 bi em BH) e execução fiscal de R$ 35 milhões de empresa da qual é sócio. Total 10-2-2-1 = 5. As fontes de imprensa da nota anterior confundiam os dois processos (datas de ago/2025 e abr/2026).",
       "fontes": [
         "https://www.otempo.com.br/politica/2026/7/23/tjmg-absolve-kalil-de-acusacao-que-poderia-deixa-lo-inelegivel-por-cinco-anos",
@@ -396,7 +396,7 @@
           "descricao": "Condenação de 1ª instância em 30/04/2026 por nepotismo (multa civil e proibição de contratar por 2 anos), sem suspensão de direitos políticos"
         },
         {
-          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "categoria": "contas_rejeitadas",
           "descricao": "Contas de campanha de 2016 desaprovadas pelo TSE (R$ 2,2 mi devolvidos)"
         }
       ]
@@ -546,7 +546,11 @@
         },
         {
           "categoria": "registro_contestado_sub_judice",
-          "descricao": "AIJE da coligação 'Endireita RN' (de Álvaro Dias) no TRE-RN pede investigação/cassação por abuso de poder (set/2026); sem decisão"
+          "descricao": "Registro/diploma questionado na Justiça Eleitoral, sem decisão final (a ação pendente conta como achado próprio)."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Causa do pedido contra o registro/diploma (conduta pessoal, ação eleitoral pendente): AIJE da coligação 'Endireita RN' (de Álvaro Dias) no TRE-RN pede investigação/cassação por abuso de poder (set/2026); sem decisão"
         }
       ],
       "auditado_em": "2026-09-24"
@@ -576,7 +580,7 @@
     "200002550223": {
       "nome_urna": "CARLOS JARARACA",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 7,
+      "nota": 10,
       "motivo": "Registro de candidatura pelo DC INDEFERIDO pelo TRE-RN por pendência relativa ao CPF não resolvida a tempo -- foi substituído na chapa por Godeiro Linharess (ver entrada separada dele). Não é achado de natureza criminal/Ficha Limpa, é uma irregularidade administrativa de registro (pendência de CPF costuma estar ligada a situação fiscal/cadastral não regularizada) -- desconto moderado por ser um problema documentado que impediu a candidatura, sem qualificar como o mesmo nível de gravidade de inelegibilidade por condenação.",
       "fontes": [
         "https://novonoticias.com.br/dc-substitui-carlos-jararaca-por-godeiro-linhares-na-disputa-pelo-governo-do-rn/",
@@ -616,7 +620,7 @@
     "200002553301": {
       "nome_urna": "HENRIQUE LYRA",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 8,
+      "nota": 10,
       "motivo": "REVISADA em 2026-09-21: Antes 6. Pedido de cancelamento do registro pelo MPE, sem decisão, é 'registro contestado' (-2), o mesmo peso de Izadora Dias e Elizeu Aguiar; o desconto anterior (-4) era maior que o de Roberto Rocha, cujo registro já fora indeferido. Ministério Público Eleitoral (MPE) pediu, em 20/08/2026, o CANCELAMENTO do registro de candidatura dele -- ainda sem decisão final da Justiça Eleitoral até a pesquisa (candidato ainda vai apresentar defesa). Plano de governo apresentado é o documento padrão do PCO usado nacionalmente por outros candidatos do partido (inclusive Rui Costa Pimenta à Presidência), o que por si só não é irregularidade. Desconto por impugnação em curso, sem denúncia formal transitada.",
       "fontes": [
         "https://saibamais.jor.br/2026/08/rn-podera-ter-reducao-no-numero-de-candidatos-a-governador-entenda/"
@@ -672,7 +676,11 @@
         },
         {
           "categoria": "registro_contestado_sub_judice",
-          "descricao": "AIJE da coligação de Allyson e do Republicanos no TRE-RN pede cassação do registro e inelegibilidade de 8 anos dele e do vice Babá Pereira por uso indevido dos meios de comunicação (245 programas de rádio de pré-campanha entre mai/2025 e jun/2026); sem decisão. Os mesmos programas já renderam as condenações por propaganda antecipada contadas acima; aqui conta o pedido de cassação pendente"
+          "descricao": "Registro/diploma questionado na Justiça Eleitoral, sem decisão final (a ação pendente conta como achado próprio)."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Causa do pedido contra o registro/diploma (conduta pessoal, ação eleitoral pendente): AIJE da coligação de Allyson e do Republicanos no TRE-RN pede cassação do registro e inelegibilidade de 8 anos dele e do vice Babá Pereira por uso indevido dos meios de comunicação (245 programas de rádio de pré-campanha entre mai/2025 e jun/2026); sem decisão. Os mesmos programas já renderam as condenações por propaganda antecipada contadas acima; aqui conta o pedido de cassação pendente"
         }
       ],
       "auditado_em": "2026-09-24"
@@ -775,7 +783,7 @@
     "180002549920": {
       "nome_urna": "ELIZEU AGUIAR",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 6,
+      "nota": 8,
       "motivo": "Empresário, candidato pelo NOVO. Como diretor do Idepi (Instituto de Desenvolvimento do Piauí) em 2014, o TCU julgou suas contas IRREGULARES na aplicação de recursos federais destinados a Vila Nova do Piauí -- decisão transitada em julgado em 21/03/2026 (confirmada pela lista oficial do TCU de responsáveis com implicação eleitoral, prazo de 8 anos até 21/03/2034), com determinação de ressarcimento + multa de R$47 mil (-2, contas julgadas irregulares por órgão de controle). Em 2026, o TCU encaminhou essa decisão ao TRE-PI, e o Ministério Público Eleitoral pediu impugnação da candidatura por possível inelegibilidade -- ação ainda SEM julgamento definitivo até a pesquisa; defesa nega dolo (-2, ação de impugnação em curso, sem decisão final).",
       "fontes": [
         "https://folhaexpressa.com/politica/tcu-envia-ao-tre-pi-decisao-que-pode-barrar-candidatura-de-elizeu-aguiar-ao-governo-do-piaui/",
@@ -815,7 +823,7 @@
     "180002553722": {
       "nome_urna": "LOURDES MELO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 8,
+      "nota": 10,
       "motivo": "Professora aposentada, sindicalista histórica, candidata pelo PCO desde 2005. Nenhuma pendência jurídica pessoal encontrada. NOTA À PARTE (não afeta idoneidade): sofreu AVC hemorrágico em agosto/2026 e ficou internada em UTI -- questão de saúde, não de integridade. || PADRONIZAÇÃO 2026-09-22: TRE-PI concluiu em 15/09/2026 o julgamento de impugnações ao Governo do PI e indeferiu 5 das 11 candidaturas (a dele entre elas); cabe recurso ao TSE, ainda sem decisão até a pesquisa. Mesma categoria já usada para Carlos Jararaca (RN) e Policial Edjane (SP): registro contestado e sub judice, não indeferimento definitivo (-2). Antes: nota 10 sem esse desconto.",
       "fontes": [
         "https://www.itatiaia.com.br/politica/eleicoes/conheca-a-carreira-politica-de-lourdes-melo-pre-candidata-ao-governo-do-piaui/",
@@ -847,7 +855,7 @@
     "180002548565": {
       "nome_urna": "PROFESSOR JURITY",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 8,
+      "nota": 10,
       "motivo": "ATENÇÃO: candidatura REJEITADA pelo TRE-PI (indeferida em 11/09/2026), mas por IRREGULARIDADE DO PRÓPRIO PARTIDO (DRAP -- Demonstrativo de Regularidade de Atos Partidários do Democracia Cristã negado), não por conduta pessoal dele -- servidor público estadual, sem achado de processo/Ficha Limpa/contas rejeitadas pessoais na busca. Mesma lógica já documentada no projeto (presença no arquivo TSE não é candidatura viável), mas aqui a causa é organizacional do partido, não idoneidade pessoal -- por isso nota não sofre desconto de integridade. || PADRONIZAÇÃO 2026-09-22: revista a decisão de 2026-09-21 de NÃO descontar (a nota tinha ficado em 10 com o argumento de que a causa era só do partido). Por consistência com Carlos Jararaca (RN) e Policial Edjane (SP) -- que também tiveram registro/chapa indeferido por motivo majoritariamente documental/organizacional e mesmo assim receberam o desconto -- aplica-se aqui o mesmo -2 de registro_contestado_sub_judice. TRE-PI concluiu o julgamento das 5 impugnações ao Governo do PI em 15/09/2026; cabe recurso ao TSE, sem decisão até a pesquisa.",
       "fontes": [
         "https://lupa1.com.br/noticias/politica/tre-pi-indefere-registro-de-professor-jurity-para-disputar-o-governo-do-piaui-74709.html",
@@ -876,7 +884,7 @@
     "180002548388": {
       "nome_urna": "RAVENNA DA INCLUSÃO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 8,
+      "nota": 10,
       "motivo": "Advogada, candidata pelo DEMOCRATA (já disputou governo do estado em 2022 pelo então PMN/atual Mobiliza). Nenhuma pendência jurídica pessoal encontrada. || PADRONIZAÇÃO 2026-09-22: TRE-PI concluiu em 15/09/2026 o julgamento de impugnações ao Governo do PI e indeferiu 5 das 11 candidaturas (a dele entre elas); cabe recurso ao TSE, ainda sem decisão até a pesquisa. Mesma categoria já usada para Carlos Jararaca (RN) e Policial Edjane (SP): registro contestado e sub judice, não indeferimento definitivo (-2). Antes: nota 10 sem esse desconto.",
       "fontes": [
         "https://tmc.com.br/eleicoes/candidato/ravenna-da-inclusao/",
@@ -895,7 +903,7 @@
     "180002537422": {
       "nome_urna": "GERALDO CARVALHO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 8,
+      "nota": 10,
       "motivo": "Sociólogo, professor da UFPI, ex-presidente do Sindicato dos Bancários do Piauí e liderança do ANDES-SN, candidato pelo PSTU pela 2ª vez consecutiva. Nenhuma pendência jurídica pessoal encontrada. || PADRONIZAÇÃO 2026-09-22: TRE-PI concluiu em 15/09/2026 o julgamento de impugnações ao Governo do PI e indeferiu 5 das 11 candidaturas (a dele entre elas); cabe recurso ao TSE, ainda sem decisão até a pesquisa. Mesma categoria já usada para Carlos Jararaca (RN) e Policial Edjane (SP): registro contestado e sub judice, não indeferimento definitivo (-2). Antes: nota 10 sem esse desconto.",
       "fontes": [
         "https://ndmais.com.br/eleicoes/2026/candidatos/pi/governador/16-geraldo-carvalho/",
@@ -914,7 +922,7 @@
     "180002550421": {
       "nome_urna": "GUSTAVO PELO PIAUÍ OU GUSTAVO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 8,
+      "nota": 10,
       "motivo": "ATENÇÃO: candidatura com registro CANCELADO pelo TRE-PI (a convenção estadual do Avante de 30/07/2026 que o lançou foi invalidada por disputa interna sobre legitimidade de quem podia convocá-la -- ele presidiu a comissão provisória até 30/06/2026, mas convocou a convenção depois desse prazo). A executiva nacional do Avante também suspendeu a candidatura. O TSE concedeu liminar dando 'novo fôlego' ao caso, mas o impasse seguia sem solução definitiva até a pesquisa. Causa é disputa de poder interna do partido, não conduta pessoal dele -- advogado, presidiu o diretório estadual do Avante desde abril/2026. Nenhum achado de processo/Ficha Limpa pessoal. || PADRONIZAÇÃO 2026-09-22: TRE-PI concluiu em 15/09/2026 o julgamento de impugnações ao Governo do PI e indeferiu 5 das 11 candidaturas (a dele entre elas); cabe recurso ao TSE, ainda sem decisão até a pesquisa. Mesma categoria já usada para Carlos Jararaca (RN) e Policial Edjane (SP): registro contestado e sub judice, não indeferimento definitivo (-2). Antes: nota 10 sem esse desconto.",
       "fontes": [
         "https://lupa1.com.br/noticias/politica/tre-pi-invalida-convencao-e-determina-cancelamento-da-candidatura-de-gustavo-henrique-ao-governo-do-piaui-73008.html",
@@ -946,7 +954,7 @@
     "120002552155": {
       "nome_urna": "DELCIDIO AMARAL",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 6,
+      "nota": 5.5,
       "motivo": "AUDITORIA 2026-09-24: a prisão de 2015 foi PREVENTIVA e ele foi absolvido em 2018 -- 'condenação com pena cumprida' (-5) exige condenação; a prisão preventiva de Marconi Perillo, por exemplo, não foi contada assim. Passa a 'acusação absolvida' (-1); entra a condenação cível por danos morais a Lula (-1); segue a cassação do mandato (-2) (nota 3 -> 6). || REVISADA em 2026-09-21: Nota mantida (3), agora decomposta. Registro de 2026 deferido pelo TRE-MS. Preso em novembro/2015 na Operação Lava Jato, acusado de tentar obstruir as investigações (interferir em delações de outros réus). Mandato de senador cassado pelo Senado em 2016 -- ficou inelegível por 11 anos. Deixou a prisão via acordo de delação premiada (primeiro político a colaborar na Lava Jato), não por absolvição de mérito. Prisão efetivamente cumprida + cassação de mandato, sem indicação encontrada de reversão judicial da condenação -- desconto pesado por padrão do projeto (condenação com pena efetivamente cumprida).",
       "fontes": [
         "https://platobr.com.br/delcidio-do-amaral-do-auge-a-cassacao-e-de-volta-a-urna",
@@ -959,7 +967,7 @@
       "pesquisado_em": "2026-09-21",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Preso PREVENTIVAMENTE em nov/2015 (Lava Jato, tentativa de obstruir a delação de Nestor Cerveró), solto em fev/2016 após acordo de delação; no processo de obstrução foi ABSOLVIDO pela Justiça Federal do DF em jul/2018 (junto com Lula e outros), por insuficiência de provas. Nunca foi condenado criminalmente"
         },
         {
@@ -1053,7 +1061,7 @@
     "80002552172": {
       "nome_urna": "RICARDO FERRAÇO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "RECONFERIDO em 2026-09-22 (sessão anterior tinha ressalva de busca incompleta por limite de sessão). Governador em exercício do ES (assumiu em abril/2026 quando Casagrande saiu para disputar o Senado); antes, vice-governador eleito em 2022. Achado: inquérito da Lava Jato (delação da Odebrecht) por suposto repasse não contabilizado de R$400 mil à campanha ao Senado de 2010 -- arquivado pelo STF (ministro Barroso) em 2018 por falta de provas pessoais/documentais/periciais após tramitação excessivamente longa, sem denúncia. Descartado (sem relação pessoal, ele próprio pediu investigação ampla): escândalo da Apex Partners (plataforma de investimentos com ~R$1 bi em prejuízos), da qual o FILHO dele, Pedro Ferraço, é sócio -- sem indício de envolvimento do governador.",
       "fontes": [
         "https://www.meon.com.br/noticias/barroso-determina-arquivamento-de-inquerito-da-odebrecht-contra-ferraco",
@@ -1062,7 +1070,7 @@
       "pesquisado_em": "2026-09-22",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Inquérito da delação Odebrecht (R$400 mil não contabilizados, campanha ao Senado de 2010) arquivado pelo STF em 2018 por falta de provas; sem denúncia"
         }
       ]
@@ -1162,7 +1170,7 @@
     "100002551399": {
       "nome_urna": "ROBERTO ROCHA",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 8,
+      "nota": 10,
       "motivo": "Ex-senador (2015-2023), longa carreira política. TRE-MA indeferiu o registro de candidatura dele por questionamento sobre sua filiação ao PRTB (recém-filiado); ele recorreu ao TSE. Não é achado de corrupção/crime -- é disputa administrativa de registro de candidatura, mas a instabilidade/sub judice justifica desconto leve. Busca não encontrou processo criminal ou Ficha Limpa.",
       "fontes": [
         "https://ndmais.com.br/politica/roberto-rocha-tem-candidatura-a-governador-indeferida-no-maranhao-e-promete-recorrer-ao-tse/",
@@ -1330,7 +1338,7 @@
     "250002549705": {
       "nome_urna": "FERNANDO HADDAD",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Acusado pelo MP-SP de improbidade por suposto caixa 2 na campanha de prefeito de 2012 (R$ 2,6 milhões de dívidas pagas pela UTC Engenharia a uma gráfica, segundo delação de Ricardo Pessoa). ABSOLVIDO NO MÉRITO: a 7ª Câmara de Direito Público do TJ-SP confirmou por unanimidade a absolvição (relator: 'improbidade não caracterizada', pagamentos sem recursos do erário), e o TRE-SP também o absolveu por unanimidade da acusação eleitoral de caixa 2 (2021). Nunca houve condenação nem prisão. Desconto -1 por ter sido réu em acusação séria antes da absolvição. RESSALVA: busca focada nesse caso e em pendências gerais; não explorou toda a atuação como ministro da Fazenda. || Reconferido em 2026-09-22: nenhum achado pessoal novo.",
       "fontes": [
         "https://www.cnnbrasil.com.br/politica/tj-de-sao-paulo-confirma-absolvicao-de-haddad-em-acao-sobre-caixa-2/",
@@ -1341,7 +1349,7 @@
       "pesquisado_em": "2026-09-22",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Acusado de improbidade por suposto caixa 2 na campanha de 2012 (UTC); absolvido no mérito pelo TJ-SP e pelo TRE-SP, por unanimidade"
         }
       ]
@@ -1373,7 +1381,7 @@
     "250002553062": {
       "nome_urna": "IZADORA DIAS",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 8,
+      "nota": 10,
       "motivo": "CONFIRMADO 2026-09-22 (estava com ressalva de status não confirmado): Nenhuma pendência PESSOAL encontrada (estudante de Letras na USP, militante do PCO desde 2018). O colegiado do TRE-SP votou em 03/09/2026 por negar o DRAP do PCO em SP (~28 candidatos afetados); ainda não é decisão final (embargos de declaração apresentados, cabe recurso ao TSE). Mesmo critério usado para os casos equivalentes do PCO/PSTU/Democrata/Avante/DC no Piauí: registro contestado sub judice (-2), não achado pessoal dela. Total 10-2 = 8.",
       "fontes": [
         "https://causaoperaria.org.br/2026/em-entrevista-izadora-dias-denuncia-indeferimento-de-sua-candidatura/",
@@ -1391,7 +1399,7 @@
     "250002548080": {
       "nome_urna": "POLICIAL EDJANE",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 7,
+      "nota": 10,
       "motivo": "CANDIDATURA INDEFERIDA PELO TRE-SP em 18/09/2026 (unânime, recursos rejeitados) e ela saiu da corrida: o segundo vice (Nayr Duarte) renunciou para disputar deputado, como já fizera a primeira (Renata Bolsonaro); ela não comprovou o afastamento da PM (só o pedido de licença, sem a resposta oficial) nem apresentou certidão criminal da Justiça estadual. O Agir passou a apoiar Tarcísio. Desconto -3 pelo indeferimento -- questão administrativa/processual, não achado criminal ou de Ficha Limpa (mesmo critério de Carlos Jararaca/RN). Nenhum processo penal ou punição pessoal encontrado (a busca só retornou uma homônima, 'Edjane dos Santos', em Sergipe -- descartada). Trajetória: 4 candidaturas por 4 partidos desde 2020 (PTB, PROS, PL, Agir), nenhuma eleita; não declarou bens em 2026. AINDA CONSTA no arquivo do TSE.",
       "fontes": [
         "https://www.cnnbrasil.com.br/eleicoes/tre-rejeita-candidatura-de-policial-edjane-ao-governo-de-sp/",
@@ -1469,7 +1477,7 @@
     "50002536579": {
       "nome_urna": "ESTÊVÃO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 7,
+      "nota": 10,
       "motivo": "Administrador. Candidatura ao governo pelo DC INDEFERIDA pelo TRE-BA (decisão unânime: a convenção do grupo dele não foi homologada como ato partidário válido) e o recurso ao TSE foi rejeitado por unanimidade em setembro/2026 -- fora da disputa de forma definitiva (mesmo critério de Pablo Marçal e Carlos Jararaca/RN). Questão de legitimidade de convenção partidária, não achado criminal/Ficha Limpa pessoal.",
       "fontes": [
         "https://www.bahianoticias.com.br/noticia/320335-tre-ba-indefere-candidatura-de-jose-estevao-e-confirma-ariel-capistrano-como-candidato-do-dc-ao-governo-da-bahia"
@@ -1613,7 +1621,7 @@
     "210002547857": {
       "nome_urna": "ZUCCO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Deputado federal (desde 2023), policial (tenente-coronel). Duas questões checadas: (1) o registro de candidatura foi inicialmente inscrito SEM plano de governo -- o TRE-RS intimou a chapa e deu 72h de prazo; o documento foi protocolado dentro do prazo legal (14/08/2026) -- questão administrativa resolvida, não achado de conduta. (2) A PF investigou-o, a partir de 2023, por suposto patrocínio/incentivo a atos antidemocráticos (8 de janeiro) em razão de uma postagem/manifestação em frente ao Comando Militar do Sul em nov/2022 -- o ministro Alexandre de Moraes ARQUIVOU a apuração em 24/07/2023, concordando com parecer da PGR; decisão final, favorável a ele (-1).",
       "fontes": [
         "https://www.jornaldocomercio.com/politica/2026/08/1259488-apos-registrar-candidatura-sem-plano-de-governo-zucco-protocola-documento.html",
@@ -1622,7 +1630,7 @@
       "pesquisado_em": "2026-09-22",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "PF investigou por suposto incentivo a atos antidemocráticos (pós 8/1); Moraes arquivou a apuração em 24/07/2023, concordando com a PGR -- decisão final, favorável"
         }
       ]
@@ -1731,7 +1739,7 @@
     "170002541258": {
       "nome_urna": "PROFESSOR JEREMIAS DO BANCO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 7,
+      "nota": 10,
       "motivo": "Professor de ensino médio. Candidatura ao governo pelo Democrata INDEFERIDA pelo TRE-PE por irregularidades na composição do diretório estadual do partido; a defesa não se manifestou dentro do prazo de 5 dias para recorrer -- decisão consolidada, fora da disputa (mesmo critério de Marçal/Estêvão-BA/Jararaca-RN). Questão de legitimidade partidária, não achado criminal/Ficha Limpa pessoal.",
       "fontes": [
         "https://www.cbnrecife.com/2026/09/15/tre-pe-indefere-candidatura-do-professor-jeremias-do-banco-ao-governo/"
@@ -1879,7 +1887,7 @@
     "140002554434": {
       "nome_urna": "RUTH REIS",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 8,
+      "nota": 10,
       "motivo": "Advogada. Assumiu a candidatura ao governo do Democrata (era vice) depois que o partido substituiu preventivamente José Moita, cujo registro tinha sido questionado pelo MPE por problema de domicílio eleitoral (transferência em 15/04/2026, fora do prazo). O pedido de substituição em nome dela ainda estava pendente de julgamento pelo TRE-PA em meados de setembro/2026 -- o TRE concluiu o julgamento do grosso dos 791 registros em 14/09/2026, mas excluiu explicitamente substituições apresentadas recentemente desse lote, tratadas em processo separado; não encontrei confirmação de decisão final até a pesquisa.",
       "fontes": [
         "https://diariodopara.com.br/eleicoes-2026/candidato-deixa-corrida-ao-governo-do-para-por-problema-no-domicilio-eleitoral/",
@@ -1907,7 +1915,7 @@
     "100002552700": {
       "nome_urna": "DIMAS CASSIMIRO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 8,
+      "nota": 10,
       "motivo": "Professor universitário, natural de Teresina (PI), terceira candidatura (dep. estadual 2018 e dep. federal no pleito seguinte, sem se eleger). TRE-MA indeferiu por unanimidade o registro dele em 16/09/2026 -- relator fundamentou em ausência de comprovação de alfabetização (foi notificado mais de uma vez para apresentar documentação ou comparecer a teste de alfabetização em zona eleitoral e não o fez). Não é achado de corrupção/crime -- é questão administrativa de registro; ele tem direito de recorrer ao TSE, recurso ainda sem decisão até a pesquisa. Tratado como sub judice (mesmo critério de Roberto Rocha/MA e Ruth Reis/PA), não como indeferimento definitivo.",
       "fontes": [
         "https://oimparcial.com.br/noticias/2026/09/por-unanimidade-tre-ma-barra-candidatura-de-dimas-cassimiro-ao-governo-do-estado/",
@@ -2060,7 +2068,7 @@
     "90002543463": {
       "nome_urna": "MARCONI PERILLO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 2,
+      "nota": 1,
       "motivo": "Ex-governador de GO por 4 mandatos, com múltiplas pendências jurídicas ativas: (1) réu desde 2017 por corrupção passiva no caso Delta/Carlinhos Cachoeira (suposto recebimento de vantagem indevida de empreiteira em troca de contratos estaduais, 2011-2012) -- preso preventivamente em 2018, recurso da defesa rejeitado pelo STJ em 2025-2026, processo ainda sem trânsito em julgado; (2) condenado pela Justiça Eleitoral em 2020 por caixa 2 na campanha ao Senado de 2006 (pena convertida em prestação de serviços comunitários e multa de R$18 mil), condenação ainda recorrível; (3) fev/2025: PF apreendeu R$28 milhões por suspeita de desvio de recursos da saúde de Goiás (2012-2018); STF (Gilmar Mendes) suspendeu o inquérito em mar/2025, confirmado pela 2ª Turma; (4) investigação por suposto recebimento de R$12 milhões em propina de empreiteiras (Operação Cash Delivery, delação da Odebrecht) arquivada em abr/2024 por excesso de prazo, sem denúncia. Foi inocentado de acusações paralelas de peculato, associação criminosa e fraude processual no caso do caixa 2.",
       "fontes": [
         "https://www.jornalopcao.com.br/ultimas-noticias/marconi-perillo-e-reu-em-acao-por-corrupcao-passiva-e-teve-recurso-rejeitado-pelo-stj-863647/",
@@ -2157,7 +2165,7 @@
     "40002532272": {
       "nome_urna": "OMAR AZIZ",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Ex-governador do AM (2010-2014) e senador. Foi alvo, desde 2016/2019 (Operação Maus Caminhos/Vértex), de investigação por suposto desvio de R$260 milhões da saúde estadual via o Instituto Novos Caminhos -- PF chegou a bloquear R$92 milhões e prender temporariamente a esposa (ex-primeira-dama) e 3 irmãos dele, mas o próprio Omar Aziz nunca foi preso, denunciado nem virou réu: o procedimento investigativo contra ele pessoalmente foi ARQUIVADO por falta de elementos que justificassem a continuidade.",
       "fontes": [
         "https://amazonasatual.com.br/entenda-a-investigacao-contra-omar-aziz-e-os-motivos-da-prisao-de-nejmi/",
@@ -2166,7 +2174,7 @@
       "pesquisado_em": "2026-09-22",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Investigado na Operação Maus Caminhos (desvio de R$260 mi da saúde do AM); procedimento contra ele arquivado por falta de elementos, nunca virou réu"
         }
       ]
@@ -2209,7 +2217,11 @@
         },
         {
           "categoria": "registro_contestado_sub_judice",
-          "descricao": "MPE pediu (set/2026) a cassação do registro dele e do vice por suposto uso eleitoral de benefícios públicos (Programa Governo Presente); sem decisão do TRE-AM"
+          "descricao": "Registro/diploma questionado na Justiça Eleitoral, sem decisão final (a ação pendente conta como achado próprio)."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Causa do pedido contra o registro/diploma (conduta pessoal, ação eleitoral pendente): MPE pediu (set/2026) a cassação do registro dele e do vice por suposto uso eleitoral de benefícios públicos (Programa Governo Presente); sem decisão do TRE-AM"
         }
       ]
     },
@@ -2330,11 +2342,15 @@
       "achados": [
         {
           "categoria": "registro_contestado_sub_judice",
-          "descricao": "AIJE pede cassação/inelegibilidade por contratação de milhares de servidores temporários em ano eleitoral; sem decisão"
+          "descricao": "Registro/diploma questionado na Justiça Eleitoral, sem decisão final (a ação pendente conta como achado próprio)."
         },
         {
           "categoria": "citado_ou_apuracao_preliminar",
           "descricao": "TRE-PB mandou preservar provas sobre suposto uso do gabinete do vice-governador para articulação eleitoral (16/04/2026); apuração preliminar"
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Causa do pedido contra o registro/diploma (conduta pessoal, ação eleitoral pendente): AIJE pede cassação/inelegibilidade por contratação de milhares de servidores temporários em ano eleitoral; sem decisão"
         }
       ]
     },
@@ -2416,7 +2432,7 @@
     "110002551737": {
       "nome_urna": "WELLINGTON FAGUNDES",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 3,
+      "nota": 2,
       "motivo": "AUDITORIA 2026-09-24: só rótulo: condenação por improbidade (autopromoção em obras) estava como 'contas irregulares'; instância final não confirmada, passa a 'condenação de 1ª instância recorrível' (mesmo peso -2) (nota 3 -> 3). || Senador (desde 2015), veterinário. (1) Réu no STF desde 2018 por corrupção passiva e lavagem de dinheiro na Máfia das Ambulâncias/Sanguessugas (compra de ambulâncias superfaturadas da empresa Planan via emendas parlamentares, 2001-2006, quando deputado federal) -- processo aguardava alegações finais para sentença na Justiça Federal de MT até a pesquisa, sem trânsito em julgado. (2) PF investiga (inquérito com prazo estendido) suposto recebimento de caixa 2 da JBS na campanha de 2014. (3) CONDENADO por improbidade administrativa por autopromoção pessoal em obras públicas federais (outdoors e placas em Rondonópolis) -- multa civil de 3x o salário, direitos políticos mantidos por decisão judicial que considerou desproporcional suspendê-los.",
       "fontes": [
         "https://www.reportermt.com/poderes/apos-12-anos-wellington-fagundes-vira-reu-por-corrupcao-passiva-e-lavagem-de-dinheiro/77928",
@@ -2884,7 +2900,7 @@
     "270002546368": {
       "nome_urna": "SUBTENENTE LUIZ CARLOS",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 7,
+      "nota": 10,
       "motivo": "Subtenente da reserva da PM do Tocantins. A chapa dele (com o vice Jair Medeiros) foi INDEFERIDA pelo TRE-TO por pendências documentais e eleitorais, 20 dias antes da eleição; o Democrata substituiu-o por Siqueira Campos Jr. Fora da disputa por questão administrativa de registro (mesmo critério de outras substituições no projeto), não por achado de conduta pessoal grave -- não pesquisado a fundo.",
       "fontes": [
         "https://ndmais.com.br/politica/com-aval-da-justica-democrata-substitui-candidato-ao-governo-do-tocantins-a-20-dias-das-eleicoes/"
@@ -3046,7 +3062,7 @@
     "230002549223": {
       "nome_urna": "ARTHUR HENRIQUE",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 8,
+      "nota": 10,
       "motivo": "Ex-prefeito de Boa Vista. Venceu a ELEIÇÃO SUPLEMENTAR de Roraima em junho/2026 (60,87% dos votos, para completar o mandato-tampão até jan/2027, aberto após a cassação do então governador Antonio Denarium por abuso de poder político/econômico em 2022) -- mas a diplomação dele ficou SUSPENSA porque ele disputou sub judice: o MPE alega que ele não cumpriu o prazo de desincompatibilização do cargo de prefeito a tempo. O TSE suspendeu o julgamento aguardando posição do STF sobre o tema (ADI 7.942 e Reclamação 94.894), sem decisão final até a pesquisa -- Soldado Sampaio segue como governador interino nesse ínterim. Essa mesma questão de elegibilidade paira sobre a candidatura dele à ELEIÇÃO GERAL de outubro/2026 (mandato 2027-2031, o objeto desta pesquisa). Descartado (decisão a favor dele, hoje 22/09/2026): Justiça rejeitou ação contra ele por suposta propaganda irregular no Instagram.",
       "fontes": [
         "https://www.tse.jus.br/comunicacao/noticias/2026/Junho/arthur-henrique-e-o-mais-votado-para-o-cargo-de-governador-na-eleicao-suplementar-de-roraima",
@@ -3102,7 +3118,7 @@
     "230002553857": {
       "nome_urna": "CLÉBIO GENUÍNO",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 7,
+      "nota": 10,
       "motivo": "Advogado e servidor da Funai. Candidatura INDEFERIDA pelo TRE-RR (decisão unânime) por falta de comprovação de desincompatibilização do cargo público na Funai dentro do prazo, e por certidão criminal em modelo diferente do exigido. Fora da disputa por questão administrativa de registro (mesmo critério de outras substituições/indeferimentos no projeto), não por achado de conduta pessoal grave -- não pesquisado a fundo.",
       "fontes": [
         "https://roraima1.com.br/tre-indefere-candidatura-de-clebio-genuino-do-pco-ao-governo-de-roraima/"
@@ -3335,7 +3351,7 @@
     "130002554332": {
       "nome_urna": "AÉCIO NEVES",
       "cargo_pretendido": "SENADOR",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Ex-governador de MG, ex-presidente nacional do PSDB (voltou ao cargo). O episódio mais grave de sua carreira (gravação de Joesley Batista) terminou em absolvição definitiva por unanimidade em todas as instâncias -- não condenado, não preso. Histórico anterior de outras apurações da era Lava Jato não foi reexaminado a fundo nesta pesquisa.",
       "fontes": [
         "https://www.nexojornal.com.br/extra/2022/03/11/aecio-neves-e-absolvido-da-acusacao-de-corrupcao-no-caso-jbs",
@@ -3345,7 +3361,7 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Denunciado pela PGR em 2017 por suposta propina de R$2 milhões da J&F/JBS (caso Joesley Batista); afastado do mandato de senador por duas vezes pelo STF, revertido pelo próprio Senado. Absolvido por unanimidade em 1ª instância (mar/2022) e mantido pela 11ª Turma do TRF-3 (também unânime); INQ 4830 (Lava Jato/JBS) arquivado pela 2ª Turma do STF em fev/2024."
         }
       ]
@@ -3626,7 +3642,7 @@
           "descricao": "TRE-RJ (set/2020, unânime) o declarou inelegível por usar evento da Comlurb (2018) para pedir votos para o filho; o TSE (out/2021) derrubou a inelegibilidade, mas manteve a condenação por conduta vedada com multa de R$ 15 mil."
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Preso preventivamente em dez/2020 na operação 'QG da Propina' (depois solto); a denúncia criminal (fraude em licitações, notas frias, empresas de fachada) foi REJEITADA pelo TRE-RJ por 4x3 em 27/08/2026, por falta de indícios suficientes. Prisão preventiva sem condenação não conta como pena cumprida."
         },
         {
@@ -3643,7 +3659,7 @@
     "190002545553": {
       "nome_urna": "MARCOS DIAS",
       "cargo_pretendido": "SENADOR",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "ESCRUTÍNIO 2026-09-29: impugnação do registro rejeitada pelo TRE-RJ (−1); o 1º suplente original (o irmão, Pastor Everaldo) foi barrado e substituído. || Pastor da Assembleia de Deus de Madureira, vereador do Rio (Podemos), irmão do Pastor Everaldo.",
       "fontes": [
         "https://temporealrj.com/tre-rj-chapa-marcos-dias-senado-pastor-everaldo/",
@@ -3653,8 +3669,8 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
-          "descricao": "Registro ao Senado impugnado com base na tese de 'milícia de gravata' (esquema atribuído ao irmão, Pastor Everaldo, no governo Witzel); o TRE-RJ (14/09/2026) deferiu o registro dele por unanimidade, por falta de provas contra ele, e barrou o irmão, que era o 1º suplente da chapa (mesma régua de Edna Auzier/AP: impugnação rejeitada −1)."
+          "categoria": "absolvido_no_merito",
+          "descricao": "Registro ao Senado impugnado com base na tese de 'milícia de gravata' (esquema atribuído ao irmão, Pastor Everaldo, no governo Witzel); o TRE-RJ (14/09/2026) deferiu o registro dele por unanimidade, por falta de provas contra ele, e barrou o irmão, que era o 1º suplente da chapa."
         }
       ],
       "escrutinado_em": "2026-09-29"
@@ -3706,7 +3722,7 @@
     "190002548145": {
       "nome_urna": "PEDRO PAULO",
       "cargo_pretendido": "SENADOR",
-      "nota": 8,
+      "nota": 8.5,
       "motivo": "ESCRUTÍNIO 2026-09-29: busca mais funda achou a denúncia de caixa 2 da Odebrecht (2020), arquivada com a anulação das provas (−1). || AUDITORIA 2026-09-24: checagem por amostragem de incumbentes com nota 10: faltava o inquérito por agressão arquivado em 2016 (-1) (nota 10 -> 9). || Economista, deputado federal em 4º mandato consecutivo desde 2011, reconhecido em rankings parlamentares por produtividade legislativa. Busca não encontrou processo, condenação ou pendência de registro.",
       "fontes": [
         "https://www.cnnbrasil.com.br/eleicoes/quem-e-pedro-paulo-candidato-ao-senado-pelo-rio-de-janeiro/",
@@ -3718,7 +3734,7 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Inquérito no STF (Inq 4199) por lesão corporal contra a então esposa arquivado em 2016 a pedido da PGR, que não viu crime; a ex-mulher mudou a versão e disse que ele apenas se defendeu"
         },
         {
@@ -3771,6 +3787,10 @@
         {
           "categoria": "citado_ou_apuracao_preliminar",
           "descricao": "Aparece como 'envolvido' numa investigação da Draco (Polícia Civil) sobre milícias; em set/2026 o TRE-RJ adiou o julgamento do registro ao Senado para pedir esclarecimentos sobre a natureza da menção (pode ser autor ou testemunha)."
+        },
+        {
+          "categoria": "contas_rejeitadas",
+          "descricao": "Contas de Belford Roxo de 2021 e 2022 rejeitadas pela Câmara Municipal (inclui cerca de R$ 3,7 mi de contribuições previdenciárias não repassadas em 2021); é a base do pedido do MPE contra o registro ao Senado."
         }
       ],
       "escrutinado_em": "2026-09-29"
@@ -3791,7 +3811,7 @@
     "190002554290": {
       "nome_urna": "COMANDANTE RIBEIRO AFONSO",
       "cargo_pretendido": "SENADOR",
-      "nota": 7,
+      "nota": 10,
       "motivo": "Capitão de mar e guerra da reserva. Registro de candidatura indeferido pela Justiça Eleitoral (atualização de 20/09/2026 na base eleitoral) -- fora da disputa.",
       "fontes": [],
       "pesquisado_em": "2026-09-23",
@@ -3841,7 +3861,7 @@
     "50002536317": {
       "nome_urna": "JAQUES WAGNER",
       "cargo_pretendido": "SENADOR",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "AUDITORIA 2026-09-24: checagem por amostragem de incumbentes com nota 10: faltava a Operação Cartão Vermelho (arquivada em 2025) -- investigação arquivada sem denúncia vale -1 (nota 10 -> 9). || Ex-governador da Bahia (2007-2015), ex-Ministro da Defesa e da Casa Civil (governo Dilma), senador desde 2018. Busca não encontrou processo, condenação ou pendência de registro.",
       "fontes": [
         "https://www.senado.leg.br",
@@ -3851,7 +3871,7 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Alvo de busca e apreensão da PF (Operação Cartão Vermelho, fev/2018) sob suspeita de receber propina no contrato da Arena Fonte Nova; a Justiça Federal arquivou a investigação em fev/2025 a pedido do MPF, por falta de provas, sem denúncia"
         }
       ],
@@ -3966,7 +3986,11 @@
       "achados": [
         {
           "categoria": "registro_contestado_sub_judice",
-          "descricao": "O TSE reconheceu, por unanimidade, que ele pediu exoneração do cargo de procurador do MPF em nov/2021 'em fraude à lei', para escapar da inelegibilidade de 8 anos prevista para quem pede exoneração/aposentadoria com processo disciplinar administrativo pendente (LC 64/90, art. 1º, 'q'). Com base nisso, ministro do TSE suspendeu a campanha dele ao Senado em 19/09/2026 (sem uso de fundo eleitoral nem propaganda gratuita) até o julgamento completo do recurso; o TRE-PR havia validado o registro antes dessa decisão. O TSE já havia anulado o registro dele para deputado federal em 2023 por motivo relacionado. ATUALIZAÇÃO 24/09: o plenário do TSE confirmou a suspensão da campanha por 5x2 (21/09); o TRE-PR manteve o registro ao julgar embargos (23/09); o TSE deve julgar o mérito do recurso até 25/09."
+          "descricao": "Registro/diploma questionado na Justiça Eleitoral, sem decisão final (a ação pendente conta como achado próprio)."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Causa do pedido contra o registro/diploma (conduta pessoal, ação eleitoral pendente): O TSE reconheceu, por unanimidade, que ele pediu exoneração do cargo de procurador do MPF em nov/2021 'em fraude à lei', para escapar da inelegibilidade de 8 anos prevista para quem pede exoneração/aposentadoria com processo disciplinar administrativo pendente (LC 64/90, art. 1º, 'q'). Com base nisso, ministro do TSE suspendeu a campanha dele ao Senado em 19/09/2026 (sem uso de fundo eleitoral nem propaganda gratuita) até o julgamento completo do recurso; o TRE-PR havia validado o registro antes dessa decisão. O TSE já havia anulado o registro dele para deputado federal em 2023 por motivo relacionado. ATUALIZAÇÃO 24/09: o plenário do TSE confirmou a suspensão da campanha por 5x2 (21/09); o TRE-PR manteve o registro ao julgar embargos (23/09); o TSE deve julgar o mérito do recurso até 25/09."
         }
       ],
       "auditado_em": "2026-09-24"
@@ -4196,7 +4220,7 @@
     "170002552102": {
       "nome_urna": "EDUARDO DA FONTE",
       "cargo_pretendido": "SENADOR",
-      "nota": 8,
+      "nota": 9,
       "motivo": "AUDITORIA 2026-09-24: checagem por amostragem de incumbentes com nota 10: faltavam duas acusações da Lava Jato encerradas a favor dele (absolvição em 2022 e denúncia rejeitada em 2016), -1 cada (nota 10 -> 8). || Deputado federal desde 2007 (6 mandatos), candidato do PP. Busca não encontrou processo, condenação ou pendência de registro -- as acusações trocadas com Mendonça Filho em debate são retórica política de campanha, não achado verificado.",
       "fontes": [
         "https://www.bj1.com.br/mendonca-rebate-eduardo-da-fonte-no-debate-em-petrolina-e-diz-que-o-adversario-fez-jogo-nefasto-com-raquel-negociando-cargo-de-senador-com-joao-campos/",
@@ -4206,11 +4230,11 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Réu na Lava Jato desde 2018 (R$ 300 mil da UTC, corrupção e lavagem); ABSOLVIDO por unanimidade pelo Plenário do STF em abr/2022 por insuficiência de provas"
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Outra denúncia por corrupção passiva (Inq 3998, delações de Paulo Roberto Costa e Fernando Baiano) rejeitada pela 2ª Turma do STF em 2016 por falta de provas de corroboração"
         }
       ],
@@ -4228,7 +4252,7 @@
     "170002547773": {
       "nome_urna": "HUMBERTO COSTA",
       "cargo_pretendido": "SENADOR",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Senador por PE desde 2010 (reeleito 2018), buscando um 3º mandato; médico, foi Ministro da Saúde (governo Lula 1). O achado é antigo (2016) e a própria PF pediu o arquivamento por falta de provas.",
       "fontes": [
         "https://conjur.com.br/2016-ago-10/pf-arquivamento-inquerito-investigava-humberto-costa/"
@@ -4236,7 +4260,7 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Foi denunciado por um delator da Lava Jato por suposto recebimento de R$590 mil em propina (superfaturamento Odebrecht/Petrobras) quando era Ministro da Saúde; também acusado por um ex-subsecretário de Saúde do RJ de receber propina do empresário Miguel Iskin. Em 2016, a própria Polícia Federal pediu o ARQUIVAMENTO do inquérito que o investigava, por não ter encontrado provas que sustentassem a relação descrita."
         }
       ]
@@ -4487,7 +4511,7 @@
     "140002544855": {
       "nome_urna": "DELEGADO ÉDER MAURO",
       "cargo_pretendido": "SENADOR",
-      "nota": 6,
+      "nota": 6.5,
       "motivo": "Ex-delegado da Polícia Civil, deputado federal desde 2015, candidato do PL. Um processo antigo de decoro (vídeo editado do Jean Wyllys) foi arquivado sem punição pelo Conselho de Ética -- não contado.",
       "fontes": [
         "https://noticias.stf.jus.br/postsnoticias/segunda-turma-absolve-deputado-eder-mauro-psd-pa-por-falta-de-provas/",
@@ -4497,7 +4521,7 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "A 2ª Turma do STF absolveu-o por unanimidade (falta de provas) da acusação de cumplicidade por omissão em tortura supostamente cometida por agentes sob seu comando quando era delegado da Polícia Civil do Pará, em 2008."
         },
         {
@@ -4581,7 +4605,11 @@
       "achados": [
         {
           "categoria": "registro_contestado_sub_judice",
-          "descricao": "O Ministério Público Eleitoral pediu ao TSE, em jan/2021, a cassação do mandato dele por captação e gastos ilícitos de recursos na campanha de 2018: despesas não declaradas (comícios, palco, som, jingle) e desvio de pelo menos R$2,3 milhões da cota de gênero do fundo eleitoral (reservada a campanhas femininas) para financiar a própria campanha, segundo a Procuradoria -- a esposa dele, Júlia Marinho, também foi acusada. O TRE-PA julgou a ação improcedente; o MP recorreu ao TSE em jun/2021. Não foi possível confirmar o desfecho final nesta busca."
+          "descricao": "Registro/diploma questionado na Justiça Eleitoral, sem decisão final (a ação pendente conta como achado próprio)."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Causa do pedido contra o registro/diploma (conduta pessoal, ação eleitoral pendente): O Ministério Público Eleitoral pediu ao TSE, em jan/2021, a cassação do mandato dele por captação e gastos ilícitos de recursos na campanha de 2018: despesas não declaradas (comícios, palco, som, jingle) e desvio de pelo menos R$2,3 milhões da cota de gênero do fundo eleitoral (reservada a campanhas femininas) para financiar a própria campanha, segundo a Procuradoria -- a esposa dele, Júlia Marinho, também foi acusada. O TRE-PA julgou a ação improcedente; o MP recorreu ao TSE em jun/2021. Não foi possível confirmar o desfecho final nesta busca."
         }
       ]
     },
@@ -5030,7 +5058,7 @@
     "80002551370": {
       "nome_urna": "RENATO CASAGRANDE",
       "cargo_pretendido": "SENADOR",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "3x governador do ES (PSB), renunciou para concorrer ao Senado. Sem condenação, sem inquérito formalmente aberto -- pedido da PF foi negado pelo STF.",
       "fontes": [
         "https://www.infomoney.com.br/politica/pf-pede-a-abertura-de-investigacao-contra-governador-do-es-por-mensagens-com-juiz/",
@@ -5039,7 +5067,7 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "PF pediu ao STF a abertura de inquérito contra ele com base em mensagens (achadas no celular do juiz federal Macário Júdice/TRF2) sugerindo intermediação em favor de um aliado político (prefeito de Montanha/ES, réu por improbidade) e de um pedido pessoal do juiz; Moraes REJEITOU o pedido de inquérito (a PGR/STF não viu indício suficiente de crime). Ele diz que a conversa foi 'institucional e republicana'."
         }
       ]
@@ -5097,7 +5125,7 @@
     "150002544909": {
       "nome_urna": "ANDRÉ GADELHA",
       "cargo_pretendido": "SENADOR",
-      "nota": 8,
+      "nota": 10,
       "motivo": "Deputado estadual, MDB. Também moveu ação no TRE-PB contra propaganda do presidente da Câmara Hugo Motta associando-o ao Caso Master (disputa em curso, não é achado contra Gadelha). Idoneidade pessoal do próprio Gadelha: só a contestação de registro.",
       "fontes": [
         "https://www.polemicaparaiba.com.br/politica/tse-pode-derrubar-candidatura-de-andre-gadelha-dc-aponta-irregularidades-e-perda-de-prazos-veja-documento/"
@@ -5123,11 +5151,15 @@
       "achados": [
         {
           "categoria": "registro_contestado_sub_judice",
-          "descricao": "AIJE (Ação de Investigação Judicial Eleitoral) no TRE-PB pede a cassação do registro/diploma dele e inelegibilidade de 8 anos, por suposto abuso de poder político e administrativo no uso de estruturas do DNIT e exploração eleitoral de obras federais (duplicação da BR-230); processo em julgamento até a pesquisa."
+          "descricao": "Registro/diploma questionado na Justiça Eleitoral, sem decisão final (a ação pendente conta como achado próprio)."
         },
         {
           "categoria": "investigacao_ou_acao_civil_em_curso",
           "descricao": "Investigado pela PF por suposto uso de aeronave em campanha eleitoral (2022, candidatura a governador) sem declarar o gasto na prestação de contas; a PGR defende que o inquérito seja remetido à Justiça Eleitoral. Sem denúncia formal até a pesquisa."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Causa do pedido contra o registro/diploma (conduta pessoal, ação eleitoral pendente): AIJE (Ação de Investigação Judicial Eleitoral) no TRE-PB pede a cassação do registro/diploma dele e inelegibilidade de 8 anos, por suposto abuso de poder político e administrativo no uso de estruturas do DNIT e exploração eleitoral de obras federais (duplicação da BR-230); processo em julgamento até a pesquisa."
         }
       ]
     },
@@ -5191,7 +5223,11 @@
         },
         {
           "categoria": "registro_contestado_sub_judice",
-          "descricao": "AIJE (Ação de Investigação Judicial Eleitoral) movida contra o atual governador Lucas Ribeiro, ele (ex-governador) e outros, por suposto abuso de poder político/econômico e conduta vedada (inchaço da folha com contratados em ano eleitoral); processo em julgamento até a pesquisa."
+          "descricao": "Registro/diploma questionado na Justiça Eleitoral, sem decisão final (a ação pendente conta como achado próprio)."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Causa do pedido contra o registro/diploma (conduta pessoal, ação eleitoral pendente): AIJE (Ação de Investigação Judicial Eleitoral) movida contra o atual governador Lucas Ribeiro, ele (ex-governador) e outros, por suposto abuso de poder político/econômico e conduta vedada (inchaço da folha com contratados em ano eleitoral); processo em julgamento até a pesquisa."
         }
       ]
     },
@@ -5262,7 +5298,11 @@
       "achados": [
         {
           "categoria": "registro_contestado_sub_judice",
-          "descricao": "Representação eleitoral (TRE-RN, processo 0600722-13.2026.6.20.0000) movida pela candidata Samanda de Lula e a coligação 'Time que Cuida' pede a cassação do registro dele: publicou nas redes uma unidade móvel do programa municipal de saúde ligada a emenda parlamentar de autoria dele, com pedido de voto -- suposto uso eleitoral de serviço público. TRE aprofundou a investigação (fase de produção de provas) até a pesquisa, sem decisão final."
+          "descricao": "Registro/diploma questionado na Justiça Eleitoral, sem decisão final (a ação pendente conta como achado próprio)."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Causa do pedido contra o registro/diploma (conduta pessoal, ação eleitoral pendente): Representação eleitoral (TRE-RN, processo 0600722-13.2026.6.20.0000) movida pela candidata Samanda de Lula e a coligação 'Time que Cuida' pede a cassação do registro dele: publicou nas redes uma unidade móvel do programa municipal de saúde ligada a emenda parlamentar de autoria dele, com pedido de voto -- suposto uso eleitoral de serviço público. TRE aprofundou a investigação (fase de produção de provas) até a pesquisa, sem decisão final."
         }
       ]
     },
@@ -5528,7 +5568,7 @@
     "20002553711": {
       "nome_urna": "MARINA JHC",
       "cargo_pretendido": "SENADOR",
-      "nota": 8,
+      "nota": 10,
       "motivo": "Primeira-dama de Maceió, esposa do ex-prefeito JHC (que renunciou para concorrer em 2026), empresária, PSDB.",
       "fontes": [
         "https://www.gazetaweb.com/noticias/politica/mdb-contesta-candidatura-de-marina-candia-ao-senado-e-cita-vinculos-com-cesmac-e-prefeitura-de-maceio-931248"
@@ -6065,7 +6105,7 @@
     "260002547290": {
       "nome_urna": "ANDRÉ MOURA",
       "cargo_pretendido": "SENADOR",
-      "nota": 4,
+      "nota": 3,
       "motivo": "Ex-deputado federal (2 mandatos), ex-prefeito de Pirambu/SE, União Brasil. Um dos perfis mais graves desta pesquisa: condenação confirmada pelo STF por peculato e associação criminosa, mais uma investigação distinta em curso.",
       "fontes": [
         "https://www.conjur.com.br/2021-set-29/andre-moura-condenado-stf-duas-acoes-penais-anos-prisao/",
@@ -6075,7 +6115,7 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "condenacao_confirmada_sem_reversao",
+          "categoria": "condenacao_criminal_confirmada",
           "descricao": "Condenado pelo plenário do STF em 29/09/2021 (6 votos a 4) por peculato, desvio de recursos públicos e associação criminosa, como prefeito de Pirambu/SE (2005-2007): despesas pessoais (alimentação, telefonia, transporte) pagas com verba da prefeitura. Pena de 8 anos e 3 meses em regime fechado e impedimento de cargo público por 5 anos; posteriormente o STF aceitou um acordo de não persecução penal que extinguiu a pena de PRISÃO (não anulou a condenação em si). Há também uma condenação adicional mais recente por esquema de 'feiras' pagas com verbas de outro município sergipano -- mesmo padrão de desvio, tratado como o mesmo achado (não somado em dobro)."
         },
         {
@@ -6274,7 +6314,7 @@
     "270002544629": {
       "nome_urna": "PAULO MOURÃO",
       "cargo_pretendido": "SENADOR",
-      "nota": 8,
+      "nota": 7,
       "motivo": "Ex-deputado federal (1989-2003), ex-prefeito de Porto Nacional (2005-2009) e ex-deputado estadual (2015-2019), PT.",
       "fontes": [
         "https://www.tjto.jus.br/comunicacao/noticias/ex-prefeito-de-porto-nacional-e-condenado-a-devolver-r-377-mil-aos-cofres-publicos"
@@ -6378,7 +6418,7 @@
     "100002549583": {
       "nome_urna": "ROSEANA SARNEY",
       "cargo_pretendido": "SENADOR",
-      "nota": 8,
+      "nota": 9,
       "motivo": "Ex-governadora do MA (4 mandatos), ex-senadora e deputada federal (MDB).",
       "fontes": [
         "https://noticias.stf.jus.br/postsnoticias/stf-determina-arquivamento-de-peticao-na-qual-roseana-sarney-era-acusada-por-crimes-no-projeto-usimar/",
@@ -6387,11 +6427,11 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "O STF (Gilmar Mendes) arquivou a petição em que era acusada, pelo MPF, de associação criminosa, fraude, falsidade ideológica e peculato no caso Usimar: a denúncia não trazia elementos objetivos ligando-a aos fatos."
         },
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Citada na Lava Jato/delação Odebrecht (suspeita de R$2 mi para a campanha de 2010); inquérito arquivado em 2016 por falta de provas. (Escândalo Lunus de 2002 não gerou acusação formal encontrada, não contado.)"
         }
       ]
@@ -6451,7 +6491,7 @@
     "100002548011": {
       "nome_urna": "LAHESIO BONFIM",
       "cargo_pretendido": "SENADOR",
-      "nota": 9,
+      "nota": 8,
       "motivo": "Médico, ex-prefeito de São Pedro dos Crentes (2017-2022), 2º colocado na disputa de governador de 2022 (NOVO).",
       "fontes": [
         "https://atual7.com/tudo-sobre/lahesio-bonfim"
@@ -6459,7 +6499,7 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "acordo_de_nao_persecucao",
           "descricao": "Fez acordo de não persecução penal com o MPMA em abr/2024 (pagou R$25,2 mil) para encerrar ação criminal sobre a morte de um paciente em 2019 no Hospital Amâncio Coutinho por falhas técnicas no atendimento; sem condenação."
         }
       ]
@@ -6484,7 +6524,7 @@
     "100002553336": {
       "nome_urna": "SIMPLÍCIO ARAÚJO",
       "cargo_pretendido": "SENADOR",
-      "nota": 8,
+      "nota": 10,
       "motivo": "Empresário, ex-deputado federal (2011-2015) e ex-secretário estadual, DC.",
       "fontes": [
         "https://imirante.com/noticias/maranhao/amp/2026/09/16/ipolitica-candidatura-de-simplicio-araujo-ao-senado-e-indeferida",
@@ -6551,7 +6591,7 @@
           "descricao": "O TRE-AC indeferiu por unanimidade (set/2026) o registro dele ao Senado por inelegibilidade decorrente da condenação pela Corte Especial do STJ; recurso não julgado até esta busca, inelegibilidade segue vigente e não revertida."
         },
         {
-          "categoria": "condenacao_confirmada_sem_reversao",
+          "categoria": "condenacao_criminal_confirmada",
           "descricao": "Condenado pela Corte Especial do STJ (mai/2026) a 25 anos e 9 meses de prisão como líder de organização criminosa na Operação Ptolomeu (fraudes em contratos e desvios de recursos do governo do Acre, prejuízo > R$16 mi). Também alvo da 4ª fase da operação (celular e veículos apreendidos) e de operação em set/2026 que apreendeu R$1 mi ligados a compra de votos."
         }
       ]
@@ -6559,7 +6599,7 @@
     "10002535804": {
       "nome_urna": "PETECÃO",
       "cargo_pretendido": "SENADOR",
-      "nota": 7,
+      "nota": 7.5,
       "motivo": "Senador (PSD/AC) desde 2011, ex-presidente da Assembleia Legislativa do AC, buscando reeleição.",
       "fontes": [
         "https://conjur.com.br/2017-set-19/acusado-corrupcao-petecao-absolvido-falta-provas/",
@@ -6568,7 +6608,7 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Denunciado por corrupção eleitoral (compra de votos com obras e vantagens na eleição de 2006); a 1ª Turma do STF o absolveu por falta de provas em set/2017 (AP 880)."
         },
         {
@@ -6691,7 +6731,7 @@
     "30002550229": {
       "nome_urna": "CAPI",
       "cargo_pretendido": "SENADOR",
-      "nota": 8,
+      "nota": 7,
       "motivo": "Ex-governador do AP (1995-2002) e ex-senador, PSB.",
       "fontes": [
         "https://www12.senado.leg.br/noticias/materias/2010/11/19/tre-ap-declara-joao-capiberibe-eleito-ao-senado",
@@ -6769,7 +6809,7 @@
     "230002553006": {
       "nome_urna": "TERESA SURITA",
       "cargo_pretendido": "SENADOR",
-      "nota": 4,
+      "nota": 3,
       "motivo": "Ex-prefeita de Boa Vista (3 gestões) e ex-deputada federal, MDB.",
       "fontes": [
         "https://www.mprr.mp.br/noticias/prefeita-de-boa-vista-e-condenada-por-ato-de-improbidade-administrativa",
@@ -6791,7 +6831,7 @@
     "230002550794": {
       "nome_urna": "CHICO RODRIGUES",
       "cargo_pretendido": "SENADOR",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Senador (PSB/RR) desde 2019, ex-governador, ex-vice-governador e ex-deputado federal.",
       "fontes": [
         "https://www.otempo.com.br/politica/judiciario/2026/2/3/dino-arquiva-caso-de-dinheiro-na-cueca-e-livra-senador-chico-rodrigues-no-stf",
@@ -6800,7 +6840,7 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Alvo da Operação Desvid-19 (2020, desvio de emendas de combate à covid; R$33 mil achados na cueca). O ministro Dino arquivou a investigação no STF em 02/02/2026 a pedido da PGR (sem indício mínimo de crime); parte dos autos foi remetida à 1ª instância."
         }
       ]
@@ -6825,7 +6865,7 @@
     "230002549330": {
       "nome_urna": "REGINA TIO IVO",
       "cargo_pretendido": "SENADOR",
-      "nota": 6,
+      "nota": 5,
       "motivo": "Empresária do agronegócio, Novo.",
       "fontes": [
         "https://www.folhabv.com.br/politica/moraes-ordena-retirada-de-tornozeleira-de-candidata-ao-senado-em-roraima-em-48h/",
@@ -6834,7 +6874,7 @@
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
-          "categoria": "condenacao_confirmada_sem_reversao",
+          "categoria": "condenacao_criminal_confirmada",
           "descricao": "Condenada pelo STF a 1 ano em regime aberto pela participação nos atos de 8 de janeiro de 2023 (usou tornozeleira; Moraes mandou retirá-la em 48h); segundo a imprensa, fechou acordo de não persecução penal em jul/2026 (proibida de usar redes abertas e obrigada a curso sobre democracia). O TRE-RR aprovou o registro após troca de suplente com dívida eleitoral."
         }
       ]
@@ -6876,7 +6916,7 @@
           "descricao": "O TRE-RR rejeitou por unanimidade a candidatura (set/2026): segundo o MPE ele é inelegível até 2031 por duas condenações definitivas ligadas à campanha de 2014; recurso não julgado nesta busca."
         },
         {
-          "categoria": "condenacao_confirmada_sem_reversao",
+          "categoria": "condenacao_criminal_confirmada",
           "descricao": "Condenações definitivas por corrupção eleitoral (trânsito em 26/06/2024) e por falsidade ideológica na prestação de contas de 2014 (trânsito em 28/04/2025, pena reduzida). Também foi preso na Lava Jato por suposta obstrução de justiça e condenado por compra de votos."
         }
       ]
@@ -6961,7 +7001,7 @@
     "250002534136": {
       "nome_urna": "ALBERTO BARRETO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): o MP-SP moveu ação de improbidade contra ele como presidente da Câmara de Taubaté e pediu o afastamento; a Justiça negou a ação em junho de 2026.",
       "fontes": [
         "https://sampi.net.br/ovale/noticias/2986564/vale-do-paraiba/2026/06/justica-nega-acao-de-improbidade-contra-vereador-de-taubate",
@@ -6970,7 +7010,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Ação de improbidade do MP-SP (desrespeito a acordo judicial de 2016 quando presidia a Câmara de Taubaté; o MP chegou a pedir o afastamento dele) julgada improcedente em junho de 2026."
         }
       ],
@@ -7028,7 +7068,7 @@
     "250002541848": {
       "nome_urna": "LUCAS CARDOSO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 4,
+      "nota": 5,
       "motivo": "Busca rápida na internet (1 busca): condenação criminal confirmada em 2ª instância pelo TJSP (estelionato e sonegação de documento) e pedido de impugnação da candidatura pelo MPE, pendente no TRE-SP.",
       "fontes": [
         "https://atibaia.portaldacidade.com/noticias/politica/ministerio-publico-pede-impugnacao-da-candidatura-de-lucas-cardoso-a-deputado-estadual-3348"
@@ -7036,7 +7076,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "condenacao_confirmada_sem_reversao",
+          "categoria": "condenacao_criminal_confirmada",
           "descricao": "Condenado por estelionato e sonegação de documento (maio de 2024, 6 anos e 2 meses); o TJSP confirmou a condenação em abril de 2025, reduzindo a pena para regime aberto; novos recursos em junho de 2026."
         },
         {
@@ -7198,7 +7238,7 @@
     "250002539612": {
       "nome_urna": "ERIKA HILTON",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): apuração sobre uso de assessores como maquiadores, arquivada pela PGR em agosto de 2026.",
       "fontes": [
         "https://ncnews.com.br/2026/08/17/pgr-arquiva-denuncia-contra-erika-hilton-e-assessores-que-tambem-atuam-como-maquiadores/"
@@ -7206,7 +7246,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Representação sobre assessores pagos com verba pública que também trabalhavam como maquiadores dela; a PGR arquivou em agosto de 2026 por falta de elementos de crime."
         }
       ],
@@ -7308,7 +7348,7 @@
     "250002537970": {
       "nome_urna": "TOME ABDUCH",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 8,
       "motivo": "Busca rápida na internet (1 busca): contas de campanha de 2022 desaprovadas, com devolução de R$ 95 mil.",
       "fontes": [
         "https://www.band.com.br/politica/eleicoes/tome-abduch-e-delegado-da-cunha-tem-contas-desaprovadas-pela-justica-eleitoral-16566694"
@@ -7316,7 +7356,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "categoria": "contas_rejeitadas",
           "descricao": "Contas da campanha de 2022 desaprovadas pela Justiça Eleitoral (irregularidades em mais de 30% das despesas); condenado a devolver R$ 95 mil."
         }
       ],
@@ -7394,7 +7434,7 @@
     "250002539593": {
       "nome_urna": "SÔNIA GUAJAJARA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): inquérito por críticas ao governo federal (2021), trancado pela Justiça Federal.",
       "fontes": [
         "https://www.conjur.com.br/2021-mai-05/justica-manda-trancar-inquerito-lider-indigena-sonia-guajajara/",
@@ -7403,7 +7443,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Inquérito da PF aberto a pedido da Funai (2021) por suposta difamação do governo federal na websérie Maracá; trancado pela 10ª Vara Federal de Brasília em maio de 2021 por falta de indício de crime."
         }
       ],
@@ -7412,7 +7452,7 @@
     "250002536755": {
       "nome_urna": "ORLANDO SILVA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): apuração de 2011 como ministro do Esporte, arquivada pela Comissão de Ética da Presidência por falta de provas (o acusador foi condenado por calúnia).",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Orlando_Silva_(pol%C3%ADtico)",
@@ -7421,7 +7461,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Acusações de 2011 quando era ministro do Esporte (deixou o cargo); a Comissão de Ética da Presidência o absolveu por falta de provas em 2012, e o acusador foi condenado por calúnia em 2023."
         }
       ],
@@ -7862,7 +7902,7 @@
     "130002548796": {
       "nome_urna": "FRANCO CARTAFINA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): absolvido em julho de 2026 na queixa-crime por calúnia movida por Eduardo Cunha. 2ª rodada (busca pelo nome completo, 26/09): nada novo.",
       "fontes": [
         "https://www.otempo.com.br/politica/2026/7/16/justica-absolve-franco-cartafina-e-caio-godoi-em-acao-movida-por-eduardo-cunha"
@@ -7870,7 +7910,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Queixa-crime de Eduardo Cunha por calúnia, difamação e injúria (vídeo questionando a candidatura dele em Uberaba); absolvido em julho de 2026 (crítica eleitoral, conduta atípica)."
         }
       ],
@@ -7944,7 +7984,7 @@
     "130002542742": {
       "nome_urna": "LUIZ FERNANDO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 6,
+      "nota": 6.5,
       "motivo": "Busca rápida na internet (1 busca, fonte conferida): réu em ação penal da Lava Jato desde 2018 e denúncia por organização criminosa rejeitada em 2021, com recurso no STF.",
       "fontes": [
         "https://ofator.com.br/informacao/justica-federal-envia-stf-discussao-denuncia-lava-jato-deputado-mineiro/",
@@ -7957,7 +7997,7 @@
           "descricao": "Réu desde 2018 (denúncia recebida pelo STF, Lava Jato: propina de contratos da Petrobras via Fidens Engenharia); segue réu segundo notícia de junho de 2026."
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Denúncia por organização criminosa (\"núcleo político\" do PP na Lava Jato) rejeitada pela 10ª Vara Federal de Brasília em 2021; recurso do MPF enviado ao STF em 2026."
         }
       ],
@@ -8691,7 +8731,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "cassacao_de_mandato",
+          "categoria": "sancao_institucional_confirmada",
           "descricao": "Mandato suspenso por 6 meses pelo plenário da Câmara (dezembro de 2025) por agredir um militante do MBL dentro da Casa em 2024; o Conselho de Ética tinha aprovado a cassação."
         }
       ],
@@ -8907,7 +8947,7 @@
     "190002543300": {
       "nome_urna": "MAICON CRUZ",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 7,
+      "nota": 6.5,
       "motivo": "Busca rápida na internet (1 busca): mandato cassado pelo TSE em 2024 por fraude à cota de gênero da chapa e inquérito de 2022 arquivado.",
       "fontes": [
         "https://www.ururau.com.br/noticias/cidades/tse-cassa-mandato-de-seis-vereadores-de-campos-ha-sete-meses-da-eleicao/65297/",
@@ -8920,7 +8960,7 @@
           "descricao": "Mandato de vereador cassado pelo TSE em 2024, junto com o de outros 5 vereadores de Campos, por fraude à cota de gênero da chapa de 2020 (sem inelegibilidade para ele)."
         },
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Inquérito por falsificação de documento (notícia-crime do presidente da Câmara, 2022) arquivado pelo MP em abril de 2022."
         }
       ],
@@ -9016,7 +9056,7 @@
     "190002541073": {
       "nome_urna": "MAX",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 5,
+      "nota": 4,
       "motivo": "Busca rápida na internet (1 busca e 1 de confirmação em 26/09): condenação por improbidade como ex-prefeito de Queimados (tratada como de 1ª instância por não ter confirmado a instância), multa por propaganda negativa mantida pelo TSE e perda de mandato por infidelidade partidária decretada pelo TRE-RJ (2020-2021) e depois revista pelo próprio TRE-RJ (conta desde a regra de 26/09 para cassação ou perda de mandato anulada).",
       "fontes": [
         "https://www.mprj.mp.br/documents/20184/540394/acp_ic_28_2016_max_lemos_abuso_de_poder_politico.pdf",
@@ -9134,7 +9174,7 @@
     "50002532651": {
       "nome_urna": "DUDA DE ALAN SANCHES",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): denúncia anônima ao MP-BA por suposta compra de votos e uso de espaço público arquivada por falta de indícios (2026). Um assessor foi preso numa operação contra o tráfico e exonerado; o vereador não é alvo (sem desconto).",
       "fontes": [
         "https://bahia.ba/politica/mp-ba-arquiva-denuncia-contra-duda-sanches-por-falta-de-indicios/",
@@ -9144,7 +9184,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Denúncia anônima ao MP-BA (uso de espaço público para marketing político, captação ilícita de sufrágio, distribuição de bens) arquivada em 2026 por falta de indícios."
         }
       ],
@@ -9153,7 +9193,7 @@
     "50002532643": {
       "nome_urna": "ADOLFO VIANA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 7,
+      "nota": 7.5,
       "motivo": "Busca rápida na internet (1 busca, fontes conferidas): citado em documentos apreendidos pela PF em duas apurações (obras superfaturadas com emendas dele, 2025; lista na casa de Ciro Nogueira, 2026), sem ser investigado formalmente; investigação eleitoral de 2018 arquivada.",
       "fontes": [
         "https://sigaanoticia.com.br/deputado-adolfo-viana-e-citado-em-investigacao-sobre-obras-superfaturadas-na-bahia/",
@@ -9171,7 +9211,7 @@
           "descricao": "Nome em rascunho com nomes de parlamentares e valores apreendido pela PF na casa do senador Ciro Nogueira (Operação Compliance Zero, set/2026); conteúdo ainda não esclarecido, sem investigação dirigida a ele."
         },
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Investigação sobre doações de campanha não declaradas arquivada pelo TRE-BA a pedido do MPF (2018)."
         }
       ],
@@ -9269,7 +9309,7 @@
     "50002537398": {
       "nome_urna": "MARIO NEGROMONTE JR",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca, fonte conferida): inquérito da Lava Jato (indiciamento pela PF em 2016) arquivado pelo STF em 2018. A ação penal por corrupção no STF é contra o pai, o ex-ministro Mário Negromonte (sem desconto).",
       "fontes": [
         "https://www.bahianoticias.com.br/noticia/221083-com-investigacao-arquivada-mario-negromonte-junior-diz-que-lava-jato-nunca-o-afetou.html",
@@ -9278,7 +9318,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Indiciado pela PF em 2016 na Lava Jato (repasses da Queiroz Galvão a deputados do PP); o Inquérito 4394 foi arquivado pelo STF (Fachin) a pedido da PGR em abril de 2018."
         }
       ],
@@ -9470,7 +9510,7 @@
     "50002537847": {
       "nome_urna": "ROBERTO CARLOS",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 6,
+      "nota": 5,
       "motivo": "Busca rápida na internet (1 busca, 1 de confirmação e fontes conferidas): condenado pelo TJ-BA em 2024 a 6 anos e 5 meses por rachadinha na Assembleia; ele diz que o caso está encerrado e que não é inelegível, sem explicar como (a confirmar).",
       "fontes": [
         "https://noticiasdabahia.com.br/esquema-de-rachadinha-alba/",
@@ -9480,7 +9520,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "condenacao_confirmada_sem_reversao",
+          "categoria": "condenacao_criminal_confirmada",
           "descricao": "Condenado pelo TJ-BA (foro de deputado estadual, decisão colegiada) em nov/2024 a 6 anos, 5 meses e 15 dias em regime semiaberto, mais multa, por rachadinha no gabinete na Assembleia (2008-2010: parentes como assessores fantasmas). Em ago/2025 disse que o caso 'transitou em julgado, acabou' e apresentou certidão do TSE sem processos em andamento; não se achou se a pena foi extinta ou prescrita. Registro de 2026 aguardando julgamento. A confirmar."
         }
       ],
@@ -9696,7 +9736,7 @@
     "160002542382": {
       "nome_urna": "BRUNO SECCO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 8,
+      "nota": 7,
       "motivo": "Busca rápida na internet (1 busca): perdeu o mandato de vereador quando o TRE-PR cassou a chapa do PMB de 2024 por fraude à cota de gênero; disse que recorreria.",
       "fontes": [
         "https://www.bandab.com.br/politica/tre-pr-cassa-mais-um-vereador-de-curitiba-o-terceiro-em-pouco-mais-de-um-mes/",
@@ -9864,7 +9904,7 @@
     "160002546866": {
       "nome_urna": "ALEXANDRE GUIMARÃES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 7,
+      "nota": 6,
       "motivo": "Busca rápida na internet (1 busca, fontes conferidas): condenado em 1ª instância por improbidade (promoção pessoal com verba da Assembleia, 2020), recurso sem desfecho encontrado; alvo de busca do Gaeco por esquema de alvarás em Campo Largo, sem desfecho encontrado (a confirmar).",
       "fontes": [
         "https://dpontanews.com.br/geral/ex-deputado-estadual-alexandre-guimaraes-e-condenado-por-usar-recursos-publicos-para-promocao-pessoal/",
@@ -10009,7 +10049,7 @@
     "160002549551": {
       "nome_urna": "EVANDRO ROMAN",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 7,
       "motivo": "Busca rápida na internet (1 busca): perdeu o mandato de deputado federal por decisão do TSE em 2021 (4 a 3), por infidelidade partidária ao trocar o PSD pelo Patriota sem justa causa. Por decisão do usuário (25/09), perda de mandato decretada e mantida conta como cassação (−2); pedido de perda ainda não decidido ou revertido não conta.",
       "fontes": [
         "https://www.tse.jus.br/comunicacao/noticias/2021/Novembro/tse-decreta-perda-de-mandato-do-deputado-federal-evandro-roman",
@@ -10046,7 +10086,7 @@
     "160002536522": {
       "nome_urna": "RENATO FREITAS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 4,
+      "nota": 3,
       "motivo": "Busca rápida na internet (1 busca, 1 de confirmação e fontes conferidas): condenado em 2024 a 3 meses (convertidos em serviços comunitários) por pichação em protesto, com recurso; cassação de vereador em 2022 revertida pelo STF; réu por crimes contra a honra no TJ-PR; parecer do Conselho de Ética da Assembleia pela cassação em 2026 (briga com manobrista), resultado do plenário não encontrado (a confirmar).",
       "fontes": [
         "https://www.brasildefato.com.br/2024/07/25/pr-deputado-estadual-renato-freitas-e-condenado-por-pichacao-em-manifestacao-antirracista/",
@@ -10164,7 +10204,7 @@
     "160002549541": {
       "nome_urna": "THAIS TAKAHASHI",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 6,
+      "nota": 5,
       "motivo": "Busca rápida na internet (1 busca): condenação por apropriação indébita contra uma cliente idosa (retenção de benefício previdenciário) confirmada em 2ª instância pelo TJ-PR em 2025. Também presidiu a sessão de 01/01/2025 da Câmara de Cornélio Procópio, anulada pela Justiça por impedir o registro de uma chapa (sem desconto: decisão sobre o ato da Mesa, não sobre ela).",
       "fontes": [
         "https://paiquerefm.com.br/tjpr-confirma-condenacao-de-vereadora-de-cornelio-procopio-por-apropriacao-indebita-contra-idosa/",
@@ -10174,7 +10214,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "condenacao_confirmada_sem_reversao",
+          "categoria": "condenacao_criminal_confirmada",
           "descricao": "Condenação criminal por apropriação indébita contra idosa (reteve valores de benefício previdenciário devidos a uma cliente, como advogada) mantida pela 3ª Câmara Criminal do TJ-PR em jun/2025."
         }
       ],
@@ -10602,7 +10642,7 @@
     "210002533936": {
       "nome_urna": "LUCIANA GENRO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 8,
+      "nota": 8.5,
       "motivo": "Busca rápida na internet (1 busca): denúncia por declarações sobre Gaza rejeitada pelo TJ-RS em 2026; denunciada em 2009 no caso da 'farra das passagens' da Câmara, sem desfecho encontrado (a confirmar).",
       "fontes": [
         "https://www.startcomunicacaosl.com.br/post/tj-rs-rejeita-den%C3%BAncia-contra-luciana-genro-em-processo-sobre-declara%C3%A7%C3%B5es-relacionadas-%C3%A0-guerra-em-g",
@@ -10611,7 +10651,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Denúncia do MP-RS por declarações sobre a guerra em Gaza rejeitada pelo Órgão Especial do TJ-RS (18 a 6) em 2026."
         },
         {
@@ -11118,7 +11158,7 @@
     "170002543751": {
       "nome_urna": "KAIO MANIÇOBA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): denúncia por falsidade ideológica rejeitada pelo STF.",
       "fontes": [
         "https://noticias.stf.jus.br/postsnoticias/rejeitada-denuncia-contra-deputado-federal-kaio-manicoba-pmdb-pe-por-falsidade-ideologica/"
@@ -11126,7 +11166,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Denúncia do MPF por falsidade ideológica (omitiu cargo na Assembleia ao tomar posse como ouvidor da Sudene em 2013) rejeitada por unanimidade pela 1ª Turma do STF (Inq 4105)."
         }
       ],
@@ -11394,7 +11434,7 @@
     "170002533345": {
       "nome_urna": "DANI PORTELA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): denúncia ao MP de Contas sobre contratação de empresa ligada a parente, arquivada em 2025 sem irregularidade.",
       "fontes": [
         "https://www.folhape.com.br/colunistas/folha-politica/ministerio-publico-de-contas-de-pernambuco-encerra-denuncia-contra-deputada-dani-portela/52814/",
@@ -11403,7 +11443,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Denúncia ao Ministério Público de Contas de PE (2025) por contratar para o gabinete suposta empresa fantasma de um tio do marido; arquivada em set/2025 sem irregularidade."
         }
       ],
@@ -11424,7 +11464,7 @@
     "170002533338": {
       "nome_urna": "JOÃO PAULO DO PT",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 5,
+      "nota": 4,
       "motivo": "Busca rápida na internet (1 busca): condenado em 1ª instância em ação penal pela contratação direta da Finatec como prefeito do Recife, recurso sem desfecho encontrado (a confirmar); TCE-PE mandou ressarcir R$ 18 milhões e aplicou multa por licitação irregular.",
       "fontes": [
         "https://www.slideshare.net/slideshow/tcepe-condena-joo-paulo-a-ressarcir-r-18-milhes-aos-cofres-pblicos-do-recife/248833770",
@@ -11509,7 +11549,7 @@
     "170002544062": {
       "nome_urna": "CLARISSA TÉRCIO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 8.5,
       "motivo": "Busca rápida na internet (1 busca): inquérito sobre o 8 de janeiro arquivado pelo STF; condenada em 1ª instância por danos morais (transfobia) a um casal.",
       "fontes": [
         "https://www.cnnbrasil.com.br/politica/moraes-arquiva-inquerito-contra-deputada-clarissa-tercio-pelo-8-de-janeiro/",
@@ -11518,7 +11558,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Inquérito no STF sobre suposta incitação aos atos de 8 de janeiro de 2023 (publicação em rede social), arquivado por Alexandre de Moraes a pedido da PGR."
         },
         {
@@ -11560,7 +11600,7 @@
     "170002532733": {
       "nome_urna": "AUGUSTO COUTINHO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 8.5,
       "motivo": "Busca rápida na internet (1 busca): auto de infração ambiental anulado pela Justiça Federal. Bases oficiais: 1 auto(s) de infração ambiental não cancelado(s) no Ibama, o maior de R$ 5.000,00, somando R$ 5.000,00.",
       "fontes": [
         "https://www.congressoemfoco.com.br/noticia/104898/lista-dos-deputados-sob-investigacao",
@@ -11574,7 +11614,7 @@
           "descricao": "1 auto(s) de infração ambiental não cancelado(s) no Ibama, o maior de R$ 5.000,00, somando R$ 5.000,00."
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Auto de infração ambiental (construção de casa de praia em suposta área de preservação; processo 0000081-53.2015.4.05.8307) anulado pela Justiça Federal em PE, que não reconheceu APP no terreno."
         }
       ],
@@ -11597,7 +11637,7 @@
     "60002541577": {
       "nome_urna": "LUKÃO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): ação por fraude à cota de gênero da chapa que pedia a cassação dele rejeitada pelo TRE-CE em 2026. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
       "fontes": [
         "https://cn7.com.br/tre-ce-mantem-mandato-do-vereador-lukao-em-juazeiro-do-norte/",
@@ -11606,7 +11646,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Ação eleitoral por suposta fraude à cota de gênero da chapa PSDB-Cidadania em Juazeiro do Norte (2024) que pedia a cassação dele; o TRE-CE rejeitou em jun/2026 (4 a 3) por falta de prova."
         }
       ],
@@ -11722,7 +11762,11 @@
       "achados": [
         {
           "categoria": "registro_contestado_sub_judice",
-          "descricao": "O TRE-CE suspendeu em 2026, a pedido do PMN, o projeto 'CastraMóvel' ligado a ela (castrações gratuitas com o nome dela), por indício de abuso de poder econômico na pré-campanha; ação pendente."
+          "descricao": "Registro/diploma questionado na Justiça Eleitoral, sem decisão final (a ação pendente conta como achado próprio)."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Causa do pedido contra o registro/diploma (conduta pessoal, ação eleitoral pendente): O TRE-CE suspendeu em 2026, a pedido do PMN, o projeto 'CastraMóvel' ligado a ela (castrações gratuitas com o nome dela), por indício de abuso de poder econômico na pré-campanha; ação pendente."
         }
       ],
       "origem": "busca_finalistas"
@@ -12170,7 +12214,7 @@
     "140002540462": {
       "nome_urna": "ANTONIO DOIDO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 6,
+      "nota": 5,
       "motivo": "Busca rápida na internet (1 busca e fontes conferidas): alvo da Operação Igapó da PF (dez/2025) por desvio de verbas, corrupção e lavagem; declarado inelegível pela Justiça Eleitoral em dez/2025 por abuso de poder nas eleições de 2024, com recurso.",
       "fontes": [
         "https://www.cnnbrasil.com.br/politica/quem-e-antonio-doido-deputado-alvo-da-pf-em-desvio-de-verbas/",
@@ -12229,7 +12273,7 @@
     "140002540454": {
       "nome_urna": "RENILCE NICODEMOS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet em 2 rodadas (3 buscas): apuração do MPPA sobre a empresa de um irmão em contratos da Secretaria de Esporte, arquivada em 2018 sem irregularidade. O Jusbrasil lista 68 processos com o nome (a maioria no TRE-PA), sem outra sanção identificada.",
       "fontes": [
         "https://www.oliberal.com/politica/vitima-de-toda-sorte-de-crimes-diz-renilce-nicodemos-sobre-wladimir-costa-preso-pela-pf-1.804551",
@@ -12239,8 +12283,8 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
-          "descricao": "Quando era secretária de Esporte e Lazer do Pará, o MPPA apurou se a empresa de um irmão dela se beneficiava de contratos da Seel; o Conselho Superior do MP homologou o arquivamento em 2018 porque não foram encontradas relações contratuais entre a Seel e a empresa (apuração arquivada, −1 pela tabela)."
+          "categoria": "absolvido_no_merito",
+          "descricao": "Quando era secretária de Esporte e Lazer do Pará, o MPPA apurou se a empresa de um irmão dela se beneficiava de contratos da Seel; o Conselho Superior do MP homologou o arquivamento em 2018 porque não foram encontradas relações contratuais entre a Seel e a empresa."
         }
       ],
       "origem": "busca_finalistas",
@@ -12249,7 +12293,7 @@
     "140002536956": {
       "nome_urna": "OZORIO JUVENIL",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): absolvido em ação penal eleitoral por uso de documento falso nas contas da campanha de 2010.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Oz%C3%B3rio_Juvenil",
@@ -12258,7 +12302,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Absolvido em ação penal eleitoral por uso de documento falso na prestação de contas da campanha de 2010 (provas insuficientes)."
         }
       ],
@@ -12457,7 +12501,7 @@
     "140002541730": {
       "nome_urna": "IRAN LIMA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 4,
+      "nota": 3,
       "motivo": "Busca rápida na internet (1 busca e fontes conferidas): condenado por improbidade dolosa como prefeito de Moju; o TSE negou o registro em 2019 e cassou o mandato de deputado estadual em 2020.",
       "fontes": [
         "https://tse.jus.br/imprensa/noticias-tse/2019/Marco/plenario-nega-registro-de-candidato-reeleito-deputado-estadual-pelo-para",
@@ -12504,7 +12548,7 @@
     "140002541724": {
       "nome_urna": "MARTINHO CARMONA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): ação penal por fraude na contratação de estagiário rejeitada pelo Pleno do TJPA.",
       "fontes": [
         "https://brasil61.com/n/para-tribunal-pleno-rejeita-acao-penal-contra-deputado-martinho-carmona-tjpa141190"
@@ -12512,7 +12556,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Ação penal por fraude na contratação de um estagiário (sobrinho do chefe de gabinete) rejeitada pelo Pleno do TJPA por falta de prova."
         }
       ],
@@ -12521,7 +12565,7 @@
     "140002541715": {
       "nome_urna": "ELCIONE BARBALHO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): pedido de cassação por desvio da cota feminina em 2018 rejeitado pelo TSE em 2022.",
       "fontes": [
         "https://www.cnnbrasil.com.br/politica/tse-nega-cassacao-da-deputada-federal-elcione-barbalho/"
@@ -12529,7 +12573,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Pedido de cassação do MP Eleitoral (repasse da cota feminina do fundo de campanha de 2018 a candidatos homens) rejeitado pelo TSE em mai/2022 (5 a 2)."
         }
       ],
@@ -12762,7 +12806,7 @@
     "240002533824": {
       "nome_urna": "ANA PAULA LIMA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): ação penal eleitoral baseada em delação da Odebrecht trancada pelo TRE-SC.",
       "fontes": [
         "https://www.nsctotal.com.br/colunista/evandro-de-assis/acao-contra-ana-paula-e-decio-lima-baseada-em-delacoes-e-trancada-pelo-tre"
@@ -12770,7 +12814,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Ação penal eleitoral (caixa 2 citado em delação da Odebrecht sobre o esgoto de Blumenau), com denúncia recebida em 2022, trancada pelo TRE-SC por se basear só em delação sem prova de corroboração."
         }
       ],
@@ -12895,7 +12939,7 @@
     "240002543392": {
       "nome_urna": "DR. VICENTE",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet em 2 rodadas (3 buscas): contas da campanha de 2022 aprovadas com ressalvas pelo TRE-SC.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Vicente_Caropreso",
@@ -12904,8 +12948,8 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
-          "descricao": "Contas da campanha de 2022 aprovadas com ressalvas pelo TRE-SC (gastos antes da data inicial da prestação parcial, 13,8% dos recursos), mesma régua das contas de Zema."
+          "categoria": "contas_aprovadas_com_ressalva",
+          "descricao": "Contas da campanha de 2022 aprovadas com ressalvas pelo TRE-SC (gastos antes da data inicial da prestação parcial, 13,8% dos recursos)."
         }
       ],
       "origem": "busca_finalistas",
@@ -12991,7 +13035,7 @@
     "240002537912": {
       "nome_urna": "MARCELO WERNER",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): pedido de cassação por participação em empresa contratada pela prefeitura arquivado pela Câmara de Itajaí.",
       "fontes": [
         "https://www.cvi.sc.gov.br/noticia/imprimir-noticia/codigo/6609"
@@ -12999,7 +13043,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Pedido de cassação na Câmara de Itajaí por participação (10%) em empresa com contrato com o município, arquivado por 11 a 1."
         }
       ],
@@ -13008,7 +13052,7 @@
     "240002537908": {
       "nome_urna": "JEAN KUHLMANN",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 7,
+      "nota": 6,
       "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): condenado em 1ª instância por improbidade (servidora fantasma na Alesc), com recurso sem resultado encontrado; ação civil pública de 2012 sem desfecho encontrado (a confirmar).",
       "fontes": [
         "https://www.informeblumenau.com/ex-deputado-jean-kuhlmann-e-condenado-pela-acusacao-de-ter-servidora-fantasma/",
@@ -13088,7 +13132,7 @@
     "240002541915": {
       "nome_urna": "FABIO SCHIOCHET",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): ações de cassação da campanha de 2022 julgadas improcedentes pelo TRE-SC e pelo TSE.",
       "fontes": [
         "https://www.tre-sc.jus.br/comunicacao/noticias/2024/Fevereiro/tre-sc-absolve-deputado-federal-em-julgamento-de-aijes",
@@ -13097,7 +13141,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Duas ações (AIJE) de adversários por abuso de poder econômico e omissão de gastos na campanha de 2022, julgadas improcedentes pelo TRE-SC (fev/2024); mandato confirmado pelo TSE (dez/2024)."
         }
       ],
@@ -13118,7 +13162,7 @@
     "240002541400": {
       "nome_urna": "PROFESSORA NATÁLIA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 9,
       "motivo": "Busca rápida na internet (1 busca): absolvida (TJSC, 2025) em processo iniciado em 2010 e AIJE julgada improcedente pelo TRE-SC, com multa anulada.",
       "fontes": [
         "https://ocp.news/politica/apos-absolvicao-no-tjsc-vereadora-natalia-petry-faz-desabafo-na-tribuna-da-camara",
@@ -13127,11 +13171,11 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Processada por votar, como presidente da Câmara de Jaraguá do Sul em 2010, projeto que equiparava salário de servidor; absolvida, com absolvição confirmada por unanimidade pelo TJSC em out/2025."
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Ação (AIJE) por propaganda irregular e abuso de poder econômico julgada improcedente pelo TRE-SC, que anulou multa de R$ 53 mil."
         }
       ],
@@ -13240,7 +13284,7 @@
     "90002543246": {
       "nome_urna": "JOSE NELTO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): queixa-crime por injúria e calúnia rejeitada pelo STF.",
       "fontes": [
         "https://www.migalhas.com.br/quentes/454842/stf-1-turma-rejeita-queixa-de-gayer-contra-jose-nelto-por-ofensas"
@@ -13248,7 +13292,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Queixa-crime do deputado Gustavo Gayer por injúria e calúnia (declarações em podcast, 2023) rejeitada pela 1ª Turma do STF."
         }
       ],
@@ -13305,7 +13349,7 @@
     "90002547139": {
       "nome_urna": "AAVA SANTIAGO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 7,
       "motivo": "Busca rápida na internet (1 busca e 1 de reconferência): perda do mandato de vereadora por infidelidade partidária decretada pelo TRE-GO em jul/2026, em recurso no TSE (−2 qualquer que seja o desfecho do recurso).",
       "fontes": [
         "https://www.maisgoias.com.br/politica/tre-go-cassa-mandato-de-aava-santiago-por-infidelidade-partidaria/",
@@ -13316,7 +13360,7 @@
       "achados": [
         {
           "categoria": "cassacao_de_mandato",
-          "descricao": "O TRE-GO decretou (6 a 1, 27/07/2026) a perda do mandato de vereadora de Goiânia por infidelidade partidária (saída do PSDB para o PSB sem justa causa); ela recorreu ao TSE e segue no cargo. Pelas regras de 25/09 e 26/09, perda decretada vale −2 tanto se mantida (cassação) quanto se revertida (condenação revertida), então o desconto não depende do recurso."
+          "descricao": "O TRE-GO decretou (6 a 1, 27/07/2026) a perda do mandato de vereadora de Goiânia por infidelidade partidária (saída do PSDB para o PSB sem justa causa); ela recorreu ao TSE e segue no cargo. Perda decretada e ainda não revertida conta como cassação (−3); se o TSE reverter, passa a condenação revertida (−2)."
         }
       ],
       "origem": "busca_finalistas"
@@ -13324,7 +13368,7 @@
     "90002547134": {
       "nome_urna": "MUCIO SANTANA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): ação por compra de votos em 2024 julgada improcedente pelo TRE-GO.",
       "fontes": [
         "https://www.jornalopcao.com.br/politica/vereador-de-goianesia-mucio-santana-vence-processo-e-mantem-mandato-730914/"
@@ -13332,7 +13376,7 @@
       "pesquisado_em": "2026-09-25",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Ação do União Brasil por compra de votos (cestas básicas) na eleição de 2024 julgada improcedente em 1ª instância e pelo TRE-GO (ago/2025), por fragilidade das provas."
         }
       ],
@@ -13803,7 +13847,7 @@
     "100002540268": {
       "nome_urna": "NAGIB",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 4,
+      "nota": 3,
       "motivo": "Busca rápida na internet (1 busca e fontes conferidas): contas irregulares no TCU (R$ 5,4 milhões, obra inacabada), condenação eleitoral de 2020 mantida pelo TRE-MA e investigação criminal da PGJ (2026) sobre contratos da prefeitura de Codó.",
       "fontes": [
         "https://blogdomarcosilva.com.br/tcu-rejeita-recurso-de-francisco-nagib-e-mantem-condenacao-por-prejuizo-milionario/",
@@ -14011,7 +14055,7 @@
     "100002536090": {
       "nome_urna": "CLEBER VERDE",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 7,
+      "nota": 7.5,
       "motivo": "Busca rápida na internet (1 busca): investigação da PF sobre intermediação de emendas enviada ao STF; absolvido pelo STF em ação antiga sobre aposentadoria fraudulenta no INSS.",
       "fontes": [
         "https://www.metropoles.com/colunas/guilherme-amado/empresario-investigado-teria-intermediado-emendas-de-deputado-diz-pf",
@@ -14024,7 +14068,7 @@
           "descricao": "Citado em investigação da PF sobre empresário que teria intermediado a destinação de emendas dele a dois municípios do MA (áudios citam a chefe de gabinete); o caso foi enviado ao STF pelo foro do deputado."
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Absolvido por unanimidade pela 1ª Turma do STF da acusação de peculato e associação criminosa (concessão fraudulenta de aposentadoria quando era servidor do INSS)."
         }
       ],
@@ -14119,7 +14163,7 @@
     "40002533206": {
       "nome_urna": "SILAS CÂMARA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 7,
+      "nota": 6,
       "motivo": "Busca rápida na internet (1 busca e fontes conferidas): mandato cassado pelo TRE-AM por gastos ilícitos na campanha de 2022, cassação depois anulada pelo próprio TRE-AM (decisão definitiva em 2024); ação penal por rachadinha no STF encerrada por acordo de não persecução penal.",
       "fontes": [
         "https://www.cartacapital.com.br/politica/tre-am-cassa-mandato-do-deputado-federal-silas-camara/",
@@ -14133,8 +14177,8 @@
           "descricao": "Mandato cassado pelo TRE-AM (4 a 2) em 2023 por gastos ilícitos com fretes de avião na campanha de 2022; a cassação foi anulada pelo próprio TRE-AM nos embargos (22/03/2024) e o agravo do MPE teve seguimento negado no TSE (trânsito em 22/08/2024; proc. 0602548-60.2022.6.04.0000). Cassação anulada conta como condenação revertida (decisão do usuário, 26/09)."
         },
         {
-          "categoria": "citado_ou_apuracao_preliminar",
-          "descricao": "Ação penal no STF por peculato (apropriação de salários de secretários parlamentares, 2000-2001) encerrada em 2023 depois de cumprido acordo de não persecução penal (multa de R$ 242 mil), sem condenação; mesma categoria usada para o ANPP de Lahesio Bonfim/MA."
+          "categoria": "acordo_de_nao_persecucao",
+          "descricao": "Ação penal no STF por peculato (apropriação de salários de secretários parlamentares, 2000-2001) encerrada em 2023 depois de cumprido acordo de não persecução penal (multa de R$ 242 mil), sem condenação."
         }
       ],
       "origem": "busca_finalistas"
@@ -14142,7 +14186,7 @@
     "40002551003": {
       "nome_urna": "NATALIA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 7,
       "motivo": "Busca rápida na internet (1 busca): condenada em ação civil pública do MPAM (inelegível em 2024, segundo a imprensa); instância não confirmada (a confirmar).",
       "fontes": [
         "https://revistacenarium.com.br/pre-candidato-a-prefeito-do-psol-em-manaus-acusa-colega-de-partido-de-corrupcao/",
@@ -14300,7 +14344,7 @@
     "40002537627": {
       "nome_urna": "ABDALA FRAXE",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 6,
+      "nota": 5,
       "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): condenação por crime contra a ordem econômica (cartel de combustíveis) confirmada pelo TRF1, com pena em execução mantida pelo STJ.",
       "fontes": [
         "https://amazonasatual.com.br/stj-mantem-pena-contra-deputado-abdala-fraxe-por-abuso-de-poder-economico/",
@@ -14309,7 +14353,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "condenacao_confirmada_sem_reversao",
+          "categoria": "condenacao_criminal_confirmada",
           "descricao": "Condenado em 2ª instância pelo TRF1 por crime contra a ordem econômica (art. 4º, I, da Lei 8.137/90) no cartel de preços de combustíveis no Amazonas denunciado pelo MPF (as condenações de 1ª instância por quadrilha e crime tributário caíram); o STJ negou suspender a execução das penas restritivas de direitos."
         }
       ],
@@ -14451,7 +14495,7 @@
     "40002545612": {
       "nome_urna": "PROFESSOR SINÉSIO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 7,
+      "nota": 6,
       "motivo": "Busca rápida na internet (1 busca e fonte conferida): contas de campanha com devolução de R$ 220 mil determinada pelo TRE-AM (2022) e inquérito da PF sobre R$ 20 mil em espécie apreendidos com uma assessora (2024).",
       "fontes": [
         "https://portalopoder.com.br/2022/12/09/sinesio-campos-e-condenado-pelo-tre-a-devolver-r-220-mil-aos-cofres-publicos-do-am/",
@@ -14460,7 +14504,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "categoria": "contas_rejeitadas",
           "descricao": "Condenado pelo TRE-AM (dez/2022) a devolver cerca de R$ 220 mil ao Tesouro por irregularidades nas contas da campanha (fretamento de aeronaves sem itinerário, publicações e pessoal)."
         },
         {
@@ -14473,7 +14517,7 @@
     "40002542676": {
       "nome_urna": "JOANA DARC",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 7,
       "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): cassação de 1ª instância por fraude à cota de gênero da chapa do PR em 2016, suspensa pelo TRE-AM, sem desfecho encontrado (a confirmar). Pela regra de 26/09, cassação decretada conta mesmo que depois anulada.",
       "fontes": [
         "https://d24am.com/politica/lider-do-governo-na-ale-joana-darc-fica-inelegivel-e-pode-ser-cassada/",
@@ -14502,7 +14546,7 @@
     "40002542672": {
       "nome_urna": "THAYSA LIPPY",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): pedido de cassação no TRE-AM rejeitado por unanimidade, com multa por má-fé para a autora (mesma categoria de Lukão/CE e Elcione Barbalho/PA).",
       "fontes": [
         "https://emtempo.com.br/476028/politica/tre-am-rejeita-acao-e-mantem-mandato-de-thaysa-lippy-em-manaus/",
@@ -14511,7 +14555,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Ação da Federação Renovação Solidária no TRE-AM pedindo a cassação do mandato de vereadora, rejeitada por unanimidade; a federação foi multada por litigância de má-fé."
         }
       ],
@@ -14735,7 +14779,7 @@
     "40002541745": {
       "nome_urna": "ADJUTO AFONSO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 7,
+      "nota": 7.5,
       "motivo": "Busca rápida na internet (1 busca): multa definitiva por doação eleitoral acima do limite (2020), impugnação do registro rejeitada pelo TRE-AM (2026) e ordem para retirar 20 publicações da Assembleia (2026).",
       "fontes": [
         "https://amazonas1.com.br/mpe-pede-impugnacao-da-candidatura-de-adjuto-afonso/",
@@ -14749,7 +14793,7 @@
           "descricao": "Condenado em definitivo (trânsito em 10/03/2025, proc. 0600106-55.2021.6.04.0001) por doar R$ 75 mil à campanha do filho a vereador em 2020, acima do limite legal; multa de R$ 16,1 mil."
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Impugnação do registro de candidatura pelo MP Eleitoral (ago/2026) rejeitada pelo TRE-AM, que aprovou a candidatura."
         },
         {
@@ -15154,7 +15198,7 @@
     "80002549987": {
       "nome_urna": "DAVI ESMAEL",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): condenação por danos morais a uma servidora revertida no recurso. A representação de 2018 na Corregedoria da Câmara de Vitória é de decoro (sem desconto).",
       "fontes": [
         "https://www.agazeta.com.br/es/politica/davi-esmael-se-livra-de-pagar-indenizacao-a-servidora-por-video-em-rede-social-0223"
@@ -15162,7 +15206,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Condenado em 1ª instância (jun/2022) a pagar R$ 5 mil de danos morais a uma servidora estadual por vídeo nas redes sobre o uso de linguagem neutra num evento; a condenação foi revertida no recurso (fev/2023)."
         }
       ],
@@ -15362,7 +15406,7 @@
     "150002544174": {
       "nome_urna": "LUIZ COUTO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): queixas-crime por calúnia rejeitadas pelo STF (mesma categoria de José Nelto/GO).",
       "fontes": [
         "https://noticias.stf.jus.br/postsnoticias/supremo-rejeita-queixa-crime-contra-deputado-luiz-couto/"
@@ -15370,7 +15414,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Queixas-crime por calúnia e difamação movidas por dois deputados que ele apontou como frequentadores de bordel com exploração de menores (CPI da exploração sexual); o STF rejeitou a queixa por unanimidade, com parecer da PGR pela rejeição."
         }
       ],
@@ -15502,7 +15546,7 @@
     "150002549636": {
       "nome_urna": "AGUINALDO RIBEIRO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 7,
+      "nota": 6,
       "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): réu no 'quadrilhão do PP' com ação encerrada pelo STF em 2021 e condenação por improbidade (febre aftosa) cuja instância não se confirmou. Reportagem cita acusação de violência doméstica sem detalhe (a confirmar, não desconta); a TCU o isentou no caso da funcionária fantasma.",
       "fontes": [
         "https://www.portalt5.com.br/noticias/single/nid/deputado-paraibano-aguinaldo-ribeiro-vira-reu-apos-decisao-do-stf/",
@@ -15566,7 +15610,7 @@
     "150002544180": {
       "nome_urna": "ADRIANO GALDINO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 8,
+      "nota": 7,
       "motivo": "Busca rápida na internet (1 busca): condenações por improbidade como prefeito de Pocinhos, instância não confirmada (a confirmar), entre 45 processos segundo a imprensa. A auditoria do TCE sobre salários da filha na Secretaria de Planejamento é sobre a filha (parente, sem desconto).",
       "fontes": [
         "https://jornaldaparaiba.com.br/politica/deputado-estadual-adriano-galdino-responde-a-45-processos-judiciais",
@@ -15584,7 +15628,7 @@
     "150002540234": {
       "nome_urna": "FELIPE LEITÃO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 8,
+      "nota": 7,
       "motivo": "Busca rápida na internet (1 busca): condenação por compra de votos em 2008, com recurso sem desfecho encontrado (a confirmar). Pela regra de 26/09, conta mesmo que tenha sido revertida.",
       "fontes": [
         "https://jornaldaparaiba.com.br/politica/felipe-leitao-recorre-para-tentar-se-manter-na-camara"
@@ -15640,7 +15684,7 @@
     "110002543922": {
       "nome_urna": "CAIO CORDEIRO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 8.5,
       "motivo": "Busca rápida na internet (1 busca): condenação por danos morais revertida no recurso e recomendação do MP à Câmara para apurar decoro, sem desfecho encontrado (a confirmar).",
       "fontes": [
         "https://www.vgnoticias.com.br/vgnjur/vereador-de-vg-e-condenado-por-distorcer-informacao/130023",
@@ -15650,7 +15694,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Condenado em 1ª instância a pagar R$ 5 mil de danos morais (com uma TV) por expor como suspeito um gerente de empresa de ônibus; a Turma Recursal reformou e julgou o pedido improcedente."
         },
         {
@@ -15685,7 +15729,7 @@
     "110002550865": {
       "nome_urna": "MAGALY",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): notícia de fato do MPMT sobre contrato da secretaria que chefiava, arquivada sem indícios.",
       "fontes": [
         "https://odocumento.com.br/mp-arquiva-denuncia-contra-vereadora-sobre-contrato-de-r-670-mil-firmado-por-prefeitura-em-mt/"
@@ -15693,7 +15737,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "O MPMT arquivou notícia de fato sobre contrato emergencial de R$ 670 mil da Secretaria de Assistência Social de Cáceres, que ela comandava, por falta de indícios de irregularidade ou favorecimento."
         }
       ],
@@ -15798,7 +15842,7 @@
     "110002542641": {
       "nome_urna": "VALDENIRIA DUTRA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): apuração do MPMT sobre possível conflito de interesses arquivada por falta de elementos.",
       "fontes": [
         "https://www.unicanews.com.br/politica/mp-nao-ve-indicios-de-irregularidade-e-arquiva-denuncia-que-citava-vereadora-de-caceres/141560"
@@ -15806,7 +15850,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "O MPMT pediu explicações sobre possível conflito de interesses num parecer assinado pela filha dela, procuradora do município de Cáceres, e arquivou por falta de elementos."
         }
       ],
@@ -15871,7 +15915,7 @@
     "110002547803": {
       "nome_urna": "MAYSA LEÃO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 8,
+      "nota": 8.5,
       "motivo": "Busca rápida na internet (1 busca): pedido de cassação e inquérito do MP arquivados; queixa-crime por crimes contra a honra extinta.",
       "fontes": [
         "https://omatogrosso.com/judiciario/pedido-de-cassacao-contra-vereadora-maysa-leao-e-arquivado-por-unanimidade/",
@@ -15880,7 +15924,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Pedido de cassação por exposição de uma adolescente vítima de estupro em audiência pública, arquivado por unanimidade pela Câmara de Cuiabá; inquérito do MP sobre o mesmo fato também arquivado."
         },
         {
@@ -16159,7 +16203,7 @@
     "200002535721": {
       "nome_urna": "ROBINSON FARIA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 6,
+      "nota": 5,
       "motivo": "Busca rápida na internet (1 busca): inelegibilidade por abuso de poder em 2018 decretada pelo TRE-RN e revertida pelo TSE; condenação por improbidade por excesso de gastos com pessoal, instância não confirmada (a confirmar).",
       "fontes": [
         "https://www.tre-rn.jus.br/comunicacao/noticias/2021/Fevereiro/tre-rn-declara-inelegibilidade-do-ex-governador-robinson-faria-e-de-seis-agentes-publicos",
@@ -16230,7 +16274,7 @@
     "200002533870": {
       "nome_urna": "MARLEIDE CUNHA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): ação de cassação por fraude à cota rejeitada pelo TRE-RN (mesma categoria de Lukão/CE).",
       "fontes": [
         "https://diariodorn.com.br/vereadoras-de-mossoro-tiveram-mandatos-mantidos-apos-acao-investigativa-a-cassacao-por-suposta-fraude-a-cota-de-genero/"
@@ -16238,7 +16282,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Ação eleitoral por abuso de poder político e suposta fraude à cota de gênero na eleição de 2024 em Mossoró, que pedia a cassação dela e de outra vereadora do PT, julgada improcedente e mantida pelo TRE-RN."
         }
       ],
@@ -16257,7 +16301,7 @@
     "200002538233": {
       "nome_urna": "TAVEIRA JÚNIOR",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 8,
+      "nota": 7,
       "motivo": "Busca rápida na internet (1 busca): condenação de 1ª instância por improbidade como servidor fantasma na Câmara de Parnamirim, com recurso.",
       "fontes": [
         "https://portaln10.com.br/politica/irmao-tia-e-deputado-taveira-junior-sao-condenados-por-esquema-de-servidores-fantasmas-em-parnamirim-269639",
@@ -16275,7 +16319,7 @@
     "200002538230": {
       "nome_urna": "EZEQUIEL",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): absolvido pelo STF de corrupção passiva por falta de provas.",
       "fontes": [
         "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=515562&ori=1"
@@ -16283,7 +16327,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Absolvido pelo STF, por falta de provas, da acusação de corrupção passiva (pedido de vantagem em 2009 para aprovar projeto de lei sobre inspeção veicular)."
         }
       ],
@@ -16416,7 +16460,7 @@
     "200002535723": {
       "nome_urna": "BIANCA NEGREIROS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 6,
+      "nota": 5,
       "motivo": "Busca rápida na internet (1 busca e fonte conferida): condenação definitiva por estelionato qualificado na Justiça Federal, que barrou a candidatura a prefeita de Mossoró em 2020 (situação de elegibilidade atual a confirmar).",
       "fontes": [
         "https://mossorohoje.com.br/noticias/33384-veja-o-real-motivo-que-barrou-candidatura-de-bianca-negreiros"
@@ -16424,7 +16468,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "condenacao_confirmada_sem_reversao",
+          "categoria": "condenacao_criminal_confirmada",
           "descricao": "Condenada pela Justiça Federal no RN (com Sérgio Luiz Lobato) a 3 anos e 4 meses de prisão e 214 dias-multa por estelionato qualificado contra entidade pública (art. 171, §3º, do Código Penal); segundo o senador Styvenson Valentim, a sentença transitou em julgado em 2020, o que impediu a certidão negativa e barrou a candidatura dela a prefeita de Mossoró. Eventual inelegibilidade atual (Ficha Limpa) não confirmada."
         }
       ],
@@ -16577,7 +16621,7 @@
     "180002532476": {
       "nome_urna": "MERLONG SOLANO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 5,
+      "nota": 4,
       "motivo": "Busca rápida na internet (1 busca): réu por peculato no caso das cisternas e condenado em 1ª instância por improbidade por contratações sem concurso, com recurso.",
       "fontes": [
         "https://www.gp1.com.br/blog/gil-sobreira/2025/6/27/trf1-devolve-acao-penal-contra-deputado-merlong-solano-a-justica-federal-no-piaui-403959.html",
@@ -16600,7 +16644,7 @@
     "180002532475": {
       "nome_urna": "FLORENTINO NETO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 7,
       "motivo": "Busca rápida na internet (1 busca): condenação por improbidade por contratações sem concurso na saúde, instância não confirmada (a confirmar).",
       "fontes": [
         "https://cidadeverde.com/noticias/351734/justica-condena-florentino-neto-e-merlong-solano-por-improbridade-administrativa"
@@ -16980,7 +17024,7 @@
     "20002547844": {
       "nome_urna": "MARX BELTRÃO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 8.5,
       "motivo": "Busca rápida na internet (1 busca): absolvido pelo STF de falsidade ideológica e réu por calúnia contra o primo, sem desfecho encontrado.",
       "fontes": [
         "https://noticias.stf.jus.br/postsnoticias/1a-turma-absolve-marx-beltrao-da-imputacao-de-crime-de-falsidade-ideologica/",
@@ -16989,7 +17033,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Absolvido pela 1ª Turma do STF da acusação de falsidade ideológica como prefeito de Coruripe."
         },
         {
@@ -17012,7 +17056,7 @@
     "20002546941": {
       "nome_urna": "ISNALDO BULHÕES JR",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 4,
+      "nota": 3,
       "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): réu por falso e desvio de verba da Assembleia; condenação por improbidade na Taturana de situação não confirmada (a confirmar); investigação no STF arquivada e citação no caso Master.",
       "fontes": [
         "https://ojornalextra.com.br/noticias/alagoas/2025/07/116252-justica-ouve-isnaldo-bulhoes-nesta-quinta-sobre-desvio-de-recursos-da-ale",
@@ -17041,7 +17085,7 @@
     "20002546939": {
       "nome_urna": "RAFAEL BRITO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 8.5,
       "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): ação de cassação pelo Bolsa Escola 10 rejeitada pelo TRE-AL e ordem judicial contra fake news sobre o prefeito de Maceió. A ligação com a operação Capa Dura (livros didáticos) é sobre uma empresa, não sobre ele.",
       "fontes": [
         "https://www.jaenoticia.com.br/blogs/2025/06/23/7988-tre-de-alagoas-absolve-governador-paulo-dantas-de-acusacao-movida-por-rodrigo-cunha-por-uso-eleitoreiro-do-programa-escola-10",
@@ -17050,7 +17094,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Ação eleitoral do MP (2022) que pedia a cassação dele e do governador Paulo Dantas por abuso de poder com o programa Bolsa Escola 10 (R$ 252 milhões pagos no ano eleitoral), rejeitada por maioria pelo TRE-AL (2025)."
         },
         {
@@ -17063,7 +17107,7 @@
     "20002552857": {
       "nome_urna": "DR JOÃO NETO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 4,
+      "nota": 5,
       "motivo": "Busca rápida na internet (1 busca): condenação por violência doméstica mantida pelo TJAL e registro de candidatura indeferido pelo TRE-AL (2026).",
       "fontes": [
         "https://www.tnh1.com.br/noticia/nid/advogado-joao-neto-e-condenado-a-4-anos-de-reclusao-e-multa-de-r-40-mil/",
@@ -17072,7 +17116,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "condenacao_confirmada_sem_reversao",
+          "categoria": "condenacao_criminal_confirmada",
           "descricao": "Condenado a 4 anos e 2 meses de prisão e a pagar R$ 40 mil à ex-companheira por violência doméstica (agressão em abr/2025, quando ficou 29 dias preso); condenação mantida pela Câmara Criminal do TJAL em fev/2026."
         },
         {
@@ -17403,7 +17447,7 @@
     "70002538527": {
       "nome_urna": "JULIO CESAR",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): absolvido na operação Drácon (2025), com recurso do MP.",
       "fontes": [
         "https://www.correiobraziliense.com.br/cidades-df/2025/03/7081458-deputado-julio-cesar-do-df-e-inocentado-em-processo-de-corrupcao.html",
@@ -17412,7 +17456,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Absolvido em 1ª instância (mar/2025) da acusação de corrupção passiva na operação Drácon (propina para destinar emendas na CLDF, 2015-2016), com Celina Leão e outros ex-distritais; recurso do MP remetido ao Conselho Especial do TJDFT."
         }
       ],
@@ -17557,7 +17601,7 @@
     "70002540821": {
       "nome_urna": "BISPO RENATO ANDRADE",
       "cargo_pretendido": "DEPUTADO DISTRITAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca e 1 de confirmação): absolvido na operação Drácon (2025), com recurso do MP.",
       "fontes": [
         "https://jornaltaguacei.com.br/noticias/11/03/2025/dracon-juiz-absolve-celina-leao-e-tres-ex-deputados-da-acusacao-de-corrupcao/"
@@ -17565,7 +17609,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Absolvido em 1ª instância (mar/2025) da acusação de corrupção passiva na operação Drácon (propina por emendas na CLDF), com Celina Leão e outros ex-distritais; recurso do MP remetido ao Conselho Especial do TJDFT."
         }
       ],
@@ -17596,7 +17640,7 @@
     "70002538797": {
       "nome_urna": "WELLINGTON LUIZ",
       "cargo_pretendido": "DEPUTADO DISTRITAL",
-      "nota": 7,
+      "nota": 7.5,
       "motivo": "Busca rápida na internet (1 busca): absolvido de peculato pelo TJDFT e cassação de 2011 revertida pelo TSE (conta pela regra de 26/09).",
       "fontes": [
         "https://jornaldebrasilia.com.br/brasilia/acusado-de-peculato-ex-deputado-wellington-luiz-e-absolvido/",
@@ -17605,7 +17649,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Absolvido pelo Conselho Especial do TJDFT da acusação de peculato (contrato de R$ 105 mil com emendas, 2012-2013, que teria custeado despesas pessoais), por falta de provas."
         },
         {
@@ -17802,7 +17846,7 @@
     "70002533381": {
       "nome_urna": "FÁBIO FELIX",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): inquérito da PCDF arquivado por falta de provas. A prisão de uma assessora e a versão da PM sobre suposta interferência dele (2026) não geraram apuração encontrada contra ele.",
       "fontes": [
         "https://jornaldebrasilia.com.br/brasilia/inquerito-contra-fabio-felix-e-arquivado-por-falta-de-provas/"
@@ -17810,7 +17854,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Inquérito da Polícia Civil do DF (aberto em 2018) por suposta falsidade documental e peculato, arquivado pelo MPDFT por falta de provas."
         }
       ],
@@ -17829,7 +17873,7 @@
     "120002552180": {
       "nome_urna": "MAURICIO PICARELLI",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 7,
       "motivo": "Busca rápida na internet (1 busca): condenação de 1ª instância por improbidade por acumular mandato e direção de TV. Dívidas e execuções privadas (inclusive com empresário que ele acusa de golpe) não descontam; a anulação da aposentadoria atingiu vários ex-deputados.",
       "fontes": [
         "https://www.jd1noticias.com/justica/ex-deputado-mauricio-picarelli-e-condenado-por-improbidade/95722/",
@@ -17913,7 +17957,7 @@
     "120002537466": {
       "nome_urna": "MARQUINHOS TRAD",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): denunciado por crimes sexuais contra sete mulheres e absolvido (2022 e 2024).",
       "fontes": [
         "https://www.conjur.com.br/2024-ago-26/ex-prefeito-de-campo-grande-e-absolvido-de-ultimas-acusacoes-de-assedio-sexual/",
@@ -17922,7 +17966,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Denunciado pelo MPMS por crimes sexuais contra sete mulheres (assédio e importunação sexual, favorecimento à prostituição) quando prefeito de Campo Grande; absolvido sumariamente da maior parte em nov/2022 e das duas imputações restantes pela 3ª Vara Criminal em ago/2024."
         }
       ],
@@ -17931,7 +17975,7 @@
     "120002537465": {
       "nome_urna": "CAMILA JARA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 8.5,
       "motivo": "Busca rápida na internet (1 busca): ação por abuso de poder rejeitada pelo TRE-MS e multa por propaganda antecipada (2026). A representação no Conselho de Ética da Câmara pelo tumulto em plenário é de decoro (sem desconto).",
       "fontes": [
         "https://www.jd1noticias.com/justica/tre-ms-absolve-camila-jara-de-acusacoes-de-abuso-de-poder-economico/134351/",
@@ -17940,7 +17984,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Ação eleitoral por abuso de poder econômico (impulsionamento pago após o prazo na campanha de 2022), julgada improcedente por unanimidade pelo TRE-MS."
         },
         {
@@ -18280,7 +18324,7 @@
     "260002542473": {
       "nome_urna": "FÁBIO REIS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 8.5,
       "motivo": "Busca rápida na internet (1 busca): denúncia por desobediência eleitoral julgada improcedente pelo STF e apuração de 2020 sobre cota parlamentar sem desfecho encontrado (a confirmar).",
       "fontes": [
         "https://noticias.stf.jus.br/postsnoticias/improcedente-denuncia-contra-deputado-fabio-reis-por-desobediencia-eleitoral/",
@@ -18289,7 +18333,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Denúncia do MPF por desobediência eleitoral (Inq 3909) julgada improcedente por unanimidade pelo STF."
         },
         {
@@ -18322,7 +18366,7 @@
     "260002547411": {
       "nome_urna": "GUSTINHO RIBEIRO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 5,
+      "nota": 5.5,
       "motivo": "Busca rápida na internet (1 busca): condenação por improbidade confirmada pelo TJSE (subvenções sociais a aliados), com acordo de não persecução cível em homologação provisória; impugnação do registro de 2026 rejeitada pelo TRE-SE.",
       "fontes": [
         "https://infonet.com.br/noticias/politica/tj-mantem-condenacao-de-gustinho-ribeiro-decisao-cabe-recurso/",
@@ -18336,7 +18380,7 @@
           "descricao": "Condenado por improbidade (1ª Vara Cível de Lagarto, 2021) por destinar mais de R$ 600 mil em subvenções sociais da Assembleia a associações de aliados em Lagarto quando deputado estadual (2011-2014): suspensão dos direitos políticos, multa e perda do mandato; condenação mantida pelo TJSE. Em 2026 o STJ anulou a recusa do TJSE em homologar um acordo de não persecução cível com o MPSE, e o TJSE deu efeito provisório ao acordo em 28/08/2026."
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Impugnação do registro de 2026 pelo MP Eleitoral por causa da condenação; o TRE-SE deferiu a candidatura (set/2026)."
         }
       ],
@@ -18670,7 +18714,7 @@
     "220002550907": {
       "nome_urna": "DRA ROSANGELLA CIPRIANNO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 4,
+      "nota": 5,
       "motivo": "Busca rápida na internet (1 busca): condenação criminal confirmada pelo TRF1 (crimes previdenciários) e registro indeferido pelo TRE-RO, com recurso anunciado ao TSE.",
       "fontes": [
         "https://rondoniaempauta.com.br/tre-ro-indefere-candidatura-de-rosangela-cipriano-a-deputada-federal-nas-eleicoes-de-2026/",
@@ -18679,7 +18723,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "condenacao_confirmada_sem_reversao",
+          "categoria": "condenacao_criminal_confirmada",
           "descricao": "Condenada criminalmente por apropriação indébita previdenciária e sonegação de contribuição previdenciária, condenação mantida pela 10ª Turma do TRF1 em 18/12/2024."
         },
         {
@@ -18967,7 +19011,7 @@
     "270002548522": {
       "nome_urna": "RICARDO AYRES",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 5,
+      "nota": 7.5,
       "motivo": "Busca rápida na internet (1 busca): alvo da operação Fames-19 da PF (inquérito no STF), condenação do TCE anulada e pedido do MP Eleitoral de indeferimento do registro de 2026 sem desfecho encontrado (a confirmar).",
       "fontes": [
         "https://www.cnnbrasil.com.br/politica/ricardo-ayres-operacao-pf-to/",
@@ -18982,7 +19026,7 @@
           "descricao": "Alvo de busca e apreensão da PF (set/2025) na operação Fames-19, sobre desvio de verbas de combate à covid (cestas básicas pagas com emendas) quando deputado estadual; o nome dele aparece em anotações em notas fiscais de empresa investigada; o inquérito passou à supervisão do STF (mai/2026)."
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Condenação do Tribunal de Contas do Tocantins por irregularidades como secretário estadual da Juventude, anulada pelo próprio tribunal por falta de provas."
         },
         {
@@ -19142,7 +19186,7 @@
     "270002548452": {
       "nome_urna": "IVANILSON MARINHO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 9,
+      "nota": 9.5,
       "motivo": "Busca rápida na internet (1 busca): denúncia anônima ao MPTO arquivada por falta de provas.",
       "fontes": [
         "https://atitudeto.com.br/politica/ministerio-publico-arquiva-denuncia-anonima-contra-presidente-da-camara-de-gurupi-ivanilson-marinho/"
@@ -19150,7 +19194,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Denúncia anônima ao MPTO sobre desvio de função de servidores e uso de veículos públicos com fins eleitorais, arquivada por falta de provas."
         }
       ],
@@ -19179,7 +19223,7 @@
     "270002544646": {
       "nome_urna": "OLYNTHO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 8,
+      "nota": 8.5,
       "motivo": "Busca rápida na internet (1 busca): inquérito antigo sobre funcionários fantasmas sem desfecho encontrado (a confirmar) e absolvição no TRE-TO no caso dos R$ 500 mil.",
       "fontes": [
         "https://conexaoto.com.br/2019/07/18/investigacoes-de-funcionarios-fantasmas-no-gabinete-de-olyntho-neto-vao-continuar",
@@ -19192,7 +19236,7 @@
           "descricao": "Inquérito sobre funcionários fantasmas no gabinete (o TJTO negou o arquivamento em 2019); desfecho não encontrado (processo antigo). A confirmar."
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Absolvido pelo TRE-TO no processo sobre os R$ 500 mil encontrados com o irmão dias antes da eleição (suposto caixa 2)."
         }
       ],
@@ -19231,7 +19275,7 @@
     "270002546663": {
       "nome_urna": "IVORY DE LIRA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 6,
+      "nota": 5,
       "motivo": "Busca rápida na internet (1 busca): condenado em 1ª instância por lavagem de dinheiro (com recurso) e investigado na operação Fames-19.",
       "fontes": [
         "https://giro360to.com.br/condenado-a-prisao-deputado-ivory-de-lira-diz-que-decisao-e-inaceitavel-e-injusta/",
@@ -19398,7 +19442,7 @@
     "10002532419": {
       "nome_urna": "ANTÔNIA LÚCIA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 4,
+      "nota": 5,
       "motivo": "Busca rápida na internet (1 busca): condenação por peculato confirmada pelo TRF-1 e registro de 2026 indeferido pelo TRE-AC.",
       "fontes": [
         "https://www.cnnbrasil.com.br/politica/deputada-e-condenada-por-usar-verba-da-camara-para-pagar-empregado-particular/",
@@ -19408,7 +19452,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "condenacao_confirmada_sem_reversao",
+          "categoria": "condenacao_criminal_confirmada",
           "descricao": "Condenada pela Justiça Federal no Acre por peculato e concussão (7 anos e 7 meses, semiaberto) por usar verba da Câmara para pagar um funcionário que trabalhava na rádio da família; o TRF-1 manteve a condenação por peculato (absolvida da concussão). Também condenada por improbidade no mesmo caso, com perda do mandato e suspensão dos direitos políticos por 8 anos."
         },
         {
@@ -19513,7 +19557,7 @@
     "10002544542": {
       "nome_urna": "CLODOALDO RODRIGUES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 7,
+      "nota": 6.5,
       "motivo": "Busca rápida na internet (1 busca): condenação de 1ª instância por compra de votos em 2022 (recorrível) e impugnação do registro de 2026 rejeitada pelo TRE-AC.",
       "fontes": [
         "https://ac24horas.com/2026/09/05/deputado-clodoaldo-e-condenado-a-mais-de-9-anos-por-compra-de-votos-junto-com-esposa/",
@@ -19526,7 +19570,7 @@
           "descricao": "Condenado em 1ª instância pela 4ª Zona Eleitoral de Cruzeiro do Sul (set/2026) a 9 anos e 5 meses por associação criminosa, corrupção eleitoral (compra de votos) e transporte irregular de eleitores na eleição de 2022, junto com a esposa, vice-prefeita de Cruzeiro do Sul; cabe recurso."
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Impugnação do registro de 2026 rejeitada por unanimidade pelo TRE-AC (08/09/2026)."
         }
       ],
@@ -19557,7 +19601,7 @@
     "10002544534": {
       "nome_urna": "FAGNER CALEGARIO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 6,
+      "nota": 5,
       "motivo": "Busca rápida na internet (1 busca): condenação de 1ª instância por plágio em concurso e ação civil pública ambiental. A PF não atribuiu a ele o dinheiro apreendido nas operações Ptolomeu IV e Umbra (2026), sem desconto.",
       "fontes": [
         "https://ac24horas.com/2025/08/28/deputado-calegario-e-condenado-por-plagio-em-concurso-e-pode-ter-direitos-politicos-suspensos/",
@@ -19739,7 +19783,7 @@
     "30002532250": {
       "nome_urna": "LEDA SADALA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 7.5,
       "motivo": "Busca rápida na internet (1 busca): AIJE por abuso de poder julgada improcedente e contas rejeitadas pelo TCE-PA como gestora em Parauapebas.",
       "fontes": [
         "https://www.diariodoamapa.com.br/cadernos/politica/leda-sadala-tem-registro-de-candidatura-deferido-por-ministro-do-tse/",
@@ -19748,11 +19792,11 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "AIJE do MP Eleitoral por abuso de poder (uso da Prefeitura de Santana, cujo prefeito era parente, com temporários ameaçados de demissão para apoiá-la) julgada improcedente pelo TRE-AP por falta de provas robustas."
         },
         {
-          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "categoria": "contas_rejeitadas",
           "descricao": "Contas rejeitadas pelo TCE-PA como presidente da agência de emprego e projetos sociais de Parauapebas/PA; registro de candidatura deferido pelo TSE mesmo assim."
         }
       ],
@@ -19840,7 +19884,7 @@
     "30002536304": {
       "nome_urna": "ALINE GURGEL",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 7,
+      "nota": 6.5,
       "motivo": "Busca rápida na internet (2 buscas): alvo da operação Cícero da PF por compra de votos em 2018 (processo antigo sem desfecho encontrado, a confirmar), contas de 2018 desaprovadas e AIJE por abuso rejeitada.",
       "fontes": [
         "https://www.diariodoamapa.com.br/cadernos/politica/segunda-fase-da-operacao-cicero-atinge-deputada-federal-aline-gurgel-e-pessoas-ligadas-a-ela/",
@@ -19854,11 +19898,11 @@
           "descricao": "Alvo da 2ª fase da operação Cícero da PF por compra de votos na eleição de 2018 (diálogo em que uma aliada pede R$ 1,5 mil por 100 votos e ela orienta o esquema); desfecho não encontrado (processo com mais de 3 anos, regra de processo antigo). A confirmar."
         },
         {
-          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "categoria": "contas_rejeitadas",
           "descricao": "Contas da campanha de 2018 desaprovadas pelo TRE-AP (dez/2019), recurso perdido em 2020."
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "AIJE por abuso de poder religioso e econômico na campanha de 2018 julgada improcedente."
         }
       ],
@@ -20018,7 +20062,7 @@
     "30002533108": {
       "nome_urna": "EDNA AUZIER",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 5,
+      "nota": 5.5,
       "motivo": "Busca rápida na internet (2 buscas): cassação por compra de votos em 2022 mantida no TSE, com efeitos suspensos por liminar do STF (set/2026), e registro de 2026 deferido.",
       "fontes": [
         "https://conectamapa.com/ministro-andre-mendonca-mantem-decisao-que-cassou-deputada-estadual-do-amapa-por-compra-de-votos/",
@@ -20032,7 +20076,7 @@
           "descricao": "Diploma de deputada estadual cassado pelo TRE-AP por compra de votos e abuso de poder econômico na eleição de 2022 (promessa de vantagens, transporte de eleitores e cestas básicas), com inelegibilidade de 8 anos; cassação mantida no TSE (voto do ministro André Mendonça, mar/2026). Em set/2026 o ministro Cristiano Zanin (STF) suspendeu provisoriamente os efeitos das condenações."
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Impugnação do registro de 2026 pelo MP Eleitoral julgada improcedente pelo TRE-AP depois da liminar do STF, com registro deferido por unanimidade."
         }
       ],
@@ -20106,7 +20150,7 @@
     "30002539124": {
       "nome_urna": "ROBERTO GÓES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 2,
+      "nota": 1,
       "motivo": "Busca rápida na internet (1 busca): condenação no STF com pena prescrita, condenação por peculato anulada pelo Plenário e ação de improbidade em curso.",
       "fontes": [
         "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=413765",
@@ -20116,7 +20160,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "condenacao_confirmada_sem_reversao",
+          "categoria": "condenacao_criminal_confirmada",
           "descricao": "Condenado pelo STF (AP 984) por aplicação indevida de verbas do programa DST/Aids para pagar dívidas da Secretaria de Saúde de Macapá com o instituto de previdência quando prefeito; a pena foi declarada prescrita."
         },
         {
@@ -20192,7 +20236,7 @@
     "230002538181": {
       "nome_urna": "ADJALMA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 7,
       "motivo": "Busca rápida na internet (1 busca): perda do mandato de vereador por infidelidade partidária decretada pelo TSE em 2024.",
       "fontes": [
         "https://www.tse.jus.br/comunicacao/noticias/2024/Junho/tse-cassa-mandato-de-vereador-de-boa-vista-rr-por-infidelidade-partidaria",
@@ -20375,7 +20419,7 @@
     "230002549248": {
       "nome_urna": "GENILSON COSTA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 7,
+      "nota": 6.5,
       "motivo": "Busca rápida na internet (2 buscas): cassação de 1ª instância por compra de votos em 2024 (em recurso) e ação penal por tráfico trancada pelo STJ.",
       "fontes": [
         "https://portalofato.com.br/2025/11/19/justica-eleitoral-cassa-genilson-costa-por-compra-massiva-de-votos-uso-de-caixa-dois-e-abuso-de-poder-economico/",
@@ -20389,7 +20433,7 @@
           "descricao": "Mandato de vereador cassado pela 5ª Zona Eleitoral (19/11/2025) por compra massiva de votos, caixa dois e abuso de poder econômico na eleição de 2024, com inelegibilidade até 2032 e multa de R$ 53,2 mil; recurso no TRE-RR, segue no cargo."
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
+          "categoria": "absolvido_no_merito",
           "descricao": "Denunciado pelo MPRR por tráfico e associação para o tráfico (operação Tânatos da PF, 2022); o STJ trancou a ação penal contra ele por falta de provas (4 a 1, mai/2026)."
         }
       ],
@@ -20538,7 +20582,7 @@
     "230002549334": {
       "nome_urna": "CHICO MOZART",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
-      "nota": 6,
+      "nota": 5,
       "motivo": "Busca rápida na internet (1 busca): condenação por compra de votos confirmada pelo TRE-RR em 2023.",
       "fontes": [
         "https://www.tre-rr.jus.br/comunicacao/noticias/2023/Setembro/deputado-estadual-chico-mozart-e-condenado-pelo-tre-rr",
@@ -20548,7 +20592,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "condenacao_confirmada_sem_reversao",
+          "categoria": "condenacao_criminal_confirmada",
           "descricao": "Condenado por corrupção eleitoral (compra de votos na eleição de 2014, com vantagens a alunos da faculdade de que era sócio): sentença de 1ª instância em mai/2021 (5 anos e perda do mandato) mantida pelo TRE-RR em set/2023, com pena reduzida para 1 ano e 4 meses; a condenação colegiada gera inelegibilidade pela Ficha Limpa. Situação do registro de 2026 não encontrada."
         }
       ],
@@ -20567,7 +20611,7 @@
     "90002539151": {
       "nome_urna": "RUBENS OTONI",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 8.5,
       "motivo": "Busca rápida na internet (1 busca): multa do TRE-GO por propaganda antecipada e citação no caso Cachoeira arquivada pela Corregedoria da Câmara.",
       "fontes": [
         "http://www.mpf.mp.br/go/sala-de-imprensa/noticias-go/pre-go-consegue-a-condenacao-de-rubens-otoni-e-antonio-gomide-por-propaganda-antecipada",
@@ -20580,7 +20624,7 @@
           "descricao": "Multado em R$ 10 mil pelo TRE-GO, com o irmão Antônio Gomide (então prefeito de Anápolis), por propaganda eleitoral antecipada num encontro partidário em Itumbiara."
         },
         {
-          "categoria": "citado_ou_apuracao_preliminar",
+          "categoria": "absolvido_no_merito",
           "descricao": "Citado em 2012 nas escutas do caso Carlinhos Cachoeira (suposta oferta de dinheiro na campanha a prefeito de 2004); a Corregedoria da Câmara recomendou o arquivamento e o inocentou."
         }
       ],
@@ -20748,7 +20792,7 @@
     "250002536745": {
       "nome_urna": "PAULO TEIXEIRA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 8,
+      "nota": 7,
       "motivo": "Busca rápida na internet (1 busca): contas de 2010 desaprovadas e ação civil pública antiga sem desfecho encontrado (a confirmar).",
       "fontes": [
         "https://agenciabrasil.ebc.com.br/politica/noticia/2016-04/impeachment-36-deputados-da-comissao-respondem-processos-na-justica"
@@ -20756,7 +20800,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "categoria": "contas_rejeitadas",
           "descricao": "Contas da campanha de 2010 desaprovadas."
         },
         {
@@ -20787,7 +20831,7 @@
     "250002536736": {
       "nome_urna": "ALENCAR SANTANA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 8,
       "motivo": "Busca rápida na internet (1 busca): contas de campanha de 2022 desaprovadas pelo TRE-SP.",
       "fontes": [
         "https://www.tre-sp.jus.br/comunicacao/noticias/2023/Marco/deputado-federal-eleito-pelo-pt-tem-as-contas-de-campanha-desaprovadas-nessa-quinta-2"
@@ -20795,7 +20839,7 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "contas_com_ressalva_ou_multa_eleitoral",
+          "categoria": "contas_rejeitadas",
           "descricao": "Contas da campanha de 2022 desaprovadas por unanimidade pelo TRE-SP (mar/2023): atraso nos relatórios, omissão de despesas e recursos de origem não identificada."
         }
       ],
@@ -20828,7 +20872,7 @@
     "160002540793": {
       "nome_urna": "PROFESSOR EULER",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 9,
+      "nota": 8,
       "motivo": "Busca rápida na internet (1 busca): acordo de não persecução cível com o MPF por uso de carro alugado pelo CAU-PR na campanha e apuração de nomeações cruzadas (a confirmar).",
       "fontes": [
         "https://www.plural.jor.br/poder/secretario-de-esporte-de-curitiba-firmou-acordo-para-nao-responder-por-improbidade-2/",
@@ -20837,8 +20881,8 @@
       "pesquisado_em": "2026-09-26",
       "achados": [
         {
-          "categoria": "citado_ou_apuracao_preliminar",
-          "descricao": "Firmou acordo de não persecução cível (ANPC) com o MPF para não responder por improbidade: um assessor do gabinete de vereador usou na campanha um carro alugado pelo CAU-PR (os responsáveis pelo aluguel devolveram os valores); o MPF também apurou nomeações cruzadas entre o gabinete e o CAU-PR. Tratado como o ANPP de Silas Câmara/AM (−1). A confirmar."
+          "categoria": "acordo_de_nao_persecucao",
+          "descricao": "Firmou acordo de não persecução cível (ANPC) com o MPF para não responder por improbidade: um assessor do gabinete de vereador usou na campanha um carro alugado pelo CAU-PR (os responsáveis pelo aluguel devolveram os valores); o MPF também apurou nomeações cruzadas entre o gabinete e o CAU-PR. A confirmar."
         }
       ],
       "origem": "busca_finalistas"
@@ -20906,7 +20950,7 @@
     "160002532851": {
       "nome_urna": "TONINHO WANDSCHEER",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 6,
+      "nota": 5,
       "motivo": "Busca rápida na internet (1 busca): condenado por improbidade no caso da Máfia dos Sanguessugas como prefeito de Fazenda Rio Grande (instância não confirmada, a confirmar) e réu em ação de improbidade movida pelo município.",
       "fontes": [
         "https://vaipiorar.com.br/toninho-wandscheer/",

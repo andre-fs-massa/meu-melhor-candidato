@@ -632,7 +632,7 @@
     "280002551932": {
       "nome_urna": "RONALDO CAIADO",
       "cargo_pretendido": "PRESIDENTE",
-      "nota": 5,
+      "nota": 4,
       "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): Antes 4. Uma pessoa não pode pesar o dobro só por ser vice: o vice Kassab valia -6 ('vice réu'), mas na tabela de idoneidade pessoal, réu em ação penal vale -3 e condenação civil de 1ª instância -2. Total 10-5 = 5. || Texto anterior: Vice Gilberto Kassab (presidente nacional do PSD) é réu ATIVO desde 2021 por corrupção passiva, lavagem de dinheiro, caixa 2 eleitoral e associação criminosa (R$16,5 milhões da JBS via contratos simulados), além de condenação por improbidade administrativa como ex-prefeito de SP. É o vice em si, não um aliado periférico.",
       "vice": {
         "nome": "Gilberto Kassab",
@@ -654,7 +654,7 @@
           "ligacao_detalhe": "vice-presidente na chapa; também preside o PSD",
           "tipo_pendencia": "reu_acao_penal+condenacao_civil",
           "pendencia": "Réu ativo desde 2021 (corrupção/lavagem/caixa 2/associação criminosa) + condenação CIVIL por improbidade (status não confirmado). Sem condenação penal",
-          "desconto": 5,
+          "desconto": 6,
           "contado": true,
           "achados": [
             {
@@ -1826,7 +1826,7 @@
     "130002541911": {
       "nome_urna": "MATEUS SIMÕES",
       "cargo_pretendido": "GOVERNADOR",
-      "nota": 4,
+      "nota": 4.5,
       "motivo": "REVISADA em 2026-09-21 (auditoria de padronização): Entram Paulinho da Força (Solidariedade, -1), Luis Tibé (Avante, -2) e Eduardo Ribeiro (Novo, sem pendência), pesquisados depois; os caciques já estavam no teto de -4, então a nota segue 4. || Texto anterior: REVISADA em 2026-09-21 (antes 0). Base 10, menos: -4 caciques da coligação (dentro do teto de -4): Kassab, presidente do PSD, partido dele, é réu sem sentença penal + condenação civil por improbidade (-2); Ciro Nogueira (PP) está sob investigação da PF no caso Master, sem denúncia (-1); Antonio Rueda (União) está sob investigação da PF na Operação Carbono Oculto, sem denúncia (-1); -2 padrinho Romeu Zema -- sucessor declarado e principal financiador (Novo, R$ 1,7 mi), com multa eleitoral por conduta vedada (2022) e contas de 2018 aprovadas com ressalvas, sem crime. Vice Danilo de Castro (União), ex-secretário de Governo de Aécio e Anastasia, sem pendência encontrada. Total 10-4-2 = 4. Nenhum dos descontos é crime confirmado. Coligação 'Minas no Caminho Certo': PSD, União, PP, Novo, PRD, Solidariedade, Avante, DC, Mobiliza, Agir; lideranças de PRD, Solidariedade, Avante, DC, Mobiliza e Agir NÃO aprofundadas (ressalva de cobertura).",
       "vice": {
         "nome": "Danilo de Castro",
@@ -1876,7 +1876,7 @@
           "ligacao_detalhe": "antecessor e sucessor declarado; o Novo é o maior financiador da campanha (R$ 1,7 mi)",
           "tipo_pendencia": "infracao_eleitoral",
           "pendencia": "Multa do TSE por conduta vedada (2022) e contas de 2018 aprovadas com ressalvas; nenhuma condenação criminal",
-          "desconto": 2,
+          "desconto": 1.5,
           "contado": true,
           "idoneidade_ref": "280002539826"
         },

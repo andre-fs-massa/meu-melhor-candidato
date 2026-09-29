@@ -31,26 +31,33 @@ nenhum não pesquisado empate com a última vaga. Um estado só é dado como fec
 
 ## Regras de classificação (tabela fechada de `pipeline/pesos.py`)
 
+> **Atualizado em 2026-09-29** pela revisão de justiça dos pesos ([`revisao_pesos_idoneidade_2026-09-29.md`](revisao_pesos_idoneidade_2026-09-29.md)). As notas já publicadas foram recalculadas com a tabela nova; os textos das seções por estado abaixo citam os pesos da época.
+
 | Situação encontrada | Categoria | Desconto |
 |---|---|---|
-| Condenação criminal ou por improbidade confirmada em 2ª instância | `condenacao_confirmada_sem_reversao` | −4 |
+| Condenação **criminal** confirmada em 2ª instância, por tribunal colegiado ou transitada | `condenacao_criminal_confirmada` | −5 |
+| Condenação por improbidade ou abuso de poder eleitoral confirmada em 2ª instância | `condenacao_confirmada_sem_reversao` | −4 |
 | Réu em ação penal | `reu_acao_penal` | −3 por processo |
-| Registro de candidatura impugnado pelo MPE, pendente | `registro_contestado_sub_judice` | −2 |
+| Registro de candidatura impugnado ou indeferido (só marcador; a causa pessoal, se houver, conta como achado próprio) | `registro_contestado_sub_judice` / `registro_indeferido` | 0 |
 | Inquérito aberto ou ação de improbidade/civil pública em curso (recente) | `investigacao_ou_acao_civil_em_curso` | −2 |
 | Condenação de 1ª instância revertida no recurso; cassação ou perda de mandato **decretada e depois anulada ou revertida** (no recurso, nos embargos ou pelo próprio tribunal), inclusive por infidelidade partidária (decisão do usuário, 26/09: houve apuração e decisão contra o candidato, o que já é indício) | `condenacao_revertida` | −2 |
-| Condenação por improbidade cuja instância não se confirmou | `condenacao_1a_instancia_recorrivel` | −2 |
-| Mandato cassado ou suspenso por decisão confirmada (casa legislativa ou TSE) | `cassacao_de_mandato` | −2 |
-| Ação penal extinta por prescrição, sem condenação | `acusacao_anulada_ou_absolvida` | −1 |
-| Ação de improbidade julgada improcedente / absolvição | `acusacao_anulada_ou_absolvida` | −1 |
-| Investigação, representação ou apuração arquivada; citado em apuração sem ser alvo | `citado_ou_apuracao_preliminar` | −1 |
+| Condenação de 1ª instância, ou por improbidade cuja instância não se confirmou | `condenacao_1a_instancia_recorrivel` | −3 |
+| Mandato cassado por decisão confirmada (casa legislativa ou TSE) | `cassacao_de_mandato` | −3 |
+| Mandato suspenso temporariamente | `sancao_institucional_confirmada` | −2 |
+| Ação penal extinta por prescrição, provas anuladas, arquivamento sem motivo conhecido | `acusacao_anulada_ou_absolvida` | −1 |
+| Absolvição, ação improcedente, denúncia/impugnação rejeitada, arquivamento por falta de provas ou a pedido do MP | `absolvido_no_merito` | −0,5 |
+| Citado em apuração sem ser alvo; apuração arquivada sem motivo conhecido (soma limitada a −2) | `citado_ou_apuracao_preliminar` | −1 |
+| Acordo de não persecução penal (ANPP) ou cível (ANPC) | `acordo_de_nao_persecucao` | −2 |
 | Processo antigo (mais de 3 anos) sem desfecho encontrado — marcado "a confirmar" | `citado_ou_apuracao_preliminar` | −1 |
 | Condenação ou acordo por dano moral / crime contra a honra | `acao_civil_dano_moral` | −1 |
-| Contas de campanha desaprovadas | `contas_com_ressalva_ou_multa_eleitoral` | −1 |
+| Contas de campanha desaprovadas ou contas de gestão rejeitadas | `contas_rejeitadas` | −2 |
+| Contas aprovadas com ressalva | `contas_aprovadas_com_ressalva` | −0,5 |
+| Multa por conduta vedada, doação acima do limite ou de tribunal de contas | `contas_com_ressalva_ou_multa_eleitoral` | −1 |
 | Multa ou ordem de retirada por propaganda irregular, antecipada ou negativa (critério da auditoria de 24/09, mantido pelo usuário) | `infracao_eleitoral_leve` | −1 |
 | Advertência ou censura de conselho de ética | `controversia_administrativa` | −0,5 |
 | Processo disciplinar por fala ou decoro, arquivado ou sem sanção | — | 0 |
 | Ser autor ou vítima de processo; resultado de homônimo | — | 0 |
-| Perda de mandato por infidelidade partidária **decretada e mantida** (decisão do usuário, 25/09) | `cassacao_de_mandato` | −2 |
+| Perda de mandato por infidelidade partidária **decretada e mantida** (decisão do usuário, 25/09) | `cassacao_de_mandato` | −3 |
 | Pedido de cassação ou de perda de mandato ainda não decidido ou negado (nunca decretado) | — | 0 |
 | Processos de parentes (cônjuge, pai), sem o candidato como alvo | — | 0 (entram no círculo político só dos majoritários) |
 

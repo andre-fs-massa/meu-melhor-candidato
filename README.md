@@ -64,6 +64,8 @@ Metodologia completa do funil de recomendação: [`docs/funil_recomendacao.md`](
 Os descontos de idoneidade seguem categorias fechadas com pesos em [`pipeline/pesos.py`](pipeline/pesos.py); as regras
 de classificação usadas na busca dos deputados estão em
 [`docs/busca_deputados_finalistas_2026-09-25.md`](docs/busca_deputados_finalistas_2026-09-25.md).
+A revisão de justiça dos pesos de 29/09/2026 (o que mudou e o impacto por estado e cargo) está em
+[`docs/revisao_pesos_idoneidade_2026-09-29.md`](docs/revisao_pesos_idoneidade_2026-09-29.md).
 
 ## Cobertura atual
 

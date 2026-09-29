@@ -224,7 +224,7 @@
     d.append(el("h4", null, "Achados sobre o candidato"));
     if (c.achados.length) {
       const ul = el("ul");
-      c.achados.forEach(a => { const li = el("li"); li.append(el("span", "peso", "−" + a.peso + " "), document.createTextNode(a.rotulo + ": " + a.descricao)); ul.append(li); });
+      c.achados.forEach(a => { const li = el("li"); li.append(el("span", "peso", (a.peso ? "−" + a.peso : "0") + " "), document.createTextNode(a.rotulo + ": " + a.descricao)); ul.append(li); });
       d.append(ul);
     } else {
       const { v, niv, consultadas, comRegistro } = verif(c);
