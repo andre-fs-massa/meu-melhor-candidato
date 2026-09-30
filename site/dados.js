@@ -1919,71 +1919,6 @@ const DADOS = {
    [
     {
      "contado": true,
-     "desconto": 0,
-     "detalhe": "presidente nacional do PSOL, partido do candidato",
-     "ligacao": "presidente do partido do candidato",
-     "nome": "Paula Coradi",
-     "partido": "PSOL",
-     "pendencia": "Nenhuma pendência encontrada (busca geral)"
-    },
-    {
-     "contado": true,
-     "desconto": 0,
-     "detalhe": "presidente nacional do PCDOB, que integra a coligação/federação no TSE",
-     "ligacao": "presidente de partido aliado (coligação)",
-     "nome": "Nádia Campeão",
-     "partido": "PCDOB",
-     "pendencia": "Presidente em exercício; nenhuma pendência encontrada (busca geral). A presidente licenciada, Luciana Santos (ministra), tem condenação por improbidade em 1ª instância (2019, iluminação pública de Olinda, em recurso) -- não contada por estar licenciada"
-    },
-    {
-     "contado": true,
-     "desconto": 1,
-     "detalhe": "presidente nacional do PDT, que integra a coligação/federação no TSE",
-     "ligacao": "presidente de partido aliado (coligação)",
-     "nome": "Carlos Lupi",
-     "partido": "PDT",
-     "pendencia": "Delatado por ex-dirigentes do INSS (fraude dos descontos), sem denúncia"
-    },
-    {
-     "contado": true,
-     "desconto": 0,
-     "detalhe": "presidente nacional do PSB, que integra a coligação/federação no TSE",
-     "ligacao": "presidente de partido aliado (coligação)",
-     "nome": "João Campos",
-     "partido": "PSB",
-     "pendencia": "Nenhuma pendência pessoal como dirigente encontrada (busca geral)"
-    },
-    {
-     "contado": true,
-     "desconto": 1,
-     "detalhe": "presidente nacional do PT, que integra a coligação/federação no TSE",
-     "ligacao": "presidente de partido aliado (coligação)",
-     "nome": "Edinho Silva",
-     "partido": "PT",
-     "pendencia": "Inquérito da Lava Jato (campanha Dilma 2014) trancado por excesso de prazo, sem denúncia"
-    },
-    {
-     "contado": true,
-     "desconto": 0,
-     "detalhe": "presidente nacional do PV, que integra a coligação/federação no TSE",
-     "ligacao": "presidente de partido aliado (coligação)",
-     "nome": "José Luiz de França Penna",
-     "partido": "PV",
-     "pendencia": "Nenhuma pendência encontrada (busca geral)"
-    },
-    {
-     "contado": true,
-     "desconto": 2,
-     "detalhe": "presidente nacional do REDE, que integra a coligação/federação no TSE",
-     "ligacao": "presidente de partido aliado (coligação)",
-     "nome": "Paulo Lamac",
-     "partido": "REDE",
-     "pendencia": "Acordo com o MPMG (2026) para encerrar ação por uso irregular de verba pública, pagando cerca de R$ 171 mil"
-    }
-   ],
-   [
-    {
-     "contado": true,
      "desconto": 1,
      "detalhe": "presidente nacional do PRD, partido do candidato",
      "ligacao": "presidente do partido do candidato",
@@ -3156,5 +3091,5 @@ const DADOS = {
    "pesquisa individual"
   ]
  },
- "versao": "1624db9a1d"
+ "versao": "651dddba9c"
 };

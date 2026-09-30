@@ -19914,9 +19914,31 @@
           "pendencia": "Acordo com o MPMG (2026) para encerrar ação por uso irregular de verba pública, pagando cerca de R$ 171 mil",
           "desconto": 2,
           "contado": true
+        },
+        {
+          "nome": "Fernando Isaac",
+          "partido": "PDT",
+          "tipo_ligacao": "suplente_de_chapa",
+          "ligacao_detalhe": "1º suplente",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada nesta busca (não exaustiva)",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Paulo Rochifild",
+          "partido": "PV",
+          "tipo_ligacao": "suplente_de_chapa",
+          "ligacao_detalhe": "2º suplente",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada nesta busca (não exaustiva)",
+          "desconto": 0,
+          "contado": true
         }
       ],
-      "fontes": [],
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-cintia-dias-candidata-ao-senado-por-goias/"
+      ],
       "pesquisado_em": "2026-09-23",
       "nota": 6,
       "motivo": "PADRONIZADO em 2026-09-24 (caciques = presidentes nacionais de todos os partidos da coligação oficial no TSE, com a mesma pendência por partido em todo o projeto): nota 10 -> 6. || Ver decomposição em 'apoiadores'.",
@@ -20199,9 +20221,31 @@
           "pendencia": "Acordo com o MPMG (2026) para encerrar ação por uso irregular de verba pública, pagando cerca de R$ 171 mil",
           "desconto": 2,
           "contado": true
+        },
+        {
+          "nome": "Victor Dutra",
+          "partido": "PV",
+          "tipo_ligacao": "suplente_de_chapa",
+          "ligacao_detalhe": "1º suplente",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada nesta busca (não exaustiva)",
+          "desconto": 0,
+          "contado": true
+        },
+        {
+          "nome": "Patrick de Noronha",
+          "partido": "REDE",
+          "tipo_ligacao": "suplente_de_chapa",
+          "ligacao_detalhe": "2º suplente",
+          "tipo_pendencia": "nenhuma_encontrada",
+          "pendencia": "Nenhuma encontrada nesta busca (não exaustiva)",
+          "desconto": 0,
+          "contado": true
         }
       ],
-      "fontes": [],
+      "fontes": [
+        "https://www.jornalopcao.com.br/ultimas-noticias/isaura-lemos-define-patrik-de-noronha-e-viktor-dutra-como-suplentes-na-chapa-ao-senado-854159/"
+      ],
       "pesquisado_em": "2026-09-23",
       "nota": 6,
       "motivo": "PADRONIZADO em 2026-09-24 (caciques = presidentes nacionais de todos os partidos da coligação oficial no TSE, com a mesma pendência por partido em todo o projeto): nota 10 -> 6. || Ver decomposição em 'apoiadores'.",

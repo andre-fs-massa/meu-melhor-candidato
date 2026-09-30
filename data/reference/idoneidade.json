@@ -4745,10 +4745,14 @@
       "nome_urna": "CINTIA DIAS",
       "cargo_pretendido": "SENADOR",
       "nota": 10,
-      "motivo": "Cientista social (UFG), fundadora do PSOL em Goiás, atuação em movimentos sociais e sindicais. Busca não encontrou pendência pessoal.",
-      "fontes": [],
+      "motivo": "ESCRUTÍNIO 2026-09-30 (empate na última vaga, 4 buscas padronizadas + suplentes): nada encontrado (87 processos no Jusbrasil com o nome, a maioria no TRE-GO, sem sanção identificada); suplentes Fernando Isaac (PDT) e Paulo Rochifild (PV) sem pendência encontrada. || Cientista social (UFG), fundadora do PSOL em Goiás, atuação em movimentos sociais e sindicais. Busca não encontrou pendência pessoal.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/eleicoes/quem-e-cintia-dias-candidata-ao-senado-por-goias/",
+        "https://www.jusbrasil.com.br/processos/nome/43943165/cintia-aparecida-dias"
+      ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [],
+      "escrutinado_em": "2026-09-30"
     },
     "90002546974": {
       "nome_urna": "DR. ZACHARIAS CALIL",
@@ -4829,11 +4833,21 @@
     "90002541455": {
       "nome_urna": "ISAURA LEMOS",
       "cargo_pretendido": "SENADOR",
-      "nota": 10,
-      "motivo": "Candidata do PSB. Busca não encontrou pendência pessoal -- cobertura rasa (candidata de baixa exposição midiática).",
-      "fontes": [],
+      "nota": 6,
+      "motivo": "ESCRUTÍNIO 2026-09-30 (empate na última vaga, 4 buscas padronizadas + suplentes): condenação colegiada do TJGO por improbidade com enriquecimento ilícito, citada pelo MP Eleitoral na impugnação de 2010, sem desfecho encontrado (a confirmar). Suplentes Victor Dutra (PV) e Patrick de Noronha (Rede) sem pendência encontrada. || Técnica de enfermagem, deputada estadual em Goiás por 5 mandatos (1999-2019), candidata do PSB.",
+      "fontes": [
+        "https://www.mpf.mp.br/atuacao/eleitoral/pre-go/servicos-1/acoes-em-destaque",
+        "https://pt.wikipedia.org/wiki/Isaura_Lemos",
+        "https://www.jornalopcao.com.br/ultimas-noticias/isaura-lemos-define-patrik-de-noronha-e-viktor-dutra-como-suplentes-na-chapa-ao-senado-854159/"
+      ],
       "pesquisado_em": "2026-09-23",
-      "achados": []
+      "achados": [
+        {
+          "categoria": "condenacao_confirmada_sem_reversao",
+          "descricao": "Condenada pelo TJGO, em decisão colegiada, à suspensão dos direitos políticos por ato doloso de improbidade administrativa com enriquecimento ilícito (art. 9º da Lei 8.429/92); o MP Eleitoral impugnou o registro dela em 2010 com base nessa condenação (protocolo 27667/2010). Desfecho posterior não encontrado: o registro de 2010 passou e ela exerceu os mandatos até 2019, o que sugere reversão ou falta de trânsito em julgado. A confirmar (se revertida, −2)."
+        }
+      ],
+      "escrutinado_em": "2026-09-30"
     },
     "90002545244": {
       "nome_urna": "IURE CASTRO",
