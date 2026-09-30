@@ -267,7 +267,7 @@
     b.append(el("p", "selo " + vf.nivel, `${vf.niv.rotulo}` + (vf.consultadas ? ` · ${vf.consultadas} bases oficiais conferidas` + (vf.comRegistro ? `, ${vf.comRegistro} com registro` : "") : "")));
     b.append(el("p", "nota", `Posição: economia ${fmt(c.eco)} · costumes ${fmt(c.pes)} (${c.posicao_fonte}). ${c.camadas} de 5 camadas pesquisadas.`));
     if (c.fronteira) b.append(el("p", "nota", "Está perto do centro do diagrama: pode se identificar também com a posição vizinha."));
-    if (c.empate > 1) b.append(el("p", "nota", `Empatou com outros ${c.empate - 1} candidatos na última vaga; o desempate foi por sorteio.`));
+    if (c.empate > 1) b.append(el("p", "nota", `Empatou com outros ${c.empate - 1} candidatos na última vaga; o desempate foi pelo cargo eletivo mais alto já exercido e, persistindo o empate, por sorteio.`));
     const btn = el("button", "btn", "Notas, achados e fontes"); btn.type = "button"; btn.setAttribute("aria-expanded", "false");
     const det = detalhe(c); det.hidden = true;
     btn.addEventListener("click", () => {
@@ -569,7 +569,7 @@
      `Etapa 1: sai quem tem idoneidade geral abaixo de ${fmt(META.corte)} (de 0 a 10; para deputados o corte é ${fmt(META.corte_deputados)}, porque a nota deles vem só de bases oficiais e do partido). Idoneidade geral é a média entre a idoneidade pessoal do candidato (processos, Ficha Limpa, contas) e a do círculo político dele (vice, presidentes de partido, padrinhos e aliados políticos). Quem não teve a idoneidade pesquisada não é recomendado, para não punir quem foi mais escrutinado.`,
      `Etapa 2: cada candidato restante é posicionado num de quatro quadrantes do diagrama de Nolan (limite em ${fmt(META.limiar)} nos dois eixos: economia e costumes).`,
      `Etapa 3: em cada quadrante, o recomendado é quem tem maior qualificação geral — a média entre idoneidade geral e competência geral (que por sua vez é a média da competência declarada e da escolaridade).`,
-     `Empates na última vaga de um quadrante são resolvidos por sorteio, nunca por ordem alfabética.`,
+     `Empates na última vaga de um quadrante são resolvidos primeiro pelo cargo eletivo mais alto já exercido (Presidente; Governador ou Senador; Deputado Federal; Deputado Estadual ou Distrital, Prefeito ou Vice-Governador; Vereador ou Vice-Prefeito) e, persistindo, por sorteio, nunca por ordem alfabética.`,
      `Cada candidato mostra a profundidade da pesquisa (verificação estrutural, rápida, padrão ou aprofundada) e o resultado da conferência automática, por CPF, em bases oficiais: contas julgadas irregulares pelo TCU, motivos de indeferimento no TSE em 2022, sanções do CEIS, CNEP e CEAF e autos de infração do Ibama.`,
      `Se você não sabe seu quadrante, 2 perguntas simples indicam uma posição provável, que não é armazenada. Se nenhum candidato do seu quadrante (ou do vizinho) continuar na disputa, mostramos o mais próximo da sua posição entre os demais.`].forEach(t => m.append(el("li", null, t)));
     const lim = $("limites"); lim.textContent = "";

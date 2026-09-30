@@ -17,7 +17,7 @@ Decisões de desenho (todas parametrizáveis e listadas na saída):
   * Posição no diagrama: pesquisa individual quando existe; sem ela, o baseline do PARTIDO
     (regra do fallback), marcado como tal. Perto do centro (+-0,5) o candidato é marcado 'fronteira'.
   * Empate na última vaga de um quadrante: desempate por competência geral (a metade "menos redundante"
-    da qualificação geral), idoneidade geral, competência bruta e escolaridade; se ainda empatar, sorteio
+    da qualificação geral), idoneidade geral, competência bruta e escolaridade, nível do cargo eletivo mais alto já exercido; se ainda empatar, sorteio
     com semente fixa (reprodutível), e o tamanho do empate é informado. Nenhum candidato é favorecido por
     ordem alfabética.
 """
@@ -144,6 +144,24 @@ def carregar_fora_da_disputa() -> dict:
 CHAVE_PESSOA = ["nome_completo", "cargo", "uf", "numero", "partido"]
 
 
+# Desempate pelo cargo eletivo mais alto já exercido (decisão do usuário, 2026-09-30): entra depois dos critérios de
+# nota e antes do sorteio. Fonte: cargos_anteriores_resumo (pesquisa própria dos majoritários; TSE 2014-2024 dos deputados).
+NIVEL_CARGO = {
+    "PRESIDENTE": 5,
+    "GOVERNADOR": 4, "SENADOR": 4,
+    "DEPUTADO FEDERAL": 3,
+    "DEPUTADO ESTADUAL": 2, "DEPUTADO DISTRITAL": 2, "PREFEITO": 2, "VICE-GOVERNADOR": 2,
+    "VEREADOR": 1, "VICE-PREFEITO": 1,
+}
+
+
+def nivel_cargo(resumo) -> int:
+    """Nível do cargo mais alto em 'CARGO (local, período); ...' (0 sem cargo eletivo conhecido)."""
+    if not isinstance(resumo, str):
+        return 0
+    return max((NIVEL_CARGO.get(p.split(" (")[0].strip().upper(), 0) for p in resumo.split(";")), default=0)
+
+
 def preparar(df: pd.DataFrame) -> pd.DataFrame:
     """Acrescenta posição final no diagrama (individual ou do partido), quadrante e flag de fronteira.
 
@@ -169,13 +187,15 @@ def preparar(df: pd.DataFrame) -> pd.DataFrame:
     df["fora_da_disputa"] = df["sq_candidato"].map(fora)
     df["sub_judice"] = df["sq_candidato"].map(carregar_sub_judice())
     df["nota_qualificacao_geral"] = (df["nota_competencia_geral"] + df["nota_idoneidade_geral"]) / 2
+    df["nivel_cargo"] = df["cargos_anteriores_resumo"].map(nivel_cargo) if "cargos_anteriores_resumo" in df else 0
     return df
 
 
 def _escolher(grupo: pd.DataFrame, vagas: int, semente: int):
     """Escolhe `vagas` candidatos por qualificação geral (média de competência geral e idoneidade geral),
     com desempate explícito. Devolve (escolhidos, empatados_na_ultima_vaga)."""
-    chaves = ["nota_qualificacao_geral", "nota_competencia_geral", "nota_idoneidade_geral", "nota_competencia", "nota_escolaridade"]
+    chaves = ["nota_qualificacao_geral", "nota_competencia_geral", "nota_idoneidade_geral", "nota_competencia", "nota_escolaridade",
+              "nivel_cargo"]
     g = grupo.copy()
     for c in chaves:
         g[f"_k_{c}"] = g[c].fillna(-1).round(6)

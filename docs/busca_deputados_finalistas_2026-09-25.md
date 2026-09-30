@@ -1230,6 +1230,16 @@ investigado por tortura e mortes), Yury do Paredão/CE 5, Manoel Ludgério/PB 5 
 Gilberto Nascimento/SP 7, Renata Abreu/SP 7, Marangoni, Gambale, Ribamar Silva, Felipe Becari/SP e Tânia Sena/RO 8,
 Delegado Palumbo/SP 9, Bruno Lima e Antonio Carlos Rodrigues/SP 9,5. Todos os estados voltaram a fechar.
 
+## Desempate pelo cargo eletivo mais alto já exercido (30/09, noite)
+
+Decisão do usuário: antes do sorteio, a última vaga de um quadrante passa a ser desempatada pelo cargo eletivo mais
+alto já exercido (Presidente 5; Governador ou Senador 4; Deputado Federal 3; Deputado Estadual ou Distrital, Prefeito
+ou Vice-Governador 2; Vereador ou Vice-Prefeito 1; nenhum 0), a partir de `cargos_anteriores_resumo` (pesquisa própria
+dos majoritários; TSE 2014 a 2024 dos deputados). Trocaram 48 recomendados no país; os recomendados escolhidos por
+sorteio caíram de 285 para 221 (em SP, MG e RJ, de 15 para 9 quadrantes com sorteio). Os blocos empatados já tinham
+sido pesquisados inteiros na 1ª rodada; os 27 novos finalistas dos 10 maiores estados passaram pela 2ª rodada, sem
+achado novo (Victor Dias/PA: menção a boca de urna em 2018 sem desfecho, a confirmar, sem desconto).
+
 ## Situação e próximos passos
 
 - **Estados fechados (27 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),

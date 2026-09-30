@@ -7036,14 +7036,15 @@
       "nome_urna": "SEBASTIÃO SANTOS",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Sebasti%C3%A3o_Santos",
         "https://www.al.sp.gov.br/deputado/?matricula=300520"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "250002541870": {
       "nome_urna": "BRUNA FURLAN",
@@ -7337,13 +7338,15 @@
       "nome_urna": "ROBERTO LUCENA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
-        "https://www.camara.leg.br/deputados/160653/biografia"
+        "https://www.camara.leg.br/deputados/160653/biografia",
+        "https://en.wikipedia.org/wiki/Roberto_de_Lucena"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "250002537970": {
       "nome_urna": "TOME ABDUCH",
@@ -7391,13 +7394,15 @@
       "nome_urna": "MARCOS PEREIRA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (mesmo resultado da busca feita para ele como presidente nacional do Republicanos).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (mesmo resultado da busca feita para ele como presidente nacional do Republicanos). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
-        "https://www.camara.leg.br/deputados/204506/biografia"
+        "https://www.camara.leg.br/deputados/204506/biografia",
+        "https://republicanos10.org.br/quem-e-quem/marcos-pereira"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "250002537940": {
       "nome_urna": "RAÍ DO PARAÍSO",
@@ -7435,10 +7440,11 @@
       "nome_urna": "SÔNIA GUAJAJARA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 9.5,
-      "motivo": "Busca rápida na internet (1 busca): inquérito por críticas ao governo federal (2021), trancado pela Justiça Federal.",
+      "motivo": "Busca rápida na internet (1 busca): inquérito por críticas ao governo federal (2021), trancado pela Justiça Federal. 2ª rodada (busca pelo nome completo, 30/09): nada novo (só ações em que ela é autora).",
       "fontes": [
         "https://www.conjur.com.br/2021-mai-05/justica-manda-trancar-inquerito-lider-indigena-sonia-guajajara/",
-        "https://www.poder360.com.br/justica/pf-intima-sonia-guajajara-sob-acusacao-de-difamar-governo-federal/"
+        "https://www.poder360.com.br/justica/pf-intima-sonia-guajajara-sob-acusacao-de-difamar-governo-federal/",
+        "https://www.camara.leg.br/deputados/220643"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [
@@ -7447,7 +7453,8 @@
           "descricao": "Inquérito da PF aberto a pedido da Funai (2021) por suposta difamação do governo federal na websérie Maracá; trancado pela 10ª Vara Federal de Brasília em maio de 2021 por falta de indício de crime."
         }
       ],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "250002536755": {
       "nome_urna": "ORLANDO SILVA",
@@ -7789,13 +7796,15 @@
       "nome_urna": "CLARICE GANEM",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado (processos no Jusbrasil ligados a candidaturas e relação de consumo).",
       "fontes": [
-        "https://www.al.sp.gov.br/deputado/?matricula=300662"
+        "https://www.al.sp.gov.br/deputado/?matricula=300662",
+        "https://www.jusbrasil.com.br/processos/nome/41621692/clarice-carassol-arevalo-ganem"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "250002545189": {
       "nome_urna": "FRAN SILVA",
@@ -7870,13 +7879,15 @@
       "nome_urna": "RICARDO FRANÇA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
-        "https://pt.wikipedia.org/wiki/Ricardo_Fran%C3%A7a_(pol%C3%ADtico)"
+        "https://pt.wikipedia.org/wiki/Ricardo_Fran%C3%A7a_(pol%C3%ADtico)",
+        "https://en.wikipedia.org/wiki/Ricardo_Fran%C3%A7a"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "250002545138": {
       "nome_urna": "PASTOR ANISTALDO",
@@ -8011,13 +8022,15 @@
       "nome_urna": "DELEGADO MARCELO FREITAS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
-        "https://www.camara.leg.br/deputados/204512/biografia"
+        "https://www.camara.leg.br/deputados/204512/biografia",
+        "https://en.wikipedia.org/wiki/Delegado_Marcelo_Freitas"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "130002542715": {
       "nome_urna": "RODRIGO DE CASTRO",
@@ -8372,11 +8385,14 @@
       "nome_urna": "ALEX MAGALHÃES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
-      "fontes": [],
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada novo (candidatura a prefeito de Caeté impugnada em 2024, motivo não detalhado; registro não desconta).",
+      "fontes": [
+        "https://www.opiniaocaete.com.br/candidatura-de-alex-magalhaes-e-impugnada-pela-justica-eleitoral/"
+      ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "130002539499": {
       "nome_urna": "JUHLIA SANTOS",
@@ -8630,13 +8646,14 @@
       "nome_urna": "DELEGADO FELÍCIO LATERÇA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
         "https://www.camara.leg.br/deputados/204477/biografia"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "190002543347": {
       "nome_urna": "ROSANGELA GOMES",
@@ -8746,13 +8763,15 @@
       "nome_urna": "TARCÍSIO MOTTA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (1 processo eleitoral de 2026 como réu, sem detalhe; os demais como autor).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (1 processo eleitoral de 2026 como réu, sem detalhe; os demais como autor). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado (58 processos no Jusbrasil, a maioria no TRE-RJ, sem sanção identificada).",
       "fontes": [
-        "https://www.plural.jor.br/tarcisio-motta-de-carvalho/"
+        "https://www.plural.jor.br/tarcisio-motta-de-carvalho/",
+        "https://www.jusbrasil.com.br/processos/nome/114089032/tarcisio-motta-de-carvalho"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "190002536149": {
       "nome_urna": "JÚLIA CASAMASSO",
@@ -8975,11 +8994,12 @@
       "nome_urna": "JARI",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a matéria sobre deputado estadual do RJ preso pela PF que apareceu na busca é sobre Thiago Rangel; conferido).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a matéria sobre deputado estadual do RJ preso pela PF que apareceu na busca é sobre Thiago Rangel; conferido). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "190002536132": {
       "nome_urna": "YURI MOURA",
@@ -9003,13 +9023,15 @@
       "nome_urna": "RENATA SOUZA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada que desconte (processos disciplinares na Alerj que ela chama de perseguição, sem sanção encontrada; processo disciplinar sem sanção não é achado de idoneidade).",
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte (processos disciplinares na Alerj que ela chama de perseguição, sem sanção encontrada; processo disciplinar sem sanção não é achado de idoneidade). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
-        "https://psol50.org.br/renata-souza-denuncia-perseguicao-e-tentativa-de-cassacao-de-seu-mandato-na-alerj/"
+        "https://psol50.org.br/renata-souza-denuncia-perseguicao-e-tentativa-de-cassacao-de-seu-mandato-na-alerj/",
+        "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/441"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "190002536115": {
       "nome_urna": "PROF. JOSEMAR",
@@ -9417,13 +9439,15 @@
       "nome_urna": "JURAILTON SANTOS",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
-        "https://www.al.ba.gov.br/deputados/deputado-estadual/926897"
+        "https://www.al.ba.gov.br/deputados/deputado-estadual/926897",
+        "https://en.wikipedia.org/wiki/Jurailton_Santos"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "50002532550": {
       "nome_urna": "JOSÉ DE ARIMATEIA",
@@ -9456,13 +9480,14 @@
       "nome_urna": "ANGELO CORONEL FILHO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Angelo_Coronel_Filho"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "50002538682": {
       "nome_urna": "EDUARDO SALLES",
@@ -9815,14 +9840,16 @@
       "nome_urna": "ALEXANDRE AMARO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Alexandre_Amaro",
-        "https://republicanos10.org.br/quem_e_quem/alexandre-amaro/"
+        "https://republicanos10.org.br/quem_e_quem/alexandre-amaro/",
+        "https://www.assembleia.pr.leg.br/deputados/perfil/alexandre-amaro"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "160002547561": {
       "nome_urna": "TANIA MAION",
@@ -9900,13 +9927,15 @@
       "nome_urna": "GOURA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
-        "Busca na web (2026-09-25): \"Goura\" deputado estadual PR processo OR investigado OR condenado -- nenhum resultado sobre o candidato"
+        "Busca na web (2026-09-25): \"Goura\" deputado estadual PR processo OR investigado OR condenado -- nenhum resultado sobre o candidato",
+        "https://pt.wikipedia.org/wiki/Goura_Nataraj"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "160002546866": {
       "nome_urna": "ALEXANDRE GUIMARÃES",
@@ -9989,13 +10018,14 @@
       "nome_urna": "BIA ALCANTARA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
         "https://www.camaracascavel.pr.gov.br/a-camara/vereadores/beatriz-de-alcantara-silva/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "160002542251": {
       "nome_urna": "ANDERSON PREGO DA SILVA",
@@ -10243,14 +10273,16 @@
       "nome_urna": "FELIPE FRANCISCHINI",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado contra ele; a cassação pelo TSE (2021) por desinformação contra a urna eletrônica foi do pai, o ex-deputado estadual Fernando Francischini (sem desconto).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado contra ele; a cassação pelo TSE (2021) por desinformação contra a urna eletrônica foi do pai, o ex-deputado estadual Fernando Francischini (sem desconto). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
         "https://en.wikipedia.org/wiki/Felipe_Francischini",
-        "https://www.tse.jus.br/comunicacao/noticias/2021/Outubro/plenario-cassa-deputado-francischini-por-propagar-desinformacao-contra-o-sistema-eletronico-de-votacao"
+        "https://www.tse.jus.br/comunicacao/noticias/2021/Outubro/plenario-cassa-deputado-francischini-por-propagar-desinformacao-contra-o-sistema-eletronico-de-votacao",
+        "https://www.camara.leg.br/deputados/204398/biografia"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "160002546899": {
       "nome_urna": "RENAN CESCHIN",
@@ -10446,13 +10478,15 @@
       "nome_urna": "FERNANDA MELCHIONNA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de representação do PL no Conselho de Ética da Câmara por chamar filhos de Bolsonaro de 'bandidos', arquivada em 2024 (fala, sem desconto).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de representação do PL no Conselho de Ética da Câmara por chamar filhos de Bolsonaro de 'bandidos', arquivada em 2024 (fala, sem desconto). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado (141 processos no Escavador, sem sanção identificada).",
       "fontes": [
-        "https://agenciabrasil.ebc.com.br/politica/noticia/2024-06/conselho-de-etica-da-camara-arquiva-acao-contra-fernanda-melchionna"
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2024-06/conselho-de-etica-da-camara-arquiva-acao-contra-fernanda-melchionna",
+        "https://www.escavador.com/sobre/670881168/fernanda-melchionna-e-silva"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "210002541970": {
       "nome_urna": "MOISÉS BARBOZA",
@@ -10499,14 +10533,15 @@
       "nome_urna": "RONALDO SANTINI",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TJRS e do TRE-RS sem classe nem papel visíveis).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o nome aparece em processos do TJRS e do TRE-RS sem classe nem papel visíveis). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Ronaldo_Santini",
         "https://www.jusbrasil.com.br/processos/nome/65967353/ronaldo-santini"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "210002533066": {
       "nome_urna": "GIUSEPPE RIESGO",
@@ -10859,13 +10894,15 @@
       "nome_urna": "ANY ORTIZ",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
-        "Busca na web (2026-09-25): \"Any Ortiz\" deputada federal RS processo OR investigada OR condenada -- nenhum resultado sobre a candidata"
+        "Busca na web (2026-09-25): \"Any Ortiz\" deputada federal RS processo OR investigada OR condenada -- nenhum resultado sobre a candidata",
+        "https://en.wikipedia.org/wiki/Any_Machado_Ortiz"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "210002536927": {
       "nome_urna": "MOSSINI",
@@ -12489,13 +12526,15 @@
       "nome_urna": "VICTOR DIAS",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada confirmado (menção a representação por boca de urna em 2018, sem desfecho encontrado; a confirmar).",
       "fontes": [
-        "https://pt.wikipedia.org/wiki/Victor_Dias"
+        "https://pt.wikipedia.org/wiki/Victor_Dias",
+        "https://www.alepa.pa.gov.br/Institucional/Deputado/1027"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "140002551125": {
       "nome_urna": "THIAGO ARAUJO",
@@ -12625,13 +12664,14 @@
       "nome_urna": "FÁBIO FIGUEIRAS",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/F%C3%A1bio_Figueiras"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "140002544313": {
       "nome_urna": "LÍVIA DUARTE",
@@ -12716,13 +12756,15 @@
       "nome_urna": "PAMELYS BARROS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): só polêmica sobre uso de diárias, sem processo; nada formal encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): só polêmica sobre uso de diárias, sem processo; nada formal encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
-        "https://horahiper.com.br/politica/vereadora-pamelys-de-barros-esclarece-polemica-sobre-uso-das-diarias-26007"
+        "https://horahiper.com.br/politica/vereadora-pamelys-de-barros-esclarece-polemica-sobre-uso-das-diarias-26007",
+        "https://jornalrazao.com/eleicoes-2026/contas/pamelys-barros"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "240002537085": {
       "nome_urna": "JORGE GOETTEN",
@@ -21112,13 +21154,14 @@
       "nome_urna": "RODRIGO MINOTTO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado; o Jusbrasil lista 169 processos com o nome (a maioria no TRE-SC), sem nenhuma sanção identificada.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado; o Jusbrasil lista 169 processos com o nome (a maioria no TRE-SC), sem nenhuma sanção identificada. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
         "https://www.jusbrasil.com.br/processos/nome/42648225/rodrigo-minotto"
       ],
       "pesquisado_em": "2026-09-26",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "240002533282": {
       "nome_urna": "HILDA DEOLA",
@@ -21302,13 +21345,15 @@
       "nome_urna": "BRUNO GANEM",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o processo com perda de mandato citado nas buscas é do primo, Lucas Ganem, vereador de BH).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o processo com perda de mandato citado nas buscas é do primo, Lucas Ganem, vereador de BH). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
-        "https://www.otempo.com.br/politica/2026/6/10/comissao-inicia-rodada-de-depoimentos-em-processo-contra-vereador-de-bh-forasteiro"
+        "https://www.otempo.com.br/politica/2026/6/10/comissao-inicia-rodada-de-depoimentos-em-processo-contra-vereador-de-bh-forasteiro",
+        "https://en.wikipedia.org/wiki/Bruno_Ganem"
       ],
       "pesquisado_em": "2026-09-30",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "250002544343": {
       "nome_urna": "JEFFERSON CEZAROLLI",
@@ -21469,13 +21514,15 @@
       "nome_urna": "RONALDO MARTINS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
-        "https://republicanos10.org.br/quem-e-quem/ronaldo-martins"
+        "https://republicanos10.org.br/quem-e-quem/ronaldo-martins",
+        "https://en.wikipedia.org/wiki/Ronaldo_Martins"
       ],
       "pesquisado_em": "2026-09-30",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "60002545093": {
       "nome_urna": "IRENE DANTAS",
