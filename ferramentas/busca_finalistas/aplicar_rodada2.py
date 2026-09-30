@@ -17,7 +17,7 @@ from pipeline.pesos import calcular_nota  # noqa: E402
 
 IDON = RAIZ / "data/reference/idoneidade.json"
 ESTR = RAIZ / "data/processed/estrutural_idoneidade.json"
-DATA = "2026-09-26"
+DATA = "2026-09-30"
 
 entrada = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
 idon = json.loads(IDON.read_text(encoding="utf-8"))
@@ -34,7 +34,7 @@ for sq, r in entrada.items():
     if r["achados"]:
         motivo = r["motivo"]
     else:
-        motivo = motivo_ant.rstrip(". ") + ". 2ª rodada (busca pelo nome completo, 26/09): " + r["motivo"]
+        motivo = motivo_ant.rstrip(". ") + f". 2ª rodada (busca pelo nome completo, {DATA[8:10]}/{DATA[5:7]}): " + r["motivo"]
     nota_ant = reg["nota"]
     reg["achados"] = list(base) + busca_ant + r["achados"]
     reg["nota"] = calcular_nota(reg["achados"])

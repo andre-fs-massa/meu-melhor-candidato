@@ -69,7 +69,7 @@
     recomendado: ["★", "Recomendado"], segue: ["✓", "Continua"], abaixo_do_corte: ["▼", "Abaixo do corte"],
     fora_da_disputa: ["✕", "Fora da disputa"], nao_avaliado: ["?", "Sem verificação"],
   };
-  const subJudice = (c) => c.achados.find(a => a.categoria === "registro_contestado_sub_judice");
+  const subJudice = (c) => c.sub_judice ? { descricao: c.sub_judice } : null;
   const QCLASSE = {ESQUERDA: "q-esquerda", LIBERTARIO: "q-libertario", AUTORITARIO: "q-autoritario", DIREITA: "q-direita"};
   const qcor = (chave) => `var(--${QCLASSE[chave]})`;
   const qcorWash = (chave) => `var(--${QCLASSE[chave]}-wash)`;
@@ -440,7 +440,7 @@
       if (!recs.length) {
         const fora = g.candidatos.filter(c => c.quadrante === chave);
         card.append(el("p", "vazio-quad", fora.length ? "Nenhum candidato desta posição continuou na disputa." : "Nenhum candidato registrado nesta posição."));
-        if (fora.length) card.append(el("p", "nota", "Ficaram de fora: " + fora.map(c => `${tc(c.nome_urna)} (${c.situacao === "fora_da_disputa" ? "fora da disputa" : c.situacao === "abaixo_do_corte" ? "idoneidade " + fmt(c.idoneidade_geral) : "sem verificação"})`).join("; ") + "."));
+        if (fora.length) card.append(el("p", "nota", "Ficaram de fora: " + fora.map(c => `${tc(c.nome_urna)} (${c.situacao === "fora_da_disputa" ? "fora da disputa" : c.situacao === "abaixo_do_corte" ? "idoneidade " + fmt(c.idoneidade_geral) : c.sub_judice ? "sub judice" : "sem verificação"})`).join("; ") + "."));
       } else recs.forEach(c => card.append(blocoCandidato(c, "quadrante")));
       box.append(card);
     });
@@ -522,7 +522,8 @@
       let montado = false;
       const montarDetalhe = () => {
         const d = detalhe(c);
-        if (c.motivo_saida && c.situacao !== "abaixo_do_corte") d.prepend(el("p", null, "Por que saiu: " + c.motivo_saida.replace(/^[a-z_]+: /, "")));
+        if (c.motivo_saida && c.situacao === "segue") d.prepend(el("p", null, "Por que não é recomendado: candidatura sub judice; " + c.motivo_saida.replace(/^[a-z_]+: /, "")));
+        else if (c.motivo_saida && c.situacao !== "abaixo_do_corte") d.prepend(el("p", null, "Por que saiu: " + c.motivo_saida.replace(/^[a-z_]+: /, "")));
         if (c.situacao === "abaixo_do_corte") d.prepend(el("p", null, `Por que saiu: idoneidade geral ${c.motivo_saida.replace(/\./g, ",")} (corte ${fmt(g.corte)}).`));
         det.className = d.className; det.append(...d.childNodes);
       };
@@ -564,8 +565,8 @@
   function renderMetodologia() {
     const m = $("metodo"); m.textContent = "";
     [`Reunimos os candidatos oficiais do TSE para o cargo e o estado escolhidos.`,
-     `Etapa 0: saem candidatos com registro indeferido ou inelegíveis, mesmo que ainda apareçam no arquivo do TSE.`,
-     `Etapa 1: sai quem tem idoneidade geral abaixo de ${fmt(META.corte)} (de 0 a 10; para deputados o corte é ${fmt(META.corte_deputados)}, porque a nota deles vem só de bases oficiais e do partido). Idoneidade geral é a média entre a idoneidade pessoal do candidato (processos, Ficha Limpa, contas) e a do círculo político dele (vice, presidentes de partido, padrinhos). Quem não teve a idoneidade pesquisada não é recomendado, para não punir quem foi mais escrutinado.`,
+     `Etapa 0: saem candidatos que renunciaram, tiveram o registro indeferido sem recurso ou são inelegíveis, mesmo que ainda apareçam no arquivo do TSE${META.data_situacao_tse ? ` (situação do registro segundo o TSE em ${META.data_situacao_tse})` : ""}. Candidaturas sub judice (registro ainda em julgamento, com recurso ou sem decisão) continuam na lista, com aviso, mas não são recomendadas, porque os votos podem ser anulados.`,
+     `Etapa 1: sai quem tem idoneidade geral abaixo de ${fmt(META.corte)} (de 0 a 10; para deputados o corte é ${fmt(META.corte_deputados)}, porque a nota deles vem só de bases oficiais e do partido). Idoneidade geral é a média entre a idoneidade pessoal do candidato (processos, Ficha Limpa, contas) e a do círculo político dele (vice, presidentes de partido, padrinhos e aliados políticos). Quem não teve a idoneidade pesquisada não é recomendado, para não punir quem foi mais escrutinado.`,
      `Etapa 2: cada candidato restante é posicionado num de quatro quadrantes do diagrama de Nolan (limite em ${fmt(META.limiar)} nos dois eixos: economia e costumes).`,
      `Etapa 3: em cada quadrante, o recomendado é quem tem maior qualificação geral — a média entre idoneidade geral e competência geral (que por sua vez é a média da competência declarada e da escolaridade).`,
      `Empates na última vaga de um quadrante são resolvidos por sorteio, nunca por ordem alfabética.`,

@@ -14,6 +14,9 @@ DATASET_PAGE_URL = f"https://dadosabertos.tse.jus.br/dataset/candidatos-{ANO_ELE
 
 ZIP_PATH = RAW_DIR / f"consulta_cand_{ANO_ELEICAO}.zip"
 EXTRACT_DIR = RAW_DIR / f"consulta_cand_{ANO_ELEICAO}"
+# Informações complementares (mesmo portal, baixado à mão e descompactado): traz a situação do julgamento do
+# registro (DS_SITUACAO_JULGAMENTO), que saiu do consulta_cand a partir de 2024.
+COMPLEMENTAR_DIR = RAW_DIR / f"consulta_cand_complementar_{ANO_ELEICAO}"
 OUTPUT_PARQUET = PROCESSED_DIR / f"candidatos_{ANO_ELEICAO}.parquet"
 OUTPUT_CSV = PROCESSED_DIR / f"candidatos_{ANO_ELEICAO}.csv"
 

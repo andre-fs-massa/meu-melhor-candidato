@@ -72,13 +72,67 @@ def quadrante(eco: float, pessoal: float) -> str:
     return "ESQUERDA" if pessoal >= LIMIAR_QUADRANTE else "AUTORITARIO"
 
 
+# Situações do registro no TSE (consulta_cand_complementar) que tiram o candidato da disputa. Indeferido COM recurso
+# (sub judice) continua: o candidato está na urna e os votos contam se o recurso for aceito.
+SITUACOES_TSE_FORA = {
+    "RENÚNCIA": "renunciou à candidatura",
+    "INDEFERIDO": "registro indeferido de forma definitiva",
+    "CANCELADO": "registro cancelado",
+    "FALECIMENTO": "falecimento",
+    "PEDIDO NÃO CONHECIDO": "pedido de registro não conhecido pela Justiça Eleitoral",
+}
+
+
+# Registro ainda em julgamento no TSE (sub judice): continua na disputa e na urna, mas não é recomendado (decisão do
+# usuário, 2026-09-30), porque os votos podem ser anulados. Vale a situação do TSE quando existe; sem ela, vale o
+# marcador registro_contestado_sub_judice da pesquisa.
+SITUACOES_TSE_SUB_JUDICE = {
+    "INDEFERIDO EM PRAZO RECURSAL OU COM RECURSO": "registro indeferido, com recurso pendente",
+    "PEDIDO NÃO CONHECIDO EM PRAZO RECURSAL OU COM RECURSO": "pedido de registro não conhecido, com recurso pendente",
+    "DEFERIDO EM PRAZO RECURSAL OU COM RECURSO": "registro deferido, mas com recurso pendente contra o deferimento",
+    "PENDENTE DE JULGAMENTO": "registro ainda não julgado",
+}
+
+
+def carregar_sub_judice() -> dict:
+    """sq_candidato -> texto do aviso, para candidatos com registro ainda em julgamento."""
+    saida = {}
+    tse = pd.read_parquet(config.OUTPUT_PARQUET) if config.OUTPUT_PARQUET.exists() else pd.DataFrame()
+    com_situacao = set()
+    if "situacao_julgamento" in tse.columns:
+        for sq, sit, data in tse[["sq_candidato", "situacao_julgamento", "data_situacao_tse"]].itertuples(index=False):
+            if pd.isna(sit):
+                continue
+            com_situacao.add(sq)
+            if sit in SITUACOES_TSE_SUB_JUDICE:
+                saida[sq] = f"segundo o TSE (dados de {data}), {SITUACOES_TSE_SUB_JUDICE[sit]}; os votos podem ser anulados conforme a decisão."
+    caminho = REF_DIR / "idoneidade.json"
+    if caminho.exists():
+        for sq, reg in json.loads(caminho.read_text(encoding="utf-8"))["candidatos"].items():
+            if sq in com_situacao:
+                continue
+            for a in reg.get("achados", []):
+                if a["categoria"] == "registro_contestado_sub_judice":
+                    saida[sq] = a["descricao"]
+                    break
+    return saida
+
+
 def carregar_fora_da_disputa() -> dict:
-    """sq_candidato -> motivo, para quem tem achado de registro indeferido ou inelegibilidade vigente."""
+    """sq_candidato -> motivo, para quem tem achado de registro indeferido ou inelegibilidade vigente em
+    idoneidade.json (pesquisa, com mais detalhe) ou situação de saída no TSE (consulta_cand_complementar)."""
+    saida = {}
+    base = config.OUTPUT_PARQUET
+    if base.exists():
+        tse = pd.read_parquet(base)
+        if "situacao_julgamento" in tse.columns:
+            for sq, sit, data in tse[["sq_candidato", "situacao_julgamento", "data_situacao_tse"]].itertuples(index=False):
+                if sit in SITUACOES_TSE_FORA:
+                    saida[sq] = f"situacao_tse: {SITUACOES_TSE_FORA[sit][0].upper()}{SITUACOES_TSE_FORA[sit][1:]}, segundo o TSE (dados de {data})."
     caminho = REF_DIR / "idoneidade.json"
     if not caminho.exists():
-        return {}
+        return saida
     dados = json.loads(caminho.read_text(encoding="utf-8"))["candidatos"]
-    saida = {}
     for sq, reg in dados.items():
         for a in reg.get("achados", []):
             if a["categoria"] in CATEGORIAS_FORA_DA_DISPUTA:
@@ -113,6 +167,7 @@ def preparar(df: pd.DataFrame) -> pd.DataFrame:
     )
     fora = carregar_fora_da_disputa()
     df["fora_da_disputa"] = df["sq_candidato"].map(fora)
+    df["sub_judice"] = df["sq_candidato"].map(carregar_sub_judice())
     df["nota_qualificacao_geral"] = (df["nota_competencia_geral"] + df["nota_idoneidade_geral"]) / 2
     return df
 
@@ -172,6 +227,13 @@ def recomendar(
                                        "etapa": "etapa 1: idoneidade geral abaixo do corte", "situacao": "abaixo_do_corte",
                                        "motivo": f"{r['nota_idoneidade_geral']:.1f} < {corte:g}"})
     universo = universo.drop(reprovados.index)
+
+    # Sub judice sai da recomendação depois do corte, para quem está abaixo do corte continuar marcado como tal.
+    sub = universo[universo["sub_judice"].notna()]
+    for _, r in sub.iterrows():
+        resultado["removidos"].append({"sq": r["sq_candidato"], "nome": r["nome_urna"], "etapa": "etapa 1: sub judice",
+                                       "situacao": "segue", "motivo": f"sub_judice: {r['sub_judice']}"})
+    universo = universo[universo["sub_judice"].isna()]
 
     sem_nota = universo[universo["nota_idoneidade_geral"].isna()]
     resultado["nao_avaliados_lista"] = list(sem_nota["nome_urna"])

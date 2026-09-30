@@ -35,7 +35,7 @@ pip install -r requirements.txt
 2. Rode o pipeline, na ordem (na raiz do projeto):
 
    ```bash
-   python -m pipeline.parse_candidatos          # só se o zip do TSE mudou
+   python -m pipeline.parse_candidatos          # só se o zip do TSE mudou; junta a situação do registro do consulta_cand_complementar_AAAA (baixar e descompactar em data/raw/)
    python -m pipeline.mapear_competencias       # idem
    python -m pipeline.gerar_estrutural_deputados  # círculo e experiência política de Deputado Federal, sem busca na web (usa consulta_cand_2014..2024 em data/raw/)
    python -m pipeline.enriquecer_experiencia

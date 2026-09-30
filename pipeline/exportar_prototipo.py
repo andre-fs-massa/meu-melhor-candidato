@@ -171,6 +171,7 @@ def construir(df: pd.DataFrame) -> dict:
             candidatos.append({
                 "sq": sq, "nome_urna": r["nome_urna"], "nome_completo": r["nome_completo"], "partido": r["partido"],
                 "numero": r["numero"], "situacao": situacao, "etapa": etapa, "motivo_saida": motivo,
+                "sub_judice": r["sub_judice"] if pd.notna(r["sub_judice"]) else None,
                 "idoneidade_pessoal": num(r["nota_idoneidade"]), "circulo": num(r["nota_circulo_politico"]),
                 "idoneidade_geral": num(r["nota_idoneidade_geral"], 2), "competencia_geral": num(r["nota_competencia_geral"], 2),
                 "qualificacao_geral": num(r["nota_qualificacao_geral"], 2),
@@ -192,7 +193,8 @@ def construir(df: pd.DataFrame) -> dict:
     return {
         "meta": {"gerado_em": date.today().isoformat(), "corte": CORTE_IDONEIDADE_PADRAO, "corte_deputados": max(CORTE_POR_CARGO.values()), "limiar": LIMIAR_QUADRANTE,
                  "margem_fronteira": MARGEM_FRONTEIRA, "politica_nao_avaliados": "excluir", "data_eleicao": "2026-10-04",
-                 "total_candidatos": int(len(df))},
+                 "total_candidatos": int(len(df)),
+                 "data_situacao_tse": df["data_situacao_tse"].dropna().max() if "data_situacao_tse" in df else None},
         "profundidade": prof["niveis"],
         "bases_oficiais": [{"id": k, "rotulo": r, "data": d} for k, (r, d) in BASES.items()],
         "quadrantes": [{"chave": k, "nome": v, "curto": CURTO_QUADRANTE[k]} for k, v in NOME_QUADRANTE.items()],

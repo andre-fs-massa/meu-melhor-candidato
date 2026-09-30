@@ -1217,6 +1217,19 @@ extra, quem entra na lista no lugar de um finalista também passa pelas duas rod
 - **Total da 2ª rodada:** 180 finalistas pesquisados pelo nome completo nos 10 estados, mais 3 blocos de empatados
   (PR 7, PA 5, SC 9) e reposições na 1ª rodada. Saíram da lista 9 finalistas (SP 2, MG 1, PR 1, PA 2, SC 3); nenhum estado ficou com pendentes.
 
+## Atualização com o arquivo do TSE de 30/09 (renúncias, indeferidos e sub judice)
+
+O TSE republicou o `consulta_cand_2026` e o `consulta_cand_complementar_2026` em 30/09. O complementar traz a situação
+do registro (`DS_SITUACAO_JULGAMENTO`), que o pipeline passou a usar: renúncia, indeferimento definitivo, cancelamento,
+falecimento e pedido não conhecido tiram o candidato da disputa; registro ainda em julgamento (indeferido ou deferido
+com recurso, pendente de julgamento) mantém o candidato na lista com aviso, mas **não é recomendado** (decisão do
+usuário, 30/09). Saíram 18 recomendados que tinham renunciado ou sido indeferidos e 19 que estão sub judice; os
+substitutos passaram pelas mesmas rodadas de busca (1 busca pelo nome de urna; nos 10 maiores estados, mais 1 pelo
+nome completo), num total de 45 na 1ª rodada e 14 na 2ª. Com desconto: Moacir Cova/SP 3 (mandato de vereador cassado,
+investigado por tortura e mortes), Yury do Paredão/CE 5, Manoel Ludgério/PB 5 (réu por peculato), Alex Redano/RO 6,
+Gilberto Nascimento/SP 7, Renata Abreu/SP 7, Marangoni, Gambale, Ribamar Silva, Felipe Becari/SP e Tânia Sena/RO 8,
+Delegado Palumbo/SP 9, Bruno Lima e Antonio Carlos Rodrigues/SP 9,5. Todos os estados voltaram a fechar.
+
 ## Situação e próximos passos
 
 - **Estados fechados (27 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),

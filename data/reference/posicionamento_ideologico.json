@@ -6115,6 +6115,20 @@
       "motivo": "Sem sinal individual claro; fallback do baseline do PSOL.",
       "fontes": [],
       "pesquisado_em": "2026-09-23"
+    },
+    "190002550192": {
+      "nome_urna": "ANDRÉ MONTEIRO",
+      "cargo_pretendido": "SENADOR",
+      "eixo_economico": 7.5,
+      "eixo_pessoal": 3,
+      "nivel_eixo_economico": "c",
+      "nivel_eixo_pessoal": "b",
+      "motivo": "Econômico: sem sinal individual; baseline do Democrata [nível c]. Pessoal: plataforma de segurança pública linha-dura (ex-Bope, combate a 'facções criminosas na política'), defesa das escolas cívico-militares e críticas ao STF [nível b].",
+      "fontes": [
+        "https://diariodorio.com/ex-bope-andre-monteiro-e-o-novo-vice-de-garotinho-na-disputa-pelo-governo-do-rio/",
+        "https://www.ultimahoraonline.com.br/noticia/andre-monteirosubtenente-do-bope-que-criou-as-escolas-civico-militares-do-rj-e-obteve-16-milhao-de-votos-mesmo-inelegivel-agora-disputa-o-senado"
+      ],
+      "pesquisado_em": "2026-09-30"
     }
   }
 }

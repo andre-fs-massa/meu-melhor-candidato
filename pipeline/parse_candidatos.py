@@ -127,6 +127,32 @@ def normalizar(df_bruto: pd.DataFrame) -> pd.DataFrame:
     return resultado.reset_index(drop=True)
 
 
+# Colunas do consulta_cand_complementar juntadas por SQ_CANDIDATO (2026-09-30).
+COLUNAS_COMPLEMENTAR = {
+    "DS_SITUACAO_JULGAMENTO": "situacao_julgamento",   # DEFERIDO, RENÚNCIA, INDEFERIDO, INDEFERIDO EM PRAZO RECURSAL...
+    "ST_CANDIDATO_INSERIDO_URNA": "na_urna",           # SIM/NÃO
+    "DT_GERACAO": "data_situacao_tse",
+}
+
+
+def juntar_complementar(df: pd.DataFrame) -> pd.DataFrame:
+    """Acrescenta a situação do registro vinda do consulta_cand_complementar (se o arquivo estiver em data/raw)."""
+    arquivos = [f for f in sorted(config.COMPLEMENTAR_DIR.glob("consulta_cand_complementar_*.csv"))
+                if not f.name.endswith("_BRASIL.csv")]  # _BR = Presidente
+    if not arquivos:
+        print(f"Aviso: {config.COMPLEMENTAR_DIR.name} não encontrado; sem situação do registro (renúncias e "
+              "indeferidos não sairão da disputa sozinhos).", file=sys.stderr)
+        return df
+    comp = pd.concat([pd.read_csv(f, sep=config.CSV_DELIMITER, encoding=config.CSV_ENCODING, dtype=str,
+                                  usecols=["SQ_CANDIDATO", *COLUNAS_COMPLEMENTAR]) for f in arquivos])
+    comp = comp.drop_duplicates("SQ_CANDIDATO").rename(columns={"SQ_CANDIDATO": "sq_candidato", **COLUNAS_COMPLEMENTAR})
+    saida = df.merge(comp, on="sq_candidato", how="left")
+    faltando = saida["situacao_julgamento"].isna().sum()
+    if faltando:
+        print(f"Aviso: {faltando} candidatos sem linha no consulta_cand_complementar", file=sys.stderr)
+    return saida
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -146,13 +172,15 @@ def main() -> None:
     bruto = carregar_bruto(arquivos)
     print(f"{len(bruto):,} linhas brutas carregadas (todos os cargos, todas as UFs)")
 
-    normalizado = normalizar(bruto)
+    normalizado = juntar_complementar(normalizar(bruto))
     print(
         f"{len(normalizado):,} candidatos após filtrar para "
         f"{sorted(config.CARGOS_DE_INTERESSE)}"
     )
     if "cargo" in normalizado.columns:
         print(normalizado["cargo"].value_counts().to_string())
+    if "situacao_julgamento" in normalizado.columns:
+        print(normalizado["situacao_julgamento"].value_counts().to_string())
 
     config.PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     normalizado.to_parquet(config.OUTPUT_PARQUET, index=False)

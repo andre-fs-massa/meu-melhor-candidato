@@ -268,10 +268,11 @@
       "nome_urna": "EDUARDO PAES",
       "cargo_pretendido": "GOVERNADOR",
       "nota": 5,
-      "motivo": "Réu em ação penal por crimes em obras da Rio-2016 -- o STJ manteve a ação em curso, com base em auditorias da CGU e depoimentos de corréus, sem condenação até a pesquisa. Também alvo de ação por caixa 2 e corrupção passiva na eleição municipal de 2012; o STF redirecionou o caso para a Justiça Eleitoral por incompetência do juízo federal criminal original -- ainda pendente, sem julgamento de mérito.",
+      "motivo": "Réu em ação penal por crimes em obras da Rio-2016 -- o STJ manteve a ação em curso, com base em auditorias da CGU e depoimentos de corréus, sem condenação até a pesquisa. Também alvo de ação por caixa 2 e corrupção passiva na eleição municipal de 2012; o STF redirecionou o caso para a Justiça Eleitoral por incompetência do juízo federal criminal original -- as ações foram arquivadas depois, com a anulação das provas da Odebrecht (inquérito no STF arquivado em mar/2025); peso −2 mantido por decisão do usuário em 30/09/2026.",
       "fontes": [
         "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/19082021-Ministro-nega-pedido-do-prefeito-Eduardo-Paes-para-trancar-acao-sobre-crimes-em-obras-da-Rio-2016.aspx",
-        "https://noticias.stf.jus.br/postsnoticias/acoes-contra-eduardo-paes-por-suposto-caixa-2-irao-para-a-justica-eleitoral-decide-stf/"
+        "https://noticias.stf.jus.br/postsnoticias/acoes-contra-eduardo-paes-por-suposto-caixa-2-irao-para-a-justica-eleitoral-decide-stf/",
+        "https://www.em.com.br/politica/platobr/2025/03/7089814-depois-de-oito-anos-inquerito-contra-paes-sobre-odebrecht-e-arquivado-no-stf.html"
       ],
       "pesquisado_em": "2026-09-20",
       "achados": [
@@ -281,7 +282,7 @@
         },
         {
           "categoria": "investigacao_ou_acao_civil_em_curso",
-          "descricao": "Ação por caixa 2 e corrupção passiva na eleição de 2012, redirecionada à Justiça Eleitoral"
+          "descricao": "Caixa 2 e corrupção passiva na eleição de 2012 (R$ 10,8 mi da Odebrecht), redirecionado à Justiça Eleitoral; as ações foram arquivadas com a anulação das provas do acordo da Odebrecht e o inquérito no STF foi arquivado em mar/2025. Peso −2 mantido por decisão do usuário (30/09/2026), o mesmo aplicado a Pedro Paulo pelo mesmo caso."
         }
       ]
     },
@@ -3126,8 +3127,8 @@
       "pesquisado_em": "2026-09-22",
       "achados": [
         {
-          "categoria": "registro_indeferido",
-          "descricao": "Candidatura indeferida pelo TRE-RR por falta de comprovação de desincompatibilização do cargo na Funai e certidão criminal em modelo incorreto"
+          "categoria": "registro_contestado_sub_judice",
+          "descricao": "Candidatura indeferida pelo TRE-RR por falta de comprovação de desincompatibilização do cargo na Funai e certidão criminal em modelo incorreto Há recurso pendente: o TSE lista o registro como indeferido em prazo recursal ou com recurso (dados de 30/09/2026)."
         }
       ]
     },
@@ -3722,8 +3723,8 @@
     "190002548145": {
       "nome_urna": "PEDRO PAULO",
       "cargo_pretendido": "SENADOR",
-      "nota": 8.5,
-      "motivo": "ESCRUTÍNIO 2026-09-29: busca mais funda achou a denúncia de caixa 2 da Odebrecht (2020), arquivada com a anulação das provas (−1). || AUDITORIA 2026-09-24: checagem por amostragem de incumbentes com nota 10: faltava o inquérito por agressão arquivado em 2016 (-1) (nota 10 -> 9). || Economista, deputado federal em 4º mandato consecutivo desde 2011, reconhecido em rankings parlamentares por produtividade legislativa. Busca não encontrou processo, condenação ou pendência de registro.",
+      "nota": 7.5,
+      "motivo": "DECISÃO DO USUÁRIO 2026-09-30: o caixa 2 da Odebrecht (2012) pesa −2, igual ao de Eduardo Paes. || ESCRUTÍNIO 2026-09-29: busca mais funda achou a denúncia de caixa 2 da Odebrecht (2020), arquivada com a anulação das provas. || AUDITORIA 2026-09-24: checagem por amostragem de incumbentes com nota 10: faltava o inquérito por agressão arquivado em 2016 (-1) (nota 10 -> 9). || Economista, deputado federal em 4º mandato consecutivo desde 2011, reconhecido em rankings parlamentares por produtividade legislativa. Busca não encontrou processo, condenação ou pendência de registro.",
       "fontes": [
         "https://www.cnnbrasil.com.br/eleicoes/quem-e-pedro-paulo-candidato-ao-senado-pelo-rio-de-janeiro/",
         "https://noticias.stf.jus.br/postsnoticias/arquivado-inquerito-contra-deputado-pedro-paulo-por-agressao/",
@@ -3738,8 +3739,8 @@
           "descricao": "Inquérito no STF (Inq 4199) por lesão corporal contra a então esposa arquivado em 2016 a pedido da PGR, que não viu crime; a ex-mulher mudou a versão e disse que ele apenas se defendeu"
         },
         {
-          "categoria": "acusacao_anulada_ou_absolvida",
-          "descricao": "Denunciado em 2020 pelo MP Eleitoral (204ª Zona Eleitoral) junto com Eduardo Paes por corrupção, falsidade e lavagem ligadas a R$ 10,8 mi de caixa 2 da Odebrecht na campanha de 2012 (ele era chefe da Casa Civil e coordenador da campanha); as ações na Justiça Eleitoral foram arquivadas com a anulação das provas do acordo da Odebrecht pelo STF, e o inquérito no STF sobre R$ 300 mil na campanha dele de 2014 foi arquivado em mar/2025 (André Mendonça, a pedido da PGR). Nunca condenado."
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Denunciado em 2020 pelo MP Eleitoral (204ª Zona Eleitoral) junto com Eduardo Paes por corrupção, falsidade e lavagem ligadas a R$ 10,8 mi de caixa 2 da Odebrecht na campanha de 2012 (ele era chefe da Casa Civil e coordenador da campanha); as ações na Justiça Eleitoral foram arquivadas com a anulação das provas do acordo da Odebrecht pelo STF, e o inquérito no STF sobre R$ 300 mil na campanha dele de 2014 foi arquivado em mar/2025 (André Mendonça, a pedido da PGR). Nunca condenado. Peso −2 por decisão do usuário (30/09/2026), padronizado com Eduardo Paes pelo mesmo caso."
         }
       ],
       "auditado_em": "2026-09-24",
@@ -6154,23 +6155,20 @@
     "220002541490": {
       "nome_urna": "ACIR GURGACZ",
       "cargo_pretendido": "SENADOR",
-      "nota": 0,
-      "motivo": "AUDITORIA 2026-09-24: faltava a própria condenação criminal com pena cumprida (-5), contada para Lula e João Rodrigues/SC; antes só a inelegibilidade estava registrada (ele já está fora do funil pela inelegibilidade) (nota 4 -> 0). || Ex-senador por RO (2011-2019), PDT.",
+      "nota": 5,
+      "motivo": "ATUALIZAÇÃO 2026-09-30: o TRE-RO deferiu o registro ao Senado em 28/08/2026 (sem impugnação, com parecer favorável da Procuradoria Regional Eleitoral) e o TSE lista o registro como DEFERIDO (dados de 30/09/2026); a decisão de 03/07/2026 que o mantinha inelegível até 2030 foi superada, então a inelegibilidade vigente (−6) saiu. Segue a condenação do STF de 2018 com pena cumprida (−5). || AUDITORIA 2026-09-24: faltava a própria condenação criminal com pena cumprida (-5), contada para Lula e João Rodrigues/SC; antes só a inelegibilidade estava registrada (ele já está fora do funil pela inelegibilidade) (nota 4 -> 0). || Ex-senador por RO (2011-2019), PDT.",
       "fontes": [
         "https://expressaorondonia.com.br/justica-eleitoral-mantem-acir-gurgacz-inelegivel-ate-2030-senador-deve-recorrer-ao-tse-e-supremo/",
         "https://painelpolitico.com/acir-gurgacz-mpf-diz-que-ex-senador-esta-inelegivel-em-2026",
         "https://agenciabrasil.ebc.com.br/justica/noticia/2018-11/stf-mantem-pena-de-senador-acir-gurgacz-preso-em-regime-semiaberto",
-        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=494376&ori=1"
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=494376&ori=1",
+        "https://www.rondoniagora.com/eleicoes/acir-gurgacz-tem-candidatura-ao-senado-deferida-pelo-tre"
       ],
       "pesquisado_em": "2026-09-23",
       "achados": [
         {
           "categoria": "condenacao_criminal_pena_cumprida",
           "descricao": "Condenado pela 1ª Turma do STF (fev/2018) a 4 anos e 6 meses por fraude e desvio de finalidade em financiamento de banco oficial; cumpriu a pena em regime semiaberto (dormia na Papuda) e o STF declarou extinta a punibilidade pelo cumprimento integral"
-        },
-        {
-          "categoria": "inelegibilidade_vigente",
-          "descricao": "Condenado pelo STF em 27/02/2018 por crimes contra o sistema financeiro nacional, com inelegibilidade de 8 anos (Ficha Limpa) que se estenderia até 2026. Em 2026 invocou a Declaração de Elegibilidade Antecipada (LC 219/2025) no TRE-RO; o TRE-RO MANTEVE o entendimento de que ele segue inelegível até 2030, e a defesa recorre ao TSE/STF. Enquanto o recurso não é julgado, a inelegibilidade permanece vigente e não revertida."
         }
       ],
       "auditado_em": "2026-09-24"
@@ -7239,9 +7237,10 @@
       "nome_urna": "ERIKA HILTON",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 9.5,
-      "motivo": "Busca rápida na internet (1 busca): apuração sobre uso de assessores como maquiadores, arquivada pela PGR em agosto de 2026.",
+      "motivo": "Busca rápida na internet (1 busca): apuração sobre uso de assessores como maquiadores, arquivada pela PGR em agosto de 2026. 2ª rodada (busca pelo nome completo, 30/09): nada novo (a representação sobre os maquiadores já está contada, arquivada pela PGR).",
       "fontes": [
-        "https://ncnews.com.br/2026/08/17/pgr-arquiva-denuncia-contra-erika-hilton-e-assessores-que-tambem-atuam-como-maquiadores/"
+        "https://ncnews.com.br/2026/08/17/pgr-arquiva-denuncia-contra-erika-hilton-e-assessores-que-tambem-atuam-como-maquiadores/",
+        "https://www.cnnbrasil.com.br/politica/oposicao-aciona-pgr-contra-erika-hilton-por-improbidade-administrativa/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [
@@ -7250,7 +7249,8 @@
           "descricao": "Representação sobre assessores pagos com verba pública que também trabalhavam como maquiadores dela; a PGR arquivou em agosto de 2026 por falta de elementos de crime."
         }
       ],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "250002550395": {
       "nome_urna": "ALEX MANENTE",
@@ -7453,10 +7453,11 @@
       "nome_urna": "ORLANDO SILVA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 9.5,
-      "motivo": "Busca rápida na internet (1 busca): apuração de 2011 como ministro do Esporte, arquivada pela Comissão de Ética da Presidência por falta de provas (o acusador foi condenado por calúnia).",
+      "motivo": "Busca rápida na internet (1 busca): apuração de 2011 como ministro do Esporte, arquivada pela Comissão de Ética da Presidência por falta de provas (o acusador foi condenado por calúnia). 2ª rodada (busca pelo nome completo, 30/09): nada novo.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Orlando_Silva_(pol%C3%ADtico)",
-        "https://vermelho.org.br/2023/09/21/ainda-que-tardia-condenacao-de-caluniador-reconhece-inocencia-do-deputado-orlando-silva/"
+        "https://vermelho.org.br/2023/09/21/ainda-que-tardia-condenacao-de-caluniador-reconhece-inocencia-do-deputado-orlando-silva/",
+        "https://en.wikipedia.org/wiki/Orlando_Silva_(politician)"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [
@@ -7465,7 +7466,8 @@
           "descricao": "Acusações de 2011 quando era ministro do Esporte (deixou o cargo); a Comissão de Ética da Presidência o absolveu por falta de provas em 2012, e o acusador foi condenado por calúnia em 2023."
         }
       ],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "250002541908": {
       "nome_urna": "ELTON CARVALHO",
@@ -7746,13 +7748,14 @@
       "nome_urna": "NATALINO TONY SILVA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a condenação por compra de votos em Mogi Guaçu achada é de outro vereador).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a condenação por compra de votos em Mogi Guaçu achada é de outro vereador). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
         "https://www.plural.jor.br/natalino-antonio-da-silva/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "250002545217": {
       "nome_urna": "PARRA",
@@ -7827,14 +7830,15 @@
       "nome_urna": "JHONY SASAKI",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada confirmado. Em junho de 2026 o MP pediu, em ação de improbidade, a condenação de um vereador de São Vicente que presidiu a Câmara em 2021-2022 por rachadinha (R$ 285 mil); as reportagens não dão o nome e não confirmei se é ele. A confirmar com prioridade.",
+      "motivo": "Busca rápida na internet (1 busca): nada confirmado. Em junho de 2026 o MP pediu, em ação de improbidade, a condenação de um vereador de São Vicente que presidiu a Câmara em 2021-2022 por rachadinha (R$ 285 mil); as reportagens não dão o nome e não confirmei se é ele. A confirmar com prioridade. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
         "https://www.brasilemfolhas.com.br/2026/06/mp-acusa-vereador-de-esquema-de-rachadinha-e-pede-devolucao-de-r-285-mil/",
         "https://www.camarasaovicente.sp.gov.br/johny-sasaki"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "250002545150": {
       "nome_urna": "FABIANA CAMARINHA",
@@ -8404,13 +8408,14 @@
       "nome_urna": "PEDRO SOUSA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
         "https://maisminas.org/vereador-pedro-sousa-lanca-pre-candidatura-a-deputado-estadual-e-reune-apoiadores-em-mariana/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "130002535372": {
       "nome_urna": "TIAGO SANTANA",
@@ -9175,11 +9180,12 @@
       "nome_urna": "DUDA DE ALAN SANCHES",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 9.5,
-      "motivo": "Busca rápida na internet (1 busca): denúncia anônima ao MP-BA por suposta compra de votos e uso de espaço público arquivada por falta de indícios (2026). Um assessor foi preso numa operação contra o tráfico e exonerado; o vereador não é alvo (sem desconto).",
+      "motivo": "Busca rápida na internet (1 busca): denúncia anônima ao MP-BA por suposta compra de votos e uso de espaço público arquivada por falta de indícios (2026). Um assessor foi preso numa operação contra o tráfico e exonerado; o vereador não é alvo (sem desconto). 2ª rodada (busca pelo nome completo, 30/09): nada novo (23 processos no Jusbrasil, a maioria no TRE-BA, sem sanção identificada).",
       "fontes": [
         "https://bahia.ba/politica/mp-ba-arquiva-denuncia-contra-duda-sanches-por-falta-de-indicios/",
         "https://atarde.com.br/politica/mpe-arquiva-denuncia-contra-duda-sanches-por-suposta-compra-de-votos-1403143",
-        "https://www.bahianoticias.com.br/noticia/312412-assessor-do-vereador-duda-sanches-e-preso-em-operacao-da-policia-civil-contra-trafico"
+        "https://www.bahianoticias.com.br/noticia/312412-assessor-do-vereador-duda-sanches-e-preso-em-operacao-da-policia-civil-contra-trafico",
+        "https://www.jusbrasil.com.br/processos/nome/116414044/eduardo-henrique-brito-dos-santos-sanches"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [
@@ -9188,7 +9194,8 @@
           "descricao": "Denúncia anônima ao MP-BA (uso de espaço público para marketing político, captação ilícita de sufrágio, distribuição de bens) arquivada em 2026 por falta de indícios."
         }
       ],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "50002532643": {
       "nome_urna": "ADOLFO VIANA",
@@ -11099,7 +11106,7 @@
       "nome_urna": "JEFERSON TIMÓTEO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 9,
-      "motivo": "Busca rápida na internet (1 busca): denúncia de distribuição de comida no comitê de campanha enviada ao MP Eleitoral (2026), sem decisão encontrada.",
+      "motivo": "Busca rápida na internet (1 busca): denúncia de distribuição de comida no comitê de campanha enviada ao MP Eleitoral (2026), sem decisão encontrada. 2ª rodada (busca pelo nome completo, 30/09): nada novo além da notícia de irregularidade já registrada.",
       "fontes": [
         "https://causosecausas.com/feijoada-e-cachorro-quente-em-comite-justica-eleitoral-envia-denuncia-contra-jeferson-timoteo-ao-ministerio-publico/",
         "https://pt.wikipedia.org/wiki/Jeferson_Tim%C3%B3teo"
@@ -11111,7 +11118,8 @@
           "descricao": "A 121ª Zona Eleitoral (Cabo de Santo Agostinho) enviou ao MP Eleitoral, em 2026, denúncia de distribuição gratuita de comida (feijoada e cachorro-quente) no comitê de campanha dele; sem decisão encontrada."
         }
       ],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "170002532296": {
       "nome_urna": "RENATO ANTUNES",
@@ -11916,14 +11924,15 @@
       "nome_urna": "MARCIO JÓIAS",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como vítima de extorsão). Anunciou desistência da candidatura para cuidar da saúde.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como vítima de extorsão). Anunciou desistência da candidatura para cuidar da saúde. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
         "https://cn7.com.br/ex-pm-joao-paulo-e-indiciado-por-crime-de-extorsao-contra-o-vereador-marcio-joias/",
         "https://www.miseria.com.br/ultimas-noticias/politica/marcio-joias-desiste"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "60002532453": {
       "nome_urna": "JULIO CESAR",
@@ -12144,13 +12153,14 @@
       "nome_urna": "DR. ALAILSON",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
       "fontes": [
         "https://www.otempo.com.br/eleicoes/2026/candidatos/para/deputado-federal/dr--alailson-3012"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "140002550076": {
       "nome_urna": "DR. VERA CRUZ",
@@ -12294,7 +12304,7 @@
       "nome_urna": "OZORIO JUVENIL",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 9.5,
-      "motivo": "Busca rápida na internet (1 busca): absolvido em ação penal eleitoral por uso de documento falso nas contas da campanha de 2010.",
+      "motivo": "Busca rápida na internet (1 busca): absolvido em ação penal eleitoral por uso de documento falso nas contas da campanha de 2010. 2ª rodada (busca pelo nome completo, 30/09): nada novo.",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Oz%C3%B3rio_Juvenil",
         "https://www.jusbrasil.com.br/topicos/50420017/deputado-estadual-ozorio-adolfo-juvenil-goes-nunes-de-sousa"
@@ -12306,7 +12316,8 @@
           "descricao": "Absolvido em ação penal eleitoral por uso de documento falso na prestação de contas da campanha de 2010 (provas insuficientes)."
         }
       ],
-      "origem": "busca_finalistas"
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
     },
     "140002548129": {
       "nome_urna": "VIVI REIS",
@@ -21141,6 +21152,676 @@
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-26"
+    },
+    "190002550192": {
+      "nome_urna": "ANDRÉ MONTEIRO",
+      "cargo_pretendido": "SENADOR",
+      "nota": 10,
+      "motivo": "Não está mais na disputa ao Senado: virou vice de Garotinho em 16/08/2026 e o registro da chapa foi indeferido pelo TRE-RJ (mantido em 29/09). Busca não encontrou processo pessoal. Subtenente reformado da PM-RJ, mais de 20 anos no Bope, formado em Direito; candidato a vereador, deputado estadual e governador (2018, PRTB); em 2022 foi 1º suplente de Daniel Silveira, chapa barrada pela inelegibilidade do titular.",
+      "fontes": [
+        "https://diariodorio.com/ex-bope-andre-monteiro-e-o-novo-vice-de-garotinho-na-disputa-pelo-governo-do-rio/",
+        "https://www.ultimahoraonline.com.br/noticia/andre-monteirosubtenente-do-bope-que-criou-as-escolas-civico-militares-do-rj-e-obteve-16-milhao-de-votos-mesmo-inelegivel-agora-disputa-o-senado",
+        "https://agendadopoder.com.br/garotinho-tem-indeferimento-de-candidatura-ao-governo-do-rio-mantido-pelo-tre-rj/",
+        "https://www.tre-rj.jus.br/comunicacao/noticias/2022/Setembro/tre-rj-indefere-pedido-de-registro-de-candidatura-de-daniel-silveira-a-senador"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "registro_indeferido",
+          "descricao": "Deixou a candidatura ao Senado em 16/08/2026 para ser vice de Garotinho (o nº 350 passou a Ribeiro Afonso, que foi indeferido); como vice, teve o registro indeferido junto com o de Garotinho pelo TRE-RJ (11/09, mantido em 29/09/2026). A causa é a condenação do titular, não conduta dele."
+        }
+      ]
+    },
+    "250002544834": {
+      "nome_urna": "DAVID RR SOARES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado (24 processos no Jusbrasil, a maioria ligada à Igreja Internacional da Graça de Deus, sem sanção identificada).",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/David_Soares_(Brazilian_politician)",
+        "https://www.jusbrasil.com.br/processos/nome/56465577/david-bezerra-ribeiro-soares"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
+    },
+    "250002544360": {
+      "nome_urna": "GILBERTO NASCIMENTO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca): contas da campanha de 2022 desaprovadas pelo TRE-SP; denúncia da Operação Sanguessuga (2007) que não prosperou.",
+      "fontes": [
+        "https://www.tre-sp.jus.br/comunicacao/noticias/2022/Dezembro/deputado-federal-reeleito-pelo-psc-tem-contas-eleitorais-desaprovadas",
+        "https://en.wikipedia.org/wiki/Gilberto_Nascimento"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "contas_rejeitadas",
+          "descricao": "Contas da campanha de 2022 desaprovadas pelo TRE-SP (dez/2022): R$ 220 mil do fundo eleitoral em material gráfico sem indicar quantidade nem dimensões."
+        },
+        {
+          "categoria": "acusacao_anulada_ou_absolvida",
+          "descricao": "Indiciado pela PF (2007) na Operação Sanguessuga e denunciado pelo MPF-MT; a acusação não prosperou (motivo não detalhado)."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "250002544358": {
+      "nome_urna": "MOACIR COVA INVESTIGADOR",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 3,
+      "motivo": "Busca rápida na internet (1 busca): mandato de vereador de Itu cassado por quebra de decoro (ago/2026); investigado por tortura e mortes ('Bonde do Moacir'); suspenso 90 dias pela Corregedoria da Polícia Civil.",
+      "fontes": [
+        "https://www.cruzeirofm.com.br/2026/08/22/destaque/camara-de-itu-cassa-mandato-de-vereador-moacir-cova-por-quebra-de-decoro/",
+        "https://www.portalporque.com.br/politica/vereador-mais-votado-de-itu-e-investigado-por-crimes-de-tortura-homicidios-e-abuso-de-poder/",
+        "https://www.portalporque.com.br/sorocaba-regiao/investigado-por-tortura-e-homicidio-vereador-mais-votado-de-itu-e-suspenso-da-policia/"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "cassacao_de_mandato",
+          "descricao": "Mandato de vereador de Itu cassado pela Câmara em 21/08/2026 por quebra de decoro (disparos de arma em via pública, ameaças e coação de servidores)."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Investigador da Polícia Civil apontado como líder do 'Bonde do Moacir'; alvo de inquéritos por tortura, abuso de autoridade, ameaça, invasão de domicílio e mortes, ainda em apuração."
+        },
+        {
+          "categoria": "sancao_institucional_confirmada",
+          "descricao": "Suspenso por 90 dias da função de investigador pela Corregedoria da Polícia Civil, por conduta em ocorrência de 2020."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "250002544357": {
+      "nome_urna": "DELEGADO PALUMBO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9,
+      "motivo": "Busca rápida na internet (1 busca): condenado em 1ª instância a indenizar borracheiro por vídeo de 'denúncia' (R$ 5 mil).",
+      "fontes": [
+        "https://www.metropoles.com/sao-paulo/deputado-e-condenado-indenizar-borracharia-apos-video-de-denuncia"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "acao_civil_dano_moral",
+          "descricao": "Condenado em 1ª instância (jan/2026) a pagar R$ 5 mil de dano moral a um borracheiro associado por engano, em vídeo dele, a esquema de pátio do Detran em Caieiras; cabe recurso."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "250002544356": {
+      "nome_urna": "MARANGONI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): investigado por violência doméstica pela DDM de Santo André; nega.",
+      "fontes": [
+        "https://www.cnnbrasil.com.br/nacional/sudeste/sp/deputado-fernando-marangoni-e-acusado-de-agredir-esposa-em-sp-ele-nega/"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Investigado pela Delegacia de Defesa da Mulher de Santo André por suposta agressão à ex-esposa (ocorrência de 1º de abril); ele nega e diz ter sido agredido. Caso em apuração."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "250002544355": {
+      "nome_urna": "RODRIGO GAMBALE",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): denunciado pelo MPSP por peculato (funcionária fantasma na Alesp), recebimento não confirmado.",
+      "fontes": [
+        "https://www.ourinhosnoticias.net/noticia/deputado-rodrigo-gambale-que-apoiou-campanha-do-tiktoker-guilherme-goncalves-e-denunciado-por-26-peculatos-e-funcionaria-fantasma"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Denunciado pela Procuradoria-Geral de Justiça de SP por 26 peculatos: manteria uma funcionária fantasma no gabinete da Alesp entre 2019 e 2021 (R$ 120,7 mil). Recebimento da denúncia não confirmado (se réu, −3). A confirmar."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "250002544351": {
+      "nome_urna": "PAULO SOARES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://candidatos.nexojornal.com.br/2026/sp/paulo-soares-250002544351/"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "250002544346": {
+      "nome_urna": "BRUNO GANEM",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o processo com perda de mandato citado nas buscas é do primo, Lucas Ganem, vereador de BH).",
+      "fontes": [
+        "https://www.otempo.com.br/politica/2026/6/10/comissao-inicia-rodada-de-depoimentos-em-processo-contra-vereador-de-bh-forasteiro"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "250002544343": {
+      "nome_urna": "JEFFERSON CEZAROLLI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada confirmado; um munícipe pediu ao MP (out/2025) apuração de omissão dele na comissão do lixão do Rio Branco, sem desfecho encontrado (página fora do ar, a confirmar).",
+      "fontes": [
+        "https://www.camarasaovicente.sp.gov.br/jefferson-cezarolli"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "250002544341": {
+      "nome_urna": "DELEGADO BRUNO LIMA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9.5,
+      "motivo": "Busca rápida na internet (1 busca): emendas de R$ 12 mi a entidade sob suspeita (Castra+), sem apuração contra ele.",
+      "fontes": [
+        "https://revistaoeste.com/politica/deputado-enviou-quase-r-12-milhoes-em-emendas-a-entidade-sob-suspeita-de-forjar-castracao-de-caes/",
+        "https://boainformacao.com.br/2026/06/deputado-bruno-lima-enviou-12-milhoes-a-entidade-suspeita-de-fraudar-castracoes/"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "controversia_administrativa",
+          "descricao": "Destinou quase R$ 12 milhões em emendas à entidade que executa o programa Castra+ em SP, sob suspeita de registros forjados de castração; não há apuração contra ele, que diz desconhecer irregularidades."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "250002544340": {
+      "nome_urna": "RENATA ABREU",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 7,
+      "motivo": "Busca rápida na internet (1 busca): multa do TRE-SP por propaganda irregular (ago/2026); inquérito eleitoral das contas do Podemos de 2018 sem denúncia (acordo oferecido pelo MPE). 2ª rodada (busca pelo nome completo, 30/09): nada novo além da multa do TRE-SP.",
+      "fontes": [
+        "https://jovempan.com.br/politica/renata-abreu-e-condenada-pelo-tre-sp-por-propaganda-eleitoral-irregular/",
+        "https://www.metropoles.com/colunas/mirelle-pinheiro/mp-propoe-acordo-para-evitar-denuncia-contra-renata-abreu",
+        "https://www.jusbrasil.com.br/processos/nome/74081682/renata-hellmeister-de-abreu-melo"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "infracao_eleitoral_leve",
+          "descricao": "Multada em R$ 5 mil pelo TRE-SP (29/08/2026) por propaganda irregular: faixa gigante com efeito de outdoor, com o candidato Ivan Silva."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Inquérito eleitoral sobre as contas de campanha do Podemos em 2018 (contratos de publicidade): o MPE ofereceu acordo de não persecução penal e não se confirmou se ela aceitou; sem denúncia. Mesmo fato já registrado como pendência dela de presidente do partido."
+        }
+      ],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
+    },
+    "250002544339": {
+      "nome_urna": "NATIELLE GAMA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.camaravotuporanga.sp.gov.br/vereadores/222"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "250002544332": {
+      "nome_urna": "ANTONIO CARLOS RODRIGUES",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 9.5,
+      "motivo": "Busca rápida na internet (1 busca): ação penal da Operação Caixa D'Água trancada pelo TSE (2023) por falta de fato criminoso descrito.",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Antonio_Carlos_Rodrigues",
+        "https://www.congressoemfoco.com.br/noticia/115040/quem-e-o-deputado-do-pl-que-assinou-a-cassacao-de-ramagem-e-eduardo"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "absolvido_no_merito",
+          "descricao": "Alvo de prisão temporária na Operação Caixa D'Água (2017, crimes eleitorais); o TSE trancou a ação penal em 08/11/2023 porque a denúncia não descrevia fato criminoso atribuído a ele."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "250002544330": {
+      "nome_urna": "ANA CAROLINA OLIVEIRA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.saopaulo.sp.leg.br/vereador/ana-carolina-oliveira/"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "250002544327": {
+      "nome_urna": "RIBAMAR SILVA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): condenado em 1ª instância em ação popular (contratação sem licitação na Câmara de Osasco), com recurso.",
+      "fontes": [
+        "https://www.oeste360.com/noticia/11094/vereador-ribamar-e-condenado-por-contratacao-irregular-de-empresa-de-seguranca-na-camara"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Condenado em 1ª instância em ação popular a ressarcir os cofres públicos por contratar sem licitação empresa de segurança quando presidia a Câmara de Osasco; cabe recurso."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "250002544326": {
+      "nome_urna": "FELIPE BECARI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): investigado por peculato e estelionato (doações ao instituto de proteção animal), inquéritos abertos.",
+      "fontes": [
+        "https://www.metropoles.com/sao-paulo/deputado-felipe-becari-investigado-por-peculato-nao-aparece-para-depor",
+        "https://www.folhape.com.br/politica/policial-e-ex-noivo-de-carla-diaz-quem-e-felipe-becari-investigado/282558/"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Investigado em inquéritos da Polícia Civil de SP (desde jan/2023) por peculato e estelionato: doações via Pix ao instituto dele sem prestação de contas e rifas irregulares; o inquérito sobre o anel dado à noiva foi arquivado, outros seguem abertos segundo o MP."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "250002530127": {
+      "nome_urna": "JOELMA FRANCO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.camaramogimirim.sp.gov.br/vereadores/joelma-franco-da-cunha/51"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "250002530126": {
+      "nome_urna": "ALBINO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada confirmado; expulso do PSB em 2019 após episódio com um jovem que fotografava no bairro Eloy Chaves (suspeita de racismo levada à polícia, desfecho não encontrado, a confirmar). A condenação por 'rachadinha' que aparece na busca é de outro vereador (Bujari/AC).",
+      "fontes": [
+        "https://tribunadejundiai.com.br/politica/eleicoes-2024/albino-vice-jundiai/"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002545106": {
+      "nome_urna": "RONALDO MARTINS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://republicanos10.org.br/quem-e-quem/ronaldo-martins"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "60002545093": {
+      "nome_urna": "IRENE DANTAS",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2024/candidatos/ceara/fortaleza/vereador/irene-dantas-10130",
+        "https://www.escavador.com/sobre/3299903/irene-dantas-de-medeiros"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
+    },
+    "60002542442": {
+      "nome_urna": "YURY DO PAREDÃO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 5,
+      "motivo": "Busca rápida na internet (1 busca): investigado pela PF (Operação Circus, contratos de Ouricuri/PE) e em apuração sobre emendas e compra de votos no Ceará; preso em 2018 por disparos contra funcionário (desfecho a confirmar). 2ª rodada (busca pelo nome completo, 30/09): nada novo (87 processos no Jusbrasil, a maioria no TJCE e no TRE-CE, sem detalhe).",
+      "fontes": [
+        "https://www.migalhas.com.br/quentes/431815/stj-mantem-quebra-de-sigilo-de-deputado-suspeito-de-fraudar-licitacao",
+        "https://www.folhape.com.br/politica/empresarioe-alvo-de-operacao-da-pf-quem-e-yury-do-paredao-deputado/270789/",
+        "https://caririensi.com.br/2026/09/deputado-que-ja-foi-preso-por-disparos-contra-funcionario-e-e-investigado-em-caso-de-emendas-pix-tenta-reeleicao-no-ceara.html",
+        "https://www.jusbrasil.com.br/processos/nome/80134605/yury-bruno-alencar-araujo"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Investigado pela PF na Operação Circus: contratos da prefeitura de Ouricuri/PE com sobrepreço de cerca de 500% e empresas ligadas ao grupo familiar dele; o STJ manteve a quebra de sigilo."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Aparece em investigação da PF sobre financiamento ilegal de campanhas e compra de votos com dinheiro de emendas parlamentares no Ceará (R$ 10 mi enviados a Choró em 2024 por transferência especial)."
+        },
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Preso em 2018 depois de vídeo em que aparece atirando na direção de um funcionário de fazenda no Ceará; desfecho do caso não encontrado (a confirmar)."
+        }
+      ],
+      "origem": "busca_finalistas",
+      "rodada2": "2026-09-30"
+    },
+    "80002537476": {
+      "nome_urna": "ALYSSON REIS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.camaralinhares.es.gov.br/noticia/ler/10511/como-eu-cheguei-aqui-com-alysson-reis"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002544610": {
+      "nome_urna": "DR. LEVY DA HABITAÇÃO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://cbnparaiba.com.br/alvo-de-processo-interno-de-expulsao-fabio-tyrone-recebe-r-15-milhao-do-psb-para-campanha"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002544155": {
+      "nome_urna": "MANOEL LUDGÉRIO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 5,
+      "motivo": "Busca rápida na internet (1 busca): réu por peculato (servidora fantasma na Assembleia da PB) e alvo de ação civil pública do MPPB (Fagundes).",
+      "fontes": [
+        "https://www.tjpb.jus.br/noticia/deputado-manoel-ludgerio-respondera-acao-penal-por-suposta-nomeacao-de-servidora-fantasma",
+        "https://jornaldaparaiba.com.br/politica/pleno-poder/deputado-manoel-ludgerio-ivonete-e-assessor-voltam-a-ser-reus-no-tjpb-por-suspeitas-de-fantasma",
+        "https://www.termometrodapolitica.com.br/politica/noticia/2021/06/29/ministerio-publico-ajuiza-acao-contra-manoel-ludgerio-por-suposto-envolvimento-em-fraude/"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "reu_acao_penal",
+          "descricao": "Réu por peculato no TJPB (denúncia recebida em 2020 e de novo depois de o STJ anular o 1º julgamento), com a esposa e um assessor: servidora fantasma na Assembleia entre 2003 e 2009 (cerca de R$ 72,5 mil); o processo está na 3ª Vara Criminal de Campina Grande."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Ação civil pública do MPPB (2021) para ressarcir danos ao município de Fagundes por suposta fraude."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "150002544152": {
+      "nome_urna": "ANDERSON MONTEIRO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a suspensão de direitos políticos de 2015 é do pai, Arnaldo Monteiro).",
+      "fontes": [
+        "http://www.al.pb.leg.br/deputados/anderson-monteiro"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002544145": {
+      "nome_urna": "CIDA RAMOS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://sapl3.al.pb.leg.br/parlamentar/156"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "150002544141": {
+      "nome_urna": "MARCOS HENRIQUES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://sapl.joaopessoa.pb.leg.br/parlamentar/461"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002532302": {
+      "nome_urna": "SYER RODRIGUES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.maisjaboatao.blog/post/syer-rodrigues-leva-crescimento-eleitoral-em-jaboat%C3%A3o-para-disputa-por-vaga-na-alepe"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002532291": {
+      "nome_urna": "EDUARDO INOJOSA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.eduardoinojosa.com.br/"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002532284": {
+      "nome_urna": "TECIO TELES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.diariodepernambuco.com.br/noticia/politica/2024/05/tecio-teles-do-partido-novo-e-oficialmente-lancado-como-pre-candidat.html"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "170002532013": {
+      "nome_urna": "TÂMARA DANTAS",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.recife.pe.leg.br/comunicacao/noticias/2026/09/tamara-dantas-e-cidada-do-recife"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "180002533193": {
+      "nome_urna": "DEUSIMAR  O TERERÊ ",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada confirmado (a apuração de candidato ligado a facção no PI corre em segredo de justiça, sem nome divulgado).",
+      "fontes": [
+        "https://ojornalextra.com.br/eleicoes/pleito2026/candidatos/180002533193/eleicoes-2026-veja-o-perfil-de-deusimar-o-terere-em-piaui",
+        "https://portalclubenews.com/2026/09/25/procurador-eleitoral-pede-a-pf-investigacao-sobre-candidato-suspeito-de-ligacao-com-faccao-criminosa-no-pi/"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "200002535505": {
+      "nome_urna": "SUYANE VARELA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.plural.jor.br/suyane-thainara-varela-de-medeiros/"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "230002549836": {
+      "nome_urna": "PROF. LINOBERG",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.escavador.com/sobre/489606/linoberg-barbosa-de-almeida"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002547440": {
+      "nome_urna": "MARCIO MACEDO",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (perdeu uma ação que ele mesmo moveu contra um portal de notícias).",
+      "fontes": [
+        "https://www.em.com.br/politica/platobr/2025/05/7151871-marcio-macedo-tem-derrota-em-acao-contra-portal-de-noticias.html"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002541261": {
+      "nome_urna": "MARCOS SANTANA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://clicksergipe.com.br/esportes/1/94780/julio-de-marcos-santana-e-diplomado-como-prefeito-de-sao-cristovao.html"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002536037": {
+      "nome_urna": "DRA. TÂNIA SENA",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 8,
+      "motivo": "Busca rápida na internet (1 busca): indiciada pela PF por lavagem de dinheiro (ouro ilegal, Operação Aerogold), sem denúncia encontrada.",
+      "fontes": [
+        "https://reporterbrasil.org.br/2026/09/candidata-garimpo-deputada-federal-investigada-ouro-ilegal-ro/"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Indiciada pela PF por lavagem de dinheiro na Operação Aerogold: fretou (R$ 25,5 mil) o avião que pousou em Porto Velho em nov/2020 com 3,12 kg de ouro sem registro; teve prisão temporária revogada em 5 dias e nega participação. Sem denúncia encontrada."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "220002547372": {
+      "nome_urna": "ALEX REDANO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 6,
+      "motivo": "Busca rápida na internet (1 busca): denunciado pelo MPRO por organização criminosa (compra de votos na eleição da Mesa da ALE-RO) e alvo da Operação Reduto da PF (jul/2026).",
+      "fontes": [
+        "https://ariquemes24horas.com.br/deputados-alex-redano-laerte-gomes-jean-oliveira-denunciados-compra-votos-rondonia/",
+        "https://www.acapitaldanoticia.com.br/2026/09/operacao-reduto-volta-ao-centro-das.html"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Denunciado pelo MPRO (2026), com Laerte Gomes e Jean Oliveira, por organização criminosa para comprar votos na eleição da Mesa da Assembleia de RO (2019/2020, Operação Feldberg, com a PF). Recebimento da denúncia não confirmado (se réu, −3)."
+        },
+        {
+          "categoria": "investigacao_ou_acao_civil_em_curso",
+          "descricao": "Alvo de busca e apreensão da PF na Operação Reduto (09/07/2026, com CGU e MPRO) no gabinete de presidente da Assembleia e nas casas dele."
+        }
+      ],
+      "origem": "busca_finalistas"
+    },
+    "260002540217": {
+      "nome_urna": "VENÂNCIO FONSECA",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (94 processos no Jusbrasil, sem sanção identificada).",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Ven%C3%A2ncio_Fonseca"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "260002540207": {
+      "nome_urna": "ZEZINHO SOBRAL",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Zezinho_Sobral"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002536040": {
+      "nome_urna": "DHONATAN PAGANI",
+      "cargo_pretendido": "DEPUTADO FEDERAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado além de uma cobrança de dívida privada com cooperativa (CNH suspensa na execução), que não desconta.",
+      "fontes": [
+        "https://extraderondonia.com.br/2026/05/21/justica-determina-suspensao-da-cnh-por-divida-e-ex-vereador-vilhenense-promete-esclarecer-caso-em-video/"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002550899": {
+      "nome_urna": "DR.. ROSELI ORMINDO",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/rondonia/deputado-estadual/dr---roseli-ormindo-33000"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002547374": {
+      "nome_urna": "APARECIDO DONADONI",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (aparece como parte na AIJE de 2024 em Vilhena em que o condenado foi o prefeito Flori, papel dele não detalhado).",
+      "fontes": [
+        "https://expressaorondonia.com.br/flori-condenado/"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
+    },
+    "220002547360": {
+      "nome_urna": "DR. BENEDITO ALVES",
+      "cargo_pretendido": "DEPUTADO ESTADUAL",
+      "nota": 10,
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado.",
+      "fontes": [
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/rondonia/deputado-estadual/dr--benedito-alves-10000"
+      ],
+      "pesquisado_em": "2026-09-30",
+      "achados": [],
+      "origem": "busca_finalistas"
     }
   }
 }

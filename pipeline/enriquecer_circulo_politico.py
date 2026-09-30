@@ -33,10 +33,16 @@ ROTULO_LIGACAO = {
     "presidente_de_partido_aliado": "presidente de partido aliado (coligação)",
     "padrinho_politico": "padrinho político (escolheu/controla/financia a candidatura)",
     "apoio_externo": "apoio externo (endossa, sem controle da chapa)",
+    # 2026-09-30: aliado político próximo, fora do partido e da chapa, que não controla a candidatura
+    # (se controlasse, seria padrinho). Caso de origem: Pastor Everaldo, irmão de Marcos Dias/Senador-RJ.
+    "alianca_politica": "aliança política (aliado próximo, sem controle da chapa)",
 }
 # Só estes tipos entram no teto de desconto por "caciques da coligação".
 TIPOS_CACIQUE = {"presidente_do_partido_do_candidato", "presidente_de_partido_aliado"}
 TETO_CACIQUES = 4
+# Ligações fracas pesadas pela tabela de caciques (PESOS_CACIQUE) e somadas no mesmo teto. A aliança política
+# fica fora de TIPOS_CACIQUE porque padronizar_caciques troca os caciques pelo presidente canônico do partido.
+TIPOS_PESO_CACIQUE = TIPOS_CACIQUE | {"alianca_politica"}
 
 
 def calcular_nota(registro: dict):
@@ -52,7 +58,7 @@ def calcular_nota(registro: dict):
             continue
         if a["desconto"] is None:
             return None
-        if a["tipo_ligacao"] in TIPOS_CACIQUE:
+        if a["tipo_ligacao"] in TIPOS_PESO_CACIQUE:
             caciques += a["desconto"]
         else:
             outros += a["desconto"]
@@ -80,7 +86,7 @@ def formatar_apoiadores(registro: dict) -> str:
     caciques = sum(
         a["desconto"] or 0
         for a in registro.get("apoiadores", [])
-        if a.get("contado", True) and a["tipo_ligacao"] in TIPOS_CACIQUE
+        if a.get("contado", True) and a["tipo_ligacao"] in TIPOS_PESO_CACIQUE
     )
     if caciques > TETO_CACIQUES:
         partes.append(f"Teto: os caciques somam -{caciques}, limitados a -{TETO_CACIQUES} no cálculo da nota")
@@ -95,7 +101,7 @@ def validar_apoiadores(registro: dict, idoneidade: dict) -> list:
     erros = []
     for a in registro.get("apoiadores", []):
         rotulo = f"{a['nome']} ({a['tipo_ligacao']})"
-        if a["tipo_ligacao"] in TIPOS_CACIQUE and a["desconto"] is not None:
+        if a["tipo_ligacao"] in TIPOS_PESO_CACIQUE and a["desconto"] is not None:
             esperado = PESOS_CACIQUE.get(a["tipo_pendencia"].split("+")[0])
             if esperado is None:
                 erros.append(f"{rotulo}: tipo_pendencia '{a['tipo_pendencia']}' fora de PESOS_CACIQUE")

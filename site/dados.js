@@ -1,14 +1,15 @@
 // Gerado por pipeline/exportar_prototipo.py -- não editar à mão. Índice: cada cargo/UF tem o seu arquivo em dados/.
 const DADOS = {
  "meta": {
-  "gerado_em": "2026-09-29",
+  "gerado_em": "2026-09-30",
   "corte": 6.0,
   "corte_deputados": 8.5,
   "limiar": 5.0,
   "margem_fronteira": 0.5,
   "politica_nao_avaliados": "excluir",
   "data_eleicao": "2026-10-04",
-  "total_candidatos": 20042
+  "total_candidatos": 20046,
+  "data_situacao_tse": "30/09/2026"
  },
  "profundidade": {
   "aprofundada": {
@@ -190,8 +191,8 @@ const DADOS = {
   "DEPUTADO ESTADUAL|GO": {
    "cargo": "DEPUTADO ESTADUAL",
    "uf": "GO",
-   "n_total": 594,
-   "n_avaliados": 594,
+   "n_total": 595,
+   "n_avaliados": 595,
    "corte": 8.5,
    "status": "completo",
    "arquivo": "dados/deputado_estadual_go.js"
@@ -343,8 +344,8 @@ const DADOS = {
   "DEPUTADO ESTADUAL|SP": {
    "cargo": "DEPUTADO ESTADUAL",
    "uf": "SP",
-   "n_total": 1430,
-   "n_avaliados": 1430,
+   "n_total": 1431,
+   "n_avaliados": 1431,
    "corte": 8.5,
    "status": "completo",
    "arquivo": "dados/deputado_estadual_sp.js"
@@ -559,8 +560,8 @@ const DADOS = {
   "DEPUTADO FEDERAL|RS": {
    "cargo": "DEPUTADO FEDERAL",
    "uf": "RS",
-   "n_total": 458,
-   "n_avaliados": 458,
+   "n_total": 459,
+   "n_avaliados": 459,
    "corte": 8.5,
    "status": "completo",
    "arquivo": "dados/deputado_federal_rs.js"
@@ -586,8 +587,8 @@ const DADOS = {
   "DEPUTADO FEDERAL|SP": {
    "cargo": "DEPUTADO FEDERAL",
    "uf": "SP",
-   "n_total": 1131,
-   "n_avaliados": 1131,
+   "n_total": 1132,
+   "n_avaliados": 1132,
    "corte": 8.5,
    "status": "completo",
    "arquivo": "dados/deputado_federal_sp.js"
@@ -1019,7 +1020,7 @@ const DADOS = {
    "cargo": "SENADOR",
    "uf": "RJ",
    "n_total": 17,
-   "n_avaliados": 15,
+   "n_avaliados": 16,
    "corte": 6.0,
    "status": "parcial",
    "arquivo": "dados/senador_rj.js"
@@ -2890,6 +2891,40 @@ const DADOS = {
      },
      {
       "id": "tse_2022",
+      "resultado": "nao_se_aplica"
+     },
+     {
+      "id": "ceis",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "cnep",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "ceaf",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "ibama",
+      "itens": [
+       "Auto de infração de R$ 1.500,00 em data não informada (MG)"
+      ],
+      "n": 1,
+      "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
+      "resultado": "consta"
+     }
+    ],
+    "nivel": "estrutural"
+   },
+   {
+    "bases": [
+     {
+      "id": "tcu_eleitoral",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "tse_2022",
       "resultado": "nada_consta"
      },
      {
@@ -2907,7 +2942,109 @@ const DADOS = {
      {
       "id": "ibama",
       "itens": [
-       "Auto de infração de R$ 21.500,00 em 19/03/2025 (PA)"
+       "Auto de infração de R$ 500,00 em data não informada (MG)"
+      ],
+      "n": 1,
+      "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
+      "resultado": "consta"
+     }
+    ],
+    "nivel": "estrutural"
+   },
+   {
+    "bases": [
+     {
+      "id": "tcu_eleitoral",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "tse_2022",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "ceis",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "cnep",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "ceaf",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "ibama",
+      "itens": [
+       "Auto de infração de R$ 5.000,00 em data não informada (GO)"
+      ],
+      "n": 1,
+      "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
+      "resultado": "consta"
+     }
+    ],
+    "nivel": "estrutural"
+   },
+   {
+    "bases": [
+     {
+      "id": "tcu_eleitoral",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "tse_2022",
+      "resultado": "nao_se_aplica"
+     },
+     {
+      "id": "ceis",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "cnep",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "ceaf",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "ibama",
+      "itens": [
+       "Auto de infração de R$ 1.000,00 em data não informada (MG)"
+      ],
+      "n": 1,
+      "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
+      "resultado": "consta"
+     }
+    ],
+    "nivel": "estrutural"
+   },
+   {
+    "bases": [
+     {
+      "id": "tcu_eleitoral",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "tse_2022",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "ceis",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "cnep",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "ceaf",
+      "resultado": "nada_consta"
+     },
+     {
+      "id": "ibama",
+      "itens": [
+       "Auto de infração de R$ 21.500,00 em data não informada (PA)"
       ],
       "n": 1,
       "ref": "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
@@ -3013,5 +3150,5 @@ const DADOS = {
    "pesquisa individual"
   ]
  },
- "versao": "d92468682f"
+ "versao": "3e5d788606"
 };
