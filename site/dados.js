@@ -3068,15 +3068,14 @@ const DADOS = {
    "idoneidade; círculo político; posicionamento (econômico c, pessoal c); experiência política",
    "idoneidade; círculo político; posicionamento (econômico c, pessoal c); experiência política; competência profissional",
    "idoneidade; círculo político; posicionamento (econômico a, pessoal c); experiência política; competência profissional",
-   "idoneidade; círculo político; posicionamento (econômico b, pessoal c); experiência política; competência profissional",
    "idoneidade; círculo político; posicionamento (econômico a, pessoal a); experiência política; competência profissional",
+   "idoneidade; círculo político; posicionamento (econômico b, pessoal c); experiência política; competência profissional",
    "idoneidade; círculo político; posicionamento (econômico a, pessoal b); experiência política; competência profissional",
    "idoneidade; círculo político; posicionamento (econômico c, pessoal b); experiência política",
    "idoneidade; círculo político; posicionamento (econômico b, pessoal b); experiência política; competência profissional",
    "idoneidade; círculo político; posicionamento (econômico c, pessoal b); experiência política; competência profissional",
-   "experiência política",
    "idoneidade; experiência política",
-   "idoneidade; círculo político; posicionamento (econômico a, pessoal a); competência profissional",
+   "experiência política",
    "idoneidade; círculo político; posicionamento (econômico b, pessoal b); experiência política",
    "idoneidade; círculo político; posicionamento (econômico b, pessoal c); experiência política",
    "idoneidade; círculo político; posicionamento (econômico a, pessoal a); experiência política",
@@ -3089,5 +3088,5 @@ const DADOS = {
    "pesquisa individual"
   ]
  },
- "versao": "2f4dc40be5"
+ "versao": "dc3b180bed"
 };

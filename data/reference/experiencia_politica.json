@@ -836,16 +836,48 @@
       "teve_cargo_eletivo": true,
       "cargos_anteriores": [
         {
+          "cargo": "VEREADOR",
+          "local": "Cachoeiro de Itapemirim/ES",
+          "periodo": "1983-1988",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "ES",
+          "periodo": "1991-1999 (presidente da Assembleia 1995-1996)",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "DEPUTADO FEDERAL",
+          "local": "ES",
+          "periodo": "1999-2003",
+          "tipo": "legislativo"
+        },
+        {
+          "cargo": "VICE-GOVERNADOR",
+          "local": "ES",
+          "periodo": "2007-2011 e 2023-2026",
+          "tipo": "executivo"
+        },
+        {
+          "cargo": "SENADOR",
+          "local": "ES",
+          "periodo": "2011-2019",
+          "tipo": "legislativo"
+        },
+        {
           "cargo": "GOVERNADOR",
           "local": "ES",
-          "periodo": "atual",
+          "periodo": "2026 (assumiu em 02/04/2026)",
           "tipo": "executivo"
         }
       ],
       "fontes": [
-        "https://www.horabrasil.com.br/2026/09/19/eleicoes-2026-veja-os-numeros-dos-candidatos-a-governador-e-senador-no-espirito-santo"
+        "https://www.horabrasil.com.br/2026/09/19/eleicoes-2026-veja-os-numeros-dos-candidatos-a-governador-e-senador-no-espirito-santo",
+        "https://pt.wikipedia.org/wiki/Ricardo_Ferra%C3%A7o"
       ],
-      "pesquisado_em": "2026-09-20"
+      "pesquisado_em": "2026-09-30",
+      "notas": "Também foi secretário estadual (Casa Civil 1997, Agricultura 2003-2006, Desenvolvimento 2023-2025). Registro completado pela Wikipedia em 2026-09-30."
     },
     "80002552682": {
       "nome_urna": "LORENZO PAZOLINI",
@@ -853,16 +885,24 @@
       "teve_cargo_eletivo": true,
       "cargos_anteriores": [
         {
+          "cargo": "DEPUTADO ESTADUAL",
+          "local": "ES",
+          "periodo": "2019-2020",
+          "tipo": "legislativo"
+        },
+        {
           "cargo": "PREFEITO",
           "local": "Vitória/ES",
-          "periodo": "mandato anterior",
+          "periodo": "2021-2026 (2 mandatos; renunciou em 01/04/2026)",
           "tipo": "executivo"
         }
       ],
       "fontes": [
-        "https://www.horabrasil.com.br/2026/09/19/eleicoes-2026-veja-os-numeros-dos-candidatos-a-governador-e-senador-no-espirito-santo"
+        "https://www.horabrasil.com.br/2026/09/19/eleicoes-2026-veja-os-numeros-dos-candidatos-a-governador-e-senador-no-espirito-santo",
+        "https://pt.wikipedia.org/wiki/Lorenzo_Pazolini"
       ],
-      "pesquisado_em": "2026-09-20"
+      "pesquisado_em": "2026-09-30",
+      "notas": "Delegado de polícia e ex-auditor de controle externo do TCE-ES. Registro completado pela Wikipedia em 2026-09-30."
     },
     "80002541012": {
       "nome_urna": "BRENO BARCELOS",

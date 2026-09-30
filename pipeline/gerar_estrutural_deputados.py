@@ -45,7 +45,7 @@ CARGOS = {"DEPUTADO FEDERAL", "DEPUTADO ESTADUAL", "DEPUTADO DISTRITAL"}
 # 2026-09-30: a experiência política pelo histórico do TSE vale também para Senador (a pesquisa manual só registrou
 # 86 de 319 senadores); o círculo político estrutural continua só para deputados. O registro manual de
 # data/reference/experiencia_politica.json tem precedência (enriquecer_experiencia).
-CARGOS_EXPERIENCIA = CARGOS | {"SENADOR"}
+CARGOS_EXPERIENCIA = CARGOS | {"SENADOR", "GOVERNADOR"}  # GOVERNADOR desde 2026-09-30 (mesmo motivo)
 ANOS_ESPERADOS = (2014, 2016, 2018, 2020, 2022, 2024)
 MIN_TITULO_VALIDO = 0.9  # fração mínima de linhas com título de 12 dígitos para o ano contar como coberto
 
