@@ -42,6 +42,10 @@ SAIDA_CIRCULO = config.PROCESSED_DIR / "estrutural_circulo_politico.json"
 SAIDA_EXPERIENCIA = config.PROCESSED_DIR / "estrutural_experiencia_politica.json"
 
 CARGOS = {"DEPUTADO FEDERAL", "DEPUTADO ESTADUAL", "DEPUTADO DISTRITAL"}
+# 2026-09-30: a experiência política pelo histórico do TSE vale também para Senador (a pesquisa manual só registrou
+# 86 de 319 senadores); o círculo político estrutural continua só para deputados. O registro manual de
+# data/reference/experiencia_politica.json tem precedência (enriquecer_experiencia).
+CARGOS_EXPERIENCIA = CARGOS | {"SENADOR"}
 ANOS_ESPERADOS = (2014, 2016, 2018, 2020, 2022, 2024)
 MIN_TITULO_VALIDO = 0.9  # fração mínima de linhas com título de 12 dígitos para o ano contar como coberto
 
@@ -188,7 +192,8 @@ def experiencia(candidatos: pd.DataFrame, eleitos: pd.DataFrame, status: dict) -
                     continue
                 cargo, tipo = CARGO_ELETIVO[r.cargo_norm]
                 local = f"{r.NM_UE.title()}/{r.SG_UF}" if r.cargo_norm in CARGOS_MUNICIPAIS else r.SG_UF
-                mandatos.append({"cargo": cargo, "local": local, "periodo": f"{r.ano + 1}-{r.ano + 4}", "tipo": tipo})
+                duracao = 8 if r.cargo_norm == "SENADOR" else 4
+                mandatos.append({"cargo": cargo, "local": local, "periodo": f"{r.ano + 1}-{r.ano + duracao}", "tipo": tipo})
         if not mandatos and not completo:
             continue  # cobertura parcial: só registra quem tem cargo achado (evita gravar "sem experiência" sem ter olhado tudo)
         mandatos.sort(key=lambda m: m["periodo"])
@@ -277,9 +282,10 @@ def main() -> None:
 
     tabela = json.loads(TABELA_PATH.read_text(encoding="utf-8"))["partidos"]
     df = pd.read_parquet(config.OUTPUT_PARQUET)
-    df = df[df.cargo.isin(CARGOS)].copy()
+    df = df[df.cargo.isin(CARGOS_EXPERIENCIA)].copy()
     df["titulo"] = df.sq_candidato.map(carregar_titulos())
-    faltam = sorted(set(df.partido) - set(tabela))
+    dep = df[df.cargo.isin(CARGOS)]
+    faltam = sorted(set(dep.partido) - set(tabela))
     if faltam:
         raise SystemExit(f"Partidos sem linha em {TABELA_PATH.name}: {faltam}. Rode --derivar-tabela.")
 
@@ -289,7 +295,7 @@ def main() -> None:
         print(f"  {ano}: {status.get(ano)}")
 
     exp = experiencia(df, eleitos, status) if len(eleitos) else {}
-    circ = circulo(df, tabela)
+    circ = circulo(dep, tabela)
     config.PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     cabecalho = {"_leiame": "Gerado por pipeline/gerar_estrutural_deputados.py; regenerável, não editar à mão."}
     SAIDA_CIRCULO.write_text(json.dumps({**cabecalho, "candidatos": circ}, ensure_ascii=False), encoding="utf-8")
@@ -297,7 +303,7 @@ def main() -> None:
 
     com_cargo = sum(1 for r in exp.values() if r["teve_cargo_eletivo"])
     completo = all(str(status.get(a, "")).startswith("ok") for a in ANOS_ESPERADOS)
-    print(f"\n{len(df):,} candidatos de {', '.join(sorted(CARGOS))}")
+    print(f"\n{len(df):,} candidatos de {', '.join(sorted(CARGOS_EXPERIENCIA))} (círculo só para deputados: {len(dep):,})")
     print(f"Círculo político: {len(circ):,} registros")
     print(f"Experiência política: {len(exp):,} registros, {com_cargo:,} com cargo eletivo achado; camada "
           + ("COMPLETA (todos os anos)" if completo else "PARCIAL: não conta como pesquisada até baixar todos os anos"))

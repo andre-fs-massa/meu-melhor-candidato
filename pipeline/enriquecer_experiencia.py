@@ -115,6 +115,17 @@ def main() -> None:
     if ESTRUTURAL_PATH.exists():
         estrutural = json.loads(ESTRUTURAL_PATH.read_text(encoding="utf-8"))["candidatos"]
         print(f"{len(estrutural):,} registros estruturais (deputados) somados aos {len(referencia['candidatos']):,} manuais")
+        # 2026-09-30: o registro manual tem precedência, mas ganha os mandatos do TSE (2014-2024) que não citava
+        # (ex.: Marina Silva sem o mandato de deputada federal de 2023). Casa por cargo, sem duplicar.
+        for sq, man in referencia["candidatos"].items():
+            est = estrutural.get(sq)
+            if not est or not est["cargos_anteriores"]:
+                continue
+            ja = {c["cargo"] for c in man["cargos_anteriores"]}
+            novos = [c for c in est["cargos_anteriores"] if c["cargo"] not in ja]
+            if novos:
+                man["cargos_anteriores"] = man["cargos_anteriores"] + novos
+                man["teve_cargo_eletivo"] = True
         referencia["candidatos"] = {**estrutural, **referencia["candidatos"]}
 
     resultado = enriquecer(df, referencia)

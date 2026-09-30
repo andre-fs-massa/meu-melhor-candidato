@@ -3065,25 +3065,23 @@ const DADOS = {
   ],
   "cobertura": [
    "idoneidade; círculo político; experiência política",
-   "idoneidade; círculo político; posicionamento (econômico c, pessoal c)",
-   "idoneidade; círculo político; posicionamento (econômico c, pessoal c); experiência política; competência profissional",
    "idoneidade; círculo político; posicionamento (econômico c, pessoal c); experiência política",
+   "idoneidade; círculo político; posicionamento (econômico c, pessoal c); experiência política; competência profissional",
    "idoneidade; círculo político; posicionamento (econômico a, pessoal c); experiência política; competência profissional",
    "idoneidade; círculo político; posicionamento (econômico b, pessoal c); experiência política; competência profissional",
    "idoneidade; círculo político; posicionamento (econômico a, pessoal a); experiência política; competência profissional",
    "idoneidade; círculo político; posicionamento (econômico a, pessoal b); experiência política; competência profissional",
-   "idoneidade; círculo político; posicionamento (econômico b, pessoal b); experiência política; competência profissional",
    "idoneidade; círculo político; posicionamento (econômico c, pessoal b); experiência política",
+   "idoneidade; círculo político; posicionamento (econômico b, pessoal b); experiência política; competência profissional",
    "idoneidade; círculo político; posicionamento (econômico c, pessoal b); experiência política; competência profissional",
-   "nenhuma (só proxy de ocupação + escolaridade)",
-   "idoneidade; círculo político; posicionamento (econômico c, pessoal b)",
-   "idoneidade; círculo político; posicionamento (econômico a, pessoal a); competência profissional",
-   "idoneidade; círculo político; posicionamento (econômico a, pessoal a); experiência política",
+   "experiência política",
    "idoneidade; experiência política",
+   "idoneidade; círculo político; posicionamento (econômico a, pessoal a); competência profissional",
+   "idoneidade; círculo político; posicionamento (econômico b, pessoal b); experiência política",
+   "idoneidade; círculo político; posicionamento (econômico b, pessoal c); experiência política",
+   "idoneidade; círculo político; posicionamento (econômico a, pessoal a); experiência política",
    "idoneidade; círculo político; posicionamento (econômico b, pessoal a); experiência política; competência profissional",
    "idoneidade; círculo político; posicionamento (econômico b, pessoal a); experiência política",
-   "idoneidade; círculo político; posicionamento (econômico b, pessoal b); experiência política",
-   "idoneidade; círculo político; posicionamento (econômico b, pessoal c)",
    "idoneidade; círculo político; posicionamento (econômico c, pessoal a); experiência política"
   ],
   "posicao_fonte": [
@@ -3091,5 +3089,5 @@ const DADOS = {
    "pesquisa individual"
   ]
  },
- "versao": "651dddba9c"
+ "versao": "2f4dc40be5"
 };
