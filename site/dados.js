@@ -87,32 +87,38 @@ const DADOS = {
   {
    "codigo": "PRESIDENTE",
    "rotulo": "Presidente",
-   "vagas": 1
+   "vagas": 1,
+   "votos": 1
   },
   {
    "codigo": "GOVERNADOR",
    "rotulo": "Governador",
-   "vagas": 1
+   "vagas": 1,
+   "votos": 1
   },
   {
    "codigo": "SENADOR",
    "rotulo": "Senador",
-   "vagas": 1
+   "vagas": 2,
+   "votos": 2
   },
   {
    "codigo": "DEPUTADO FEDERAL",
    "rotulo": "Deputado federal",
-   "vagas": 3
+   "vagas": 3,
+   "votos": 1
   },
   {
    "codigo": "DEPUTADO ESTADUAL",
    "rotulo": "Deputado estadual",
-   "vagas": 3
+   "vagas": 3,
+   "votos": 1
   },
   {
    "codigo": "DEPUTADO DISTRITAL",
    "rotulo": "Deputado distrital",
-   "vagas": 3
+   "vagas": 3,
+   "votos": 1
   }
  ],
  "grupos": {
@@ -3150,5 +3156,5 @@ const DADOS = {
    "pesquisa individual"
   ]
  },
- "versao": "e8838571f5"
+ "versao": "1624db9a1d"
 };

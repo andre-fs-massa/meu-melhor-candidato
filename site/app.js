@@ -447,43 +447,58 @@
   }
 
   // ---------- o melhor candidato para você ----------
-  function melhorParaVoce(g, cl) {
+  // Devolve até `n` candidatos (n = votos do eleitor no cargo: 2 para Senador em 2026, 1 nos demais).
+  function melhorParaVoce(g, cl, n) {
     const recPorQuadrante = (chaves) => {
       const cands = [];
       chaves.forEach(ch => g.recomendados.forEach(sq => { const c = g.candidatos.find(x => x.sq === sq); if (c && c.quadrante === ch) cands.push(c); }));
-      return cands.sort((a, b) => b.qualificacao_geral - a.qualificacao_geral)[0] || null;
+      return cands.sort((a, b) => b.qualificacao_geral - a.qualificacao_geral);
     };
-    let c = recPorQuadrante([...cl.seu]);
-    if (c) return {candidato: c, origem: "É o melhor avaliado no seu quadrante político."};
-    c = recPorQuadrante([...cl.viz]);
-    if (c) return {candidato: c, origem: "Seu posicionamento está perto do centro; este é o melhor avaliado no quadrante vizinho ao seu."};
-    // plano B: ninguém recomendado nos quadrantes possíveis do eleitor -- pega o mais próximo por distância, entre quem segue na disputa
+    const escolhidos = [];
+    const origens = [];
+    const seu = recPorQuadrante([...cl.seu]).slice(0, n);
+    if (seu.length) { escolhidos.push(...seu); origens.push(seu.length > 1 ? "São os melhores avaliados no seu quadrante político." : "É o melhor avaliado no seu quadrante político."); }
+    if (escolhidos.length < n) {
+      const viz = recPorQuadrante([...cl.viz]).filter(c => !escolhidos.includes(c)).slice(0, n - escolhidos.length);
+      if (viz.length) {
+        escolhidos.push(...viz);
+        origens.push(escolhidos.length === viz.length
+          ? `Seu posicionamento está perto do centro; ${viz.length > 1 ? "estes são os melhores avaliados" : "este é o melhor avaliado"} no quadrante vizinho ao seu.`
+          : "Para completar os votos, o melhor avaliado do quadrante vizinho ao seu.");
+      }
+    }
+    if (escolhidos.length) return {candidatos: escolhidos, origem: origens.join(" ")};
+    // plano B: ninguém recomendado nos quadrantes possíveis do eleitor -- pega os mais próximos por distância, entre quem segue na disputa
     const vivos = g.candidatos.filter(x => x.situacao === "segue" || x.situacao === "recomendado");
     if (!vivos.length) return null;
-    const dist = (x) => { let s = 0, n = 0; if (voce.eco != null) { s += (x.eco - voce.eco) ** 2; n++; } if (voce.pes != null) { s += (x.pes - voce.pes) ** 2; n++; } return n ? Math.sqrt(s) : Infinity; };
-    const [prox, d] = vivos.map(x => [x, dist(x)]).sort((a, b) => a[1] - b[1] || b[0].qualificacao_geral - a[0].qualificacao_geral)[0];
-    return {candidato: prox, origem: `Nenhum candidato bem avaliado do seu quadrante (ou do vizinho) continua na disputa. Este é o mais próximo da sua posição entre os que seguem na disputa (a ${fmt(d)} pontos de distância no diagrama)${d > 5 ? " — uma distância grande; vale ler o plano de governo com atenção" : ""}.`};
+    const dist = (x) => { let s = 0, k = 0; if (voce.eco != null) { s += (x.eco - voce.eco) ** 2; k++; } if (voce.pes != null) { s += (x.pes - voce.pes) ** 2; k++; } return k ? Math.sqrt(s) : Infinity; };
+    const prox = vivos.map(x => [x, dist(x)]).sort((a, b) => a[1] - b[1] || b[0].qualificacao_geral - a[0].qualificacao_geral).slice(0, n);
+    const d = prox[prox.length - 1][1];
+    return {candidatos: prox.map(p => p[0]), origem: `Nenhum candidato bem avaliado do seu quadrante (ou do vizinho) continua na disputa. ${prox.length > 1 ? "Estes são os mais próximos" : "Este é o mais próximo"} da sua posição entre os que seguem na disputa (até ${fmt(d)} pontos de distância no diagrama)${d > 5 ? " — uma distância grande; vale ler o plano de governo com atenção" : ""}.`};
   }
   function renderSeuCandidato(g) {
     const sec = $("secSeuCandidato"), box = $("blocoSeuCandidato");
     const cl = classificarVoce();
     if (!cl) { sec.hidden = true; return; }
-    const achado = melhorParaVoce(g, cl);
+    const n = CARGO[g.cargo].votos || 1;
+    $("seuTitulo").textContent = n > 1 ? "Os melhores candidatos para você" : "O melhor candidato para você";
+    const achado = melhorParaVoce(g, cl, n);
     box.textContent = "";
     if (!achado) {
       sec.style.borderColor = ""; sec.style.background = "";
       box.append(el("p", "semvoce", "Nenhum candidato deste cargo continua na disputa para comparar com a sua posição."));
       sec.hidden = false; return;
     }
-    // usa a cor do quadrante do candidato (mesma paleta do diagrama de Nolan) para destacar a seção
-    const k = achado.candidato.quadrante;
+    // usa a cor do quadrante do (primeiro) candidato (mesma paleta do diagrama de Nolan) para destacar a seção
+    const k = achado.candidatos[0].quadrante;
     sec.style.borderColor = qcor(k);
     sec.style.background = qcorWash(k);
     const origem = el("p", "origem", achado.origem);
     origem.style.background = qcorWash(k);
     origem.style.color = qcor(k);
     box.append(origem);
-    box.append(blocoCandidato(achado.candidato, "seu_candidato"));
+    if (n > 1) box.append(el("p", "nota", `Em 2026 cada eleitor vota em ${n} candidatos para ${CARGO[g.cargo].rotulo}.`));
+    achado.candidatos.forEach(c => box.append(blocoCandidato(c, "seu_candidato")));
     sec.hidden = false;
   }
 
@@ -568,7 +583,7 @@
      `Etapa 0: saem candidatos que renunciaram, tiveram o registro indeferido sem recurso ou são inelegíveis, mesmo que ainda apareçam no arquivo do TSE${META.data_situacao_tse ? ` (situação do registro segundo o TSE em ${META.data_situacao_tse})` : ""}. Candidaturas sub judice (registro ainda em julgamento, com recurso ou sem decisão) continuam na lista, com aviso, mas não são recomendadas, porque os votos podem ser anulados.`,
      `Etapa 1: sai quem tem idoneidade geral abaixo de ${fmt(META.corte)} (de 0 a 10; para deputados o corte é ${fmt(META.corte_deputados)}, porque a nota deles vem só de bases oficiais e do partido). Idoneidade geral é a média entre a idoneidade pessoal do candidato (processos, Ficha Limpa, contas) e a do círculo político dele (vice, presidentes de partido, padrinhos e aliados políticos). Quem não teve a idoneidade pesquisada não é recomendado, para não punir quem foi mais escrutinado.`,
      `Etapa 2: cada candidato restante é posicionado num de quatro quadrantes do diagrama de Nolan (limite em ${fmt(META.limiar)} nos dois eixos: economia e costumes).`,
-     `Etapa 3: em cada quadrante, o recomendado é quem tem maior qualificação geral — a média entre idoneidade geral e competência geral (que por sua vez é a média da competência declarada e da escolaridade).`,
+     `Etapa 3: em cada quadrante, são recomendados os de maior qualificação geral — a média entre idoneidade geral e competência geral (que por sua vez é a média da competência declarada e da escolaridade). São 1 por quadrante para Presidente e Governador, 2 para Senador (em 2026 cada eleitor vota em 2 candidatos ao Senado) e 3 para Deputado.`,
      `Empates na última vaga de um quadrante são resolvidos primeiro pelo cargo eletivo mais alto já exercido (Presidente; Governador ou Senador; Deputado Federal; Deputado Estadual ou Distrital, Prefeito ou Vice-Governador; Vereador ou Vice-Prefeito) e, persistindo, por sorteio, nunca por ordem alfabética.`,
      `Cada candidato mostra a profundidade da pesquisa (verificação estrutural, rápida, padrão ou aprofundada) e o resultado da conferência automática, por CPF, em bases oficiais: contas julgadas irregulares pelo TCU, motivos de indeferimento no TSE em 2022, sanções do CEIS, CNEP e CEAF e autos de infração do Ibama.`,
      `Se você não sabe seu quadrante, 2 perguntas simples indicam uma posição provável, que não é armazenada. Se nenhum candidato do seu quadrante (ou do vizinho) continuar na disputa, mostramos o mais próximo da sua posição entre os demais.`].forEach(t => m.append(el("li", null, t)));

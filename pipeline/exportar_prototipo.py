@@ -30,6 +30,8 @@ from .recomendar import (
 
 RAIZ = config.RAW_DIR.parent.parent
 SAIDAS = [RAIZ / "site" / "dados.js"]
+# Quantos candidatos do cargo cada eleitor escolhe na urna (2026: renovação de 2/3 do Senado, 2 votos).
+VOTOS_POR_ELEITOR = {"SENADOR": 2}
 ROTULO_CARGO = {
     "PRESIDENTE": "Presidente", "GOVERNADOR": "Governador", "SENADOR": "Senador",
     "DEPUTADO FEDERAL": "Deputado federal", "DEPUTADO ESTADUAL": "Deputado estadual", "DEPUTADO DISTRITAL": "Deputado distrital",
@@ -198,7 +200,7 @@ def construir(df: pd.DataFrame) -> dict:
         "profundidade": prof["niveis"],
         "bases_oficiais": [{"id": k, "rotulo": r, "data": d} for k, (r, d) in BASES.items()],
         "quadrantes": [{"chave": k, "nome": v, "curto": CURTO_QUADRANTE[k]} for k, v in NOME_QUADRANTE.items()],
-        "cargos": [{"codigo": c, "rotulo": ROTULO_CARGO[c], "vagas": VAGAS_POR_QUADRANTE[c]} for c in ROTULO_CARGO],
+        "cargos": [{"codigo": c, "rotulo": ROTULO_CARGO[c], "vagas": VAGAS_POR_QUADRANTE[c], "votos": VOTOS_POR_ELEITOR.get(c, 1)} for c in ROTULO_CARGO],
         "grupos": grupos,
     }
 

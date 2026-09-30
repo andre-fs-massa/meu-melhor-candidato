@@ -51,7 +51,7 @@ SEMENTE_PADRAO = 2026
 VAGAS_POR_QUADRANTE = {
     "PRESIDENTE": 1,
     "GOVERNADOR": 1,
-    "SENADOR": 1,
+    "SENADOR": 2,  # 2026-09-30: em 2026 o eleitor vota em 2 candidatos ao Senado (renovação de 2/3)
     "DEPUTADO FEDERAL": 3,
     "DEPUTADO ESTADUAL": 3,
     "DEPUTADO DISTRITAL": 3,
