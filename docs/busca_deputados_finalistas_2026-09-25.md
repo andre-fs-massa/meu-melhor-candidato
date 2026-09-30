@@ -1240,6 +1240,24 @@ sorteio caíram de 285 para 221 (em SP, MG e RJ, de 15 para 9 quadrantes com sor
 sido pesquisados inteiros na 1ª rodada; os 27 novos finalistas dos 10 maiores estados passaram pela 2ª rodada, sem
 achado novo (Victor Dias/PA: menção a boca de urna em 2018 sem desfecho, a confirmar, sem desconto).
 
+## 3ª rodada padronizada dos empatados em RJ, SP e MG (30/09, noite)
+
+Pedido do usuário: refazer a pesquisa de idoneidade dos candidatos empatados na última vaga, em todos os cargos, em RJ,
+SP e MG (nessa ordem, um estado por vez), de forma padronizada. Só havia empate em Deputado Federal e Estadual.
+Método, igual para todos: (1) quem ainda não tinha a 2ª rodada fez a busca pelo nome completo; (2) todos fizeram a 3ª
+rodada com 2 buscas fixas: **A** = nome completo + (inquérito OR operação OR "Polícia Federal" OR "Polícia Civil" OR réu
+OR denúncia OR condenado); **B** = nome de urna + UF/cidade + (TCU OR TCE OR "prestação de contas" OR cassação OR
+"Justiça Eleitoral" OR "ação popular"). Confirmação e classificação pelas mesmas regras. Registro ganha `rodada3`
+(`aplicar_rodada2.py resultados.json 3 "busca padronizada dos empatados, 2 buscas"`).
+
+- **RJ** (6): Leniel Borel/PP 10 → 8 (processo por violência doméstica no TJRJ, em sigilo, com medidas protetivas
+  noticiadas; investigação/ação em curso −2); com isso Rodrigo Vizeu leva a vaga federal da Direita sem sorteio. Jari,
+  Renata Souza, Flavio Serafini e Dani Balbi sem achado; seguem 4 para 3 vagas (mesmo nível de cargo).
+- **SP** (7): nenhum achado (pedidos de cassação em câmaras municipais sem decisão não descontam). Blocos mantidos.
+- **MG** (20): Pedro Aihara/PP 10 → 9,5 (PIC do MPF por descaminho arquivado por insignificância, −0,5) e saiu do bloco
+  federal da Direita, que ficou com 4 para 3 vagas; o novo sorteio trocou Gilberto Abramo por Rodrigo de Castro. Demais
+  sem achado (Ronaldo Tannús: ação de perda de mandato por infidelidade ainda sem decisão, não desconta).
+
 ## Situação e próximos passos
 
 - **Estados fechados (27 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),

@@ -6,6 +6,9 @@ O JSON de entrada é {sq: {"achados": [...novos...], "motivo": "...", "fontes": 
 - Com achados novos: o motivo informado substitui o texto da busca (deve resumir as duas rodadas); o trecho
   "Bases oficiais: ..." do estrutural é mantido.
 O registro ganha "rodada2": DATA. Candidato ainda sem 1ª rodada é recusado (rodar aplicar_busca.py antes).
+
+Rodadas seguintes (2026-09-30): python aplicar_rodada2.py resultados.json 3 "busca padronizada dos empatados, 2 buscas"
+grava "rodada3" e usa o rótulo dado no texto do motivo.
 """
 import json
 import sys
@@ -20,6 +23,8 @@ ESTR = RAIZ / "data/processed/estrutural_idoneidade.json"
 DATA = "2026-09-30"
 
 entrada = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+RODADA = int(sys.argv[2]) if len(sys.argv) > 2 else 2
+ROTULO = sys.argv[3] if len(sys.argv) > 3 else "busca pelo nome completo"
 idon = json.loads(IDON.read_text(encoding="utf-8"))
 estr = json.loads(ESTR.read_text(encoding="utf-8"))["candidatos"]
 
@@ -34,13 +39,13 @@ for sq, r in entrada.items():
     if r["achados"]:
         motivo = r["motivo"]
     else:
-        motivo = motivo_ant.rstrip(". ") + f". 2ª rodada (busca pelo nome completo, {DATA[8:10]}/{DATA[5:7]}): " + r["motivo"]
+        motivo = motivo_ant.rstrip(". ") + f". {RODADA}ª rodada ({ROTULO}, {DATA[8:10]}/{DATA[5:7]}): " + r["motivo"]
     nota_ant = reg["nota"]
     reg["achados"] = list(base) + busca_ant + r["achados"]
     reg["nota"] = calcular_nota(reg["achados"])
     reg["motivo"] = motivo + bases_txt
     reg["fontes"] = list(dict.fromkeys(reg["fontes"] + r["fontes"]))
-    reg["rodada2"] = DATA
+    reg[f"rodada{RODADA}"] = DATA
     print(f"{reg['nome_urna']:<35} {nota_ant:>4} -> {reg['nota']}")
 
 IDON.write_text(json.dumps(idon, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n")
