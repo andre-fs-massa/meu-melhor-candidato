@@ -32,29 +32,6 @@
     return g.carregando;
   }
 
-  // ---------- tema (só conveniência local, nunca enviado) ----------
-  (function tema() {
-    const btn = $("btnTema");
-    let salvo = null;
-    try { salvo = localStorage.getItem("mmc_tema"); } catch (e) { /* navegação privada: ignora */ }
-    if (salvo === "dark" || salvo === "light") document.documentElement.setAttribute("data-theme", salvo);
-    const atualizar = () => {
-      const escuro = document.documentElement.getAttribute("data-theme") === "dark" ||
-        (!document.documentElement.hasAttribute("data-theme") && matchMedia("(prefers-color-scheme: dark)").matches);
-      btn.textContent = escuro ? "Modo claro" : "Modo escuro";
-      btn.setAttribute("aria-pressed", String(escuro));
-    };
-    btn.addEventListener("click", () => {
-      const agoraEscuro = document.documentElement.getAttribute("data-theme") !== "dark" &&
-        !(!document.documentElement.hasAttribute("data-theme") && !matchMedia("(prefers-color-scheme: dark)").matches);
-      const novo = document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark";
-      document.documentElement.setAttribute("data-theme", novo);
-      try { localStorage.setItem("mmc_tema", novo); } catch (e) { /* ignora */ }
-      atualizar();
-    });
-    atualizar();
-  })();
-
   const UF_NOME = {BR:"Brasil",AC:"Acre",AL:"Alagoas",AM:"Amazonas",AP:"Amapá",BA:"Bahia",CE:"Ceará",DF:"Distrito Federal",ES:"Espírito Santo",GO:"Goiás",MA:"Maranhão",MG:"Minas Gerais",MS:"Mato Grosso do Sul",MT:"Mato Grosso",PA:"Pará",PB:"Paraíba",PE:"Pernambuco",PI:"Piauí",PR:"Paraná",RJ:"Rio de Janeiro",RN:"Rio Grande do Norte",RO:"Rondônia",RR:"Roraima",RS:"Rio Grande do Sul",SC:"Santa Catarina",SE:"Sergipe",SP:"São Paulo",TO:"Tocantins"};
   const fmt = (x, d = 1) => x == null ? "n/d" : x.toLocaleString("pt-BR", {minimumFractionDigits: d, maximumFractionDigits: d});
   const MIN = new Set(["da","de","do","das","dos","e"]);
