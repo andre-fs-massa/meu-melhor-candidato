@@ -158,6 +158,9 @@ details.expansor[open] summary::before { transform: rotate(90deg); }
 details.expansor summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 details.expansor[open] summary { margin-bottom: 4px; }
 ol.lista { list-style: none; margin: 0; padding: 0; }
+.busca { margin: 4px 0 10px; }
+.busca input { box-sizing: border-box; width: 100%; font: inherit; font-size: .95rem; padding: 9px 12px; border: 1px solid var(--axis); border-radius: var(--radius-sm); background: var(--surface); color: var(--ink); }
+.busca input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
 .paginacao { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 10px 0; }
 .paginacao[hidden] { display: none; }
 .paginacao select { font: inherit; font-size: .87rem; padding: 6px 8px; border: 1px solid var(--axis); border-radius: var(--radius-sm); background: var(--surface); color: var(--ink); }

@@ -550,30 +550,47 @@
     };
 
     // paginação: só as linhas da página atual existem no DOM (listas de deputados passam de mil candidatos)
-    const porPagina = 25, paginas = Math.max(1, Math.ceil(ordenados.length / porPagina));
-    const nav = $("paginacao"); nav.textContent = ""; nav.hidden = paginas <= 1;
+    const porPagina = 25;
+    const nav = $("paginacao");
     const ant = el("button", "btn", "‹ Anterior"), prox = el("button", "btn", "Próxima ›");
     ant.type = prox.type = "button";
     const seletor = document.createElement("select"); seletor.setAttribute("aria-label", "Ir para a página");
     const faixa = el("span", "faixa"); faixa.setAttribute("aria-live", "polite");
-    if (paginas > 1) {
-      for (let p = 1; p <= paginas; p++) { const o = el("option", null, `Página ${p} de ${paginas}`); o.value = String(p); seletor.append(o); }
-      ant.addEventListener("click", () => mostrarPagina(pagina - 1, true));
-      prox.addEventListener("click", () => mostrarPagina(pagina + 1, true));
-      seletor.addEventListener("change", () => mostrarPagina(Number(seletor.value), true));
-      nav.append(ant, seletor, prox, faixa);
-    }
-    let pagina = 1;
+    ant.addEventListener("click", () => mostrarPagina(pagina - 1, true));
+    prox.addEventListener("click", () => mostrarPagina(pagina + 1, true));
+    seletor.addEventListener("change", () => mostrarPagina(Number(seletor.value), true));
+    // busca por nome (de urna ou completo) ou número, sem diferenciar acentos e maiúsculas; o índice original mantém os ids dos painéis
+    const sem = (s) => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+    const todos = ordenados.map((c, i) => ({ c, i, chave: sem(c.nome_urna + " " + (c.nome_completo || "") + " " + c.numero) }));
+    let lista = todos, paginas = 1, pagina = 1;
+    const montarPaginacao = () => {
+      paginas = Math.max(1, Math.ceil(lista.length / porPagina));
+      nav.textContent = ""; seletor.textContent = ""; nav.hidden = paginas <= 1;
+      if (paginas > 1) {
+        for (let p = 1; p <= paginas; p++) { const o = el("option", null, `Página ${p} de ${paginas}`); o.value = String(p); seletor.append(o); }
+        nav.append(ant, seletor, prox, faixa);
+      }
+    };
     const mostrarPagina = (n, rolar) => {
       pagina = Math.min(paginas, Math.max(1, n));
       const ini = (pagina - 1) * porPagina;
       ol.textContent = "";
-      ordenados.slice(ini, ini + porPagina).forEach((c, k) => ol.append(criarLinha(c, ini + k)));
+      lista.slice(ini, ini + porPagina).forEach(x => ol.append(criarLinha(x.c, x.i)));
       ant.disabled = pagina === 1; prox.disabled = pagina === paginas; seletor.value = String(pagina);
-      faixa.textContent = `Mostrando ${ini + 1} a ${Math.min(ini + porPagina, ordenados.length)} de ${ordenados.length.toLocaleString("pt-BR")}`;
+      faixa.textContent = `Mostrando ${ini + 1} a ${Math.min(ini + porPagina, lista.length)} de ${lista.length.toLocaleString("pt-BR")}`;
       if (rolar) $("detalheTodos").scrollIntoView({block: "start"});
     };
-    mostrarPagina(1, false);
+    const busca = $("buscaTodos"), vazio = $("buscaVazia");
+    busca.value = "";
+    busca.oninput = () => {
+      const termos = sem(busca.value).trim().split(/\s+/).filter(Boolean);
+      lista = termos.length ? todos.filter(x => termos.every(t => x.chave.includes(t))) : todos;
+      vazio.hidden = lista.length > 0;
+      if (!lista.length) vazio.textContent = `Nenhum candidato encontrado para "${busca.value.trim()}".`;
+      montarPaginacao(); mostrarPagina(1, false);
+    };
+    vazio.hidden = true;
+    montarPaginacao(); mostrarPagina(1, false);
   }
 
   // ---------- metodologia ----------
