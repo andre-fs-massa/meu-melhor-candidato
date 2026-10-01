@@ -180,6 +180,7 @@ ol.lista { list-style: none; margin: 0; padding: 0; }
 .linha.fora .nomelista { color: var(--muted); text-decoration: line-through; text-decoration-thickness: 1px; }
 .nomelista { font-weight: 600; }
 .quem small { display: block; color: var(--ink-2); font-weight: 400; }
+.quem small.nomecompleto { color: var(--muted); font-size: .76rem; }
 .notas3 { display: flex; gap: 4px 12px; flex-wrap: wrap; font-size: .82rem; }
 .notas3 b { font-variant-numeric: tabular-nums; color: var(--ink); }
 .trilho { position: relative; height: 6px; border-radius: 3px; background: var(--grid); margin-top: 3px; }
