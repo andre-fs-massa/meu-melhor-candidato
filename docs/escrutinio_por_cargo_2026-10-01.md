@@ -8,7 +8,7 @@ O escrutínio cai à medida que o número de candidatos sobe: os 14 candidatos a
 
 - **Presidente:** 14 candidatos, todos com pesquisa aprofundada.
 - **Governador:** 200 candidatos. Em 14 estados a pesquisa foi padrão (115 candidatos) e em 13 foi rápida (85).
-- **Senador:** 318 candidatos, todos com pesquisa rápida, de 1 a 2 buscas por candidato.
+- **Senador:** 318 candidatos. No Rio de Janeiro a pesquisa foi padrão (17 candidatos); nos outros 26 estados foi rápida, de 1 a 2 buscas por candidato (301).
 - **Deputados federal, estadual e distrital:** 19.514 candidatos. Só os finalistas e quem empatou com eles (1.063, ou 5%) tiveram 1 busca rápida na internet.
 
 Os 20.046 candidatos do arquivo do TSE passaram pela conferência automática por CPF em até 6 bases oficiais. Só 15 candidatos ficaram sem idoneidade verificada, todos em cargos majoritários. Dados do site gerados em 30/09/2026.
@@ -20,8 +20,8 @@ Cada candidato recebe um dos quatro níveis de profundidade que o site mostra no
 | Nível | O que foi feito | Onde foi usado |
 | --- | --- | --- |
 | Aprofundada | Várias buscas por candidato, reconferência dos achados e dos vices, revisão das notas mais baixas | Presidente |
-| Padrão | Várias buscas por candidato, com reconferência dos achados mais graves | Governador em 14 estados |
-| Rápida | 1 a 2 buscas por candidato; nota 10 quer dizer só "nada encontrado" | Governador em 13 estados, todo Senador, finalistas de deputado |
+| Padrão | Várias buscas por candidato, com reconferência dos achados mais graves | Governador em 14 estados, Senador no Rio de Janeiro |
+| Rápida | 1 a 2 buscas por candidato; nota 10 quer dizer só "nada encontrado" | Governador em 13 estados, Senador nos outros 26, finalistas de deputado |
 | Estrutural | Sem busca na internet: presidente do partido, cargos eletivos de 2014 a 2024 no TSE e bases oficiais | Demais candidatos a deputado |
 
 Todos os níveis incluem a conferência por CPF em 6 bases oficiais: TCU (contas irregulares), TSE 2022 (indeferimentos e cassações), CEIS, CNEP, CEAF e Ibama. A base do TSE 2022 não se aplica a 13.806 candidatos que não concorreram em 2022.
@@ -36,11 +36,11 @@ Quase todo o escrutínio individual na internet ficou concentrado em 532 candida
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Presidente | 1 | 14 | 14 | 0 | 0 | 0 | 1 |
 | Governador | 27 | 200 | 0 | 115 | 85 | 0 | 9 |
-| Senador | 27 | 318 | 0 | 0 | 318 | 0 | 5 |
+| Senador | 27 | 318 | 0 | 17 | 301 | 0 | 5 |
 | Deputado federal | 27 | 7.790 | 0 | 0 | 523 | 7.267 | 0 |
 | Deputado estadual | 26 | 11.291 | 0 | 0 | 519 | 10.772 | 0 |
 | Deputado distrital | 1 | 433 | 0 | 0 | 21 | 412 | 0 |
-| **Total** | **109** | **20.046** | **14** | **115** | **1.466** | **18.451** | **15** |
+| **Total** | **109** | **20.046** | **14** | **132** | **1.449** | **18.451** | **15** |
 
 "Sem idoneidade verificada" são candidatos que seguem listados no site mas não entram nas recomendações.
 
@@ -84,7 +84,7 @@ Para Governador, os 14 estados com pesquisa padrão incluem os 8 mais populosos.
 
 ## Senador
 
-Os 318 candidatos a Senador tiveram pesquisa rápida em todos os estados, mas a profundidade real variou muito: o Rio de Janeiro passou por um escrutínio extra, que o rótulo "rápida" não mostra. 15 dos 27 estados ficaram abaixo de 1 fonte citada por candidato.
+Os 318 candidatos a Senador tiveram pesquisa rápida em 26 estados e pesquisa padrão no Rio de Janeiro, que passou por um escrutínio extra em 29/09 (cerca de 45 buscas, achados graves reconferidos e suplentes pesquisados). 15 dos 27 estados ficaram abaixo de 1 fonte citada por candidato.
 
 | Estado | Candidatos | Fontes por candidato | Achados |
 | --- | --- | --- | --- |
@@ -116,7 +116,7 @@ Os 318 candidatos a Senador tiveram pesquisa rápida em todos os estados, mas a 
 | Santa Catarina | 13 | 0,2 | 1 |
 | Piauí | 20 | 0,1 | 1 |
 
-No Rio de Janeiro, o escrutínio extra rendeu 20 achados, quase o triplo de qualquer outro estado. No Piauí, 20 candidatos têm juntos 1 achado e 0,1 fonte por candidato. Ali, nota 10 de idoneidade quer dizer só que a busca não encontrou nada. Cinco candidatos ficaram sem idoneidade verificada: 2 em Minas Gerais e 1 em cada um destes estados: Pará, Rio de Janeiro e Sergipe.
+No Rio de Janeiro, a pesquisa padrão rendeu 20 achados, quase o triplo de qualquer outro estado. No Piauí, 20 candidatos têm juntos 1 achado e 0,1 fonte por candidato. Ali, nota 10 de idoneidade quer dizer só que a busca não encontrou nada. Cinco candidatos ficaram sem idoneidade verificada: 2 em Minas Gerais e 1 em cada um destes estados: Pará, Rio de Janeiro e Sergipe.
 
 ## Deputados federal, estadual e distrital
 
@@ -163,4 +163,3 @@ O ponto mais fraco são os 18.451 candidatos a deputado sem busca na internet: p
 - **15 candidatos sem idoneidade verificada:** 1 a Presidente, 9 a Governador em 8 estados e 5 a Senador em 4 estados. Eles aparecem na lista, mas nunca são recomendados.
 - **Posição ideológica de deputado:** é a do partido, não a do candidato. Quem destoa do partido pode estar no quadrante errado.
 - **CEAF a confirmar:** 4 candidatos têm possível registro de expulsão do serviço público federal, ainda não confirmado por CPF completo.
-- **Rótulo de nível incompleto:** o Senado do Rio de Janeiro teve escrutínio extra, mas o site ainda o mostra como "pesquisa rápida".

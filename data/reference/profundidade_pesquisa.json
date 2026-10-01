@@ -1,5 +1,5 @@
 {
-  "_leiame": "Nível de profundidade da PESQUISA MANUAL (busca na internet) de cada candidato, definido por grupo cargo/UF conforme a sessão em que foi pesquisado (ver memória de retomada do projeto). Não mede a qualidade do candidato: mede o quanto se procurou. A conferência automática em bases oficiais (TCU, TSE, CEIS, CNEP, CEAF, Ibama) é independente e vem de pipeline/cruzar_bases_oficiais.py. Nível 'estrutural' (deputados, 2026-09-24): sem busca manual, só dados estruturados. Regras avaliadas em ordem; vale a primeira que casar. 'excecoes' (sq_candidato -> nível) tem precedência sobre as regras.",
+  "_leiame": "Nível de profundidade da PESQUISA MANUAL (busca na internet) de cada candidato, definido por grupo cargo/UF conforme a sessão em que foi pesquisado (ver memória de retomada do projeto). Não mede a qualidade do candidato: mede o quanto se procurou. A conferência automática em bases oficiais (TCU, TSE, CEIS, CNEP, CEAF, Ibama) é independente e vem de pipeline/cruzar_bases_oficiais.py. Nível 'estrutural' (deputados, 2026-09-24): sem busca manual, só dados estruturados. Regras avaliadas em ordem; vale a primeira que casar. 'excecoes' (sq_candidato -> nível) tem precedência sobre as regras. Senador/RJ = 'padrao' desde 2026-10-01: escrutínio de 29/09 (~45 buscas, achados graves reconferidos, suplentes pesquisados).",
   "niveis": {
     "aprofundada": {
       "rotulo": "Pesquisa aprofundada",
@@ -46,6 +46,13 @@
     {
       "cargo": "GOVERNADOR",
       "nivel": "rapida"
+    },
+    {
+      "cargo": "SENADOR",
+      "ufs": [
+        "RJ"
+      ],
+      "nivel": "padrao"
     },
     {
       "cargo": "SENADOR",
