@@ -8,7 +8,7 @@ O JSON de entrada é {sq: {"achados": [...novos...], "motivo": "...", "fontes": 
 O registro ganha "rodada2": DATA. Candidato ainda sem 1ª rodada é recusado (rodar aplicar_busca.py antes).
 
 Rodadas seguintes (2026-09-30): python aplicar_rodada2.py resultados.json 3 "busca padronizada dos empatados, 2 buscas"
-grava "rodada3" e usa o rótulo dado no texto do motivo.
+grava "rodada3" e usa o rótulo dado no texto do motivo. Um 4º argumento opcional dá a data (AAAA-MM-DD; padrão 2026-09-30).
 """
 import json
 import sys
@@ -20,11 +20,11 @@ from pipeline.pesos import calcular_nota  # noqa: E402
 
 IDON = RAIZ / "data/reference/idoneidade.json"
 ESTR = RAIZ / "data/processed/estrutural_idoneidade.json"
-DATA = "2026-09-30"
 
 entrada = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
 RODADA = int(sys.argv[2]) if len(sys.argv) > 2 else 2
 ROTULO = sys.argv[3] if len(sys.argv) > 3 else "busca pelo nome completo"
+DATA = sys.argv[4] if len(sys.argv) > 4 else "2026-09-30"
 idon = json.loads(IDON.read_text(encoding="utf-8"))
 estr = json.loads(ESTR.read_text(encoding="utf-8"))["candidatos"]
 

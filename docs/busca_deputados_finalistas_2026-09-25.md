@@ -1258,6 +1258,32 @@ OR denúncia OR condenado); **B** = nome de urna + UF/cidade + (TCU OR TCE OR "p
   federal da Direita, que ficou com 4 para 3 vagas; o novo sorteio trocou Gilberto Abramo por Rodrigo de Castro. Demais
   sem achado (Ronaldo Tannús: ação de perda de mandato por infidelidade ainda sem decisão, não desconta).
 
+## 4ª rodada: pesquisa padrão dos empatados em RJ, SP e MG (01/10)
+
+Pedido do usuário: escrutinar os finalistas empatados de todos os cargos em RJ, SP e MG, um estado por vez, com
+pesquisa padrão. De novo só havia empate em Deputado Federal e Estadual: 31 candidatos (RJ 4, SP 7, MG 20). Método,
+igual para todos: 3 buscas novas por candidato, somadas às cerca de 4 das rodadas anteriores: **(1)** Wikipédia e
+trajetória (cargos, inclusive antes de 2014); **(2)** nome completo + (processo OR condenado OR investigação OR denúncia
+OR improbidade); **(3)** nome de urna + cidade/casa legislativa + (polêmica OR "Ministério Público" OR representação),
+2026. Achados graves já registrados foram reconferidos na fonte. Tiago Santana/MG, que não tinha a 3ª rodada, fez 4
+buscas. Os registros ganham `rodada4` e o nível "padrão" (`aplicar_rodada2.py resultados.json 4 "pesquisa padrão dos
+empatados, 3 buscas" 2026-10-01` + exceções em `profundidade_pesquisa.json`).
+
+- **RJ** (4): nenhum achado (representação no Conselho de Ética da Alerj contra Renata Souza, sem sanção, não desconta).
+  Seguem 4 para 3 vagas na Esquerda estadual.
+- **SP** (7): nenhum achado (a Câmara de Campinas rejeitou por 21 a 8 a Comissão Processante contra Mariana Conti).
+  Blocos mantidos.
+- **MG** (20): Maristela Dutra/PRD 10 → 9 (o gabinete foi citado na apuração do MPMG sobre assessores "fantasmas" na
+  Câmara de Araxá, arquivada em 24/10/2024 sem demonstração concreta, e um inquérito policial segue aberto sem alvos
+  nomeados; citado/apuração preliminar −1, a confirmar). Ela saiu do bloco federal Libertário, que ficou com 4 para 1
+  vaga; os recomendados não mudaram. Gilberto Abramo reconferido: segue só citado na decisão do STF sobre as emendas
+  atribuídas a Eduardo Cunha (−1 mantido). Braulio Lara reconferido: propaganda irregular flagrada pelo TRE-MG (−1
+  mantido) e nova representação da Procuradoria sem decisão. A confirmar, sem desconto: inquérito policial de 2021 com
+  o nome de Roncali da Farmácia no Jusbrasil (sem crime nem papel dele) e procedimento eleitoral sobre propaganda de
+  Pinheirinho em 2026 (sem decisão).
+- A Wikipédia confirmou os níveis de cargo de todos os 31 (nenhum mandato anterior a 2014 mudava o nível), então os
+  empates seguem decididos por sorteio.
+
 ## Situação e próximos passos
 
 - **Estados fechados (27 de 27):** SP (64 pesquisados), MG (44), RJ (43), BA (29), PR (44), RS (41), PE (45), CE (30), PA (37),

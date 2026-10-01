@@ -7134,17 +7134,19 @@
       "nome_urna": "ESTHER MORAES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (vereadora de Santa Bárbara d'Oeste, 2 mandatos).",
       "fontes": [
         "https://www.camarasantabarbara.sp.gov.br/Vereador/Listar/50",
         "https://santabarbara.siscam.com.br/Vereadores/Vereador/3546",
-        "https://www.otempo.com.br/eleicoes/2026/candidatos/sao-paulo/deputado-estadual/esther-moraes-43043"
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/sao-paulo/deputado-estadual/esther-moraes-43043",
+        "https://tododia.com.br/tv-tododia/esther-moraes-fala-sobre-trajetoria-e-candidatura-a-deputada-estadual-no-sala-politica/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "250002530158": {
       "nome_urna": "LEONARDO DE SIQUEIRA LIMA",
@@ -7601,18 +7603,21 @@
       "nome_urna": "FERNANDA GARCIA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada que desconte. Pedidos de cassação na Câmara de Sorocaba por quebra de decoro (apoio a ocupações; o de 2023 foi arquivado, os de 2026 sem desfecho encontrado); processo disciplinar sem sanção não é achado de idoneidade. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada que desconte (pedido de cassação na Câmara de Sorocaba por apoiar uma ocupação, sem decisão; pedido não decidido não desconta).",
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte. Pedidos de cassação na Câmara de Sorocaba por quebra de decoro (apoio a ocupações; o de 2023 foi arquivado, os de 2026 sem desfecho encontrado); processo disciplinar sem sanção não é achado de idoneidade. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada que desconte (pedido de cassação na Câmara de Sorocaba por apoiar uma ocupação, sem decisão; pedido não decidido não desconta). 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada novo (vereadora de Sorocaba desde 2017, 3 mandatos; nenhuma condenação ou investigação encontrada).",
       "fontes": [
         "https://www.jornalipanema.com.br/noticia/7565/votorantim/politica/comissao-de-etica-arquiva-pedido-de-cassacao-de-fernanda-garcia-em-sorocaba.html",
         "https://www.jornalcruzeiro.com.br/sorocaba/noticias/2026/03/758319-vereadora-que-defendeu-ato-de-invasao-vira-alvo-de-cassacao-na-camara.html",
         "https://fernandagarcia.com.br/biografia/",
-        "https://psol50sp.org.br/2023/10/parlamentar-do-psol-e-alvo-de-mentiras-ameacas-e-tentativa-de-cassacao-em-sorocaba/"
+        "https://psol50sp.org.br/2023/10/parlamentar-do-psol-e-alvo-de-mentiras-ameacas-e-tentativa-de-cassacao-em-sorocaba/",
+        "https://www.plural.jor.br/fernanda-schlic-garcia/",
+        "https://www.jusbrasil.com.br/processos/nome/63432889/fernanda-schlic-garcia"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "250002539947": {
       "nome_urna": "CARLOS GIANNAZI",
@@ -7635,45 +7640,55 @@
       "nome_urna": "DÉBORA CAMILO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a busca trouxe homônima). 2ª rodada (busca pelo nome completo, 26/09): nada novo. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a busca trouxe homônima). 2ª rodada (busca pelo nome completo, 26/09): nada novo. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (vereadora de Santos no 2º mandato; as condenações que aparecem na busca são de homônimas).",
       "fontes": [
-        "https://www.camarasantos.sp.gov.br/debora-camilo"
+        "https://www.camarasantos.sp.gov.br/debora-camilo",
+        "https://costanorte.com.br/politica/debora-camilo-disputara-vaga-na-alesp-apos-destaque-em-santos.html",
+        "https://www.diariodolitoral.com.br/cotidiano/camara-de-santos-debora-camilo-avalia-acionar-assessor-de-joao-neri/144388/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-26",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "250002539323": {
       "nome_urna": "TALITA CADEIRANTE",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (vereadora de Taubaté desde 2021, 2 mandatos; é vítima de carta apócrifa em 2024).",
       "fontes": [
         "https://talitacadeirante.com.br/",
-        "https://psb40.org.br/filiados/talita-cadeirante/"
+        "https://psb40.org.br/filiados/talita-cadeirante/",
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/sao-paulo/deputado-estadual/talita-cadeirante-40012",
+        "https://www.t7news.com.br/noticia/vereadora-talita-cadeirante-registra-boletim-de-ocorrencia-apos-distribuicao-de-carta-apocrifa"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "250002538929": {
       "nome_urna": "MARIANA CONTI",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado como ré (é vítima de fake news, com o autor condenado, e autora da denúncia que levou à cassação de outro vereador). 2ª rodada (busca pelo nome completo, 26/09): nada novo (vítima, não ré, na condenação de um vereador por fake news contra ela). 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado (aparece como vítima de ameaças e como autora de denúncias).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado como ré (é vítima de fake news, com o autor condenado, e autora da denúncia que levou à cassação de outro vereador). 2ª rodada (busca pelo nome completo, 26/09): nada novo (vítima, não ré, na condenação de um vereador por fake news contra ela). 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado (aparece como vítima de ameaças e como autora de denúncias). 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada que desconte (vereadora de Campinas desde 2017, 3 mandatos; a Câmara rejeitou por 21 a 8 a abertura de Comissão Processante contra ela pela licença para a flotilha a Gaza; é vítima em ação por danos morais vencida contra o vereador Vini Oliveira).",
       "fontes": [
         "https://www.acidadeon.com/campinas/politica/justica-condena-vereador-vini-oliveira-a-indenizar-vereadora-mariana-conti-por-fake-news",
-        "https://movimentorevista.com.br/2022/08/policia-de-sp-investiga-ameacas-contra-vereadora-mariana-conti/"
+        "https://movimentorevista.com.br/2022/08/policia-de-sp-investiga-ameacas-contra-vereadora-mariana-conti/",
+        "https://horacampinas.com.br/camara-de-campinas-rejeita-abertura-de-comissao-processante-contra-mariana-conti/",
+        "https://horacampinas.com.br/justica-condena-vini-oliveira-por-danos-morais-apos-publicacao-sobre-mariana-conti/",
+        "https://hubpolitico.com.br/perfil/marianaconti"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-26",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "250002548915": {
       "nome_urna": "CACÁ TEIXEIRA",
@@ -7977,10 +7992,12 @@
       "nome_urna": "BRAULIO LARA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 9,
-      "motivo": "Busca rápida na internet (1 busca): propaganda eleitoral irregular apontada pelo TRE-MG. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado (73 processos no Jusbrasil, a maioria no TRE-MG, sem sanção identificada). 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): propaganda eleitoral irregular apontada pelo TRE-MG. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado (73 processos no Jusbrasil, a maioria no TRE-MG, sem sanção identificada). 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): reconferido: segue a propaganda irregular flagrada pelo TRE-MG (windbanners sem dados obrigatórios) e há nova representação da Procuradoria Regional Eleitoral por bandeiras na Praça Raul Soares, sem decisão; vereador de BH desde 2021.",
       "fontes": [
         "https://ofator.com.br/informacao/tre-flagra-propagandas-irregulares-de-vereador-e-deputado-estadual-em-bh/",
-        "https://www.jusbrasil.com.br/processos/nome/34758381/braulio-alves-silva-lara"
+        "https://www.jusbrasil.com.br/processos/nome/34758381/braulio-alves-silva-lara",
+        "https://ofator.com.br/informacao/procuradoria-candidatos-canteiros-praca-raul-soares/",
+        "https://www.cmbh.mg.gov.br/vereadores/braulio-lara"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [
@@ -7991,7 +8008,8 @@
       ],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002547928": {
       "nome_urna": "POLYANA GERMANO",
@@ -8053,31 +8071,35 @@
       "nome_urna": "DELEGADO MARCELO FREITAS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (Wikipédia: delegado da PF, deputado federal desde 2019, presidente do União em MG).",
       "fontes": [
         "https://www.camara.leg.br/deputados/204512/biografia",
-        "https://en.wikipedia.org/wiki/Delegado_Marcelo_Freitas"
+        "https://en.wikipedia.org/wiki/Delegado_Marcelo_Freitas",
+        "https://www.cnnbrasil.com.br/politica/quem-e-o-delegado-marcelo-freitas-relator-da-acao-que-pode-cassar-eduardo/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002542715": {
       "nome_urna": "RODRIGO DE CASTRO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada novo. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada novo. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (Wikipédia: deputado federal desde 2007, 5º mandato; a representação por improbidade do PSD-RJ que cita 'Castro' em 2026 é contra Cláudio Bomfim de Castro e Silva, outra pessoa).",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Rodrigo_de_Castro_(pol%C3%ADtico)",
-        "https://en.wikipedia.org/wiki/Rodrigo_de_Castro_(politician)"
+        "https://en.wikipedia.org/wiki/Rodrigo_de_Castro_(politician)",
+        "https://www.camara.leg.br/deputados/141531/biografia"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-26",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002542710": {
       "nome_urna": "JÚLIO CONTADOR",
@@ -8095,16 +8117,19 @@
       "nome_urna": "PINHEIRINHO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a matéria sobre deputado alvo da PF que apareceu na busca é sobre Adail Filho/AM; conferido). 2ª rodada (busca pelo nome completo, 26/09): nada novo. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a matéria sobre deputado alvo da PF que apareceu na busca é sobre Adail Filho/AM; conferido). 2ª rodada (busca pelo nome completo, 26/09): nada novo. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada que desconte (Wikipédia: prefeito de Ibirité 2013-2016, cassação de 2012 revertida pelo TRE-MG, deputado federal desde 2019; há procedimento do promotor eleitoral sobre propaganda em 2026, sem decisão encontrada; a confirmar).",
       "fontes": [
         "https://www.camara.leg.br/noticias/869072-comissao-de-seguridade-social-elege-deputado-pinheirinho-como-presidente/",
-        "https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Pinheiro_Neto"
+        "https://pt.wikipedia.org/wiki/Ant%C3%B4nio_Pinheiro_Neto",
+        "https://www.tre-mg.jus.br/comunicacao/noticias/2012/Dezembro/tribunal-reverte-cassacao-do-prefeito-eleito-de-ibirite",
+        "https://www.camara.leg.br/deputados/204524/biografia"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-26",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002542700": {
       "nome_urna": "PEDRO AIHARA",
@@ -8131,12 +8156,15 @@
       "nome_urna": "GILBERTO ABRAMO",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 9,
-      "motivo": "Busca rápida na internet em 2 rodadas (3 buscas): citado na investigação da PF sobre emendas atribuídas a Eduardo Cunha (2026), sem confirmação de que seja alvo formal (a confirmar). O pedido de perda de mandato por infidelidade de 2010 não é achado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada novo além da citação na investigação sobre as emendas atribuídas a Eduardo Cunha.",
+      "motivo": "Busca rápida na internet em 2 rodadas (3 buscas): citado na investigação da PF sobre emendas atribuídas a Eduardo Cunha (2026), sem confirmação de que seja alvo formal (a confirmar). O pedido de perda de mandato por infidelidade de 2010 não é achado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada novo além da citação na investigação sobre as emendas atribuídas a Eduardo Cunha. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): reconferido: segue só citado (não é investigado formal nem alvo de busca) na decisão de Flávio Dino que bloqueou R$ 6 mi de Eduardo Cunha (julho de 2026); Wikipédia: deputado estadual 2003-2019 e federal desde 2019.",
       "fontes": [
         "https://en.wikipedia.org/wiki/Gilberto_Abramo",
         "https://www.metropoles.com/brasil/emendas-atribuidas-a-cunha-foram-assinadas-pelo-republicanos-na-camara",
         "https://www.diariodocentrodomundo.com.br/essencial/quem-e-gilberto-abramo-laranja-eduardo-cunha-pf",
-        "https://www.otempo.com.br/politica/aparte/2026/9/15/impugnado-pelo-tre-eduardo-cunha-recebeu-maior-valor-de-fundo-partidario-do-republicanos-em-minas"
+        "https://www.otempo.com.br/politica/aparte/2026/9/15/impugnado-pelo-tre-eduardo-cunha-recebeu-maior-valor-de-fundo-partidario-do-republicanos-em-minas",
+        "https://pt.wikipedia.org/wiki/Gilberto_Aparecido_Abramo",
+        "https://www.infomoney.com.br/politica/decisao-do-stf-aponta-que-eduardo-cunha-usou-deputado-para-direcionar-emendas/",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/stf-bloqueia-r-6-mi-de-eduardo-cunha-por-indicacao-de-emendas"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [
@@ -8147,7 +8175,8 @@
       ],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-26",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002537206": {
       "nome_urna": "EUCLYDES PETTERSEN",
@@ -8244,16 +8273,18 @@
       "nome_urna": "OSVALDO LOPES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada novo. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado (21 processos no Jusbrasil, a maioria no TRE-MG, sem sanção identificada).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada novo. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado (21 processos no Jusbrasil, a maioria no TRE-MG, sem sanção identificada). 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (Wikipédia: vereador de BH 2017-2018 e desde 2025, deputado estadual 2019-2023).",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Osvaldo_Lopes",
-        "https://www.jusbrasil.com.br/processos/nome/39954047/osvaldo-lopes-de-oliveira-junior"
+        "https://www.jusbrasil.com.br/processos/nome/39954047/osvaldo-lopes-de-oliveira-junior",
+        "https://www.cmbh.mg.gov.br/vereadores/osvaldo-lopes-0"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-26",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002548716": {
       "nome_urna": "FLÁVIA BORJA",
@@ -8272,16 +8303,19 @@
       "nome_urna": "MARIA CLARA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado (o inquérito de Matinhos/PR que apareceu na busca não a identifica e é de outro estado).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado (o inquérito de Matinhos/PR que apareceu na busca não a identifica e é de outro estado). 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (deputada estadual desde 2023, filha do ex-deputado Deiró Marra).",
       "fontes": [
         "https://pt.wikipedia.org/wiki/Maria_Clara_Marra",
-        "https://www.almg.gov.br/a-assembleia/deputados/deputado/?id=28874"
+        "https://www.almg.gov.br/a-assembleia/deputados/deputado/?id=28874",
+        "https://www.almg.gov.br/deputados/maria-clara-marra/28874",
+        "https://mariaclaramarramg.com.br/quem-sou-nova/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002534574": {
       "nome_urna": "FERNANDA PEREIRA ALTOÉ",
@@ -8372,16 +8406,18 @@
       "nome_urna": "JOSE CARLOS GOMES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (vereador de Contagem desde 2017).",
       "fontes": [
         "https://www.facebook.com/josecarlosgomesoficial/",
-        "https://www.jusbrasil.com.br/processos/nome/36094536/jose-carlos-carneiro-gomes"
+        "https://www.jusbrasil.com.br/processos/nome/36094536/jose-carlos-carneiro-gomes",
+        "https://www.otempo.com.br/eleicoes/2026/candidatos/minas-gerais/deputado-estadual/jose-carlos-gomes-36777"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-26",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002539884": {
       "nome_urna": "MAURO TRAMONTE",
@@ -8413,76 +8449,89 @@
       "nome_urna": "TIAGO BONECÃO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (vereador de Juiz de Fora desde 2021, ex-diretor operacional do Demlurb).",
       "fontes": [
-        "https://www.camarajf.mg.gov.br/www/vereadores/exibir/35/Tiago-Rocha-dos-Santosbr.html"
+        "https://www.camarajf.mg.gov.br/www/vereadores/exibir/35/Tiago-Rocha-dos-Santosbr.html",
+        "https://tribunademinas.com.br/noticias/politica/eleicoes-2026/13-08-2026/vereador-de-juiz-de-fora-pede-licenca-da-camara-municipal-para-disputar-eleicao-de-2026.html"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002543657": {
       "nome_urna": "AMANDA GONDIM",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a condenação de ex-vereadora de Uberlândia achada é de outra pessoa). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a condenação de ex-vereadora de Uberlândia achada é de outra pessoa). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (vereadora de Uberlândia desde 2021; é vítima de ameaças; processos eleitorais arquivados no Escavador, sem sanção identificada).",
       "fontes": [
         "https://amandagondim.com/",
         "https://www.plural.jor.br/amanda-thaylassa-gondim-ferreira/",
-        "https://www.camarauberlandia.mg.gov.br/vereadores/vereadores/537428"
+        "https://www.camarauberlandia.mg.gov.br/vereadores/vereadores/537428",
+        "https://diariodeuberlandia.com.br/noticia/34377/mais-uma-vereadora-de-uberlandia-e-ameacada-de-estupro-corretivo",
+        "https://www.escavador.com/sobre/258576602/amanda-thaylassa-gondim-ferreira"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002543631": {
       "nome_urna": "ALEX MAGALHÃES",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada novo (candidatura a prefeito de Caeté impugnada em 2024, motivo não detalhado; registro não desconta). 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada novo.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada novo (candidatura a prefeito de Caeté impugnada em 2024, motivo não detalhado; registro não desconta). 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada novo. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada que desconte (a impugnação da candidatura a prefeito de Caeté em 2024 foi por conflito na federação partidária; registro não desconta).",
       "fontes": [
-        "https://www.opiniaocaete.com.br/candidatura-de-alex-magalhaes-e-impugnada-pela-justica-eleitoral/"
+        "https://www.opiniaocaete.com.br/candidatura-de-alex-magalhaes-e-impugnada-pela-justica-eleitoral/",
+        "https://maisminas.org/eleicoes-2026-alex-magalhaes-psb-ficha-do-candidato/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002539499": {
       "nome_urna": "JUHLIA SANTOS",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (é vítima de ameaças investigadas pela PF). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado (aparece como vítima de ameaças investigadas pela PF).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (é vítima de ameaças investigadas pela PF). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado (aparece como vítima de ameaças investigadas pela PF). 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (vereadora de BH desde 2025; é vítima de ameaças de morte acompanhadas pelo MPF e pela PF).",
       "fontes": [
         "https://cmbh.mg.gov.br/vereadores/juhlia-santos",
-        "https://www.otempo.com.br/politica/2026/5/7/camara-aciona-pf-apos-ameaca-de-morte-contra-vereadora-de-bh-e-pede-reforco-na-seguranca"
+        "https://www.otempo.com.br/politica/2026/5/7/camara-aciona-pf-apos-ameaca-de-morte-contra-vereadora-de-bh-e-pede-reforco-na-seguranca",
+        "https://www.itatiaia.com.br/eleicoes/eleicoes-2024/2024/10/07/eleicoes-em-bh-saiba-quem-e-juhlia-santos-vereadora-eleita",
+        "https://www.em.com.br/politica/2026/05/7424199-mpf-acompanha-protecao-de-vereadora-de-bh-apos-novas-ameacas-de-morte.html"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002539490": {
       "nome_urna": "IZA LOURENÇA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (é vítima de violência política investigada pela PF). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista processos no TRE-MG e TJMG com o nome (partes mais comuns: Promotor Eleitoral e denúncias do aplicativo Pardal), sem nenhum processo, sanção ou multa identificada. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado (56 processos no Jusbrasil, a maioria no TRE-MG, sem sanção identificada).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (é vítima de violência política investigada pela PF). 2ª rodada (busca pelo nome completo, 26/09): nada encontrado; o Jusbrasil lista processos no TRE-MG e TJMG com o nome (partes mais comuns: Promotor Eleitoral e denúncias do aplicativo Pardal), sem nenhum processo, sanção ou multa identificada. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado (56 processos no Jusbrasil, a maioria no TRE-MG, sem sanção identificada). 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (vereadora de BH desde 2021, presidenta do PSOL-MG; pedido de cassação de 2019 sem desfecho contra ela).",
       "fontes": [
         "https://www.cmbh.mg.gov.br/vereadores/iza-louren%C3%A7a",
         "https://www.jusbrasil.com.br/topicos/39954722/izabella-lourenca-amorim-romualdo",
-        "https://www.jusbrasil.com.br/processos/nome/39954722/izabella-lourenca-amorim-romualdo"
+        "https://www.jusbrasil.com.br/processos/nome/39954722/izabella-lourenca-amorim-romualdo",
+        "https://www.itatiaia.com.br/politica/eleicoes-2024/conheca-iza-lourenca-psol-vereadora-reeleita-em-belo-horizonte",
+        "https://esquerdaonline.com.br/2026/05/28/iza-lourenca-e-a-nova-presidenta-do-psol-minas-gerais/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-26",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002535385": {
       "nome_urna": "PEDRO SOUSA",
@@ -8501,104 +8550,126 @@
       "nome_urna": "TIAGO SANTANA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (4 buscas; vereador de Betim em 3 mandatos, desde 2017).",
       "fontes": [
-        "https://pcdob.org.br/candidaturas/tiago-santana/"
+        "https://pcdob.org.br/candidaturas/tiago-santana/",
+        "https://www.otempo.com.br/eleicoes/2024/candidatos/minas-gerais/betim/vereador/tiago-santana-65653"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
-      "rodada2": "2026-09-26"
+      "rodada2": "2026-09-26",
+      "rodada4": "2026-10-01"
     },
     "130002535359": {
       "nome_urna": "IRENE MELO FRANCO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (vereadora em Pitangui por 2 mandatos e em Pará de Minas desde 2021).",
       "fontes": [
-        "https://sapl.parademinas.mg.leg.br/parlamentar/60"
+        "https://sapl.parademinas.mg.leg.br/parlamentar/60",
+        "https://maisminas.org/eleicoes-2026-irene-melo-franco-pv-ficha-da-candidata/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-26",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002535357": {
       "nome_urna": "MARCELO MONTEIRO",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada que desconte (dois pedidos de cassação por quebra de decoro após apoio a ocupação do MST; processo disciplinar sem sanção não é achado de idoneidade). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada que desconte (pedidos de cassação na Câmara de Lagoa Santa em 2024 por apoiar ocupação do MST, sem cassação; foi reeleito).",
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte (dois pedidos de cassação por quebra de decoro após apoio a ocupação do MST; processo disciplinar sem sanção não é achado de idoneidade). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada que desconte (pedidos de cassação na Câmara de Lagoa Santa em 2024 por apoiar ocupação do MST, sem cassação; foi reeleito). 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada que desconte (os dois pedidos de cassação de 2024 por apoio a ocupação do MST não tiveram sanção encontrada; vereador de Lagoa Santa desde 2021).",
       "fontes": [
-        "https://www.brasildefato.com.br/2024/03/21/vereador-de-lagoa-santa-denuncia-perseguicao-politica-apos-apoio-a-ocupacao-do-mst/"
+        "https://www.brasildefato.com.br/2024/03/21/vereador-de-lagoa-santa-denuncia-perseguicao-politica-apos-apoio-a-ocupacao-do-mst/",
+        "https://www.brasildefato.com.br/2024/03/22/apos-apoio-a-ocupacao-do-mst-vereador-de-lagoa-santa-mst-denuncia-perseguicao-politica/",
+        "https://correiodeminas.com.br/2026/06/10/traicao-vice-prefeita-de-lagoa-santa-adelia-carmo-recebe-marilia-campos-em-articulacao-com-vereador-lider-da-oposicao-a-gestao-municipal/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002548797": {
       "nome_urna": "RONALDO TANNÚS",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada que desconte (ação de perda de mandato por infidelidade partidária, com parecer favorável do MPE em setembro de 2026; troca de partido não é achado de idoneidade). 2ª rodada (busca pelo nome completo, 26/09): nada novo: a ação de perda de mandato por infidelidade segue sem decisão (citado por hora certa após, segundo certidão do oficial, se ocultar da citação; parecer do MPE pela perda em 16/09/2026). 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada novo (a ação de perda de mandato por infidelidade segue sem decisão).",
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte (ação de perda de mandato por infidelidade partidária, com parecer favorável do MPE em setembro de 2026; troca de partido não é achado de idoneidade). 2ª rodada (busca pelo nome completo, 26/09): nada novo: a ação de perda de mandato por infidelidade segue sem decisão (citado por hora certa após, segundo certidão do oficial, se ocultar da citação; parecer do MPE pela perda em 16/09/2026). 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada novo (a ação de perda de mandato por infidelidade segue sem decisão). 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada que desconte (vereador de Uberlândia desde 2021; ação de perda de mandato por infidelidade partidária com parecer do MPE a favor; saiu pela porta dos fundos ao ser citado, o que nega; a notícia de propaganda antecipada em adesivos é de 2020 e não aponta procedimento contra ele).",
       "fontes": [
         "https://regionalzao.com.br/poder/mpe-perda-mandato-ronaldo-tannus-uberlandia",
         "https://regionalzao.com.br/poder/certidao-desmente-versao-de-ronaldo-tannus-em-uberlandia/",
-        "https://paranaibamais.com.br/politica/documento-da-justica-contradiz-fala-de-ronaldo-tannus-sobre-citacao-judicial/"
+        "https://paranaibamais.com.br/politica/documento-da-justica-contradiz-fala-de-ronaldo-tannus-sobre-citacao-judicial/",
+        "https://diariodeuberlandia.com.br/noticia/25684/ministerio-publico-apura-propagandas-eleitorais-fora-do-prazo-em-uberlandia"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-26",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002533255": {
       "nome_urna": "RONCALI DA FARMÁCIA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado (é relator do pedido de impeachment do prefeito de Governador Valadares).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado (é relator do pedido de impeachment do prefeito de Governador Valadares). 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada que desconte (vereador de Governador Valadares desde 2021); o Jusbrasil lista um inquérito policial de 2021 da PCMG com o nome dele (processo 028XXXX-39.2021.8.13.0105), sem o crime nem o papel dele: a confirmar, sem desconto.",
       "fontes": [
         "https://drd.com.br/roncali-da-farmacia-passa-a-integrar-a-mesa-diretora-como-ouvidor-da-camara/",
         "https://www.jusbrasil.com.br/processos/nome/63946350/roncali-coelho-soares",
-        "https://www.otempo.com.br/politica/2026/5/8/prefeito-de-governador-valadares-recebe-parecer-pelo-impeachment-da-comissao-processante-na-camara"
+        "https://www.otempo.com.br/politica/2026/5/8/prefeito-de-governador-valadares-recebe-parecer-pelo-impeachment-da-comissao-processante-na-camara",
+        "https://maisminas.org/eleicoes-2026-roncali-da-farmacia-prd-ficha-do-candidato/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002533245": {
       "nome_urna": "ERIVELTON SONHO DE RUA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado (o procedimento do MPMA sobre 'Dr. Erivelton' é de outra pessoa, ex-prefeito de Carolina/MA). 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado (o procedimento do MPMA sobre 'Dr. Erivelton' é de outra pessoa, ex-prefeito de Carolina/MA). 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (vereador de Conselheiro Lafaiete desde 2021, presidente da Câmara em 2025).",
       "fontes": [
         "https://sapl.conselheirolafaiete.mg.leg.br/parlamentar/99",
-        "https://correiodeminas.com.br/2026/08/14/erivelton-leva-prestacao-de-contas-aos-bairros-de-lafaiete/"
+        "https://correiodeminas.com.br/2026/08/14/erivelton-leva-prestacao-de-contas-aos-bairros-de-lafaiete/",
+        "https://www.jornalcorreiodacidade.com.br/noticias/39235-erivelton-assume-presidencia-da-camara-de-lafaiete-e-disputa-acirrada-pela-vicepresidencia-surpreende",
+        "https://correiodeminas.com.br/2026/07/21/erivelton-jayme-e-homologado-candidato-a-deputado-federal-warley-pereira-e-lilian-oliveira-disputarao-vaga-na-assembleia-de-minas/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002533231": {
       "nome_urna": "MARISTELA DUTRA",
       "cargo_pretendido": "DEPUTADO FEDERAL",
-      "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (comentou em plenário a apuração do MP sobre funcionários fantasmas na Câmara de Araxá, sem ser apontada como alvo). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "nota": 9,
+      "motivo": "Busca rápida (1ª a 3ª rodadas) e pesquisa padrão (4ª rodada, 3 buscas, 01/10): gabinete citado na apuração do MPMG sobre assessores 'fantasmas' na Câmara de Araxá (2024), procedimento arquivado sem demonstração concreta e inquérito policial ainda aberto sem alvos nomeados (a confirmar). Vereadora de Araxá desde 2021.",
       "fontes": [
         "https://www.portalimbiara.com.br/noticia/categoria/4/politica/link/15457/vereadores-falam-sobre-denuncia-acolhida-pelo-mp-acerca-de-funcionarios-fantasmas-na-camara-de-araxa",
-        "https://www.escavador.com/sobre/5078946/maristela-aparecida-dutra"
+        "https://www.escavador.com/sobre/5078946/maristela-aparecida-dutra",
+        "https://www.portalimbiara.com.br/noticia/categoria/1/cidade/link/17808/mpmg-arquiva-denuncia-de-funcionarios-fantasmas-na-camara-de-araxa",
+        "https://maisminas.org/quem-e-maristela-dutra-candidata-a-deputado-federal-por-minas-gerais-nas-eleicoes-de-2026/"
       ],
       "pesquisado_em": "2026-09-25",
-      "achados": [],
+      "achados": [
+        {
+          "categoria": "citado_ou_apuracao_preliminar",
+          "descricao": "Gabinete citado em denúncia anônima ao MPMG (fev/2024) sobre assessores que não cumpriam a jornada na Câmara de Araxá (5 dos 15 vereadores citados); o procedimento do MP foi arquivado em 24/10/2024 por falta de demonstração concreta, depois que a Câmara adotou controle de ponto, e segue aberto um inquérito policial sobre o período anterior a fevereiro de 2024, sem alvos nomeados nas notícias. Ela nega e diz que nunca foi notificada. A confirmar."
+        }
+      ],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "130002535317": {
       "nome_urna": "REGINALDO LOPES",
@@ -9012,15 +9083,18 @@
       "nome_urna": "DANI BALBI",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (Wikipédia: deputada estadual desde 2023, 1ª deputada trans da Alerj).",
       "fontes": [
-        "https://en.wikipedia.org/wiki/Dani_Balbi"
+        "https://en.wikipedia.org/wiki/Dani_Balbi",
+        "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/484",
+        "https://diariocarioca.com/2026/06/16/rio-de-janeiro/dani-balbi-reage-mudanca-comissao-trabalho-alerj/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-26",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "190002543573": {
       "nome_urna": "LILIAN BEHRING",
@@ -9074,13 +9148,18 @@
       "nome_urna": "JARI",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a matéria sobre deputado estadual do RJ preso pela PF que apareceu na busca é sobre Thiago Rangel; conferido). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
-      "fontes": [],
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (a matéria sobre deputado estadual do RJ preso pela PF que apareceu na busca é sobre Thiago Rangel; conferido). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (Wikipédia: vereador de Volta Redonda em 3 mandatos desde 2012, deputado estadual como suplente a partir de 2019 e eleito em 2022).",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Jari_Oliveira",
+        "https://tribunasf.com.br/psb-confirma-candidatura-de-deputado-jari-a-reeleicao-para-a-alerj/",
+        "https://focoregional.com.br/Noticia/deputado-jari-oliveira-apoia-criacao-da-cpi-d"
+      ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "190002536132": {
       "nome_urna": "YURI MOURA",
@@ -9104,17 +9183,21 @@
       "nome_urna": "RENATA SOUZA",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada que desconte (processos disciplinares na Alerj que ela chama de perseguição, sem sanção encontrada; processo disciplinar sem sanção não é achado de idoneidade). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada novo (pedido de cassação na Alerj em curso, que ela chama de perseguição; pedido não decidido não desconta).",
+      "motivo": "Busca rápida na internet (1 busca): nada que desconte (processos disciplinares na Alerj que ela chama de perseguição, sem sanção encontrada; processo disciplinar sem sanção não é achado de idoneidade). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada novo (pedido de cassação na Alerj em curso, que ela chama de perseguição; pedido não decidido não desconta). 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada que desconte (representação do PL no Conselho de Ética da Alerj em 2026 após fala sobre Sarah Poncio, sem sanção encontrada; processo disciplinar sem sanção não é achado; é vítima de ameaças investigadas pela PF).",
       "fontes": [
         "https://psol50.org.br/renata-souza-denuncia-perseguicao-e-tentativa-de-cassacao-de-seu-mandato-na-alerj/",
         "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/441",
-        "https://diariodorio.com/deputada-renata-souza-lanca-campanha-contra-de-cassacao-de-seu-mandato-na-alerj/"
+        "https://diariodorio.com/deputada-renata-souza-lanca-campanha-contra-de-cassacao-de-seu-mandato-na-alerj/",
+        "https://en.wikipedia.org/wiki/Renata_da_Silva_Souza",
+        "https://www.noticiadorio.com/post/deputada-do-psol-%C3%A9-acusada-de-viol%C3%AAncia-pol%C3%ADtica-de-g%C3%AAnero-ap%C3%B3s-declara%C3%A7%C3%A3o-envolvendo-sarah-poncio-d",
+        "https://temporealrj.com/justica-comissao-da-mulher-renata-souza/"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "190002536115": {
       "nome_urna": "PROF. JOSEMAR",
@@ -9142,16 +9225,18 @@
       "nome_urna": "FLAVIO SERAFINI",
       "cargo_pretendido": "DEPUTADO ESTADUAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 26/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (Wikipédia: deputado estadual desde 2015, 3º mandato).",
       "fontes": [
         "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/400?Legislatura=20",
-        "https://pt.wikipedia.org/wiki/Flavio_Serafini"
+        "https://pt.wikipedia.org/wiki/Flavio_Serafini",
+        "https://eurio.com.br/noticia/92176/serafini-denuncia-pressao-do-pl-para-retirar-do-psol-presidencia-de-comissao-de-servidores-na-alerj.html"
       ],
       "pesquisado_em": "2026-09-25",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-26",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "190002541078": {
       "nome_urna": "LENIEL BOREL",
@@ -21316,16 +21401,18 @@
       "nome_urna": "DAVID RR SOARES",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado (24 processos no Jusbrasil, a maioria ligada à Igreja Internacional da Graça de Deus, sem sanção identificada). 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado.",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado. 2ª rodada (busca pelo nome completo, 30/09): nada encontrado (24 processos no Jusbrasil, a maioria ligada à Igreja Internacional da Graça de Deus, sem sanção identificada). 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado. 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (Wikipédia: deputado federal desde 2019, antes vereador de São Paulo; processos no Jusbrasil ligados à igreja e à prestação de contas, sem sanção).",
       "fontes": [
         "https://en.wikipedia.org/wiki/David_Soares_(Brazilian_politician)",
-        "https://www.jusbrasil.com.br/processos/nome/56465577/david-bezerra-ribeiro-soares"
+        "https://www.jusbrasil.com.br/processos/nome/56465577/david-bezerra-ribeiro-soares",
+        "https://www.camara.leg.br/deputados/204511/biografia"
       ],
       "pesquisado_em": "2026-09-30",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "250002544360": {
       "nome_urna": "GILBERTO NASCIMENTO",
@@ -21443,17 +21530,20 @@
       "nome_urna": "BRUNO GANEM",
       "cargo_pretendido": "DEPUTADO FEDERAL",
       "nota": 10,
-      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o processo com perda de mandato citado nas buscas é do primo, Lucas Ganem, vereador de BH). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado (118 processos no Jusbrasil, a maioria no TRE-SP, sem sanção identificada; é testemunha no processo do primo em BH).",
+      "motivo": "Busca rápida na internet (1 busca): nada encontrado (o processo com perda de mandato citado nas buscas é do primo, Lucas Ganem, vereador de BH). 2ª rodada (busca pelo nome completo, 30/09): nada encontrado. 3ª rodada (busca padronizada dos empatados, 2 buscas, 30/09): nada encontrado (118 processos no Jusbrasil, a maioria no TRE-SP, sem sanção identificada; é testemunha no processo do primo em BH). 4ª rodada (pesquisa padrão dos empatados, 3 buscas, 01/10): nada encontrado (Wikipédia: vereador de Indaiatuba em 2 mandatos, deputado estadual 2019-2023, deputado federal desde 2023; aparece como testemunha no processo contra o primo Lucas Ganem em BH).",
       "fontes": [
         "https://www.otempo.com.br/politica/2026/6/10/comissao-inicia-rodada-de-depoimentos-em-processo-contra-vereador-de-bh-forasteiro",
         "https://en.wikipedia.org/wiki/Bruno_Ganem",
-        "https://www.jusbrasil.com.br/processos/nome/33715753/bruno-arevalo-ganem"
+        "https://www.jusbrasil.com.br/processos/nome/33715753/bruno-arevalo-ganem",
+        "https://www.camara.leg.br/deputados/220635/biografia",
+        "https://www.otempo.com.br/politica/2026/6/29/denuncia-contra-ganem-foi-acatada-pela-camara-de-bh-em-dezembro-confira-cronologia"
       ],
       "pesquisado_em": "2026-09-30",
       "achados": [],
       "origem": "busca_finalistas",
       "rodada2": "2026-09-30",
-      "rodada3": "2026-09-30"
+      "rodada3": "2026-09-30",
+      "rodada4": "2026-10-01"
     },
     "250002544343": {
       "nome_urna": "JEFFERSON CEZAROLLI",

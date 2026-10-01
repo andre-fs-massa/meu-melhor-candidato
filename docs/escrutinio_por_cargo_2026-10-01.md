@@ -9,7 +9,7 @@ O escrutínio cai à medida que o número de candidatos sobe: os 14 candidatos a
 - **Presidente:** 14 candidatos, todos com pesquisa aprofundada.
 - **Governador:** 200 candidatos. Em 14 estados a pesquisa foi padrão (115 candidatos) e em 13 foi rápida (85).
 - **Senador:** 318 candidatos. No Rio de Janeiro a pesquisa foi padrão (17 candidatos); nos outros 26 estados foi rápida, de 1 a 2 buscas por candidato (301).
-- **Deputados federal, estadual e distrital:** 19.514 candidatos. Só os finalistas e quem empatou com eles (1.063, ou 5%) tiveram 1 busca rápida na internet.
+- **Deputados federal, estadual e distrital:** 19.514 candidatos. Só os finalistas e quem empatou com eles (1.063, ou 5%) tiveram busca na internet; 31 deles, empatados na última vaga em RJ, SP e MG, passaram a pesquisa padrão em 01/10.
 
 Os 20.046 candidatos do arquivo do TSE passaram pela conferência automática por CPF em até 6 bases oficiais. Só 15 candidatos ficaram sem idoneidade verificada, todos em cargos majoritários. Dados do site gerados em 30/09/2026.
 
@@ -20,7 +20,7 @@ Cada candidato recebe um dos quatro níveis de profundidade que o site mostra no
 | Nível | O que foi feito | Onde foi usado |
 | --- | --- | --- |
 | Aprofundada | Várias buscas por candidato, reconferência dos achados e dos vices, revisão das notas mais baixas | Presidente |
-| Padrão | Várias buscas por candidato, com reconferência dos achados mais graves | Governador em 14 estados, Senador no Rio de Janeiro |
+| Padrão | Várias buscas por candidato, com reconferência dos achados mais graves | Governador em 14 estados, Senador no Rio de Janeiro, 31 empatados de deputado em RJ, SP e MG |
 | Rápida | 1 a 2 buscas por candidato; nota 10 quer dizer só "nada encontrado" | Governador em 13 estados, Senador nos outros 26, finalistas de deputado |
 | Estrutural | Sem busca na internet: presidente do partido, cargos eletivos de 2014 a 2024 no TSE e bases oficiais | Demais candidatos a deputado |
 
@@ -37,10 +37,10 @@ Quase todo o escrutínio individual na internet ficou concentrado em 532 candida
 | Presidente | 1 | 14 | 14 | 0 | 0 | 0 | 1 |
 | Governador | 27 | 200 | 0 | 115 | 85 | 0 | 9 |
 | Senador | 27 | 318 | 0 | 17 | 301 | 0 | 5 |
-| Deputado federal | 27 | 7.790 | 0 | 0 | 523 | 7.267 | 0 |
-| Deputado estadual | 26 | 11.291 | 0 | 0 | 519 | 10.772 | 0 |
+| Deputado federal | 27 | 7.790 | 0 | 11 | 512 | 7.267 | 0 |
+| Deputado estadual | 26 | 11.291 | 0 | 20 | 499 | 10.772 | 0 |
 | Deputado distrital | 1 | 433 | 0 | 0 | 21 | 412 | 0 |
-| **Total** | **109** | **20.046** | **14** | **132** | **1.449** | **18.451** | **15** |
+| **Total** | **109** | **20.046** | **14** | **163** | **1.418** | **18.451** | **15** |
 
 "Sem idoneidade verificada" são candidatos que seguem listados no site mas não entram nas recomendações.
 
@@ -120,7 +120,7 @@ No Rio de Janeiro, a pesquisa padrão rendeu 20 achados, quase o triplo de qualq
 
 ## Deputados federal, estadual e distrital
 
-Em todos os estados, o escrutínio de deputado segue a mesma regra: verificação estrutural para todos e 1 busca rápida só para os finalistas e quem empatou com eles. Por isso, nos estados grandes, a fatia buscada é mínima: 2,2% no Rio de Janeiro (43 de 1.981) e 2,5% na Bahia e em Minas Gerais, contra 11,4% em Alagoas (29 de 254).
+Em todos os estados, o escrutínio de deputado segue a mesma regra: verificação estrutural para todos e 1 busca rápida só para os finalistas e quem empatou com eles. Por isso, nos estados grandes, a fatia buscada é mínima: 2,2% no Rio de Janeiro (43 de 1.981) e 2,5% na Bahia e em Minas Gerais, contra 11,4% em Alagoas (29 de 254). Em RJ, SP e MG, os 31 empatados na última vaga tiveram pesquisa padrão em 01/10 (cerca de 7 buscas cada); só Maristela Dutra/MG ganhou achado novo.
 
 | Estado | Federal: candidatos | Federal: com busca | Estadual/distrital: candidatos | Estadual/distrital: com busca | Achados |
 | --- | --- | --- | --- | --- | --- |
