@@ -499,7 +499,7 @@
       const quem = el("span", "quem"); const nm = el("span", "nomelista", tc(c.nome_urna)); quem.append(nm);
       // nome completo discreto (a busca também procura nele); omitido quando é igual ao nome de urna
       if (c.nome_completo && c.nome_completo !== c.nome_urna) quem.append(el("small", "nomecompleto", tc(c.nome_completo)));
-      quem.append(el("small", null, `${c.partido} ${c.numero} · pesquisa ${verif(c).curto}`));
+      quem.append(el("small", null, `${c.partido} ${c.numero}`));
       const med = el("span");
       const n3 = el("span", "notas3");
       [["Qualificação", c.qualificacao_geral], ["Idoneidade", c.idoneidade_geral], ["Competência", c.competencia_geral]].forEach(([lab, v]) => {
