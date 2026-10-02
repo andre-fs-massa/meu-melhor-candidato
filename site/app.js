@@ -198,6 +198,7 @@
   function detalhe(c) {
     const d = el("div", "detalhe");
     d.append(el("p", null, `Idoneidade pessoal ${fmt(c.idoneidade_pessoal, 0)} · círculo político ${fmt(c.circulo, 0)} · idoneidade geral ${fmt(c.idoneidade_geral)}. Competência ${fmt(c.competencia)} e escolaridade ${fmt(c.escolaridade)} → competência geral ${fmt(c.competencia_geral)}. Qualificação geral (média das duas gerais) ${fmt(c.qualificacao_geral)}.`));
+    if (c.eco != null) d.append(el("p", null, `Posição: economia ${fmt(c.eco)} · costumes ${fmt(c.pes)} (${c.posicao_fonte}).` + (c.fronteira ? " Está perto do centro do diagrama: pode se identificar também com a posição vizinha." : "")));
     d.append(el("h4", null, "Achados sobre o candidato"));
     if (c.achados.length) {
       const ul = el("ul");
@@ -242,8 +243,6 @@
     b.append(st);
     const vf = verif(c);
     b.append(el("p", "selo " + vf.nivel, `${vf.niv.rotulo}` + (vf.consultadas ? ` · ${vf.consultadas} bases oficiais conferidas` + (vf.comRegistro ? `, ${vf.comRegistro} com registro` : "") : "")));
-    b.append(el("p", "nota", `Posição: economia ${fmt(c.eco)} · costumes ${fmt(c.pes)} (${c.posicao_fonte}).`));
-    if (c.fronteira) b.append(el("p", "nota", "Está perto do centro do diagrama: pode se identificar também com a posição vizinha."));
     if (c.empate > 1) b.append(el("p", "nota", `Empatou com outros ${c.empate - 1} candidatos na última vaga; o desempate foi pelo cargo eletivo mais alto já exercido e, persistindo o empate, por sorteio.`));
     const btn = el("button", "btn", "Notas, achados e fontes"); btn.type = "button"; btn.setAttribute("aria-expanded", "false");
     const det = detalhe(c); det.hidden = true;
