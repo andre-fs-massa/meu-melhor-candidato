@@ -646,7 +646,23 @@
       document.querySelectorAll("#quizCorpo input[type=radio]").forEach(r => { r.checked = false; });
       voce = null; atualizarVoce(false); $("secDescubra").scrollIntoView({block: "start"});
     });
+    montarFeedback();
     render();
+  }
+
+  // ---------- "Este site foi útil?": 1 resposta por navegador, enviada só como evento agregado ao GA ----------
+  function montarFeedback() {
+    const CHAVE = "feedback_util";
+    const agradecer = () => { $("feedbackBotoes").hidden = true; $("feedbackObrigado").hidden = false; };
+    try { if (localStorage.getItem(CHAVE)) { agradecer(); return; } } catch (e) { /* sem armazenamento: pergunta de novo */ }
+    $("feedbackBotoes").addEventListener("click", (ev) => {
+      const b = ev.target.closest("button[data-resposta]");
+      if (!b) return;
+      const cargo = $("cargo").value;
+      rastrear("feedback_util", { resposta: b.dataset.resposta, cargo: cargo, uf: ufAtual(cargo) });
+      try { localStorage.setItem(CHAVE, b.dataset.resposta); } catch (e) { /* ignora */ }
+      agradecer();
+    });
   }
   iniciar();
 })();

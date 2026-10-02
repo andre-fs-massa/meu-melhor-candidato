@@ -213,3 +213,8 @@ footer.rodape .rodape-aviso { font-size: .76rem; margin: 18px auto 0; opacity: .
 .seo-nav details[open] { text-align: left; }
 .seo-nav p { margin: 0 0 6px; }
 .seo-nav a { color: var(--accent); }
+
+/* ---------- "Este site foi útil?" ---------- */
+.feedback h2 { margin-bottom: 12px; }
+.feedback .acoes { display: flex; gap: 10px; flex-wrap: wrap; }
+.feedback .btn { font-size: .95rem; padding: 8px 18px; }
