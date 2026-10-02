@@ -241,8 +241,6 @@
     const st = el("div", "stats");
     [[fmt(c.qualificacao_geral), "qualificação geral"], [fmt(c.idoneidade_geral), "idoneidade geral"], [fmt(c.competencia_geral), "competência geral"]].forEach(([v, l]) => { const d = el("div"); d.append(el("b", null, v), el("span", null, l)); st.append(d); });
     b.append(st);
-    const vf = verif(c);
-    b.append(el("p", "selo " + vf.nivel, `${vf.niv.rotulo}` + (vf.consultadas ? ` · ${vf.consultadas} bases oficiais conferidas` + (vf.comRegistro ? `, ${vf.comRegistro} com registro` : "") : "")));
     if (c.empate > 1) b.append(el("p", "nota", `Empatou com outros ${c.empate - 1} candidatos na última vaga; o desempate foi pelo cargo eletivo mais alto já exercido e, persistindo o empate, por sorteio.`));
     const btn = el("button", "btn", "Notas, achados e fontes"); btn.type = "button"; btn.setAttribute("aria-expanded", "false");
     const det = detalhe(c); det.hidden = true;

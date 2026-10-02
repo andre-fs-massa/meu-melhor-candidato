@@ -104,8 +104,6 @@ td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
 .fontes a:hover { color: var(--accent); }
 /* profundidade da pesquisa e conferência em bases oficiais */
 .detalhe .verif > h4:first-child { margin-top: 12px; }
-.selo { display: inline-block; justify-self: start; margin: 2px 0; padding: 3px 9px; border: 1px solid var(--grid); border-radius: 999px; font-size: .78rem; color: var(--ink-2); }
-.selo.padrao, .selo.aprofundada { border-color: var(--accent); color: var(--accent); background: var(--accent-wash); }
 .detalhe .bases { list-style: none; padding: 0; }
 .detalhe .base { display: block; margin: 5px 0; }
 .detalhe .base .ico { display: inline-block; width: 1.1em; text-align: center; font-weight: 700; color: var(--muted); }
