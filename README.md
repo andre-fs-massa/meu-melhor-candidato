@@ -89,7 +89,7 @@ existentes, e melhorar código/site.
   estrutural (bases oficiais, sem processos judiciais nem notícias) e só os finalistas passaram por uma busca rápida.
 - Nota 10 de idoneidade significa "nada encontrado na busca", não "nada aconteceu" — a profundidade da apuração
   varia, sobretudo para partidos menores.
-- "Competência" mede formação e experiência declaradas, favorecendo quem tem carreira eletiva ou diploma superior
+- "Competência" mede experiência e formação, favorecendo de propósito quem já exerceu mandato no mesmo poder do cargo (regra em `pipeline/pesos_competencia.py`) e quem tem diploma superior
   — não mede a qualidade do plano de governo.
 - O questionário de 2 perguntas para descobrir o posicionamento ideológico do eleitor ainda não foi calibrado nem
   testado com eleitores reais.

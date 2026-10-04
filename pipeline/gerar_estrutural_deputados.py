@@ -49,7 +49,7 @@ CARGOS_EXPERIENCIA = CARGOS | {"SENADOR", "GOVERNADOR"}  # GOVERNADOR desde 2026
 ANOS_ESPERADOS = (2014, 2016, 2018, 2020, 2022, 2024)
 MIN_TITULO_VALIDO = 0.9  # fração mínima de linhas com título de 12 dígitos para o ano contar como coberto
 
-# Cargo no arquivo do TSE (normalizado, sem acento) -> (nome em BOOST_POR_CARGO_ANTERIOR, tipo)
+# Cargo no arquivo do TSE (normalizado, sem acento) -> (nome em pesos_competencia.PODER_ESFERA, tipo)
 CARGO_ELETIVO = {
     "PRESIDENTE": ("PRESIDENTE", "executivo"),
     "GOVERNADOR": ("GOVERNADOR", "executivo"),

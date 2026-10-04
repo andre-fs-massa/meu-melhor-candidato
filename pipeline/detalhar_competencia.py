@@ -1,14 +1,15 @@
 """Explica, frente a frente, de onde veio a nota de competência de cada candidato (para o painel do site).
 
-A nota de cada uma das 4 competências do cargo (pipeline/competencias.py) é a MAIOR entre três fontes:
-  - "o": ocupação declarada ao TSE (proxy por arquétipo, pipeline/mapear_competencias.py);
-  - "c": cargo eletivo já exercido (pipeline/enriquecer_experiencia.py);
-  - "p": experiência profissional pesquisada, com motivo escrito (pipeline/enriquecer_competencia_transferivel.py).
-Aqui as três são recalculadas e a vencedora é conferida contra a coluna score_<competência> já gravada no parquet;
+A nota de cada uma das 4 competências do cargo (pipeline/competencias.py) é a MAIOR entre (pipeline/pesos_competencia.py):
+  - "c": mandato no mesmo poder do cargo pretendido (pipeline/enriquecer_experiencia.py);
+  - "x": mandato no outro poder, que transfere em parte (idem);
+  - "p": experiência profissional pesquisada, com motivo escrito (pipeline/enriquecer_competencia_transferivel.py);
+  - "o": ocupação declarada ao TSE, pela matriz de competências por profissão (pipeline/mapear_competencias.py).
+Aqui as fontes são recalculadas e a vencedora é conferida contra a coluna score_<competência> já gravada no parquet;
 divergência vira aviso (sinal de que o pipeline e esta explicação saíram de sincronia).
 
-Em empate, mostra a fonte mais informativa: cargo exercido antes da ocupação; a pesquisa profissional só aparece
-quando subiu a nota (é a mesma regra da etapa que a aplica).
+Em empate, mostra a fonte mais informativa: mandato antes da ocupação; a pesquisa profissional só aparece quando subiu
+a nota (é a mesma regra da etapa que a aplica).
 """
 import json
 
@@ -17,10 +18,12 @@ import pandas as pd
 from . import competencia_dimensoes as cd
 from . import competencias
 from .enriquecer_competencia_transferivel import REFERENCE_PATH as REF_PROFISSIONAL
-from .enriquecer_experiencia import BOOST_POR_CARGO_ANTERIOR, carregar_referencia
+from .enriquecer_experiencia import cargos_exercidos, carregar_referencia
+from .pesos_competencia import FATOR_OCUPACAO, FATOR_PESQUISA, notas_por_mandatos
 
 ROTULO_CARGO_ANTERIOR = {
-    "PRESIDENTE": "Presidente", "GOVERNADOR": "Governador", "PREFEITO": "Prefeito", "SENADOR": "Senador",
+    "PRESIDENTE": "Presidente", "GOVERNADOR": "Governador", "VICE-GOVERNADOR": "Vice-governador",
+    "PREFEITO": "Prefeito", "VICE-PREFEITO": "Vice-prefeito", "SENADOR": "Senador",
     "DEPUTADO FEDERAL": "Deputado federal", "DEPUTADO ESTADUAL": "Deputado estadual",
     "DEPUTADO DISTRITAL": "Deputado distrital", "VEREADOR": "Vereador",
 }
@@ -29,6 +32,15 @@ ROTULO_CARGO_ANTERIOR = {
 def rotulos_por_cargo() -> dict:
     """cargo -> nomes curtos das 4 frentes, na ordem usada em `detalhar` (vai uma vez só no índice do site)."""
     return {cargo: [rotulo for rotulo, _ in comp.values()] for cargo, comp in competencias.COMPETENCIAS_POR_CARGO.items()}
+
+
+def _texto_mandato(cargo: str, registro: dict | None) -> str:
+    texto = ROTULO_CARGO_ANTERIOR.get(cargo, cargo.capitalize())
+    do_cargo = [c for c in (registro or {}).get("cargos_anteriores", []) if c["cargo"] == cargo]
+    if not do_cargo:  # veio do título declarado como ocupação
+        return texto + " (ocupação declarada ao TSE; mandato não localizado nos registros)"
+    extra = ", ".join(x for x in (do_cargo[-1].get("local"), do_cargo[-1].get("periodo")) if x and x != "?")
+    return texto + (f" ({extra})" if extra else "")
 
 
 class Detalhador:
@@ -43,28 +55,22 @@ class Detalhador:
         cargo, sq = r["cargo"], r["sq_candidato"]
         if cargo not in competencias.COMPETENCIAS_POR_CARGO:
             return None
-        proxy = cd.ARQUETIPOS[cd.classificar_ocupacao(r["ocupacao"])]
-        cargos_ant = self.experiencia.get(sq, {}).get("cargos_anteriores", []) if sq in self.experiencia else []
+        arquetipo = cd.classificar_ocupacao(r["ocupacao"])
+        matriz = cd.ARQUETIPOS["generico" if arquetipo.startswith("politico_") else arquetipo]
+        registro = self.experiencia.get(sq)
+        mandatos = notas_por_mandatos(cargo, cargos_exercidos(registro, r["ocupacao"]))
         prof = self.profissional.get(sq, {}).get("competencias", {})
         frentes = []
-        for chave in competencias.COMPETENCIAS_POR_CARGO[cargo]:
-            dim = cd.CARGO_COMPETENCIA_DIMENSAO[cargo][chave]
-            nota, fonte, texto = proxy[dim], "o", ""
-            # cargo exercido que dá a maior nota nesta dimensão (empate com a ocupação: mostra o cargo)
-            melhor = max(cargos_ant, key=lambda c: BOOST_POR_CARGO_ANTERIOR.get(c["cargo"], {}).get(dim, -1), default=None)
-            if melhor is not None:
-                v = BOOST_POR_CARGO_ANTERIOR.get(melhor["cargo"], {}).get(dim)
-                if v is not None and v >= nota and v > 0:
-                    nota, fonte = v, "c"
-                    texto = ROTULO_CARGO_ANTERIOR.get(melhor["cargo"], melhor["cargo"].capitalize())
-                    extra = ", ".join(x for x in (melhor.get("local"), melhor.get("periodo")) if x and x != "?")
-                    texto += f" ({extra})" if extra else ""
-            if chave in prof and prof[chave]["nota"] > nota:
-                nota, fonte, texto = prof[chave]["nota"], "p", prof[chave]["motivo"]
+        for chave, (v_mandato, exercido, mesmo) in zip(competencias.COMPETENCIAS_POR_CARGO[cargo], mandatos):
+            nota, fonte, texto = FATOR_OCUPACAO * matriz[cd.CARGO_COMPETENCIA_DIMENSAO[cargo][chave]], "o", ""
+            if exercido and v_mandato >= nota:
+                nota, fonte, texto = v_mandato, "c" if mesmo else "x", _texto_mandato(exercido, registro)
+            if chave in prof and FATOR_PESQUISA * prof[chave]["nota"] > nota:
+                nota, fonte, texto = FATOR_PESQUISA * prof[chave]["nota"], "p", prof[chave]["motivo"]
             gravado = r.get(f"score_{chave}")
             if gravado is not None and not pd.isna(gravado) and abs(float(gravado) - nota) > 1e-9:
                 self.divergencias.append(f"{r['nome_urna']} ({cargo}) {chave}: explicação {nota} x parquet {gravado}")
-            frentes.append([nota, fonte, texto])
+            frentes.append([round(nota, 2), fonte, texto])
         return frentes
 
 

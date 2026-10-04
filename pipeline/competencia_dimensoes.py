@@ -48,11 +48,15 @@ _ARQUETIPOS_VETOR = {
     "ciencias_sociais_humanas":    [4, 0, 2, 2, 8, 8, 2, 0, 2],
     "diplomacia_ri":               [6, 4, 2, 2, 6, 0, 10, 0, 0],
     "estudante":                   [0, 0, 0, 0, 2, 6, 0, 0, 0],
-    "do_lar_aposentado":           [2, 0, 0, 0, 0, 4, 0, 0, 2],
+    # 2026-10-04 (auditoria da competência, achado 5): "aposentado" e "dona de casa" não dizem nada sobre a
+    # trajetória, como "outros"; passam a valer o mesmo que "generico" em vez de menos.
+    "do_lar_aposentado":           [2, 2, 2, 2, 2, 2, 2, 2, 2],
     "trabalhador_manual":          [0, 0, 0, 0, 2, 8, 0, 2, 4],
     "arte_cultura_esporte":        [0, 0, 0, 0, 6, 6, 0, 0, 0],
     "religioso":                   [2, 0, 0, 0, 6, 8, 0, 0, 2],
     "tecnico_ti":                  [4, 2, 0, 2, 0, 2, 0, 2, 0],
+    # 2026-10-04 (achado 4): cientistas saem de tecnico_ti (que reunia digitador e operador de computador).
+    "ciencias_naturais_exatas":    [4, 4, 2, 4, 2, 2, 2, 4, 4],
     "generico":                    [2, 2, 2, 2, 2, 2, 2, 2, 2],
 }
 ARQUETIPOS = {
@@ -68,42 +72,48 @@ _REGRAS = [
     (["GOVERNADOR", "PREFEITO", "MINISTRO DE ESTADO"], "politico_executivo_atual"),
     (["DIPLOMATA"], "diplomacia_ri"),
     (["ADVOGADO", "MAGISTRADO", "MINISTERIO PUBLICO", "TABELIAO",
-      "SERVENTUARIO DE JUSTICA", "DESPACHANTE"], "juridico"),
+      "SERVENTUARIO DE JUSTICA"], "juridico"),
     (["ECONOMISTA", "CONTADOR", "BANCARIO", "CAPITALISTA DE ATIVOS",
-      "CORRETOR DE IMOVEIS", "TECNICO CONTABILIDADE"], "financeiro"),
+      "TECNICO CONTABILIDADE"], "financeiro"),
+    # 2026-10-04: corretor de imóveis/seguros (vendas) e despachante saem de financeiro/jurídico; supervisor de
+    # compras e agente de viagem caíam no padrão trabalhador_manual.
     (["EMPRESARIO", "ADMINISTRADOR", "DIRETOR DE EMPRESAS", "INDUSTRIAL",
       "GERENTE", "COMERCIANTE", "COMERCIARIO", "REPRESENTANTE COMERCIAL",
-      "VENDEDOR"], "gestao_empresarial"),
+      "VENDEDOR", "CORRETOR DE IMOVEIS", "DESPACHANTE", "AGENTE DE COMPRAS",
+      "AGENTE DE VIAGEM"], "gestao_empresarial"),
     (["POLICIAL", "BOMBEIRO", "FORCAS ARMADAS", "MILITAR", "VIGILANTE",
-      "DETETIVE PARTICULAR", "FISCAL"], "seguranca_publica_militar"),
+      "DETETIVE PARTICULAR"], "seguranca_publica_militar"),
     (["MEDICO", "ENFERMEIRO", "ODONTOLOGO", "PSICOLOGO", "FISIOTERAPEUTA",
       "NUTRICIONISTA", "FARMACEUTICO", "BIOMEDICO", "FONOAUDIOLOGO",
-      "VETERINARIO", "AGENTE DE SAUDE", "TERAPEUTA"], "saude"),
+      "VETERINARIO", "AGENTE DE SAUDE", "TERAPEUTA", "LABORATORIO"], "saude"),
     (["PROFESSOR", "PEDAGOGO", "DIRETOR DE ESTABELECIMENTO DE ENSINO"],
      "educacao"),
     (["ENGENHEIRO", "ARQUITETO", "AGRONOMO", "GEOLOGO", "TECNICO EM EDIFICACOES",
       "TECNICO DE OBRAS CIVIS", "TECNICO EM AGRONOMIA", "GEOFISICO"],
      "engenharia_infraestrutura"),
     (["JORNALISTA", "RADIALISTA", "LOCUTOR", "PUBLICITARIO",
-      "RELACOES-PUBLICAS", "COMUNICOLOGO", "ESCRITOR", "FOTOGRAFO"],
+      "RELACOES-PUBLICAS", "COMUNICOLOGO", "ESCRITOR", "FOTOGRAFO",
+      "AGENCIADOR DE PROPAGANDA"],
      "comunicacao"),
-    (["SERVIDOR PUBLICO", "AGENTE ADMINISTRATIVO", "OCUPANTE DE CARGO EM COMISSAO",
+    (["SERVIDOR PUBLICO", "AGENTE ADMINISTRATIVO", "OCUPANTE DE CARGO EM COMISSAO", "FISCAL",
       "AUXILIAR DE ESCRITORIO", "SECRETARIO E DATILOGRAFO", "AGENTE POSTAL"],
      "servidor_publico"),
     (["AGRICULTOR", "PECUARISTA", "PRODUTOR AGROPECUARIO", "TRABALHADOR RURAL",
-      "PESCADOR", "ZOOTECNISTA", "GARIMPEIRO", "AGENCIADOR"],
+      "PESCADOR", "ZOOTECNISTA", "GARIMPEIRO"],
      "rural_agropecuaria"),
     (["CIENTISTA POLITICO", "SOCIOLOGO", "HISTORIADOR", "ANTROPOLOGO",
       "ASSISTENTE SOCIAL", "GEOGRAFO", "ARQUEOLOGO"], "ciencias_sociais_humanas"),
     (["SACERDOTE"], "religioso"),
     (["ANALISTA DE SISTEMAS", "TECNICO EM INFORMATICA", "PROGRAMADOR DE COMPUTADOR",
-      "OPERADOR DE COMPUTADOR", "DIGITADOR", "BIOLOGO", "FISICO", "QUIMICO",
-      "ASTRONOMO", "ESTATISTICO", "TECNICO DE QUIMICA", "TECNICO DE BIOLOGIA"],
+      "OPERADOR DE COMPUTADOR", "DIGITADOR", "TECNICO DE QUIMICA", "TECNICO DE BIOLOGIA"],
      "tecnico_ti"),
+    (["BIOLOGO", "FISICO", "QUIMICO", "ASTRONOMO", "ESTATISTICO"], "ciencias_naturais_exatas"),
     (["ESTUDANTE"], "estudante"),
     (["DONA DE CASA", "APOSENTADO", "GOVERNANTA"], "do_lar_aposentado"),
-    (["MUSICO", "CANTOR", "ATOR ", "ARTISTA", "ESCULTOR", "ATLETA",
-      "COREOGRAFO", "BAILARINO", "MODELO", "PINTOR"], "arte_cultura_esporte"),
+    # 2026-10-04: "ATOR " perdia o espaço em _normalizar (.strip) e casava com LABORATORIO; "PINTOR" pegava o
+    # lanterneiro e pintor de veículos (ESCULTOR E PINTOR continua aqui por ESCULTOR).
+    (["MUSICO", "CANTOR", "ATOR E DIRETOR", "ARTISTA", "ESCULTOR", "ATLETA",
+      "COREOGRAFO", "BAILARINO", "MODELO", "DESENHISTA"], "arte_cultura_esporte"),
     (["OUTROS", "NAO DIVULGAVEL"], "generico"),
 ]
 
@@ -114,6 +124,8 @@ _REGRAS = [
 # Checadas antes de _REGRAS.
 _EXCECOES_EXATAS = {
     "APOSENTADO (EXCETO SERVIDOR PUBLICO)": "do_lar_aposentado",
+    # operário: "INDUSTRIAL" o classificava como empresário
+    "OPERADOR DE APARELHOS DE PRODUCAO INDUSTRIAL": "trabalhador_manual",
 }
 
 

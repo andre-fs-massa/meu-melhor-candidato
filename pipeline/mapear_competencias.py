@@ -5,6 +5,10 @@ IMPORTANTE: isso é um proxy heurístico baseado só na ocupação
 autodeclarada no registro de candidatura -- não é avaliação de
 desempenho, histórico legislativo real nem verificação de veracidade.
 Ver docstring de pipeline/competencia_dimensoes.py.
+
+2026-10-04 (pipeline/pesos_competencia.py): a matriz entra multiplicada por FATOR_OCUPACAO (no máximo 6), para
+ficar abaixo da experiência pública no mesmo poder, e o título político declarado (Deputado, Vereador...) não
+pontua como profissão: vale como "generico" aqui, e o mandato entra em pipeline/enriquecer_experiencia.py.
 """
 import sys
 
@@ -12,6 +16,7 @@ import pandas as pd
 
 from . import competencia_dimensoes as cd
 from . import competencias, config
+from .pesos_competencia import FATOR_OCUPACAO
 
 OUTPUT_PARQUET = config.PROCESSED_DIR / f"candidatos_{config.ANO_ELEICAO}_competencias.parquet"
 OUTPUT_CSV = config.PROCESSED_DIR / f"candidatos_{config.ANO_ELEICAO}_competencias.csv"
@@ -28,9 +33,11 @@ def gerar_pontuacoes(df: pd.DataFrame) -> pd.DataFrame:
     df["ocupacao_arquetipo"] = df["ocupacao"].apply(cd.classificar_ocupacao)
 
     dimensoes_por_ocupacao = {
-        arquetipo: dict(vetor) for arquetipo, vetor in cd.ARQUETIPOS.items()
+        arquetipo: {d: FATOR_OCUPACAO * v for d, v in vetor.items()}
+        for arquetipo, vetor in cd.ARQUETIPOS.items()
     }
-    scores_dimensao = df["ocupacao_arquetipo"].map(dimensoes_por_ocupacao)
+    profissao = df["ocupacao_arquetipo"].where(~df["ocupacao_arquetipo"].str.startswith("politico_"), "generico")
+    scores_dimensao = profissao.map(dimensoes_por_ocupacao)
 
     for cargo, competencias_cargo in competencias.COMPETENCIAS_POR_CARGO.items():
         mascara_cargo = df["cargo"] == cargo

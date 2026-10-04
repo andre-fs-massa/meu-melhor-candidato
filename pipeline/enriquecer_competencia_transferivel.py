@@ -16,6 +16,10 @@ que já estava no parquet (proxy de ocupação + boosts anteriores) e (b) a
 nota pesquisada de competência transferível. Ou seja, experiência
 profissional real só pode subir a nota, nunca baixar um score que já
 existia por outro motivo.
+
+2026-10-04 (pipeline/pesos_competencia.py): a nota pesquisada entra multiplicada
+por FATOR_PESQUISA (no máximo 7), para ficar abaixo da experiência pública no
+mesmo poder do cargo pretendido.
 """
 import json
 import sys
@@ -23,6 +27,7 @@ import sys
 import pandas as pd
 
 from . import config
+from .pesos_competencia import FATOR_PESQUISA
 
 REFERENCE_PATH = config.RAW_DIR.parent / "reference" / "experiencia_profissional.json"
 INPUT_PATH = (
@@ -53,7 +58,7 @@ def aplicar(df: pd.DataFrame, referencia: dict) -> pd.DataFrame:
                 continue
             valor_atual = df.at[sq, col]
             valor_atual = 0 if pd.isna(valor_atual) else valor_atual
-            nota_pesquisada = dado["nota"]
+            nota_pesquisada = FATOR_PESQUISA * dado["nota"]
             if nota_pesquisada > valor_atual:
                 df.at[sq, col] = nota_pesquisada
                 motivos_aplicados.append(f"{chave_competencia}: {valor_atual}->{nota_pesquisada} ({dado['motivo']})")

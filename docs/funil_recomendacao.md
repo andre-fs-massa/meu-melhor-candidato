@@ -72,9 +72,9 @@ e a etapa 1 não protege o eleitor de ninguém.
 
 ## Limites conhecidos
 
-* **Deputados: a competência geral empata.** Ela vem da ocupação declarada e da escolaridade, que têm poucos valores.
-  Em 49 dos 81 grupos (UF x quadrante) de Deputado Federal há mais de 3 candidatos com a nota máxima; em SP, o topo de um
-  quadrante tem 51 empatados. Os "3 melhores" viram um sorteio entre eles.
+* **Deputados: a competência geral empata.** Ela vem de poucos valores: esfera do mandato já exercido (10 / 8 / 6, ver
+  `pipeline/pesos_competencia.py`), matriz da ocupação declarada e escolaridade. Todos os ex-deputados federais com
+  superior completo, por exemplo, têm a mesma nota; o desempate é pelo cargo eletivo mais alto e, depois, sorteio.
 * **Quadrante Estatista-autoritário vazio.** Nenhum baseline partidário combina economia estatista com costumes
   conservadores, e só 1 governador cai ali.
 * **Senador e Deputados só têm posição pelo partido.** O quadrante deles é o do partido, não o da pessoa.
@@ -86,6 +86,6 @@ e a etapa 1 não protege o eleitor de ninguém.
   quadrantes contra candidatos mais competentes e mais escrutinados (com idoneidade 6-9 por achados reais, ainda que
   leves). Ex.: Sergio Moro (PR, idoneidade 6,5 após achado) perdeu o quadrante Direita para o Dr. Alexandre Salomão
   (Mobiliza, idoneidade 10, menos competência) só depois da mudança de critério em 2026-09-22.
-* **O funil escolhe o melhor por quadrante, não o melhor candidato.** A nota de competência premia escolaridade e
-  carreira eletiva; candidatos de partidos pequenos com nota alta de competência aparecem (Edmilson Costa/PCB para
+* **O funil escolhe o melhor por quadrante, não o melhor candidato.** A nota de competência premia, de propósito,
+  mandato já exercido (sobretudo no mesmo poder do cargo) e escolaridade; candidatos de partidos pequenos com nota alta de competência aparecem (Edmilson Costa/PCB para
   Presidente, Cyro Garcia/PSTU no RJ).

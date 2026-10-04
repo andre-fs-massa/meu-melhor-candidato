@@ -1,24 +1,26 @@
 """Ajusta as pontuações de competência com base em experiência política real
 (cargos eletivos já ocupados), pesquisada manualmente e registrada em
-data/reference/experiencia_politica.json.
+data/reference/experiencia_politica.json (e, para deputados, nos registros
+estruturais do TSE de 2014 a 2024).
 
-Diferente de pipeline/mapear_competencias.py (que só usa DS_OCUPACAO como
-proxy para todo mundo), aqui usamos um sinal mais forte -- cargo realmente
-já ocupado -- mas só para os candidatos que já foram pesquisados (ver
-_leiame do JSON). Para os demais, nada muda.
+Regra (2026-10-04, pipeline/pesos_competencia.py): mandato no MESMO poder do
+cargo pretendido vale igual nas 4 frentes, conforme a esfera (10 / 8 / 6, vice
+2 a menos); mandato no OUTRO poder vale a mesma tabela vezes a transferência de
+cada frente, com teto 8. A pontuação final de cada frente é o MAIOR valor entre
+o que já estava (profissão, pipeline/mapear_competencias.py) e o do mandato:
+experiência real só pode subir a nota.
 
-Regra: a pontuação final de cada competência é o MAIOR valor entre (a) o
-proxy por ocupação já calculado e (b) a pontuação implícita pelos cargos
-anteriores reais. Ou seja, experiência real só pode subir a nota, nunca
-baixar um score que o proxy de ocupação já acertou por outro motivo.
+Quem declarou ao TSE um título político como ocupação (Vereador, Deputado...)
+e não tem mandato localizado nos registros conta como tendo exercido aquele
+cargo (TITULO_COMO_MANDATO).
 """
 import json
 import sys
 
 import pandas as pd
 
-from . import competencia_dimensoes as cd
 from . import competencias, config
+from .pesos_competencia import TITULO_COMO_MANDATO, notas_por_mandatos
 
 REFERENCE_PATH = config.RAW_DIR.parent / "reference" / "experiencia_politica.json"
 # Gerado sem pesquisa manual por pipeline/gerar_estrutural_deputados.py (deputados); o JSON manual tem precedência.
@@ -30,38 +32,13 @@ OUTPUT_CSV = (
     config.PROCESSED_DIR / f"candidatos_{config.ANO_ELEICAO}_competencias_enriquecido.csv"
 )
 
-# Pontuação (0-10) que a experiência REAL em cada cargo anterior implica nas
-# 9 dimensões genéricas (mesma ordem de cd.DIMENSOES). Cargos executivos
-# (Presidente/Governador/Prefeito) puxam gestão/finanças/articulação;
-# cargos legislativos puxam processo legislativo/fiscalização/articulação.
-# Escala normalizada em 2026-09-21 (era 0-5; valores aqui são o dobro dos
-# originais para manter a mesma ordinalidade relativa e a mesma escala de
-# pipeline/competencia_dimensoes.py).
-_BOOST_VETOR = {
-    "PRESIDENTE":         [10, 10, 6, 4, 10, 4, 10, 4, 4],
-    "GOVERNADOR":         [8, 8, 4, 4, 8, 4, 2, 6, 6],
-    "PREFEITO":           [6, 4, 2, 2, 6, 4, 0, 8, 8],
-    "SENADOR":            [4, 4, 8, 8, 6, 4, 4, 0, 0],
-    "DEPUTADO FEDERAL":   [2, 2, 8, 6, 6, 4, 0, 0, 0],
-    "DEPUTADO ESTADUAL":  [2, 2, 6, 4, 4, 6, 0, 0, 0],
-    "DEPUTADO DISTRITAL": [2, 2, 6, 4, 4, 6, 0, 0, 0],
-    "VEREADOR":           [2, 2, 4, 2, 4, 6, 0, 2, 4],
-}
-BOOST_POR_CARGO_ANTERIOR = {
-    cargo: dict(zip(cd.DIMENSOES, vetor)) for cargo, vetor in _BOOST_VETOR.items()
-}
 
-
-def _boost_por_dimensao(cargos_anteriores: list) -> dict:
-    """Máximo, por dimensão, entre todos os cargos anteriores do candidato."""
-    boost = {dim: 0 for dim in cd.DIMENSOES}
-    for cargo in cargos_anteriores:
-        vetor_cargo = BOOST_POR_CARGO_ANTERIOR.get(cargo["cargo"])
-        if vetor_cargo is None:
-            continue
-        for dim, valor in vetor_cargo.items():
-            boost[dim] = max(boost[dim], valor)
-    return boost
+def cargos_exercidos(registro: dict | None, ocupacao) -> list:
+    """Cargos eletivos já exercidos; sem nenhum localizado, o título político declarado como ocupação."""
+    cargos = [c["cargo"] for c in (registro or {}).get("cargos_anteriores", [])]
+    if not cargos and ocupacao in TITULO_COMO_MANDATO:
+        cargos = [TITULO_COMO_MANDATO[ocupacao]]
+    return cargos
 
 
 def enriquecer(df: pd.DataFrame, referencia: dict) -> pd.DataFrame:
@@ -72,24 +49,24 @@ def enriquecer(df: pd.DataFrame, referencia: dict) -> pd.DataFrame:
     df["experiencia_pesquisada_em"] = pd.NA
 
     df = df.set_index("sq_candidato", drop=False)
-
-    for sq, registro in referencia["candidatos"].items():
+    candidatos = referencia["candidatos"]
+    for sq in candidatos:
         if sq not in df.index:
-            print(f"Aviso: sq_candidato {sq} ({registro['nome_urna']}) não encontrado no dataset atual", file=sys.stderr)
+            print(f"Aviso: sq_candidato {sq} ({candidatos[sq]['nome_urna']}) não encontrado no dataset atual", file=sys.stderr)
+
+    for sq, cargo, ocupacao in zip(df["sq_candidato"], df["cargo"], df["ocupacao"]):
+        if cargo not in competencias.COMPETENCIAS_POR_CARGO:
             continue
-
-        cargo_pretendido = registro["cargo_pretendido"]
-        mapa_dimensao = cd.CARGO_COMPETENCIA_DIMENSAO[cargo_pretendido]
-        boost = _boost_por_dimensao(registro["cargos_anteriores"])
-
-        for chave_competencia, dimensao in mapa_dimensao.items():
-            col = f"score_{chave_competencia}"
-            if col not in df.columns:
-                continue
+        notas = notas_por_mandatos(cargo, cargos_exercidos(candidatos.get(sq), ocupacao))
+        for chave, (nota, _, _) in zip(competencias.COMPETENCIAS_POR_CARGO[cargo], notas):
+            col = f"score_{chave}"
             valor_atual = df.at[sq, col]
             valor_atual = 0 if pd.isna(valor_atual) else valor_atual
-            df.at[sq, col] = max(valor_atual, boost[dimensao])
+            df.at[sq, col] = max(valor_atual, nota)
 
+    for sq, registro in candidatos.items():
+        if sq not in df.index:
+            continue
         df.at[sq, "teve_cargo_eletivo"] = registro["teve_cargo_eletivo"]
         df.at[sq, "cargos_anteriores_resumo"] = "; ".join(
             f"{c['cargo']} ({c.get('local', '?')}, {c.get('periodo', '?')})"
