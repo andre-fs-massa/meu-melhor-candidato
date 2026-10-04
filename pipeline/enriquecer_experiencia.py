@@ -101,16 +101,8 @@ def enriquecer(df: pd.DataFrame, referencia: dict) -> pd.DataFrame:
     return df.reset_index(drop=True)
 
 
-def main() -> None:
-    if not config.OUTPUT_PARQUET.exists():
-        sys.exit("Rode `python -m pipeline.mapear_competencias` primeiro.")
-    if not REFERENCE_PATH.exists():
-        sys.exit(f"{REFERENCE_PATH} não existe.")
-
-    caminho_scores = (
-        config.PROCESSED_DIR / f"candidatos_{config.ANO_ELEICAO}_competencias.parquet"
-    )
-    df = pd.read_parquet(caminho_scores)
+def carregar_referencia() -> dict:
+    """JSON manual de experiência política + registros estruturais de deputados (o manual tem precedência)."""
     referencia = json.loads(REFERENCE_PATH.read_text(encoding="utf-8"))
     if ESTRUTURAL_PATH.exists():
         estrutural = json.loads(ESTRUTURAL_PATH.read_text(encoding="utf-8"))["candidatos"]
@@ -127,6 +119,20 @@ def main() -> None:
                 man["cargos_anteriores"] = man["cargos_anteriores"] + novos
                 man["teve_cargo_eletivo"] = True
         referencia["candidatos"] = {**estrutural, **referencia["candidatos"]}
+    return referencia
+
+
+def main() -> None:
+    if not config.OUTPUT_PARQUET.exists():
+        sys.exit("Rode `python -m pipeline.mapear_competencias` primeiro.")
+    if not REFERENCE_PATH.exists():
+        sys.exit(f"{REFERENCE_PATH} não existe.")
+
+    caminho_scores = (
+        config.PROCESSED_DIR / f"candidatos_{config.ANO_ELEICAO}_competencias.parquet"
+    )
+    df = pd.read_parquet(caminho_scores)
+    referencia = carregar_referencia()
 
     resultado = enriquecer(df, referencia)
 

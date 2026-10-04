@@ -21,6 +21,7 @@ import pandas as pd
 
 from . import config, gerar_paginas_seo
 from .cruzar_bases_oficiais import BASES, SAIDA as CSV_BASES_OFICIAIS
+from .detalhar_competencia import Detalhador, rotulos_por_cargo, texto_escolaridade, texto_ocupacao
 from .enriquecer_circulo_politico import ROTULO_LIGACAO
 from .pesos import PESOS_ACHADO
 from .recomendar import (
@@ -146,6 +147,7 @@ def construir(df: pd.DataFrame) -> dict:
     # JSONs manuais (data/reference) + registros estruturais de deputados (data/processed); o manual tem precedência
     idn = _com_estrutural("idoneidade.json", "estrutural_idoneidade.json")
     circ = _com_estrutural("circulo_politico.json", "estrutural_circulo_politico.json")
+    det = Detalhador()  # de onde veio a nota de cada frente de competência
     grupos = {}
     for (cargo, uf), g in df.groupby(["cargo", "uf"]):
         n_aval = int(g["nota_idoneidade_geral"].notna().sum())
@@ -178,13 +180,17 @@ def construir(df: pd.DataFrame) -> dict:
                 "idoneidade_geral": num(r["nota_idoneidade_geral"], 2), "competencia_geral": num(r["nota_competencia_geral"], 2),
                 "qualificacao_geral": num(r["nota_qualificacao_geral"], 2),
                 "competencia": num(r["nota_competencia"], 2), "escolaridade": num(r["nota_escolaridade"], 2),
+                "grau": texto_escolaridade(r["escolaridade"]), "ocupacao": texto_ocupacao(r["ocupacao"]),
+                "frentes": det.detalhar(r),
                 "eco": num(r["eco_final"], 2), "pes": num(r["pes_final"], 2), "posicao_fonte": r["posicao_fonte"],
                 "nivel_eco": r["nivel_eixo_economico"] if pd.notna(r["nivel_eixo_economico"]) else "c",
                 "nivel_pes": r["nivel_eixo_pessoal"] if pd.notna(r["nivel_eixo_pessoal"]) else "c",
                 "quadrante": r["quadrante"], "fronteira": bool(r["fronteira"]), "camadas": int(r["camadas_pesquisadas"]),
                 "cobertura": r["cobertura_pesquisa"],
                 "achados": _achados(ri), "apoiadores": _apoiadores(rc),
-                "fontes": list(dict.fromkeys(ri.get("fontes", []) + rc.get("fontes", []))),
+                "fontes": list(dict.fromkeys(ri.get("fontes", []) + rc.get("fontes", [])
+                                             + det.experiencia.get(sq, {}).get("fontes", [])
+                                             + det.profissional.get(sq, {}).get("fontes", []))),
                 "verificacao": _verificacao(prof, bases_of, cargo, uf, sq),
                 "empate": recs[sq]["empatados_na_ultima_vaga"] if sq in recs else 0,
             })
@@ -192,6 +198,8 @@ def construir(df: pd.DataFrame) -> dict:
         entrada.update({"status": "completo" if n_aval == len(g) else "parcial", "candidatos": candidatos,
                         "recomendados": [r["sq"] for r in res["recomendados"]]})
         grupos[f"{cargo}|{uf}"] = entrada
+    for aviso in det.divergencias:
+        print(f"Aviso: nota de competência sem explicação correspondente -- {aviso}")
     return {
         "meta": {"gerado_em": date.today().isoformat(), "corte": CORTE_IDONEIDADE_PADRAO, "corte_deputados": max(CORTE_POR_CARGO.values()), "limiar": LIMIAR_QUADRANTE,
                  "margem_fronteira": MARGEM_FRONTEIRA, "politica_nao_avaliados": "excluir", "data_eleicao": "2026-10-04",
@@ -200,13 +208,14 @@ def construir(df: pd.DataFrame) -> dict:
         "profundidade": prof["niveis"],
         "bases_oficiais": [{"id": k, "rotulo": r, "data": d} for k, (r, d) in BASES.items()],
         "quadrantes": [{"chave": k, "nome": v, "curto": CURTO_QUADRANTE[k]} for k, v in NOME_QUADRANTE.items()],
-        "cargos": [{"codigo": c, "rotulo": ROTULO_CARGO[c], "vagas": VAGAS_POR_QUADRANTE[c], "votos": VOTOS_POR_ELEITOR.get(c, 1)} for c in ROTULO_CARGO],
+        "cargos": [{"codigo": c, "rotulo": ROTULO_CARGO[c], "vagas": VAGAS_POR_QUADRANTE[c], "votos": VOTOS_POR_ELEITOR.get(c, 1),
+                    "frentes": rotulos_por_cargo()[c]} for c in ROTULO_CARGO],
         "grupos": grupos,
     }
 
 
 # Campos de candidato cujo valor se repete entre milhares de candidatos (mesmo partido, mesma conferência em bases).
-CAMPOS_DEDUPLICADOS = ("apoiadores", "fontes", "verificacao", "cobertura", "posicao_fonte")
+CAMPOS_DEDUPLICADOS = ("apoiadores", "fontes", "verificacao", "cobertura", "posicao_fonte", "frentes", "ocupacao", "grau")
 TAMANHO_MINIMO_DEDUP = 12  # não vale trocar por índice um valor menor que isto (ex.: "[]")
 
 

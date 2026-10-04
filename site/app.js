@@ -197,9 +197,15 @@
   // ---------- explicação/fontes de um candidato ----------
   function detalhe(c) {
     const d = el("div", "detalhe");
-    d.append(el("p", null, `Idoneidade pessoal ${fmt(c.idoneidade_pessoal, 0)} · círculo político ${fmt(c.circulo, 0)} · idoneidade geral ${fmt(c.idoneidade_geral)}. Competência ${fmt(c.competencia)} e escolaridade ${fmt(c.escolaridade)} → competência geral ${fmt(c.competencia_geral)}. Qualificação geral (média das duas gerais) ${fmt(c.qualificacao_geral)}.`));
+    d.append(el("h4", null, "Notas"));
+    const contas = el("ul");
+    [`Qualificação geral ${fmt(c.qualificacao_geral)} = (idoneidade geral ${fmt(c.idoneidade_geral)} + competência geral ${fmt(c.competencia_geral)}) ÷ 2`,
+     `Idoneidade geral ${fmt(c.idoneidade_geral)} = (idoneidade pessoal ${fmt(c.idoneidade_pessoal, 0)} + círculo político ${fmt(c.circulo, 0)}) ÷ 2`,
+     `Competência geral ${fmt(c.competencia_geral)} = (competência no cargo ${fmt(c.competencia)} + escolaridade ${fmt(c.escolaridade)}) ÷ 2`
+    ].forEach(t => contas.append(el("li", null, t)));
+    d.append(contas);
     if (c.eco != null) d.append(el("p", null, `Posição: economia ${fmt(c.eco)} · costumes ${fmt(c.pes)} (${c.posicao_fonte}).` + (c.fronteira ? " Está perto do centro do diagrama: pode se identificar também com a posição vizinha." : "")));
-    d.append(el("h4", null, "Achados sobre o candidato"));
+    d.append(el("h4", null, `Idoneidade pessoal ${fmt(c.idoneidade_pessoal, 0)}: 10 menos os pesos dos achados`));
     if (c.achados.length) {
       const ul = el("ul");
       c.achados.forEach(a => { const li = el("li"); li.append(el("span", "peso", (a.peso ? "−" + a.peso : "0") + " "), document.createTextNode(a.rotulo + ": " + a.descricao)); ul.append(li); });
@@ -208,7 +214,7 @@
       const { v, niv, consultadas, comRegistro } = verif(c);
       d.append(el("p", null, `Nenhum achado verificado na ${niv.rotulo.toLowerCase()}` + (consultadas && !comRegistro ? ` nem nas ${consultadas} bases oficiais conferidas.` : ".") + " A nota 10 reflete só o que se encontrou, não garante que não haja pendência."));
     }
-    d.append(el("h4", null, "Apoiadores e o tipo de ligação"));
+    d.append(el("h4", null, `Círculo político ${fmt(c.circulo, 0)}: 10 menos os descontos dos apoiadores`));
     if (c.apoiadores.length) {
       const ul = el("ul");
       c.apoiadores.forEach(a => {
@@ -220,6 +226,7 @@
       d.append(ul);
     } else d.append(el("p", null, "Vice ainda não pesquisado."));
     if (c.apoiadores.some(a => a.desconto)) d.append(el("p", "nota", "Os descontos dos presidentes de partidos aliados somam no máximo −4 por chapa."));
+    blocoCompetencia(c, d);
     d.append(blocoVerificacao(c));
     d.append(el("h4", null, "Cobertura da pesquisa"));
     d.append(el("p", null, `${c.camadas} de 5 camadas: ${c.cobertura}.`));
@@ -230,6 +237,26 @@
       d.append(ul);
     }
     return d;
+  }
+
+  // ---------- de onde veio cada nota de competência ----------
+  function blocoCompetencia(c, d) {
+    const rotulos = (CARGO[$("cargo").value] || {}).frentes || [];
+    d.append(el("h4", null, `Competência no cargo ${fmt(c.competencia)}: média das ${rotulos.length || 4} frentes do cargo`));
+    if (c.frentes && c.frentes.length) {
+      const ul = el("ul");
+      c.frentes.forEach(([nota, fonte, texto], i) => {
+        const origem = fonte === "c" ? "já exerceu o cargo de " + texto
+          : fonte === "p" ? "experiência profissional: " + texto
+          : `ocupação declarada ao TSE (${c.ocupacao || "não informada"})`;
+        const li = el("li"); li.append(el("span", "peso", fmt(nota, 0) + " "), document.createTextNode(`${rotulos[i] || "Frente " + (i + 1)}: ${origem.replace(/\.+$/, "")}.`));
+        ul.append(li);
+      });
+      d.append(ul);
+    } else d.append(el("p", null, "Sem nota de competência calculada."));
+    d.append(el("h4", null, `Escolaridade ${fmt(c.escolaridade)}`));
+    d.append(el("p", null, c.escolaridade != null ? `${c.grau}, segundo o registro no TSE.`
+      : "Grau de instrução não divulgado no registro do TSE: sem nota de escolaridade e, por isso, sem competência geral."));
   }
 
   // ---------- cartão de candidato reaproveitado (quadrantes, seu candidato) ----------
@@ -577,7 +604,8 @@
      `Etapa 0: saem candidatos que renunciaram, tiveram o registro indeferido sem recurso ou são inelegíveis, mesmo que ainda apareçam no arquivo do TSE${META.data_situacao_tse ? ` (situação do registro segundo o TSE em ${META.data_situacao_tse})` : ""}. Candidaturas sub judice (registro ainda em julgamento, com recurso ou sem decisão) continuam na lista, com aviso, mas não são recomendadas, porque os votos podem ser anulados.`,
      `Etapa 1: sai quem tem idoneidade geral abaixo de ${fmt(META.corte)} (de 0 a 10; para deputados o corte é ${fmt(META.corte_deputados)}, porque a nota deles vem só de bases oficiais e do partido). Idoneidade geral é a média entre a idoneidade pessoal do candidato (processos, Ficha Limpa, contas) e a do círculo político dele (vice, presidentes de partido, padrinhos e aliados políticos). Quem não teve a idoneidade pesquisada não é recomendado, para não punir quem foi mais escrutinado.`,
      `Etapa 2: cada candidato restante é posicionado num de quatro quadrantes do diagrama de Nolan (limite em ${fmt(META.limiar)} nos dois eixos: economia e costumes).`,
-     `Etapa 3: em cada quadrante, são recomendados os de maior qualificação geral — a média entre idoneidade geral e competência geral (que por sua vez é a média da competência declarada e da escolaridade). São 1 por quadrante para Presidente e Governador, 2 para Senador (em 2026 cada eleitor vota em 2 candidatos ao Senado) e 3 para Deputado.`,
+     `Etapa 3: em cada quadrante, são recomendados os de maior qualificação geral — a média entre idoneidade geral e competência geral. São 1 por quadrante para Presidente e Governador, 2 para Senador (em 2026 cada eleitor vota em 2 candidatos ao Senado) e 3 para Deputado.`,
+     `Competência geral é a média de duas notas de 0 a 10. A primeira é a competência no cargo: cada cargo tem 4 frentes de trabalho, tiradas do que a Constituição e as leis atribuem a ele (para Senador: processo legislativo, fiscalização do Executivo, defesa dos interesses do estado e alocação do orçamento), e a nota é a média das 4. Em cada frente vale a maior nota entre três fontes: a ocupação declarada ao TSE (cada profissão tem uma nota fixa por frente; advogado pontua mais em processo legislativo, engenheiro em infraestrutura), os cargos eletivos já exercidos (de 2014 a 2024 segundo o TSE e, para Presidente, Governador e Senador, também os anteriores achados na pesquisa) e, para parte dos candidatos a Presidente e Governador, a experiência profissional pesquisada, com o motivo escrito. Experiência só sobe a nota, nunca a baixa. A segunda é a escolaridade: o grau de instrução declarado ao TSE, de 0 (analfabeto) a 10 (superior completo), em passos iguais entre os 8 níveis. A conta de cada candidato, frente por frente, está em "Notas, achados e fontes".`,
      `Empates na última vaga de um quadrante são resolvidos primeiro pelo cargo eletivo mais alto já exercido (Presidente; Governador ou Senador; Deputado Federal; Deputado Estadual ou Distrital, Prefeito ou Vice-Governador; Vereador ou Vice-Prefeito) e, persistindo, por sorteio, nunca por ordem alfabética.`,
      `Cada candidato mostra a profundidade da pesquisa (verificação estrutural, rápida, padrão ou aprofundada) e o resultado da conferência automática, por CPF, em bases oficiais: contas julgadas irregulares pelo TCU, motivos de indeferimento no TSE em 2022, sanções do CEIS, CNEP e CEAF e autos de infração do Ibama.`,
      `Se você não sabe seu quadrante, 2 perguntas simples indicam uma posição provável, que não é armazenada. Se nenhum candidato do seu quadrante (ou do vizinho) continuar na disputa, mostramos o mais próximo da sua posição entre os demais.`].forEach(t => m.append(el("li", null, t)));

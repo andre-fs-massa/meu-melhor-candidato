@@ -1,7 +1,7 @@
 // Gerado por pipeline/exportar_prototipo.py -- não editar à mão. Índice: cada cargo/UF tem o seu arquivo em dados/.
 const DADOS = {
  "meta": {
-  "gerado_em": "2026-10-01",
+  "gerado_em": "2026-10-04",
   "corte": 6.0,
   "corte_deputados": 8.5,
   "limiar": 5.0,
@@ -88,37 +88,73 @@ const DADOS = {
    "codigo": "PRESIDENTE",
    "rotulo": "Presidente",
    "vagas": 1,
-   "votos": 1
+   "votos": 1,
+   "frentes": [
+    "Administração Federal e Políticas Públicas",
+    "Macroeconomia",
+    "Articulação Nacional",
+    "Relações Internacionais/Diplomacia"
+   ]
   },
   {
    "codigo": "GOVERNADOR",
    "rotulo": "Governador",
    "vagas": 1,
-   "votos": 1
+   "votos": 1,
+   "frentes": [
+    "Administração",
+    "Finanças",
+    "Processo Legislativo",
+    "Articulação Política"
+   ]
   },
   {
    "codigo": "SENADOR",
    "rotulo": "Senador",
    "vagas": 2,
-   "votos": 2
+   "votos": 2,
+   "frentes": [
+    "Processo Legislativo (Revisão Federativa)",
+    "Fiscalização do Executivo (Sabatinas e CPIs)",
+    "Defesa de Interesses do Estado",
+    "Alocação Orçamentária"
+   ]
   },
   {
    "codigo": "DEPUTADO FEDERAL",
    "rotulo": "Deputado federal",
    "vagas": 3,
-   "votos": 1
+   "votos": 1,
+   "frentes": [
+    "Processo Legislativo (Criação de Leis/PECs)",
+    "Fiscalização do Executivo da União",
+    "Representação de Bases Ideológicas/Demográficas",
+    "Alocação de Recursos (Emendas Federais)"
+   ]
   },
   {
    "codigo": "DEPUTADO ESTADUAL",
    "rotulo": "Deputado estadual",
    "vagas": 3,
-   "votos": 1
+   "votos": 1,
+   "frentes": [
+    "Processo Legislativo Estadual",
+    "Fiscalização do Executivo Estadual/TCE",
+    "Representação Regional",
+    "Alocação de Recursos Estaduais"
+   ]
   },
   {
    "codigo": "DEPUTADO DISTRITAL",
    "rotulo": "Deputado distrital",
    "vagas": 3,
-   "votos": 1
+   "votos": 1,
+   "frentes": [
+    "Processo Legislativo Estadual",
+    "Fiscalização do Executivo Estadual/TCE",
+    "Representação Regional",
+    "Alocação de Recursos Estaduais"
+   ]
   }
  ],
  "grupos": {
@@ -2292,225 +2328,539 @@ const DADOS = {
   ],
   "fontes": [
    [
-    "https://en.wikipedia.org/wiki/Valdemar_Costa_Neto"
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
+   ],
+   [
+    "https://en.wikipedia.org/wiki/Valdemar_Costa_Neto",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://www.poder360.com.br/congresso/baleia-rossi-e-citado-em-investigacoes-contra-fraudes-e-em-delacao-da-jbs/",
-    "https://baleiarossi.com.br/noticias/baleia-rossi-e-reconduzido-como-presidente-nacional-do-mdb/"
+    "https://baleiarossi.com.br/noticias/baleia-rossi-e-reconduzido-como-presidente-nacional-do-mdb/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
-    "https://www.metropoles.com/colunas/mirelle-pinheiro/mp-propoe-acordo-para-evitar-denuncia-contra-renata-abreu"
+    "https://www.metropoles.com/colunas/mirelle-pinheiro/mp-propoe-acordo-para-evitar-denuncia-contra-renata-abreu",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://www.metropoles.com/colunas/andreza-matais/dirigentes-do-inss-delataram-carlos-lupi-ex-ministro-da-previdencia-de-lula",
-    "https://www.portaldacapital.com/2026/05/14/presidente-nacional-do-pdt-carlos-lupi-participa-de-posse-de-diretoria-do-partido-nesta-quinta/"
+    "https://www.portaldacapital.com/2026/05/14/presidente-nacional-do-pdt-carlos-lupi-participa-de-posse-de-diretoria-do-partido-nesta-quinta/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://www.correiobraziliense.com.br/politica/2021/03/4911463-kassab-vira-reu-por-corrupcao-caixa-2-e-lavagem-de-rs-165-milhoes-da-jbs.html",
     "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=23053&Id=23053",
     "https://conjur.com.br/2014-jun-04/kassab-condenado-improbidade-direitos-politicos-suspensos/",
-    "https://www.conjur.com.br/2019-ago-23/tj-mantem-absolvicao-kassab-nao-pagar-precatorios-alimentares/"
+    "https://www.conjur.com.br/2019-ago-23/tj-mantem-absolvicao-kassab-nao-pagar-precatorios-alimentares/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://en.wikipedia.org/wiki/A%C3%A9cio_Neves",
     "https://portaldeprefeitura.com.br/bastidores-da-politica/aecio-neves-desiste-candidatura-psdb-lancara-nome-planalto/626505/",
     "https://www.cnnbrasil.com.br/politica/justica-absolve-aecio-neves-de-acusacao-de-propina-de-r-2-milhoes-da-jf/",
-    "https://www.metropoles.com/brasil/aecio-neves-e-absolvido-de-forma-unanime-em-caso-de-corrupcao-passiva"
+    "https://www.metropoles.com/brasil/aecio-neves-e-absolvido-de-forma-unanime-em-caso-de-corrupcao-passiva",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/",
-    "https://www.terra.com.br/noticias/brasil/politica/cotado-para-presidir-o-pt-edinho-se-livra-de-inquerito-da-lava-jato,76ee9924f0b981722d076c1c6b1c71aasodqtqtx.html"
+    "https://www.terra.com.br/noticias/brasil/politica/cotado-para-presidir-o-pt-edinho-se-livra-de-inquerito-da-lava-jato,76ee9924f0b981722d076c1c6b1c71aasodqtqtx.html",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://ofator.com.br/informacao/luis-tibe-quita-divida-de-improbidade-por-mau-uso-de-verba-da-camara-de-bh/",
-    "https://www.cnnbrasil.com.br/blogs/luisa-martins/politica/pf-afirma-nao-ver-crime-por-parte-do-presidente-do-avante-investigado-no-stf/"
+    "https://www.cnnbrasil.com.br/blogs/luisa-martins/politica/pf-afirma-nao-ver-crime-por-parte-do-presidente-do-avante-investigado-no-stf/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
-    "https://en.wikipedia.org/wiki/Jo%C3%A3o_Henrique_Campos"
+    "https://en.wikipedia.org/wiki/Jo%C3%A3o_Henrique_Campos",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://www.cnnbrasil.com.br/politica/pf-inclui-presidente-do-uniao-brasil-em-investigacao-sobre-esquemas-do-pcc/",
-    "https://www.poder360.com.br/poder-justica/pf-inclui-presidente-do-uniao-brasil-em-operacao-que-mira-pcc/"
+    "https://www.poder360.com.br/poder-justica/pf-inclui-presidente-do-uniao-brasil-em-operacao-que-mira-pcc/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://reporternordeste.com.br/condenado-por-receber-propina-joao-caldas-volta-ao-banco-dos-reus-nesta-4a/",
     "https://www.urbanitarios-al.com.br/2014/12/joao-caldas-e-condenado-no-trf-na-mafia-das-ambulancias/",
-    "https://www.tribunadosertao.com.br/politica/2026/09/11/977133-jhc-aciona-a-justica-para-esconder-condenacao-do-pai-por-desvios-na-saude"
+    "https://www.tribunadosertao.com.br/politica/2026/09/11/977133-jhc-aciona-a-justica-para-esconder-condenacao-do-pai-por-desvios-na-saude",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
-    "https://psol50.org.br/com-67-dos-votos-paula-coradi-e-eleita-a-nova-presidenta-do-psol/"
+    "https://psol50.org.br/com-67-dos-votos-paula-coradi-e-eleita-a-nova-presidenta-do-psol/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://www.jota.info/stf/do-supremo/caso-master-ciro-nogueira-e-alvo-da-pf-por-suspeita-de-corrupcao-em-emenda-que-ampliava-fgc",
     "https://www.metropoles.com/colunas/andreza-matais/leia-a-integra-da-decisao-do-stf-contra-ciro-nogueira-no-caso-master",
-    "https://www.cartacapital.com.br/cartaexpressa/ciro-nogueira-entre-os-alvos-sela-permanencia-do-caso-master-no-stf/"
+    "https://www.cartacapital.com.br/cartaexpressa/ciro-nogueira-entre-os-alvos-sela-permanencia-do-caso-master-no-stf/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
-    "https://pt.wikipedia.org/wiki/Mobiliza%C3%A7%C3%A3o_Nacional"
+    "https://pt.wikipedia.org/wiki/Mobiliza%C3%A7%C3%A3o_Nacional",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://www.poder360.com.br/poder-justica/stf-destrava-investigacao-contra-paulinho-da-forca-apos-2-anos/",
-    "https://www.cnnbrasil.com.br/politica/mendonca-movimenta-inquerito-contra-paulinho-da-forca-apos-dois-anos-parado/"
+    "https://www.cnnbrasil.com.br/politica/mendonca-movimenta-inquerito-contra-paulinho-da-forca-apos-dois-anos-parado/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
-    "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-processa-candidato-a-presidencia-e-o-mbl-por-discurso-de-odio-contra-indigenas-do-para"
+    "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-processa-candidato-a-presidencia-e-o-mbl-por-discurso-de-odio-contra-indigenas-do-para",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://pt.wikipedia.org/wiki/Marcus_Vin%C3%ADcius_de_Vasconcelos_Ferreira",
-    "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-afasta-presidente-do-ptb-e-determina-que-pf-ouca-roberto-jefferson/"
+    "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-afasta-presidente-do-ptb-e-determina-que-pf-ouca-roberto-jefferson/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
-    "https://pt.wikipedia.org/wiki/Daniel_Tourinho"
+    "https://pt.wikipedia.org/wiki/Daniel_Tourinho",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
-    "https://www.escavador.com/nomes/sued-haidar-nogueira-2203134fb6"
+    "https://www.escavador.com/nomes/sued-haidar-nogueira-2203134fb6",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
-    "https://pt.wikipedia.org/wiki/Rede_Sustentabilidade"
+    "https://pt.wikipedia.org/wiki/Rede_Sustentabilidade",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
-    "https://pv.org.br/presidente-nacional-do-pv-jose-luiz-penna/"
+    "https://pv.org.br/presidente-nacional-do-pv-jose-luiz-penna/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://www.band.com.br/noticias/comte-bittencourt-entrega-chave-do-tse-e-cidadania-tera-novo-presidente-202603021859",
-    "https://www.band.com.br/noticias/destituido-da-presidencia-do-cidadania-pelo-stf-comte-bittencourt-ainda-detem-a-chave-do-partido-usada-no-tse-202601071637"
+    "https://www.band.com.br/noticias/destituido-da-presidencia-do-cidadania-pelo-stf-comte-bittencourt-ainda-detem-a-chave-do-partido-usada-no-tse-202601071637",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://brasilsemmedo.com/ministra-da-ciencia-e-tecnologia-de-lula-tem-condenacao-por-improbidade-administrativa/",
     "https://pcdob.org.br/noticias/pcdob-inicia-transicao-na-presidencia-com-nadia-campeao-a-frente/",
-    "https://www.leiaja.com/politica/2019/11/02/luciana-santos-e-condenada-por-improbidade-administrativa/"
+    "https://www.leiaja.com/politica/2019/11/02/luciana-santos-e-condenada-por-improbidade-administrativa/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
-    "https://sbtnews.sbt.com.br/noticia/politica/unidade-popular-quer-presidencia-e-mira-17-governos"
+    "https://sbtnews.sbt.com.br/noticia/politica/unidade-popular-quer-presidencia-e-mira-17-governos",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
-    "https://www.cnnbrasil.com.br/eleicoes/pf-mira-candidato-do-pco-a-presidente-por-suposto-desvio-de-verba-eleitoral/"
+    "https://www.cnnbrasil.com.br/eleicoes/pf-mira-candidato-do-pco-a-presidente-por-suposto-desvio-de-verba-eleitoral/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
-    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/partido-socialista-dos-trabalhadores-unificado"
-   ],
-   [
-    "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao"
+    "https://www.tse.jus.br/partidos/partidos-registrados-no-tse/partido-socialista-dos-trabalhadores-unificado",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-    "https://en.wikipedia.org/wiki/Valdemar_Costa_Neto"
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
+   ],
+   [
+    "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
+    "https://en.wikipedia.org/wiki/Valdemar_Costa_Neto",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://www.poder360.com.br/congresso/baleia-rossi-e-citado-em-investigacoes-contra-fraudes-e-em-delacao-da-jbs/",
-    "https://baleiarossi.com.br/noticias/baleia-rossi-e-reconduzido-como-presidente-nacional-do-mdb/"
+    "https://baleiarossi.com.br/noticias/baleia-rossi-e-reconduzido-como-presidente-nacional-do-mdb/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-    "https://www.metropoles.com/colunas/mirelle-pinheiro/mp-propoe-acordo-para-evitar-denuncia-contra-renata-abreu"
+    "https://www.metropoles.com/colunas/mirelle-pinheiro/mp-propoe-acordo-para-evitar-denuncia-contra-renata-abreu",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://en.wikipedia.org/wiki/A%C3%A9cio_Neves",
     "https://portaldeprefeitura.com.br/bastidores-da-politica/aecio-neves-desiste-candidatura-psdb-lancara-nome-planalto/626505/",
     "https://www.cnnbrasil.com.br/politica/justica-absolve-aecio-neves-de-acusacao-de-propina-de-r-2-milhoes-da-jf/",
-    "https://www.metropoles.com/brasil/aecio-neves-e-absolvido-de-forma-unanime-em-caso-de-corrupcao-passiva"
+    "https://www.metropoles.com/brasil/aecio-neves-e-absolvido-de-forma-unanime-em-caso-de-corrupcao-passiva",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://www.correiobraziliense.com.br/politica/2021/03/4911463-kassab-vira-reu-por-corrupcao-caixa-2-e-lavagem-de-rs-165-milhoes-da-jbs.html",
     "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=23053&Id=23053",
     "https://conjur.com.br/2014-jun-04/kassab-condenado-improbidade-direitos-politicos-suspensos/",
-    "https://www.conjur.com.br/2019-ago-23/tj-mantem-absolvicao-kassab-nao-pagar-precatorios-alimentares/"
+    "https://www.conjur.com.br/2019-ago-23/tj-mantem-absolvicao-kassab-nao-pagar-precatorios-alimentares/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://www.jota.info/stf/do-supremo/caso-master-ciro-nogueira-e-alvo-da-pf-por-suspeita-de-corrupcao-em-emenda-que-ampliava-fgc",
     "https://www.metropoles.com/colunas/andreza-matais/leia-a-integra-da-decisao-do-stf-contra-ciro-nogueira-no-caso-master",
-    "https://www.cartacapital.com.br/cartaexpressa/ciro-nogueira-entre-os-alvos-sela-permanencia-do-caso-master-no-stf/"
+    "https://www.cartacapital.com.br/cartaexpressa/ciro-nogueira-entre-os-alvos-sela-permanencia-do-caso-master-no-stf/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://www.cnnbrasil.com.br/politica/pf-inclui-presidente-do-uniao-brasil-em-investigacao-sobre-esquemas-do-pcc/",
-    "https://www.poder360.com.br/poder-justica/pf-inclui-presidente-do-uniao-brasil-em-operacao-que-mira-pcc/"
+    "https://www.poder360.com.br/poder-justica/pf-inclui-presidente-do-uniao-brasil-em-operacao-que-mira-pcc/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://pt.wikipedia.org/wiki/Marcus_Vin%C3%ADcius_de_Vasconcelos_Ferreira",
-    "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-afasta-presidente-do-ptb-e-determina-que-pf-ouca-roberto-jefferson/"
+    "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-afasta-presidente-do-ptb-e-determina-que-pf-ouca-roberto-jefferson/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-    "https://www.escavador.com/nomes/sued-haidar-nogueira-2203134fb6"
+    "https://www.escavador.com/nomes/sued-haidar-nogueira-2203134fb6",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://reporternordeste.com.br/condenado-por-receber-propina-joao-caldas-volta-ao-banco-dos-reus-nesta-4a/",
     "https://www.urbanitarios-al.com.br/2014/12/joao-caldas-e-condenado-no-trf-na-mafia-das-ambulancias/",
-    "https://www.tribunadosertao.com.br/politica/2026/09/11/977133-jhc-aciona-a-justica-para-esconder-condenacao-do-pai-por-desvios-na-saude"
+    "https://www.tribunadosertao.com.br/politica/2026/09/11/977133-jhc-aciona-a-justica-para-esconder-condenacao-do-pai-por-desvios-na-saude",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://www.metropoles.com/colunas/andreza-matais/dirigentes-do-inss-delataram-carlos-lupi-ex-ministro-da-previdencia-de-lula",
-    "https://www.portaldacapital.com/2026/05/14/presidente-nacional-do-pdt-carlos-lupi-participa-de-posse-de-diretoria-do-partido-nesta-quinta/"
+    "https://www.portaldacapital.com/2026/05/14/presidente-nacional-do-pdt-carlos-lupi-participa-de-posse-de-diretoria-do-partido-nesta-quinta/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-    "https://pt.wikipedia.org/wiki/Daniel_Tourinho"
+    "https://pt.wikipedia.org/wiki/Daniel_Tourinho",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://ofator.com.br/informacao/luis-tibe-quita-divida-de-improbidade-por-mau-uso-de-verba-da-camara-de-bh/",
-    "https://www.cnnbrasil.com.br/blogs/luisa-martins/politica/pf-afirma-nao-ver-crime-por-parte-do-presidente-do-avante-investigado-no-stf/"
+    "https://www.cnnbrasil.com.br/blogs/luisa-martins/politica/pf-afirma-nao-ver-crime-por-parte-do-presidente-do-avante-investigado-no-stf/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-    "https://en.wikipedia.org/wiki/Jo%C3%A3o_Henrique_Campos"
+    "https://en.wikipedia.org/wiki/Jo%C3%A3o_Henrique_Campos",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://portaldatransparencia.gov.br/sancoes/consulta",
     "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/",
-    "https://www.terra.com.br/noticias/brasil/politica/cotado-para-presidir-o-pt-edinho-se-livra-de-inquerito-da-lava-jato,76ee9924f0b981722d076c1c6b1c71aasodqtqtx.html"
+    "https://www.terra.com.br/noticias/brasil/politica/cotado-para-presidir-o-pt-edinho-se-livra-de-inquerito-da-lava-jato,76ee9924f0b981722d076c1c6b1c71aasodqtqtx.html",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://www.folhape.com.br/politica/tre-tranca-inquerito-da-lava-jato-que-espreitava-edinho-silva-desde/340254/",
-    "https://www.terra.com.br/noticias/brasil/politica/cotado-para-presidir-o-pt-edinho-se-livra-de-inquerito-da-lava-jato,76ee9924f0b981722d076c1c6b1c71aasodqtqtx.html"
+    "https://www.terra.com.br/noticias/brasil/politica/cotado-para-presidir-o-pt-edinho-se-livra-de-inquerito-da-lava-jato,76ee9924f0b981722d076c1c6b1c71aasodqtqtx.html",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://portaldatransparencia.gov.br/sancoes/consulta",
     "https://www.correiobraziliense.com.br/politica/2021/03/4911463-kassab-vira-reu-por-corrupcao-caixa-2-e-lavagem-de-rs-165-milhoes-da-jbs.html",
     "https://www.tjsp.jus.br/Noticias/noticia?codigoNoticia=23053&Id=23053",
     "https://conjur.com.br/2014-jun-04/kassab-condenado-improbidade-direitos-politicos-suspensos/",
-    "https://www.conjur.com.br/2019-ago-23/tj-mantem-absolvicao-kassab-nao-pagar-precatorios-alimentares/"
+    "https://www.conjur.com.br/2019-ago-23/tj-mantem-absolvicao-kassab-nao-pagar-precatorios-alimentares/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-    "https://pt.wikipedia.org/wiki/Mobiliza%C3%A7%C3%A3o_Nacional"
+    "https://pt.wikipedia.org/wiki/Mobiliza%C3%A7%C3%A3o_Nacional",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
-    "https://pv.org.br/presidente-nacional-do-pv-jose-luiz-penna/"
+    "https://pv.org.br/presidente-nacional-do-pv-jose-luiz-penna/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://cn7.com.br/ex-prefeito-de-granja-e-condenado-8-meses-de-detencao-por-crime-de-calunia/",
     "https://blogdoedisonsilva.com.br/2024/11/25/elmano-quer-romeu-aldigueri-na-presidencia-da-al-ele-e-acusado-de-falsidade-ideologica-atropelamento-seguido-de-homicidio-agressao-a-ex-primeira-mulher-e-estupro-em-granja/",
     "https://www.al.ce.gov.br/deputados/romeu-aldigueri",
-    "https://en.wikipedia.org/wiki/Jo%C3%A3o_Henrique_Campos"
+    "https://en.wikipedia.org/wiki/Jo%C3%A3o_Henrique_Campos",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://portaldatransparencia.gov.br/sancoes/consulta",
     "https://www.poder360.com.br/congresso/baleia-rossi-e-citado-em-investigacoes-contra-fraudes-e-em-delacao-da-jbs/",
-    "https://baleiarossi.com.br/noticias/baleia-rossi-e-reconduzido-como-presidente-nacional-do-mdb/"
+    "https://baleiarossi.com.br/noticias/baleia-rossi-e-reconduzido-como-presidente-nacional-do-mdb/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://portaldatransparencia.gov.br/sancoes/consulta",
-    "https://en.wikipedia.org/wiki/Jo%C3%A3o_Henrique_Campos"
+    "https://en.wikipedia.org/wiki/Jo%C3%A3o_Henrique_Campos",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://portaldatransparencia.gov.br/sancoes/consulta",
-    "https://www.metropoles.com/colunas/mirelle-pinheiro/mp-propoe-acordo-para-evitar-denuncia-contra-renata-abreu"
+    "https://www.metropoles.com/colunas/mirelle-pinheiro/mp-propoe-acordo-para-evitar-denuncia-contra-renata-abreu",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://dadosabertos.ibama.gov.br/dataset/fiscalizacao-auto-de-infracao",
     "https://www.poder360.com.br/poder-justica/stf-destrava-investigacao-contra-paulinho-da-forca-apos-2-anos/",
-    "https://www.cnnbrasil.com.br/politica/mendonca-movimenta-inquerito-contra-paulinho-da-forca-apos-dois-anos-parado/"
+    "https://www.cnnbrasil.com.br/politica/mendonca-movimenta-inquerito-contra-paulinho-da-forca-apos-dois-anos-parado/",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2014",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2016",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2018",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2020",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2022",
+    "https://dadosabertos.tse.jus.br/dataset/candidatos-2024"
    ],
    [
     "https://www.gazetadopovo.com.br/eleicoes/2026/minas-gerais/quem-sao-candidatos-governador-minas-gerais-2026/",
@@ -2518,9 +2868,6 @@ const DADOS = {
    ],
    [
     "https://www.infomoney.com.br/politica/candidatos-governador-rs-2026/"
-   ],
-   [
-    "https://ndmais.com.br/politica/com-aval-da-justica-democrata-substitui-candidato-ao-governo-do-tocantins-a-20-dias-das-eleicoes/"
    ]
   ],
   "verificacao": [
@@ -3086,7 +3433,13279 @@ const DADOS = {
   "posicao_fonte": [
    "baseline do partido",
    "pesquisa individual"
+  ],
+  "frentes": [
+   [
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     10,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PR, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RJ, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RJ, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PI, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RJ, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (MG, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (MG, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     4,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Manaus/AM, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RR, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Porto Alegre/RS, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RJ, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (RJ, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RJ, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (RJ, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (SP, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (SP, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São Paulo/SP, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (SP, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AM, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (ES, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (ES, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (ES, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (ES, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (GO, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MA, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PA, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Curitiba/PR, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PR, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Porto Alegre/RS, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São Paulo/SP, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São Paulo/SP, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Manaus/AM, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (BA, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (GO, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (GO, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (GO, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (GO, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belém/PA, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PB, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RJ, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (RJ, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RJ, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Porto Alegre/RS, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (TO, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado distrital (DF, 2019-2022)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado distrital (DF, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado distrital (DF, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Rio Branco/AC, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AC, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (BA, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (BA, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (CE, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MA, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (MA, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MA, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (MA, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (MG, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PA, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PR, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RN, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RR, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SC, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (SP, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (SP, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (SP, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (SP, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (SP, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado distrital (DF, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Maceió/AL, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AM, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AM, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Salvador/BA, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Fortaleza/CE, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Fortaleza/CE, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (GO, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MA, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MA, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (MA, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MA, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (MA, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PA, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PA, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PA, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PA, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Ananindeua/PA, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PB, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Recife/PE, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Curitiba/PR, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Curitiba/PR, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Curitiba/PR, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Curitiba/PR, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Curitiba/PR, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Curitiba/PR, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (PE, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (PE, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (PE, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado distrital (DF, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado distrital (DF, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado distrital (DF, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado distrital (DF, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AC, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (AC, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (AC, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AC, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (AL, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (AL, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AL, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Maceió/AL, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Maceió/AL, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Maceió/AL, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Maceió/AL, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Macapá/AP, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (BA, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Salvador/BA, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Salvador/BA, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Salvador/BA, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Salvador/BA, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (BA, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2019-2022)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (CE, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (CE, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Linhares/ES, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (ES, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (ES, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (ES, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (ES, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Goiânia/GO, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (GO, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (GO, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (GO, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (GO, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MA, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (MA, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MA, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (MG, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (MG, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MS, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (MS, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MS, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (MS, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MT, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MT, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (MT, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MT, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (MT, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PA, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PA, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PA, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PA, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PB, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PB, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PB, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PB, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PB, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PB, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Recife/PE, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Recife/PE, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Recife/PE, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Recife/PE, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Recife/PE, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Recife/PE, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PI, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PI, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PI, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PI, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PI, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PR, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PR, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PR, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PR, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Duque De Caxias/RJ, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RJ, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (RJ, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (RJ, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (RJ, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (RJ, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Niterói/RJ, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Natal/RN, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Porto Velho/RO, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RO, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RR, 2015-2018)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RR, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RR, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Boa Vista/RR, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SC, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Florianópolis/SC, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SC, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (SC, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SC, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (SP, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Campinas/SP, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (SP, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2019-2022)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Mauá/SP, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (São Paulo/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (São Paulo/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São Paulo/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (São Paulo/SP, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Palmas/TO, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Salvador/BA, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (MG, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (MG, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (MG, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (MG, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (SP, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (SP, 2015-2018)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (SP, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (SP, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (SP, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (SP, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (SP, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado distrital (DF, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado distrital (DF, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado distrital (DF, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado distrital (DF, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado distrital (DF, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado distrital (DF, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado distrital (DF, 2019-2022)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AC, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AL, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (AL, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (AL, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (AL, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AL, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (AL, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (AL, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AL, 2019-2022)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AL, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Manaus/AM, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Manaus/AM, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Manaus/AM, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AP, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AP, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (AP, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (AP, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AP, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (AP, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (AP, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (AP, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AP, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (AP, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AP, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Lauro De Freitas/BA, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Lauro De Freitas/BA, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Lauro De Freitas/BA, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Lauro De Freitas/BA, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Fortaleza/CE, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Fortaleza/CE, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Fortaleza/CE, 2021-2024)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (CE, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (CE, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (CE, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (CE, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2019-2022)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Fortaleza/CE, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Juazeiro Do Norte/CE, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (ES, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (ES, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (ES, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Serra/ES, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Goiânia/GO, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Goiânia/GO, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Goiânia/GO, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Goiânia/GO, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Goiânia/GO, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (GO, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Goiânia/GO, 2021-2024)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Goiânia/GO, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (GO, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (GO, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (GO, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São Luís/MA, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São Luís/MA, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MA, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Uberlândia/MG, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (MG, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (MG, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Juiz De Fora/MG, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Juiz De Fora/MG, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Juiz De Fora/MG, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Juiz De Fora/MG, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Nova Serrana/MG, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MS, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Campo Grande/MS, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MS, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Cuiabá/MT, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Belém/PA, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Belém/PA, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belém/PA, 2021-2024)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Belém/PA, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Belém/PA, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belém/PA, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Belém/PA, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Belém/PA, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Belém/PA, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belém/PA, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Belém/PA, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (João Pessoa/PB, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PB, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PB, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PB, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PB, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (João Pessoa/PB, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Petrolina/PE, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Petrolina/PE, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Petrolina/PE, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Petrolina/PE, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Recife/PE, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PI, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PR, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PR, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PR, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PR, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Maringá/PR, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Maringá/PR, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (PR, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (PR, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (PR, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Volta Redonda/RJ, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São Gonçalo/RJ, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2017-2020)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (RJ, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (RJ, 2015-2018)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (RJ, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Petrópolis/RJ, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São Gonçalo/RJ, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RN, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Natal/RN, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RN, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Natal/RN, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Natal/RN, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Natal/RN, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Natal/RN, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RO, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (RO, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (RO, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Boa Vista/RR, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Boa Vista/RR, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Boa Vista/RR, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Boa Vista/RR, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (RS, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (RS, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2023-2026)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (RS, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Caxias Do Sul/RS, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (RS, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (RS, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Canoas/RS, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Passo Fundo/RS, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (RS, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Florianópolis/SC, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SC, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (SC, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SC, 2019-2022)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SC, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (SC, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Chapecó/SC, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Aracaju/SE, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SE, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Osasco/SP, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Osasco/SP, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Osasco/SP, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Osasco/SP, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Sorocaba/SP, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Campinas/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Campinas/SP, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Piracicaba/SP, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Piracicaba/SP, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Piracicaba/SP, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Piracicaba/SP, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Taubaté/SP, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (SP, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (SP, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Guarulhos/SP, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São Bernardo Do Campo/SP, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São Vicente/SP, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Presidente Prudente/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Presidente Prudente/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Presidente Prudente/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Presidente Prudente/SP, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Palmas/TO, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Salvador/BA, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Salvador/BA, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Salvador/BA, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Salvador/BA, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (BA, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (BA, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (BA, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (CE, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (CE, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (CE, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (CE, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (CE, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (CE, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (GO, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (GO, 2015-2018)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (GO, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Paço Do Lumiar/MA, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (MG, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (MG, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (MG, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (PR, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (PR, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (PR, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (RJ, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (RJ, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (RJ, 2019-2022)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (RS, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (RS, 2015-2018)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (RS, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (SP, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (SP, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (SP, 2019-2022)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (SP, 2019-2022)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (SP, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (SP, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado distrital (DF, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado distrital (DF, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado distrital (DF, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado distrital (DF, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Rio Branco/AC, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Rio Branco/AC, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Rio Branco/AC, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Rio Branco/AC, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Rio Branco/AC, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Rio Branco/AC, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AL, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Maceió/AL, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Maceió/AL, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Maceió/AL, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Maceió/AL, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (AL, 2015-2018)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AL, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AL, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (AL, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (AL, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (AL, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (AL, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Maceió/AL, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Manaus/AM, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Manaus/AM, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Manaus/AM, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Manaus/AM, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Manaus/AM, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Manaus/AM, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Macapá/AP, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Macapá/AP, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Macapá/AP, 2021-2024)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (AP, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (AP, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AP, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (AP, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Macapá/AP, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (AP, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (AP, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (AP, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Feira De Santana/BA, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Feira De Santana/BA, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Feira De Santana/BA, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Feira De Santana/BA, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (BA, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (BA, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Feira De Santana/BA, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Feira De Santana/BA, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Itabuna/BA, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (BA, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (BA, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (BA, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (BA, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Teixeira De Freitas/BA, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Salvador/BA, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Salvador/BA, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Salvador/BA, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Salvador/BA, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (CE, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (CE, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (CE, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (CE, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (CE, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (CE, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Fortaleza/CE, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Fortaleza/CE, 2017-2020)"
+    ],
+    [
+     10,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Fortaleza/CE, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Fortaleza/CE, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Juazeiro Do Norte/CE, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Fortaleza/CE, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Fortaleza/CE, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Fortaleza/CE, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Fortaleza/CE, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Vitória/ES, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Vitória/ES, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Vitória/ES, 2021-2024)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Vila Velha/ES, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Vila Velha/ES, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Vila Velha/ES, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Vila Velha/ES, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Vitória/ES, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Serra/ES, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Serra/ES, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Serra/ES, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Serra/ES, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Vitória/ES, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Vitória/ES, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (ES, 2019-2022)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (ES, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (ES, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Serra/ES, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Vila Velha/ES, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Cariacica/ES, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Cariacica/ES, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Cariacica/ES, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Cariacica/ES, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Vitória/ES, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Vila Velha/ES, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Vitória/ES, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Vitória/ES, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Vitória/ES, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Vitória/ES, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (ES, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Vitória/ES, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Vila Velha/ES, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Serra/ES, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Aparecida De Goiânia/GO, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Aparecida De Goiânia/GO, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Rio Verde/GO, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (GO, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (GO, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (GO, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Anápolis/GO, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Anápolis/GO, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (GO, 2019-2022)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (GO, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (GO, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Timon/MA, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Timon/MA, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Timon/MA, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Timon/MA, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MA, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (MA, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Imperatriz/MA, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MA, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (MA, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Imperatriz/MA, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MA, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (MA, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MA, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (MA, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Balsas/MA, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2019-2022)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Contagem/MG, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (MG, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (MG, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Contagem/MG, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Juiz De Fora/MG, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2021-2024)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Ipatinga/MG, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Ipatinga/MG, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Ipatinga/MG, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Ipatinga/MG, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Poços De Caldas/MG, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Poços De Caldas/MG, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Poços De Caldas/MG, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Poços De Caldas/MG, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Governador Valadares/MG, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Governador Valadares/MG, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Governador Valadares/MG, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Governador Valadares/MG, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (MG, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MG, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Pará De Minas/MG, 2017-2020)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Pará De Minas/MG, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Patos De Minas/MG, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Patos De Minas/MG, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Pouso Alegre/MG, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Pouso Alegre/MG, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Pouso Alegre/MG, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Pouso Alegre/MG, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Uberlândia/MG, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Uberlândia/MG, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Uberlândia/MG, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Uberlândia/MG, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Divinópolis/MG, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Sete Lagoas/MG, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Campo Grande/MS, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Campo Grande/MS, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Campo Grande/MS, 2021-2024)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Campo Grande/MS, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Campo Grande/MS, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Campo Grande/MS, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Campo Grande/MS, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Campo Grande/MS, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Campo Grande/MS, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Campo Grande/MS, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Campo Grande/MS, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Campo Grande/MS, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Três Lagoas/MS, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Três Lagoas/MS, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Três Lagoas/MS, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Três Lagoas/MS, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Campo Grande/MS, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Dourados/MS, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MT, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (MT, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MT, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MT, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (MT, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MT, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (MT, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Colíder/MT, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Colíder/MT, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (MT, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (MT, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MT, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Cuiabá/MT, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (MT, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (MT, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Cuiabá/MT, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Ananindeua/PA, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Belém/PA, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Belém/PA, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belém/PA, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Belém/PA, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belém/PA, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PA, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PA, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PA, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Ananindeua/PA, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Ananindeua/PA, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Ananindeua/PA, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Ananindeua/PA, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PA, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PA, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PA, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PA, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belém/PA, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PA, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PA, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PA, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Marabá/PA, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Santarém/PA, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Santarém/PA, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Santarém/PA, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Santarém/PA, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Redenção/PA, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PB, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PB, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PB, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PB, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PB, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PB, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Campina Grande/PB, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Campina Grande/PB, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Campina Grande/PB, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (João Pessoa/PB, 2017-2020)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (João Pessoa/PB, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (João Pessoa/PB, 2021-2024)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (João Pessoa/PB, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PB, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (João Pessoa/PB, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Campina Grande/PB, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PE, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PE, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PE, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (PE, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (PE, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (PE, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Caruaru/PE, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Caruaru/PE, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PE, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Petrolina/PE, 2021-2024)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Petrolina/PE, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PE, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2019-2022)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PE, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2023-2026)"
+    ],
+    [
+     10,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PE, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PE, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PE, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Vitória De Santo Antão/PE, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Vitória De Santo Antão/PE, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Vitória De Santo Antão/PE, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Vitória De Santo Antão/PE, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Teresina/PI, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Teresina/PI, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PI, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PI, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Parnaíba/PI, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Parnaíba/PI, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Parnaíba/PI, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Parnaíba/PI, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (União Da Vitória/PR, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Maringá/PR, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Londrina/PR, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Ponta Grossa/PR, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Ponta Grossa/PR, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Ponta Grossa/PR, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Ponta Grossa/PR, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PR, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PR, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Curitiba/PR, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Curitiba/PR, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Curitiba/PR, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Curitiba/PR, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Colombo/PR, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Curitiba/PR, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Curitiba/PR, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Curitiba/PR, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Curitiba/PR, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Maringá/PR, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Cambé/PR, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Cascavel/PR, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Foz Do Iguaçu/PR, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Foz Do Iguaçu/PR, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Foz Do Iguaçu/PR, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Foz Do Iguaçu/PR, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Curitiba/PR, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Curitiba/PR, 2025-2028)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Curitiba/PR, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PR, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PR, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PR, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (PR, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Ponta Grossa/PR, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Ponta Grossa/PR, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Ponta Grossa/PR, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Duque De Caxias/RJ, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Nova Iguaçu/RJ, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (São João De Meriti/RJ, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (São João De Meriti/RJ, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São João De Meriti/RJ, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Niterói/RJ, 2021-2024)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Niterói/RJ, 2021-2024)"
+    ],
+    [
+     10,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Petrópolis/RJ, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Petrópolis/RJ, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Petrópolis/RJ, 2021-2024)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Petrópolis/RJ, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Araruama/RJ, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Seropédica/RJ, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Seropédica/RJ, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Seropédica/RJ, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (São Gonçalo/RJ, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (São Gonçalo/RJ, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São Gonçalo/RJ, 2025-2028)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RJ, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (RJ, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Belford Roxo/RJ, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Belford Roxo/RJ, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belford Roxo/RJ, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RJ, 2015-2018)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RJ, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Niterói/RJ, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Petrópolis/RJ, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Petrópolis/RJ, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Petrópolis/RJ, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Petrópolis/RJ, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Campos Dos Goytacazes/RJ, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São João De Meriti/RJ, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Natal/RN, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Natal/RN, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Natal/RN, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Natal/RN, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Natal/RN, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RN, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (RN, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RN, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (RN, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Ji-Paraná/RO, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Ji-Paraná/RO, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Ji-Paraná/RO, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Ji-Paraná/RO, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Ariquemes/RO, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Ji-Paraná/RO, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Porto Velho/RO, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Porto Velho/RO, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Porto Velho/RO, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Ouro Preto Do Oeste/RO, 2021-2024)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Ouro Preto Do Oeste/RO, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RO, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (RO, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RO, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Cacoal/RO, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RO, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (RO, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Porto Velho/RO, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Porto Velho/RO, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Porto Velho/RO, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Porto Velho/RO, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Porto Velho/RO, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Porto Velho/RO, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Porto Velho/RO, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Porto Velho/RO, 2025-2028)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Boa Vista/RR, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Boa Vista/RR, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Boa Vista/RR, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Boa Vista/RR, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RR, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (RR, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RR, 2019-2022)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Boa Vista/RR, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Boa Vista/RR, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Boa Vista/RR, 2021-2024)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Boa Vista/RR, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RR, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (RR, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RR, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Santa Maria/RS, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Porto Alegre/RS, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Porto Alegre/RS, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Caxias Do Sul/RS, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Caxias Do Sul/RS, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Caxias Do Sul/RS, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Caxias Do Sul/RS, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Pelotas/RS, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Porto Alegre/RS, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Porto Alegre/RS, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Porto Alegre/RS, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Porto Alegre/RS, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Santa Cruz Do Sul/RS, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Pelotas/RS, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Pelotas/RS, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Pelotas/RS, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Pelotas/RS, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (RS, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Viamão/RS, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Viamão/RS, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Viamão/RS, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Viamão/RS, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Santa Maria/RS, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Santa Maria/RS, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Santa Maria/RS, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Santa Maria/RS, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Bagé/RS, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Cachoeirinha/RS, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Canoas/RS, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Canoas/RS, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Canoas/RS, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Canoas/RS, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Santa Maria/RS, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Santa Maria/RS, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Taquara/RS, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Taquara/RS, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Taquara/RS, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Taquara/RS, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Pelotas/RS, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Pelotas/RS, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Pelotas/RS, 2025-2028)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (RS, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (RS, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RS, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (RS, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (RS, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Caxias Do Sul/RS, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Alvorada/RS, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Alvorada/RS, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Alvorada/RS, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Alvorada/RS, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Joinville/SC, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Joinville/SC, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Joinville/SC, 2021-2024)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Florianópolis/SC, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Palhoça/SC, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Palhoça/SC, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Palhoça/SC, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Palhoça/SC, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SC, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Brusque/SC, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SC, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (SC, 2019-2022)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (SC, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Balneário Camboriú/SC, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Blumenau/SC, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Balneário Camboriú/SC, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SC, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (SC, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (SC, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Joinville/SC, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Joinville/SC, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Joinville/SC, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Joinville/SC, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SC, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (SC, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SC, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (SC, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SC, 2019-2022)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SC, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Joinville/SC, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Joinville/SC, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SE, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (SE, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SE, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SE, 2015-2018)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Aracaju/SE, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Aracaju/SE, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Aracaju/SE, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Aracaju/SE, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Aracaju/SE, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SE, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (SE, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SE, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (SE, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SE, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Campinas/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Campinas/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Campinas/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Campinas/SP, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Santos/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Santos/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Santos/SP, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São José Dos Campos/SP, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Limeira/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Limeira/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Limeira/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Limeira/SP, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São Carlos/SP, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Taubaté/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Taubaté/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Taubaté/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Taubaté/SP, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Ribeirão Preto/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Ribeirão Preto/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Ribeirão Preto/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Ribeirão Preto/SP, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (SP, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (SP, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (SP, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Sumaré/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Sumaré/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Sumaré/SP, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Araraquara/SP, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Ibitinga/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Ibitinga/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Ibitinga/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Ibitinga/SP, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Santos/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Santos/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Santos/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Santos/SP, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Jundiaí/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Jundiaí/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Jundiaí/SP, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Piracicaba/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Piracicaba/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Piracicaba/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Piracicaba/SP, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (SP, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (São José Dos Campos/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (São José Dos Campos/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São José Dos Campos/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (São José Dos Campos/SP, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Andradina/SP, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Jundiaí/SP, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Andradina/SP, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Campinas/SP, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Bebedouro/SP, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Bebedouro/SP, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Bebedouro/SP, 2021-2024)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São José Dos Campos/SP, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Bauru/SP, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Vinhedo/SP, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Guarulhos/SP, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Americana/SP, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Bebedouro/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Bebedouro/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Bebedouro/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Bebedouro/SP, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Sorocaba/SP, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Guarulhos/SP, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Guarulhos/SP, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Guarulhos/SP, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Guarulhos/SP, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (SP, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (SP, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (SP, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2019-2022)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (SP, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (SP, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Votuporanga/SP, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Praia Grande/SP, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Itapeva/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Itapeva/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Itapeva/SP, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São Bernardo Do Campo/SP, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Araçatuba/SP, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (TO, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (TO, 2015-2018)"
+    ],
+    [
+     10,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Porto Nacional/TO, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (TO, 2023-2026)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (TO, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Araguaína/TO, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (AM, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (AM, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (AM, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (AM, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (AP, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (AP, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (AP, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (AP, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (BA, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (BA, 2015-2018)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (BA, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (BA, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (BA, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (BA, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (BA, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (BA, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (BA, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Fortaleza/CE, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Fortaleza/CE, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Fortaleza/CE, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Fortaleza/CE, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (CE, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (CE, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (CE, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (CE, 2023-2026)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Luziânia/GO, 2017-2020)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Luziânia/GO, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (DF, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (DF, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (DF, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "c",
+     "Senador (DF, 2019-2026)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Senador (DF, 2019-2026)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (ES, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (ES, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (ES, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado estadual (ES, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Goiânia/GO, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Goiânia/GO, 2021-2024)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Goiânia/GO, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Goiânia/GO, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Goiânia/GO, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Goiânia/GO, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Goiânia/GO, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (GO, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (GO, 2019-2022)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (GO, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Anápolis/GO, 2021-2024)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Anápolis/GO, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Goiânia/GO, 2025-2028)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Goiânia/GO, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (GO, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (GO, 2023-2026)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (GO, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (MA, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (MA, 2015-2018)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (MA, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (MG, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (MG, 2023-2026)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (MG, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Ipatinga/MG, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (MG, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (MG, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (MG, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (MG, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (MG, 2015-2018)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (MG, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (MG, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (MG, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (MG, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Belo Horizonte/MG, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (MG, 2019-2022)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (MG, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (MG, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Montes Claros/MG, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (MS, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (MS, 2019-2022)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (MS, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Várzea Grande/MT, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Várzea Grande/MT, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Marabá/PA, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Bayeux/PB, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Bayeux/PB, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Bayeux/PB, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Recife/PE, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Recife/PE, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Recife/PE, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Recife/PE, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Recife/PE, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Recife/PE, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Recife/PE, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Recife/PE, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (PI, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (PI, 2023-2026)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (PI, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Curitiba/PR, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Curitiba/PR, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Curitiba/PR, 2021-2024)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (PR, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (PR, 2019-2022)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (PR, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Londrina/PR, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Londrina/PR, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Londrina/PR, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Londrina/PR, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (PR, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado estadual (PR, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (PR, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (PR, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (PR, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (PR, 2019-2022)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (RJ, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (RJ, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (RJ, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (RJ, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (RJ, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (RJ, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Rio De Janeiro/RJ, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Barra Mansa/RJ, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Barra Mansa/RJ, 2017-2020)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Barra Mansa/RJ, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (RJ, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (RJ, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (RJ, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (RJ, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Maricá/RJ, 2017-2020)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     6,
+     "c",
+     "Deputado estadual (RO, 2019-2022)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Deputado estadual (RO, 2019-2022)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Porto Velho/RO, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Porto Velho/RO, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Porto Velho/RO, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Porto Velho/RO, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Montenegro/RS, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (RS, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (RS, 2015-2018)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (RS, 2015-2018)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (RS, 2015-2018)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (RS, 2015-2018)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (RS, 2015-2018)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Caxias Do Sul/RS, 2021-2024)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (SC, 2019-2022)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (SC, 2019-2022)"
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (SC, 2019-2022)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (SC, 2019-2022)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Aracaju/SE, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Aracaju/SE, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Aracaju/SE, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Aracaju/SE, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (SE, 2023-2026)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Deputado federal (SE, 2023-2026)"
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (SE, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (São Carlos/SP, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (São Carlos/SP, 2021-2024)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (São Carlos/SP, 2021-2024)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (São Carlos/SP, 2021-2024)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Barretos/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Barretos/SP, 2017-2020)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Barretos/SP, 2017-2020)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Barretos/SP, 2017-2020)"
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Bauru/SP, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Bauru/SP, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Bauru/SP, 2025-2028)"
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Jaú/SP, 2025-2028)"
+    ],
+    [
+     4,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "c",
+     "Vereador (Araras/SP, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Araras/SP, 2025-2028)"
+    ],
+    [
+     6,
+     "c",
+     "Vereador (Araras/SP, 2025-2028)"
+    ],
+    [
+     2,
+     "c",
+     "Vereador (Araras/SP, 2025-2028)"
+    ]
+   ],
+   [
+    [
+     8,
+     "c",
+     "Deputado federal (SP, 2023-2026)"
+    ],
+    [
+     6,
+     "c",
+     "Deputado federal (SP, 2023-2026)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "c",
+     "Deputado federal (SP, 2023-2026)"
+    ]
+   ],
+   [
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "o",
+     ""
+    ],
+    [
+     0,
+     "o",
+     ""
+    ],
+    [
+     2,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     4,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "o",
+     ""
+    ],
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "o",
+     ""
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "c",
+     "Senador (ES, 2019-2026)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Senador (ES, 2019-2026)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "c",
+     "Senador (RN, 2019-2026)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Senador (RN, 2019-2026)"
+    ]
+   ],
+   [
+    [
+     10,
+     "o",
+     ""
+    ],
+    [
+     8,
+     "c",
+     "Senador (SE, 2019-2026)"
+    ],
+    [
+     6,
+     "o",
+     ""
+    ],
+    [
+     4,
+     "c",
+     "Senador (SE, 2019-2026)"
+    ]
+   ]
+  ],
+  "ocupacao": [
+   "Policial militar",
+   "Comerciante",
+   "Servidor público estadual",
+   "Estudante, bolsista, estagiário e assemelhados",
+   "Administrador",
+   "Aposentado (exceto servidor público)",
+   "Servidor público municipal",
+   "Professor de ensino médio",
+   "Jornalista e redator",
+   "Professor de ensino superior",
+   "Professor de ensino fundamental",
+   "Dona de casa",
+   "Servidor público federal",
+   "Corretor de imóveis, seguros, títulos e valores",
+   "Servidor público civil aposentado",
+   "Vendedor de comércio varejista e atacadista",
+   "Assistente social",
+   "Técnico de enfermagem e assemelhados (exceto enfermeiro)",
+   "Policial civil",
+   "Agente administrativo",
+   "Auxiliar de escritório e assemelhados",
+   "Locutor e comentarista de rádio e televisão e radialista",
+   "Produtor agropecuário",
+   "Bombeiro militar",
+   "Cabeleireiro e barbeiro",
+   "Militar reformado",
+   "Professor e instrutor de formação profissional",
+   "Motorista de veículos de transporte coletivo de passageiros",
+   "Fisioterapeuta e terapeuta ocupacional",
+   "Motorista particular",
+   "Membro das forças armadas",
+   "Publicitário",
+   "Sacerdote ou membro de ordem ou seita religiosa",
+   "Representante comercial",
+   "Veterinário",
+   "Farmacêutico",
+   "Trabalhador de construção civil",
+   "Bancário e economiário",
+   "Cantor e compositor",
+   "Vendedor pracista, representante, caixeiro-viajante e assemelhados",
+   "Trabalhador rural",
+   "Eletricista e assemelhados",
+   "Motorista de veículos de transporte de carga",
+   "Agente de saúde e sanitarista",
+   "Nutricionista e assemelhados",
+   "Mecânico de manutenção",
+   "Comerciário",
+   "Técnico de eletricidade, eletrônica e telecomunicações",
+   "Secretário e datilógrafo",
+   "Analista de sistemas",
+   "Técnico contabilidade, estatística, economia doméstica e administração",
+   "Produtor de espetáculos públicos",
+   "Atleta profissional e técnico em desportos",
+   "Diretor de empresas",
+   "Escritor e crítico",
+   "Fotógrafo e assemelhados",
+   "Ator e diretor de espetáculos públicos",
+   "Cientista político",
+   "Supervisor, inspetor e agente de compras e vendas",
+   "Operador de aparelhos de produção industrial",
+   "Porteiro de edifício, ascensorista, garagista e zelador",
+   "Diretor de estabelecimento de ensino",
+   "Relações-públicas",
+   "Alfaiate e costureiro",
+   "Ocupante de cargo em comissão",
+   "Recepcionista",
+   "Empregado doméstico",
+   "Técnico em informática",
+   "Manicure e maquilador",
+   "Comunicólogo",
+   "Carpinteiro, marceneiro e assemelhados",
+   "Técnico de laboratório e raios x",
+   "Técnico em agronomia e agrimensura",
+   "Artista plástico e assemelhados",
+   "Esteticista",
+   "Fonoaudiólogo",
+   "Serventuário de justiça",
+   "Gari ou lixeiro",
+   "Historiador",
+   "Despachante",
+   "Padeiro, confeiteiro e assemelhados",
+   "Agente de viagem",
+   "Atendente de lanchonete e restaurante",
+   "Bombeiro civil",
+   "Trabalhador metalúrgico e siderúrgico",
+   "Agenciador de propaganda",
+   "Técnico de mecânica",
+   "Feirante, ambulante e mascate",
+   "Torneiro mecânico",
+   "Zootecnista",
+   "Catador de recicláveis",
+   "Trabalhador dos serviços de contabilidade, de caixa e assemelhados",
+   "Escultor e pintor",
+   "Cobrador de transporte coletivo",
+   "Técnico em edificações",
+   "Guia de turismo",
+   "Encanador, soldador, chapeador e caldeireiro",
+   "Lanterneiro e pintor de veículos",
+   "Serralheiro",
+   "Piloto de aviação comercial, navegador, mecânico de vôo e assemelhados",
+   "Técnico de mineração, metalurgia e geologia",
+   "Programador de computador",
+   "Marinheiro civil, canoeiro, embarcado e assemelhados",
+   "Técnico de obras civis, estradas, saneamento e assemelhados",
+   "Trabalhador de artes gráficas",
+   "Auxiliar de laboratório",
+   "Detetive particular",
+   "Agente postal",
+   "Operador de equipamento de rádio, televisão, som e cinema",
+   "Trabalhador de fabricação de calçados e artefatos de couro",
+   "Artista de circo",
+   "Técnico de química",
+   "Trabalhador de fabricação e preparação de alimentos e bebidas",
+   "Antropólogo",
+   "Operador de computador",
+   "Ferroviário",
+   "Telefonista",
+   "Capitalista de ativos financeiros",
+   "Coreógrafo e bailarino",
+   "Bibliotecário",
+   "Trabalhador de fabricação de roupas",
+   "Arquivista e museólogo",
+   "Membro do ministério público",
+   "Montador de máquinas",
+   "Tradutor, intérprete e filólogo"
+  ],
+  "grau": [
+   "Superior completo",
+   "Ensino médio completo",
+   "Superior incompleto",
+   "Ensino médio incompleto",
+   "Ensino fundamental incompleto",
+   "Ensino fundamental completo",
+   "Lê e escreve"
   ]
  },
- "versao": "9db6f22640"
+ "versao": "939812181a"
 };
